@@ -23,7 +23,6 @@ ATARFILE=$(AAPPNAME).tar
 CODEDIR=$(HOME)/math/code
 DATAFILE=$(CODEDIR)/data/Dictionary/IG
 GIN=$(CODEDIR)/main/Gin
-STRIP=$(CODEDIR)/main/stripdbl
 INSTALL_DATA=$(INSTALL) -m 644
 
 hashtable: $(INSTALLATION).hash
@@ -110,14 +109,14 @@ altfull:
 	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 > gaeilge2.full
 
 aspell.txt: FORCE
-	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort | $(STRIP) > aspell.txt
+	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspell.txt
 
 aspellalt.txt: FORCE
-	cat $(RAWWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort | $(STRIP) > aspellalt.txt
+	cat $(RAWWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
 personal:
 	rm -f $(HOME)/.ispell_gaeilge
-	sort -f daoine gall giorr logainm miotas stair > $(HOME)/.ispell_gaeilge
+	sort -u daoine gall giorr logainm miotas stair > $(HOME)/.ispell_gaeilge
 	cp biobla $(HOME)/.biobla
 
 apersonal: FORCE
@@ -149,29 +148,24 @@ dist:
 	rm -f ../$(APPNAME)
 
 adist: 
-	chmod 644 aspell.txt gaeilge.dat gaeilge_phonet.dat COPYING README biobla daoine gall giorr logainm miotas stair
 	chmod 755 igcheck
+	sort -u daoine gall giorr logainm miotas stair > proper
 	mv Makefile Makefile.tmp
 	cp Makefile.asp Makefile
-	chmod 644 Makefile
+	chmod 644 aspell.txt gaeilge.dat gaeilge_phonet.dat COPYING README proper biobla Makefile info
 	ln -s ispell-gaeilge ../$(AAPPNAME)
 	tar cvhf $(ATARFILE) -C .. $(AAPPNAME)/aspell.txt
+	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/info
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gaeilge.dat
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gaeilge_phonet.dat
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/COPYING
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/README
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/Makefile
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/biobla
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/daoine
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gall
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/giorr
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/igcheck
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/logainm
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/miotas
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/stair
+	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/proper
 	gzip $(ATARFILE)
 	mv Makefile.tmp Makefile
-	rm -f ../$(AAPPNAME)
+	rm -f ../$(AAPPNAME) proper
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=gaeilge soundslike < aspell.txt > sounds.txt
@@ -191,9 +185,9 @@ seiceail:
 	@make fromdb
 	@$(GIN) 2   # rebuilds Eng-Ir dict.
 	@$(GIN) 8   # creates local EN.temp, IG.temp
-	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort | $(STRIP) | grep -v \' > EN.temp2
+	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort -u | grep -v \' > EN.temp2
 	@diff -w EN.temp2 ../bearla/Missp | grep "<" > EN.missp
-	@cat IG.temp | $(ISPELLBIN)/ispell -l -d./gaeilge | sort | $(STRIP) > IG.temp2
+	@cat IG.temp | $(ISPELLBIN)/ispell -l -d./gaeilge | sort -u > IG.temp2
 	@diff -w IG.temp2 ../bearla/Missp.ga | grep "<" > IG.missp
 	@rm -f EN.temp EN.temp2 IG.temp IG.temp2
 

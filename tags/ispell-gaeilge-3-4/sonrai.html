@@ -1,0 +1,291 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ga">
+<head>
+  <title>Athruithe i nGaelSpell Unix</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta http-equiv="Content-Language" content="ga">
+  <meta name="description" content="Athruithe i nGaelSpell Unix">
+  <meta name="keywords" content="GaelSpell, ispell, aspell, litreoir, Gaeilge">
+  <meta name="author" content="Kevin P. Scannell">
+  <link rel="stylesheet" href="../kps.css" type="text/css">
+</head>
+
+<body>
+<div class="content">
+<h1>Athruithe i nGaelSpell Unix</h1>
+
+<h2><a name="Fabhtanna">Fabhtanna ar m'eolas</a></h2>
+<ul>
+<li>Focail cearta - níl ann ach leideanna ó <i>ispell-gaeilge</i>.
+  <ul>
+  <li>Comhfhocail neamhghnácha
+  <li>Focail neamhghnácha le réimíreanna
+  <li>Urú (nó h,t) + caipitliú  (tAinm, tSalainn, hAbhann, nDaoine).
+  <li>Iarmhíreanna fuinniúla (-na,-ne,-sa,-san,-se,-sean).
+  <li>An tuiseal gairmeach (a náisiúna, a thaoiseacha, a mhaca).
+  <li>Iarmhír "-ín" le focail caola.
+  <li>Annamh: focail caipitlithe aisteacha eile (aonMhac, ArdRí).
+  <li>Annamh: aidiachtaí i riocht ainmfhocail (t-uaibhreach, t-anbhann, d'éagráifeach).
+  </ul>
+<li>Focail cearta - ní thugann <i>ispell-gaeilge</i> dada!
+  <ul>
+  <li>Dhá réimír (hiarchime, t-an-duine, d'athghin, mb'amhlaidh).
+  <li>Dhá iarmhír (leanaigíse, leanfaimidne).
+  <li>Réimír ainmfhocail+iarmhír fuinniúil (m'ainmse).
+  <li>Comhfhocail le fleiscíní (ceann-nochta, dearg-ghráin, sean-nadúr). 
+  <li>Iarmhír "-ín" le focail leathana nó iolra "-íní".
+  <li>Annamh: Aidiacht comparáideach + "de" (uabhride, luaithide).
+  </ul>
+<li>Focail mílitrithe a ghlacann <i>ispell-gaeilge</i>.
+  <ul>
+  <li>Níl aithne agam ar aon focail den chineál seo.
+  </ul>
+</ul>
+<h2><a name="Athruithe">Athruithe</a></h2>
+<h3><a name="ohonetoohtwo">20 Meán Fómhair 2000 -- Leagan 0.2</a></h3>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>cuid mhaith focal iomarcach i <i>gaeilge.raw</i>  
+<li>iarmhíreanna briathartha as ionad i <i>gaeilge.aff</i>
+(m.sh. an modh coinníollach faoin mbrat "C")
+<li>fabht i <i>gaeilge.aff</i> a bhain leis an bhriathar "iaigh".
+<li>fabht i <i>gaeilge.aff</i> a bhain leis an aimsir chaite
+na mbriathra "adhlaic", "iomlaisc", srl. 
+<li>iolraí na n-aidiachtaí seo: dian, fiar, cian, ciar, liath, srl.
+<li>aidiachtaí briathartha de na briathra seo: adhain, comhaill, cumaisc, dearlaic, deighil, diongaibh, ibh, logh, riagh, sleabhac, spréigh, teasairg, togh. 
+<li>díochlaonadh de na briathra seo: broim, cadhail, diailigh, fainic, maidhm, saighid, tiúin, uaim.
+<li>ainmfhocail briathartha míchearta (*éiliú, *damhsú, srl.)
+<li>ainmfhocail infhillte míchearta (*anacara, *blaosca, *dabhacha, *dumhacha, *fionnóaí, *foghala, *macasamhala, *magaí, *nóinte, *saghasanna).
+<li>focail mílitrithe (*drochduine, *fiolagrán, *grainnín, *ionanálaigh, *saitir, *seasmacht, *speirling, *teicníc, *t-olltoghcháin).
+</ul>
+<br>
+Chuir mé sa leagan 0.2:
+<ul>
+<li>an modh ordaitheach na mbriathra neamhrialta.
+<li>roinnt iarmhíreanna briathartha (dhódar, phléadar, srl.)
+<li>iarmhíreanna briathartha (-fad, -fead, -fair, -fir, -íos).
+<li>an aimsir ghnáthchaite na mbriathra a bhfuil guta ag a dtús,
+gan urú agus gan "d'".
+<li>an iarmhír "-sé" faoi "leideanna" i <i>gaeilge.aff</i>.
+<li>ainmfhocail briathartha leis na réamhlitreacha "t-", "d'", "m'", srl.
+<li>ainmfhocail briathartha sa thuiseal ghinideach.
+</ul>
+<br>
+<h3><a name="ohtwotooneoh">22 Feabhra 2001 -- Leagan 1.0</a></h3>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>aidiachtaí briathartha de na briathra seo: comóir, dathaigh, foirceann, táthaigh, tnúth.
+<li>tuiseal ginideach de na n-aidiachtaí seo: dearg, bándearg, ..., cearr, núicléach.
+<li>foirmeacha infhillte na n-aidiachtaí "-ách".
+<li>réimniú gan ghá "tig".
+<li>séimhiú nó urú gan ghá (ala, deara, deo, imigéin, éineacht, srl.)
+<li>ainmfhocail infhillte míchearta (*bandálaí, *comhdhálaí, *diachara, *garrfhéigh, *midhg, *praghasanna, *sic, *sméimh, *t-atógáil).
+<li>foircinn mar fhocail neamhspleácha (*ath, *droch, srl.)
+<li>focail mílitrithe (*barúlacht, *comhghuailleacht, *éadóirsigh, *eispéaras, *fáinnéirí, *frithseipteán, *giománach, *giúirléid, *hómaighnéasach, *infhear, *insroichthe, *Meánmhura, *tainséirín, *tradhall, *tráigéide, *uailbhreas).
+</ul>
+<br>
+Chuir mé sa leagan 1.0:
+<ul>
+<li>an leagan canúnach.
+<li>na comhaid <i>biobla</i>, <i>daoine</i>, <i>giorr</i>, agus <i>logainm</i>.
+<li>leideanna do "ath-", "comh-", "droch-", "for-", "frith-", agus "réamh-" i <i>gaeilge.aff</i>.
+<li>brait ar ainmfhocail ginideacha neamhrialta (glacfar sa tslí seo "tsúgartha" ach ní ghlacfar *t-adhartha, *t-uí, srl.)
+<li>"m'", "d'" + ainmfhocail iolra caipitlithe.
+</ul>
+<br>
+<h3><a name="oneohtooneone">28 Nollaig 2001 -- Leagan 1.1</a></h3>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>aidiachtaí briathartha de na briathra seo: aischuir, freaschuir, síolchuir, srl.
+<li>caolú focail "-eann" (aoileann, baineann, broineann, coiteann, srl.)
+<li>iolraí gan ghá (Airí, Ard-Oifigí, Bailte, Ollscoileanna, srl.)
+<li>infhilleadh eile gan ghá (*adanóid, *aoldathanna, *báisteacha, 
+*bóiléagair, *builí, *clochmhóinte, *coimeáid, *coimhéid, *cruóga, *éadruaigh, 
+*féinrialacha, *forbaí, *imshaolta, *luasc-cheolta, *mórthíortha, *seansaolta, 
+*seintimintí, *siúcraí, *stopainní).
+<li>focail infhillte míchearta (*cainninn, *cileavataí, *coirdéil, *cráifiscí,
+*dé-óidí, *dirbh, *eiriceacha, *eiricí, *fabhaile, *fabhala, *feorainneacha, 
+*garmhaic, *geiréinéim, *leathronna, *leathuaireanta, *mainneire, 
+*neamhbheichte, *peiréid, *sabhana, *searca, *sréin, *suirbhéithe, 
+*traidhfile, *traidhfilí, *tsnáth, *vataí, *voltaí).
+<li>focail mílitrithe (*aisín, *bachrán, *bitiúman, *camchéachta, *ceannrach, 
+*Céineach, *ceoldhráma, *cnuachair, *cos-i-mbos, *diosc-thiomáint, *eispistil, 
+*fadbhreathaitheach, *Fionlannais, *gall, *feisire, *hiptéis, *meilséara, 
+*mígnaíúil, *míliste, *mísheanmhar, *Neipeálach, *ói, *príbhéad, *Ródéiseach, 
+*Rúmáin, *Rúmánach, *sainchomartha, *scabharta, *tagdhach).
+</ul>
+<br>
+Leagan canúnach:
+<ul>
+<li>canúnach-&gt;caighdeánach (cranna, daoránach, múnláil, raiméis, reathaire,
+failm, feara, fraochmhar, síolaigh, tamhnóg, tutaíl, uaire).
+<li>caighdeánach-&gt;canúnach (aindiathaí, aipsint, aislingeoir, alabastar, 
+anaestéise, anaestéiseach, anaestéisí, bearád, bomaite, cianúlas, cionúireacht,
+costriomach, cothaíocht, cráiteach, diabaetas, dúthach, easláintiúil,
+faillíoch, faireoir, fealsúnta, féaracht, fisicí, fisiciúil, fogus, gabháile,
+gabháilte, galltacht, gearr-ruballach, gidh, glaech, gliogarnáil, gliúcálaí,
+húrla-hárla, ilphairtíoch, imirceoir, ináitreabh, iniúchóireacht, lásar,
+miocrascóp, muruach, naofar nuall, ógán, óstán, Pol, préatóiriam, ráiméis,
+réigh, saitilít, séaram, tachtóir, tartúil, tiomchaint, tréanmhar,
+truaillitheacht, uileloisctheach, vultúr) agus 
+"Bolaiveach", "Cóiriach", "Colóimbeach", srl. as an lámhleabhar C.O.
+</ul>
+<br>
+<h3><a name="oneonetoonetwo">26 Meitheamh 2002 -- Leagan 1.2</a></h3>
+Chuir mé sa leagan 1.2:
+<ul>
+<li>na comhaid <i>gall</i>, <i>miotas</i>, agus <i>stair</i>
+<li>an script <i>igcheck</i> chun do liostaí féin a cheartú.
+</ul>
+<br>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>fabht i <i>gaeilge.aff</i> agus <i>gaeilgemor.aff</i> a bhain leis an bhriathar "graf".
+<li>infhilleadh gan ghá (*glanaidh).
+<li>an sárchéim de na aidiachtaí seo: beag, breac, ceart, geal, mear,
+oircheas, sean, seicear, srl.
+<li>focail infhillte míchearta eile (*-chuirthe, *comhluú (srl),
+*faighineacha, *faraesean, *Gaelím (srl), *glaeim (srl), *naouithe, 
+*neamhdhaingeana, *neamhthinne,
+*parailéile, *parailéala, *rúndaingeana, *séuithe, *spraeáilim (srl),
+*táthchuda, *uiríseala).
+<li>focail mílitrithe (*ardteistméireacht, *bruinneach,
+*cisíocht, *deasgnáth, *Neipeál, *scríoblálaí, *svaistice, 
+*taobhraoinn, *teasóras).
+</ul>
+<br>
+Leagan canúnach:
+<ul>
+<li>canúnach-&gt;caighdeánach (cuideog).
+<li>caighdeánach-&gt;canúnach (achréidh, adaigh, Bailteach, 
+casino, ceirib, cruinníocha, galaoireach, íodha, kebab, méasantar, parfaraí, 
+Samáireach, slabaire).
+<li>caighdeánach-&gt;logainm (Achréidh, Caerdydd).
+</ul>
+<br>
+<h3><a name="onetwototwooh">31 Iúil 2002 -- Leagan 2.0</a></h3>
+Chuir mé sa leagan 2.0:
+<ul>
+<li>Comhaid le haghaidh an leagan Aspell
+<li>Línte go leor sa script <i>igcheck</i>
+</ul>
+<br>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>infhilleadh gan ghá (*dhara, *soiscéalta, *SHEIF, *dt-léine, *th-léine,
+*hu-chasadh, srl.)
+<li>fleiscíní gan ghá (ard-teicneolaíocht, feidhm-oideas, dreach-caillte).
+<li>focail infhillte míchearta eile (*Fionlanna).
+<li>séimhiú ar focail le dhá ceannlitir 
+(m. sh. Gael-Mheiriceánach/S -&gt; ghael-Mheiriceánach)
+</ul>
+<br>
+Leagan canúnach:
+<ul>
+<li>canúnach-&gt;caighdeánach (bunán).
+<li>caighdeánach-&gt;canúnach (aillse, cáideo).
+</ul>
+<br>
+<h3><a name="twoohtothreeoh">17 Nollaig 2002 -- Leagan 3.0</a></h3>
+Chuir mé sa leagan 3.0:
+<ul>
+<li>An leagan liteartha
+<li>Focail as na leabhair apacrafúla i m<i>biobla</i>
+</ul>
+<br>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>foshuiteach gan seimhiú gan urú
+<li>réamhlitir "h" le briathra
+<li>"cross-products" gan ghá ar brait B,D,H,M,T
+<li>fabht i <i>gaeilge.aff</i> a bhain leis an bhriathar "buígh"
+<li>infhilleadh gan ghá (*Bairéine, *Búcairiste, *Búdaipeiste, *d'fhaigh, *Eacuadóir, *eoil, *ghach, *Iarúsailéime, *Iostanbúil, *Liospóine, *Lováine, *Maidride, *Mósaimbíce, *Nasaireite, *Omain, *Suaise, *tÉimin, *t-eol, *tIamáice, *tSomáile, *Túinise)
+<li>infhilleadh gan ghá i m<i>biobla</i> (*gChazó, *bPharóis, *Pht-, *mPt-)
+<li>focail infhillte míchearta (*Gaelaíodar, *Gaelódh, *Gaelófá, srl., *neamhfhorleathna)
+<li>focail mílitrithe (*ath-thochrais, *Basútalainn, *Beachuanalainn, *ceolsholas, *cognolaíoch, *crombóg, *daonnachaí, *dísréad, *dtag, *feimeanachas, *Gúam, *hipeartéacs, *Inde-Sín, *ionsamhlaigh, *ionsamhlóir, *Iútach, *naíon, *Sáir, *Seirb, *síthrá, *sótálaigh, *Suaslannach, *tag, *thag, *thólamh, *tólamh, *tug, *Túiníseach, *Úral)
+<li>focail mílitrithe i m<i>biobla</i> (*Níocanór, *Ptolamaís, *Dionisius, *Sóspatras)
+<li>iarmhír samhailteach "-sé"
+</ul>
+<br>
+Leagan canúnach:
+<ul>
+<li>canúnach-&gt;caighdeánach (togra)
+<li>caighdeánach-&gt;canúnach (baoischreideamh, Caismíor, cileabeart, ecstasaí, fiolaictéir, fuarthóir, grás, grásmhar, greas, iliteach, iliteoir, ing, Laitve, luathrán, neamhfhaitíosach, pizza, robar, síceois, Somáileach, stopuaireadóir, tríléim, visciúlacht)
+</ul>
+<br>
+<h3><a name="threeohtothreeone">5 Márta 2003 -- Leagan 3.1</a></h3>
+Chuir mé sa leagan 3.1:
+<ul>
+<li>An comhad <i>athfhocail</i>
+</ul>
+<br>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>infhilleadh gan ghá (*achras, *adhnas, *adhras, *Connaichte, *dheighleas, *ghleadhras, *ionlas, *máinneálann, srl, *saighdeas, *scuabálann, srl, *sleabhcas, *thiomnas, *thorchras)
+<li>focail infhillte míchearta (*breithmhis, *eisiaite, *glaetar, *ghlaetá, *ghlaetaí, *iaite, *iarmhartha, *móideimeanna)
+<li>focail mílitrithe (*cóireagrafaí, *máistirplean, *staidiúil, 
+*teasdhíonadh, *teipeannach)
+<li>ginideach d'ainmfhocail briathartha "-áil"  ("-áilte" -&gt; "ála")
+</ul>
+<br>
+Leaganacha:
+<ul>
+<li>liteartha-&gt;caighdeánach (aonbheannach, coránach, sacraifís, soraidh, sroigheall)
+<li>caighdeánach-&gt;liteartha (adag, áirí, brúitíneach, casca, cíl, cloca, dálta, deirc, deois, dreasachtach, fuad, géata, liost, loistín, miam, múid, nuar, pana, rabh, ruma, seanadh, sill, slád, tairiseacht, táite, tóla)
+<li>neamhchaighdeánach-&gt;liteartha (ing)
+<li>neamhchaighdeánach-&gt;caighdeánach (fuirste)
+<li>caighdeánach-&gt;neamhchaighdeánach (cnágshnámh, doghafa, dros, dubhú, éagadh, foghúna, fuaireas, fuirsíonn, srl., glaothán, itheas, léimeadh, meathadh, rugas, siocadh, thugas, tiúna, tráchtadh)
+</ul>
+<br>
+<h3><a name="threeonetothreetwo">18 Aibreán 2003 -- Leagan 3.2</a></h3>
+Leaganacha:
+<ul>
+<li>liteartha-&gt;caighdeánach (fiondruine, Ultaibh)
+<li>caighdeánach-&gt;liteartha (athlamh, drochbhlasta, easca, éigne, mionnán, mun, paist, sealg, sir)
+<li>caighdeánach-&gt;neamhchaighdeánach (Féinícia)
+</ul>
+<br>
+<h3><a name="threetwotothreethree">10 Iúil 2003 -- Leagan 3.3</a></h3>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>infhilleadh gan ghá (*ioncholluithe, *inleighise)
+<li>focail mílitrithe (*fótachríoch, *Teileagúis)
+</ul>
+<br>
+Leaganacha:
+<ul>
+<li>caighdeánach-&gt;liteartha (lóch, muscail, raille)
+<li>caighdeánach-&gt;neamhchaighdeánach (fínéagrán, Francóir, pandiachas, Seitnia)
+<li>neamhchaighdeánach-&gt;caighdeánach (nascóir)
+</ul>
+<br>
+<h3><a name="threethreetothreefour">1 Aibreán 2004 -- Leagan 3.4</a></h3>
+Cheartaigh mé na fabhtanna seo:
+<ul>
+<li>an briathar "neamhnigh" le fréamh caol anois.
+<li>ní cheadaítear "b'", "m'", "d'" roimh ainmfhocal le "fh"+consan ar dtús.
+<li>infhilleadh gan ghá (*t-altóir, *n-arsa, *bhrách, *mbrách, *cheadas, *gceadas, *dhéarfá, *dhéarfadh, *dhéarfaí, srl., *deirigí, *dheirim, *dheirinn, srl., *dhú, *ndú, *dhúirt, *dhúradh, srl., *fách, *fhách, *fhud, *grástaí, *ghrifín, *ngrifín, *dtáthar, *tháthar, *t-achtáil, *t-athchúrsáil, etc. ..., *tseirbheála,...)
+<li>focail mílitrithe (*domhsan, *idirgníomhú, *Ocsatánais, *Úizbeiceastáin)
+</ul>
+<br>
+Leaganacha:
+<ul>
+<li>caighdeánach-&gt;liteartha (ar/air n., aireamh, aithneach, ana, bas, beartanna, búr, cana, car v., chuile, cláracha, cláraí, cogarnaigh, conach, connall, crúthaigh, cuile, díbh (v.), díogach, dram, drud, eis, far, féan, feir, fhéin, fíge, fineach, fóbairt, forán, Franc, gaoith, geál, gion, gléic, leabhair adj., leitir, los, príomh, rionn, scairtigh, sios, stáid, tarrach, teannach, time, tiomain(t), tíor, ur)
+<li>caighdeánach-&gt;neamhchaighdeánach (bráithreacha, cinní, comhadaigh, deireann, fuaid, geanntracha, gheobhair, Guaranaí, rachad, tabharfad, tiorma, Urdúis)
+<li>liteartha-&gt;caighdeánach (beannachtach, ibhe, sceallagach, suaill)
+<li>neamhchaighdeánach-&gt;caighdeánach ()
+</ul>
+
+<hr>
+<em>© Cóipcheart/Copyright 2000-2003 Kevin P. Scannell</em><br>
+</div>
+<div class="navigation">
+<a href = "index.html">Baile</a><br>
+<a href = "index-en.html">English</a><br>
+<a href = "sios.html">Síos-luchtú</a><br>
+Athruithe<br>
+<a href = "/gaeilge.html">Tionscadail</a><br>
+</div>
+</body>
+</html>

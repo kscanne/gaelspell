@@ -1,0 +1,23 @@
+
+   The file "repl" in this directory can be installed as a 
+personal replacement dictionary, for instance as
+
+${HOME}/.aspell.ga.prepl
+
+For now it only contains correctly-spelled but pre-standard
+or dialect word forms and their replacements in the
+Caighdeán Oifigiúil.  Contributions to this list are 
+greatly appreciated.
+
+
+   The file "pearsanta" is a large list of proper names.
+It includes Gaelicized spellings of many names of historical
+and mythological figures, placenames, etc.  It also contains
+many common non-Irish first and last names as well as some
+acronyms.  It can be used as your initial personal dictionary
+by copying to:
+
+${HOME}/.aspell.ga.pws
+
+- Kevin Scannell
+Saint Louis, March 2004

@@ -32,13 +32,15 @@ the Irish page (which contains much more detailed descriptions).
 </p>
 
 <p>
-Two packages are available: <i>ispell-gaeilge</i>, which
-provides Irish language support for Geoff Kuenning's
-<a href = "http://fmg-www.cs.ucla.edu/geoff/ispell.html">
-<i>International Ispell</i></a>, and 
-<i>aspell-gaeilge</i> which does the same for Kevin Atkinson's
-<a href = "http://aspell.sourceforge.net/">
-<i>Aspell</i></a>.  The word lists are identical, just packaged differently.
+Three packages are available, providing Irish language 
+support for the most widely used spellcheckers in the Open 
+Source community: <i>ispell-gaeilge</i>, for Geoff Kuenning's
+<a href = "http://fmg-www.cs.ucla.edu/geoff/ispell.html"><i>International Ispell</i></a>,
+<i>aspell-gaeilge</i> for Kevin Atkinson's
+<a href = "http://aspell.sourceforge.net/"><i>Aspell</i></a>,
+and <i>myspell-gaeilge</i> for the
+<a href="http://www.openoffice.org/">OpenOffice.org</a> 
+spellchecker.  The word lists are identical, just packaged differently.
 </p>
 
 <hr>
@@ -53,7 +55,7 @@ the Collins Gem).
 <li><b>Grammatical Completeness.</b>  I have written software which 
 generates every inflected form of a dictionary headword when provided
 with a limited amount of grammatical information.   For instance,
-by adding the word "iompaigh" to the underlying database 
+by adding the word <i lang="ga">iompaigh</i> to the underlying database 
 as a second declension verb, about 80 inflected forms 
 are added to the word list (all verb endings, prefixed d',h,n-, etc.)
 <li><b>Accuracy.</b>  The only absolute rule when generating a spellchecker
@@ -70,7 +72,7 @@ months or so since the initial release and plan to continue this for
 the foreseeable future.   I spellcheck many of the articles from 
 the online Irish language periodicals as a way of keeping up with the latest
 terminology.  I have also been adding words from the terminology dictionaries
-published by <i>An Gúm</i>.
+published by <i lang="ga">An Gúm</i>.
 <li><b>Dialect support.</b>  The <i>ispell-gaeilge</i> package provides
 a "large model" which includes many frequently-used but officially 
 non-standard spellings.
@@ -78,9 +80,11 @@ non-standard spellings.
 <i>gaeilge_phonet.dat</i> provides a complete "coarse" encoding 
 of the pronunciation of Irish.  This allows <i>aspell</i> to make more
 intelligent suggestions when it comes across a misspelled word.  For instance,
-where <i>ispell</i> gives no suggestions for the pre-standard "imfhiosach",
+where <i>ispell</i> gives no suggestions for the pre-standard 
+<i lang="ga">imfhiosach</i>,
 <i>aspell</i> uses the phonetics file to encode this as "*M*S*K",
-thereby recognizing and suggesting the correct spelling "iomasach".
+thereby recognizing and suggesting the correct spelling 
+<i lang="ga">iomasach</i>.
 </ul>
 
 <hr>
@@ -99,26 +103,49 @@ Makefile to the appropriate directories and try again.
 </p>
 
 <p>
-The default hash table conforms strictly to standardized Irish spelling.
-You can generate a "large model" table <i>gaeilgemor.hash</i> 
-(<i>ispell</i> only) by changing the variable 
-<i>INSTALLATION</i> at the top of the Makefile
-to <i>gaeilgemor</i> and using "make" as before.  
-<b>However I strongly urge installers to make the standard model 
-<i>gaeilge.hash</i>
-the default on your system</b>.   The large model is <b>not</b> the analogue
-of the
-larger-sized English dictionaries distributed with many English spellcheckers
-(containing obscure but correctly-spelled words).  Instead it contains
-non-standard or dialect spellings and non-standard inflections.
-</p>
-
-<p>
 The ISO-639-1 code for Irish is "ga".
 </p>
 
 <hr>
+<h2><a name="Models">Alternate Models</a></h2>
 
+<p>
+The default hash table conforms strictly to standardized Irish spelling.
+You can generate either a "literary" or "dialect" model
+(<i>ispell</i> only) by changing the variable 
+<i>INSTALLATION</i> at the top of the Makefile
+to <i>gaeilgelit</i> or <i>gaeilgemor</i> and using "make" as before.  
+</p>
+
+<p>
+The <i>gaeilgelit</i> model contains many obsolete or obscure 
+(but standardly spelled) words which are probably best left out
+of any good Irish spellchecker.
+For instance, <i lang="ga">brúitíneach</i> (a stumpy or stuffy person
+in Ó Dónaill) is a likely misspelling of the much more common word
+<i lang="ga">bruitíneach</i> (the measles).  Other typical 
+"dangerous" word pairs: 
+<i lang="ga">deirc</i> for <i lang="ga">déirc</i>.
+<i lang="ga">múid</i> for <i lang="ga">muid</i>, etc.
+</p>
+<p>
+The <i>gaeilgemor</i> model, on the other hand, contains
+non-standard or dialect spellings (alongside the standard spellings)
+and accepts non-standard inflections of verbs.   This greatly reduces
+its effectiveness as a spellchecking tool; indeed, anyone who uses
+non-standard forms so frequently that he or she finds the standard model 
+inadequate likely disagrees with the very concept of an Irish
+spellchecker in the first place!
+</p>
+
+<p>
+With all this in mind,
+<b>I strongly urge installers to make the standard model 
+<i>gaeilge.hash</i>
+the default on your system</b>.
+</p>
+
+<hr>
 <h2><a name="Contributing">Contributing</a></h2>
 <p>
 Only a handful of people have corresponded with me about these packages
@@ -137,7 +164,7 @@ word list than by adding forms one by one into a personal dictionary.
 <em>© Copyright 2002 Kevin P. Scannell</em><br><br>
 </div>
 <div class="navigation">
-<a href = "index.html">Baile/Home</a><br>
+<a href = "index.html">Home</a><br>
 English<br>
 <a href = "sios.html">Download</a><br>
 Sponsor<br>

@@ -97,8 +97,10 @@ veryclean:
 	$(MAKE) distclean
 	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt README_ga_IE.txt ChangeLog
 
+# flip BH for historical compat, clean CVS
 fromdb : FORCE
 	$(GIN) 7
+	sed -i 's/\/BH/\/HB/' gaeilge.raw gaeilge.lit gaeilge.mor
 	$(MAKE) sort
 	$(MAKE) all
 

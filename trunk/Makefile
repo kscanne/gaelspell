@@ -35,7 +35,7 @@ hashtable: $(INSTALLATION).hash
 
 all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgehyph.hash
 
-gaeilge.hash: $(RAWWORDS)
+gaeilge.hash: $(RAWWORDS) $(AFFIXFILE)
 	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
 
 gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff
@@ -50,6 +50,9 @@ gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
 
 gaeilgehyph.hash: $(HYPHWORDS) gaeilgehyph.aff
 	$(ISPELLBIN)/buildhash $(HYPHWORDS) gaeilgehyph.aff gaeilgehyph.hash
+
+$(ALTAFFIXFILE): $(AFFIXFILE) gaeilgemor.diff
+	patch -o gaeilgemor.aff gaeilge.aff < gaeilgemor.diff
 
 personal: $(PERSONAL)
 	rm -f $(HOME)/.ispell_$(INSTALLATION) $(HOME)/.biobla
@@ -74,7 +77,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff gaeilgeh
 	$(INSTALL_DATA) gaeilgehyph.aff $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff ga.cwl repl pearsanta
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff ga.cwl repl pearsanta $(ALTAFFIXFILE)
 
 distclean:
 	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff ga.cwl repl pearsanta
@@ -85,8 +88,8 @@ distclean:
 ### Remainder is for development only
 #############################################################################
 
-gaeilgemor.diff: FORCE
-	diff -e $(AFFIXFILE) $(ALTAFFIXFILE) > gaeilgemor.diff
+gaeilgemor.diff:
+	(diff -c $(AFFIXFILE) $(ALTAFFIXFILE) > gaeilgemor.diff; echo)
 
 fromdb : FORCE
 	$(GIN) 7
@@ -182,11 +185,11 @@ installweb: FORCE
 
 dist: FORCE
 	$(MAKE) ChangeLog
-	chmod 644 $(AFFIXFILE) $(ALTAFFIXFILE) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile biobla daoine gall giorr logainm miotas stair
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile biobla daoine gall giorr logainm miotas stair
 	chmod 755 igcheck
 	ln -s ispell-gaeilge ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
-	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(ALTAFFIXFILE) 
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/gaeilgemor.diff
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(RAWWORDS) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(LITWORDS) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(ALTWORDS) 
@@ -211,13 +214,16 @@ ga.dic: $(RAWWORDS)
 	cat tempcount $(RAWWORDS) > ga.dic
 	rm -f tempcount
 
-mycheck: ga.dic aspell.txt
+ga.aff: $(AFFIXFILE)
+	ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspell-header | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > ga.aff
+
+mycheck: ga.dic aspell.txt ga.aff
 	- $(MYSPELL) ga.aff ga.dic aspell.txt | egrep 'incorrect'
 
 README_ga_IE.txt: README COPYING
 	(echo; echo "1. Version"; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 
-mydist: ga.dic README_ga_IE.txt
+mydist: ga.dic README_ga_IE.txt ga.aff
 	chmod 644 ga.dic ga.aff README_ga_IE.txt
 	zip ga_IE ga.dic ga.aff README_ga_IE.txt
 

@@ -1,0 +1,35 @@
+#!/bin/bash
+PLAIN=${HOME}/seal/ig7
+if [ ${HOME}/math/code/data/Dictionary/IG -nt ${PLAIN} ]
+then
+	echo "You may want to rerun ig7" >&2
+fi
+
+do_it()
+{
+cat ${PLAIN} | LC_ALL=ga_IE egrep '^[A-Z][^.]*\. n' | 
+egrep -v '\[in phrase\]' | egrep -v ':.*(Mrs?|St)\. ' |
+egrep -v 'is\. nb2' | egrep -v '[ao]ch(as)?\. nf1' |
+sed 's/ ([^)]*)//g' |
+egrep '[:,] [A-Z][^ ,.]*[,.][^:]*$' |
+sed 's/\[[^]]*\]//g' |
+sed 's/^\([^.]*\)\.[^:]*:/\1:/' |
+sed 's/\([:,]\) [^.,]* [^,.]*[,.]/\1/' |
+sed 's/\([:,]\) [^.,]* [^,.]*[,.]/\1/' |
+sed 's/\([:,]\) [^.,]* [^,.]*[,.]/\1/' |
+sed 's/\([:,]\) [^.,]* [^,.]*[,.]/\1/' |
+egrep -v '^(Poncán|Oileán Úr|Bás|Seán Buí|Coimdhe|Fear Thuas|Gaeilge:|Scot|Madonna|Sior)' |
+while read x
+do
+	IRISH=`echo "${x}" | sed 's/:.*//'`
+	echo "${x}" | sed 's/^[^:]*: //' | tr "," "\n" | LC_ALL=ga_IE egrep '[a-z]' |   # note require lowercase here; don't want "SDLP", "GAA", etc.
+	LC_ALL=ga_IE egrep '[A-Z]' |  # require uppercase to avoid "yuletide"
+	sed 's/[. ]*$//' |
+	while read def
+	do
+		echo "${def} ${IRISH}"
+	done
+done
+}
+
+(cat gaelu.in; do_it) | sort -u

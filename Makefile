@@ -58,6 +58,7 @@ altfull:
 personal:
 	rm -f $(HOME)/.ispell_gaeilge
 	sort -f daoine giorr logainm > $(HOME)/.ispell_gaeilge
+	cp biobla $(HOME)/.biobla
 
 tarfile: 
 	$(MAKE) reallyclean

@@ -382,6 +382,7 @@ airiú arú
 áirmhítear áirítear
 áirmhithe áirithe
 áirmhítí áirítí
+áirmhiú áireamh
 airmis imrisc
 airneáil airneáin
 áirneáil airneáin
@@ -1275,6 +1276,7 @@ b'airicis b'araicis
 b'áirid b'áirithe
 b'áiride b'áirithe
 b'áirmhithe b'áirithe
+b'áirmhiú b'áireamh
 b'airneál b'airneán
 b'áirneál b'airneán
 b'áirnéal b'airneán
@@ -2089,6 +2091,7 @@ b'fhaisiúin b'fhaisin
 b'fhaisiún b'fhaisean
 b'fhaisiúnta b'fhaiseanta
 b'fhaisnithe b'fhaisnéiste
+b'fhaisniú b'fhaisnéis
 b'fhaitcheas b'fhaitíos
 b'fhaitchis b'fhaitís
 b'fháithscéal b'fháthscéal
@@ -2248,6 +2251,8 @@ b'fhéidireachtaí b'fhéidearthachtaí
 b'fheighilteoir b'fheighlí
 b'fheighilteoirí b'fheighlithe
 b'fheileamhain b'fheiliúint
+b'fheileastar b'fheileastram
+b'fheileastrom b'fheileastram
 b'fheilimint b'fhirmimint
 b'fheilimintí b'fhirmimintí
 b'fheilm b'fheirm
@@ -2272,6 +2277,7 @@ b'fheisceanacht b'fheiceálacht
 b'fheisceanaí b'fheiceálaí
 b'fheisceanaigh b'fheiceálaigh
 b'fheiscint b'fheiceáil
+b'fheistisí b'fheisteas
 b'fhéitheáin b'fhéitheoga
 b'fhéitheán b'fhéitheog
 b'fhéitheog b'fhéithleog
@@ -3103,6 +3109,7 @@ bhfaisníteá bhfaisnéisteá
 bhfaisnítear bhfaisnéistear
 bhfaisnithe bhfaisnéiste
 bhfaisnítí bhfaisnéistí
+bhfaisniú bhfaisnéis
 bhfaitcheas bhfaitíos
 bhfaitchis bhfaitís
 bhfáithscéal bhfáthscéal
@@ -3297,6 +3304,10 @@ bhfeighilteoir bhfeighlí
 bhfeighilteoirí bhfeighlithe
 bhfeighilteora bhfeighlí
 bhfeileamhain bhfeiliúint
+bhfeileastair bhfeileastraim
+bhfeileastar bhfeileastram
+bhfeileastroim bhfeileastraim
+bhfeileastrom bhfeileastram
 bhfeilimint bhfirmimint
 bhfeiliminte bhfirmiminte
 bhfeilimintí bhfirmimintí
@@ -3325,6 +3336,7 @@ bhfeisceana bhfeiceála
 bhfeisceanacht bhfeiceálacht
 bhfeisceanachta bhfeiceálachta
 bhfeiscint bhfeiceáil
+bhfeistisí bhfeisteas
 bhféitheáin bhféitheoga
 bhféitheáin bhféitheoige
 bhféitheán bhféitheog
@@ -5060,6 +5072,7 @@ b'iomlat b'iomlasc
 b'iomparaithe b'iompartha
 b'iomparthóir b'iompróir
 b'iomparthóirí b'iompróirí
+b'iomparú b'iompar
 b'iompó b'iompú
 b'iomportáil b'iompórtáil
 b'iomportáilte b'iompórtáilte
@@ -6378,6 +6391,7 @@ b'úil b'iúl
 builbhín builín
 builbhíní builíní
 b'uileloisctheach b'uileloscadh
+b'uileloiscthigh b'uileloiscthí
 b'uilí b'uilíche
 b'uilí b'uilíoch
 b'uilí b'uilíocha
@@ -8759,6 +8773,7 @@ chomórtá chomóirteá
 chomórtaí chomóirtí
 chomórtaisí chomórtais
 chomórtar chomóirtear
+chomórú chomóradh
 chompáin chompánaigh
 chompáirteach chomhpháirteach
 chompáirteacha chomhpháirteacha
@@ -10794,6 +10809,7 @@ comóróidh comóirfidh
 comóróimid comóirfimid
 comórtaisí comórtais
 comórtar comóirtear
+comórú comóradh
 compáin compánaigh
 compáirteach comhpháirteach
 compáirteacha comhpháirteacha
@@ -11890,6 +11906,7 @@ d'áirmhíodh d'áiríodh
 d'áirmhíomar d'áiríomar
 d'áirmhíteá d'áiríteá
 d'áirmhítí d'áirítí
+d'áirmhiú d'áireamh
 d'airmis d'imrisc
 d'airneáil d'airneáin
 d'áirneáil d'airneáin
@@ -12994,6 +13011,7 @@ d'fhaisníodh d'fhaisnéiseadh
 d'fhaisníomar d'fhaisnéiseamar
 d'fhaisníteá d'fhaisnéisteá
 d'fhaisnítí d'fhaisnéistí
+d'fhaisniú d'fhaisnéis
 d'fhaitcheas d'fhaitíos
 d'fhaitchis d'fhaitís
 d'fháithscéal d'fháthscéal
@@ -13178,6 +13196,10 @@ d'fheighilteoir d'fheighlí
 d'fheighilteoirí d'fheighlithe
 d'fheighilteora d'fheighlí
 d'fheileamhain d'fheiliúint
+d'fheileastair d'fheileastraim
+d'fheileastar d'fheileastram
+d'fheileastroim d'fheileastraim
+d'fheileastrom d'fheileastram
 d'fheilimint d'fhirmimint
 d'fheiliminte d'fhirmiminte
 d'fheilimintí d'fhirmimintí
@@ -13206,6 +13228,7 @@ d'fheisceana d'fheiceála
 d'fheisceanacht d'fheiceálacht
 d'fheisceanachta d'fheiceálachta
 d'fheiscint d'fheiceáil
+d'fheistisí d'fheisteas
 d'fhéitheáin d'fhéitheoga
 d'fhéitheáin d'fhéitheoige
 d'fhéitheán d'fhéitheog
@@ -15449,6 +15472,7 @@ d'iomparóinn d'iompróinn
 d'iomparthóir d'iompróir
 d'iomparthóirí d'iompróirí
 d'iomparthóra d'iompróra
+d'iomparú d'iompar
 d'iompó d'iompú
 d'iomportáil d'iompórtáil
 d'iomportáilteá d'iompórtáilteá
@@ -17881,8 +17905,10 @@ duileastram b'fheileastram
 duileastram d'fheileastram
 duileastram feileastram
 duileastram m'fheileastram
+d'uileloisctheach d'uileloiscthí
 d'uileloisctheach d'uileloscadh
 d'uileloiscthigh d'uileloiscthe
+d'uileloiscthigh d'uileloiscthí
 duiliminte b'fheilmeanta
 duiliminte feilmeanta
 duilleabhair duilliúir
@@ -18639,6 +18665,7 @@ faisníodh faisnéiseadh
 faisníonn faisnéiseann
 faisnítear faisnéistear
 faisnithe faisnéiste
+faisniú faisnéis
 faitcheas faitíos
 faitchis faitís
 fáithscéal fáthscéal
@@ -18879,6 +18906,10 @@ feighilteoir feighlí
 feighilteoirí feighlithe
 feighilteora feighlí
 feileamhain feiliúint
+feileastair feileastraim
+feileastar feileastram
+feileastroim feileastraim
+feileastrom feileastram
 feilimint firmimint
 feiliminte firmiminte
 feilimintí firmimintí
@@ -18916,6 +18947,7 @@ feisceanachta feiceálachta
 feisceanaí feiceálaí
 feisceanaigh feiceálaigh
 feiscint feiceáil
+feistisí feisteas
 féitheáin féitheoga
 féitheáin féitheoige
 féitheán féitheog
@@ -19097,6 +19129,7 @@ fhaisníteá fhaisnéisteá
 fhaisnítear fhaisnéistear
 fhaisnithe fhaisnéiste
 fhaisnítí fhaisnéistí
+fhaisniú fhaisnéis
 fhaitcheas fhaitíos
 fhaitchis fhaitís
 fháithscéal fháthscéal
@@ -19330,6 +19363,10 @@ fheighilteoir fheighlí
 fheighilteoirí fheighlithe
 fheighilteora fheighlí
 fheileamhain fheiliúint
+fheileastair fheileastraim
+fheileastar fheileastram
+fheileastroim fheileastraim
+fheileastrom fheileastram
 fheilimint fhirmimint
 fheiliminte fhirmiminte
 fheilimintí fhirmimintí
@@ -19366,6 +19403,7 @@ fheisceanachta fheiceálachta
 fheisceanaí fheiceálaí
 fheisceanaigh fheiceálaigh
 fheiscint fheiceáil
+fheistisí fheisteas
 fhéitheáin fhéitheoga
 fhéitheáin fhéitheoige
 fhéitheán fhéitheog
@@ -22814,6 +22852,7 @@ gcomórtá gcomóirteá
 gcomórtaí gcomóirtí
 gcomórtaisí gcomórtais
 gcomórtar gcomóirtear
+gcomórú gcomóradh
 gcompáin gcompánaigh
 gcompán gcompánach
 gcompóirt gcompord
@@ -25735,6 +25774,7 @@ háirmhígí háirígí
 háirmhíodh háiríodh
 háirmhítear háirítear
 háirmhithe háirithe
+háirmhiú háireamh
 hairmis himrisc
 hairneáil hairneáin
 háirneáil hairneáin
@@ -26826,6 +26866,7 @@ hiomparaithe hiompartha
 hiomparthóir hiompróir
 hiomparthóirí hiompróirí
 hiomparthóra hiompróra
+hiomparú hiompar
 hiompó hiompú
 hiomportáil hiompórtáil
 hiomportáilte hiompórtáilte
@@ -27242,8 +27283,10 @@ huibhe huibheacha
 huibheach huibheacha
 húil hiúl
 huilc hoilc
+huileloisctheach huileloiscthí
 huileloisctheach huileloscadh
 huileloiscthigh huileloiscthe
+huileloiscthigh huileloiscthí
 huilí huilíche
 huilí huilíoch
 huilí huilíocha
@@ -27831,6 +27874,7 @@ iomparóinn iompróinn
 iomparthóir iompróir
 iomparthóirí iompróirí
 iomparthóra iompróra
+iomparú iompar
 iompó iompú
 iomportáil iompórtáil
 iomportáilte iompórtáilte
@@ -28280,6 +28324,7 @@ láinseáilteá lainseáilteá
 láinseáiltear lainseáiltear
 láinseáiltí lainseáiltí
 láinseála lainseála
+láinseálacha lainseálacha
 láinseáladar lainseáladar
 láinseáladh lainseáladh
 láinseálaidís lainseálaidís
@@ -29216,6 +29261,7 @@ maireachtana maireachtála
 m'airgeadaí m'airgid
 m'airicis m'araicis
 m'airicise m'araicise
+m'áirmhiú m'áireamh
 m'airmis m'imrisc
 m'airneáil m'airneáin
 m'áirneáil m'airneáin
@@ -30913,6 +30959,7 @@ m'fhaisistigh m'fhaisistí
 m'fhaisistigh m'fhaisistithe
 m'fhaisiúin m'fhaisin
 m'fhaisiún m'fhaisean
+m'fhaisniú m'fhaisnéis
 m'fhaitcheas m'fhaitíos
 m'fhaitchis m'fhaitís
 m'fháithscéal m'fháthscéal
@@ -31082,6 +31129,10 @@ m'fheighilteoir m'fheighlí
 m'fheighilteoirí m'fheighlithe
 m'fheighilteora m'fheighlí
 m'fheileamhain m'fheiliúint
+m'fheileastair m'fheileastraim
+m'fheileastar m'fheileastram
+m'fheileastroim m'fheileastraim
+m'fheileastrom m'fheileastram
 m'fheilimint m'fhirmimint
 m'fheiliminte m'fhirmiminte
 m'fheilimintí m'fhirmimintí
@@ -31110,6 +31161,7 @@ m'fheisceana m'fheiceála
 m'fheisceanacht m'fheiceálacht
 m'fheisceanachta m'fheiceálachta
 m'fheiscint m'fheiceáil
+m'fheistisí m'fheisteas
 m'fhéitheáin m'fhéitheoga
 m'fhéitheáin m'fhéitheoige
 m'fhéitheán m'fhéitheog
@@ -32396,6 +32448,7 @@ m'iomlat m'iomlasc
 m'iomparthóir m'iompróir
 m'iomparthóirí m'iompróirí
 m'iomparthóra m'iompróra
+m'iomparú m'iompar
 m'iompó m'iompú
 m'iomportáil m'iompórtáil
 m'iomportála m'iompórtála
@@ -32791,8 +32844,10 @@ Muigh Maigh
 Muigheo Maigh Eo
 m'úil m'iúl
 m'uilc m'oilc
+m'uileloisctheach m'uileloiscthí
 m'uileloisctheach m'uileloscadh
 m'uileloiscthigh m'uileloiscthe
+m'uileloiscthigh m'uileloiscthí
 múille miúil
 múille miúile
 múillí miúileanna
@@ -33238,6 +33293,7 @@ n-áirmhíteá n-áiríteá
 n-áirmhítear n-áirítear
 n-áirmhithe n-áirithe
 n-áirmhítí n-áirítí
+n-áirmhiú n-áireamh
 n-airmis n-imrisc
 n-airneáil n-airneáin
 n-áirneáil n-airneáin
@@ -36231,6 +36287,7 @@ n-iomparóinn n-iompróinn
 n-iomparthóir n-iompróir
 n-iomparthóirí n-iompróirí
 n-iomparthóra n-iompróra
+n-iomparú n-iompar
 n-iompó n-iompú
 n-iomportáil n-iompórtáil
 n-iomportáilte n-iompórtáilte
@@ -36850,8 +36907,10 @@ n-uibhe n-uibheacha
 n-uibheach n-uibheacha
 n-úil n-iúl
 n-uilc n-oilc
+n-uileloisctheach n-uileloiscthí
 n-uileloisctheach n-uileloscadh
 n-uileloiscthigh n-uileloiscthe
+n-uileloiscthigh n-uileloiscthí
 n-úireadais n-úire
 n-úireadas n-úire
 n-uireasba n-uireasa
@@ -38871,6 +38930,7 @@ rianta rianaithe
 riantá rianaíteá
 riantaí rianaítí
 riantar rianaítear
+riaradh riar
 riaraí riara
 riaraídís riaraidís
 riaraigh riar
@@ -38896,6 +38956,7 @@ riaróidís riarfaidís
 riaróimid riarfaimid
 riaróimis riarfaimis
 riaróinn riarfainn
+riarú riar
 riascúil riascach
 riascúil riascaigh
 riascúla riascacha
@@ -43482,6 +43543,7 @@ tairiseacht tairise
 tairiseachta tairise
 táirm téirim
 táirme téirime
+t-áirmhiú t-áireamh
 tairmleigean tarmligean
 táirne tairne
 t-airneál t-airneán
@@ -45966,6 +46028,7 @@ tíomhasaigh tíosaigh
 t-iomlat iomlaoid
 t-iomlat t-iomlasc
 t-iomparthóir t-iompróir
+t-iomparú t-iompar
 t-iompó t-iompú
 t-iomportálaí t-iompórtálaí
 t-iomroll t-iomrall
@@ -47105,8 +47168,10 @@ uibheach uibheacha
 úil t-iúl
 uilc oilc
 uileag uile
+uileloisctheach uileloiscthí
 uileloisctheach uileloscadh
 uileloiscthigh uileloiscthe
+uileloiscthigh uileloiscthí
 uilí uilíche
 uilí uilíoch
 uilí uilíocha

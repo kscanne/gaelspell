@@ -263,14 +263,14 @@ airiú
 áirmhíodh/HU
 áirmhítear/HU
 áirmhithe/HUBMD
-áirmhiú/HUBMDT
+áirmhiú/HMDBUT
 airmis/HMDU
-airneáil/HMDBU
-áirneáil/HMDBU
+airneáil/HMDU
+áirneáil/HMDU
 airneál/HMDBUT
 áirneál/HMDBUT
 áirnéal/HMDBUT
-áirnéil/HMDBU
+áirnéil/HMDU
 airnéisí/HMDBU
 airnimint/HMDBU
 airniminte/HMDU
@@ -719,7 +719,7 @@ athphlandú/HUBMDT
 áthraigh/HMDU
 athrughadh/HMDBUT
 atmasféar/HMDBUT
-atmasféir/HMDBU
+atmasféir/HMDU
 átomaitigiúil/HB
 átomaitigiúla/HB
 a'tsa
@@ -1756,7 +1756,6 @@ ceadúnúchán/US
 ceaint/US
 ceainteáil/US
 ceainteála/US
-ceainteálacha/US
 ceainteálaí/US
 ceainteálaithe/US
 ceallúrach/US
@@ -3434,7 +3433,6 @@ déanfaí
 déanfas/US
 déanmhacht/US
 déanmhachta/US
-déanmhachtaí/US
 déantaí/US
 déantaithe/US
 déantasóir/US
@@ -4492,7 +4490,7 @@ Eilbhéiseach
 Eilbhéiseacha
 Eilbhéisí
 Eilbhéisigh
-eileastraim/HMDBU
+eileastraim/HMDU
 eileastram/HMDBUT
 eilimistín/HMDBUT
 eilimistíní/HMDBU
@@ -4705,7 +4703,7 @@ faisiúnta/BS
 faisnigh/US
 faisním/USC
 faisnithe/USBMD
-faisniú/USBMD
+faisniú/MDBUS
 faitcheas/MDBUS
 faitchis/MDBUS
 fáithscéal/MDBUS
@@ -4903,6 +4901,10 @@ feighilteoir/MDBUS
 feighilteoirí/MDBUS
 feighilteora/MDUS
 feileamhain/MDBUS
+feileastair/MDUS
+feileastar/MDBUS
+feileastroim/MDUS
+feileastrom/MDBUS
 feilimint/MDBUS
 feiliminte/MDUS
 feilimintí/MDBUS
@@ -6434,7 +6436,7 @@ imirceora/HMDU
 imneadh/HMDBUT
 imnidhe/HMDBU
 imreasain/HMDBU
-imreasáin/HMDBU
+imreasáin/HMDU
 imreasan/HMDBUT
 imreasán/HMDBUT
 imtheacht/HMDBUT
@@ -6682,7 +6684,7 @@ iomparaithe/HUBMD
 iomparthóir/HMDBUT
 iomparthóirí/HMDBU
 iomparthóra/HMDU
-iomparú/HUBMDT
+iomparú/HMDBUT
 iompó/HMDBUT
 iomportáil/HMDBU
 iomportáilte/HUB
@@ -6696,7 +6698,7 @@ iomportálaigí/HU
 iomportálaim/UI
 iomportálainn/J
 iomportálaithe/HMDBU
-iomroill/HMDBU
+iomroill/HMDU
 iomroll/HMDBUT
 iomrollach/HB
 iomrollacha/HB
@@ -6720,7 +6722,7 @@ ionchorparaíodh/HU
 ionchorparaítear/HU
 ionchorparaithe/HUBMD
 ionchorparú/HUBMDT
-ioncuim/HMDBU
+ioncuim/HMDU
 ioncum/HMDBUT
 ionfhoirfheidhmithe/HB
 iongantach/HB
@@ -8980,6 +8982,7 @@ rianadh
 rianaim/A
 rianainn/E
 rianta
+riaradh
 riaraí
 riaraigh
 riaraím/C

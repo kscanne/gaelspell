@@ -583,6 +583,8 @@ aerbhealaí/HBMDU
 aerbhealaigh/HBMDU
 aerbhrait/HBMDU
 aerbhrat/HBMDUT
+aerchóir/HBMDU
+aerchór/HBMDUT
 aerdhíonach/HBU
 aerdhíonacha/HBU
 aerdhíonaí/HBU
@@ -3828,6 +3830,8 @@ ardnósaí/HBU
 ardnósaigh/HBU
 ardóg/HBMDU
 ardóga/HBMDU
+ardoideachais/HBMDU
+ardoideachas/HBMDUT
 ardoifig/HBMDU
 Ard-Oifig
 ardoifige/HBMDU
@@ -9831,6 +9835,8 @@ breisiúil/US
 breisiúla/US
 breisluach/US
 breisluacha/US
+breisoideachais/US
+breisoideachas/US
 breith/US
 breithe/US
 breitheamh/US
@@ -13050,8 +13056,10 @@ ceangaltán/US
 ceangaltas/US
 ceanglaím/USC
 ceanglainne/US
+ceanglais/US
 ceanglann/US
 ceanglanna/US
+ceanglas/US
 ceanglóir/US
 ceanglóirí/US
 ceanglóra/US
@@ -17165,6 +17173,8 @@ comhairligh/US
 comhairlím/USC
 comhairlithe/US
 comhairliú/US
+comhairliúcháin/US
+comhairliúchán/US
 comhairthe/US
 comhaiseag/US
 comhaisig/US
@@ -17474,6 +17484,7 @@ comhfhiosaí/US
 comhfhiosaigh/US
 comhfhocail/US
 comhfhocal/US
+comhfhogasú/US
 comhfhoirmiúil/US
 comhfhoirmiúla/US
 comhfhreagair/US
@@ -32181,6 +32192,8 @@ forála/BMDUS
 forálacha/BMDUS
 forálaim/USI
 fóram/BMDUS
+foramhairc/BMDUS
+foramharc/BMDUS
 Forann/S
 foranna/BMDUS
 foraois/BMDUS
@@ -43455,7 +43468,11 @@ leasiníonacha
 léaslíne
 léaslínte
 leasmhac
+leasmhair
+leasmhaire
 leasmháithreacha
+leasmhar
+leasmhara
 leasmháthair
 leasmháthrach
 leasmhic
@@ -47406,6 +47423,7 @@ meabhairéislinní/S
 meabhairéislinnigh/S
 meabhairghalair/S
 meabhairghalar/S
+meabhairshláinte/S
 meabhal/S
 meabhalscáil/S
 meabhalscáile/S
@@ -48177,6 +48195,7 @@ meitéareolaíocha/S
 meitéareolaíocht/S
 meitéareolaíochta/S
 meitéareolaithe/S
+meiteashonraí/S
 meitéir/S
 méith/S
 méithe/S
@@ -49736,6 +49755,7 @@ modhnóir/S
 modhnóirí/S
 modhnóra/S
 modhnú/S
+modhnuithe/S
 modhúil/S
 modhúla/S
 modhúlacht/S
@@ -51028,6 +51048,8 @@ naíonáin
 naíonán
 naíonda
 naíonna
+naíonra
+naíonraí
 naip
 naipcín
 naipcíní
@@ -58407,6 +58429,9 @@ réamhriachtanas
 réamhscéal
 réamhscéalta
 réamhscéil
+réamhscoil
+réamhscoile
+réamhscoileanna
 réamhshampla
 réamhshamplaí
 réamhshocraí
@@ -59751,6 +59776,8 @@ rúnach
 rúnacha
 rúnaí
 rúnaigh
+rúnaíocht
+rúnaíochta
 rúnaithe
 rúnda
 rúndacht
@@ -70224,6 +70251,7 @@ teicnicí/US
 teicnící/US
 teicníocht/US
 teicníochta/US
+teicníochtaí/US
 teicniúil/US
 teicniúla/US
 teicniúlacht/US

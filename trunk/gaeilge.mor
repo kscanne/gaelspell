@@ -63,8 +63,8 @@ adhbhar/HBMDUT
 adóg/HBMDU
 adóga/HBMDU
 adóige/HBMDU
-adubhairt/U
-adúirt/U
+adubhairt
+adúirt
 aer/U
 aeraitheoir/HBMDUT
 aeraitheoirí/HBMDU
@@ -193,8 +193,9 @@ aithním/UC
 aithnínn/F
 aithníodh/HU
 aithnítear/HU
-aithnithe/HUBMD
-aithniú/HUBMDT
+aithnithe/HBMDU
+aithniú/HBMDUT
+aithniúint/HBMDU
 aithreach/HBU
 aithreacha/HBU
 aithrí/HBU
@@ -1570,7 +1571,6 @@ coirptheacha/US
 coirpthí/US
 coirpthigh/US
 coirrleach/US
-coirrleacha/US
 coirrlí/US
 coirt/US
 coirte/US
@@ -1699,6 +1699,8 @@ corporáideacha/US
 corporáidí/US
 corporáidigh/US
 corr/US
+corrlach/US
+corrlaigh/US
 corrmhíola/US
 corróg/US
 corróga/US
@@ -2273,6 +2275,7 @@ dhon
 dhósan
 dhréachta/U
 dhréachtainn/EU
+dhubhairt/U
 dhúinn
 dhúinne
 dhúirt/U
@@ -2495,7 +2498,6 @@ droch/US
 droch-íde/US
 drogóid/US
 drogóide/US
-drogóidí/US
 droighean/US
 droighin/US
 drois/US
@@ -2540,7 +2542,7 @@ dúbalta/US
 dubh/US
 dubhadh/US
 dubháin/US
-dubhairt/US
+dubhairt
 dubhán/US
 dubhcha/US
 dubhú/US
@@ -2560,7 +2562,7 @@ duirleoige/US
 duirneog/US
 duirneoga/US
 duirneoige/US
-d'úirt/US
+d'úirt
 duisín/US
 duisíní/US
 dúithche/US
@@ -2729,8 +2731,8 @@ eispéaras/HBMDUT
 éistínn/F
 éistíodh/HU
 éistítear/HU
-éistithe/HUBMD
-éistiú/HUBMDT
+éistithe/HBMDU
+éistiú/HBMDUT
 eiteachtáil/HBMDU
 eiteachtála/HBMDU
 eiteall/HBMDU
@@ -3137,11 +3139,15 @@ foirbhiú/BMDUS
 foiréigean/BMDUS
 foiréigin/BMDUS
 foirgint/BMDUS
+fóirint/BMDUS
+fóirinte/BMDUS
+fóirithin/BMDUS
+fóirithine/BMDUS
+fóiriúint/BMDUS
 foirmeálta/BUS
 fóirthin/BMDUS
 fóirthint/BMDUS
 fóirthinte/BMDUS
-fóirthintí/BMDUS
 folanna/BMDUS
 folchadh/BMDUS
 fónanna/BMDUS
@@ -3249,6 +3255,8 @@ fuathasach/BUS
 fuathasacha/BUS
 fuathasaí/BUS
 fuathasaigh/BUS
+fuathúil/BUS
+fuathúla/BUS
 fuíche/BUS
 fuileach/BUS
 fuileacha/BUS
@@ -3365,6 +3373,9 @@ gambairne/US
 gamóg/US
 gamóga/US
 gamóige/US
+ganasaíocht/US
+ganasaíochta/US
+ganfhios
 gaofach/US
 gaofacha/US
 gaofaí/US
@@ -4018,8 +4029,7 @@ ionlaím/UC
 ionlaínn/F
 ionlaíodh/HU
 ionlaítear/HU
-ionlaithe/HUBMD
-ionlú/HUBMDT
+ionlaithe/HUB
 ionmhais/HBMDU
 ionmhas/HBMDUT
 ionnais/HBMDU
@@ -4796,6 +4806,7 @@ neosfaidh
 n'fheadar
 nGaedhilg
 nGaedhilge
+nganfhios
 nGaolainn
 nGaolainne
 nGiana
@@ -5539,10 +5550,7 @@ Sasana/S
 sástaíocht/ST
 sástaíochta/S
 sáthach/S
-sáthacha/S
 sáthadh/S
-sáthaí/S
-sáthaigh/S
 scabail
 scabal
 scabhlaeireacht
@@ -6016,6 +6024,7 @@ smachtaim/A
 smachtainn/E
 smaoin
 smaoine
+smaoineadh
 smaoinim/A
 smaoininn/E
 smaointe
@@ -6079,6 +6088,7 @@ snidhe/S
 snig/ST
 snige/S
 snigeanna/S
+sniog/ST
 sníomhadóir/S
 sníomhadóirí/S
 sníomhadóra/ST
@@ -6114,8 +6124,12 @@ soin/S
 soirn/ST
 solamanta/S
 solasta/S
+soláthairt/ST
+soláthairte/S
+soláthairtí/S
+soláthrach/S
 soláthraí
-soláthraigh/S
+soláthraigh/ST
 soláthraím/SC
 soláthraínn/F
 soláthraithe/ST
@@ -6667,6 +6681,8 @@ throscainn/EU
 thugas/U
 thuilí/U
 thuilínn/FU
+thuille/U
+thuillinn/EU
 thuite/U
 thuitinn/EU
 thúsaí/U
@@ -6925,6 +6941,9 @@ truagha/US
 truaí/US
 truaigh/US
 truaighe/US
+truailleacht/US
+truailleachta/US
+truailleachtaí/US
 truaillitheacht/US
 truaillitheachta/US
 truaillitheachtaí/US
@@ -6985,6 +7004,10 @@ tuiligh/US
 tuilím/USC
 tuilithe/US
 tuiliú/US
+tuill/US
+tuilleadh/US
+tuillim/USA
+tuillte/US
 túirne/US
 tuirnéis/US
 tuirnéise/US
@@ -7129,6 +7152,7 @@ ulchan/HBMDU
 ullmhaíocht/HBMDU
 ullmhaíochta/HBMDU
 ultra/U
+úmach/HBMDU
 úmaí/U
 úmaídís/HU
 úmaigh/HU
@@ -7137,10 +7161,10 @@ ultra/U
 úmaínn/F
 úmaíodh/HU
 úmaítear/HU
-úmaithe/HUBMD
+úmaithe/HBMDU
 umhail/HBMDU
 umhaile/HBMDU
-úmú/HUBMDT
+úmú/HBMDUT
 ur/U
 úr/U
 Urdúis

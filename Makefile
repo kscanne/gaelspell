@@ -9,7 +9,7 @@ PERSONAL=daoine gall giorr logainm miotas stair
 
 #   Shouldn't have to change anything below here
 SHELL=/bin/sh
-RELEASE=3.0
+RELEASE=3.1
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor
@@ -68,11 +68,12 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff forproc.tar.gz ga.cwl
 
 distclean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff forproc.tar.gz ga.cwl
 	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga.dic
+	rm -f IG.temp EN.temp
 
 #############################################################################
 ### Remainder is for development only
@@ -219,6 +220,17 @@ mydist: ga.dic
 	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/README.txt
 	gzip $(MYTARFILE)
 	rm -f ../$(MYAPPNAME) README.txt
+
+ga.cwl: aspell.txt
+	LANG=C; export LANG; cat aspell.txt | sort -u | word-list-compress c > ga.cwl
+
+forproc: aspell.txt
+	cp README Copyright
+	cp gaeilge_phonet.dat ga_phonet.dat
+	chmod 644 aspell.txt ga_phonet.dat info Copyright
+	tar cvf forproc.tar Copyright ga_phonet.dat aspell.txt info
+	gzip forproc.tar
+	rm -f ga_phonet.dat Copyright
 
 adist: FORCE
 	sort -u $(PERSONAL) > proper

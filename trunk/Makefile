@@ -5,7 +5,7 @@ INSTALLATION=gaeilge
 ISPELLDIR=/usr/lib/ispell
 ISPELLBIN=/usr/bin
 INSTALL=/usr/bin/install
-PERSONAL=aitiuil daoine gall giorr logainm miotas stair
+PERSONAL=aitiuil daoine eachtar gall giorr logainm miotas stair
 
 #   Shouldn't have to change anything below here
 SHELL=/bin/sh
@@ -56,7 +56,12 @@ $(ALTAFFIXFILE): $(AFFIXFILE) gaeilgemor.diff
 
 personal: $(PERSONAL)
 	rm -f $(HOME)/.ispell_$(INSTALLATION) $(HOME)/.biobla
-	sort -u $(PERSONAL) > $(HOME)/.ispell_$(INSTALLATION)
+	sort -u $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > $(HOME)/.ispell_$(INSTALLATION)
+	sort -u biobla > $(HOME)/.biobla
+
+personalcheck: $(PERSONAL)
+	rm -f $(HOME)/.ispell_$(INSTALLATION)_check $(HOME)/.biobla
+	sort -u $(PERSONAL) > $(HOME)/.ispell_$(INSTALLATION)_check
 	sort -u biobla > $(HOME)/.biobla
 
 gaeilgelit.aff: $(AFFIXFILE)
@@ -98,7 +103,7 @@ fromdb : FORCE
 
 athfromdb : FORCE
 	$(GIN) 10
-	LC_COLLATE=ga_IE sort -u athfhocail > tempfile
+	LC_COLLATE=POSIX sort -u athfhocail | LC_COLLATE=ga_IE sort -k1,1 > tempfile
 	mv -f tempfile athfhocail
 
 sort: FORCE
@@ -114,6 +119,8 @@ sortpersonal: FORCE
 	mv tempfile aitiuil
 	sort -f daoine > tempfile
 	mv tempfile daoine
+	sort -f eachtar > tempfile
+	mv tempfile eachtar
 	sort -f gall > tempfile
 	mv tempfile gall
 	sort -f giorr > tempfile
@@ -124,6 +131,13 @@ sortpersonal: FORCE
 	mv tempfile miotas
 	sort -f stair > tempfile
 	mv tempfile stair
+	sort -f gaelu.in > tempfile
+	mv tempfile gaelu.in
+	sort -f earraidi > tempfile
+	mv tempfile earraidi
+
+checkearr: FORCE
+	sed 's/^[^ ]* //' earraidi | ispell -dgaeilge -l
 
 gaelu: gaelu.in
 	bash buildgael > gaelu
@@ -190,7 +204,7 @@ installweb: FORCE
 
 dist: FORCE
 	$(MAKE) ChangeLog
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile aitiuil biobla daoine gall giorr logainm miotas stair
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile aitiuil biobla daoine eachtar gall giorr logainm miotas stair
 	chmod 755 igcheck
 	ln -s ispell-gaeilge ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -205,6 +219,7 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/aitiuil
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/biobla
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/daoine
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/eachtar
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gall
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/giorr
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/igcheck
@@ -251,7 +266,7 @@ ga.cwl: aspell.txt
 ASPELLDEV = ${HOME}/gaeilge/gramadoir/ga/aspell
 
 adist: aspell.txt apersonal ChangeLog
-	chmod 644 aspell.txt README README.aspell gaeilge_phonet.dat info pearsanta repl
+	chmod 644 aspell.txt README README.aspell gaeilge_phonet.dat info pearsanta repl gaeilge.dat
 	cp -f README $(ASPELLDEV)/Copyright
 	cp -f README.aspell $(ASPELLDEV)/doc/README
 	cp -f gaeilge_phonet.dat $(ASPELLDEV)/ga_phonet.dat
@@ -260,6 +275,7 @@ adist: aspell.txt apersonal ChangeLog
 	cp -f pearsanta $(ASPELLDEV)/doc
 	cp -f repl $(ASPELLDEV)/doc
 	cp -f ChangeLog $(ASPELLDEV)/doc
+	cp -f gaeilge.dat $(ASPELLDEV)/ga.dat
 	aspellproc ga
 
 ChangeLog : FORCE

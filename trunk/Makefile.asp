@@ -18,6 +18,8 @@ all: FORCE
 personal: FORCE
 	mv $(HOME)/.aspell.gaeilge.pws $(HOME)/.aspell.gaeilge.pws.old
 	$(ASPELL) --lang=gaeilge create personal $(HOME)/.aspell.gaeilge.pws < proper
+	mv $(HOME)/.aspell.gaeilge.prepl $(HOME)/.aspell.gaeilge.prepl.old
+	$(ASPELL) --lang=gaeilge create repl $(HOME)/.aspell.gaeilge.prepl < athfhocail
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=gaeilge soundslike < $(RAWWORDS) > sounds.txt

@@ -93,6 +93,11 @@ fromdb : FORCE
 	$(MAKE) sort
 	$(MAKE) all
 
+athfromdb : FORCE
+	$(GIN) 10
+	sort -u athfhocail > tempfile
+	mv -f tempfile athfhocail
+
 sort: FORCE
 	sort -f $(RAWWORDS) > tempfile
 	mv tempfile $(RAWWORDS)
@@ -163,6 +168,8 @@ apersonal: $(PERSONAL)
 	sort -u $(PERSONAL) > temp.lst
 	$(ASPELL) --lang=gaeilge create personal $(HOME)/.aspell.gaeilge.pws < temp.lst
 	rm -f temp.lst
+	rm -f $(HOME)/.aspell.gaeilge.prepl
+	$(ASPELL) --lang=gaeilge create repl $(HOME)/.aspell.gaeilge.prepl < athfhocail
 
 installweb: FORCE
 	$(INSTALL_DATA) index.html $(HOME)/public_html/ispell
@@ -218,9 +225,10 @@ adist: FORCE
 	mv Makefile Makefile.tmp
 	cp Makefile.asp Makefile
 	cp README Copyright
-	chmod 644 aspell.txt gaeilge.dat gaeilge_phonet.dat COPYING README proper biobla Makefile info
+	chmod 644 aspell.txt gaeilge.dat gaeilge_phonet.dat COPYING README proper biobla Makefile info athfhocail
 	ln -s ispell-gaeilge ../$(AAPPNAME)
 	tar cvhf $(ATARFILE) -C .. $(AAPPNAME)/aspell.txt
+	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/athfhocail
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/info
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gaeilge.dat
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gaeilge_phonet.dat

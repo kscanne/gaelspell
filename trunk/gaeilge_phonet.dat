@@ -87,7 +87,7 @@ DH(EÉIÍ)-            Y        # athdhéan, caordhearg, cinedheighilt, etc.
 DHL(AUÚ)--           K        # comhdhlúthaigh, ^dhl-  only
 DHL(EIÍ)--           Y        # (mí|neamh)dhl(istean|eath|íthiú), ^dhl  only
 DHR(AÁOÓUÚ)--        K        # *dhroim,marbhdhra*,*dhr[áu]ma, ^dhr only
-DHR(ÉEIÍ)--          Y        # *dhreach, feirdhris, *dhréacht, ^dhr only
+DHR(ÉEIÍ)--          Y        # *dhreach,feirdhris,*dhréacht,*dhreasacht,^dhr
 D                    T        # note eclipsis of T via collapsing
 EAFAR--$             *V       # geafar, meafar only, FAR$ exception
 EOFAR--$             *        # silent verb ending, exception to OFAR$ except!

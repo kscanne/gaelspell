@@ -84,10 +84,10 @@ DIFEAR               T*V*R    # exception to FEAR$, ^difear$ only (nd- b4)
 DH$                  _        # [aáu]dh+most [io]dh done b4,[eéíóú]dh done here
 DH(AÁOÓUÚ)-          K        # athdhúchas, buídhonn, comhdháil, etc.
 DH(EÉIÍ)-            Y        # athdhéan, caordhearg, cinedheighilt, etc.
-DHLÚ--               K        # comhdhlúthaigh, ^dhlú-  only
+DHL(AUÚ)--           K        # comhdhlúthaigh, ^dhl-  only
 DHL(EIÍ)--           Y        # (mí|neamh)dhl(istean|eath|íthiú), ^dhl  only
-DHR(AÁOU)--          K        # (dobhar|uisce)dhroim,marbhdhra*,*dhr[áu]ma only
-DHR(ÉEI)--           Y        # *dhreach, feirdhris, *dhréacht  only
+DHR(AÁOÓUÚ)--        K        # *dhroim,marbhdhra*,*dhr[áu]ma, ^dhr only
+DHR(ÉEIÍ)--          Y        # *dhreach, feirdhris, *dhréacht, ^dhr only
 D                    T        # note eclipsis of T via collapsing
 EAFAR--$             *V       # geafar, meafar only, FAR$ exception
 EOFAR--$             *        # silent verb ending, exception to OFAR$ except!

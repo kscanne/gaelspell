@@ -114,7 +114,9 @@ adóimid fhadóimid
 adóimis fhadóimis
 adóinn fhadóinn
 adubhairt dúirt
+adubhairt ndúirt
 adúirt dúirt
+adúirt ndúirt
 aeraitheoir aerthóir
 aeraitheoirí aerthóirí
 aeraitheora aerthóra
@@ -1275,6 +1277,7 @@ b'eisiataigh b'eisiach
 b'eispéarais b'eispéiris
 b'eispéaras b'eispéireas
 b'éistithe b'éiste
+b'éistithe b'éisteachta
 b'éistiú b'éisteacht
 b'eiteachtáil b'eiteach
 b'eiteachtála b'eitigh
@@ -7600,8 +7603,6 @@ d'adóidís d'fhadóidís
 d'adóige d'fhadóige
 d'adóimis d'fhadóimis
 d'adóinn d'fhadóinn
-d'adubhairt dúirt
-d'adúirt dúirt
 d'aeraitheoir d'aerthóir
 d'aeraitheoirí d'aerthóirí
 d'aeraitheora d'aerthóra
@@ -8210,6 +8211,7 @@ d'éistíodar d'éisteadar
 d'éistíodh d'éisteadh
 d'éistíomar d'éisteamar
 d'éistíteá d'éisteá
+d'éistithe d'éisteachta
 d'éistítí d'éistí
 d'éistiú d'éisteacht
 d'eiteachtáil d'eiteach
@@ -8715,7 +8717,6 @@ d'fhuagróidís d'fhógróidís
 d'fhuagróimis d'fhógróimis
 d'fhuagróinn d'fhógróinn
 d'fhuaid fud
-d'fhuaireas fhuair
 d'fhuairnéal d'fhuairnéalach
 d'fhuairnéil d'fhuairnéalaigh
 d'fhuaradar d'fhuaraíodar
@@ -11335,6 +11336,7 @@ d'úmaíodar d'úmadar
 d'úmaíodh d'úmadh
 d'úmaíomar d'úmamar
 d'úmaíteá d'úmtá
+d'úmaithe d'úmtha
 d'úmaítí d'úmtaí
 d'umhail d'iúl
 d'umhaile d'iúil
@@ -11590,6 +11592,7 @@ eispéaras eispéireas
 éistíteá éisteá
 éistítear éistear
 éistithe éiste
+éistithe éisteachta
 éistítí éistí
 éistiú éisteacht
 eiteachtáil eiteach
@@ -12480,7 +12483,7 @@ fhriothálamh fhriotháileamh
 fhriotóir fhriotaí
 fhriotóirí fhriotaithe
 fhriotóra fhriotaí
-fhrítheadh fhuarthas
+fhrítheadh fuarthas
 fhuachaise uachaise
 fhuachaisí uachaisí
 fhuachais uachais
@@ -12514,7 +12517,6 @@ fhuagróimid fhógróimid
 fhuagróimis fhógróimis
 fhuagróinn fhógróinn
 fhuaid fud
-fhuaireas fuair
 fhuairnéal fhuairnéalach
 fhuairnéil fhuairnéalaigh
 fhuaradar fhuaraíodar
@@ -13024,6 +13026,7 @@ fuagrófar fógrófar
 fuagróidh fógróidh
 fuagróimid fógróimid
 fuaid fud
+fuaireas fuair
 fuairnéal fuairnéalach
 fuairnéil fuairnéalaigh
 fuaradh fuaraíodh
@@ -16618,6 +16621,7 @@ héistígí héistigí
 héistíodh héisteadh
 héistítear héistear
 héistithe héiste
+héistithe héisteachta
 héistiú héisteacht
 heiteachtáil heiteach
 heiteachtála heitigh
@@ -19311,6 +19315,7 @@ meisiúnóinn measúnóinn
 meisiúnú measúnú
 m'eispéarais m'eispéiris
 m'eispéaras m'eispéireas
+m'éistithe m'éisteachta
 m'éistiú m'éisteacht
 m'eiteachtáil m'eiteach
 m'eiteachtála m'eitigh
@@ -20495,6 +20500,7 @@ m'úllghort m'úllord
 m'ullmhaíochta m'ullmhachta
 m'ullmhaíocht m'ullmhacht
 m'úmach m'úma
+m'úmaithe m'úmtha
 m'umhaile m'iúil
 m'umhail m'iúl
 m'úmú m'úmadh
@@ -20676,8 +20682,6 @@ n-adóige bhfadóige
 n-adóimid bhfadóimid
 n-adóimis bhfadóimis
 n-adóinn bhfadóinn
-n-adubhairt ndúirt
-n-adúirt ndúirt
 nádúrthacha nádúrtha
 nádúrthach nádúrtha
 nádúrthaigh nádúrtha
@@ -22010,6 +22014,7 @@ n-éistíonn n-éisteann
 n-éistíteá n-éisteá
 n-éistítear n-éistear
 n-éistithe n-éiste
+n-éistithe n-éisteachta
 n-éistítí n-éistí
 n-éistiú n-éisteacht
 n-eiteachtáil n-eiteach
@@ -22054,6 +22059,7 @@ neomat nóiméad
 neosfaidh inseoidh
 neosfaidh n-inseoidh
 n-euro n-eoró
+n'fheadar ní fheadar
 ngabaireachta ngeabaireachta
 ngabaireacht ngeabaireacht
 ngabaire ngeabaire
@@ -25640,6 +25646,7 @@ seachnadh tseachaint
 seachnaigh seachain
 seachnaigh seachantaigh
 seachnaí seachantaí
+seachnaithe seachana
 seachnaithe seachanta
 seachnú seachaint
 seachnú tseachaint
@@ -25682,6 +25689,7 @@ seasaíonn seasann
 seasaí seasa
 seasaítear seastar
 seasaíteá seastá
+seasaithe seasaimh
 seasaithe seasta
 seasaítí seastaí
 seasódh seasfadh
@@ -25920,6 +25928,7 @@ sheachnadh sheachaint
 sheachnaigh sheachain
 sheachnaigh sheachantaigh
 sheachnaí sheachantaí
+sheachnaithe sheachana
 sheachnaithe sheachanta
 sheachnú sheachaint
 sheach shea
@@ -25956,6 +25965,7 @@ sheasaíonn sheasann
 sheasaí sheasa
 sheasaítear sheastar
 sheasaíteá sheastá
+sheasaithe sheasaimh
 sheasaithe sheasta
 sheasaítí sheastaí
 sheá shábh
@@ -26160,6 +26170,7 @@ shiúlaí shiúlóir
 shiúlaí shiúlóra
 shiúlaítear shiúltar
 shiúlaíteá shiúltá
+shiúlaithe shiúil
 shiúlaithe shiúlóirí
 shiúlaithe shiúlta
 shiúlaítí shiúltaí
@@ -26517,6 +26528,7 @@ sholáthrach sholáthraithe
 sholáthraigh sholáthair
 sholáthraigh sholáthraí
 sholáthraigh sholáthraithe
+sholáthraithe sholáthair
 sholáthraithe sholáthartha
 sholáthróirí sholáthraithe
 sholáthróir sholáthraí
@@ -26834,6 +26846,7 @@ siúlaí siúlóir
 siúlaí siúlóra
 siúlaítear siúltar
 siúlaíteá siúltá
+siúlaithe siúil
 siúlaithe siúlóirí
 siúlaithe siúlta
 siúlaítí siúltaí
@@ -27290,6 +27303,7 @@ soláthrach soláthraithe
 soláthraigh soláthair
 soláthraigh soláthraí
 soláthraigh soláthraithe
+soláthraithe soláthair
 soláthraithe soláthartha
 soláthróirí soláthraithe
 soláthróir soláthraí
@@ -29920,6 +29934,7 @@ tsaothróra tsaothraí
 tSasain Sasana
 tsástaíocht tsástacht
 tseabhóid tseafóid
+tseachnaithe seachana
 tseachtmhain tseachtain
 tsealbh sealbhán
 tsealbh tseilbh
@@ -29927,6 +29942,7 @@ tsealúis tsealúchais
 tseanchasaí tseanchaí
 tséaracht séarachas
 tséaraim tséirim
+tseasaithe tseasaimh
 tseá tsáibh
 tseiche tseithe
 tseilchide tseilide
@@ -29965,6 +29981,7 @@ tsíothcháin tsíocháin
 tsíoth tsíth
 tSír tSiria
 tsiubhail tsiúil
+tsiúlaithe tsiúil
 tsiúlaí tsiúlóra
 tsiúltóra tsiúlóra
 tsiúntáil siúntú
@@ -30012,6 +30029,7 @@ tsoill tsaill
 tsoirn sornóige
 tsoláthairt soláthar
 tsoláthraigh tsoláthraí
+tsoláthraithe tsoláthair
 tsoláthróra tsoláthraí
 tsollúntais sollúntachta
 tsomaigh tsomacháin

@@ -16612,6 +16612,7 @@ cóireáilte/US
 coireáin/US
 coiréal/US
 cóireála/US
+cóireálacha/US
 cóireálaim/USI
 Coireallach/S
 Coireallacha/S
@@ -18793,6 +18794,7 @@ creidmheach/US
 creidmheacha/US
 creidmheas/US
 creidmheasa/US
+creidmheasanna/US
 creidmhí/US
 creidmhigh/US
 creidte/US
@@ -23429,7 +23431,7 @@ deirigí/US
 deirim/US
 deirimid/US
 deirimis
-deirinn
+deirinn/US
 déiríocht/US
 déiríochta/US
 déirithe/US
@@ -23439,9 +23441,9 @@ deirmeolaíochta/US
 deirmeolaithe/US
 deirmitíteas/US
 deirmitítis/US
-deirteá
+deirteá/US
 deirtear/US
-deirtí
+deirtí/US
 deis/US
 deisbhéalach/US
 deisbhéalacha/US
@@ -31455,6 +31457,9 @@ folctha/USBMD
 foleantóir/BMDUS
 foleantóirí/BMDUS
 foleantóra/BMDUS
+foléas/BMDUS
+foléasa/BMDUS
+foléasanna/BMDUS
 foléim/BMDUS
 foléime/BMDUS
 foléimeanna/BMDUS
@@ -61016,7 +61021,9 @@ seachróid/ST
 seacht/ST
 seachtach/S
 seachtaigh/ST
+Seachtain/S
 seachtain/ST
+Seachtaine/S
 seachtaine/S
 seachtainí/S
 seachtainiúil/S
@@ -61255,11 +61262,13 @@ Seán/S
 sean/ST
 seana/S
 séana/S
+Seanad/S
 seanad/S
 séanadh/S
 seanadóir/S
 seanadóirí/S
 seanadóra/ST
+Seanaid/S
 seanaid/ST
 séanaim/SA
 seanaimseartha/S
@@ -63325,6 +63334,7 @@ sláintoideachas/S
 slais/ST
 slaise/S
 slaiseanna/S
+Slaite/S
 slaite/S
 Slaivis/S
 Slaivise/S
@@ -63412,6 +63422,7 @@ slapairí/S
 slapar/S
 slaparnach/ST
 slaparnaí/S
+Slat/S
 slat/ST
 slata/S
 slatach/S
@@ -63517,6 +63528,7 @@ sleasán/S
 sleasfhuinneog/ST
 sleasfhuinneoga/S
 sleasfhuinneoige/S
+Sléibhe/S
 sléibhe/ST
 sléibhín/ST
 sléibhíní/S
@@ -63532,6 +63544,7 @@ sléibhteora/ST
 sléibhtiúil/S
 sléibhtiúla/S
 slí/ST
+Sliabh/S
 sliabh/S
 sliabhraoin/ST
 sliabhraon/S
@@ -66993,6 +67006,7 @@ súgraigh/S
 súgraím/SC
 súgraínn/F
 súgraithe/S
+Suí/S
 suí/ST
 suibhe/S
 suibiacht/ST
@@ -67089,7 +67103,9 @@ suíochán/S
 suíomh/S
 suíonna/S
 súip/ST
+Suipéar/S
 suipéar/S
+Suipéir/S
 suipéir/ST
 súipín/ST
 súipíní/S
@@ -71524,6 +71540,7 @@ tSatairn
 tSathairn
 tSaváí
 tSeacaibítigh
+tSeachtain
 tSeachtú
 tSeacóibínigh
 tSead
@@ -71534,6 +71551,7 @@ tSealtainn
 tSealtannaigh
 tSean-Ghaill
 tSean-Tiomna
+tSeanaid
 tSeanbhoic
 tSeapáin
 tSeapáinis
@@ -71589,7 +71607,9 @@ tSiúr
 tSlaivis
 tSlánaithe
 tSlánaitheoraigh
+tSlat
 tSlavaigh
+tSléibhe
 tSligigh
 tSlóivéanaigh
 tSlóivéin
@@ -71618,8 +71638,10 @@ tSuasalainn
 tSuasalannaigh
 tSúdáin
 tSúdánaigh
+tSuí
 tSuiméaraigh
 tSuiméir
+tSuipéir
 tSúlú
 tSúlúlainn
 tSuranam

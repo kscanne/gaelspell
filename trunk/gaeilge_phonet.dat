@@ -1,5 +1,5 @@
 # Aspell phonetics for Irish, by Kevin Scannell <scannell@slu.edu>
-# Copyright 2000 Kevin P. Scannell
+# Copyright 2002 Kevin P. Scannell
 #
 #   This program is free software; you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
@@ -16,42 +16,53 @@
 #   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-version 1.1
+version 2.0
+followup 0                    # else breaks x,q rules
+collapse_result 1             # no double letters in resulting strings
 
-A(AEIOU¡…Õ”⁄)-       _
 ATHFH(AEIOU¡…Õ”⁄)-   *H       # athfhill, uathfheidhmeach
 ATH(BCDFGLMNPRST)-   *        # athlas, mionathr˙
-ADH<                 A        # bladhm, feadhain, tadhall, adhmad, -adh
-AGHI---              *        # exception to AGH< rule, corraghiob
-AGHLOIN------        *        # exception to AGH< rule, pleicseaghloine
-AGH<                 A        # slaghd·n, treaghd
+ADH                  *        # bladhm, feadhain, tadhall, adhmad, -adh$
+AGHI---              *        # exception to AGH rule, corraghiob
+AGHLOIN------        *        # exception to AGH rule, pleicseaghloine
+AGH                  *        # slaghd·n, treaghd, saghas
+AOMHFH--             *V       # naomhfh·idh only 
+AOMHF-               *        # faomhf- verb endings only
+AOMH(LNST)---        *        # faomht-, caomhn*, naomhluan, naomhsh- only
 A                    *
-¡(AEIOU¡…Õ”⁄)-       _
 ¡THFH(AEIOU¡…Õ”⁄)-   *H       # t·thfhÈithleann
 ¡TH(BCDFGLMNPRST)-   *        # f·thscÈal, gn·thchaint
 ¡                    *
-BP^                  B
-BHF^                 V
+BP                   B        # eclipsis + internal only for "subpoena"
+BHMH--               _        # taobhmhaor only
+BHFH--               V        # internal: dubhfhocal, marbhfh·isc
+BHF                  V        # eclipsis (+internal: scrÌobh, etc. v. endings)
 BH                   V        # includes bh$
 B                    B
+CGH--                _        # brioscghlÛrach, searcghr·  only
+CDH--                _        # spriocdh·ta, breacdhorcha, siocdhÛ only
+CHGH--               _        # m˙chghlan, seachghalar
+CHDH--               _        # drochdhaoine, smeachdh˙ntÛir
 CH                   K        # OK
 C                    K
+DT                   T        # eclipsis and internal: dochreidte, fadtÈarmach 
 DH$                  _
-DT^                  T
 DH(A¡O”U⁄)-          K
-DH(E…IÕ)             Y
+DH(E…IÕ)-            Y
 DHL⁄--               K        # comhdhl˙thaigh
 DHL(EIÕ)--           Y        # mÌdhleathach
 DHRO--               K        # dobhardhroim, uiscedhroim
 DHR(EI)--            Y        # tÌrdhreach, feirdhris 
 D                    T
-E(AEIOU¡…Õ”⁄)-       _
+EOMHF-               *        # leomhf- only, exception to -omh rule
+EOMHT---             *        # leomht- only, exception to -omh rule
 E                    *
-…(AEIOU¡…Õ”⁄)-       _
 …                    *
-FH                   _
+FPH                  F        # grafph·ipÈar only
+FH                   _        # fh preceded by vowel already done
 F                    V
-GC^                  K
+GC^                  K        # eclipsis
+GCH                  K        # internal: ÛgchiontÛir, bolgchaint
 GH$                  _
 GH(A¡O”U⁄)-          K        # bobghaiste
 GH(E…IÕ)-            Y        # athghin, luasghÈaraigh
@@ -63,66 +74,66 @@ GHN(A¡O”U⁄)--        K        # deasghn·th
 GHN(E…IÕ)--          Y        # leorgnÌomh
 G                    K
 H                    H        # between vowels,FaranhaÌt,forhalla,srl
-IUMH<                I
-I(AEIOU¡…Õ”⁄)-       _
 ITHFH(AEIOU¡…Õ”⁄)-   *H       # cithfholcadh
 ITH(BCDFGLMNPRST)-   *        # aithris, srl. 
 IDH(BCDFGLMNPRST)-   *        # feidhm, traidhfil, oidhre
 IGH(BCDFGLMNPRST)-   *        # foighne, caighde·n, oighrigh
 I                    *
-Õ(AEIOU¡…Õ”⁄)-       _
-ÕTH(S)-              *        # clÌthseach
-ÕTH(R)-              *H       # dÌthreabh, dÌthruailli˙, mÌthreoir, srl.
+ÕOMH(BFP)-           *        # prÌomhbhean, prÌomhph·irt, (l|r|sn)Ìomhf-
+ÕOMH(CDGLMNRST)---   *        # prÌomh-, exception to omh- rule
+ÕTHS-                *        # clÌthseach (no excp. needed for dÌthreabh,etc.)
 Õ                    *
-J                    J        # jab, diosc-jacaÌ
+J                    T        # jab, diosc-jacaÌ
 K^                   K        # karatÈ
 LFH                  L        # ceolfhoireann, s˙ilfhÈachaint
 LGH--                L        # timpeallghearr
 L(BFGM)-             L*       # epenthetic vowel
 LL-                  _
 L                    L
-MB^                  M
+MB^                  M        # eclipsis
+MHBH--               _        # neamhbhuan, rÈamhbhlas (omhbh dealt with b4)
+MHPH--               _        # neamhphÛsta, sn·mhphointe (omhph done b4)
+MHFH--               V        # cn·imhfhiach, neamhfh-, rÈamhfhios (omhfh done)
+MHF-                 _        # scamhf-, sn·mhf-, etc.
 MH                   V        # includes end of word+"w" sound+"ow"=*V (amhr·n)
 M                    M
-N(DG)^               N
-NFH                  N        # infheicthe, domhanfhad, rÈinfhia
-NGH--                N        # bangharda, fÌonghort
+NGN^                 N        # eclipsis (ngnÌomh)
+N(DG)^               N        # eclipsis
 N(BM)-               N*       # epenthetic vowel
 NN-                  _
 N                    N
 ONNCHA---            *N*      # epenthetic vowel
-O(AEIOU¡…Õ”⁄)-       _
+OMH(BCDFGLMNPRST)-   *        # comh-, Domhnach, etc. (several excpts b4 this)
 OTH(BCDFGLMNPRST)-   *        # cothrom
 ODH(BCDFGLMNPRST)-   *        # bodhr·n, modhnaigh, todhchaÌ
 OGHR⁄P-----          *        # exception to OGH rule, foghr˙pa
 OGHLUA-----          *        # exception to OGH rule, so/doghluaiste*
 OGH(BCDFGLMNPRST)-   *        # foghlaim, boghdÛir, toghch·n
 O                    *
-”(AEIOU¡…Õ”⁄)-       _
 ”                    *
 PH                   V        # OK
-P                    P
+P                    B
 QU^                  KV       # quinÌn
+ROMHF-               R*       # promhf- only, exception to -omh rule
+ROMHT---             R*       # promht- only, exception to -omh rule
 RFH                  R        # eagarfhocal
 RGH--                R        # daorghalar
 R(BFGM)-             R*       # epenthetic vowel
 RR-                  _
 R                    R
-TS^                  T
 SH                   H        # OK
 S                    S
+TS^                  T        # prefix-t
 TH$                  _
 TH                   H
 TT-                  _        # lottÛ
 T                    T
-UMH<                 U
-U(AEIOU¡…Õ”⁄)-       _
+UMH                  *        # cumhacht, umhal, umhlaÌocht, ciumhais
 UTH(L)-              *        # sruthlaigh
 ULCH--               *L*      # epenthetic vowel, ulcha, tulch·n
 URCH(A”)---          *R*      # epenthetic vowel, urchar, urchall, urchÛid, srl
 UDH(BCDFGLMNPRST)-   *        # mudh*
 U                    *
-⁄(AEIOU¡…Õ”⁄)-       _
 ⁄TH(BCDFGLMNPRST)-   *        # l˙thchleasa, d˙thracht
 ⁄                    *
 V                    V
@@ -133,3 +144,20 @@ X                    KS       # Marxach
 Y                    Y        # yÛyÛ
 ZZ-                  _        # pizza
 Z                    S
+#############################################################################
+#     Encoded sounds     ---->      Allowable characters
+#   (notation from FoclÛir PÛca)    in translated string
+#############################################################################
+#    all strings of vowels                   *
+#    /b/,/b'/,/p/,/p'/                       B
+#    /h/                                     H
+#    /k/,/k'/,/g/,/g'/,/gamma/,/x/,/x'/      K
+#    /l/,/l'/                                L
+#    /m/,/m'/                                M
+#    /n/,/n'/                                N
+#    /r/,/r'/                                R
+#    /s/,/s'/,/z/,/z'/                       S
+#    /d/,/d'/,/t/,/t'/,/d'z'/                T
+#    /f/,/f'/,/v/,/v'/,/w/,/au/=*V           V
+#    /gamma'/                                Y
+#############################################################################

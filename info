@@ -1,13 +1,14 @@
 name_english Irish
+name_ascii Gaeilge
 lang ga
 author:
   name  Kevin P. Scannell
   email scannell at slu edu
   maintainer true
 copyright GPL
-version 0.50-3
+version 0.50-5
 url http://borel.slu.edu/ispell/index.html
-source-version 3.3
+source-version 3.4
 charset iso8859-1
 special	' -*- - -*-
 soundslike phonet

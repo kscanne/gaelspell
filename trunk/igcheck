@@ -18,10 +18,10 @@ cat $1 | egrep '[aeiouáéíóúhjlnrvxz]h' | egrep -v '[aeiouáéíóú]h[aeiouáéíóú]' | 
 cat $1 | egrep 'sh[^aeiouáéíóúlnr]'
 ## check for eclipsis and lenition of same consonant
 ## so it suffices to check m?bh? later...
-cat $1 | egrep 'mbh' | egrep -v "^([bdm]'|h|[nt]-)?io?mbh" | egrep -v "^(d?th?rombhua|g?ch?ambh|([bdm]'|bh)?fh?uaimbhai?c)"
-cat $1 | egrep 'ndh' | egrep -v 'fh?lanndhe[ai]rg([ae])?$'
-cat $1 | egrep '(bp|ts|dt)h'
-cat $1 | egrep '^(gc|ng|bhf)h'
+cat $1 | egrep 'm[bB]h' | egrep -v "^([bdm]'|h|[nt]-)?io?mbh" | egrep -v "^(d?th?rombhua|g?ch?ambh|([bdm]'|bh)?fh?uaimbhai?c)"
+cat $1 | egrep 'n[dD]h' | egrep -v 'fh?lanndhe[ai]rg([ae])?$'
+cat $1 | egrep '(b[pP]|t[sS]|d[tT])h'
+cat $1 | egrep '^(g[cC]|n[gG]|bh[fF])h'
 echo 'Checking for repeated letters...'
 cat $1 | egrep '([^lnr])\1' | egrep -v '^(b?ph?izza|sh?núú|lottó)'
 cat $1 | egrep '([lnr])\1\1'

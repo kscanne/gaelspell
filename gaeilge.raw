@@ -2891,6 +2891,9 @@ anacandaí/HBMDU
 anachain/HBMDU
 anachaine/HBMDU
 anachana/HBMDU
+anaclainne/HBMDU
+anaclann/HBMDU
+anaclanna/HBMDU
 anacra/HBMDU
 anacrach/HBU
 anacracha/HBU
@@ -3635,6 +3638,7 @@ aontumha/HBMDU
 aontumhach/HBMDUT
 aontumhaigh/HBMDU
 aonú/HBMDUT
+aonuaire/HBU
 aor/HU
 aora/U
 aorach/HBU
@@ -10798,6 +10802,8 @@ buanaím/USC
 buanaithe/US
 buanbhaile/US
 buanbhailte/US
+buanchoiste/US
+buanchoistí/US
 buanchompánach/US
 buanchompánaigh/US
 buanchruth/US
@@ -11148,7 +11154,9 @@ bun/US
 bunábhair/US
 bunábhar/US
 bunachair/US
+bunachais/US
 bunachar/US
+bunachas/US
 bunadh/US
 bunaíche/US
 bunaidh/US
@@ -15018,6 +15026,7 @@ cigiltigh/US
 cigire/US
 cigireacht/US
 cigireachta/US
+cigireachtaí/US
 cigirí/US
 ciglím/USC
 cíle/US
@@ -17808,6 +17817,8 @@ comhchruthacha/US
 comhchruthaí/US
 comhchruthaigh/US
 comhchuí/US
+comhchuibhithe/US
+comhchuibhiú/US
 comhchuimhne/US
 comhchuingeach/US
 comhchuingeacha/US
@@ -32828,9 +32839,12 @@ fónamhaí/BMDUS
 fónamhaithe/BMDUS
 fonascúil/BUS
 fonascúla/BUS
+fondúir/BMDUS
 fondúireacht/BMDUS
 fondúireachta/BMDUS
 fondúireachtaí/BMDUS
+fondúirí/BMDUS
+fondúra/BMDUS
 fonn/BMDUS
 fonnadh/BMDUS
 fonnadóir/BMDUS
@@ -34873,6 +34887,7 @@ gaolmhair/US
 gaolmhaire/US
 gaolmhaireacht/US
 gaolmhaireachta/US
+gaolmhaireachtaí/US
 gaolmhar/US
 gaolmhara/US
 gaolta/US
@@ -37552,6 +37567,8 @@ gnáthshaol/US
 gnáthstaid/US
 gnáthstaide/US
 gnáthstaideanna/US
+gnáth-theanga/US
+gnáth-theangacha/US
 gnáthú/US
 gnáthúsáideoir/US
 gnáthúsáideoirí/US
@@ -38602,6 +38619,8 @@ grúim/US
 grúis/US
 grúm/US
 grúmaeir/US
+grúmaeireacht/US
+grúmaeireachta/US
 grúmaeirí/US
 grúmaera/US
 grúnlais/US
@@ -40924,6 +40943,10 @@ ildiachaí/HBMDUT
 ildiachais/HBMDU
 ildiachaithe/HBMDU
 ildiachas/HBMDUT
+ildisciplíneach/HBU
+ildisciplíneacha/HBU
+ildisciplíní/HBU
+ildisciplínigh/HBU
 íle/HBMDU
 ileaglasta/HBU
 iléam/HBMDUT
@@ -41094,7 +41117,10 @@ Imeacht
 imeacht/HBMDUT
 Imeachta
 imeachta/HBMDU
+imeachtach/HBU
+imeachtacha/HBU
 imeachtaí/HBMDU
+imeachtaigh/HBU
 imeachtair/HBMDU
 imeachtar/HBMDUT
 imeachtrach/HBU
@@ -43793,6 +43819,8 @@ lándorchaithe
 lándorchú
 lánéiclips
 lánéiclipseanna
+lánéifeacht
+lánéifeachta
 lánfhada
 langa
 langaí
@@ -44630,6 +44658,9 @@ leathfhocail
 leathfhocal
 leathfholaíocht
 leathfholaíochta
+leathlá
+leathlae
+leathlaethanta
 leathlaí
 leathláimh
 leathláimhe
@@ -53390,6 +53421,7 @@ neamhnáireach
 neamhnáireacha
 neamhnáirí
 neamhnáirigh
+neamhnáisiúnta
 neamhní
 neamhnigh
 neamhním/C
@@ -53452,6 +53484,10 @@ neamhrialta
 neamhrialtacht
 neamhrialtachta
 neamhrialtachtaí
+neamhrialtasach
+neamhrialtasacha
+neamhrialtasaí
+neamhrialtasaigh
 neamhroinnte
 neamhscagach
 neamhscagacha
@@ -54612,6 +54648,7 @@ nua-aoisithe
 nuabheirthe
 Nua-Bhreatain
 Nua-Bhreataine
+nuabhunaithe
 nuachair
 Nua-Chaladóin
 Nua-Chaladóine
@@ -55835,6 +55872,7 @@ ornaítear/HU
 ornaithe/HBMDU
 órnite/HBU
 ornú/HBMDUT
+oró
 órphlátáilte/HBU
 órscoth/HBMDU
 órscotha/HBMDU
@@ -58498,6 +58536,9 @@ príomh-airí/US
 príomhaisteoir/US
 príomhaisteoirí/US
 príomhaisteora/US
+príomháit/US
+príomháite/US
+príomháiteanna/US
 príomhaithe/US
 príomhamhránaí/US
 príomhamhránaithe/US
@@ -60196,6 +60237,10 @@ rialtáin
 rialtais
 rialtán
 rialtas
+rialtasach
+rialtasacha
+rialtasaí
+rialtasaigh
 rialtóir
 rialtóirí
 rialtóra
@@ -68647,6 +68692,9 @@ sprioca
 spriocadh
 spriocaim/A
 spriocainn/E
+sprioc-am
+sprioc-ama
+sprioc-amanna
 spriocanna
 sprioc-chomhad
 sprioc-chomhadlainne
@@ -71900,6 +71948,9 @@ téigh/US
 téigí/US
 tÉigipteach
 téigle/US
+téiglí/US
+téiglíocht/US
+téiglíochta/US
 teile/US
 teileachomhdháil/US
 teileachomhdhála/US
@@ -72583,6 +72634,7 @@ thrustainn/EU
 thú
 thua/U
 thuaidh
+Thuaidh-Theas
 thuainn/EU
 thuairgní/U
 thuairgnínn/FU
@@ -73916,6 +73968,7 @@ trádghaotha/US
 tradhaill/US
 trádmhairc/US
 trádmharc/US
+trádmharcanna/US
 trádstórais/US
 trádstóras/US
 trae/US
@@ -74045,6 +74098,9 @@ traschóimheas/US
 traschóimheasa/US
 trasduchtaire/US
 trasduchtairí/US
+trasduchtóir/US
+trasduchtóirí/US
+trasduchtóra/US
 trasdul/US
 trasdula/US
 trasfheisteoir/US
@@ -75755,6 +75811,8 @@ uaschuimsí/HBMDU
 uaschúirt/HBMDU
 uaschúirte/HBMDU
 uaschúirteanna/HBMDU
+uasdátaithe/HBMDU
+uasdátú/HBMDUT
 uasfhad/HBMDUT
 uasfhaid/HBMDU
 uasghrádaí/U

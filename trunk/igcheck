@@ -1,37 +1,52 @@
 ## This shell script checks a list of words for potential
 ## spelling problems.  It is provided for your hacking pleasure.
-## I usually 'make full' and then run 'gaeilge.full' through this
+##
+## It is designed to work with a raw list of words, one per line.
+## % igcheck <wordlist>
+##
 ## Uncomment the last couple of lines if you have time to browse
 ## through the (usually legal) violations of 
 ## "broad with broad", "slender with slender"
 
+### ODD LETTERS
+echo 'Checking for non-alphabetic characters...'
+cat $1 | egrep "[^a-zA-ZáéíóúÁÉÍÓÚ'\-]"
 echo 'Checking for j...'
-cat $1 | egrep 'j' | egrep -v '^n?dh?iosc-j' | egrep -v '^j'
+cat $1 | egrep '[jJ]' | egrep -v '^(j|n?dh?iosc-j)'
 echo 'Checking for k...'
-cat $1 | egrep 'k' | egrep -v '^karaté'
+cat $1 | egrep '[kK]' | egrep -v '^karaté$'
 echo 'Checking for q...'
-cat $1 | egrep 'q' | egrep -v '^quinín' | egrep -v '^quarto'
+cat $1 | egrep '[qQ]' | egrep -v '^qu(inín|arto)$'
+# for v, see Litriú na Gaeilge, Rule 20, lch 121
 echo 'Checking for v...'
-cat $1 | egrep 'v' | egrep -v "^(.?|[bdm]')[A-ZÁÉÍÓÚ]" | egrep -v '(volt|nóva|vialait|vinil)' | egrep -v "^([bdm]'|h|[nt]-)?(aircí|inveirteab)" | egrep -v '^(v|sva|leiviata|ribeaflaivin|g?ch?ileav|n?dh?ordveidh|mh?eindiléiv)'
+cat $1 | egrep '[vV]' | egrep -v "^(.?|[bdm]')[A-ZÁÉÍÓÚ]" | egrep -v '(volt|nóva|vialait|vinil)' | egrep -v "^([bdm]'|h|[nt]-)?(aircí|inveirteab)" | egrep -v '^([vV]|sva|leiviata|ribeaflaivin|g?ch?ileav|n?dh?ordveidh|mh?eindiléiv)'
 echo 'Checking for w...'
-cat $1 | egrep 'w' | egrep -v '^wigwam'
+cat $1 | egrep '[wW]' | egrep -v '^wigwam'
 echo 'Checking for x...'
-cat $1 | egrep 'x' | egrep -v '^x' | egrep -v '^Mh?arx.'
+cat $1 | egrep '[xX]' | egrep -v '^x' | egrep -v '^Mh?arx.'
 echo 'Checking for y...'
-cat $1 | egrep 'y' | egrep -v '^yóyó'
+cat $1 | egrep '[yY]' | egrep -v '^yóyó'
 echo 'Checking for z...'
-cat $1 | egrep 'z' | egrep -v '^(z|b?ph?izza|b?ph?uza)' | egrep -v "^([bdm]'|h|[nt]-)?ózó"
+cat $1 | egrep '[zZ]' | egrep -v '^(z|b?ph?izza|b?ph?uza)' | egrep -v "^([bdm]'|h|[nt]-)?ózó"
+
+### LENITION and VOWELS
 echo 'Checking lenition...'
-cat $1 | egrep '[aeiouáéíóúhjlnrvxz]h' | egrep -v '[aeiouáéíóú]h[aeiouáéíóú]' | egrep -v 'Fh?aranhaít' | egrep -v 'Ch?óbanhávan' | egrep -v "^([bdm]')?fhorhalla" | egrep -v '(bh)?forhalla' | egrep -v "([bdm]'|h|[nt]-)?unnailheicsiam"
+cat $1 | egrep '[aeiouáéíóúhjlnrvxz]h' | egrep -v '[aeiouáéíóú]h[aeiouáéíóú]' | egrep -v 'Fh?aranhaít' | egrep -v '^g?Ch?óbanhávan' | egrep -v "^([bdm]')?fhorhalla" | egrep -v '(bh)?forhalla' | egrep -v "^([bdm]'|h|[nt]-)?unnailheicsiam"
 cat $1 | egrep 'sh[^aeiouáéíóúlnr]'
+## check for eclipsis and lenition of same consonant
+## so it suffices to check m?bh? later...
+cat $1 | egrep 'mbh' | egrep -v "^([bdm]'|h|[nt]-)?io?mbh" | egrep -v "^(d?th?rombhua|g?ch?ambh|([bdm]'|bh)?fh?uaimbhai?c)"
+cat $1 | egrep 'ndh' | egrep -v 'fh?lanndhe[ai]rg([ae])?$'
+cat $1 | egrep '(bp|ts|dt)h'
+cat $1 | egrep '^(gc|ng|bhf)h'
 echo 'Checking for repeated letters...'
-cat $1 | egrep '([^lnr])\1' | egrep -v '^(b?ph?izza|sh?núú|lottó)'
-cat $1 | egrep '([lnr])\1\1'
+#cat $1 | egrep '([^lnr])\1' | egrep -v '^(b?ph?izza|sh?núú|lottó)'
+#cat $1 | egrep '([lnr])\1\1'
 cat $1 | egrep '(aá|áa|eé|ée|ií|ií|oó|óo|uú|úu)'
 echo 'Checking for weird diphthongs...'
 cat $1 | egrep '([iouáíóú][eé]|aé)' | egrep -v '^(bhuel|hiéana|t?sh?ubpoena)'
 cat $1 | egrep '[aeoáéíó]u'
-cat $1 | egrep '[íoóú][aá]' | egrep -v '^(sh?eampú|m?bh?uíá|g?ch?ó[aá]|reoá|t?sh?aíá)' | egrep -v 'iúáil' | egrep -v 'Gh?úam'
+cat $1 | egrep '[íoóú][aá]' | egrep -v '^(sh?eampú|m?bh?uíá|g?ch?ó[aá]|reoá|t?sh?aíá)' | egrep -v 'iúáil' | egrep -v '^n?Gh?úam$'
 cat $1 | egrep '[aáeéoó]ú' | egrep -v '^(m?bh?áú|g?ch?réú|n?dh?óú|n?gh?laeú|naoú|neamhbháú|t?sh?éú|t?sh?óú)'
 cat $1 | egrep '[aáéíú]ó' | egrep -v '^(m?bh?uíó|n?dh?laíó|mh?éóis|réó)'
 cat $1 | egrep '(eí|é[áío]|[áuú]o)'
@@ -39,6 +54,78 @@ echo 'Checking for weird triphthongs...'
 cat $1 | egrep '[aeiouáéíóú][aeiouáéóú][aeouáéíóú]' | egrep -v '(uaí|iúá)' | egrep -v "^(([bdm]'|h|[nt]-)?aeó|n?gh?lae|hiéan|náia|naoú|b?ph?aranóia|reoá|s[pt]raeá)"
 cat $1 | egrep '(eó|éa|io|iu|ío|uó)i' | egrep -v "^(([bdm]'|h|[nt]-)?aeóin|n?gh?iuirl|sciuir)" | egrep -v 'uóige'
 cat $1 | egrep '[aouáóú]íú' | egrep -v '^(buí|g?ch?roíú|dlaíó|saíá|spraíú)' | egrep -v 'gh?naíú'
+
+## Initial position
+echo 'Checking for funny starting combinations...'
+cat $1 | egrep '^[bcdfghlmnprt]h?[bcdfgmnpst]' | egrep -v '^(b(p|hf)|[cgt]h?n|gc|mb|n[dg]|ts|dt)' | egrep -v '^mh?ná$'
+cat $1 | egrep '^(s[bdg]|[lmnr][lr])'
+
+## Terminal position
+echo 'Checking for funny ending combinations...'
+cat $1 | egrep '[bcdfghmpst][bcdfglmnprs]$' | egrep -v '(sc|dh[a-z]|[ptc]s|ai?sp|iamb|mp|t.*ghd)$'
+cat $1 | egrep '[^bcdgmt]h$'
+cat $1 | egrep '[bcdeéfghm]t$' | egrep -v '(ch|ing|abh)t$' | egrep -v '(sh?ei[cf]|ch?raif)t$'
+cat $1 | egrep 'l[bdhinorsu]$' | egrep -v '(bh?oi?lb|gh?ild|scoi?lb)$'
+cat $1 | egrep 'n[dfhilmopru]$' | egrep -v '(ainm|sh?einm|sh?oicind|^Alaind)$'
+
+## from Litriú na Gaeilge 
+echo 'Checking for pre-standard spellings (Litriú na Gaeilge rules)...'
+# Rule 2.a, lch 103
+cat $1 | egrep 'tch' | egrep -v '^(g?ch?(airtchlá|eartch|ruitchorda)|n?dh?íotchúis|smúitcheo|Státchiste|d?th?oitcheo|vástchóta)'
+# Rule 3.I.b, lch 104.  ÓD lch viii -aidhe -> -aí
+cat $1 | egrep 'dhe$' | egrep -v '(aghaidhe|réidhe)$' | egrep -v "^([bdm]'|h|[nt]-)?(fhlidhe|[ou]idhe|uídhe)" | egrep -v '^(luaidhe|(bh)?flidhe|m?bh?úidhe|g?Ch?oimdhe|d?th?eidhe|sh?oraidhe|spleidhe)$'
+# Rule 3.II.b, lch 105  (exceptions include some "lit." spellings)
+cat $1 | egrep 'adha.' | egrep -v "^([bdm]'|h|[nt]-)?adha" | egrep -v '(th?adhai?ll|radhai?rc|n?gh?adhai?r)' | egrep -v '^(m?bh?anadhaltra|n?gh?leadha|spadha)' | egrep -v "^(g?ch?adhai?[ln]|g?ch?eannadhairt|g?ch?ladha|m?bh?ladha|d?th?radhaill|mh?eadhar|ladhar|g?ch?eadharla)" | egrep -v "^([bdm]')?fhe?adha" | egrep -v "^(bh)?fe?adha"
+# Rule 3.II.c, lch 105
+cat $1 | egrep 'aedh(ea|i)'
+# Rule 3.II.e, lch 105
+cat $1 | egrep 'idhea' | egrep -v 'idheanna?$' | egrep -v '(infridhearg|fh?áidheadóireacht)a?$' | egrep -v '(uidheadha|fh?eidheartha)$' | egrep -v '^(g?ch?á|d?th?e)idheacha?$'
+# Rule 4, lch 106
+cat $1 | egrep '[bm]hth' | egrep -v '^(réamh|leath|(bh?)fh?rith|neamh|b?ph?ríomh|g?ch?oi?mh|ríomh)th' | egrep -v 'ubhthorai?dh' | egrep -v '^(n?dh?o-chomhthomha|n?gh?eamhthro|d?th?aobhthro|n?dh?ubhthuirs|leamhthuirse$|rabhtha[rs]$)'
+# Rule 6.I.b, lch 106
+cat $1 | egrep 'ghe$' | egrep -v '^(n?dh?[aáó]|(bh)?fh?r?a|sh?eo|t?sh?o|d?th?ro|n?dh?eide|mh?a)ighe$' | egrep -v "^[bdm]'fhraighe" | egrep -v "^([bdm]'|h|[nt]-)?([aoó]|andó|éadó|ua)ighe"
+# Rule 6.I.c, lch 107, exceptions are literary
+cat $1 | egrep 'ugh' | egrep -v '^m?bh?rugh'
+# Rule 6.II.b, lch 107, exceptions are literary
+cat $1 | egrep '.ghail' | egrep -v 'fh?oghail$' | egrep -v 'iorghaile$' | egrep -v '^(n?dh?íoghail|d?th?oghail)$'
+# Rule 8.b, lch 108
+cat $1 | egrep 'tht'
+# Rule 14.a i and ii, lch 113
+cat $1 | egrep 'll[rs]' | egrep -v '([oO]lls|bhallra)' | egrep -v '^(n?dh?allr|m?ballra|n?dh?uillsilt|n?gh?éillsin|g?ch?allshaoth|g?ch?eallra|stiallscann)'
+# Rule 14.b.ii, sonnda is literary, lch 113
+cat $1 | egrep 'nnd' | egrep -v 'nndh?e[ai]rg' | egrep -v '^(lionndubh|g?ch?eanndán|sh?onnda$)'
+# Rule 14.b.iv, loinnreach/mainnre are genitives, lch 113
+cat $1 | egrep 'nnr' | egrep -v '(nnrua|loinnreach)$' | egrep -v '^(g?ch?eannr|mh?ainnre)'
+# Rule 14.b.v, annsan is emphatic pronomial, not ==ansin, lch 113
+cat $1 | egrep 'nns' | egrep -v '^(g?ch?eanns|n?dh?innseanch|n?gh?rinnscr|b?ph?roinnseomra|g?ch?rannseil|mh?ionnscríbhinn)' | egrep -v '^annsan$'
+# Rule 15.a, lch 114
+cat $1 | egrep 'ln' | egrep -v '(iailnimh|ilnáisiúnta|ollnóva|ulna|ilnithe$)'  | egrep -v '^(b?ph?ailn|m?bh?allnai?sc$)'
+# Rule 15.b, oirmhidne is literary genitive, lch 114
+cat $1 | egrep 'dn' | egrep -v '(ardnósa|oirmhidne$)' | egrep -v '^(m?bh?róidn|m?bh?airdne$|mh?aidneachai?n$)'
+# Rule 16.a.i, lch 115
+cat $1 | egrep 'sg' | egrep -v 'aisgh(níomh|abh|air|afa$)|fh?olúsghlantó|uasghrád|aoisghrúpa'  | egrep -v '^(luasgh|b?ph?easghad|g?ch?leasghleac|g?ch?raosghalai?r$|g?ch?rosgho|n?dh?easghná|d?th?re?asgh|n?gh?lasgh|neasghao|rósghairdíní?$)'
+# Rule 16.a.iii, lch 115
+cat $1 | egrep 'sd' | egrep -v '(aisdúich|eisdírith|osduine$)' | egrep -v '^(g?ch?osdearg|d?th?easdhí|d?th?rasdu|leasde|rósd)'
+# Rule 19.g, lch 121, bladha, miadha, mudha, spleadha  literary
+cat $1 | egrep 'dha$' | egrep -v '(fhea|uidhea)dha$' | egrep -v '^((bh)?fea|m?bh?la|mh?(ia|u|o)|splea)dha$'
+# Rule 23.I.a, lch 123
+cat $1 | egrep 'árr'
+# Rule 23.I.b, lch 123
+cat $1 | egrep 'éir[dl]' | egrep -v '^(léirlé|spéirl)'
+# Rule 24, lch 124
+cat $1 | egrep "(-.*-|'.*')" | egrep -v '(earraí-le-roinnt$|éan-féin-é$)' | egrep -v '^[nt]-'
+cat $1 | egrep '-' | egrep -v "(-.*-|'.*')" | egrep -v '^([nt]-[aeiouáéíóú]|an-|n?dh?ea-|x-gha)' | egrep -v '([bcdfglmnprst]h?)-(\1|h)' | egrep -v '[aeiouáéíóú]-[aeiouáéíóú]' | egrep -v '[A-ZÁÉÍÓÚ].*-[A-ZÁÉÍÓÚ]' | egrep -v "(ion-anál|^(bh|[bdm]')?(fh?o-[abcéegirt]|fh?rith-chuaran)|^g?ch?omh-a|^n?dh?o-(chomh|gh|ranna|scartha)|t?sh?o-(bh|gha|ranna)|t?sh?(in-sean|íos-lucht)|^([bdm]'|h)?a[mn]-)" | egrep -v '(-ca$|^g?ch?(oisí-clois|raobh-abh)|iar-tharraing|órang-úta|^n?dh?iosc-jaca|^d?th?(adhall-íogair|iuf-teaf)|^m?bh?an-ab|^b?ph?ríomh-(air|bhanaist)|^n?gh?(áma-gha|ar-amha|earr-(aighn|chlóscrío?bh))|^(réalt|spás)-am(a|anna)?$|^hais-táblaí?$|^hurdaí-gurda|^nua-staire?$|^neamh-(a|chomh|shain)|^mh?ór-(ais|éil)|^t-léint?e$|^u-chasadh$|^V-mhuineál$)'
+# Rule 25, lch 127
+cat $1 | egrep "'" | egrep -v "^(m?b|[dm])'"
+
+# Others of a similar nature
+# ÓD lch viii  -amhail -> -úil
+cat $1 | egrep 'amhail$' | egrep -v '(sh?|^)amhail$'
+# ÓD lch viii  -éaracht -> -éireacht
+cat $1 | egrep 'éaracht$' | egrep -v '^mh?éaracht$'
+
+
+### Optional Broad/Broad, Slender/Slender check... lots of exceptions.
 #echo 'Checking for broad/slender or slender/broad...'
 #cat $1 | egrep '[aáoóuú][bcdfghlmnprst]+[iíeé]' | more
 #cat $1 | egrep '[iíeé][bcdfghlmnprst]+[aáoóuú]' | more

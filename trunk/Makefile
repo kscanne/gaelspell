@@ -1,7 +1,9 @@
 # Makefile ispell-gaeilge
 
 ISPELLDIR=/usr/local/lib
-RELEASE=0.1
+ISPELLBIN=/usr/local/bin
+MAKE=/usr/local/bin/make
+RELEASE=0.2
 RAWWORDS= gaeilge.raw
 AFFIXFILE= gaeilge.aff
 HASHFILE= gaeilge.hash
@@ -9,17 +11,17 @@ APPNAME=ispell-gaeilge-$(RELEASE)
 TARFILE=$(APPNAME).tar
 
 $(HASHFILE): $(RAWWORDS) $(AFFIXFILE)
-	buildhash $(RAWWORDS) $(AFFIXFILE) $(HASHFILE)
+	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) $(HASHFILE)
 
 clean:
 	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full
 
 reallyclean:
-	make clean
+	$(MAKE) clean
 	rm -f *.hash
 
 munch:
-	munchlist -v -l $(AFFIXFILE) $(RAWWORDS) > tempfile
+	$(ISPELLBIN)/munchlist -v -l $(AFFIXFILE) $(RAWWORDS) > tempfile
 	mv tempfile $(RAWWORDS)
 
 sort:
@@ -27,13 +29,13 @@ sort:
 	mv tempfile $(RAWWORDS)
 
 count:
-	cat $(RAWWORDS) | ispell -d./gaeilge -e3 | wc -l
+	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | wc -l
 
 full:
-	cat $(RAWWORDS) | ispell -d./gaeilge -e3 > gaeilge.full
+	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 > gaeilge.full
 
 tarfile: 
-	make reallyclean
+	$(MAKE) reallyclean
 	ln -s ispell ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(RAWWORDS) 
@@ -46,4 +48,4 @@ tarfile:
 install: $(HASHFILE)
 	cp $(HASHFILE) $(ISPELLDIR)
 	cp $(AFFIXFILE) $(ISPELLDIR)
-	make reallyclean
+	$(MAKE) reallyclean

@@ -3,10 +3,6 @@
 INSTALLATION=gaeilge
 ISPELLDIR=/usr/local/lib
 ISPELLBIN=/usr/local/bin
-MAKE=/usr/ccs/bin/make
-ASPELLDATA=/usr/local/aspell
-ASPELLFLAGS=--dict-dir=$(ASPELLDATA)/dict --data-dir=$(ASPELLDATA)/data
-ASPELL=/usr/local/bin/aspell $(ASPELLFLAGS)
 INSTALL=/usr/local/bin/install
 PERSONAL=daoine gall giorr logainm miotas stair
 
@@ -26,6 +22,11 @@ MYTARFILE=$(MYAPPNAME).tar
 CODEDIR=$(HOME)/math/code
 GIN=$(CODEDIR)/main/Gin
 INSTALL_DATA=$(INSTALL) -m 644
+ASPELLDATA=/usr/local/aspell
+ASPELLFLAGS=--dict-dir=$(ASPELLDATA)/dict --data-dir=$(ASPELLDATA)/data
+ASPELL=/usr/local/bin/aspell $(ASPELLFLAGS)
+MYSPELL=/usr/local/bin/myspell
+MAKE=/usr/ccs/bin/make
 
 hashtable: $(INSTALLATION).hash
 
@@ -39,6 +40,32 @@ gaeilgemor.hash: $(RAWWORDS) $(ALTWORDS)
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
+personal: $(PERSONAL)
+	rm -f $(HOME)/.ispell_gaeilge $(HOME)/.biobla
+	sort -u $(PERSONAL) > $(HOME)/.ispell_gaeilge
+	sort -u biobla > $(HOME)/.biobla
+
+install: $(INSTALLATION).hash
+	$(INSTALL_DATA) $(INSTALLATION).hash $(ISPELLDIR)
+	$(INSTALL_DATA) $(INSTALLATION).aff $(ISPELLDIR)
+
+installall: gaeilge.hash gaeilgemor.hash
+	$(INSTALL_DATA) gaeilge.hash $(ISPELLDIR)
+	$(INSTALL_DATA) gaeilge.aff $(ISPELLDIR)
+	$(INSTALL_DATA) gaeilgemor.hash $(ISPELLDIR)
+	$(INSTALL_DATA) gaeilgemor.aff $(ISPELLDIR)
+
+clean:
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt
+
+distclean:
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt
+	rm -f *.hash aspell.txt aspellalt.txt ga.dic
+
+#############################################################################
+### Remainder is for development only
+#############################################################################
+
 aspell: aspell.txt
 	$(INSTALL_DATA) gaeilge.dat $(ASPELLDATA)/data
 	$(INSTALL_DATA) gaeilge_phonet.dat $(ASPELLDATA)/data
@@ -50,13 +77,6 @@ fromdb : FORCE
 	$(GIN) 7
 	$(MAKE) sort
 	$(MAKE) all
-
-clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt
-
-distclean:
-	$(MAKE) clean
-	rm -f *.hash aspell.txt aspellalt.txt ga.dic
 
 sort: FORCE
 	sort -f $(RAWWORDS) > tempfile
@@ -97,16 +117,16 @@ aspell.txt: gaeilge.hash
 aspellalt.txt: gaeilgemor.hash
 	cat $(RAWWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
-personal: $(PERSONAL)
-	rm -f $(HOME)/.ispell_gaeilge $(HOME)/.biobla
-	sort -u $(PERSONAL) > $(HOME)/.ispell_gaeilge
-	sort -u biobla > $(HOME)/.biobla
-
 apersonal: $(PERSONAL)
 	rm -f $(HOME)/.aspell.gaeilge.pws
 	sort -u $(PERSONAL) > temp.lst
 	$(ASPELL) --lang=gaeilge create personal $(HOME)/.aspell.gaeilge.pws < temp.lst
 	rm -f temp.lst
+
+installweb: FORCE
+	$(INSTALL_DATA) index.html $(HOME)/public_html/ispell
+	$(INSTALL_DATA) index-en.html $(HOME)/public_html/ispell
+	$(INSTALL_DATA) sonrai.html $(HOME)/public_html/ispell
 
 dist: FORCE
 	chmod 644 $(AFFIXFILE) $(ALTAFFIXFILE) $(RAWWORDS) $(ALTWORDS) COPYING README Makefile biobla daoine gall giorr logainm miotas stair
@@ -130,12 +150,14 @@ dist: FORCE
 	gzip $(TARFILE)
 	rm -f ../$(APPNAME)
 
-# careful with fuaim until bug is fixed
 ga.dic: gaeilge.raw
 	rm -f ga.dic
 	cat gaeilge.raw | wc -l | tr -d " " > tempcount
 	cat tempcount gaeilge.raw > ga.dic
 	rm -f tempcount
+
+mycheck: ga.dic aspell.txt
+	$(MYSPELL) ga.aff ga.dic aspell.txt | egrep 'incorrect'
 
 mydist: ga.dic
 	cp README README.txt
@@ -170,16 +192,6 @@ adist: FORCE
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=gaeilge soundslike < aspell.txt > sounds.txt
-
-install: $(INSTALLATION).hash
-	$(INSTALL_DATA) $(INSTALLATION).hash $(ISPELLDIR)
-	$(INSTALL_DATA) $(INSTALLATION).aff $(ISPELLDIR)
-
-installall: gaeilge.hash gaeilgemor.hash
-	$(INSTALL_DATA) gaeilge.hash $(ISPELLDIR)
-	$(INSTALL_DATA) gaeilge.aff $(ISPELLDIR)
-	$(INSTALL_DATA) gaeilgemor.hash $(ISPELLDIR)
-	$(INSTALL_DATA) gaeilgemor.aff $(ISPELLDIR)
 
 seiceail: FORCE
 	@cat ../bearla/tcht

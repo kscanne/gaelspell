@@ -42,18 +42,18 @@ gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff
 	$(ISPELLBIN)/buildhash gaeilge.focail gaeilgelit.aff gaeilgelit.hash
 	rm -f gaeilge.focail
 
-gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS)
+gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
 	sort -f $(RAWWORDS) $(LITWORDS) $(ALTWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
 personal: $(PERSONAL)
-	rm -f $(HOME)/.ispell_gaeilge $(HOME)/.biobla
-	sort -u $(PERSONAL) > $(HOME)/.ispell_gaeilge
+	rm -f $(HOME)/.ispell_$(INSTALLATION) $(HOME)/.biobla
+	sort -u $(PERSONAL) > $(HOME)/.ispell_$(INSTALLATION)
 	sort -u biobla > $(HOME)/.biobla
 
-gaeilgelit.aff: gaeilge.aff
-	cp gaeilge.aff gaeilgelit.aff
+gaeilgelit.aff: $(AFFIXFILE)
+	cp $(AFFIXFILE) gaeilgelit.aff
 
 install: $(INSTALLATION).hash $(INSTALLATION).aff
 	$(INSTALL_DATA) $(INSTALLATION).hash $(ISPELLDIR)
@@ -61,11 +61,11 @@ install: $(INSTALLATION).hash $(INSTALLATION).aff
 
 installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) gaeilge.hash $(ISPELLDIR)
-	$(INSTALL_DATA) gaeilge.aff $(ISPELLDIR)
+	$(INSTALL_DATA) $(AFFIXFILE) $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgelit.hash $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgelit.aff $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgemor.hash $(ISPELLDIR)
-	$(INSTALL_DATA) gaeilgemor.aff $(ISPELLDIR)
+	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
 
 clean:
 	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff
@@ -84,6 +84,9 @@ aspell: aspell.txt
 	$(ASPELL) --lang=gaeilge create master ./gaeilge < aspell.txt
 	$(INSTALL_DATA) gaeilge $(ASPELLDATA)/dict
 	rm -f gaeilge
+
+gaeilgemor.diff: FORCE
+	diff -e $(AFFIXFILE) $(ALTAFFIXFILE) > gaeilgemor.diff
 
 fromdb : FORCE
 	$(GIN) 7
@@ -115,16 +118,22 @@ sortpersonal: FORCE
 count: aspell.txt
 	cat aspell.txt | wc -l
 
+litcount: aspelllit.txt
+	cat aspelllit.txt | wc -l
+
 altcount: aspellalt.txt
 	cat aspellalt.txt | wc -l
 
 allcounts: FORCE 
-	@$(MAKE) aspell.txt aspellalt.txt
+	@$(MAKE) aspell.txt aspelllit.txt aspellalt.txt
 	@$(GIN) 9
 	@echo 'Leagan caighdeánach:'
 	@grep "]:.." igtemp | wc -l
 	@echo 'ceannfhocal agus'
 	@$(MAKE) count
+	@echo 'focal infhillte'
+	@echo 'Leagan litearta:'
+	@$(MAKE) litcount
 	@echo 'focal infhillte'
 	@echo 'Leagan canúnach:'
 	@cat igtemp | wc -l
@@ -236,7 +245,7 @@ seiceail: FORCE
 	@$(GIN) 8   # creates local EN.temp, IG.temp
 	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort -u | grep -v \' > EN.temp2
 	@diff -w EN.temp2 ../bearla/Missp | grep "<" > EN.missp
-	@cat IG.temp | $(ISPELLBIN)/ispell -l -d./gaeilge | sort -u > IG.temp2
+	@cat IG.temp | $(ISPELLBIN)/ispell -l -d./gaeilgelit | sort -u > IG.temp2
 	@diff -w IG.temp2 ../bearla/Missp.ga | grep "<" > IG.missp
 	@rm -f EN.temp EN.temp2 IG.temp IG.temp2
 	@$(MAKE) distclean

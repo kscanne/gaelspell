@@ -95,7 +95,7 @@ gaeilgemor.diff:
 # from backend database
 veryclean:
 	$(MAKE) distclean
-	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt README_ga_IE.txt
+	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt README_ga_IE.txt ChangeLog
 
 fromdb : FORCE
 	$(GIN) 7
@@ -257,7 +257,7 @@ mycheck: ga.dic aspell.txt ga.aff
 	- $(MYSPELL) ga.aff ga.dic aspell.txt | egrep 'incorrect'
 
 README_ga_IE.txt: README COPYING
-	(echo; echo "1. Version"; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
+	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of myspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 
 mydist: ga.dic README_ga_IE.txt ga.aff
 	chmod 644 ga.dic ga.aff README_ga_IE.txt

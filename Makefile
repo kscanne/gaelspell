@@ -11,7 +11,7 @@ INSTALL=/usr/local/bin/install
 
 #   Shouldn't have to change anything below here
 SHELL=/bin/sh
-RELEASE=1.2
+RELEASE=2.0
 RAWWORDS= gaeilge.raw
 ALTWORDS= gaeilge.mor
 AFFIXFILE= gaeilge.aff
@@ -42,6 +42,7 @@ aspell: FORCE
 	$(INSTALL_DATA) gaeilge_phonet.dat $(ASPELLDATA)/data
 	$(ASPELL) --lang=gaeilge create master ./gaeilge < aspell.txt
 	$(INSTALL_DATA) gaeilge $(ASPELLDATA)/dict
+	rm -f gaeilge
 
 fromdb : $(RAWWORDS) $(ALTWORDS)
 	$(MAKE) all
@@ -57,7 +58,7 @@ $(ALTWORDS) : $(DATAFILE)
 clean:
 	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt
 
-reallyclean:
+distclean:
 	$(MAKE) clean
 	rm -f *.hash aspell.txt aspellalt.txt
 
@@ -112,7 +113,7 @@ aspell.txt: FORCE
 	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspell.txt
 
 aspellalt.txt: FORCE
-	cat $(RAWWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
+	cat $(RAWWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
 personal:
 	rm -f $(HOME)/.ispell_gaeilge
@@ -121,7 +122,7 @@ personal:
 
 apersonal: FORCE
 	rm -f $(HOME)/.aspell.gaeilge.pws
-	cat daoine gall giorr logainm miotas stair > temp.lst
+	sort -u daoine gall giorr logainm miotas stair > temp.lst
 	$(ASPELL) --lang=gaeilge create personal $(HOME)/.aspell.gaeilge.pws < temp.lst
 	rm -f temp.lst
 
@@ -148,10 +149,10 @@ dist:
 	rm -f ../$(APPNAME)
 
 adist: 
-	chmod 755 igcheck
 	sort -u daoine gall giorr logainm miotas stair > proper
 	mv Makefile Makefile.tmp
 	cp Makefile.asp Makefile
+	cp README Copyright
 	chmod 644 aspell.txt gaeilge.dat gaeilge_phonet.dat COPYING README proper biobla Makefile info
 	ln -s ispell-gaeilge ../$(AAPPNAME)
 	tar cvhf $(ATARFILE) -C .. $(AAPPNAME)/aspell.txt
@@ -159,13 +160,13 @@ adist:
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gaeilge.dat
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gaeilge_phonet.dat
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/COPYING
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/README
+	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/Copyright
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/Makefile
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/biobla
 	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/proper
 	gzip $(ATARFILE)
 	mv Makefile.tmp Makefile
-	rm -f ../$(AAPPNAME) proper
+	rm -f ../$(AAPPNAME) proper Copyright
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=gaeilge soundslike < aspell.txt > sounds.txt

@@ -6,7 +6,7 @@
 nroffchars	().\\*
 texchars	()\[]{}<\>\\$*.%
 allaffixes on                         
-compoundwords off
+compoundwords on    
 
 # headers:char-sets
 defstringtype "nroff" "nroff" ".mm" ".ms" ".me" ".man" ".NeXT"
@@ -296,6 +296,8 @@ flag *A:				             # molaim
 	[^UI] A I M		>	-AIM,FAIDH   # fáistineach
 	[^UI] A I M		>	-AIM,FAIMID
 	[^UI] A I M		>	-AIM,FAR
+	[^UI] A I M		>	-AIM,FAD     # An B.N.
+	[^UI] A I M		>	-AIM,FAIR    # An B.N.
 	[^UI] A I M		>	-M,NN        # foshuiteach caite
 	[^UI] A I M		>	IS
 	[^UI] A I M		>	-IM,DH   
@@ -329,6 +331,8 @@ flag *A:				             # molaim
 	[OÁÓÚ] I M		>	-IM,FAIDH    # fáistineach
 	[OÁÓÚ] I M		>	-IM,FAIMID
 	[OÁÓÚ] I M		>	-IM,FAR
+	[OÁÓÚ] I M		>	-IM,FAD      # An B.N.
+	[OÁÓÚ] I M		>	-IM,FAIR     # An B.N.
 	[OÁÓÚ] I M		>	-M,NN        # foshuiteach caite
 	[OÁÓÚ] I M		>	-M,TEÁ
 	[OÁÓÚ] I M		>	IS
@@ -345,6 +349,8 @@ flag *A:				             # molaim
 	[IU] A I M		>	-IM,FAIDH    # fáistineach
 	[IU] A I M		>	-IM,FAIMID
 	[IU] A I M		>	-IM,FAR
+	[IU] A I M		>	-IM,FAD      # An B.N.
+	[IU] A I M		>	-IM,FAIR     # An B.N.
 	[IU] A I M		>	-M,NN        # foshuiteach caite
 	[IU] A I M		>	-M,TEÁ
 	[IU] A I M		>	IS
@@ -360,6 +366,8 @@ flag *A:				             # molaim
 	[^AOÁÉÓÚ] I M		>	-IM,FIDH     # fáistineach
 	[^AOÁÉÓÚ] I M		>	-IM,FIMID
 	[^AOÁÉÓÚ] I M		>	-IM,FEAR
+	[^AOÁÉÓÚ] I M		>	-IM,FEAD     # An B.N.
+	[^AOÁÉÓÚ] I M		>	-IM,FIR      # An B.N.
 	[^AOÁÉÓÚ] I M		>	-M,NN        # foshuiteach caite
 	[^AOÁÉÓÚ] I M		>	IS
 	[^AOÁÉÓÚ] I M		>	-IM,EADH
@@ -393,6 +401,8 @@ flag *A:				             # molaim
 	É I M		>	-M,FIDH              # fáistineach
 	É I M		>	-M,FIMID
 	É I M		>	-M,FEAR
+	É I M		>	-M,FEAD              # An B.N.
+	É I M		>	-M,FIR               # An B.N.
 	É I M		>	-M,NN                # foshuiteach caite
 	É I M		>	-M,TEÁ
 	É I M		>	IS
@@ -408,6 +418,8 @@ flag *A:				             # molaim
 	Í M		>	-M,FIDH              # fáistineach
 	Í M		>	-M,FIMID
 	Í M		>	-M,FEAR
+	Í M		>	-M,FEAD              # An B.N.
+	Í M		>	-M,FIR               # An B.N.
 	Í M		>	-M,NN                # foshuiteach caite
 	Í M		>	-M,MIS
 	Í M		>	-M,ODH
@@ -451,6 +463,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^IU] A I N N		>	-AINN,FAIMIS
 	[^IU] A I N N		>	-AINN,FAIDÍS
 	[^IU] A I N N		> 	-AINN,FAÍ
+	[^IU] A I N N		>	-INN,S       # An B.N. 
 	[^IU] A I N N		>	-INN,DAR     # An B.N.
 
 	[^UTIH] A I N N		>	-AINN,TÁ     # gnáthchaite
@@ -496,6 +509,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[IU] A I N N		>	-INN,FAIMIS
 	[IU] A I N N		>	-INN,FAIDÍS
 	[IU] A I N N		> 	-INN,FAÍ
+	[IU] A I N N		>	-INN,S       # An B.N.
 	[IU] A I N N		>	-INN,DAR     # An B.N.
 
         				             # bhrisinn, d'éistinn
@@ -509,6 +523,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^AOÁÉÓÚ] I N N		>	-INN,FIMIS
 	[^AOÁÉÓÚ] I N N		>	-INN,FIDÍS
 	[^AOÁÉÓÚ] I N N		> 	-INN,FÍ
+	[^AOÁÉÓÚ] I N N		>	-INN,EAS      # An B.N. 
 	[^AOÁÉÓÚ] I N N		>	-INN,EADAR    # An B.N.
 
 	[^AOÁÉÓÚTH] I N N	>	-INN,TEÁ      # gnáthchaite
@@ -539,6 +554,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	É I N N		>	-NN,FIMIS
 	É I N N		>	-NN,FIDÍS
 	É I N N		> 	-NN,FÍ
+	É I N N		>	-INN,AS               # An B.N.
 	É I N N		>	-INN,ADAR             # An B.N.
 
 					              # ghuínn, d'fhínn
@@ -552,6 +568,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	Í N N		>	-NN,FIMIS
 	Í N N		>	-NN,FIDÍS
 	Í N N		> 	-NN,FÍ
+	Í N N		>	-NN,OS                # An B.N.
 	Í N N		>	-NN,ODAR              # An B.N.
 
 	[^AOU] Í N N		>	-ÍNN,ITEÁ
@@ -620,6 +637,7 @@ flag *F:                                        # bheannaínn, d'iompaínn
 	A Í N N		>	-AÍNN,ÓIMIS
 	A Í N N		>	-AÍNN,ÓIDÍS
 	A Í N N		>	-AÍNN,ÓFAÍ
+	A Í N N		>	-NN,OS          # An B.N. 
 	A Í N N		>	-NN,ODAR        # An B.N. 
 
                                                 # bhailínn, d'áitínn
@@ -635,6 +653,7 @@ flag *F:                                        # bheannaínn, d'iompaínn
 	[^A] Í N N	>	-ÍNN,EOIMIS
 	[^A] Í N N	>	-ÍNN,EOIDÍS
 	[^A] Í N N	>	-ÍNN,EOFAÍ
+	[^A] Í N N	>	-NN,OS          # An B.N. 
 	[^A] Í N N	>	-NN,ODAR        # An B.N. 
 
 flag *I:				       # campálaim
@@ -665,6 +684,7 @@ flag *J:				       # champálainn, d'iarnálainn
         .              >       -AINN,FAIMIS
         .              >       -AINN,FAIDÍS
         .              >       -AINN,FAÍ
+        .              >       -INN,S          # An B.N.
         .              >       -INN,DAR        # An B.N.
                                                # *****>>>>>> 
 	.	       >       -LAINN,ILTEÁ    # gnáthchaite dara phearsa

@@ -1,5 +1,6 @@
 # Makefile ispell-gaeilge
-
+# INSTALLATION=gaeilgemor
+INSTALLATION=gaeilge
 ISPELLDIR=/usr/local/lib
 ISPELLBIN=/usr/local/bin
 MAKE=/usr/local/bin/make
@@ -7,16 +8,20 @@ RELEASE=1.0
 RAWWORDS= gaeilge.raw
 ALTWORDS= gaeilge.mor
 AFFIXFILE= gaeilge.aff
-HASHFILE= gaeilge.hash
+ALTAFFIXFILE=gaeilgemor.aff
 APPNAME=ispell-gaeilge-$(RELEASE)
 TARFILE=$(APPNAME).tar
 
-beag: $(RAWWORDS) $(AFFIXFILE)
-	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) $(HASHFILE)
+hashtable: $(INSTALLATION).hash
 
-mor: $(RAWWORDS) $(ALTWORDS) $(AFFIXFILE)
+all: gaeilge.hash gaeilgemor.hash
+
+gaeilge.hash: $(RAWWORDS) $(AFFIXFILE)
+	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
+
+gaeilgemor.hash: $(RAWWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
 	sort -f $(RAWWORDS) $(ALTWORDS) > gaeilge.focail
-	$(ISPELLBIN)/buildhash gaeilge.focail $(AFFIXFILE) $(HASHFILE)
+	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm gaeilge.focail
 
 clean:
@@ -38,16 +43,23 @@ sort:
 
 count:
 	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | wc -l
-	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | wc -l
+
+altcount:
+	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | wc -l
+	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | wc -l
 
 full:
 	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 > gaeilge.full
-	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 > gaeilge2.full
+
+altfull:
+	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 > gaeilge.full
+	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 > gaeilge2.full
 
 tarfile: 
 	$(MAKE) reallyclean
 	ln -s ispell-gaeilge ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(ALTAFFIXFILE) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(RAWWORDS) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(ALTWORDS) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/COPYING
@@ -56,7 +68,14 @@ tarfile:
 	gzip $(TARFILE)
 	rm ../$(APPNAME)
 
-install: $(HASHFILE)
-	cp $(HASHFILE) $(ISPELLDIR)
-	cp $(AFFIXFILE) $(ISPELLDIR)
+install: $(INSTALLATION).hash
+	cp $(INSTALLATION).hash $(ISPELLDIR)
+	cp $(INSTALLATION).aff $(ISPELLDIR)
+	$(MAKE) reallyclean
+
+installall: gaeilge.hash gaeilgemor.hash
+	cp gaeilge.hash $(ISPELLDIR)
+	cp gaeilge.aff $(ISPELLDIR)
+	cp gaeilgemor.hash $(ISPELLDIR)
+	cp gaeilgemor.aff $(ISPELLDIR)
 	$(MAKE) reallyclean

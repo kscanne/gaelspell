@@ -3237,6 +3237,10 @@ b'ináitreabh b'ináitrithe
 b'ináitreibhe b'ináitrithe
 b'ináitribh b'ináitrithe
 b'incháinithe b'inchánaithe
+b'inchánacha b'inchánaithe
+b'inchánach b'inchánaithe
+b'inchánaí b'inchánaithe
+b'inchánaigh b'inchánaithe
 b'Inde-Sín b'Ind-Sín
 b'Inde-Síne b'Ind-Síne
 b'ing b'eang
@@ -4312,6 +4316,8 @@ buntáta práta
 bunúca bunóca
 bunúc bunóc
 bunúice bunóice
+b'Urdúis b'Urdais
+b'Urdúise b'Urdaise
 burg buirg
 burg buirgí
 b'urlaimh b'ullaimh
@@ -4647,7 +4653,12 @@ ceasnaíola ceasnaí
 ceasta ceisteanna
 ceast ceist
 ceast ceisteanna
+céata céadfa
+céatacha céadfacha
+céatach céadfach
+céataí céadfaí
 ceataí ciotaí
+céataigh céadfaigh
 ceatharnach ceithearnach
 ceatharnaigh ceithearnaigh
 ceatharn ceithearn
@@ -5024,7 +5035,12 @@ cheasnaíola cheasnaí
 cheasta cheisteanna
 cheast cheist
 cheast cheisteanna
+chéatacha chéadfacha
+chéatach chéadfach
+chéata chéadfa
+chéataí chéadfaí
 cheataí chiotaí
+chéataigh chéadfaigh
 cheatharnach cheithearnach
 cheatharnaigh cheithearnaigh
 cheatharn cheithearn
@@ -5162,6 +5178,7 @@ chíníos chíocha
 chiniúil chiníoch
 chiniúla chiníche
 chiniúla chiníocha
+chinní chinntí
 chinnire cheannaire
 chinnirí cheannairí
 chíob chíb
@@ -6330,6 +6347,7 @@ cíníos cíocha
 ciniúil ciníoch
 ciniúla ciníche
 ciniúla ciníocha
+cinní cinntí
 cinnire ceannaire
 cinnirí ceannairí
 cíob cíb
@@ -9603,6 +9621,9 @@ drúiseoirí drúiseach
 drúiseoirí drúisigh
 drúiseora drúisigh
 dtabharfad dtabharfaidh
+dtacaid dtaca
+dtacaide dtaca
+dtacaidí dtacaí
 dtachtóir dtachtaire
 dtachtóirí dtachtairí
 dtachtóra dtachtaire
@@ -10786,6 +10807,8 @@ dúramháin dúrabháin
 dúramhán dúrabhán
 durdail durdála
 durdal durdáil
+d'Urdúis d'Urdais
+d'Urdúise d'Urdaise
 d'urmhóir d'fhormhóir
 d'urmhór d'fhormhór
 d'urradh d'urra
@@ -12978,7 +13001,12 @@ gceasnaíola gceasnaí
 gceasta gceisteanna
 gceast gceist
 gceast gceisteanna
+gcéatacha gcéadfacha
+gcéatach gcéadfach
+gcéata gcéadfa
+gcéataí gcéadfaí
 gceataí gciotaí
+gcéataigh gcéadfaigh
 gceatharnach gceithearnach
 gceatharnaigh gceithearnaigh
 gceatharn gceithearn
@@ -13106,6 +13134,7 @@ gcíníos gcíocha
 gciniúil gciníoch
 gciniúla gciníche
 gciniúla gciníocha
+gcinní gcinntí
 gcinnire gceannaire
 gcinnirí gceannairí
 gcíob gcíb
@@ -14949,6 +14978,8 @@ ghuaisiúla ghuaiseacha
 ghuaisiúla ghuaisí
 ghuala ghualainn
 ghualann ghualainne
+Ghuaranaí Ghuaráinis
+Ghuaranaí Ghuaráinise
 ghuardail ghuairdill
 ghuardal ghuairdeall
 ghuibhe ghuí
@@ -15285,6 +15316,8 @@ guaisiúla guaiseacha
 guaisiúla guaisí
 guala gualainn
 gualann gualainne
+Guaranaí Guaráinis
+Guaranaí Guaráinise
 guardail guairdill
 guardal guairdeall
 guibhe guí
@@ -15929,6 +15962,10 @@ hináitreabh hináitrithe
 hináitreibhe hináitrithe
 hináitribh hináitrithe
 hincháinithe hinchánaithe
+hinchánacha hinchánaithe
+hinchánach hinchánaithe
+hinchánaigh hinchánaithe
+hinchánaí hinchánaithe
 hInde-Síne hInd-Síne
 hInde-Sín hInd-Sín
 hingheanais hiníonachta
@@ -16264,6 +16301,8 @@ húmaítear húmtar
 húmaithe húmtha
 humhaile hiúil
 humhail hiúl
+hUrdúise hUrdaise
+hUrdúis hUrdais
 húrla-hárla hurlamaboc
 hurlaimhe hullaimhe
 hurlaimh hullaimh
@@ -16367,6 +16406,10 @@ ináitreabh ináitrithe
 ináitreibhe ináitrithe
 ináitribh ináitrithe
 incháinithe inchánaithe
+inchánacha inchánaithe
+inchánach inchánaithe
+inchánaigh inchánaithe
+inchánaí inchánaithe
 indé inné
 Inde-Síne Ind-Síne
 Inde-Sín Ind-Sín
@@ -19463,6 +19506,8 @@ murdhúcha murúch
 murdhúcha murúiche
 murdhúchanna murúcha
 murdhúchann murúch
+m'Urdúise m'Urdaise
+m'Urdúis m'Urdais
 m'urmhóir m'fhormhóir
 m'urmhór m'fhormhór
 m'urradh m'urra
@@ -21582,6 +21627,8 @@ nguaisiúla nguaiseacha
 nguaisiúla nguaisí
 nguala ngualainn
 ngualann ngualainne
+nGuaranaí nGuaráinis
+nGuaranaí nGuaráinise
 nguardail nguairdill
 nguardal nguairdeall
 nguibhe nguí
@@ -21648,6 +21695,10 @@ n-ináitreabh n-ináitrithe
 n-ináitreibhe n-ináitrithe
 n-ináitribh n-ináitrithe
 n-incháinithe n-inchánaithe
+n-inchánacha n-inchánaithe
+n-inchánach n-inchánaithe
+n-inchánaigh n-inchánaithe
+n-inchánaí n-inchánaithe
 nInde-Síne nInd-Síne
 nInde-Sín nInd-Sín
 n-ingheanais n-iníonachta
@@ -22240,6 +22291,8 @@ n-úmóidís n-úmfaidís
 n-úmóimid n-úmfaimid
 n-úmóimis n-úmfaimis
 n-úmóinn n-úmfainn
+nUrdúise nUrdaise
+nUrdúis nUrdais
 n-urlaimhe n-ullaimhe
 n-urlaimh n-ullaimh
 n-urlamha n-ullamha
@@ -25174,6 +25227,9 @@ sholasta sholasmhar
 sholasta sholasmhara
 sholáthraigh sholáthair
 sholáthraithe sholáthartha
+sholáthróirí sholáthraithe
+sholáthróir sholáthraí
+sholáthróra sholáthraí
 shollúntais shollúntachta
 shollúntas shollúntacht
 shomach shomachán
@@ -25921,6 +25977,9 @@ solasta solasmhar
 solasta solasmhara
 soláthraigh soláthair
 soláthraithe soláthartha
+soláthróirí soláthraithe
+soláthróir soláthraí
+soláthróra soláthraí
 sollúntais sollúntachta
 sollúntas sollúntacht
 sollúntas tsollúntacht
@@ -26531,6 +26590,9 @@ t-abhaicín t-abhac
 t-abhallghort t-úllord
 tabharfad tabharfaidh
 t-ablóir t-abhlóir
+tacaide taca
+tacaidí tacaí
+tacaid taca
 t-acara t-acra
 tachtóirí tachtairí
 tachtóir tachtaire
@@ -26903,6 +26965,9 @@ teorann teorainneacha
 teora teorainn
 t-euro t-eoró
 thabharfad thabharfaidh
+thacaide thaca
+thacaidí thacaí
+thacaid thaca
 thachtóirí thachtairí
 thachtóir thachtaire
 thachtóra thachtaire
@@ -28517,6 +28582,7 @@ tsoibhris tsaibhris
 tsoillsithe tsoilsithe
 tsoill tsaill
 tsoirn sornóige
+tsoláthróra tsoláthraí
 tsollúntais sollúntachta
 tsomaigh tsomacháin
 tSomáile tSomáil
@@ -28855,6 +28921,8 @@ umhail t-iúl
 úmóimid úmfaimid
 úmóimis úmfaimis
 úmóinn úmfainn
+Urdúise Urdaise
+Urdúis Urdais
 urlaimhe ullaimhe
 urlaimh ullaimh
 urlamha ullamha

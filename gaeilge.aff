@@ -446,8 +446,8 @@ flag *A:				             # molaim
 	[^B] H U Í M		>	-ÍM,ITEAR
 	[^B] H U Í M		>	-ÍM,ITEÁ
 	[^B] H U Í M		>	-ÍM,ITÍ
-						     # bhuím 
-        B H U Í M		>	-M,TEAR
+						     # bhuím
+	B H U Í M		>	-M,TEAR
 	B H U Í M		>	-M,TEÁ
 	B H U Í M		>	-M,TÍ
 
@@ -468,8 +468,8 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^UTIH] A I N N		>	-AINN,TÁ     # gnáthchaite
 	[^UTIH] A I N N		>	-AINN,TAÍ     
 
-					            # ghrafainn,    róstainn
-	[FT] A I N N		>	-AINN,Á     # coinníollach,gnáthchaite
+						     # ghrafainn,    róstainn
+	[FT] A I N N		>	-AINN,Á	     # coinníollach,gnáthchaite
 	[FT] A I N N		> 	-INN,Í
 
 					             # traochainn

@@ -1,0 +1,378 @@
+# gaeilge.aff le Kevin Scannell
+
+# headers:options
+nroffchars	().\\*
+texchars	()\[]{}<\>\\$*.%
+allaffixes on                         
+compoundwords on    
+
+# headers:char-sets
+defstringtype "nroff" "nroff" ".mm" ".ms" ".me" ".man" ".NeXT"
+
+boundarychars	'
+wordchars	[a-záéíóú] [A-ZÁÉÍÓÚ]
+wordchars	\-
+
+altstringtype	"tex" "TeX" ".tex" ".bib"
+altwordchar	\\'a  á
+altwordchar	\\'e  é
+altwordchar	\\'i  í
+altwordchar	\\i   í
+altwordchar	\\'o  ó
+altwordchar	\\'u  ú
+altwordchar	\\'A  Á
+altwordchar	\\'E  É
+altwordchar	\\'I  Í
+altwordchar	\\'O  Ó
+altwordchar	\\'U  Ú
+
+prefixes
+
+# Séimhiú
+flag *L:   
+	B		>	-B,BH
+	C		>	-C,CH
+	D		>	-D,DH
+	F		> 	-F,FH
+	G		>	-G,GH
+	M		> 	-M,MH
+	P		>	-P,PH
+	S		> 	-S,SH
+	T		>	-T,TH
+
+# Urú
+flag *E:
+	B		>	M
+	C		>	G
+	D		>	N
+	F		> 	BH
+	G		>	N
+	P		>	B
+	S [AEIOUÁÉÍÓÚLNR]   >   T    # CB lch.23
+	T		>	D
+
+#  b' agus h
+flag *V:
+ 	[AEIOUÁÉÍÓÚ]	>	B'
+        F               >       -F,B'FH
+ 	[AEIOUÁÉÍÓÚ]	>	H
+	
+#  m'
+flag *Y:
+        [AEIOUÁÉÍÓÚ]	>	M'
+        F               >       -F,M'FH
+
+#  d'
+flag *Z:
+        [AEIOUÁÉÍÓÚ]	>	D'
+        F               >       -F,D'FH
+
+# "leideanna" (*gnáth*-réimíreanna le *dhá* litreacha) 
+#  neamhchoitianta: dé-,fo-,ré-,rí-,so-,ur-
+#  leis an fleiscín:  an-
+flag *H:
+	B		>	-B,DOBH
+	B		>	-B,ILBH
+	B		>	-B,IMBH
+	B		>	-B,INBH
+	B		>	-B,MÍBH
+	B		>	-B,RÓBH                
+	C		>	-C,DOCH
+	C		>	-C,ILCH
+	C		>	-C,IMCH
+	C		>	-C,INCH
+	C		>	-C,MÍCH
+	C		>	-C,RÓCH               
+	D		>	-D,DODH
+	D		>	-D,IMDH
+	D		>	-D,MÍDH
+	D		>	-D,RÓDH               
+	F		> 	-F,DOFH
+	F		> 	-F,ILFH
+	F		> 	-F,IMFH
+	F		> 	-F,INFH
+	F		> 	-F,MÍFH
+	F		> 	-F,RÓFH               
+	G		>	-G,DOGH
+	G		>	-G,ILGH
+	G		>	-G,IMGH
+	G		>	-G,INGH
+	G		>	-G,MÍGH
+	G		>	-G,RÓGH
+	M		> 	-M,DOMH
+	M		>	-M,ILMH
+	M		>	-M,INMH
+	M		>	-M,MÍMH
+	M		>	-M,RÓMH              
+	P		>	-P,DOPH
+	P		>	-P,ILPH
+	P		>	-P,INPH
+	P		>	-P,MÍPH
+	P		>	-P,RÓPH
+	S		> 	-S,DOSH
+	S		> 	-S,IMSH
+	S		> 	-S,MÍSH
+	S		> 	-S,RÓSH
+	T		>	-T,DOTH
+	T		>	-T,IMTH
+	T		>	-T,MÍTH
+	T		>	-T,RÓTH               
+ 	[^BCDFGMPSTAEIOUÁÉÍÓÚ]		>	DO
+ 	[^BCDFGMPST]		>	IL
+ 	[^BCDFGMPST]		>	IM
+ 	[^BCDFGMPST]		>	IN
+ 	[^BCDFGMPSTAEIOUÁÉÍÓÚ]		>	MÍ
+ 	[^BCDFGMPSTAEIOUÁÉÍÓÚ]		>	RÓ
+
+suffixes
+
+flag *A:				             # molaim, mol i GA.raw
+	[^U] A I M		>	-IM,NN       # láithreach
+	[^U] A I M		>	ID           
+	[^U] A I M		>	-AIM,TAR
+	[^U] A I M		>	-IM,MAR      # caite 
+	[^U] A I M		>	-IM,DH
+	[^U] A I M		>	-AIM,FAIDH   # fáistineach
+	[^U] A I M		>	-AIM,FAIMID
+	[^U] A I M		>	-AIM,FAR
+	[^U] A I M		>	-M,NN        # neamhfhoirfe
+	[^U] A I M		>	-AIM,TÁ
+	[^U] A I M		>	IS
+	[^U] A I M 		>	-M,DÍS
+	[^U] A I M		>	-AIM,TAÍ
+	[^U] A I M		>	-AIM,FAINN   # coinníollach
+	[^U] A I M		>	-AIM,FÁ
+	[^U] A I M		>	-AIM,FADH
+	[^U] A I M		>	-AIM,FAIMIS
+	[^U] A I M		>	-AIM,FAIDÍS
+	[^U] A I M		> 	-AIM,FAÍ
+	[^U] A I M		>	-IM,""       # foshuiteach
+	[^U] A I M		>	-M,GÍ        # ordaitheach
+	[^U] A I M		>	-IM,S        # An B.N. 
+	[^U] A I M		>	-IM,DAR      # An B.N.
+
+						     # dóigh, dóim i GA.raw
+	[OÁÓÚ] I M		>	-IM,NN       # láithreach CB lch.98
+	[OÁÓÚ] I M		>	ID
+	[OÁÓÚ] I M		>	-M,TEAR
+	[OÁÓÚ] I M		>	-IM,MAR      # caite
+	[OÁÓÚ] I M		>	-IM,DH
+	[OÁÓÚ] I M		>	-IM,FAIDH    # fáistineach
+	[OÁÓÚ] I M		>	-IM,FAIMID
+	[OÁÓÚ] I M		>	-IM,FAR
+	[OÁÓÚ] I M		>	-M,NN        # neamhfhoirfe
+	[OÁÓÚ] I M		>	-M,TEÁ
+	[OÁÓÚ] I M		>	IS
+	[OÁÓÚ] I M 		>	-M,DÍS
+	[OÁÓÚ] I M		>	-M,TÍ
+	[OÁÓÚ] I M		>	-IM,FAINN    # coinníollach
+	[OÁÓÚ] I M		>	-IM,FÁ
+	[OÁÓÚ] I M		>	-IM,FADH
+	[OÁÓÚ] I M		>	-IM,FAIMIS
+	[OÁÓÚ] I M		>	-IM,FAIDÍS
+	[OÁÓÚ] I M		> 	-IM,FAÍ
+	[OÁÓÚ] I M		>	-IM,""       # foshuiteach
+	[OÁÓÚ] I M		>	-M,GÍ        # ordaitheach
+
+						     # buaigh, buaim i GA.raw
+	U A I M		>	-IM,NN               # láithreach CB lch.98
+	U A I M		>	ID
+	U A I M		>	-M,TEAR
+	U A I M		>	-IM,MAR              # caite
+	U A I M		>	-IM,DH
+	U A I M		>	-IM,FAIDH            # fáistineach
+	U A I M		>	-IM,FAIMID
+	U A I M		>	-IM,FAR
+	U A I M		>	-M,NN                # neamhfhoirfe
+	U A I M		>	-M,TEÁ
+	U A I M		>	IS
+	U A I M 	>	-M,DÍS
+	U A I M		>	-M,TÍ
+	U A I M		>	-IM,FAINN            # coinníollach
+	U A I M		>	-IM,FÁ
+	U A I M		>	-IM,FADH
+	U A I M		>	-IM,FAIMIS
+	U A I M		>	-IM,FAIDÍS
+	U A I M		> 	-IM,FAÍ
+	U A I M		>	-IM,""               # foshuiteach
+	U A I M		>	-M,GÍ                # ordaitheach
+
+flag *B:				             # bris, brisim i GA.raw
+	[^É] I M		>	-IM,EANN     # láithreach
+	[^É] I M		>	ID
+	[^É] I M		>	-IM,TEAR
+	[^É] I M		>	-IM,EAMAR    # caite
+	[^É] I M		>	-IM,EADH
+	[^É] I M		>	-IM,FIDH     # fáistineach
+	[^É] I M		>	-IM,FIMID
+	[^É] I M		>	-IM,FEAR
+	[^É] I M		>	-M,NN        # neamhfhoirfe
+	[^É] I M		>	-IM,TEÁ
+	[^É] I M		>	IS
+	[^É] I M 		>	-M,DÍS
+	[^É] I M		>	-IM,TÍ
+	[^É] I M		>	-IM,FINN     # coinníollach
+	[^É] I M		>	-IM,FEÁ
+	[^É] I M		>	-IM,FEADH
+	[^É] I M		>	-IM,FIMIS
+	[^É] I M		>	-IM,FIDÍS
+	[^É] I M		> 	-IM,FÍ
+	[^É] I M		>	-IM,E        # foshuiteach
+	[^É] I M		>	-M,GÍ        # ordaitheach
+	[^É] I M		>	-IM,EAS      # An B.N. 
+	[^É] I M		>	-IM,EADAR    # An B.N.
+	[^É] I M		>	-IM,FIR      # An B.N.
+
+						     # léigh, léim i GA.raw
+	É I M		>	-IM,ANN              # láithreach CB lch.99
+	É I M		>	ID
+	É I M		>	-M,TEAR
+	É I M		>	-IM,AMAR             # caite
+	É I M		>	-IM,ADH
+	É I M		>	-M,FIDH              # fáistineach
+	É I M		>	-M,FIMID
+	É I M		>	-M,FEAR
+	É I M		>	-M,NN                # neamhfhoirfe
+	É I M		>	-M,TEÁ
+	É I M		>	IS
+	É I M 		>	-M,DÍS
+	É I M		>	-M,TÍ
+	É I M		>	-M,FINN              # coinníollach
+	É I M		>	-M,FEÁ
+	É I M		>	-M,FEADH
+	É I M		>	-M,FIMIS
+	É I M		>	-M,FIDÍS
+	É I M		> 	-M,FÍ
+	É I M		>	-IM,""               # foshuiteach
+	É I M		>	-M,GÍ                # ordaitheach
+
+						     # guigh, guím i GA.raw
+	Í M		>	-M,ONN               # láithreach CB lch.99
+	Í M		>	-M,MID
+	Í M		>	-ÍM,ITEAR
+	Í M		>	-M,OMAR              # caite
+	Í M		>	-M,ODH
+	Í M		>	-M,FIDH              # fáistineach
+	Í M		>	-M,FIMID
+	Í M		>	-M,FEAR
+	Í M		>	-M,NN                # neamhfhoirfe
+	Í M		>	-ÍM,ITEÁ
+	Í M		>	-M,MIS
+	Í M 		>	-M,DÍS
+	Í M		>	-ÍM,ITÍ
+	Í M		>	-M,FINN              # coinníollach
+	Í M		>	-M,FEÁ
+	Í M		>	-M,FEADH
+	Í M		>	-M,FIMIS
+	Í M		>	-M,FIDÍS
+	Í M		> 	-M,FÍ
+	Í M		>	-M,""                # foshuiteach 
+	Í M		>	-M,GÍ                # ordaitheach 
+
+flag *C:                                       # beannaigh, beannaím i GA.raw
+	.		>	-M,ONN         # láithreach
+	.		>	ID
+	.		>	-M,TEAR
+	.		>	-M,OMAR        # caite
+	.		>	-M,ODH
+	.		>	-AÍM,ÓIDH      # fáistineach
+	.		>	-AÍM,ÓIMID
+	.		>	-AÍM,ÓFAR
+	.		>	-M,NN          # neamhfhoirfe
+	.		>	-M,TEÁ
+	.		>	IS
+	.		>	-M,DÍS
+	.		>	-M,TÍ
+	.		>	-AÍM,ÓINN      # coinníollach
+	.		>	-AÍM,ÓFÁ
+	.		>	-AÍM,ÓDH
+	.		>	-AÍM,ÓIMIS
+	.		>	-AÍM,ÓIDÍS
+	.		>	-AÍM,ÓFAÍ
+	.		>	-M,""          # foshuiteach
+	.		>	-M,GÍ          # ordaitheach
+	.		>	-M,ODAR        # An B.N. 
+
+flag *D:                                       # bailigh, bailím i GA.raw
+	.		>	-M,ONN         # láithreach
+	.		>	ID
+	.		>	-M,TEAR
+	.		>	-M,OMAR        # caite
+	.		>	-M,ODH
+	.		>	-ÍM,EOIDH      # fáistineach
+	.		>	-ÍM,EOIMID
+	.		>	-ÍM,EOFAR
+	.		>	-M,NN          # neamhfhoirfe
+	.		>	-M,TEÁ
+	.		>	IS
+	.		>	-M,DÍS
+	.		>	-M,TÍ
+	.		>	-ÍM,EOINN      # coinníollach
+	.		>	-ÍM,EOFÁ
+	.		>	-ÍM,EODH
+	.		>	-ÍM,EOIMIS
+	.		>	-ÍM,EOIDÍS
+	.		>	-ÍM,EOFAÍ
+	.		>	-M,""          # foshuiteach
+	.		>	-M,GÍ          # ordaitheach
+	.		>	-M,ODAR        # An B.N. 
+
+flag *K:				       # campáil, campálaim i GA.raw
+        .              >       -IM,NN          # láithreach
+        .              >       ID
+        .              >       -IM,MAR         # caite
+        .              >       -IM,DH
+        .              >       -AIM,FAIDH      # fáistineach
+        .              >       -AIM,FAIMID
+        .              >       -AIM,FAR
+        .              >       -M,NN           # neamhfhoirfe
+        .              >       IS
+        .              >       -M,DÍS
+        .              >       -AIM,FAINN      # coinníollach
+        .              >       -AIM,FÁ
+        .              >       -AIM,FADH
+        .              >       -AIM,FAIMIS
+        .              >       -AIM,FAIDÍS
+        .              >       -AIM,FAÍ
+        .              >       -IM,""          # foshuiteach
+        .              >       -M,GÍ           # ordaitheach
+        .              >       -IM,S           # An B.N.
+        .              >       -IM,DAR         # An B.N.
+                                               # *****>>>>>> 
+	.	       >       -LAIM,ILTEAR    # láithreach saor
+	.	       >       -LAIM,ILTEÁ     # neamhfhoirfe dara phearsa
+	.	       >       -LAIM,ILTÍ      # neamhfhoirfe saor
+
+
+
+flag *M:                                       # adhantá, adhartá, i GA.raw
+	.		>	-Á,AR          # láithreach saor
+	.		>	-TÁ,FAIDH      # fáistineach    
+	.		>	-TÁ,FAIMID
+	.		>	-TÁ,FAR
+	.		>	-Á,AÍ          # neamhfhoirfe saor
+	.		>	-TÁ,FAINN      # coinníollach
+	.		>	-TÁ,FÁ
+	.		>	-TÁ,FADH
+	.		>	-TÁ,FAIMIS
+	.		>	-TÁ,FAIDÍS
+	.		> 	-TÁ,FAÍ
+
+flag *N:                                       # adhnaim, adhraim, 7rl.
+	.		>	-IM,NN         # láithreach
+	.		>	ID
+	.		>	-IM,MAR        # caite
+	.		>	-IM,DH
+	.		>	-M,NN          # neamhfhoirfe
+	.		>	IS
+	. 		>	-M,DÍS
+	.		>	-IM,""         # foshuiteach
+	.		>	-M,GÍ          # ordaitheach
+	.		>	-IM,DAR        # An B.N.
+
+# "leideanna" (míreanna le *dhá* litreacha) 
+flag *J:
+	.		>	SA
+	.		>	SE
+	.		>	NA
+	.		>	NE

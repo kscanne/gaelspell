@@ -86,7 +86,7 @@ DH(AÁOÓUÚ)-          K        # athdhúchas, buídhonn, comhdháil, etc.
 DH(EÉIÍ)-            Y        # athdhéan, caordhearg, cinedheighilt, etc.
 DHLÚ--               K        # comhdhlúthaigh, ^dhlú-  only
 DHL(EIÍ)--           Y        # (mí|neamh)dhl(istean|eath|íthiú), ^dhl  only
-DHR(AÁO)--           K        # (dobhar|uisce)dhroim,marbhdhra*,*dhráma only
+DHR(AÁOU)--          K        # (dobhar|uisce)dhroim,marbhdhra*,*dhr[áu]ma only
 DHR(ÉEI)--           Y        # *dhreach, feirdhris, *dhréacht  only
 D                    T        # note eclipsis of T via collapsing
 EAFAR--$             *V       # geafar, meafar only, FAR$ exception
@@ -149,7 +149,7 @@ GH$                  _        # [aióu]gh,most ogh done b4,[eáéíú]gh all terminal
 GH(AÁOÓUÚ)-          K        # bobghaiste, deoirghás, soghonta, etc.
 GH(EÉIÍ)-            Y        # athghin, luasghéaraigh, etc.
 GHL(AÁOÓUÚ)--        K        # ardghlórach, folúsghlantóir, etc.
-GHL(EÉ)--            Y        # comhghléas, comhghleacaí, scoiltghleann, etc.
+GHL(EÉI)--           Y        # comhghléas, comhghleacaí, scoiltghleann, etc.
 GHR(AÁOÓUÚ)--        K        # tírghrá, grianghraf, aoisghrúpa, etc. 
 GHR(EÉIÍ)--          Y        # idirghréasán, breithghreamannach, etc.
 GHN(AÁOÓUÚ)--        K        # deasghnáth, neamhghnách, etc.

@@ -5,7 +5,7 @@ INSTALLATION=gaeilge
 ISPELLDIR=/usr/lib/ispell
 ISPELLBIN=/usr/bin
 INSTALL=/usr/bin/install
-PERSONAL=daoine gall giorr logainm miotas stair
+PERSONAL=aitiuil daoine gall giorr logainm miotas stair
 
 #   Shouldn't have to change anything below here
 SHELL=/bin/sh
@@ -110,6 +110,8 @@ sort: FORCE
 	mv tempfile $(ALTWORDS)
 
 sortpersonal: FORCE
+	sort -f aitiuil > tempfile
+	mv tempfile aitiuil
 	sort -f daoine > tempfile
 	mv tempfile daoine
 	sort -f gall > tempfile
@@ -122,6 +124,9 @@ sortpersonal: FORCE
 	mv tempfile miotas
 	sort -f stair > tempfile
 	mv tempfile stair
+
+gaelu: gaelu.in
+	bash buildgael > gaelu
 
 count: aspell.txt
 	cat aspell.txt | wc -l
@@ -185,7 +190,7 @@ installweb: FORCE
 
 dist: FORCE
 	$(MAKE) ChangeLog
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile biobla daoine gall giorr logainm miotas stair
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile aitiuil biobla daoine gall giorr logainm miotas stair
 	chmod 755 igcheck
 	ln -s ispell-gaeilge ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -197,6 +202,7 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/ChangeLog
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/README
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/Makefile
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/aitiuil
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/biobla
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/daoine
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gall

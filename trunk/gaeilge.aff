@@ -442,7 +442,7 @@ flag *A:				             # molaim
         B U Í M			>	-M,TEAR
 	B U Í M			>	-M,TEÁ
 	B U Í M			>	-M,TÍ
-						     # dhluím,ghuím,srl
+						     # ghuím,srl
 	[^B] H U Í M		>	-ÍM,ITEAR
 	[^B] H U Í M		>	-ÍM,ITEÁ
 	[^B] H U Í M		>	-ÍM,ITÍ

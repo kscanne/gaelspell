@@ -449,14 +449,14 @@ flag *A:				             # molaim
 	L O Í M			>	-M,TEÁ
 	L O Í M			>	-M,TÍ
 						     # dluím, guím, luím, suím
-	[^B] U Í M		>	-ÍM,ITEAR
-	[^B] U Í M		>	-ÍM,ITEÁ
-	[^B] U Í M		>	-ÍM,ITÍ
+	[^BH] U Í M		>	-ÍM,ITEAR
+	[^BH] U Í M		>	-ÍM,ITEÁ
+	[^BH] U Í M		>	-ÍM,ITÍ
 						     # buím 
         B U Í M			>	-M,TEAR
 	B U Í M			>	-M,TEÁ
 	B U Í M			>	-M,TÍ
-						     # dhluím,ghuím,srl
+						     # ghuím,srl
 	[^B] H U Í M		>	-ÍM,ITEAR
 	[^B] H U Í M		>	-ÍM,ITEÁ
 	[^B] H U Í M		>	-ÍM,ITÍ
@@ -597,8 +597,8 @@ flag *E:	        		             # mholainn, d'amharcainn
 	L O Í N N		>	-NN,TEÁ
 	L O Í N N		>	-NN,TÍ
 						     # dhluínn, luínn, ndluínn
-	[^H] U Í N N		>	-ÍNN,ITEÁ
-	[^H] U Í N N		>	-ÍNN,ITÍ
+	[^BH] U Í N N		>	-ÍNN,ITEÁ
+	[^BH] U Í N N		>	-ÍNN,ITÍ
 						     # ghuínn, shuínn
 	[^B] H U Í N N		>	-ÍNN,ITEÁ
 	[^B] H U Í N N		>	-ÍNN,ITÍ

@@ -1903,6 +1903,8 @@ Airméanaí
 Airméanaigh
 Airméin
 Airméine
+Airméinis
+Airméinise
 airmheáin/HBMDU
 airmheán/HBMDUT
 airmheánach/HBU
@@ -2379,6 +2381,7 @@ aitriamaí/HBMDU
 áitritheoirí/HBMDU
 áitritheora/HBMDU
 áitriú/HUBMDT
+Áivé
 Aivéistis
 Aivéistise
 ál/HBMDUT
@@ -5651,6 +5654,8 @@ b'Airméanaí
 b'Airméanaigh
 b'Airméin
 b'Airméine
+b'Airméinis
+b'Airméinise
 bairneach/US
 bairnigh/US
 bairr/US
@@ -5740,6 +5745,7 @@ baitsiléireacht/US
 baitsiléireachta/US
 Baitsiléirí/S
 baitsiléirí/US
+b'Áivé
 b'Aivéistis
 b'Aivéistise
 bál/US
@@ -7409,6 +7415,7 @@ bheoghearrainn/EU
 bheoinn/EU
 bheophiana/U
 bheophianainn/EU
+bhfách
 bhFáclainn
 bhFáclainne
 bhFáclannach
@@ -7528,6 +7535,8 @@ bhFreaslannaigh
 bhFritíortha
 bhFriúilis
 bhFriúilise
+bhfuaid
+bhfud
 bhFuig
 bhFuigeanna
 bhfuil
@@ -9400,7 +9409,7 @@ brácálaí/US
 brácálaithe/US
 bracanna/US
 brach/US
-brách/US
+brách
 bracha/US
 brachadh/US
 brachaidh/US
@@ -10928,8 +10937,10 @@ b'Ungáraigh
 bunleabhair/US
 bunleabhar/US
 búnna/US
+bunobair/US
 bunóc/US
 bunóca/US
+bunoibre/US
 bunóice/US
 bunoideachais/US
 bunoideachas/US
@@ -12888,7 +12899,6 @@ ceadanna/US
 Céadaoin/S
 Céadaoineacha/S
 céadar/US
-ceadas/US
 céadchosach/US
 céadchosaigh/US
 céad-dlaoi/US
@@ -15338,8 +15348,6 @@ clapsholas/US
 Clár/S
 clár/US
 clárach/US
-cláracha/US
-cláraí/US
 cláraigh/US
 cláraím/USC
 cláraithe/US
@@ -16136,8 +16144,11 @@ Cnoc/S
 cnoc/US
 cnocach/US
 cnocacha/US
+cnocadóir/US
 cnocadóireacht/US
 cnocadóireachta/US
+cnocadóirí/US
+cnocadóra/US
 cnocaí/US
 cnocaigh/US
 cnocáin/US
@@ -17167,6 +17178,7 @@ comhaí/US
 comhaid/US
 comhail/US
 comhaill/US
+cómhaímh/US
 comhaimseartha/US
 comhainm/US
 comhainmneach/US
@@ -17175,6 +17187,7 @@ comhainmneoir/US
 comhainmneoirí/US
 comhainmneora/US
 comhainmnigh/US
+cómhaíomh/US
 comhair/US
 comhairc/US
 comhairce/US
@@ -21177,6 +21190,8 @@ d'Airméanach
 d'Airméanaigh
 d'Airméin
 d'Airméine
+d'Airméinis
+d'Airméinise
 dairt/US
 dairte/US
 d'Airteagail
@@ -21245,6 +21260,7 @@ d'áitigh/U
 d'áitínn/FU
 d'áitrigh/U
 d'áitrínn/FU
+d'Áivé
 d'Aivéistis
 d'Aivéistise
 Dála/S
@@ -23241,6 +23257,8 @@ d'fholmhaigh
 d'fholmhaínn/F
 d'fholoisc
 d'fholoiscinn/E
+d'fholúsghlan
+d'fholúsghlanainn/E
 d'fhómhais
 d'fhómhasainn/E
 d'Fhomhórach
@@ -26460,6 +26478,9 @@ drona/US
 dronairde/US
 drong/US
 dronga/US
+drongadóir/US
+drongadóirí/US
+drongadóra/US
 dronn/US
 dronna/US
 dronnach/US
@@ -26651,6 +26672,8 @@ dTibéadach
 dTibéadacha
 dTibéadaí
 dTibéadaigh
+dTibéadais
+dTibéadaise
 dTibéid
 dTibéide
 dTibir
@@ -29139,7 +29162,6 @@ fabhtú/USBMD
 fabraic/BMDUS
 fabraice/BMDUS
 fabraicí/BMDUS
-fách/BUS
 fachail/BMDUS
 fachaile/BMDUS
 fachailí/BMDUS
@@ -30737,6 +30759,8 @@ fholmhaí/U
 fholmhaínn/FU
 fholoisce/U
 fholoiscinn/EU
+fholúsghlana/U
+fholúsghlanainn/EU
 fhómhasa/U
 fhómhasainn/EU
 fhóna/U
@@ -31054,7 +31078,6 @@ fíf/BMDUS
 fífe/BMDUS
 fífeanna/BMDUS
 fige/BMDUS
-fíge/BMDUS
 figh/US
 figí/BMDUS
 figiúir/BMDUS
@@ -32155,6 +32178,10 @@ folúla/BUS
 folúntais/BMDUS
 folúntas/BMDUS
 folús/BMDUS
+folúsghlan/US
+folúsghlanadh/BMDUS
+folúsghlanaim/USA
+folúsghlanta/BMDUS
 folúsghlantóir/BMDUS
 folúsghlantóirí/BMDUS
 folúsghlantóra/BMDUS
@@ -33217,7 +33244,6 @@ fuaice/BMDUS
 fuaiceas/BMDUS
 fuaicí/BMDUS
 fuaicis/BMDUS
-fuaid/BMDUS
 fuaidire/BMDUS
 fuaidireacht/BMDUS
 fuaidireachta/BMDUS
@@ -33382,7 +33408,7 @@ fuathóg/BMDUS
 fuathóga/BMDUS
 fuathóige/BMDUS
 fuathú/BMDUS
-fud/BMDUS
+fud
 fudair/BMDUS
 fudar/BMDUS
 fúg/BMDUS
@@ -34316,6 +34342,9 @@ gariníon/US
 gariníonacha/US
 garlach/US
 garlaigh/US
+garleanaí/US
+garleanbh/US
+garlinbh/US
 garma/US
 garmacháin/US
 garmachán/US
@@ -34565,6 +34594,7 @@ gCathair
 gCathrach
 gCéadaoin
 gCéadaoineacha
+gceadas
 gCeanada
 gCeanadach
 gCeanadacha
@@ -36051,7 +36081,6 @@ gíománach/US
 gíománaigh/US
 giomnáisiam/US
 giomnáisiamaí/US
-gion/US
 gionach/US
 gionacha/US
 gionaí/US
@@ -37682,7 +37711,7 @@ gribhéid/US
 grideall/US
 gridille/US
 gridillí/US
-grifín/US
+grifín
 gríl/US
 gríle/US
 gríleanna/US
@@ -38343,6 +38372,8 @@ hAirméanaí
 hAirméanaigh
 hAirméin
 hAirméine
+hAirméinis
+hAirméinise
 hairt
 hAirteagail
 hAirteagal
@@ -38386,9 +38417,13 @@ hAiticigh
 Háítígh
 Háítíoch
 Háítíocha
+hÁivé
 hAivéistis
 hAivéistise
 halach
+halaigin
+halaigine
+halaiginí
 halam
 hAlasca
 hAlascach
@@ -41740,8 +41775,8 @@ ionchódaím/UC
 ionchódaínn/F
 ionchódaíodh/HU
 ionchódaítear/HU
-ionchódaithe/HUBMD
-ionchódú/HUBMDT
+ionchódaithe/HBMDU
+ionchódú/HBMDUT
 ionchoisne/HBMDUT
 ionchoisní/HBMDU
 ionchollaí/U
@@ -43702,6 +43737,7 @@ leathchéid
 leathchinn
 leathchiorcail
 leathchiorcal
+leathchois
 leath-chomhchiallach
 leath-chomhchiallacha
 leath-chomhchiallaí
@@ -44192,12 +44228,9 @@ leithscéalaithe
 leithscéalta
 leithscéalú
 leithscéil
-leitir
 leitís
 leitíse
 leitísí
-leitreach
-leitreacha
 leitreacháin
 leitreachán
 Leitseabuirgis
@@ -45237,8 +45270,6 @@ lorgántachta
 lorgtha
 Lorráin
 Lorráine
-los
-losa
 losaid
 losaide
 losaidí
@@ -45434,6 +45465,10 @@ luathaínn/F
 luathaithe
 luatharáin
 luatharán
+luathchainteach
+luathchainteacha
+luathchaintí
+luathchaintigh
 luathchosach
 luathchosacha
 luathchosaí
@@ -46211,6 +46246,8 @@ m'Airméanach
 m'Airméanaigh
 m'Airméin
 m'Airméine
+m'Airméinis
+m'Airméinise
 mairnéalach/S
 mairnéalacht/S
 mairnéalachta/S
@@ -46355,6 +46392,7 @@ maítigh/S
 maitrís/S
 maitríse/S
 maitrísí/S
+m'Áivé
 m'Aivéistis
 m'Aivéistise
 mál/S
@@ -50891,6 +50929,10 @@ múnláil/S
 múnlaím/SC
 múnlaínn/F
 múnlaithe/S
+múnlaitheach/S
+múnlaitheacha/S
+múnlaithí/S
+múnlaithigh/S
 múnlála/S
 múnlálacha/S
 múnlóir/S
@@ -51241,6 +51283,8 @@ nAirméanaí
 nAirméanaigh
 nAirméin
 nAirméine
+nAirméinis
+nAirméinise
 nAirteagail
 nAirteagal
 naisc
@@ -51297,6 +51341,7 @@ Naitsíche
 Naitsíoch
 Naitsíocha
 Naitsithe
+nÁivé
 nAivéistis
 nAivéistise
 nAlasca
@@ -62956,6 +63001,8 @@ seanársa/S
 séanas/S
 seanathair/S
 seanathar/ST
+seanbhailéad/S
+seanbhailéid/ST
 seanbhan/S
 seanbhean/ST
 seanbhlais/ST
@@ -69573,6 +69620,7 @@ taitneamhaigh/US
 taitním/USC
 taitnimh/US
 taitnithe/US
+tÁivé
 tál/US
 tálach/US
 táláid/US
@@ -70246,12 +70294,8 @@ teangúla/US
 teann/US
 téann/US
 teanna/US
-teannach/US
-teannacha/US
 teannadh/US
-teannaí/US
 teannaidh/US
-teannaigh/US
 teannáil/US
 teannaim/USA
 teannáin/US
@@ -71239,6 +71283,8 @@ Tibéadach/S
 Tibéadacha/S
 Tibéadaí/S
 Tibéadaigh/S
+Tibéadais/S
+Tibéadaise/S
 tIbéarach
 Tibéid/S
 Tibéide/S
@@ -73469,6 +73515,7 @@ tSeirbis
 tSeisnia
 tSeisreach
 tSeoirsia
+tSeoirsigh
 tSeoirsis
 tSiam
 tSiamaigh

@@ -126,23 +126,112 @@ cat $1 | egrep 'éaracht$' | egrep -v '^mh?éaracht$'
 
 ### Assumptions from aspell phonetics file
 echo 'Checking for exceptions to assumptions made in aspell phonetics file...'
-cat $1 | egrep '[^a]eth'
-cat $1 | egrep 'éth' | egrep -v '^n?dh?éth'
-cat $1 | egrep '[ío]thf'
-cat $1 | egrep 'óth[^aeiouáéíóú]'
-cat $1 | egrep 'uth[^aeiouáéíóúl]'
-cat $1 | egrep 'úthfh'
-cat $1 | egrep '[^aeiouáéíóú]th$'
-cat $1 | egrep '[^aiou]dh[^aeiouáéíóúlr]'
-cat $1 | egrep '[^aiou]dhl' | egrep -v '(^g?ch?omhdhlú|dhlistean|dhleatha|^neamhdhlíthiú)'
+echo '  (errors in this section may imply gaeilge_phonet.dat needs attention)'
+
+# ATHFH(AEIOU)---
+cat $1 | egrep 'thfh[áéíóú]' | egrep -v '^d?th?áthfhéithl'
+
+# AGHI---
 cat $1 | egrep 'aghi' | egrep -v '^g?ch?orraghiob'
-# see Rule 6.I.c above for -ugh
+
+# AOMH(FLNST)---  (first says no fh exception needed)
+cat $1 | egrep 'aomhfh' | egrep -v '^naomhfhá'
+cat $1 | egrep 'aomh[bcdgmpr]'
+
+# ÁDHU
+cat $1 | egrep 'ádhu' | egrep -v '^b?ph?ádhuill[eí]$'
+
+# ÁDH
+cat $1 | egrep 'ádh[^u]' | egrep -v 'ádhú(il|la)$'
+
+# ÁTHFHÉ
+cat $1 | egrep 'áthf[aeiouáéíóú]' | egrep -v '^d?th?áthfhéithl'
+
+# DH$
+cat $1 | egrep '[^aeiouáéíóú]dh$'
+
+# DH
+cat $1 | egrep 'edh' | egrep -v '(uiscedh|ch?inedheigh)'
+cat $1 | egrep 'údh.'
+cat $1 | egrep '[^aáiou]dh[^aeiouáéíóúlr]'
+
+# DHLÚ-- and DHL(EIÍ)--
+cat $1 | egrep '[^aáiou]dhl' | egrep -v '(^g?ch?omhdhlú|dhlistean|dhleatha|^neamhdhlíthiú)'
+
+# DHR rules
+cat $1 | egrep '[^aáiou]dhr[aáoóuú]' | egrep -v '((dh?obhar|uisce)dhro|^mh?arbhdhra)|^scigdhrámaí?$'
+cat $1 | egrep '[^aáiou]dhr[eéií]' | egrep -v '(dhréacht|dhreacha?$|eirdhris)'
+
+# EOMH
+cat $1 | egrep 'eomh[bcdfglmnprst]' | egrep -v '^leomh[ft]'
+
+# GH
 cat $1 | egrep '[^aiou]gh[^aeiouáéíóúlnr]'
 cat $1 | egrep '[^aiou]ghl[ií]'
-cat $1 | egrep 'aomh[bcdgmpr]'
-cat $1 | egrep 'eomh[bcdfglmnprst]' | egrep -v '^leomh[ft]'
-cat $1 | egrep 'romh[bcdfglmnprst]' | egrep -v '^b?ph?romh[ft]'
+
+# ITHFH
+cat $1 | egrep 'ithfh' | egrep -v '(ch?ithfholc|ch?rithfhuacht)'
+
+# IDH
+cat $1 | egrep 'idh[aouáéíóú]' | egrep -v 'idhí$'
+
+# IGH
+cat $1 | egrep 'igh[bgmpaouáéíóú]'
+
+# ÍOMH
 cat $1 | egrep 'íomhb' | egrep -v '^b?ph?ríomhbhe?an$'
+
+# ÍTHS-
+cat $1 | egrep 'íth[bcdfglmnpt]'
+
+# MODH, MHODH  only at beginning!
+cat $1 | egrep '.mh?od'
+
+# ONNCHA
+cat $1 | egrep 'onncha' | egrep -v '(Dh?|fh?i)onncha$'
+
+# OTH
+cat $1 | egrep 'oth[ft]'
+
+# ODH
+cat $1 | egrep 'odh[bcdfgmpstáiíoóu]' | egrep -v '^d?th?odhchaí$'
+
+# OGHAF
+cat $1 | egrep 'oghaf' | egrep -v '^n?dh?oghafa'
+
+# OGH
+cat $1 | egrep 'oghá' | egrep -v '^d?th?oghái?n$'
+
+# ÓGH
+cat $1 | egrep 'ógh' | egrep -v "^([bdm]'|h|[nt]-)?ógh"
+
+# ROMH
+cat $1 | egrep 'romh[bcdfglmnprst]' | egrep -v '^b?ph?romh[ft]'
+
+# TH$ rule
+cat $1 | egrep '[^aeiouáéíóú]th$'
+
+# TH->H, following check for (and find no) potential exceptions (i.e.silent TH)
+cat $1 | egrep '[^a]eth'
+cat $1 | egrep 'éth' | egrep -v '^n?dh?éth'
+cat $1 | egrep 'óth[^aeiouáéíóú]'
+cat $1 | egrep 'uth[^aeiouáéíóúl]'
+
+# UTHL
+cat $1 | egrep 'uth[bcdfgmnprst]'
+
+# UDH(AFT)-
+cat $1 | egrep 'udh' | egrep -v '^mh?udh[aft]?'
+
+# UGH
+cat $1 | egrep 'ugh' | egrep -v '^m?bh?rugh'   # repeat of 6.I.c above
+
+# ÚTH(BCDF...)- no 'fh' exception needed
+cat $1 | egrep 'úth([bgmnst]|fh)'
+
+## Remainder were inspired by gaeilge_phonet.dat but either
+## correspond to defunct rules or exceptions have no logical implications
+echo 'Checking for exceptions to defunct rules in phonetics file...'
 cat $1 | egrep '..*gc[^h]'
 cat $1 | egrep 'fph' | egrep -v '^n?gh?rafpháip'
 cat $1 | egrep 'cdh' | egrep -v '^(m?bh?reacdhorc|sh?priocdhát|t?sh?iocdhó)'
@@ -150,7 +239,6 @@ cat $1 | egrep '..*bp' | egrep -v 'sh?ubpoena'
 cat $1 | egrep 'bhmh' | egrep -v '^d?th?aobhmhao'
 cat $1 | egrep 'cgh' | egrep -v '^(m?bh?rioscghlór|t?sh?earcghr)'
 cat $1 | egrep 'chdh' | egrep -v '^(n?dh?rochdh|g?ch?ríochdheigh|smeachdhún)'
-cat $1 | egrep 'aomhfh' | egrep -v '^naomhfhá'
 cat $1 | egrep '[áiuú]fh'
 cat $1 | egrep 'éfh' | egrep -v '^n?dh?éfh'
 cat $1 | egrep 'ófh' | egrep -v '^g?ch?lófhoir'

@@ -22,9 +22,11 @@ English summary
 <ul>
 <li> Go to the
 <a href = "index.html">main <i>ispell-gaeilge</i> page</a>
+<li> <a href = "index.html#Sios-luchtu">Downloading</a>
 <li> <a href = "#Features">Features</a>
 <li> <a href = "#Installation">Installation</a>
 <li> <a href = "#Contributing">Contributing</a>
+<li> <a href = "sonrai.html#Athruithe">Change Log (in Irish)</a>
 </ul>
 <hr>
 <p>
@@ -92,18 +94,27 @@ thereby recognizing and suggesting the correct spelling "iomasach".
 <p>
 I am not an expert with <i>autoconfig</i> or <i>automake</i>
 so the installation procedure is a bit naive.  There is no
-"configure" script -- after unpacking the tarball, you should edit the 
-variables at the top of the
-Makefile to the appropriate directories and
-then use "make" to build the hashed word list
+"configure" script -- after unpacking the tarball, 
+try using "make" to build the hashed word list
 (<i>gaeilge.hash</i> for <i>ispell</i> and <i>gaeilge</i> for <i>aspell</i>).
+If you run into trouble
+you should edit the 
+variables at the top of the
+Makefile to the appropriate directories and try again.
 
 <p>
-The default conforms strictly to standardized Irish spelling.
-You can generate a "large model" hash table <i>gaeilgemor.hash</i> 
+The default hash table conforms strictly to standardized Irish spelling.
+You can generate a "large model" table <i>gaeilgemor.hash</i> 
 (<i>ispell</i> only) by changing the variable 
 <i>INSTALLATION</i> at the top of the Makefile
-to <i>gaeilgemor</i> and using "make" as before.
+to <i>gaeilgemor</i> and using "make" as before.  
+<b>However I strongly urge installers to make the standard model 
+<i>gaeilge.hash</i>
+the default on your system</b>.   The large model is <b>not</b> the analogue
+of the
+larger-sized English dictionaries distributed with many English spellcheckers
+(containing obscure but correctly-spelled words).  Instead it contains
+non-standard or dialect spellings and non-standard inflections.
 
 <p>
 The ISO-639-1 code for Irish is "ga".

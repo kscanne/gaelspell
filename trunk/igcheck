@@ -14,7 +14,7 @@ cat $1 | egrep "[^a-zA-ZáéíóúÁÉÍÓÚ'\-]"
 
 ### LENITION and VOWELS
 echo 'Checking lenition...'
-cat $1 | egrep '[aeiouáéíóúhjlnrvxz]h' | egrep -v '[aeiouáéíóú]h[aeiouáéíóú]' | egrep -v 'Fh?aranhaít' | egrep -v '^g?Ch?óbanhávan' | egrep -v "^([bdm]')?fhorhalla" | egrep -v '(bh)?forhalla' | egrep -v "^([bdm]'|h|[nt]-)?unnailheicsiam"
+cat $1 | egrep '[aeiouáéíóúhjlnrvxz]h' | egrep -v '[aeiouáéíóú]h[aeiouáéíóú]' | egrep -v 'Fh?aranhaít' | egrep -v '^g?Ch?óbanhávan' | egrep -v "^([bdm]')?fhorhalla" | egrep -v '(bh)?forhalla' | egrep -v 'n?gh?ealhataí?$' | egrep -v "^([bdm]'|h|[nt]-)?unnailheicsiam"
 cat $1 | egrep 'sh[^aeiouáéíóúlnr]'
 ## check for eclipsis and lenition of same consonant
 ## so it suffices to check m?bh? later...
@@ -31,7 +31,7 @@ cat $1 | egrep '([iouáíóú][eé]|aé)' | egrep -v '^(bhuel|hiéana|t?sh?ubpoena)'
 cat $1 | egrep '[aeoáéíó]u'
 cat $1 | egrep '[íoóú][aá]' | egrep -v '^(sh?eampú|m?bh?uíá|g?ch?ó[aá]|reoá|t?sh?aíá)' | egrep -v 'iúáil' | egrep -v '^n?Gh?úam$'
 cat $1 | egrep '[aáeéoó]ú' | egrep -v '^(m?bh?áú|g?ch?réú|n?dh?óú|n?gh?laeú|naoú|neamhbháú|t?sh?éú|t?sh?óú)'
-cat $1 | egrep '[aáéíú]ó' | egrep -v '^(m?bh?uíó|n?dh?laíó|mh?éóis|réó)'
+cat $1 | egrep '[aáéíú]ó' | egrep -v '^(m?bh?uíó|n?dh?laíó|mh?éóis|réó|m?Bh?éóitia)'
 cat $1 | egrep '(eí|é[áío]|[áuú]o)'
 echo 'Checking for weird triphthongs...'
 cat $1 | egrep '[aeiouáéíóú][aeiouáéóú][aeouáéíóú]' | egrep -v '(uaí|iúá)' | egrep -v "^(([bdm]'|h|[nt]-)?aeó|n?gh?lae|hiéan|náia|naoú|b?ph?aranóia|reoá|s[pt]raeá)"
@@ -78,11 +78,11 @@ cat $1 | egrep 'tht'
 # Rule 14.a i and ii, lch 113
 cat $1 | egrep 'll[rs]' | egrep -v '([oO]lls|bhallra)' | egrep -v '^(n?dh?allr|m?ballra|n?dh?uillsilt|n?gh?éillsin|g?ch?allshaoth|g?ch?eallra|stiallscann)'
 # Rule 14.b.ii, sonnda is literary, lch 113
-cat $1 | egrep 'nnd' | egrep -v 'nndh?e[ai]rg' | egrep -v '^(lionndubh|g?ch?eanndán|sh?onnda$)'
+cat $1 | egrep 'nnd' | egrep -v 'nndh?e[ai]rg' | egrep -v '^(lionndubh|g?ch?eanndán|sh?onnda$)' | egrep -v '^(b?ph?onnd)'
 # Rule 14.b.iv, loinnreach/mainnre are genitives, lch 113
 cat $1 | egrep 'nnr' | egrep -v '(nnrua|loinnreach)$' | egrep -v '^(g?ch?eannr|mh?ainnre)'
 # Rule 14.b.v, annsan is emphatic pronomial, not ==ansin, lch 113
-cat $1 | egrep 'nns' | egrep -v '^(g?ch?eanns|n?dh?innseanch|n?gh?rinnscr|b?ph?roinnseomra|g?ch?rannseil|mh?ionnscríbhinn)' | egrep -v '^annsan$'
+cat $1 | egrep 'nns' | egrep -v '^(g?ch?eanns|n?dh?innseanch|n?gh?rinnscr|b?ph?roinnseomra|g?ch?rannseil|mh?ionnscríbhinn|m?bh?onnsmid)' | egrep -v '^annsan$'
 # Rule 15.a, lch 114
 cat $1 | egrep 'ln' | egrep -v '(iailnimh|ilnáisiúnta|ollnóva|ulna|ilnithe$)'  | egrep -v '^(b?ph?ailn|m?bh?allnai?sc$)'
 # Rule 15.b, oirmhidne is literary genitive, lch 114

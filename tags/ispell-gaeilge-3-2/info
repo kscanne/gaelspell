@@ -1,0 +1,17 @@
+name_english Irish
+lang ga
+author:
+  name  Kevin P. Scannell
+  email scannell at slu edu
+  maintainer true
+copyright GPL
+version 0.50-3
+url http://borel.slu.edu/ispell/index.html
+source-version 3.2
+charset iso8859-1
+special	' -*- - -*-
+soundslike phonet
+alias ga irish gaeilge
+dict:
+  name ga
+  add ga

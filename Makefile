@@ -2,9 +2,9 @@
 # INSTALLATION=gaeilgemor
 # INSTALLATION=gaeilgelit
 INSTALLATION=gaeilge
-ISPELLDIR=/usr/local/lib
-ISPELLBIN=/usr/local/bin
-INSTALL=/usr/local/bin/install
+ISPELLDIR=/usr/lib/ispell
+ISPELLBIN=/usr/bin
+INSTALL=/usr/bin/install
 PERSONAL=daoine gall giorr logainm miotas stair
 
 #   Shouldn't have to change anything below here
@@ -16,19 +16,15 @@ ALTWORDS= gaeilge.mor
 AFFIXFILE= gaeilge.aff
 ALTAFFIXFILE=gaeilgemor.aff
 APPNAME=ispell-gaeilge-$(RELEASE)
-AAPPNAME=aspell-gaeilge-$(RELEASE)
 MYAPPNAME=myspell-gaeilge-$(RELEASE)
 TARFILE=$(APPNAME).tar
-ATARFILE=$(AAPPNAME).tar
 MYTARFILE=$(MYAPPNAME).tar
-CODEDIR=$(HOME)/math/code
-GIN=$(CODEDIR)/main/Gin
+CODEDIR=$(HOME)/clar/denartha
+GIN=$(CODEDIR)/Gin
 INSTALL_DATA=$(INSTALL) -m 444
-ASPELLDATA=/usr/local/aspell
-ASPELLFLAGS=--dict-dir=$(ASPELLDATA)/dict --data-dir=$(ASPELLDATA)/data
-ASPELL=/usr/local/bin/aspell $(ASPELLFLAGS)
+ASPELL=/usr/bin/aspell
 MYSPELL=/usr/local/bin/myspell
-MAKE=/usr/ccs/bin/make
+MAKE=/usr/bin/make
 
 hashtable: $(INSTALLATION).hash
 
@@ -38,12 +34,12 @@ gaeilge.hash: $(RAWWORDS)
 	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
 
 gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff
-	sort -f $(RAWWORDS) $(LITWORDS) > gaeilge.focail
+	isort $(RAWWORDS) $(LITWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail gaeilgelit.aff gaeilgelit.hash
 	rm -f gaeilge.focail
 
 gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
-	sort -f $(RAWWORDS) $(LITWORDS) $(ALTWORDS) > gaeilge.focail
+	isort $(RAWWORDS) $(LITWORDS) $(ALTWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
@@ -68,23 +64,16 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff forproc.tar.gz ga.cwl
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff ga.cwl repl pearsanta
 
 distclean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff forproc.tar.gz ga.cwl
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff ga.cwl repl pearsanta
 	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga.dic
 	rm -f IG.temp EN.temp
 
 #############################################################################
 ### Remainder is for development only
 #############################################################################
-
-aspell: aspell.txt
-	$(INSTALL_DATA) gaeilge.dat $(ASPELLDATA)/data
-	$(INSTALL_DATA) gaeilge_phonet.dat $(ASPELLDATA)/data
-	$(ASPELL) --lang=gaeilge create master ./gaeilge < aspell.txt
-	$(INSTALL_DATA) gaeilge $(ASPELLDATA)/dict
-	rm -f gaeilge
 
 gaeilgemor.diff: FORCE
 	diff -e $(AFFIXFILE) $(ALTAFFIXFILE) > gaeilgemor.diff
@@ -100,11 +89,11 @@ athfromdb : FORCE
 	mv -f tempfile athfhocail
 
 sort: FORCE
-	sort -f $(RAWWORDS) > tempfile
+	isort $(RAWWORDS) > tempfile
 	mv tempfile $(RAWWORDS)
-	sort -f $(LITWORDS) > tempfile
+	isort $(LITWORDS) > tempfile
 	mv tempfile $(LITWORDS)
-	sort -f $(ALTWORDS) > tempfile
+	isort $(ALTWORDS) > tempfile
 	mv tempfile $(ALTWORDS)
 
 sortpersonal: FORCE
@@ -164,13 +153,16 @@ aspelllit.txt: gaeilgelit.hash
 aspellalt.txt: gaeilgemor.hash
 	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
+# these aspell function are unimplemented according to K.A. 7/2/03
 apersonal: $(PERSONAL)
-	rm -f $(HOME)/.aspell.gaeilge.pws
-	sort -u $(PERSONAL) > temp.lst
-	$(ASPELL) --lang=gaeilge create personal $(HOME)/.aspell.gaeilge.pws < temp.lst
-	rm -f temp.lst
-	rm -f $(HOME)/.aspell.gaeilge.prepl
-	$(ASPELL) --lang=gaeilge create repl $(HOME)/.aspell.gaeilge.prepl < athfhocail
+	(echo "personal_repl-1.1 ga 0"; cat athfhocail) > repl
+	(echo "personal_ws-1.1 ga 0"; sort -u $(PERSONAL)) > pearsanta
+	cp -f repl $(HOME)/.aspell.ga.prepl
+	cp -f pearsanta $(HOME)/.aspell.ga.pws
+#	rm -f $(HOME)/.aspell.ga.rpl
+#	cat athfhocail | $(ASPELL) --lang=ga create repl $(HOME)/.aspell.ga.rpl
+#	rm -f $(HOME)/.aspell.ga.per
+#	sort -u $(PERSONAL) | $(ASPELL) --lang=ga create personal $(HOME)/.aspell.ga.per < tempwords 
 
 installweb: FORCE
 	$(INSTALL_DATA) index.html $(HOME)/public_html/ispell
@@ -224,37 +216,18 @@ mydist: ga.dic
 ga.cwl: aspell.txt
 	LANG=C; export LANG; cat aspell.txt | sort -u | word-list-compress c > ga.cwl
 
-forproc: aspell.txt
-	cp README Copyright
-	cp gaeilge_phonet.dat ga_phonet.dat
-	chmod 644 aspell.txt ga_phonet.dat info Copyright
-	tar cvf forproc.tar Copyright ga_phonet.dat aspell.txt info
-	gzip forproc.tar
-	rm -f ga_phonet.dat Copyright
-
-adist: FORCE
-	sort -u $(PERSONAL) > proper
-	mv Makefile Makefile.tmp
-	cp Makefile.asp Makefile
-	cp README Copyright
-	chmod 644 aspell.txt gaeilge.dat gaeilge_phonet.dat COPYING README proper biobla Makefile info athfhocail
-	ln -s ispell-gaeilge ../$(AAPPNAME)
-	tar cvhf $(ATARFILE) -C .. $(AAPPNAME)/aspell.txt
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/athfhocail
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/info
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gaeilge.dat
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/gaeilge_phonet.dat
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/COPYING
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/Copyright
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/Makefile
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/biobla
-	tar rvhf $(ATARFILE) -C .. $(AAPPNAME)/proper
-	gzip $(ATARFILE)
-	mv Makefile.tmp Makefile
-	rm -f ../$(AAPPNAME) proper Copyright
+adist: aspell.txt apersonal
+	chmod 644 aspell.txt README gaeilge_phonet.dat info pearsanta repl
+	cp -f README ../aspelldev/Copyright
+	cp -f gaeilge_phonet.dat ../aspelldev/ga_phonet.dat
+	cp -f aspell.txt ../aspelldev
+	cp -f info ../aspelldev
+	cp -f pearsanta ../aspelldev/doc
+	cp -f repl ../aspelldev/doc
+	aspellproc
 
 sounds.txt: FORCE
-	$(ASPELL) --lang=gaeilge soundslike < aspell.txt > sounds.txt
+	$(ASPELL) --lang=ga soundslike < aspell.txt > sounds.txt
 
 seiceail: FORCE
 	@cat ../bearla/tcht

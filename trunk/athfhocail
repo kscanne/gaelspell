@@ -771,6 +771,7 @@ b'eascar b'ascar
 b'eascar b'eascairt
 b'eascar b'eascra
 b'eascar b'oscar
+b'eascon b'eascann
 b'easláintiúil b'easláinteach
 b'easláintiúil b'easláintigh
 b'easláintiúla b'easláinteacha
@@ -1128,6 +1129,12 @@ b'fhliuchra b'fhliuchrais
 b'fhliuchra b'fhliuchras
 b'fhlúirseacht b'fhlúirse
 b'fhlúirseachta b'fhlúirse
+b'fhobha b'fhogha
+b'fhobhach b'fhoghach
+b'fhobhacha b'fhoghacha
+b'fhobhaí b'fhoghaí
+b'fhobhaigh b'fhoghaigh
+b'fhobhanna b'fhoghanna
 b'fhocla b'fhocail
 b'fhóda b'fhóid
 b'fhoghainteach b'fhóinteach
@@ -2423,6 +2430,12 @@ bhfliuchra bhfliuchras
 bhflúirseacht bhflúirse
 bhflúirseachta bhflúirse
 bhfóbair ndóbair
+bhfobha bhfogha
+bhfobhach bhfoghach
+bhfobhacha bhfoghacha
+bhfobhaí bhfoghaí
+bhfobhaigh bhfoghaigh
+bhfobhanna bhfoghanna
 bhfocla bhfocail
 bhfóda bhfóid
 bhfoghainteach bhfóinteach
@@ -6461,6 +6474,7 @@ d'eascar d'ascar
 d'eascar d'eascairt
 d'eascar d'eascra
 d'eascar d'oscar
+d'eascon d'eascann
 d'ecstasaí d'eacstais
 d'ecstasaí d'eacstaise
 d'éibhear d'eibhear
@@ -6771,6 +6785,8 @@ d'fhliuchra d'fhliuchrais
 d'fhliuchra d'fhliuchras
 d'fhlúirseacht d'fhlúirse
 d'fhlúirseachta d'fhlúirse
+d'fhobha d'fhogha
+d'fhobhanna d'fhoghanna
 d'fhocla d'fhocail
 d'fhóda d'fhóid
 d'fhoghantais d'fhóntais
@@ -9276,6 +9292,7 @@ eascar ascar
 eascar eascairt
 eascar eascra
 eascar oscar
+eascon eascann
 easláintiúil easláinteach
 easláintiúil easláintigh
 easláintiúla easláinteacha
@@ -9959,6 +9976,12 @@ fhliuchra fhliuchras
 fhlúirseacht fhlúirse
 fhlúirseachta fhlúirse
 fhóbair dhóbair
+fhobha fhogha
+fhobhach fhoghach
+fhobhacha fhoghacha
+fhobhaí fhoghaí
+fhobhaigh fhoghaigh
+fhobhanna fhoghanna
 fhocla fhocail
 fhóda fhóid
 fhoghainteach fhóinteach
@@ -10381,6 +10404,12 @@ fliuchra fliuchras
 flúirseacht flúirse
 flúirseachta flúirse
 fóbair dóbair
+fobha fogha
+fobhach foghach
+fobhacha foghacha
+fobhaí foghaí
+fobhaigh foghaigh
+fobhanna foghanna
 focla focail
 fóda fóid
 foghainteach fóinteach
@@ -13383,6 +13412,7 @@ heascar hascar
 heascar heascairt
 heascar heascra
 heascar hoscar
+heascon heascann
 heasláintiúil heasláinteach
 heasláintiúil heasláintigh
 heasláintiúla heasláinteacha
@@ -14786,6 +14816,7 @@ m'eascar m'ascar
 m'eascar m'eascairt
 m'eascar m'eascra
 m'eascar m'oscar
+m'eascon m'eascann
 m'ecstasaí m'eacstais
 m'ecstasaí m'eacstaise
 m'éibhear m'eibhear
@@ -15036,6 +15067,8 @@ m'fhliuchra m'fhliuchrais
 m'fhliuchra m'fhliuchras
 m'fhlúirseacht m'fhlúirse
 m'fhlúirseachta m'fhlúirse
+m'fhobha m'fhogha
+m'fhobhanna m'fhoghanna
 m'fhocla m'fhocail
 m'fhóda m'fhóid
 m'fhoghantais m'fhóntais
@@ -17097,6 +17130,7 @@ n-eascar n-ascar
 n-eascar n-eascairt
 n-eascar n-eascra
 n-eascar n-oscar
+n-eascon n-eascann
 n-easláintiúil n-easláinteach
 n-easláintiúil n-easláintigh
 n-easláintiúla n-easláinteacha

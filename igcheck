@@ -40,8 +40,8 @@ cat $1 | egrep 'ndh' | egrep -v 'fh?lanndhe[ai]rg([ae])?$'
 cat $1 | egrep '(bp|ts|dt)h'
 cat $1 | egrep '^(gc|ng|bhf)h'
 echo 'Checking for repeated letters...'
-#cat $1 | egrep '([^lnr])\1' | egrep -v '^(b?ph?izza|sh?núú|lottó)'
-#cat $1 | egrep '([lnr])\1\1'
+cat $1 | egrep '([^lnr])\1' | egrep -v '^(b?ph?izza|sh?núú|lottó)'
+cat $1 | egrep '([lnr])\1\1'
 cat $1 | egrep '(aá|áa|eé|ée|ií|ií|oó|óo|uú|úu)'
 echo 'Checking for weird diphthongs...'
 cat $1 | egrep '([iouáíóú][eé]|aé)' | egrep -v '^(bhuel|hiéana|t?sh?ubpoena)'
@@ -123,6 +123,22 @@ cat $1 | egrep "'" | egrep -v "^(m?b|[dm])'"
 cat $1 | egrep 'amhail$' | egrep -v '(sh?|^)amhail$'
 # ÓD lch viii  -éaracht -> -éireacht
 cat $1 | egrep 'éaracht$' | egrep -v '^mh?éaracht$'
+
+### Assumptions from aspell phonetics file
+echo 'Checking for exceptions to assumptions made in aspell phonetics file...'
+cat $1 | egrep '[^a]eth'
+cat $1 | egrep 'éth' | egrep -v '^n?dh?éth'
+cat $1 | egrep '[ío]thf'
+cat $1 | egrep 'óth[^aeiouáéíóú]'
+cat $1 | egrep 'uth[^aeiouáéíóúl]'
+cat $1 | egrep 'úthfh'
+cat $1 | egrep '[^aeiouáéíóú]th$'
+cat $1 | egrep '[^aiou]dh[^aeiouáéíóúlr]'
+cat $1 | egrep '[^aiou]dhl' | egrep -v '(^g?ch?omhdhlú|dhlistean|dhleatha|^neamhdhlíthiú)'
+cat $1 | egrep 'aghi' | egrep -v '^g?ch?orraghiob'
+# see Rule 6.I.c for -ugh
+cat $1 | egrep '[^aiou]gh[^aeiouáéíóúlnr]'
+cat $1 | egrep '[^aiou]ghl[ií]'
 
 
 ### Optional Broad/Broad, Slender/Slender check... lots of exceptions.

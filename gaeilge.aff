@@ -10,21 +10,25 @@ compoundwords on
 defstringtype "nroff" "nroff" ".mm" ".ms" ".me" ".man" ".NeXT"
 
 boundarychars	'
-wordchars	[a-záéíóú] [A-ZÁÉÍÓÚ]
-wordchars	\-
+boundarychars	[---]
+wordchars	[a-z] [A-Z]
+stringchar	á	Á
+stringchar	é	É
+stringchar	í	Í
+stringchar	ó	Ó
+stringchar	ú	Ú
 
 altstringtype	"tex" "TeX" ".tex" ".bib"
-altwordchar	\\'a  á
-altwordchar	\\'e  é
-altwordchar	\\'i  í
-altwordchar	\\i   í
-altwordchar	\\'o  ó
-altwordchar	\\'u  ú
-altwordchar	\\'A  Á
-altwordchar	\\'E  É
-altwordchar	\\'I  Í
-altwordchar	\\'O  Ó
-altwordchar	\\'U  Ú
+altstringchar	\\'a  á
+altstringchar	\\'e  é
+altstringchar	\\'i  í
+altstringchar	\\'o  ó
+altstringchar	\\'u  ú
+altstringchar	\\'A  Á
+altstringchar	\\'E  É
+altstringchar	\\'I  Í
+altstringchar	\\'O  Ó
+altstringchar	\\'U  Ú
 
 prefixes
 
@@ -50,6 +54,7 @@ flag *E:
 	P		>	B
 	S [AEIOUÁÉÍÓÚLNR]   >   T    # CB lch.23
 	T		>	D
+	[AEIOUÁÉÍÓÚ]    >       "N-"
 
 #  b' agus h
 flag *V:
@@ -67,6 +72,10 @@ flag *Z:
         [AEIOUÁÉÍÓÚ]	>	D'
         F               >       -F,D'FH
 
+# t-
+flag *T:
+        [AEIOUÁÉÍÓÚ]	>	"T-"
+	
 # "leideanna" (*gnáth*-réimíreanna le *dhá* litreacha) 
 #  neamhchoitianta: dé-,fo-,ré-,rí-,so-,ur-
 #  leis an fleiscín:  an-

@@ -407,7 +407,9 @@ flag *A:				             # molaim
 						     # snoím
 	[^L] O Í M		>	-ÍM,ITEAR
 						     # cloím 
-        L O Í M			>	-M,TEAR
+        [CH] L O Í M			>	-M,TEAR
+						     # loím 
+        [^CH] L O Í M			>	-ÍM,ITEAR
 						     # dluím, guím, luím, suím
 	[^BH] U Í M		>	-ÍM,ITEAR
 						     # buím 
@@ -549,8 +551,11 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^L] O Í N N		>	-ÍNN,ITEÁ
 	[^L] O Í N N		>	-ÍNN,ITÍ
 						     # chloínn
-	L O Í N N		>	-NN,TEÁ
-	L O Í N N		>	-NN,TÍ
+	[CH] L O Í N N		>	-NN,TEÁ
+	[CH] L O Í N N		>	-NN,TÍ
+						     # loínn
+	[^CH] L O Í N N		>	-ÍNN,ITEÁ
+	[^CH] L O Í N N		>	-ÍNN,ITÍ
 						     # dhluínn, luínn, ndluínn
 	[^BH] U Í N N		>	-ÍNN,ITEÁ
 	[^BH] U Í N N		>	-ÍNN,ITÍ

@@ -84,6 +84,20 @@ sort: FORCE
 	sort -f $(ALTWORDS) > tempfile
 	mv tempfile $(ALTWORDS)
 
+sortpersonal: FORCE
+	sort -f daoine > tempfile
+	mv tempfile daoine
+	sort -f gall > tempfile
+	mv tempfile gall
+	sort -f giorr > tempfile
+	mv tempfile giorr
+	sort -f logainm > tempfile
+	mv tempfile logainm
+	sort -f miotas > tempfile
+	mv tempfile miotas
+	sort -f stair > tempfile
+	mv tempfile stair
+
 count: aspell.txt
 	cat aspell.txt | wc -l
 

@@ -230,7 +230,7 @@ cat $1 | egrep 'údh.'
 cat $1 | egrep '[^aáiou]dh[^aeiouáéíóúlr]'
 
 # DHLÚ-- and DHL(EIÍ)--
-cat $1 | egrep '[^aáiou]dhl' | egrep -v '(dhlúth|dhlistean|dhleatha|^neamhdhlíthiú)'
+cat $1 | egrep '[^aáiou]dhl' | egrep -v '(dhlú(th|ite)|dhlistean|dhleatha|^neamhdhlíthiú)'
 
 # DHR rules
 cat $1 | egrep '[^aáiou]dhr[aáoóuú]' | egrep -v '((dh?obhar|uisce)dhro|^mh?arbhdhra)|^scigdhrámaí?$'

@@ -56,7 +56,7 @@ cat $1 | egrep 'n[dfhilmopru]$' | egrep -v '(ainm|sh?einm|sh?oicind|^Alaind)$'
 ## from Litriú na Gaeilge 
 echo 'Checking for pre-standard spellings (Litriú na Gaeilge rules)...'
 # Rule 2.a, lch 103
-cat $1 | egrep 'tch' | egrep -v '^(g?ch?(airtchlá|eartch|ruitchorda)|leachtchriostai?l$|n?dh?íotchúis|smúitcheo|[sS]tátchist[eí]|d?th?oitcheo|vástchóta)' | egrep -v 'fh?abhtcheartú$'
+cat $1 | egrep 'tch' | egrep -v '^(g?ch?(airtchlá|eartch|ruitchorda|ostchiorr)|leachtchriostai?l$|n?dh?(íotchúis|réachtchon)|smúitcheo|[sS]tátchist[eí]|d?th?(oitcheo|uairtchai?rr)|vástchóta)' | egrep -v 'fh?abhtcheartú$'
 # Rule 3.I.b, lch 104.  ÓD lch viii -aidhe -> -aí
 cat $1 | egrep 'dhe$' | egrep -v '(aghaidhe|réidhe)$' | egrep -v "^([bdm]'|h|[nt]-)?(fhlidhe|[ou]idhe|uídhe)" | egrep -v '^(luaidhe|(bh)?flidhe|m?bh?úidhe|g?Ch?oimdhe|d?th?eidhe|sh?oraidhe|spleidhe)$'
 # Rule 3.II.b, lch 105  (exceptions include some "lit." spellings)
@@ -80,17 +80,17 @@ cat $1 | egrep 'll[rs]' | egrep -v '([oO]lls|bhallra)' | egrep -v '^(n?dh?allr|m
 # Rule 14.b.ii, sonnda is literary, lch 113
 cat $1 | egrep 'nnd' | egrep -v 'nndh?e[ai]rg' | egrep -v '^(lionndubh|g?ch?eanndán|sh?onnda$)' | egrep -v '^(b?ph?onnd)' | egrep -v '^d?th?eanndháileoi?g'
 # Rule 14.b.iv, loinnreach/mainnre are genitives, lch 113
-cat $1 | egrep 'nnr' | egrep -v '(nnrua|loinnreach)$' | egrep -v '^(g?ch?eannr|mh?ainnre)'
+cat $1 | egrep 'nnr' | egrep -v '(nnrua|loinnreach)$' | egrep -v '^(g?ch?eannr|mh?ainnre|lannrollá)'
 # Rule 14.b.v, annsan is emphatic pronomial, not ==ansin, lch 113
 cat $1 | egrep 'nns' | egrep -v '^(g?ch?eanns|n?dh?innseanch|n?gh?rinnscr|b?ph?roinnseomra|g?ch?rannseil|mh?ionnscríbhinn|m?bh?onnsmid)' | egrep -v '^annsan$'
 # Rule 15.a, lch 114
 cat $1 | egrep 'ln' | egrep -v '(iailnimh|ilnáisiúnta|ollnóva|ulna|ilnithe$)'  | egrep -v '^(b?ph?ailn|m?bh?allnai?sc$)'
 # Rule 15.b, oirmhidne is literary genitive, lch 114
-cat $1 | egrep 'dn' | egrep -v '(ardnósa|oirmhidne$)' | egrep -v '^(m?bh?róidn|m?bh?airdne$|mh?aidneachai?n$)' | egrep -v '^muidne$'
+cat $1 | egrep 'dn' | egrep -v '(eicidn[eí]$|ardnósa|oirmhidne$)' | egrep -v '^(m?bh?róidn|m?bh?airdne$|mh?aidneachai?n$)' | egrep -v '^muidne$'
 # Rule 16.a.i, lch 115
-cat $1 | egrep 'sg' | egrep -v 'aisgh(níomh|abh|air|afa$)|fh?olúsghlantó|uasghrád|aoisghrúpa'  | egrep -v '^(luasgh|b?ph?easghad|g?ch?leasghleac|g?ch?raosghalai?r$|g?ch?rosgho|n?dh?easghná|d?th?re?asgh|n?gh?lasgh|neasghao|rósghairdíní?$)'
+cat $1 | egrep 'sg' | egrep -v 'aisgh(níomh|abh|air|afa$)|fh?olúsghlantó|(uas|íos)ghrád|aoisghrúpa'  | egrep -v '^(luasgh|b?ph?easghad|g?ch?leasghleac|g?ch?raosghalai?r$|g?ch?rosgho|n?dh?easghná|d?th?re?asgh|n?gh?lasgh|neasghao|rósghairdíní?$)'
 # Rule 16.a.iii, lch 115
-cat $1 | egrep 'sd' | egrep -v '(aisdúich|eisdírith|osduine$)' | egrep -v '^(g?ch?osdearg|d?th?easdí|d?th?rasdu|leasde|rósd)' | egrep -v 'osdaonna$'
+cat $1 | egrep 'sd' | egrep -v '(aisdúich|eisdírith|osduine$)' | egrep -v '^(g?ch?osdearg|d?th?easdí|d?th?rasdu|leasde|rósd|n?gh?lasdoi?nn)' | egrep -v 'osdaonna$'
 # Rule 19.g, lch 121, bladha, miadha, mudha, spleadha  literary
 cat $1 | egrep 'dha$' | egrep -v '(fhea|uidhea)dha$' | egrep -v '^((bh)?fea|m?bh?la|mh?(ia|u|o)|splea)dha$'
 # Rule 23.I.a, lch 123
@@ -99,7 +99,7 @@ cat $1 | egrep 'árr'
 cat $1 | egrep 'éir[dl]' | egrep -v '^(léirlé|spéirl)'
 # Rule 24, lch 124
 cat $1 | egrep "(-.*-|'.*')" | egrep -v '(earraí-le-roinnt$|éan-féin-é$)' | egrep -v '^[nt]-'
-cat $1 | egrep '-' | egrep -v "(-.*-|'.*')" | egrep -v '^([nt]-[aeiouáéíóú]|an-|n?dh?ea-|x-gha)' | egrep -v '([bcdfglmnprst]h?)-(\1|h)' | egrep -v '[aeiouáéíóú]-[aeiouáéíóú]' | egrep -v '[A-ZÁÉÍÓÚ].*-[A-ZÁÉÍÓÚ]' | egrep -v "(ion-anál|^(bh|[bdm]')?(fh?o-[abcéegirt]|fh?rith-chuaran)|^g?ch?omh-a|^n?dh?o-(chomh|gh|ranna|scartha)|t?sh?o-(bh|gha|ranna)|t?sh?(in-sean|íos-lucht)|^([bdm]'|h)?a[mn]-)" | egrep -v '(-ca$|^g?ch?(oisí-clois|raobh-abh)|iar-tharraing|órang-úta|fh?ia-chai?t$|^n?dh?iosc-jaca|uisce-sciá|^d?th?(adhall-íogair|iuf-teaf)|^m?bh?an-ab|^b?ph?ríomh-(air|bhanaist)|^n?gh?(áma-gha|ar-amha|earr-(aighn|chlóscrío?bh))|^(réalt|spás)-am(a|anna)?$|^hais-táblaí?$|^hurdaí-gurda|^nua-staire?$|^neamh-(a|chomh|shain)|^mh?ór-(ais|éil)|^t-léint?e$|^u-chasadh$|^V-mhuineál$|^m?bh?éite-thástá(il|la)$)' | egrep -v '(idir-ilchríocha|in-bhithmh|^n?dh?o-bhraite$|^neamh-fhéinchúis)'
+cat $1 | egrep '-' | egrep -v "(-.*-|'.*')" | egrep -v '^([nt]-[aeiouáéíóú]|an-|n?dh?ea-|x-gha)' | egrep -v '([bcdfglmnprst]h?)-(\1|h)' | egrep -v '[aeiouáéíóú]-[aeiouáéíóú]' | egrep -v '[A-ZÁÉÍÓÚ].*-[A-ZÁÉÍÓÚ]' | egrep -v "(ion-anál|^(bh|[bdm]')?(fh?o-[abcéegirt]|fh?rith-chuaran)|^g?ch?omh-a|^n?dh?o-(chomh|gh|ranna|scartha)|t?sh?o-(bh|gha|ranna)|t?sh?(in-sean|íos-lucht)|^([bdm]'|h)?a[mn]-)" | egrep -v '(-ca$|^g?ch?(rua-chré$|oisí-clois|raobh-abh)|iar-tharraing|órang-úta|fh?ia-chai?t$|^n?dh?iosc-jaca|uisce-sciá|^d?th?(adhall-íogair|iuf-teaf)|^m?bh?an-ab|^b?ph?ríomh-(air|bhanaist|roghchlái?r$)|^n?gh?(áma-gha|ar-amha|earr-(aighn|chlóscrío?bh))|^(réalt|spás)-am(a|anna)?$|^hais-táblaí?$|^hurdaí-gurda|^nua-staire?$|^neamh-(a|chomh|shain|incháilithe|fhéinchúis)|^mh?ór-(ais|éil)|^t-léint?e$|^u-chasadh$|^V-mhuineál$|^m?bh?éite-thástá(il|la)$)' | egrep -v '(fh?leisc-ama?$|il-eitn|idir-ilchríocha|in-bhithmh|^n?dh?o-bhraite$|^mh?(eán-am|uir-eolai?s$))'
 # Rule 25, lch 127
 cat $1 | egrep "'" | egrep -v "^(m?b|[dm])'"
 
@@ -120,7 +120,7 @@ echo 'A...'
 cat $1 | egrep 'nbhann' | egrep -v 'anbhanna?$'
 
 # ANBHAIN
-cat $1 | egrep 'anbhai' | egrep -v '(anbhainne?$|^m?bh?uanbhail)'
+cat $1 | egrep 'anbhai' | egrep -v '(anbhainne?$|^m?bh?uanbhail|^n?gh?rianbhaic$)'
 
 # AERGA
 cat $1 | egrep 'erga' | egrep -v 'aerga$'
@@ -236,7 +236,7 @@ cat $1 | egrep '^dhl[^aeíiuú]'
 
 # DHR rules
 cat $1 | egrep '[^aáiou]dhr[aáoóuú]' | egrep -v '((dh?obhar|uisce)dhro|^mh?arbhdhra|^(scig|n?gh?earr)dhrámaí?$|^t?sh?reangdhrumaí?$)'
-cat $1 | egrep '[^aáiou]dhr[eéií]' | egrep -v '(dhr[eé]acht|dhreacha?$|eirdhris)'
+cat $1 | egrep '[^aáiou]dhr[eéií]' | egrep -v '(^n?dh?ídhreasacht|dhr[eé]acht|dhreacha?$|eirdhris)'
 cat $1 | egrep '^dhr[^aáeéiouú]' | egrep -v '^dhr(óla|íoda)'
 
 echo 'E...'
@@ -258,7 +258,7 @@ echo 'É...'
 cat $1 | egrep 'éarb' | egrep -v '^n?gh?éarbh'
 
 # ÉARM
-cat $1 | egrep 'éarm[^h]' | egrep -v 'th?éarma'
+cat $1 | egrep 'éarm[^h]' | egrep -v 'th?éarm(a|eol)'
 
 # ÉARG
 cat $1 | egrep 'éarg[^h]' | egrep -v '^(lán)?léargai?s$'
@@ -289,7 +289,7 @@ cat $1 | egrep 'fh?onnm' | egrep -v "^(b'|bh)?fh?onnmhai?r"
 cat $1 | egrep 'fh?oilm' | egrep -v "^([bdm]'|bh)?fh?oilmh[eí]"
 
 # FAIDH, almost always terminal
-cat $1 | egrep 'faidh[^b]'
+cat $1 | egrep 'faidh[^b]' | egrep -v "fh?aidhpeái?l"
 
 # FADH, almost always terminal
 cat $1 | egrep 'fadh[^bf]' | egrep -v 'fh?adharcái?n$'
@@ -329,7 +329,7 @@ cat $1 | egrep 'gh?(ain|eall)mh' | egrep -v '^n?gh?(ain|eall)mh'
 
 # GH
 cat $1 | egrep '[^aiou]gh[^aeiouáéíóúlnr]'
-cat $1 | egrep '[^aiou]ghl[ií]' | egrep -v 'aimhghlic(ea|i)s$'
+cat $1 | egrep '[^aiou]ghl[ií]' | egrep -v '(^t?sh?árghliú|aimhghlic(ea|i)s)$'
 
 echo 'I...'
 # IARG
@@ -495,7 +495,7 @@ cat $1 | egrep 'rífear' | egrep -v '^((h|n-)?ath)?rífear$'
 cat $1 | egrep 'romh[bcdfglmnprst]' | egrep -v '^b?ph?romh[ft]'
 
 # RFEAN/RFIN
-cat $1 | egrep 'rf(ean|in$)' | egrep -v '^(m?bh?e|n?gh?a|t?sh?e|mh?e)irf(ea|i)n$'
+cat $1 | egrep 'rf(ean|in$)' | egrep -v '(ionoirfin|^(m?bh?e|n?gh?a|t?sh?e|mh?e)irf(ea|i)n)$'
 
 # R(BGM)H--
 
@@ -569,11 +569,11 @@ cat $1 | egrep 'úth([gmns]|fh)'
 
 echo 'V...'
 # V  (see Litriú na Gaeilge, Rule 20, lch 121)
-cat $1 | egrep '[vV]' | egrep -v "^(.?|[bdm]')[A-ZÁÉÍÓÚ]" | egrep -v '(vót|vír|volt|nóva|vialait|vinil)' | egrep -v "^([bdm]'|h|[nt]-)?(aircí|inveirteab)" | egrep -v '^([vV]|sva|leiviata|ribeaflaivin|g?ch?ileav|n?dh?ordveidh|mh?eindiléiv)'
+cat $1 | egrep '[vV]' | egrep -v "^(.?|[bdm]')[A-ZÁÉÍÓÚ]" | egrep -v '(vót|vír|volt|nóva|vialait|vinil)' | egrep -v "^([bdm]'|h|[nt]-)?(aircí|inveirteab)" | egrep -v '^([vV]|sva|leiviata|ribeaflaivin|rótvaidhlé|raiviólaí$|svuít|g?ch?ileav|n?dh?ordveidh|mh?eindiléiv)'
 
 echo 'W...'
 # W
-cat $1 | egrep '[wW]' | egrep -v '^wigwam'
+cat $1 | egrep '[wW]' | egrep -v '(^wigwam|Dh?arwin)'
 
 echo 'X...'
 # X
@@ -585,7 +585,7 @@ cat $1 | egrep '[yY]' | egrep -v '^yóyó'
 
 echo 'Z...'
 # Z
-cat $1 | egrep '[zZ]' | egrep -v '^(z|b?ph?uza)' | egrep -v "^([bdm]'|h|[nt]-)?ózó"
+cat $1 | egrep '[zZ]' | egrep -v '^(z|b?ph?uza)' | egrep -v "^([bdm]'|h|[nt]-?)?(ózó|Úizbeiceast)"
 
 ## Remainder were inspired by gaeilge_phonet.dat but either
 ## correspond to defunct rules or exceptions have no logical implications

@@ -141,6 +141,7 @@ installweb: FORCE
 	$(INSTALL_DATA) index.html $(HOME)/public_html/ispell
 	$(INSTALL_DATA) index-en.html $(HOME)/public_html/ispell
 	$(INSTALL_DATA) sonrai.html $(HOME)/public_html/ispell
+	$(INSTALL_DATA) sios.html $(HOME)/public_html/ispell
 
 dist: FORCE
 	chmod 644 $(AFFIXFILE) $(ALTAFFIXFILE) $(RAWWORDS) $(ALTWORDS) COPYING README Makefile biobla daoine gall giorr logainm miotas stair
@@ -171,7 +172,7 @@ ga.dic: gaeilge.raw
 	rm -f tempcount
 
 mycheck: ga.dic aspell.txt
-	$(MYSPELL) ga.aff ga.dic aspell.txt | egrep 'incorrect'
+	- $(MYSPELL) ga.aff ga.dic aspell.txt | egrep 'incorrect'
 
 mydist: ga.dic
 	cp README README.txt

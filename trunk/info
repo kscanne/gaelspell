@@ -1,18 +1,21 @@
 name_english Irish
 name_ascii Gaeilge
+name_native Gaeilge
 lang ga
+data-file ga_phonet.dat
 author:
   name  Kevin P. Scannell
+  name-native Caoimhín Ó Scanaill
   email scannell at slu edu
   maintainer true
 copyright GPL
-version 0.50-5
+version 3.5
 url http://borel.slu.edu/ispell/index.html
-source-version 3.4
-charset iso8859-1
-special	' -*- - -*-
-soundslike phonet
+source-version 3.5
 alias ga irish gaeilge
 dict:
   name ga
   add ga
+complete true
+accurate true
+mode aspell5

@@ -136,10 +136,24 @@ cat $1 | egrep '[^aeiouáéíóú]th$'
 cat $1 | egrep '[^aiou]dh[^aeiouáéíóúlr]'
 cat $1 | egrep '[^aiou]dhl' | egrep -v '(^g?ch?omhdhlú|dhlistean|dhleatha|^neamhdhlíthiú)'
 cat $1 | egrep 'aghi' | egrep -v '^g?ch?orraghiob'
-# see Rule 6.I.c for -ugh
+# see Rule 6.I.c above for -ugh
 cat $1 | egrep '[^aiou]gh[^aeiouáéíóúlnr]'
 cat $1 | egrep '[^aiou]ghl[ií]'
-
+cat $1 | egrep 'aomh[bcdgmpr]'
+cat $1 | egrep 'eomh[bcdfglmnprst]' | egrep -v '^leomh[ft]'
+cat $1 | egrep 'romh[bcdfglmnprst]' | egrep -v '^b?ph?romh[ft]'
+cat $1 | egrep 'íomhb' | egrep -v '^b?ph?ríomhbhe?an$'
+cat $1 | egrep '..*gc[^h]'
+cat $1 | egrep 'fph' | egrep -v '^n?gh?rafpháip'
+cat $1 | egrep 'cdh' | egrep -v '^(m?bh?reacdhorc|sh?priocdhát|t?sh?iocdhó)'
+cat $1 | egrep '..*bp' | egrep -v 'sh?ubpoena'
+cat $1 | egrep 'bhmh' | egrep -v '^d?th?aobhmhao'
+cat $1 | egrep 'cgh' | egrep -v '^(m?bh?rioscghlór|t?sh?earcghr)'
+cat $1 | egrep 'chdh' | egrep -v '^(n?dh?rochdh|g?ch?ríochdheigh|smeachdhún)'
+cat $1 | egrep 'aomhfh' | egrep -v '^naomhfhá'
+cat $1 | egrep '[áiuú]fh'
+cat $1 | egrep 'éfh' | egrep -v '^n?dh?éfh'
+cat $1 | egrep 'ófh' | egrep -v '^g?ch?lófhoir'
 
 ### Optional Broad/Broad, Slender/Slender check... lots of exceptions.
 #echo 'Checking for broad/slender or slender/broad...'

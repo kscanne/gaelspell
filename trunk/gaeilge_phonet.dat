@@ -17,138 +17,118 @@
 
 
 version 2.0
-followup 0                    # else breaks x,q rules
+followup 0                    # else breaks QU^, e.g.
 collapse_result 1             # no double letters in resulting strings
 
-ATHFH(AEIOUÁÉÍÓÚ)-   *H       # athfhill, uathfheidhmeach
-ATH(BCDFGLMNPRST)-   *        # athlas, mionathrú
-ADH                  *        # bladhm, feadhain, tadhall, adhmad, -adh$
-AGHI---              *        # exception to AGH rule, corraghiob
-AGHLOIN------        *        # exception to AGH rule, pleicseaghloine
-AGH                  *        # slaghdán, treaghd, saghas
-AOMHFH--             *V       # naomhfháidh only 
-AOMHF-               *        # faomhf- verb endings only
-AOMH(LNST)---        *        # faomht-, caomhn*, naomhluan, naomhsh- only
+ATHFH(AEIOU)---      *H       # athfhill,uathfheidhmeach,etc.-exception to next
+ATH(BCDFGLMNPRST)-   *        # athlas, mionathrú, etc. - exception to TH->H
+ADH                  *        # bladhm, feadhain, tadhall, adhmad, -adh$, etc.
+AGHI---              *        # exception to AGH, corraghiob
+AGHLOIN------        *        # exception to AGH, pleicseaghloine (not aghloit)
+AGH                  *        # slaghdán, treaghd, saghas, etc.
+AOMH(FLNST)---       *        # faomh[ft]-,caomhn*,naomh* only, OMH exception
 A                    *
-ÁTHFH(AEIOUÁÉÍÓÚ)-   *H       # táthfhéithleann
-ÁTH(BCDFGLMNPRST)-   *        # fáthscéal, gnáthchaint
+ÁDHU---              *        # pádhuille only, exception to next
+ÁDH                  *        # ádhúil, -ádh$ only
+ÁTHFHÉ---            *H       # táthfhéithleann only- exception to next
+ÁTH(BCDFGLMNPRST)-   *        # fáthscéal, gnáth*, bláthfhleasc, etc.
 Á                    *
-BP                   B        # eclipsis + internal only for "subpoena"
-BHMH--               _        # taobhmhaor only
-BHFH--               V        # internal: dubhfhocal, marbhfháisc
-BHF                  V        # eclipsis (+internal: scríobh, etc. v. endings)
-BH                   V        # includes bh$
-B                    B
-CGH--                _        # brioscghlórach, searcghrá  only
-CDH--                _        # spriocdháta, breacdhorcha, siocdhó only
-CHGH--               _        # múchghlan, seachghalar
-CHDH--               _        # drochdhaoine, smeachdhúntóir
+BH                   V        # includes bh$, eclipsis of F via collapsing
+B                    B        # note eclipsis of P via collapsing
 CH                   K        # OK
 C                    K
-DT                   T        # eclipsis and internal: dochreidte, fadtéarmach 
-DH$                  _
-DH(AÁOÓUÚ)-          K
-DH(EÉIÍ)-            Y
-DHLÚ--               K        # comhdhlúthaigh
-DHL(EIÍ)--           Y        # mídhleathach
-DHRO--               K        # dobhardhroim, uiscedhroim
-DHR(EI)--            Y        # tírdhreach, feirdhris 
-D                    T
-EOMHF-               *        # leomhf- only, exception to -omh rule
-EOMHT---             *        # leomht- only, exception to -omh rule
+DH$                  _        # [aáu]dh+most [io]dh done b4,[eéíóú]dh done here
+DH(AÁOÓUÚ)-          K        # athdhúchas, buídhonn, comhdháil, etc.
+DH(EÉIÍ)-            Y        # athdhéan, caordhearg, cinedheighilt, etc.
+DHLÚ--               K        # comhdhlúthaigh, ^dhlú-  only
+DHL(EIÍ)--           Y        # (mí|neamh)dhl(istean|eath|íthiú), ^dhl  only
+DHR(AÁO)--           K        # (dobhar|uisce)dhroim,marbhdhra*,scigdhráma only
+DHR(ÉEI)--           Y        # *dhreach, feirdhris, *dhréacht  only
+D                    T        # note eclipsis of T via collapsing
+EIDH(EI)             *        # exception to IDH, eidheann, teidheach, meidhir
+EOMH(FT)---          *        # leomh[ft]- only, exception to -omh rule
 E                    *
 É                    *
-FPH                  F        # grafpháipéar only
-FH                   _        # fh preceded by vowel already done
+FH                   _        # always silent 
 F                    V
-GC^                  K        # eclipsis
-GCH                  K        # internal: ógchiontóir, bolgchaint
-GH$                  _
-GH(AÁOÓUÚ)-          K        # bobghaiste
-GH(EÉIÍ)-            Y        # athghin, luasghéaraigh
+GH$                  _        # [aióu]gh,most ogh done b4,[eáéíú]gh all terminal
+GH(AÁOÓUÚ)-          K        # bobghaiste, deoirghás, soghonta, etc.
+GH(EÉIÍ)-            Y        # athghin, luasghéaraigh, etc.
 GHL(AÁOÓUÚ)--        K        # ardghlórach, folúsghlantóir
 GHL(EÉ)--            Y        # comhghléas, comhghleacaí
 GHR(AÁOÓUÚ)--        K        # tírghrá, grianghraf
 GHR(EÉIÍ)--          Y        # idirghréasán
 GHN(AÁOÓUÚ)--        K        # deasghnáth
 GHN(EÉIÍ)--          Y        # leorgníomh
-G                    K
-H                    H        # between vowels,Faranhaít,forhalla,srl
-ITHFH(AEIOUÁÉÍÓÚ)-   *H       # cithfholcadh
-ITH(BCDFGLMNPRST)-   *        # aithris, srl. 
-IDH(BCDFGLMNPRST)-   *        # feidhm, traidhfil, oidhre
-IGH(BCDFGLMNPRST)-   *        # foighne, caighdeán, oighrigh
+G                    K        # note eclipsis of C via collapsing
+H                    H        # between vowels+Faranhaít,forhalla,etc.
+ITHFH(OU)---         *H       # cithfholc*,crithfhuacht only- exception to next
+ITH(BCDFGLMNPRST)-   *        # aithris, frith*, etc.  exception to TH->H
+IDH(BCDFGLMNPRST)-   *        # feidhm, traidhfil, oidhre, etc.
+IGH(CDEFILNRST)-     *        # foighne, caighdeán, oighrigh, oighear, feighil
 I                    *
-ÍOMH(BFP)-           *        # príomhbhean, príomhpháirt, (l|r|sn)íomhf-
-ÍOMH(CDGLMNRST)---   *        # príomh-, exception to omh- rule
+ÍOMH(BCDFGLMNPRST)--- *       # príomh-, líomhf-, exceptions to omh- rule
 ÍTHS-                *        # clíthseach (no excp. needed for díthreabh,etc.)
 Í                    *
-J                    T        # jab, diosc-jacaí
+J                    T        # jab, diosc-jacaí; a bit like slender d
 K^                   K        # karaté
-LFH                  L        # ceolfhoireann, súilfhéachaint
-LGH--                L        # timpeallghearr
+LFH--                L        # ceolfhoireann,súilfhéachaint- epenth. exception
+LGH--                L        # timpeallghearr - epenth. exception
 L(BFGM)-             L*       # epenthetic vowel
-LL-                  _
 L                    L
 MB^                  M        # eclipsis
-MHBH--               _        # neamhbhuan, réamhbhlas (omhbh dealt with b4)
-MHPH--               _        # neamhphósta, snámhphointe (omhph done b4)
-MHFH--               V        # cnáimhfhiach, neamhfh-, réamhfhios (omhfh done)
-MHF-                 _        # scamhf-, snámhf-, etc.
-MH                   V        # includes end of word+"w" sound+"ow"=*V (amhrán)
+MHODH                V*       # ODH exception
+MODH                 M*       #  "     "
+MH                   V        # includes mh$,/w/, and /au/=*V (amhrán) +see UMH
 M                    M
-NGN^                 N        # eclipsis (ngníomh)
 N(DG)^               N        # eclipsis
 N(BM)-               N*       # epenthetic vowel
-NN-                  _
 N                    N
-ONNCHA---            *N*      # epenthetic vowel
+ONNCHA---            *N*      # epenthetic vowel   fionncha, Donncha only
 OMH(BCDFGLMNPRST)-   *        # comh-, Domhnach, etc. (several excpts b4 this)
-OTH(BCDFGLMNPRST)-   *        # cothrom
-ODH(BCDFGLMNPRST)-   *        # bodhrán, modhnaigh, todhchaí
-OGHRÚP-----          *        # exception to OGH rule, foghrúpa
-OGHLUA-----          *        # exception to OGH rule, so/doghluaiste*
-OGH(BCDFGLMNPRST)-   *        # foghlaim, boghdóir, toghchán
+OTH(BCDGLMNPRS)-     *        # cothrom, baothchaint, gaothscáth, etc.
+ODH(ACLNR)-          *        # bodhrán,modhnaigh,todhchaí,fodhla,bodhar etc.
+OGHRÚP-----          *        # foghrúpa, this and next few are OGH->* excepts.
+OGHLUA-----          *        # so/doghluaiste*
+OGHAF----            *        # doghafa only
+OGH(AÁBCDFGLMNPRST)- *        # ogham, foghlaim, boghdóir, toghchán
 O                    *
+ÓGH                  *        # ógha?$ only
 Ó                    *
 PH                   V        # OK
 P                    B
 QU^                  KV       # quinín
-ROMHF-               R*       # promhf- only, exception to -omh rule
-ROMHT---             R*       # promht- only, exception to -omh rule
-RFH                  R        # eagarfhocal
-RGH--                R        # daorghalar
+ROMH(FT)---          R*       # promh[ft]- only, exception to -omh rule
+RFH--                R        # eagarfhocal, epenth. exception
+RGH--                R        # daorghalar, epenth. exception
 R(BFGM)-             R*       # epenthetic vowel
-RR-                  _
 R                    R
 SH                   H        # OK
 S                    S
 TS^                  T        # prefix-t
-TH$                  _
+TH$                  _        # no exceptions
 TH                   H
-TT-                  _        # lottó
 T                    T
-UMH                  *        # cumhacht, umhal, umhlaíocht, ciumhais
-UTH(L)-              *        # sruthlaigh
+UMH                  *        # cumhacht, umhlaíocht, ciumhais, except to MH->V
+UTHL-                *        # sruthl* only, TH->H exception
 ULCH--               *L*      # epenthetic vowel, ulcha, tulchán
-URCH(AÓ)---          *R*      # epenthetic vowel, urchar, urchall, urchóid, srl
-UDH(BCDFGLMNPRST)-   *        # mudh*
+URCH(AÓ)---          *R*      # epenthetic vowel, urchar, urchall, urchóid, etc
+UDH(AFT)-            *        # mudh* only (literary)
+UGH                  *        # brugh* only (literary)
 U                    *
-ÚTH(BCDFGLMNPRST)-   *        # lúthchleasa, dúthracht
+ÚTH(CDFLPR)-         *        # lúthchleasa, dúthracht, etc. - TH->H exception
 Ú                    *
 V                    V
-W                    V        # wigwam
-X(AEÉIÍ)^            S        # xileafón
-X^                   *KS      # x-gha
-X                    KS       # Marxach
-Y                    Y        # yóyó
-ZZ-                  _        # pizza
-Z                    S
+W                    V        # wigwam only
+X(AEÉIÍ)-^           S        # xileafón, etc.
+X^                   *KS      # x-gha* only
+X                    KS       # Marxach only
+Y                    Y        # yóyó only
+Z                    S        # zú, pizza (collapse), etc.
 #############################################################################
 #     Encoded sounds     ---->      Allowable characters
 #   (notation from Foclóir Póca)    in translated string
 #############################################################################
-#    all strings of vowels                   *
 #    /b/,/b'/,/p/,/p'/                       B
 #    /h/                                     H
 #    /k/,/k'/,/g/,/g'/,/gamma/,/x/,/x'/      K
@@ -160,4 +140,5 @@ Z                    S
 #    /d/,/d'/,/t/,/t'/,/d'z'/                T
 #    /f/,/f'/,/v/,/v'/,/w/,/au/=*V           V
 #    /gamma'/                                Y
+#    all strings of vowels                   *
 #############################################################################

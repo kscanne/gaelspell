@@ -17,15 +17,12 @@ all: FORCE
 
 personal: FORCE
 	mv $(HOME)/.aspell.gaeilge.pws $(HOME)/.aspell.gaeilge.pws.old
-	cat daoine gall giorr logainm miotas stair > temp.lst
-	$(ASPELL) --lang=gaeilge create personal $(HOME)/.aspell.gaeilge.pws < temp.lst
-	rm -f temp.lst
+	$(ASPELL) --lang=gaeilge create personal $(HOME)/.aspell.gaeilge.pws < proper
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=gaeilge soundslike < $(RAWWORDS) > sounds.txt
 
-distclean:
-clean:
+clean distclean:
 	rm -f gaeilge sounds.txt
 
 FORCE:

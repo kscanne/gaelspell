@@ -22,7 +22,7 @@ gaeilge.hash: $(RAWWORDS) $(AFFIXFILE)
 gaeilgemor.hash: $(RAWWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
 	sort -f $(RAWWORDS) $(ALTWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
-	rm gaeilge.focail
+	rm -f gaeilge.focail
 
 clean:
 	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full
@@ -55,6 +55,10 @@ altfull:
 	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 > gaeilge.full
 	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 > gaeilge2.full
 
+personal:
+	rm -f $(HOME)/.ispell_gaeilge
+	sort -f daoine giorr logainm > $(HOME)/.ispell_gaeilge
+
 tarfile: 
 	$(MAKE) reallyclean
 	ln -s ispell-gaeilge ../$(APPNAME)
@@ -65,8 +69,11 @@ tarfile:
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/COPYING
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/README
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/Makefile
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/daoine
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/giorr
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/logainm
 	gzip $(TARFILE)
-	rm ../$(APPNAME)
+	rm -f ../$(APPNAME)
 
 install: $(INSTALLATION).hash
 	cp $(INSTALLATION).hash $(ISPELLDIR)

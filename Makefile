@@ -136,8 +136,6 @@ allcounts: FORCE
 	@$(MAKE) litcount
 	@echo 'focal infhillte'
 	@echo 'Leagan canúnach:'
-	@cat igtemp | wc -l
-	@echo 'ceannfhocal agus'
 	@$(MAKE) altcount
 	@echo 'focal infhillte'
 	@rm -f igtemp

@@ -73,6 +73,7 @@ flag B:
 # h
 flag H:
  	[AEIOUÁÉÍÓÚ]	>	H
+ 	[AEIOUÁÉÍÓÚ]	>	"H-"
 	
 #  m'
 flag M:

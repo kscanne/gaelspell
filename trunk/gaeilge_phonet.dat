@@ -1,0 +1,135 @@
+# Aspell phonetics for Irish, by Kevin Scannell <scannell@slu.edu>
+# Copyright 2000 Kevin P. Scannell
+#
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation; either version 2 of the License, or
+#   (at your option) any later version.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License
+#   along with this program; if not, write to the Free Software
+#   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+
+version 1.1
+
+A(AEIOU¡…Õ”⁄)-       _
+ATHFH(AEIOU¡…Õ”⁄)-   *H       # athfhill, uathfheidhmeach
+ATH(BCDFGLMNPRST)-   *        # athlas, mionathr˙
+ADH<                 A        # bladhm, feadhain, tadhall, adhmad, -adh
+AGHI---              *        # exception to AGH< rule, corraghiob
+AGHLOIN------        *        # exception to AGH< rule, pleicseaghloine
+AGH<                 A        # slaghd·n, treaghd
+A                    *
+¡(AEIOU¡…Õ”⁄)-       _
+¡THFH(AEIOU¡…Õ”⁄)-   *H       # t·thfhÈithleann
+¡TH(BCDFGLMNPRST)-   *        # f·thscÈal, gn·thchaint
+¡                    *
+BP^                  B
+BHF^                 V
+BH                   V        # includes bh$
+B                    B
+CH                   K        # OK
+C                    K
+DH$                  _
+DT^                  T
+DH(A¡O”U⁄)-          K
+DH(E…IÕ)             Y
+DHL⁄--               K        # comhdhl˙thaigh
+DHL(EIÕ)--           Y        # mÌdhleathach
+DHRO--               K        # dobhardhroim, uiscedhroim
+DHR(EI)--            Y        # tÌrdhreach, feirdhris 
+D                    T
+E(AEIOU¡…Õ”⁄)-       _
+E                    *
+…(AEIOU¡…Õ”⁄)-       _
+…                    *
+FH                   _
+F                    V
+GC^                  K
+GH$                  _
+GH(A¡O”U⁄)-          K        # bobghaiste
+GH(E…IÕ)-            Y        # athghin, luasghÈaraigh
+GHL(A¡O”U⁄)--        K        # ardghlÛrach, fol˙sghlantÛir
+GHL(E…)--            Y        # comhghlÈas, comhghleacaÌ
+GHR(A¡O”U⁄)--        K        # tÌrghr·, grianghraf
+GHR(E…IÕ)--          Y        # idirghrÈas·n
+GHN(A¡O”U⁄)--        K        # deasghn·th
+GHN(E…IÕ)--          Y        # leorgnÌomh
+G                    K
+H                    H        # between vowels,FaranhaÌt,forhalla,srl
+IUMH<                I
+I(AEIOU¡…Õ”⁄)-       _
+ITHFH(AEIOU¡…Õ”⁄)-   *H       # cithfholcadh
+ITH(BCDFGLMNPRST)-   *        # aithris, srl. 
+IDH(BCDFGLMNPRST)-   *        # feidhm, traidhfil, oidhre
+IGH(BCDFGLMNPRST)-   *        # foighne, caighde·n, oighrigh
+I                    *
+Õ(AEIOU¡…Õ”⁄)-       _
+ÕTH(S)-              *        # clÌthseach
+ÕTH(R)-              *H       # dÌthreabh, dÌthruailli˙, mÌthreoir, srl.
+Õ                    *
+J                    J        # jab, diosc-jacaÌ
+K^                   K        # karatÈ
+LFH                  L        # ceolfhoireann, s˙ilfhÈachaint
+LGH--                L        # timpeallghearr
+L(BFGM)-             L*       # epenthetic vowel
+LL-                  _
+L                    L
+MB^                  M
+MH                   V        # includes end of word+"w" sound+"ow"=*V (amhr·n)
+M                    M
+N(DG)^               N
+NFH                  N        # infheicthe, domhanfhad, rÈinfhia
+NGH--                N        # bangharda, fÌonghort
+N(BM)-               N*       # epenthetic vowel
+NN-                  _
+N                    N
+ONNCHA---            *N*      # epenthetic vowel
+O(AEIOU¡…Õ”⁄)-       _
+OTH(BCDFGLMNPRST)-   *        # cothrom
+ODH(BCDFGLMNPRST)-   *        # bodhr·n, modhnaigh, todhchaÌ
+OGHR⁄P-----          *        # exception to OGH rule, foghr˙pa
+OGHLUA-----          *        # exception to OGH rule, so/doghluaiste*
+OGH(BCDFGLMNPRST)-   *        # foghlaim, boghdÛir, toghch·n
+O                    *
+”(AEIOU¡…Õ”⁄)-       _
+”                    *
+PH                   V        # OK
+P                    P
+QU^                  KV       # quinÌn
+RFH                  R        # eagarfhocal
+RGH--                R        # daorghalar
+R(BFGM)-             R*       # epenthetic vowel
+RR-                  _
+R                    R
+TS^                  T
+SH                   H        # OK
+S                    S
+TH$                  _
+TH                   H
+TT-                  _        # lottÛ
+T                    T
+UMH<                 U
+U(AEIOU¡…Õ”⁄)-       _
+UTH(L)-              *        # sruthlaigh
+ULCH--               *L*      # epenthetic vowel, ulcha, tulch·n
+URCH(A”)---          *R*      # epenthetic vowel, urchar, urchall, urchÛid, srl
+UDH(BCDFGLMNPRST)-   *        # mudh*
+U                    *
+⁄(AEIOU¡…Õ”⁄)-       _
+⁄TH(BCDFGLMNPRST)-   *        # l˙thchleasa, d˙thracht
+⁄                    *
+V                    V
+W                    V        # wigwam
+X(AE…IÕ)^            S        # xileafÛn
+X^                   *KS      # x-gha
+X                    KS       # Marxach
+Y                    Y        # yÛyÛ
+ZZ-                  _        # pizza
+Z                    S

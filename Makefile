@@ -7,7 +7,7 @@ ISPELLBIN=/usr/bin
 INSTALL=/usr/bin/install
 SHELL=/bin/sh
 MAKE=/usr/bin/make
-PERSONAL=aitiuil daoine eachtar gall giorr logainm miotas.txt stair.txt
+PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt stair.txt
 
 #   Shouldn't have to change anything below here
 RELEASE=3.5
@@ -126,6 +126,8 @@ sortpersonal: FORCE
 	mv tempfile gall
 	sort -f giorr > tempfile
 	mv tempfile giorr
+	sort -f gno > tempfile
+	mv tempfile gno
 	sort -f logainm > tempfile
 	mv tempfile logainm
 	sort -f miotas > tempfile
@@ -218,7 +220,7 @@ installweb: FORCE
 dist: FORCE
 	$(MAKE) ChangeLog stair.txt miotas.txt
 	sed '/development only/,$$d' ./Makefile > makefile
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile aitiuil biobla daoine eachtar gall giorr logainm miotas.txt stair.txt makefile
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla daoine eachtar gall giorr gno logainm miotas.txt stair.txt makefile
 	chmod 755 igcheck
 	ln -s ispell-gaeilge ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -236,6 +238,7 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/eachtar
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gall
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/giorr
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/gno
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/igcheck
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/logainm
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/miotas.txt

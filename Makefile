@@ -3,11 +3,11 @@
 INSTALLATION=gaeilge
 ISPELLDIR=/usr/local/lib
 ISPELLBIN=/usr/local/bin
-MAKE=/usr/local/bin/make
+MAKE=/usr/ccs/bin/make
 
 #   Shouldn't have to change anything below here
 SHELL=/bin/sh
-RELEASE=1.1
+RELEASE=1.2
 RAWWORDS= gaeilge.raw
 ALTWORDS= gaeilge.mor
 AFFIXFILE= gaeilge.aff

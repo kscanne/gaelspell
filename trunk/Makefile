@@ -130,6 +130,7 @@ dist: FORCE
 	gzip $(TARFILE)
 	rm -f ../$(APPNAME)
 
+# careful with fuaim until bug is fixed
 ga.dic: gaeilge.raw
 	rm -f ga.dic
 	cat gaeilge.raw | wc -l | tr -d " " > tempcount

@@ -558,6 +558,7 @@ bhroimní/U
 bhroimnínn/FU
 bhuiséadaí/U
 bhuiséadaínn/FU
+bhúr
 biadáin/US
 biadán/US
 biadh/US
@@ -942,6 +943,8 @@ caitheachtáil/US
 caitheachtála/US
 caithreach/US
 caithreacha/US
+caiticiosma/US
+caiticiosmaí/US
 calaithe/US
 calandair/US
 calandar/US
@@ -1177,6 +1180,8 @@ choisní/U
 choisnínn/FU
 chomáine/U
 chomáininn/EU
+chomhadaí/U
+chomhadaínn/FU
 chonac/U
 chonairc/U
 chongabha/U
@@ -1369,6 +1374,9 @@ cnú/US
 cnuas/US
 cnuasaim/USA
 cnuasta/US
+cnuimh/US
+cnuimhe/US
+cnuimheanna/US
 cnúnna/US
 cóbach/US
 cóbacha/US
@@ -1474,6 +1482,10 @@ comán/US
 comána/US
 comann/US
 comh/US
+comhadaigh/US
+comhadaím/USC
+comhadaithe/US
+comhadú/US
 comhairleach/US
 comhairleachan/US
 comhairligh/US
@@ -1539,6 +1551,10 @@ coróige/US
 corpadóir/US
 corpadóirí/US
 corpadóra/US
+corporáideach/US
+corporáideacha/US
+corporáidí/US
+corporáidigh/US
 corr/US
 corrmhíola/US
 corróg/US
@@ -1806,6 +1822,7 @@ dallacháin/US
 dallachán/US
 dalláin/US
 dallán/US
+dálta/US
 d'amasaigh/U
 d'amasaínn/FU
 damhais/US
@@ -2688,7 +2705,17 @@ fiarú/USBMD
 fideog/BMDUS
 fideoga/BMDUS
 fideoige/BMDUS
+fidile/BMDUS
+fidiléara/BMDUS
+fidiléir/BMDUS
+fidiléirí/BMDUS
+fidileoir/BMDUS
+fidileoirí/BMDUS
+fidileora/BMDUS
+fidilí/BMDUS
 fidir/US
+fidleáil/BMDUS
+fidleála/BMDUS
 filí/BMDUS
 filibín/BMDUS
 filibíní/BMDUS
@@ -3309,6 +3336,8 @@ gnáthacha/US
 gnáthaí/US
 gnáthaigh/US
 gníomha/US
+gnóchain/US
+gnóchan/US
 gnoithe/US
 gnoitheach/US
 gnoitheacha/US
@@ -4121,8 +4150,10 @@ meanadh/S
 meangaíl/S
 meangaíola/S
 méaracha/S
+méaráil/S
 mearaíocht/S
 mearaíochta/S
+méarála/S
 measaire/S
 measairí/S
 méasantair/S
@@ -5483,6 +5514,8 @@ smaoine
 smaoinim/A
 smaoininn/E
 smaointe
+smaointeachais
+smaointeachas
 smaointí
 smaointigh
 smaointím/C

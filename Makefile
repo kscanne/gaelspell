@@ -9,7 +9,7 @@ PERSONAL=daoine gall giorr logainm miotas stair
 
 #   Shouldn't have to change anything below here
 SHELL=/bin/sh
-RELEASE=3.3
+RELEASE=3.4
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor
@@ -230,8 +230,9 @@ ga.cwl: aspell.txt
 	LANG=C; export LANG; cat aspell.txt | sort -u | word-list-compress c > ga.cwl
 
 adist: aspell.txt apersonal ChangeLog
-	chmod 644 aspell.txt README gaeilge_phonet.dat info pearsanta repl
+	chmod 644 aspell.txt README README.aspell gaeilge_phonet.dat info pearsanta repl
 	cp -f README ../aspelldev/Copyright
+	cp -f README.aspell ../aspelldev/doc/README
 	cp -f gaeilge_phonet.dat ../aspelldev/ga_phonet.dat
 	cp -f aspell.txt ../aspelldev
 	cp -f info ../aspelldev

@@ -175,7 +175,8 @@ installweb: FORCE
 	$(INSTALL_DATA) sios.html $(HOME)/public_html/ispell
 
 dist: FORCE
-	chmod 644 $(AFFIXFILE) $(ALTAFFIXFILE) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README Makefile biobla daoine gall giorr logainm miotas stair
+	$(MAKE) ChangeLog
+	chmod 644 $(AFFIXFILE) $(ALTAFFIXFILE) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile biobla daoine gall giorr logainm miotas stair
 	chmod 755 igcheck
 	ln -s ispell-gaeilge ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -184,6 +185,7 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(LITWORDS) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(ALTWORDS) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/COPYING
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/ChangeLog
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/README
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/Makefile
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/biobla
@@ -206,13 +208,14 @@ ga.dic: $(RAWWORDS)
 mycheck: ga.dic aspell.txt
 	- $(MYSPELL) ga.aff ga.dic aspell.txt | egrep 'incorrect'
 
-mydist: ga.dic
+mydist: ga.dic ChangeLog
 	cp README README.txt
 	chmod 644 ga.dic ga.aff COPYING README.txt
 	ln -s ispell-gaeilge ../$(MYAPPNAME)
 	tar cvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ga.dic
 	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ga.aff
 	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/COPYING
+	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ChangeLog
 	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/README.txt
 	gzip $(MYTARFILE)
 	rm -f ../$(MYAPPNAME) README.txt
@@ -220,7 +223,7 @@ mydist: ga.dic
 ga.cwl: aspell.txt
 	LANG=C; export LANG; cat aspell.txt | sort -u | word-list-compress c > ga.cwl
 
-adist: aspell.txt apersonal
+adist: aspell.txt apersonal ChangeLog
 	chmod 644 aspell.txt README gaeilge_phonet.dat info pearsanta repl
 	cp -f README ../aspelldev/Copyright
 	cp -f gaeilge_phonet.dat ../aspelldev/ga_phonet.dat
@@ -228,7 +231,11 @@ adist: aspell.txt apersonal
 	cp -f info ../aspelldev
 	cp -f pearsanta ../aspelldev/doc
 	cp -f repl ../aspelldev/doc
+	cp -f ChangeLog ../aspelldev/doc
 	aspellproc
+
+ChangeLog : FORCE
+	cvs2cl.pl
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=ga soundslike < aspell.txt > sounds.txt

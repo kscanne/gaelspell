@@ -463,12 +463,12 @@ adhmhillte/HUBMD
 adhmhilltear/HU
 adhmhol/HU
 adhmhola/U
-adhmholadh/HUBMDT
+adhmholadh/HBMDUT
 adhmholaidís/HU
 adhmholaigí/HU
 adhmholaim/UA
 adhmholainn/E
-adhmholta/HUBMD
+adhmholta/HBMDU
 adhmholtar/HU
 adhna/U
 adhnadar
@@ -1211,8 +1211,8 @@ ailíním/UC
 ailínínn/F
 ailíníodh/HU
 ailínítear/HU
-ailínithe/HUBMD
-ailíniú/HUBMDT
+ailínithe/HBMDU
+ailíniú/HBMDUT
 áilíos/HBMDUT
 áilíosa/HBMDU
 áilíosach/HBU
@@ -2082,7 +2082,7 @@ aisghabhaim/UA
 aisghabhainn/E
 aisghabhála/HBMDU
 aisghabhtar/HU
-aisghafa/HUB
+aisghafa/HBU
 aisghair/HU
 aisghaire/U
 aisghaireadh/HU
@@ -3685,12 +3685,12 @@ aosáin/HBMDU
 aosaínn/F
 aosaíodh/HU
 aosaítear/HU
-aosaithe/HUBMD
+aosaithe/HBMDU
 aosán/HBMDUT
 aosánach/HBMDUT
 aosánaigh/HBMDU
 aosta/HBU
-aosú/HUBMDT
+aosú/HBMDUT
 aothaí/U
 aothaídís/HU
 aothaigh/HU
@@ -4040,7 +4040,7 @@ armaigh/HBU
 armáil/HUBMD
 armailít/HBMDU
 armailíte/HBMDU
-armáilte/HUB
+armáilte/HBU
 armáiltear/HU
 armais/HBMDU
 armála/HUBMD
@@ -4434,7 +4434,7 @@ atéigh/HU
 atéigí/HU
 atéim/UA
 atéinn/E
-atéite/HUB
+atéite/HBU
 atéitear/HU
 áth/HBMDUT
 átha/HBMDU
@@ -4606,12 +4606,12 @@ athchaora/HBMDU
 athchaorach/HBMDU
 athchas/HU
 athchasa/U
-athchasadh/HUBMDT
+athchasadh/HBMDUT
 athchasaidís/HU
 athchasaigí/HU
 athchasaim/UA
 athchasainn/E
-athchasta/HUBMD
+athchasta/HBMDU
 athchastar/HU
 athcheap/HU
 athcheapa/U
@@ -4839,8 +4839,8 @@ atheagraím/UC
 atheagraínn/F
 atheagraíodh/HU
 atheagraítear/HU
-atheagraithe/HUBMD
-atheagrú/HUBMDT
+atheagraithe/HBMDU
+atheagrú/HBMDUT
 athéirí/HBMDUT
 athéiríche/HBU
 athéiríoch/HBU
@@ -4850,6 +4850,16 @@ athfháis/HBMDU
 athfhála/HBMDU
 athfhás/HBMDUT
 athfhéar/HBMDUT
+athfheidhmí/U
+athfheidhmídís/HU
+athfheidhmigh/HU
+athfheidhmígí/HU
+athfheidhmím/UC
+athfheidhmínn/F
+athfheidhmíodh/HU
+athfheidhmítear/HU
+athfheidhmithe/HUBMD
+athfheidhmiú/HUBMDT
 athfhéir/HBMDU
 athfheistithe/HBMDU
 athfheistiú/HBMDUT
@@ -5306,8 +5316,8 @@ atosaím/UC
 atosaínn/F
 atosaíodh/HU
 atosaítear/HU
-atosaithe/HUBMD
-atosú/HUBMDT
+atosaithe/HBMDU
+atosú/HBMDUT
 atráth/HBMDUT
 atrátha/HBMDU
 atráthanna/HBMDU
@@ -6560,6 +6570,7 @@ barócaigh/US
 barr/US
 barra/US
 barrach/US
+barracha/US
 barrachais/US
 barrachas/US
 barrachód/US
@@ -10577,8 +10588,10 @@ bruasairí/US
 brúcht/US
 brúchta/US
 brúchtach/US
+brúchtacha/US
 brúchtadh/US
 brúchtaí/US
+brúchtaigh/US
 brúchtaim/USA
 brúchtanna/US
 brúdáin/US
@@ -12493,6 +12506,9 @@ candamach/US
 candamacha/US
 candamaí/US
 candamaigh/US
+candamaím/USC
+candamaithe/US
+candamú/US
 cangarú/US
 cangarúnna/US
 canna/US
@@ -12579,6 +12595,8 @@ caobacha/US
 caobaí/US
 caoch/US
 caocha/US
+caochadáin/US
+caochadán/US
 caochadh/US
 caochaíl/US
 caochaim/USA
@@ -13437,6 +13455,8 @@ Ceanadach/S
 Ceanadacha/S
 Ceanadaí/S
 Ceanadaigh/S
+ceanáin/US
+ceanán/US
 ceanastair/US
 ceanastar/US
 ceangail/US
@@ -14234,6 +14254,8 @@ chanbhásála/U
 chanbhásálainn/JU
 chancraí/U
 chancraínn/FU
+chandamaí/U
+chandamaínn/FU
 channaí/U
 channaínn/FU
 chanónaí/U
@@ -15486,6 +15508,7 @@ ciúáil/US
 ciúáileadh/US
 ciúáilim/USA
 ciúáilte/US
+ciúála/US
 ciúb/US
 ciúbach/US
 ciúbacha/US
@@ -15923,6 +15946,7 @@ cliatha/US
 cliathach/US
 cliathacha/US
 cliathaí/US
+cliathaigh/US
 cliatháin/US
 cliathán/US
 cliathánach/US
@@ -17817,6 +17841,8 @@ comhchoiteann/US
 comhchoiteanna/US
 comhchoitinn/US
 comhchoitinne/US
+comhchomhad/US
+comhchomhaid/US
 comhchomhairle/US
 comhchomhairlí/US
 comhchóra/US
@@ -18804,6 +18830,7 @@ coróineacha/US
 coróiní/US
 corónach/US
 corónacha/US
+corónaí/US
 corónaigh/US
 corónaím/USC
 corónaithe/US
@@ -20651,6 +20678,7 @@ cuingrithe/US
 cuingriú/US
 cúinne/US
 cúinneach/US
+cúinneacha/US
 cúinneáil/US
 cúinneáilte/US
 cúinneála/US
@@ -22344,6 +22372,8 @@ dátheangachais/US
 dátheangachas/US
 dátheangaí/US
 dátheangaigh/US
+d'athfheidhmigh/U
+d'athfheidhmínn/FU
 d'athfhill/U
 d'athfhillinn/EU
 d'athfhuaimnigh/U
@@ -24153,6 +24183,8 @@ dhíghalraí/U
 dhíghalraínn/FU
 dhíghlasála/U
 dhíghlasálainn/JU
+dhíghrúpála/U
+dhíghrúpálainn/JU
 dhigití/U
 dhigitínn/FU
 dhíhiodráití/U
@@ -24231,6 +24263,8 @@ dhíshioca/U
 dhíshiocainn/EU
 dhíshlóga/U
 dhíshlógainn/EU
+dhíshuiteála/U
+dhíshuiteálainn/JU
 dhíslí/U
 dhíslínn/FU
 dhíspeaga/U
@@ -24854,6 +24888,10 @@ díghlasálaim/USI
 díghrádaithe/US
 díghrádú/US
 díghráduithe/US
+díghrúpáil/US
+díghrúpáilte/US
+díghrúpála/US
+díghrúpálaim/USI
 díginn/US
 digit/US
 digite/US
@@ -25455,6 +25493,7 @@ díorthaigh/US
 díorthaím/USC
 díorthaithe/US
 díorthú/US
+díorthuithe/US
 d'Iorua
 d'Ioruach
 d'Ioruaigh
@@ -25674,6 +25713,10 @@ díshlógaim/USA
 díshlógtha/US
 díshondais/US
 díshondas/US
+díshuiteáil/US
+díshuiteáilte/US
+díshuiteála/US
+díshuiteálaim/USI
 d'Ísiltír
 d'Ísiltíre
 d'Ísiltíreach
@@ -28879,7 +28922,7 @@ Eastónaí
 Eastónaigh
 eastósc/HU
 eastósca/U
-eastóscadh/HUBMDT
+eastóscadh/HBMDUT
 eastóscaidís/HU
 eastóscaigí/HU
 eastóscaim/UA
@@ -28887,7 +28930,7 @@ eastóscáin/HBMDU
 eastóscainn/E
 eastóscán/HBMDUT
 eastósctar/HU
-eastósctha/HUBMD
+eastósctha/HBMDU
 éastraigin/HBMDU
 éastraigine/HBMDU
 éastrais/HBMDU
@@ -29346,7 +29389,7 @@ eisceachta/HBMDU
 eisceachtaí/HBMDU
 eisceachtúil/HBU
 eisceachtúla/HBU
-eisceadh/HUBMDT
+eisceadh/HBMDUT
 eischéadfach/HBU
 eischéadfacha/HBU
 eischéadfaí/HBU
@@ -29365,7 +29408,7 @@ Eiscimise
 eiscinn/E
 eiscir/HBMDU
 eisctear/HU
-eiscthe/HUBMD
+eiscthe/HBMDU
 eisdíritheach/HBMDUT
 eisdíritheacha/HBU
 eisdíritheacht/HBMDU
@@ -29470,6 +29513,9 @@ eisíne/HBU
 eisínn/F
 eisint/HBMDU
 eisinte/HBMDU
+eisínteacht/HBMDU
+eisínteachta/HBMDU
+eisínteachtaí/HBMDU
 eisintiúil/HBU
 eisintiúla/HBU
 eisíocaíocht/HBMDU
@@ -29486,6 +29532,9 @@ eisítear/HU
 eisíth/HBMDU
 eisithe/HBMDU
 eisíthe/HBMDU
+eisitheoir/HBMDUT
+eisitheoirí/HBMDU
+eisitheora/HBMDU
 eisiúint/HBMDU
 eisiúintí/HBMDU
 eisiúna/HBMDU
@@ -29512,8 +29561,8 @@ eispéirínn/F
 eispéiríodh/HU
 eispéiris/HBMDU
 eispéirítear/HU
-eispéirithe/HUBMD
-eispéiriú/HUBMDT
+eispéirithe/HBMDU
+eispéiriú/HBMDUT
 eisreachtaí/HBMDUT
 eisreachtaídís/HU
 eisreachtaigh/HU
@@ -29537,8 +29586,8 @@ eisréimním/UC
 eisréimnínn/F
 eisréimníodh/HU
 eisréimnítear/HU
-eisréimnithe/HUBMD
-eisréimniú/HUBMDT
+eisréimnithe/HBMDU
+eisréimniú/HBMDUT
 éist/HU
 éiste/HUB
 éisteach/HBU
@@ -29773,15 +29822,15 @@ fabhraigh/BUS
 fabhraím/USC
 fabhraíocht/BMDUS
 fabhraíochta/BMDUS
-fabhraithe/USBMD
-fabhrú/USBMD
+fabhraithe/BMDUS
+fabhrú/BMDUS
 fabht/BMDUS
 fabhtach/BUS
 fabhtacha/BUS
 fabhtaí/BUS
 fabhtaigh/BUS
 fabhtaím/USC
-fabhtaithe/USBMD
+fabhtaithe/BUSMD
 fabhtanna/BMDUS
 fabhtcheartaithe/BMDUS
 fabhtcheartú/BMDUS
@@ -29825,7 +29874,7 @@ fadáil/BMDUS
 fadaím/USC
 fadaíoch/BMDUS
 fadair/BMDUS
-fadaithe/USBMD
+fadaithe/BUSMD
 fadála/BMDUS
 fadálach/BUS
 fadálacha/BUS
@@ -30121,6 +30170,8 @@ fáisc/US
 fáisceadáin/BMDUS
 fáisceadán/BMDUS
 fáisceáin/BMDUS
+fáiscealaín/BMDUS
+fáiscealaíne/BMDUS
 fáisceán/BMDUS
 fáiscim/USA
 fáiscín/BMDUS
@@ -32072,7 +32123,7 @@ fíréan/BMDUS
 fíréana/BUS
 fíréanaigh/US
 fíréanaím/USC
-fíréanaithe/USBMD
+fíréanaithe/BMDUS
 fireann/BUS
 fireanna/BUS
 fireannach/BMDUS
@@ -32084,7 +32135,7 @@ fireannaigh/BMDUS
 fíréanta/BUS
 fíréantacht/BMDUS
 fíréantachta/BMDUS
-fíréanú/USBMD
+fíréanú/BMDUS
 firéid/BMDUS
 fíréin/BMDUS
 fíréine/BUS
@@ -32630,8 +32681,9 @@ foirc/BMDUS
 foirceadail/BMDUS
 foirceadal/BMDUS
 foirceann/BMDUS
-foirceannadh/USBMD
+foirceannadh/BMDUS
 foirceannaim/USA
+foirceannta/BMDUS
 foirceanta/BUSMD
 foircinn/BMDUS
 foircneach/BUS
@@ -32929,8 +32981,8 @@ fóntais/BMDUS
 fóntas/BMDUS
 fo-ordaigh/US
 fo-ordaím/USC
-fo-ordaithe/USBMD
-fo-ordú/USBMD
+fo-ordaithe/BMDUS
+fo-ordú/BMDUS
 fo-phróiseas/BMDUS
 fo-phróisis/BMDUS
 forábhair/BMDUS
@@ -33077,8 +33129,8 @@ Forfáis/S
 Forfás/S
 forfheidhmigh/US
 forfheidhmím/USC
-forfheidhmithe/USBMD
-forfheidhmiú/USBMD
+forfheidhmithe/BMDUS
+forfheidhmiú/BMDUS
 forgach/BMDUS
 forgacha/BMDUS
 forgaí/BMDUS
@@ -33198,8 +33250,8 @@ formhór/BMDUS
 formhothaithe/BUS
 formhuinigh/US
 formhuiním/USC
-formhuinithe/USBMD
-formhuiniú/USBMD
+formhuinithe/BMDUS
+formhuiniú/BMDUS
 formhuirear/BMDUS
 formhuirir/BMDUS
 formna/BMDUS
@@ -33246,7 +33298,7 @@ forrántachta/BMDUS
 fórsa/BMDUS
 fórsaí/BMDUS
 fórsáil/USBMD
-fórsáilte/USB
+fórsáilte/BUS
 fórsála/USBMD
 fórsálaim/USI
 forscáth/BMDUS
@@ -33324,7 +33376,7 @@ fosaigh/US
 fosaím/USC
 fosaíocht/BMDUS
 fosaíochta/BMDUS
-fosaithe/USBMD
+fosaithe/BUSMD
 fosaitheach/BUS
 fosaitheacha/BUS
 fosaithí/BUS
@@ -34031,7 +34083,7 @@ fuaraím/USC
 fuaráin/BMDUS
 fuaraíocht/BMDUS
 fuaraíochta/BMDUS
-fuaraithe/USBMD
+fuaraithe/BUSMD
 fuaraitheoir/BMDUS
 fuaraitheoirí/BMDUS
 fuaraitheora/BMDUS
@@ -38767,6 +38819,7 @@ guairneáin/US
 guairneála/US
 guairneán/US
 guairní/US
+guairnigh/US
 guais/US
 guaise/US
 guaiseach/US
@@ -40763,7 +40816,7 @@ idirdhuillím/UC
 idirdhuillínn/F
 idirdhuillíodh/HU
 idirdhuillítear/HU
-idirdhuillithe/HUBMD
+idirdhuillithe/HBUMD
 idirdhuilliú/HUBMDT
 idiréadain/HBMDU
 idiréadan/HBMDUT
@@ -41476,7 +41529,7 @@ imtharraingteach/HBU
 imtharraingteacha/HBU
 imtharraingtí/HBU
 imtharraingtigh/HBU
-imtheorannaí/U
+imtheorannaí/HBMDUT
 imtheorannaídís/HU
 imtheorannaigh/HU
 imtheorannaígí/HU
@@ -41520,8 +41573,8 @@ inbhéartaím/UC
 inbhéartaínn/F
 inbhéartaíodh/HU
 inbhéartaítear/HU
-inbhéartaithe/HUBMD
-inbhéartú/HUBMDT
+inbhéartaithe/HBMDU
+inbhéartú/HBMDUT
 inbheirthe/HBU
 inbhir/HBMDU
 inbhithlofa/HBU
@@ -41944,8 +41997,8 @@ inréimním/UC
 inréimnínn/F
 inréimníodh/HU
 inréimnítear/HU
-inréimnithe/HUBMD
-inréimniú/HUBMDT
+inréimnithe/HBMDU
+inréimniú/HBMDUT
 inréiteacht/HBMDU
 inréiteachta/HBMDU
 inréitithe/HBU
@@ -42606,6 +42659,8 @@ ionadaíochta/HBMDU
 ionadaíodh/HU
 ionadaítear/HU
 ionadaithe/HBMDU
+ionadchoinneálaí/HBMDUT
+ionadchoinneálaithe/HBMDU
 ionadh/HBMDUT
 ionadú/HUBMDT
 ionaí/HBMDU
@@ -42746,7 +42801,7 @@ ionduchtaínn/F
 ionduchtaíodh/HU
 ionduchtais/HBMDU
 ionduchtaítear/HU
-ionduchtaithe/HUBMD
+ionduchtaithe/HBUMD
 ionduchtas/HBMDUT
 ionduchtú/HBMDUT
 ionduchtuithe/HBMDU
@@ -42908,7 +42963,7 @@ ionsáinn/E
 ionsaíodh/HU
 ionsair
 ionsairsean
-ionsáite/HUBMD
+ionsáite/HBUMD
 ionsaítear/HU
 ionsáitear/HU
 ionsaithe/HBMDU
@@ -42992,7 +43047,7 @@ iontaisím/UC
 iontaisínn/F
 iontaisíodh/HU
 iontaisítear/HU
-iontaisithe/HUBMD
+iontaisithe/HBUMD
 iontaisiú/HUBMDT
 iontaobhach/HBU
 iontaobhacha/HBU
@@ -44045,6 +44100,10 @@ lárchathrach
 lárchathracha
 lardrúis
 lardrús
+Lár-Eorpach
+Lár-Eorpacha
+Lár-Eorpaí
+Lár-Eorpaigh
 lárfhilleadh
 lárfhillidh
 lárionad
@@ -45331,6 +45390,7 @@ liathghorma
 liathróid
 liathróide
 liathróidí
+liathscála
 liathshúil
 liathshúile
 liathuisce
@@ -46233,6 +46293,8 @@ lorgánaigh
 lorgánta
 lorgántacht
 lorgántachta
+lorgfhocail
+lorgfhocal
 lorgtha
 Lorráin
 Lorráine
@@ -49229,7 +49291,9 @@ meigeafóin/S
 meigeafón/S
 meigeall/S
 meigeallach/S
+meigeallacha/S
 meigeallaí/S
+meigeallaigh/S
 meigeanna/S
 meigibheart/S
 meigibhearta/S
@@ -54799,6 +54863,8 @@ nUasal
 Nua-Shéalainn
 Nua-Shéalainne
 Nua-Shéalannach
+Nua-Shéalannacha
+Nua-Shéalannaí
 Nua-Shéalannaigh
 nuashonraí
 nuashonraigh
@@ -55053,8 +55119,8 @@ ocsaídím/UC
 ocsaídínn/F
 ocsaídíodh/HU
 ocsaídítear/HU
-ocsaídithe/HUBMD
-ocsaídiú/HUBMDT
+ocsaídithe/HBMDU
+ocsaídiú/HBMDUT
 ocsaídiúcháin/HBMDU
 ocsaídiúchán/HBMDUT
 ocsaigin/HBMDU
@@ -55266,8 +55332,8 @@ oighrím/UC
 oighrínn/F
 oighríodh/HU
 oighrítear/HU
-oighrithe/HBUMD
-oighriú/HUBMDT
+oighrithe/HBMDU
+oighriú/HBMDUT
 oigiséad/HBMDUT
 oigiséid/HBMDU
 oil/HU
@@ -55768,8 +55834,8 @@ onóraím/UC
 onóraínn/F
 onóraíodh/HU
 onóraítear/HU
-onóraithe/HUBMD
-onórú/HUBMDT
+onóraithe/HBMDU
+onórú/HBMDUT
 ópail/HBMDU
 ópal/HBMDUT
 optach/HBU
@@ -57212,10 +57278,10 @@ picim/USA
 picnic/US
 picnice/US
 picnicí/US
-picseal/US
-picsil/US
 picteagraim/US
 picteagram/US
+picteilín/US
+picteilíní/US
 picthe/US
 pictiúir/US
 pictiúr/US
@@ -60745,6 +60811,7 @@ ródaíochta
 ródaire
 ródairí
 ródaithe
+Ródaithe
 Ródas
 ródháileog
 ródháileoga
@@ -61542,6 +61609,7 @@ Sacsanaí/S
 Sacsanaigh/S
 Sacs-Bhéarla
 sactha/ST
+sacthaí/S
 sádach/S
 Sádach/S
 sádacha/S
@@ -61885,6 +61953,8 @@ sainphribhléidí/S
 sainráite/S
 sainré/ST
 sainréanna/S
+sainrogha/ST
+sainroghanna/S
 Sainsibeár/S
 saint/ST
 sainte/S
@@ -64323,6 +64393,8 @@ sealtaí/ST
 Sealtainn/S
 sealtaithe/S
 Sealtannach/S
+Sealtannacha/S
+Sealtannaí/S
 Sealtannaigh/S
 séalú/S
 sealúchais/ST
@@ -65700,6 +65772,7 @@ sicréideacht/ST
 sicréideachta/S
 sicréidí/S
 sicréidigh/S
+sifear/S
 sifearnaíl/ST
 sifearnaíola/S
 sifil/ST
@@ -65709,6 +65782,7 @@ sifilis/ST
 sifilise/S
 sifín/ST
 sifíní/S
+sifir/ST
 sifleáil/ST
 sifleáilte/S
 sifleála/S
@@ -66680,6 +66754,7 @@ sléacht/S
 sleachta/ST
 sléachta/ST
 sléachtadh/S
+sléachtaí/S
 sléachtaim/SA
 sléachtainn/E
 sléachtanna/S
@@ -68723,8 +68798,10 @@ spreagóga
 spreagóige
 spreagtha
 spreagthach
+spreagthacha
 spreagthacht
 spreagthachta
+spreagthaí
 spreagthaigh
 spreagthóir
 spreagthóirí
@@ -68783,6 +68860,8 @@ sprioclá
 sprioclae
 sprioclaethanta
 sprioctha
+sprioctheanga
+sprioctheangacha
 spriocuair
 spriocuaire
 spriocúil
@@ -69567,6 +69646,9 @@ stialltáin
 stialltán
 stil
 stíl
+stílbhileog
+stílbhileoga
+stílbhileoige
 stile
 stíle
 stíleáil
@@ -70786,6 +70868,9 @@ tagraí/US
 tagraigh/US
 tagraím/USC
 tagraithe/US
+tagróir/US
+tagróirí/US
+tagróra/US
 tagtar/US
 tagtha/US
 táib/US
@@ -71535,6 +71620,10 @@ tartmhair/US
 tartmhaire/US
 tartmhar/US
 tartmhara/US
+tartrach/US
+tartracha/US
+tartraí/US
+tartraigh/US
 tasc/US
 tásc/US
 tásca/US
@@ -72016,6 +72105,7 @@ teidil/US
 téidís
 teidlíocht/US
 teidlíochta/US
+teidlíochtaí/US
 teifeach/US
 teifeacha/US
 teifí/US
@@ -72092,6 +72182,8 @@ teilitéacs/US
 teilitéacsanna/US
 tÉillín
 teillíneach/US
+teillíneacha/US
+teillíní/US
 teillínigh/US
 tEilvéiseach
 téim/US
@@ -73243,6 +73335,7 @@ tiúine/US
 tiúineanna/US
 tiúis/US
 tiul
+tiúnadh/US
 tiúnadóir/US
 tiúnadóirí/US
 tiúnadóra/US
@@ -74018,6 +74111,7 @@ tráchtaim/USA
 tráchtaire/US
 tráchtaireacht/US
 tráchtaireachta/US
+tráchtaireachtaí/US
 tráchtairí/US
 tráchtais/US
 tráchtála/US
@@ -75821,7 +75915,7 @@ ualaím/UC
 ualaínn/F
 ualaíodh/HU
 ualaítear/HU
-ualaithe/HUBMD
+ualaithe/HBMDU
 uallach/HBU
 uallacha/HBU
 uallachais/HBMDU
@@ -75838,7 +75932,7 @@ uallfartaí/HBMDU
 uallóg/HBMDU
 uallóga/HBMDU
 uallóige/HBMDU
-ualú/HUBMDT
+ualú/HBMDUT
 uama/HBMDU
 uamadh/HBMDUT
 uamaidís/HU
@@ -75906,8 +76000,8 @@ uasghrádaím/UC
 uasghrádaínn/F
 uasghrádaíodh/HU
 uasghrádaítear/HU
-uasghrádaithe/HUBMD
-uasghrádú/HUBMDT
+uasghrádaithe/HBMDU
+uasghrádú/HBMDUT
 uaslathach/HBU
 uaslathacha/HBU
 uaslathaí/HBMDUT
@@ -76819,7 +76913,7 @@ uruithe/HBMDU
 úsca/U
 úscach/HBU
 úscacha/HBU
-úscadh/HUBMDT
+úscadh/HBMDUT
 úscaí/HBU
 úscaidís/HU
 úscaigh/HBU
@@ -76829,7 +76923,8 @@ uruithe/HBMDU
 úscra/HBMDUT
 úscraí/HBMDU
 úsctar/HU
-úsctha/HUBMD
+úsctha/HBMDU
+úscthaí/HBMDU
 úspaire/HBMDUT
 úspaireacht/HBMDU
 úspaireachta/HBMDU

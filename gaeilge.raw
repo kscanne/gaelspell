@@ -2742,7 +2742,7 @@ amhiarainn/HBMDU
 amhiarann/HBMDUT
 amhlachais/HBMDU
 amhlachas/HBMDUT
-amhlaidh
+amhlaidh/HBU
 amhlánta/HBU
 amhola/HBMDU
 amholaí/HBMDU
@@ -3342,6 +3342,8 @@ Aoiseanna
 aoiseanna/HBMDU
 aoisghrúpa/HBMDUT
 aoisghrúpaí/HBMDU
+aoisliúntais/HBMDU
+aoisliúntas/HBMDUT
 aoisteorainn/HBMDU
 aoisteorainneacha/HBMDU
 aoisteorann/HBMDU
@@ -5902,7 +5904,6 @@ bambairní/US
 bambairnigh/US
 bambú/US
 bambúnna/US
-b'amhlaidh
 b'Amhráin
 b'Amhrán
 b'Amstardam
@@ -10908,6 +10909,9 @@ buncharraigeacha/US
 buncheart/US
 bunchearta/US
 bunchirt/US
+bunchloch/US
+bunchlocha/US
+bunchloiche/US
 bunchnoc/US
 bunchnoic/US
 bunchód/US
@@ -17389,6 +17393,9 @@ comhcheangal/US
 comhcheanglaím/USC
 comhcheilg/US
 comhcheilge/US
+comhchéim/US
+comhchéime/US
+comhchéimeanna/US
 comhcheoil/US
 comhcheol/US
 comhchiallach/US
@@ -17666,6 +17673,10 @@ comhleantach/US
 comhleantacha/US
 comhleantaí/US
 comhleantaigh/US
+comhleanúnach/US
+comhleanúnacha/US
+comhleanúnaí/US
+comhleanúnaigh/US
 comhleapach/US
 comhleapaigh/US
 comhleas/US
@@ -17819,6 +17830,7 @@ comhshnaidhmim/USA
 comhshnaidhmthe/US
 comhshocraithe/US
 comhshocrú/US
+comhshocruithe/US
 comhshóiteoir/US
 comhshóiteoirí/US
 comhshóiteora/US
@@ -21459,6 +21471,8 @@ d'Anglacánachais
 d'Anglacánachas
 d'Anglacánaigh
 d'Anglach
+d'Angla-Éireannach
+d'Angla-Éireannaigh
 d'Anglaigh
 d'Angla-Indiach
 d'Angla-Indiaigh
@@ -26409,6 +26423,9 @@ drochrath/US
 drochratha/US
 drochriaracháin/US
 drochriarachán/US
+drochrud/US
+drochruda/US
+drochrudaí/US
 drochscéal/US
 drochscéalta/US
 drochscéil/US
@@ -27787,12 +27804,12 @@ eagnaithe/HBMDU
 éagothroma/HBU
 eagraí/HBMDUT
 eagraídís/HU
-éagráifeach/HBU
+éagráifeach/HBMDUT
 éagráifeacha/HBU
 éagráifeacht/HBMDU
 éagráifeachta/HBMDU
 éagráifí/HBU
-éagráifigh/HBU
+éagráifigh/HBMDU
 eagraigh/HU
 eagraígí/HU
 eagraím/UC
@@ -28396,7 +28413,7 @@ eidhneán/HBMDUT
 éifeachtacha/HBU
 éifeachtacht/HBMDU
 éifeachtachta/HBMDU
-éifeachtaí/HBU
+éifeachtaí/HBMDU
 éifeachtaigh/HBU
 éifeachtúil/HBU
 éifeachtúla/HBU
@@ -30217,6 +30234,8 @@ Feidhmeannas/S
 feidhmí/BUS
 feidhmigh/BUS
 feidhmím/USC
+feidhmíocht/BMDUS
+feidhmíochta/BMDUS
 feidhmithe/BMDUS
 feidhmitheach/BUS
 feidhmitheacha/BUS
@@ -36849,6 +36868,8 @@ gnáthchainte/US
 gnáthchaite/US
 gnáthchomhad/US
 gnáthchomhaid/US
+gnáthchónaí/US
+gnáthchónaithe/US
 gnáthchúrsa/US
 gnáthchúrsaí/US
 gnáthdhaoine/US
@@ -38658,6 +38679,7 @@ Haváígh
 Haváíoch
 Haváíocha
 Havána
+hé
 hEabhrac
 hEabhrach
 hEabhracha
@@ -40029,7 +40051,7 @@ idirstadanna/HBMDU
 idirthréimhse/HBMDU
 idirthréimhseach/HBU
 idirthréimhseacha/HBU
-idirthréimhsí/HBU
+idirthréimhsí/HBMDU
 idirthréimhsigh/HBU
 idirthurais/HBMDU
 idirthuras/HBMDUT
@@ -43702,6 +43724,10 @@ leathanaigeanta
 leathanaigh
 leathanbhanda
 leathanbhandaí
+leathanduilleach
+leathanduilleacha
+leathanduillí
+leathanduilligh
 leathar
 leathbhádóir
 leathbhádóirí
@@ -43769,6 +43795,8 @@ leathlaithe
 leathmhaig
 leathmhaige
 leathmhaigí
+leathmhíle
+leathmhílte
 leathnaí
 leathnaigh
 leathnaím/C
@@ -45216,6 +45244,9 @@ lonnaí
 lonnaigh
 lonnaím/C
 lonnaínn/F
+lonnaíocht
+lonnaíochta
+lonnaíochtaí
 lonnaithe
 lonnaitheoir
 lonnaitheoirí
@@ -46622,6 +46653,8 @@ m'Anglacánachais
 m'Anglacánachas
 m'Anglacánaigh
 m'Anglach
+m'Angla-Éireannach
+m'Angla-Éireannaigh
 m'Anglaigh
 manglaim/S
 m'Angla-Indiach
@@ -49483,6 +49516,8 @@ mionéadaí/S
 mionéadaigh/S
 mioneitilt/S
 mioneitilte/S
+mioneolais/S
+mioneolas/S
 mionfheoil/S
 mionfheola/S
 miongáin/S
@@ -54585,6 +54620,8 @@ orc/HBMDUT
 órchloiche/HBMDU
 Ord
 ord/HBMDUT
+ordacháin/HBMDU
+ordachán/HBMDUT
 ordaí/U
 ordaídís/HU
 ordaigh/HU
@@ -57326,6 +57363,9 @@ príomhchathracha/US
 príomhchócaire/US
 príomhchócairí/US
 príomhchuimhne/US
+príomhchuspóir/US
+príomhchuspóirí/US
+príomhchuspóra/US
 príomhdhath/US
 príomhdhatha/US
 príomhdhathanna/US
@@ -63142,6 +63182,9 @@ seansanna/S
 séansanna/S
 seansaoil/ST
 seansaol/S
+seanscéal/S
+seanscéalta/S
+seanscéil/ST
 seansíomálacha/S
 séanta/ST
 séantach/S
@@ -69729,6 +69772,7 @@ tAngla-Caitliceach
 tAnglacánach
 tAnglacánachas
 tAnglach
+tAngla-Éireannach
 tAngla-Indiach
 tAngla-Normannach
 tAngla-Shacsanach
@@ -72683,6 +72727,7 @@ tráthchodanna/US
 tráthchuid/US
 tráthnóna/US
 tráthnónta/US
+tráthrialta/US
 tráthúil/US
 tráthúla/US
 tráthúlacht/US
@@ -72780,6 +72825,9 @@ tréan/US
 tréana/US
 tréanais/US
 tréanas/US
+tréaniarracht/US
+tréaniarrachta/US
+tréaniarrachtaí/US
 treánna/US
 treas/US
 tréas/US
@@ -74111,10 +74159,10 @@ uafásacha/HBU
 uafásaí/HBU
 uafásaigh/HBU
 uaibh
-uaibhreach/HBU
+uaibhreach/HBMDUT
 uaibhreacha/HBU
 uaibhrí/HBU
-uaibhrigh/HBU
+uaibhrigh/HBMDU
 uaibhse
 uaidh
 uaidhsean
@@ -74848,9 +74896,9 @@ umbair/HBMDU
 umbar/HBMDUT
 umha/HBMDUT
 umhaí/HBU
-umhail/HBU
+umhail/HBMDU
 umhaile/HBU
-umhal/HBU
+umhal/HBMDUT
 umhla/HBU
 umhlaí/U
 umhlaídís/HU

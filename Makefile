@@ -5,27 +5,19 @@ INSTALLATION=gaeilge
 ISPELLDIR=/usr/lib/ispell
 ISPELLBIN=/usr/bin
 INSTALL=/usr/bin/install
-PERSONAL=aitiuil daoine eachtar gall giorr logainm miotas stair
+SHELL=/bin/sh
+MAKE=/usr/bin/make
+PERSONAL=aitiuil daoine eachtar gall giorr logainm miotas.txt stair.txt
 
 #   Shouldn't have to change anything below here
-SHELL=/bin/sh
 RELEASE=3.5
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor
-HYPHWORDS= gaeilge.hyp
 AFFIXFILE= gaeilge.aff
 ALTAFFIXFILE=gaeilgemor.aff
-APPNAME=ispell-gaeilge-$(RELEASE)
-MYAPPNAME=myspell-gaeilge-$(RELEASE)
-TARFILE=$(APPNAME).tar
-MYTARFILE=$(MYAPPNAME).tar
-CODEDIR=$(HOME)/clar/denartha
-GIN=$(CODEDIR)/Gin
 INSTALL_DATA=$(INSTALL) -m 444
-ASPELL=/usr/bin/aspell
-MYSPELL=/usr/local/bin/myspell
-MAKE=/usr/bin/make
+
 # N.B. ispell "buildhash" only works if the raw word lists are sorted with 
 # "sort -f"; GNU sort doesn't collate the "/"'s correctly so you'll need
 # to check the output of "$(GOODSORT) gaeilge.raw gaeilge.lit" for example
@@ -33,7 +25,7 @@ GOODSORT=isort
 
 hashtable: $(INSTALLATION).hash
 
-all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgehyph.hash
+all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash
 
 gaeilge.hash: $(RAWWORDS) $(AFFIXFILE)
 	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
@@ -48,20 +40,12 @@ gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
-gaeilgehyph.hash: $(HYPHWORDS) gaeilgehyph.aff
-	$(ISPELLBIN)/buildhash $(HYPHWORDS) gaeilgehyph.aff gaeilgehyph.hash
-
 $(ALTAFFIXFILE): $(AFFIXFILE) gaeilgemor.diff
 	patch -o gaeilgemor.aff gaeilge.aff < gaeilgemor.diff
 
 personal: $(PERSONAL)
 	rm -f $(HOME)/.ispell_$(INSTALLATION) $(HOME)/.biobla
 	sort -u $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > $(HOME)/.ispell_$(INSTALLATION)
-	sort -u biobla > $(HOME)/.biobla
-
-personalcheck: $(PERSONAL)
-	rm -f $(HOME)/.ispell_$(INSTALLATION)_check $(HOME)/.biobla
-	sort -u $(PERSONAL) > $(HOME)/.ispell_$(INSTALLATION)_check
 	sort -u biobla > $(HOME)/.biobla
 
 gaeilgelit.aff: $(AFFIXFILE)
@@ -71,30 +55,47 @@ install: $(INSTALLATION).hash $(INSTALLATION).aff
 	$(INSTALL_DATA) $(INSTALLATION).hash $(ISPELLDIR)
 	$(INSTALL_DATA) $(INSTALLATION).aff $(ISPELLDIR)
 
-installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff gaeilgehyph.hash
+installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) gaeilge.hash $(ISPELLDIR)
 	$(INSTALL_DATA) $(AFFIXFILE) $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgelit.hash $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgelit.aff $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgemor.hash $(ISPELLDIR)
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
-	$(INSTALL_DATA) gaeilgehyph.hash $(ISPELLDIR)
-	$(INSTALL_DATA) gaeilgehyph.aff $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff ga.cwl repl pearsanta $(ALTAFFIXFILE)
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt ga.cwl repl pearsanta aspellrev.txt
 
 distclean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff ga.cwl repl pearsanta
-	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga.dic
+	$(MAKE) clean
+	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga.dic gaeilgelit.aff $(ALTAFFIXFILE) ga.aff gaelu
 	rm -f IG.temp EN.temp
 
 #############################################################################
 ### Remainder is for development only
 #############################################################################
 
+APPNAME=ispell-gaeilge-$(RELEASE)
+MYAPPNAME=myspell-gaeilge-$(RELEASE)
+TARFILE=$(APPNAME).tar
+MYTARFILE=$(MYAPPNAME).tar
+CODEDIR=$(HOME)/clar/denartha
+GIN=$(CODEDIR)/Gin
+ASPELL=/usr/bin/aspell
+MYSPELL=/usr/local/bin/myspell
+
+gaeilgehyph.hash: gaeilge.hyp gaeilgehyph.aff
+	$(ISPELLBIN)/buildhash gaeilge.hyp gaeilgehyph.aff gaeilgehyph.hash
+
+
 gaeilgemor.diff:
 	(diff -c $(AFFIXFILE) $(ALTAFFIXFILE) > gaeilgemor.diff; echo)
+
+# like "maintainer" clean -- distclean PLUS kill files that are makeable
+# from backend database
+veryclean:
+	$(MAKE) distclean
+	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt README_ga_IE.txt
 
 fromdb : FORCE
 	$(GIN) 7
@@ -135,6 +136,18 @@ sortpersonal: FORCE
 	mv tempfile gaelu.in
 	sort -f earraidi > tempfile
 	mv tempfile earraidi
+
+personalcheck: $(PERSONAL)
+	rm -f $(HOME)/.ispell_$(INSTALLATION)_check $(HOME)/.biobla
+	sort -u $(PERSONAL) > $(HOME)/.ispell_$(INSTALLATION)_check
+	sort -u biobla > $(HOME)/.biobla
+
+
+stair.txt : stair
+	sed 's/^[^:]*://' stair | sort -u > stair.txt
+
+miotas.txt : miotas
+	sed 's/^[^:]*://' miotas | sort -u > miotas.txt
 
 checkearr: FORCE
 	sed 's/^[^ ]* //' earraidi | ispell -dgaeilge -l
@@ -203,8 +216,9 @@ installweb: FORCE
 	$(INSTALL_DATA) sios.html $(HOME)/public_html/ispell
 
 dist: FORCE
-	$(MAKE) ChangeLog
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile aitiuil biobla daoine eachtar gall giorr logainm miotas stair
+	$(MAKE) ChangeLog stair.txt miotas.txt
+	sed '/development only/,$$d' ./Makefile > makefile
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog Makefile aitiuil biobla daoine eachtar gall giorr logainm miotas.txt stair.txt makefile
 	chmod 755 igcheck
 	ln -s ispell-gaeilge ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -215,7 +229,7 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/COPYING
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/ChangeLog
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/README
-	tar rvhf $(TARFILE) -C .. $(APPNAME)/Makefile
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/makefile
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/aitiuil
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/biobla
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/daoine
@@ -224,10 +238,11 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/giorr
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/igcheck
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/logainm
-	tar rvhf $(TARFILE) -C .. $(APPNAME)/miotas
-	tar rvhf $(TARFILE) -C .. $(APPNAME)/stair
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/miotas.txt
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/stair.txt
 	gzip $(TARFILE)
 	rm -f ../$(APPNAME)
+	rm -f makefile
 
 ga.dic: $(RAWWORDS)
 	rm -f ga.dic

@@ -32,4 +32,4 @@ do
 done
 }
 
-(cat gaelu.in; do_it) | sort -u
+(cat gaelu.in; cat miotas stair | egrep -v '^:' | sed 's/:/ /'; do_it) | sort -u

@@ -57,7 +57,7 @@ altfull:
 
 personal:
 	rm -f $(HOME)/.ispell_gaeilge
-	sort -f daoine giorr logainm > $(HOME)/.ispell_gaeilge
+	sort -f daoine gall giorr logainm miotas stair > $(HOME)/.ispell_gaeilge
 	cp biobla $(HOME)/.biobla
 
 tarfile: 
@@ -72,8 +72,11 @@ tarfile:
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/Makefile
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/biobla
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/daoine
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/gall
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/giorr
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/logainm
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/miotas
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/stair
 	gzip $(TARFILE)
 	rm -f ../$(APPNAME)
 

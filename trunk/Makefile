@@ -296,6 +296,9 @@ adist: aspell.txt apersonal ChangeLog
 	cp -f gaeilge.dat $(ASPELLDEV)/ga.dat
 	aspellproc ga
 	mv ${ASPELLDEV}/*.bz2 .
+	sed -i '/^mode aspell5/d' $(ASPELLDEV)/info
+	aspellproc ga
+	mv ${ASPELLDEV}/*.bz2 .
 
 ChangeLog : FORCE
 	cvs2cl --FSF

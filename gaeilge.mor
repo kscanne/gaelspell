@@ -81,6 +81,12 @@ amlua/HBU
 amplúch/HBU
 an/U
 anadh/HBMDU
+anaestéise/HBMDU
+anaestéiseach/HBU
+anaestéiseacha/HBU
+anaestéisí/HBMDUT
+anaestéisigh/HBU
+anaestéisithe/HBMDU
 anbháthadh/HBMDUT
 annamhaíocht/HBMDU
 annamhaíochta/HBMDU
@@ -103,6 +109,10 @@ asna/HBMDU
 asnacha/HBMDU
 ath/U
 athchuinghe/HBMDU
+b'Iamáiceach
+b'Iamáiceacha
+b'Iamáicí
+b'Iamáicigh
 b'Iúdach
 b'Iúdacha
 b'Iúdaí
@@ -140,7 +150,10 @@ beaince/US
 beainceanna/US
 bealtaí/US
 bean/US
+beanadh/US
+beanaim/USA
 beannachadh/US
+beanta/US
 bearnan/US
 bearracháin/US
 bearrachán/US
@@ -152,6 +165,7 @@ beomhar/US
 beomhara/US
 beos/US
 beoú/US
+bheanainn/EU
 bhoil
 bhótáil/U
 bhótáilte/U
@@ -183,6 +197,10 @@ bochtanas/US
 bodaláin/US
 bodalán/US
 bois/US
+Bolaiveach/S
+Bolaiveacha/S
+Bolaiví/S
+Bolaivigh/S
 bomaite/US
 bomaití/US
 bonna/US
@@ -371,6 +389,8 @@ ciomach/US
 ciomacha/US
 ciomaí/US
 cionnas
+cionúireacht/US
+cionúireachta/US
 cioth/US
 cír/US
 círe/US
@@ -432,6 +452,9 @@ cóibe/US
 cóibeanna/US
 coilce/US
 coilcí/US
+Cóiriach/S
+Cóiriacha/S
+Cóiriaiche/S
 coiricín/US
 coiricíní/US
 coirpeach/US
@@ -448,6 +471,10 @@ coisním/USC
 coisreacadh/US
 coiteannais/US
 coiteannas/US
+Colóimbeach/S
+Colóimbeacha/S
+Colóimbí/S
+Colóimbigh/S
 coma/US
 comh/US
 comharbacht/US
@@ -470,6 +497,10 @@ corpadóirí/US
 corpadóra/US
 corr/US
 corrmhíola/US
+Corsaiceach/S
+Corsaiceacha/S
+Corsaicí/S
+Corsaicigh/S
 coscarthach/US
 coscarthacha/US
 coscarthaí/US
@@ -606,6 +637,7 @@ deargaím/USC
 deargaithe/US
 deargú/US
 deile
+deileoir/US
 deimhnitheach/US
 deimhnitheacha/US
 deimhnithí/US
@@ -633,6 +665,8 @@ dheineadar/U
 dheolainn/EU
 dhíthinn/EU
 dhíthínn/FU
+diabaetais/US
+diabaetas/US
 diamhasladh/US
 diamhrach/US
 diamhracha/US
@@ -670,6 +704,7 @@ díthriúigh/US
 diucáin/US
 diucán/US
 diúraicthe/US
+dlúth/US
 do/US
 dob
 dochum
@@ -838,7 +873,7 @@ fís/US
 flúirseacht/BMDUS
 flúirseachta/BMDUS
 fo/US
-fóbair
+fóbair/US
 focla/BMDUS
 fóda/BMDUS
 foghainteach/BUS
@@ -925,6 +960,17 @@ gaosmhar/US
 gaosmhara/US
 gar/US
 gasúra/US
+gCóiriach
+gCóiriacha
+gCóiriaiche
+gColóimbeach
+gColóimbeacha
+gColóimbí
+gColóimbigh
+gCorsaiceach
+gCorsaiceacha
+gCorsaicí
+gCorsaicigh
 geafta/US
 geaftaí/US
 geal/US
@@ -1049,6 +1095,10 @@ guardail/US
 guardal/US
 guldair/US
 guldar/US
+hIamáiceach
+hIamáiceacha
+hIamáicí
+hIamáicigh
 hIúdach
 hIúdacha
 hIúdaí
@@ -1056,6 +1106,10 @@ hIúdaigh
 hóbair
 iachaill/HBMDU
 iachall/HBMDUT
+Iamáiceach
+Iamáiceacha
+Iamáicí
+Iamáicigh
 iar/U
 idir/U
 idiriscín/HBMDUT
@@ -1129,6 +1183,10 @@ lagaíocht
 lagaíochta
 lagtha
 láighe
+Laitveach
+Laitveacha
+Laitví
+Laitvigh
 lán
 langaide
 langaidí
@@ -1155,6 +1213,10 @@ leomhaínn/F
 leomhaithe
 leomhú
 Libe
+Libeach
+Libeacha
+Libí
+Libigh
 líog
 litre
 ló
@@ -1169,6 +1231,7 @@ loiseag
 loiseaga
 loiseige
 loite
+lom
 lomadóir
 lomadóirí
 lomadóra
@@ -1194,6 +1257,7 @@ luisneach
 luisneacha
 luisní
 luisnigh
+macra/S
 madadh/S
 madhma/S
 maidne/S
@@ -1235,6 +1299,10 @@ maslaitheacha/S
 maslaithí/S
 maslaithigh/S
 mathghamhain/S
+mBolaiveach
+mBolaiveacha
+mBolaiví
+mBolaivigh
 meach/S
 meadair/S
 meadar/S
@@ -1290,6 +1358,8 @@ munarbh
 múnláil/S
 múnlála/S
 muran
+muruach/S
+muruaigh/S
 musáin/S
 musán/S
 nádúrthach
@@ -1303,6 +1373,7 @@ naiscim/A
 naiscinn/E
 naiscthe
 naocha
+naofar
 neachtracht
 neachtrachta
 neaipicín
@@ -1315,6 +1386,10 @@ neas
 neosfaidh
 nGaolainn
 nGaolainne
+nIamáiceach
+nIamáiceacha
+nIamáicí
+nIamáicigh
 nIúdach
 nIúdacha
 nIúdaí
@@ -1409,6 +1484,8 @@ potadóirí/US
 potadóra/US
 préamh/US
 préamhacha/US
+préatóiriam/US
+préatóiriamaí/US
 preib/US
 preibe/US
 preibeanna/US
@@ -1440,6 +1517,8 @@ raidím/C
 raidínn/F
 raidithe
 raidiú
+raiméis
+raiméise
 ráinig
 ráis
 rámhaillíocht
@@ -1601,6 +1680,8 @@ sealúis/ST
 sealús/S
 sean-undúr/S
 sean/S
+séaraim/ST
+séaram/S
 séard
 seasaigh/S
 seasaím/SC
@@ -1613,6 +1694,10 @@ seilmide/ST
 seilmidí/S
 seilp/ST
 seilpeanna/S
+Seirbeach/S
+Seirbeacha/S
+Seirbí/S
+Seirbigh/S
 seirg/S
 seirgeadh/S
 seirgim/SA
@@ -1650,6 +1735,10 @@ siomsáin/ST
 siomsán/S
 síor/S
 síoth/ST
+Síreach/S
+Síreacha/S
+Sírí/S
+Sírigh/S
 síthe/S
 sítheoilte/S
 siúlaigh/S
@@ -1830,6 +1919,9 @@ teampán/US
 teangan/US
 teara/US
 teib/US
+teibeadh/US
+teibim/USA
+teibthe/US
 teich/US
 teicheadh/US
 teichim/USA
@@ -1843,6 +1935,7 @@ thaithnínn/FU
 tharrthaínn/FU
 thaspnaínn/FU
 thastaínn/FU
+theibinn/EU
 theichinn/EU
 thillinn/EU
 thiormaínn/FU

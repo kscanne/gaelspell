@@ -113,7 +113,7 @@ flag *A:				             # mol|aim
 	[^T] H | A I M		>	-AIM,TAR     # láithreach saor
 
 					             # meath|aim
-	T H | A I M		>	-H|AIM,|AR     # láithreach saor
+	T H | A I M		>	-TH|AIM,TAR     # láithreach saor
 
 						     # dóim
 	[OÁÓÚ] | I M		>	-|IM,NN       # láithreach CB lch.98
@@ -161,7 +161,7 @@ flag *A:				             # mol|aim
 	[^T] H | I M		>	-IM,TEAR     # láithreach saor
 
 						     # caithim
-	T H | I M		>	-H|IM,|EAR     # láithreach saor
+	T H | I M		>	-TH|IM,TEAR     # láithreach saor
 
 						     # léim
 	É I M		>	-IM,|ANN              # láithreach CB lch.99
@@ -228,8 +228,8 @@ flag *E:	        		             # mhol|ainn, d'amharc|ainn
 	[^T] H | A I N N		>	-AINN,TAÍ     
 
 					             # meathainn
-	T H | A I N N		>	-H|AINN,|Á     # gnáthchaite
-	T H | A I N N		>	-H|AINN,|AÍ     
+	T H | A I N N		>	-TH|AINN,TÁ     # gnáthchaite
+	T H | A I N N		>	-TH|AINN,TAÍ     
 
 						     # dhóinn, d'ionsáinn
 	[OÁÓÚ] | I N N		>	-INN,MAR     # caite
@@ -289,8 +289,8 @@ flag *E:	        		             # mhol|ainn, d'amharc|ainn
 	[^T] H | I N N		>	-INN,TÍ     
 
 						      # caithinn
-	T H | I N N		>	-H|INN,|EÁ      # gnáthchaite
-	T H | I N N		>	-H|INN,|Í     
+	T H | I N N		>	-TH|INN,TEÁ      # gnáthchaite
+	T H | I N N		>	-TH|INN,TÍ     
 
 						      # phléinn, d'atéinn
 	É I N N		>	-INN,|AMAR             # caite
@@ -320,23 +320,23 @@ flag *E:	        		             # mhol|ainn, d'amharc|ainn
 	Í N N		> 	-NN,|FÍ
 	Í N N		>	-NN,|ODAR              # An B.N.
 
-	[^AOU] Í N N		>	-ÍNN,I|TEÁ
-	[^AOU] Í N N		>	-ÍNN,I|TÍ
+	[^AOU] Í N N		>	-ÍNN,ITEÁ
+	[^AOU] Í N N		>	-ÍNN,ITÍ
   						     # chnaínn, mhaínn
 	A Í N N			>	-NN,|TEÁ
 	A Í N N			>	-NN,|TÍ
 						     # shnoínn
-	[^L] O Í N N		>	-ÍNN,I|TEÁ
-	[^L] O Í N N		>	-ÍNN,I|TÍ
+	[^L] O Í N N		>	-ÍNN,ITEÁ
+	[^L] O Í N N		>	-ÍNN,ITÍ
 						     # chloínn
 	L O Í N N		>	-NN,|TEÁ
 	L O Í N N		>	-NN,|TÍ
 						     # dhluínn, luínn, ndluínn
-	[^BH] U Í N N		>	-ÍNN,I|TEÁ
-	[^BH] U Í N N		>	-ÍNN,I|TÍ
+	[^BH] U Í N N		>	-ÍNN,ITEÁ
+	[^BH] U Í N N		>	-ÍNN,ITÍ
 						     # ghuínn, shuínn
-	[^B] H U Í N N		>	-ÍNN,I|TEÁ
-	[^B] H U Í N N		>	-ÍNN,I|TÍ
+	[^B] H U Í N N		>	-ÍNN,ITEÁ
+	[^B] H U Í N N		>	-ÍNN,ITÍ
 						     # bhuínn
 	B H U Í N N		>	-NN,|TEÁ
 	B H U Í N N		>	-NN,|TÍ

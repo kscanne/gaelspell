@@ -1,0 +1,40 @@
+## This shell script checks a list of words for potential
+## spelling problems.  It is provided for your hacking pleasure.
+## I usually 'make full' and then run 'gaeilge.full' through this
+## Uncomment the last couple of lines if you have time to browse
+## through the (usually legal) violations of 
+## "broad with broad", "slender with slender"
+
+echo 'Checking for j...'
+cat $1 | egrep 'j' | egrep -v '^diosc-j' | egrep -v '^j'
+echo 'Checking for k...'
+cat $1 | egrep 'k' | egrep -v '^karaté'
+echo 'Checking for q...'
+cat $1 | egrep 'q' | egrep -v '^quinín' | egrep -v '^quarto'
+echo 'Checking for v...'
+cat $1 | egrep 'v' | egrep -v "^(.?|[bdm]')[A-ZÁÉÍÓÚ]" | egrep -v '(volt|nóva|vialait|vinil)' | egrep -v '^(v|aircí|sva|leiviata|ribeaflaivin|cileav|dordveidh|inveirteab|meindiléiv)'
+echo 'Checking for w...'
+cat $1 | egrep 'w' | egrep -v '^wigwam'
+echo 'Checking for x...'
+cat $1 | egrep 'x' | egrep -v '^x' | egrep -v '^Marx.'
+echo 'Checking for y...'
+cat $1 | egrep 'y' | egrep -v '^yóyó'
+echo 'Checking for z...'
+cat $1 | egrep 'z' | egrep -v '^(z|pizza|ózó|puza)'
+echo 'Checking lenition...'
+cat $1 | egrep '[aeiouáéíóúhjlnrvxz]h' | egrep -v '[aeiouáéíóú]h[aeiouáéíóú]' | egrep -v 'Fh?aranhaít' | egrep -v 'Ch?óbanhávan' | egrep -v '^(forhalla|unnailheicsiam)'
+cat $1 | egrep 'sh[^aeiouáéíóúlnr]'
+echo 'Checking for repeated letters...'
+cat $1 | egrep '([^lnr])\1' | egrep -v '^(pizza|snúú|lottó)'
+cat $1 | egrep '([lnr])\1\1'
+cat $1 | egrep '(aá|áa|eé|ée|ií|ií|oó|óo|uú|úu)'
+echo 'Checking for weird diphthongs...'
+cat $1 | egrep '([iouáíóú][eé]|aé)' | egrep -v '^(bhuel|hiéana|subpoena)'
+cat $1 | egrep '[aeoáéíó]u'
+cat $1 | egrep '[íoóú][aá]' | egrep -v '^(seampú|buíá|có[aá]|reoá|saíá)' | egrep -v 'iúáil' | egrep -v 'Gh?úam'
+cat $1 | egrep '[aáeéoó]ú' | egrep -v '^(báú|créú|dóú|glaeú|naoú|neamhbháú|séú|sóú)'
+cat $1 | egrep '[aáéíú]ó' | egrep -v '^(buíó|dlaíó|méóis|réó)'
+cat $1 | egrep '(eí|é[áío]|[áu]o)'
+#echo 'Checking for broad/slender or slender/broad...'
+#cat $1 | egrep '[aáoóuú][bcdfghlmnprst]+[iíeé]' | more
+#cat $1 | egrep '[iíeé][bcdfghlmnprst]+[aáoóuú]' | more

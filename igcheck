@@ -233,7 +233,7 @@ cat $1 | egrep '[^aáiou]dh[^aeiouáéíóúlr]'
 cat $1 | egrep '[^aáiou]dhl' | egrep -v '(dhlú(th|ite)|dhlistean|dhleatha|^neamhdhlíthiú)'
 
 # DHR rules
-cat $1 | egrep '[^aáiou]dhr[aáoóuú]' | egrep -v '((dh?obhar|uisce)dhro|^mh?arbhdhra)|^scigdhrámaí?$'
+cat $1 | egrep '[^aáiou]dhr[aáoóuú]' | egrep -v '((dh?obhar|uisce)dhro|^mh?arbhdhra)|^(scig|n?gh?earr)dhrámaí?$'
 cat $1 | egrep '[^aáiou]dhr[eéií]' | egrep -v '(dhréacht|dhreacha?$|eirdhris)'
 
 echo 'E...'

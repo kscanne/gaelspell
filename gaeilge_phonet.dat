@@ -86,7 +86,7 @@ DH(AÁOÓUÚ)-          K        # athdhúchas, buídhonn, comhdháil, etc.
 DH(EÉIÍ)-            Y        # athdhéan, caordhearg, cinedheighilt, etc.
 DHLÚ--               K        # comhdhlúthaigh, ^dhlú-  only
 DHL(EIÍ)--           Y        # (mí|neamh)dhl(istean|eath|íthiú), ^dhl  only
-DHR(AÁO)--           K        # (dobhar|uisce)dhroim,marbhdhra*,scigdhráma only
+DHR(AÁO)--           K        # (dobhar|uisce)dhroim,marbhdhra*,*dhráma only
 DHR(ÉEI)--           Y        # *dhreach, feirdhris, *dhréacht  only
 D                    T        # note eclipsis of T via collapsing
 EAFAR--$             *V       # geafar, meafar only, FAR$ exception

@@ -285,6 +285,9 @@ ChangeLog : FORCE
 sounds.txt: FORCE
 	$(ASPELL) --lang=ga soundslike < aspell.txt > sounds.txt
 
+aspellrev.txt: aspell.txt
+	cat aspell.txt | perl -p -e 's/(.*)/reverse $$1/e;' | sort | perl -p -e 's/(.*)/reverse $$1/e;' > aspellrev.txt 
+
 seiceail: FORCE
 	@cat ../bearla/tcht
 	@$(MAKE) fromdb

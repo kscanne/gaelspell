@@ -1300,6 +1300,10 @@ aimhriaraigh/HBU
 aimínaigéad/HBMDUT
 aimínaigéid/HBMDU
 aimiréal/HBMDUT
+Aimiréalacht
+aimiréalacht/HBMDU
+Aimiréalachta
+aimiréalachta/HBMDU
 aimiréil/HBMDU
 aimirneach/HBU
 aimirneacha/HBU
@@ -5062,6 +5066,8 @@ b'Ailgéir
 b'Ailgéire
 b'Ailiúit
 b'Ailt
+b'Aimiréalacht
+b'Aimiréalachta
 b'Ainchríost
 b'Aindéas
 b'Aindéis
@@ -5476,6 +5482,8 @@ b'Fhidsíche
 b'Fhidsígh
 b'Fhidsíoch
 b'Fhidsíocha
+b'Fhidsis
+b'Fhidsise
 b'Fhilipíneach
 b'Fhilipíneacha
 b'Fhilipíní
@@ -5541,6 +5549,7 @@ b'Fhreaslannaigh
 b'Fhritíortha
 b'Fhuig
 b'Fhuigeanna
+b'Fhúire
 b'Iáivé
 b'Iamácach
 b'Iamácacha
@@ -7546,6 +7555,8 @@ bhFidsíche
 bhFidsígh
 bhFidsíoch
 bhFidsíocha
+bhFidsis
+bhFidsise
 bhFilipíneach
 bhFilipíneacha
 bhFilipíní
@@ -7616,6 +7627,7 @@ bhfuilid
 bhfuilim
 bhfuilimid
 bhfuiltear
+bhFúire
 bhí
 bhiathaí/U
 bhiathaínn/FU
@@ -9670,6 +9682,8 @@ breoslaím/USC
 breoslaithe/US
 breoslú/US
 brí/US
+briadaireacht/US
+briadaireachta/US
 Briain/S
 Brian/S
 briathair/US
@@ -10577,6 +10591,7 @@ buncharraigeacha/US
 buncheart/US
 bunchearta/US
 bunchirt/US
+bunchnoc/US
 bunchnoic/US
 bunchód/US
 bunchóid/US
@@ -14141,6 +14156,7 @@ ciachánach/US
 ciachánacha/US
 ciachánaí/US
 ciachánaigh/US
+ciachánaithe/US
 ciafairt/US
 ciafart/US
 ciaigh/US
@@ -15555,8 +15571,6 @@ cnagbhruithim/USA
 cnagóir/US
 cnagóirí/US
 cnagóra/US
-cnágshnámh/US
-cnágshnámha/US
 cnagtha/US
 cnaguirlis/US
 cnaguirlise/US
@@ -16359,6 +16373,8 @@ cóipeanna/US
 coipí/US
 coipigh/US
 coipim/USA
+cóipinneall/US
+cóipinnill/US
 cóipíos/US
 cóipire/US
 cóipirí/US
@@ -16392,10 +16408,10 @@ Cóiréacha/S
 coireacha/US
 coireacht/US
 coireachta/US
-cóireagrafaí/US
+cóiréagrafaí/US
 cóiréagrafaíocht/US
 cóiréagrafaíochta/US
-cóireagrafaithe/US
+cóiréagrafaithe/US
 cóireáil/US
 cóireáilte/US
 coireáin/US
@@ -16875,6 +16891,8 @@ comhbhuainteoirí/US
 comhbhuainteora/US
 comhbhualaim/USA
 comhbhualta/US
+comhchaint/US
+comhchainte/US
 comhchainteanna/US
 comhchainteoir/US
 comhchainteoirí/US
@@ -17428,6 +17446,8 @@ compordach/US
 compordacha/US
 compordaí/US
 compordaigh/US
+compútair/US
+compútar/US
 comrádaí/US
 comrádaíocht/US
 comrádaíochta/US
@@ -18155,6 +18175,8 @@ crágáilte/US
 crágáin/US
 crágálaim/USI
 crágán/US
+crágshnámh/US
+crágshnámha/US
 craic/US
 craice/US
 craiceáil/US
@@ -19530,6 +19552,9 @@ cuimilt/US
 cuimilte/US
 cuimilteáin/US
 cuimilteán/US
+cuimilteoir/US
+cuimilteoirí/US
+cuimilteora/US
 cuimleacháin/US
 cuimleachán/US
 cuimleáil/US
@@ -19759,7 +19784,10 @@ cúlchainteanna/US
 cúlchainteoir/US
 cúlchainteoirí/US
 cúlchainteora/US
+cúlchais/US
+cúlchaise/US
 cúlchas/US
+cúlchasa/US
 cúlchasadh/US
 cúlchasaidh/US
 cúlchasaim/USA
@@ -20361,6 +20389,8 @@ d'áillínn/FU
 d'Ailt
 d'ailtéarnaigh/U
 d'ailtéarnaínn/FU
+d'Aimiréalacht
+d'Aimiréalachta
 d'aimpligh/U
 d'aimplínn/FU
 d'aimridigh/U
@@ -21134,6 +21164,8 @@ d'fhiarainn/E
 d'Fhidsí
 d'Fhidsígh
 d'Fhidsíoch
+d'Fhidsis
+d'Fhidsise
 d'fhigh
 d'Fhilipíneach
 d'Fhilipínigh
@@ -21386,6 +21418,7 @@ d'fhuinnmhigh
 d'fhuinnmhínn/F
 d'fhuipeáil
 d'fhuipeálainn/J
+d'Fhúire
 d'fhuirigh
 d'fhuirínn/F
 d'fhuirsigh
@@ -22407,6 +22440,7 @@ dea-araíonaí/US
 dea-araíonaigh/US
 dea-bhail/US
 dea-bhaile/US
+dea-bhéas/US
 dea-bhéasa/US
 dea-bhlais/US
 dea-bhlas/US
@@ -22868,6 +22902,9 @@ défhiúsach/US
 défhiúsacha/US
 défhiúsaí/US
 défhiúsaigh/US
+défhócasach/US
+défhócasacha/US
+défhócasaí/US
 défhócasaigh/US
 défhoghair/US
 défhoghar/US
@@ -23001,6 +23038,8 @@ deilín/US
 deilíneacht/US
 deilíneachta/US
 deilíní/US
+deilínteacht/US
+deilínteachta/US
 deilithe/US
 deiliúis/US
 deiliús/US
@@ -28785,6 +28824,8 @@ faraid/BMDUS
 faraim/USA
 farainn
 farainne
+faraire/BMDUS
+farairí/BMDUS
 faram
 faramsa
 Faranhaít/S
@@ -29462,8 +29503,10 @@ feithicle/BMDUS
 feithiclí/BMDUS
 feithid/BMDUS
 feithide/BMDUS
+feithideolaí/BMDUS
 feithideolaíocht/BMDUS
 feithideolaíochta/BMDUS
+feithideolaithe/BMDUS
 feithidí/BMDUS
 feithidicíd/BMDUS
 feithidicíde/BMDUS
@@ -30045,6 +30088,8 @@ Fidsíche/S
 Fidsígh/S
 Fidsíoch/S
 Fidsíocha/S
+Fidsis/S
+Fidsise/S
 fíf/BMDUS
 fífe/BMDUS
 fífeanna/BMDUS
@@ -30665,6 +30710,8 @@ fo-ghlacadh/USBMD
 fo-ghlacaim/USA
 fo-ghlactha/USBMD
 fo-ghnó/BMDUS
+fo-ghúna/BMDUS
+fo-ghúnaí/BMDUS
 fo-ordaigh/US
 fo-ordaím/USC
 fo-ordaithe/USBMD
@@ -30834,8 +30881,6 @@ foghrú/USBMD
 foghrúpa/BMDUS
 foghrúpaí/BMDUS
 foghtha/BUS
-foghúna/BMDUS
-foghúnaí/BMDUS
 fógra/BMDUS
 fógrach/BUS
 fógracha/BUS
@@ -32347,6 +32392,7 @@ fuipeáil/USBMD
 fuipeáilte/USBMD
 fuipeálaim/USI
 fuipeanna/BMDUS
+Fúire/S
 fuireach/BMDUS
 fuireachair/BUS
 fuireachaire/BUS
@@ -32418,8 +32464,9 @@ fútair/BMDUS
 fútar/BMDUS
 fúthu
 fúthusan
-fútráil/USBMD
+fútráil/BMDUS
 fútráilte/USBMD
+fútrála/BMDUS
 fútrálaim/USI
 fútsa
 ga/US
@@ -35044,14 +35091,14 @@ glao/US
 glaoch/US
 glaoigh/US
 glaoim/USA
+glaoire/US
+glaoirí/US
 glaoite/US
 glaomaire/US
 glaomaireacht/US
 glaomaireachta/US
 glaomairí/US
 glaonna/US
-glaotháin/US
-glaothán/US
 glár/US
 glárach/US
 gláracha/US
@@ -36972,6 +37019,8 @@ hAilgéir
 hAilgéire
 hAiliúit
 hAilt
+hAimiréalacht
+hAimiréalachta
 hAinchríost
 hAindéas
 hAindéis
@@ -44077,6 +44126,8 @@ m'Ailgéir
 m'Ailgéire
 m'Ailiúit
 m'Ailt
+m'Aimiréalacht
+m'Aimiréalachta
 m'Ainchríost
 m'Aindéas
 m'Aindéis
@@ -44362,6 +44413,8 @@ m'Fhianna
 m'Fhidsí
 m'Fhidsígh
 m'Fhidsíoch
+m'Fhidsis
+m'Fhidsise
 m'Fhilipíneach
 m'Fhilipínigh
 m'Fhilistíneach
@@ -44406,6 +44459,7 @@ m'Fhreaslannaigh
 m'Fhritíortha
 m'Fhuig
 m'Fhuigeanna
+m'Fhúire
 m'Iáivé
 m'Iamácach
 m'Iamácaigh
@@ -44928,11 +44982,8 @@ mainneachtnacha/S
 mainneachtnaí/S
 mainneachtnaigh/S
 máinneáil/S
-máinneáilte/S
 máinneála/S
 máinneálaí/S
-máinneálaim/SI
-máinneálainn/J
 máinneálaithe/S
 mainnear/S
 mainní
@@ -45311,6 +45362,7 @@ mangaire/S
 mangaireacht/S
 mangaireachta/S
 mangairí/S
+mangaisíní/S
 mangarae/S
 manglaim/S
 manglam/S
@@ -46875,8 +46927,6 @@ mhadhma
 mhadhmainn/E
 mhaí
 mhaínn/E
-mháinneála
-mháinneálainn/J
 mhainní
 mhainnínn/F
 mhaire
@@ -47839,6 +47889,8 @@ miontéarmaí/S
 miontóir/S
 miontóirí/S
 miontóra/S
+miontuairisc/S
+miontuairisce/S
 miontuairiscí/S
 miontúir/S
 miontúr/S
@@ -48715,6 +48767,8 @@ múchtóra/S
 muclach/S
 muclaigh/S
 mucsheithe/S
+mucúil/S
+mucúla/S
 muga/S
 mugadáin/S
 mugadán/S
@@ -48971,6 +49025,7 @@ múnlaím/SC
 múnlaínn/F
 múnlaithe/S
 múnlála/S
+múnlálacha/S
 múnlóir/S
 múnlóireacht/S
 múnlóireachta/S
@@ -49222,6 +49277,8 @@ naimhdeas
 naimhdí
 naimhdigh
 naimhdis
+nAimiréalacht
+nAimiréalachta
 nAinchríost
 nAindéas
 nAindéis
@@ -54493,6 +54550,7 @@ póitiúil/US
 póitiúla/US
 póitseáil/US
 póitseáilte/US
+póitseála/US
 póitseálaí/US
 póitseálaim/USI
 póitseálaithe/US
@@ -60160,12 +60218,9 @@ scuabadóra
 scuabaí
 scuabaigh
 scuabáil
-scuabáilte
 scuabaim/A
 scuabainn/E
 scuabála
-scuabálaim/I
-scuabálainn/J
 scuabóg
 scuabóga
 scuabóige
@@ -60590,6 +60645,8 @@ seanchaite/S
 seanchaithe/S
 seanchas/S
 seanchleachta/S
+seanchleachtadh/S
+seanchleachtaidh/ST
 seanchríonna/S
 seanchríonnacht/ST
 seanchríonnachta/S
@@ -66850,6 +66907,8 @@ táirgí/US
 tairgim/USA
 táirgim/USA
 tAirgintíneach
+táirgiúil/US
+táirgiúla/US
 táirgiúlacht/US
 táirgiúlachta/US
 tairgthe/US
@@ -69029,11 +69088,9 @@ tiúine/US
 tiúineanna/US
 tiúis/US
 tiul
-tiúna/US
 tiúnadóir/US
 tiúnadóirí/US
 tiúnadóra/US
-tiúnaí/US
 tiúnaim/USA
 tiúnta/US
 tIúpatar
@@ -71198,6 +71255,8 @@ tumtha/US
 tumthéitheoir/US
 tumthéitheoirí/US
 tumthéitheora/US
+túna/US
+túnaí/US
 tundra/US
 tundraí/US
 tUngárach
@@ -71424,6 +71483,7 @@ uaineadóra/HBMDU
 uaineoil/HBMDU
 uaineola/HBMDU
 uainí/HBMDU
+uainibh/HBMDU
 uainidh/HBMDU
 uainigh/HBU
 uainíocht/HBMDU

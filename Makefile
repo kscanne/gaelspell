@@ -3,7 +3,7 @@
 INSTALLATION=gaeilge
 ISPELLDIR=/usr/local/lib
 ISPELLBIN=/usr/local/bin
-MAKE=/usr/local/bin/make
+MAKE=/usr/ccs/bin/make
 RELEASE=1.1
 RAWWORDS= gaeilge.raw
 ALTWORDS= gaeilge.mor

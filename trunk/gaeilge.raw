@@ -4685,12 +4685,8 @@ athiontrála/HBMDU
 athiontrálacha/HBMDU
 athlá/HBMDU
 athláimh/HBMDU
-athlaimh/HBU
 athláimhe/HBMDU
-athlaimhe/HBU
 athlámh/HBMDU
-athlamh/HBU
-athlamha/HBU
 athlas/HU
 athlasa/U
 athlasadh/HBMDUT
@@ -5569,7 +5565,6 @@ b'Fhéiníce
 b'Fhéiníceach
 b'Fhéiníceacha
 b'Fhéinící
-b'Fhéinícia
 b'Fhéinícigh
 b'Fhéinne
 b'Fheirste
@@ -5831,6 +5826,8 @@ b'Iútlannaí
 b'Iútlannaigh
 b'Oblátach
 b'Oblátaigh
+b'Ocatáinis
+b'Ocatáinise
 b'Ocsatánais
 b'Ocsatánaise
 b'Óg
@@ -5944,6 +5941,7 @@ b'Uisceadóra
 b'Uladh
 b'Ulaidh
 b'Ultach
+b'Ultaibh
 b'Ultaigh
 b'Ultais
 b'Ultaise
@@ -7679,7 +7677,6 @@ bhFéiníce
 bhFéiníceach
 bhFéiníceacha
 bhFéinící
-bhFéinícia
 bhFéinícigh
 bhFéinne
 bhFeirste
@@ -8425,6 +8422,9 @@ bleánlann/US
 bleánlanna/US
 bléasair/US
 bléasar/US
+bleathach/US
+bleathacha/US
+bleathaí/US
 bleib/US
 bleibe/US
 bleibeanna/US
@@ -15919,6 +15919,7 @@ cniotáilte/US
 cniotála/US
 cniotálaim/USI
 cnis/US
+cnó-im/US
 cnó/US
 cnoba/US
 cnobaí/US
@@ -21474,7 +21475,6 @@ d'Fhéineachas
 d'Fhéiníc
 d'Fhéiníce
 d'Fhéiníceach
-d'Fhéinícia
 d'Fhéinícigh
 d'Fhéinne
 d'fheir
@@ -22131,6 +22131,8 @@ d'ob/U
 d'obainn/EU
 d'Oblátach
 d'Oblátaigh
+d'Ocatáinis
+d'Ocatáinise
 d'oclúidigh/U
 d'oclúidínn/FU
 d'ocsaídigh/U
@@ -22302,6 +22304,7 @@ d'Ulaidh
 d'ullmhaigh/U
 d'ullmhaínn/FU
 d'Ultach
+d'Ultaibh
 d'Ultaigh
 d'Ultais
 d'Ultaise
@@ -26010,7 +26013,6 @@ drochbhirt/US
 drochbhlais/US
 drochbhlas/US
 drochbhlasanna/US
-drochbhlasta/US
 drochdhaoine/US
 drochdhuine/US
 drochfhuadair/US
@@ -27556,11 +27558,11 @@ easanálaithe/HUBMD
 easanálú/HBMDUT
 easanáluithe/HBMDU
 easanna/HBMDU
-easaontach/HBU
+easaontach/HBMDUT
 easaontacha/HBU
 easaontaí/HBU
 easaontaídís/HU
-easaontaigh/HBU
+easaontaigh/HBMDU
 easaontaígí/HU
 easaontaím/UC
 easaontaínn/F
@@ -27574,9 +27576,7 @@ easaontóirí/HBMDU
 easaontóra/HBMDU
 easaontú/HUBMDT
 éasc/HBMDUT
-easca/HBMDU
 éasca/HBMDUT
-eascaí/HBMDU
 éascaí/U
 éascaídís/HU
 éascaigh/HU
@@ -27911,14 +27911,13 @@ eidhneán/HBMDUT
 Éigiptise
 éigirt/HBMDU
 éigis/HBMDU
-éigne/HBMDUT
 éigneach/HBMDUT
 éigneacha/HBU
 éigneasta/HBU
 éigneoir/HBMDUT
 éigneoirí/HBMDU
 éigneora/HBMDU
-éigní/HBMDU
+éigní/HBU
 éignídís/HU
 éignigh/HBMDU
 éignígí/HU
@@ -29763,7 +29762,6 @@ Féiníce/S
 Féiníceach/S
 Féiníceacha/S
 Féinící/S
-Féinícia/S
 Féinícigh/S
 féinídiú/BMDUS
 feiniméan/BMDUS
@@ -29949,6 +29947,8 @@ feodaigh/BUS
 feoid/BMDUS
 feoigh/US
 feoil/BMDUS
+feoilcheapaire/BMDUS
+feoilcheapairí/BMDUS
 feoiliteach/BUS
 feoiliteacha/BUS
 feoiliteoir/BMDUS
@@ -30574,6 +30574,8 @@ fineach/BUS
 fineacha/BUS
 fínéagair/BMDUS
 fínéagar/BMDUS
+fínéagráin/BMDUS
+fínéagrán/BMDUS
 fíneáil/BMDUS
 fíneáilte/USB
 finéal/BMDUS
@@ -30670,6 +30672,7 @@ fíonchaor/BMDUS
 fíonchaora/BMDUS
 fiondair/BMDUS
 fiondar/BMDUS
+fiondruine/BMDUS
 fíonghloine/BMDUS
 fíonghloiní/BMDUS
 fíonghoirt/BMDUS
@@ -38338,6 +38341,8 @@ hOblátach
 hOblátaigh
 hocais
 hocas
+hOcatáinis
+hOcatáinise
 hOcsatánais
 hOcsatánaise
 hÓg
@@ -38528,6 +38533,7 @@ hulach
 hUladh
 hUlaidh
 hUltach
+hUltaibh
 hUltaigh
 hUltais
 hUltaise
@@ -43931,6 +43937,8 @@ loimprí
 loin
 lóin
 loine
+lóineoil
+lóineola
 loinge
 loingeáin
 loingeán
@@ -45005,7 +45013,6 @@ m'Fhéineachas
 m'Fhéiníc
 m'Fhéiníce
 m'Fhéiníceach
-m'Fhéinícia
 m'Fhéinícigh
 m'Fhéinne
 m'Fheirste
@@ -45186,6 +45193,8 @@ m'Iútlannach
 m'Iútlannaigh
 m'Oblátach
 m'Oblátaigh
+m'Ocatáinis
+m'Ocatáinise
 m'Ocsatánais
 m'Ocsatánaise
 m'Óg
@@ -45273,6 +45282,7 @@ m'Uisceadóra
 m'Uladh
 m'Ulaidh
 m'Ultach
+m'Ultaibh
 m'Ultaigh
 m'Ultais
 m'Ultaise
@@ -46486,9 +46496,11 @@ matrarcaigh/S
 mátrúin/S
 mátrún/S
 mb'áil
+mb'éigean
 mb'eol
 mb'fhearr
 mb'fhéidir
+mb'fhiú
 mb'ionann
 mBá
 mBablóin
@@ -48367,6 +48379,8 @@ mionathraithe/S
 mionathrú/S
 mionbháil/S
 mionbhál/S
+mionbhéile/S
+mionbhéilí/S
 mionbhrístín/S
 mionbhrístíní/S
 mionbhrú/S
@@ -48465,10 +48479,8 @@ míonna/S
 mionnaí/S
 mionnaigh/S
 mionnaím/SC
-mionnáin/S
 mionnaínn/F
 mionnaithe/S
-mionnán/S
 mionnscríbhinn/S
 mionnscríbhinne/S
 mionnscríbhinní/S
@@ -48632,6 +48644,7 @@ mírialta/S
 mírialtacht/S
 mírialtachta/S
 míriar/S
+mírín/S
 mirle/S
 mirlí/S
 mirlín/S
@@ -49651,7 +49664,6 @@ mumaithe/S
 Mumhain/S
 Mumhan/S
 mumú/S
-mun
 mún/S
 múna
 munachair/S
@@ -51892,6 +51904,8 @@ nó
 nóbailiam
 nOblátach
 nOblátaigh
+nOcatáinis
+nOcatáinise
 nócha
 nóchad
 nóchadú
@@ -52236,6 +52250,7 @@ núiseanna
 nUladh
 nUlaidh
 nUltach
+nUltaibh
 nUltaigh
 nUltais
 nUltaise
@@ -52325,6 +52340,8 @@ ocastóireacht/HBMDU
 ocastóireachta/HBMDU
 ocastóirí/HBMDU
 ocastóra/HBMDU
+Ocatáinis
+Ocatáinise
 och
 ochláin/HBMDU
 ochlán/HBMDUT
@@ -53638,7 +53655,6 @@ paisinéireacht/US
 paisinéireachta/US
 paisinéireachtaí/US
 paisinéirí/US
-paist/US
 paiste/US
 páiste/US
 paisteáil/US
@@ -59148,6 +59164,8 @@ Samóideach/S
 Samóideacha/S
 Samóidí/S
 Samóidigh/S
+Samóidis/S
+Samóidise/S
 Samóigh/S
 sampla/ST
 samplach/S
@@ -61290,8 +61308,6 @@ sealbhóir/S
 sealbhóirí/S
 sealbhóra/ST
 sealbhú/S
-sealg/ST
-sealga/S
 sealgaire/ST
 sealgaireacht/ST
 sealgaireachta/S
@@ -62329,8 +62345,6 @@ shíothaí
 shíothaínn/F
 shíothlaí
 shíothlaínn/F
-shire
-shirinn/E
 shiséala
 shiséalainn/E
 shiúcraí
@@ -63228,13 +63242,10 @@ sípéirí/S
 sípris/ST
 síprise/S
 síprisí/S
-sir/S
 sír/ST
-sire
 síre/S
 síreacht/ST
 síreachta/S
-sireadh/S
 síréanach/S
 síréanaigh/ST
 síreanna/S
@@ -63244,13 +63255,10 @@ Siriach/S
 Siriacha/S
 Siriaiche/S
 Siriaigh/S
-sirim/SA
-sirinn/E
 Síris/S
 Sírise/S
 sirriam/ST
 sirriamaí/S
-sirthe/ST
 sirtheoir/S
 sirtheoireacht/ST
 sirtheoireachta/S
@@ -71655,6 +71663,7 @@ tSamáraigh
 tSamhain
 tSamó
 tSamóidigh
+tSamóidis
 tSamóigh
 tSanscrait
 tSaorstáit
@@ -71866,6 +71875,7 @@ tualangaí/US
 tualangaigh/US
 tuama/US
 tuamaí/US
+tuamanna/US
 tUan
 tuanna/US
 tuar/US
@@ -72524,6 +72534,8 @@ uasphointí/HBMDU
 uasráta/HBMDUT
 uasrátaí/HBMDU
 uasta/HBU
+uastiarpa/HBMDUT
+uastiarpaí/HBMDU
 uatha/HBMDUT
 uathaí/HBMDU
 uathdhó/HBMDUT
@@ -72978,6 +72990,7 @@ ulpóga/HBMDU
 ulpóige/HBMDU
 Ultach
 ultach/HBMDUT
+Ultaibh
 Ultaigh
 ultaigh/HBMDU
 Ultais

@@ -133,7 +133,7 @@ allcounts: FORCE
 	@$(MAKE) aspell.txt aspelllit.txt aspellalt.txt
 	@$(GIN) 9
 	@echo 'Leagan caighdeánach:'
-	@grep "]:.." igtemp | wc -l
+	@egrep "]:.." igtemp | wc -l
 	@echo 'ceannfhocal agus'
 	@$(MAKE) count
 	@echo 'focal infhillte'
@@ -247,12 +247,13 @@ sounds.txt: FORCE
 seiceail: FORCE
 	@cat ../bearla/tcht
 	@$(MAKE) fromdb
+	@$(MAKE) aspelllit.txt
 	@$(GIN) 2   # rebuilds Eng-Ir dict.
 	@$(GIN) 8   # creates local EN.temp, IG.temp
-	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort -u | grep -v \' > EN.temp2
-	@diff -w EN.temp2 ../bearla/Missp | grep "<" > EN.missp
-	@cat IG.temp | $(ISPELLBIN)/ispell -l -d./gaeilgelit | sort -u > IG.temp2
-	@diff -w IG.temp2 ../bearla/Missp.ga | grep "<" > IG.missp
+	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort -u | egrep -v \' > EN.temp2
+	@diff -w EN.temp2 ../bearla/Missp | egrep "<" > EN.missp
+	@cat IG.temp | tr " " "\n" | sort -u > IG.temp2
+	@diff -w aspelllit.txt IG.temp2 | egrep '^[<>]' | egrep -v '^> [A-ZÁÉÍÓÚ]' > IG.missp
 	@rm -f EN.temp EN.temp2 IG.temp IG.temp2
 	@$(MAKE) distclean
 

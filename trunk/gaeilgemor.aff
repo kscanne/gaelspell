@@ -71,7 +71,7 @@ flag B:
         F               >       -F,B'FH
 
 # h
-flag *H:
+flag H:
  	[AEIOUÁÉÍÓÚ]	>	H
 	
 #  m'

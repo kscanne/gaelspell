@@ -301,7 +301,7 @@ flag *A:				             # molaim
 	[^UI] A I M		>	IS           
 	[^UI] A I M		>	-M,DÍS       
 
-	[^UTHI] A I M		>	-AIM,TAR     # láithreach saor
+	[^EUTHI] A I M		>	-AIM,TAR     # láithreach saor
 
                                                      # grafaim, liteagrafaim
 	F A I M			>	-M,DH        # fáistineach
@@ -331,7 +331,7 @@ flag *A:				             # molaim
 						     # buaim, iaim
 	[IU] A I M		>	-IM,NN       # láithreach CB lch.98
 	[IU] A I M		>	ID
-	[IU] A I M		>	-M,TEAR
+	[EIU] A I M		>	-M,TEAR      # glaeitear fosta
 	[IU] A I M		>	-IM,DH       # caite saor
 	[IU] A I M		>	-IM,FAIDH    # fáistineach
 	[IU] A I M		>	-IM,FAIMID
@@ -415,8 +415,8 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^IUF] A I N N		> 	-AINN,FAÍ
 	[^IU] A I N N		>	-INN,DAR     # An B.N.
 
-	[^UTIH] A I N N		>	-AINN,TÁ     # gnáthchaite
-	[^UTIH] A I N N		>	-AINN,TAÍ     
+	[^EUTIH] A I N N		>	-AINN,TÁ     # gnáthchaite
+	[^EUTIH] A I N N		>	-AINN,TAÍ     
 
 						     # ghrafainn,    róstainn
 	[FT] A I N N		>	-AINN,Á	     # coinníollach,gnáthchaite
@@ -447,11 +447,11 @@ flag *E:	        		             # mholainn, d'amharcainn
 
 						     # bhuainn, d'iomluainn
 	[IU] A I N N		>	-INN,MAR     # caite
-	[IU] A I N N		>	-NN,TEÁ      # gnáthchaite
+	[EIU] A I N N		>	-NN,TEÁ      # gnáthchaite
 	[IU] A I N N		>	-INN,DH
 	[IU] A I N N		>	-NN,MIS
 	[IU] A I N N 		>	-NN,DÍS
-	[IU] A I N N		>	-NN,TÍ
+	[EIU] A I N N		>	-NN,TÍ       # ghlaeití fosta
 	[IU] A I N N		>	-INN,FAINN   # coinníollach
 	[IU] A I N N		>	-INN,FÁ
 	[IU] A I N N		>	-INN,FADH

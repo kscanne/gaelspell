@@ -290,7 +290,7 @@ SFX A aim far [^uif]aim
 SFX A m gí [^ui]aim          # ordaitheach
 SFX A 0 is [^ui]aim 
 SFX A m dís [^ui]aim
-SFX A aim tar [^uthi]aim    # láithreach saor
+SFX A aim tar [^euthi]aim    # láithreach saor
 SFX A m dh faim       # fáistineach                   grafaim  liteagrafaim
 SFX A im r faim
 SFX A im r taim       # láithreach saor               róstaim
@@ -308,7 +308,7 @@ SFX A m dís [oáóú]im
 SFX A 0 is [oáóú]im
 SFX A im nn [iu]aim       # láithreach cb lch.98      buaim  iaim
 SFX A 0 id [iu]aim
-SFX A m tear [iu]aim
+SFX A m tear [eiu]aim
 SFX A im dh [iu]aim
 SFX A im faidh [iu]aim    # fáistineach
 SFX A im faimid [iu]aim
@@ -370,8 +370,8 @@ SFX E ainn faimis [^iuf]ainn
 SFX E ainn faidís [^iuf]ainn
 SFX E ainn faí [^iuf]ainn
 SFX E inn dar [^iu]ainn    # an B.N.
-SFX E ainn tá [^utih]ainn    # gnáthchaite
-SFX E ainn taí [^utih]ainn    
+SFX E ainn tá [^eutih]ainn    # gnáthchaite
+SFX E ainn taí [^eutih]ainn    
 SFX E ainn á [ft]ainn    # coinníollach gnáthchaite    ghrafainn     róstainn
 SFX E inn í [ft]ainn
 SFX E ainn tá [^t]hainn    # gnáthchaite               traochainn
@@ -392,11 +392,11 @@ SFX E inn faidís [oáóú]inn
 SFX E inn faí [oáóú]inn
 SFX E inn dar [oáóú]inn    # an B.N.
 SFX E inn mar [iu]ainn    # caite                      bhuainn  d'iomluainn
-SFX E nn teá [iu]ainn     # gnáthchaite
+SFX E nn teá [eiu]ainn     # gnáthchaite
 SFX E inn dh [iu]ainn
 SFX E nn mis [iu]ainn
 SFX E nn dís [iu]ainn
-SFX E nn tí [iu]ainn
+SFX E nn tí [eiu]ainn
 SFX E inn fainn [iu]ainn  # coinníollach
 SFX E inn fá [iu]ainn
 SFX E inn fadh [iu]ainn

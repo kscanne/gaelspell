@@ -74,7 +74,7 @@ PFX U d' n- d'[aeiouαινσϊ]
 PFX U 0 n- [aeiouαινσϊ]
 
 #  b'
-PFX B Y 2
+PFX B N 2
 PFX B 0 b' [aeiouαινσϊ]
 PFX B f b'fh f
 
@@ -83,17 +83,17 @@ PFX H Y 1
 PFX H 0 h [aeiouαινσϊ]
  
 #  m'
-PFX M Y 2
+PFX M N 2
 PFX M 0 m' [aeiouαινσϊ]
 PFX M f m'fh f
 
 #  d'
-PFX D Y 2
+PFX D N 2
 PFX D 0 d' [aeiouαινσϊ]
 PFX D f d'fh f
 
 # t-
-PFX T Y 2
+PFX T N 2
 PFX T 0 t- [aeiouαινσϊ]
 PFX T 0 t s
  

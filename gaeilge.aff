@@ -112,6 +112,41 @@ flag *L:
 	P		>	-P,"DEA-PH"
 	T		>	-T,"DEA-TH"
 
+	[DEÉIÍLNRST]	>	AIN
+	B		>	-B,AINBH
+	C		>	-C,AINCH
+	F		>	-F,AINFH
+	G		>	-G,AINGH
+	M		>	-M,AINMH
+	P		>	-P,AINPH
+
+	[^BCDFGMPST]	>	ATH
+	B		>	-B,ATHBH
+	C		>	-C,ATHCH
+	D		>	-D,ATHDH
+	F		>	-F,ATHFH
+	G		>	-G,ATHGH
+	M		>	-M,ATHMH
+	P		>	-P,ATHPH
+	T		>	A
+	S [^AEIOUÁÉÍÓÚLNR]	>	ATH
+	S [AEIOUÁÉÍÓÚLNR]	>	-S,ATHSH
+
+	[^BCDFGMNPST]	>	COMH
+	B		>	-B,COMHBH
+	C		>	-C,COMHCH
+	D		>	-D,COMHDH
+	F		>	-F,COMHFH
+	G		>	-G,COMHGH
+	P		>	-P,COMHPH
+	T		>	-T,COMHTH
+	S [^AEIOUÁÉÍÓÚLNR]	>	COMH
+	S [AEIOUÁÉÍÓÚLNR]	>	-S,COMHSH
+	M [AÁOÓUÚ]		>	-M,CÓMH
+	M [EÉIÍ]		>	-M,CÓIMH
+	N [AÁOÓUÚ]		>	CÓ
+	N [EÉIÍ]		>	CÓI
+
 	[^BCDFGLMNPRST]	>	"DO-"
 	[LNR]		>	DO
 	B		>	-B,DOBH
@@ -125,6 +160,31 @@ flag *L:
 	S [^AEIOUÁÉÍÓÚLNR]	>	DO
 	S [AEIOUÁÉÍÓÚLNR]	>	-S,DOSH
 
+	[^BCDFGMPST]	>	DROCH
+	B		>	-B,DROCHBH
+	C		>	-C,"DROCH-CH"
+	D		>	-D,DROCHDH
+	F		>	-F,DROCHFH
+	G		>	-G,DROCHGH
+	M		>	-M,DROCHMH
+	P		>	-P,DROCHPH
+	T		>	-T,DROCHTH
+	S [^AEIOUÁÉÍÓÚLNR]	>	DROCH
+	S [AEIOUÁÉÍÓÚLNR]	>	-S,DROCHSH
+
+	[^BCDFGMPRST]	>	FOR
+	B		>	-B,FORBH
+	C		>	-C,FORCH
+	D		>	-D,FORDH
+	F		>	-F,FORFH
+	G		>	-G,FORGH
+	M		>	-M,FORMH
+	P		>	-P,FORPH
+	R		>	"FOR-"
+	T		>	-T,FORTH
+	S [^AEIOUÁÉÍÓÚLNR]	>	FOR
+	S [AEIOUÁÉÍÓÚLNR]	>	-S,FORSH
+
 	[^BCDFGLMNPRST]	>	"FO-"
 	[LNR]		>	FO
 	B		>	-B,FOBH
@@ -137,6 +197,18 @@ flag *L:
 	T		>	-T,FOTH
 	S [^AEIOUÁÉÍÓÚLNR]	>	FO
 	S [AEIOUÁÉÍÓÚLNR]	>	-S,FOSH
+
+	[^BCDFGMPST]	>	FRITH
+	B		>	-B,FRITHBH
+	C		>	-C,FRITHCH
+	D		>	-D,FRITHDH
+	F		>	-F,FRITHFH
+	G		>	-G,FRITHGH
+	M		>	-M,FRITHMH
+	P		>	-P,FRITHPH
+	T		>	FRI
+	S [^AEIOUÁÉÍÓÚLNR]	>	FRITH
+	S [AEIOUÁÉÍÓÚLNR]	>	-S,FRITHSH
 
 	[^BCFGMP]	>	IL
 	B		>	-B,ILBH
@@ -178,6 +250,18 @@ flag *L:
 	T		>	-T,MÍTH
 	S [^AEIOUÁÉÍÓÚLNR]	>	MÍ
 	S [AEIOUÁÉÍÓÚLNR]	>	-S,MÍSH
+
+	[^BCDFGMPST]	>	RÉAMH
+	B		>	-B,RÉAMHBH
+	C		>	-C,"RÉAMHCH"
+	D		>	-D,RÉAMHDH
+	F		>	-F,RÉAMHFH
+	G		>	-G,RÉAMHGH
+	M		>	-M,"RÉAMH-MH"
+	P		>	-P,RÉAMHPH
+	T		>	-T,RÉAMHTH
+	S [^AEIOUÁÉÍÓÚLNR]	>	RÉAMH
+	S [AEIOUÁÉÍÓÚLNR]	>	-S,RÉAMHSH
 
 	[^BCDFGLMNPRST]	>	"RÓ-"
 	[LNR]		>	RÓ

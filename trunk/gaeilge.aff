@@ -606,34 +606,34 @@ flag *F:                                        # bheannaínn, d'iompaínn
 	[^A] Í N N	>	-NN,ODAR        # An B.N. 
 
 flag *I:				       # campálaim
-        .              >       -IM,NN          # láithreach
-        .              >       ID
-        .              >       -IM,DH          # caite saor
-        .              >       -IM,""          # ainmfhocal briathartha
-        .              >       -AIM,FAIDH      # fáistineach
-        .              >       -AIM,FAIMID
-        .              >       -AIM,FAR
-        .              >       -M,GÍ           # ordaitheach
-        .              >       IS
-        .              >       -M,DÍS
+        L A I M              >       -IM,NN          # láithreach
+        L A I M              >       ID
+        L A I M              >       -IM,DH          # caite saor
+        L A I M              >       -IM,""          # ainmfhocal briathartha
+        L A I M              >       -AIM,FAIDH      # fáistineach
+        L A I M              >       -AIM,FAIMID
+        L A I M              >       -AIM,FAR
+        L A I M              >       -M,GÍ           # ordaitheach
+        L A I M              >       IS
+        L A I M              >       -M,DÍS
                                                # *****>>>>>> 
-	.	       >       -LAIM,ILTEAR    # láithreach saor
+	L A I M	       >       -LAIM,ILTEAR    # láithreach saor
 
 flag *J:				       # champálainn, d'iarnálainn
-        .              >       -INN,MAR        # caite
-        .              >       -INN,DH         # gnáthchaite
-        .              >       -NN,MIS      
-        .              >       -NN,DÍS
-        .              >       -AINN,FAINN     # coinníollach
-        .              >       -AINN,FÁ
-        .              >       -AINN,FADH
-        .              >       -AINN,FAIMIS
-        .              >       -AINN,FAIDÍS
-        .              >       -AINN,FAÍ
-        .              >       -INN,DAR        # An B.N.
+        L A I N N              >       -INN,MAR        # caite
+        L A I N N              >       -INN,DH         # gnáthchaite
+        L A I N N              >       -NN,MIS      
+        L A I N N              >       -NN,DÍS
+        L A I N N              >       -AINN,FAINN     # coinníollach
+        L A I N N              >       -AINN,FÁ
+        L A I N N              >       -AINN,FADH
+        L A I N N              >       -AINN,FAIMIS
+        L A I N N              >       -AINN,FAIDÍS
+        L A I N N              >       -AINN,FAÍ
+        L A I N N              >       -INN,DAR        # An B.N.
                                                # *****>>>>>> 
-	.	       >       -LAINN,ILTEÁ    # gnáthchaite dara phearsa
-	.	       >       -LAINN,ILTÍ     # gnáthchaite saor
+	L A I N N	       >       -LAINN,ILTEÁ    # gnáthchaite dara phearsa
+	L A I N N	       >       -LAINN,ILTÍ     # gnáthchaite saor
 
 # "leideanna" (míreanna le *dhá* litir nó leis an fhleiscín) 
 flag *K:

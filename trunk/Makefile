@@ -9,7 +9,7 @@ PERSONAL=daoine gall giorr logainm miotas stair
 
 #   Shouldn't have to change anything below here
 SHELL=/bin/sh
-RELEASE=3.2
+RELEASE=3.3
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor

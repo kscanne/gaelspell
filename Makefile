@@ -9,7 +9,7 @@ PERSONAL=aitiuil daoine eachtar gall giorr logainm miotas stair
 
 #   Shouldn't have to change anything below here
 SHELL=/bin/sh
-RELEASE=3.4
+RELEASE=3.5
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor
@@ -277,6 +277,7 @@ adist: aspell.txt apersonal ChangeLog
 	cp -f ChangeLog $(ASPELLDEV)/doc
 	cp -f gaeilge.dat $(ASPELLDEV)/ga.dat
 	aspellproc ga
+	mv ${ASPELLDEV}/*.bz2 .
 
 ChangeLog : FORCE
 	cvs2cl.pl

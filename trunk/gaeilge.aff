@@ -293,9 +293,9 @@ suffixes
 flag *A:				             # molaim
 	[^UI] A I M		>	-IM,NN       # láithreach
 	[^UI] A I M		>	ID           
-	[^UI] A I M		>	-AIM,FAIDH   # fáistineach
-	[^UI] A I M		>	-AIM,FAIMID
-	[^UI] A I M		>	-AIM,FAR
+	[^UIF] A I M		>	-AIM,FAIDH   # fáistineach
+	[^UIF] A I M		>	-AIM,FAIMID
+	[^UIF] A I M		>	-AIM,FAR
 	[^UI] A I M		>	-M,NN        # foshuiteach caite
 	[^UI] A I M		>	IS
 	[^UI] A I M		>	-IM,DH   
@@ -306,6 +306,10 @@ flag *A:				             # molaim
 	[^UTHI] A I M		>	-AIM,TAR     # láithreach saor
 	[^UTHI] A I M		>	-AIM,TÁ      # foshuiteach caite
 	[^UTHI] A I M		>	-AIM,TAÍ     
+
+                                                     # grafaim, liteagrafaim
+	F A I M			>	-M,DH        # fáistineach
+	F A I M			>	-IM,R
 
 						     # róstaim
 	T A I M			>	-IM,R        # láithreach saor
@@ -445,20 +449,20 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^IU] A I N N		>	-INN,DH      # gnáthchaite
 	[^IU] A I N N		>	-NN,MIS
 	[^IU] A I N N 		>	-NN,DÍS
-	[^IU] A I N N		>	-AINN,FAINN  # coinníollach
-	[^IU] A I N N		>	-AINN,FÁ
-	[^IU] A I N N		>	-AINN,FADH
-	[^IU] A I N N		>	-AINN,FAIMIS
-	[^IU] A I N N		>	-AINN,FAIDÍS
-	[^IU] A I N N		> 	-AINN,FAÍ
+	[^IUF] A I N N		>	-AINN,FAINN  # coinníollach
+	[^IUF] A I N N		>	-AINN,FÁ
+	[^IUF] A I N N		>	-AINN,FADH
+	[^IUF] A I N N		>	-AINN,FAIMIS
+	[^IUF] A I N N		>	-AINN,FAIDÍS
+	[^IUF] A I N N		> 	-AINN,FAÍ
 	[^IU] A I N N		>	-INN,DAR     # An B.N.
 
 	[^UTIH] A I N N		>	-AINN,TÁ     # gnáthchaite
 	[^UTIH] A I N N		>	-AINN,TAÍ     
 
-		 				     # róstainn
-	T A I N N		>	-AINN,Á      # gnáthchaite
-	T A I N N		>	-INN,Í     
+					            # ghrafainn,    róstainn
+	[FT] A I N N		>	-AINN,Á     # coinníollach,gnáthchaite
+	[FT] A I N N		> 	-INN,Í
 
 					             # traochainn
 	[^T] H A I N N		>	-AINN,TÁ     # gnáthchaite

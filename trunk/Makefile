@@ -25,6 +25,10 @@ INSTALL_DATA=$(INSTALL) -m 444
 ASPELL=/usr/bin/aspell
 MYSPELL=/usr/local/bin/myspell
 MAKE=/usr/bin/make
+# N.B. ispell "buildhash" only works if the raw word lists are sorted with 
+# "sort -f"; GNU sort doesn't collate the "/"'s correctly so you'll need
+# to check the output of "$(GOODSORT) gaeilge.raw gaeilge.lit" for example
+GOODSORT=isort
 
 hashtable: $(INSTALLATION).hash
 
@@ -34,12 +38,12 @@ gaeilge.hash: $(RAWWORDS)
 	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
 
 gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff
-	isort $(RAWWORDS) $(LITWORDS) > gaeilge.focail
+	$(GOODSORT) $(RAWWORDS) $(LITWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail gaeilgelit.aff gaeilgelit.hash
 	rm -f gaeilge.focail
 
 gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
-	isort $(RAWWORDS) $(LITWORDS) $(ALTWORDS) > gaeilge.focail
+	$(GOODSORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
@@ -89,11 +93,11 @@ athfromdb : FORCE
 	mv -f tempfile athfhocail
 
 sort: FORCE
-	isort $(RAWWORDS) > tempfile
+	$(GOODSORT) $(RAWWORDS) > tempfile
 	mv tempfile $(RAWWORDS)
-	isort $(LITWORDS) > tempfile
+	$(GOODSORT) $(LITWORDS) > tempfile
 	mv tempfile $(LITWORDS)
-	isort $(ALTWORDS) > tempfile
+	$(GOODSORT) $(ALTWORDS) > tempfile
 	mv tempfile $(ALTWORDS)
 
 sortpersonal: FORCE

@@ -214,7 +214,14 @@ ga.dic: $(RAWWORDS)
 mycheck: ga.dic aspell.txt
 	- $(MYSPELL) ga.aff ga.dic aspell.txt | egrep 'incorrect'
 
-mydist: ga.dic ChangeLog
+README_ga_IE.txt: README COPYING
+	(echo; echo "1. Version"; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
+
+mydist: ga.dic README_ga_IE.txt
+	chmod 644 ga.dic ga.aff README_ga_IE.txt
+	zip ga_IE ga.dic ga.aff README_ga_IE.txt
+
+mytardist: ga.dic ChangeLog
 	cp README README.txt
 	chmod 644 ga.dic ga.aff COPYING README.txt
 	ln -s ispell-gaeilge ../$(MYAPPNAME)
@@ -229,16 +236,18 @@ mydist: ga.dic ChangeLog
 ga.cwl: aspell.txt
 	LANG=C; export LANG; cat aspell.txt | sort -u | word-list-compress c > ga.cwl
 
+ASPELLDEV = ${HOME}/gaeilge/gramadoir/ga/aspell
+
 adist: aspell.txt apersonal ChangeLog
 	chmod 644 aspell.txt README README.aspell gaeilge_phonet.dat info pearsanta repl
-	cp -f README ../aspelldev/Copyright
-	cp -f README.aspell ../aspelldev/doc/README
-	cp -f gaeilge_phonet.dat ../aspelldev/ga_phonet.dat
-	cp -f aspell.txt ../aspelldev
-	cp -f info ../aspelldev
-	cp -f pearsanta ../aspelldev/doc
-	cp -f repl ../aspelldev/doc
-	cp -f ChangeLog ../aspelldev/doc
+	cp -f README $(ASPELLDEV)/Copyright
+	cp -f README.aspell $(ASPELLDEV)/doc/README
+	cp -f gaeilge_phonet.dat $(ASPELLDEV)/ga_phonet.dat
+	cp -f aspell.txt $(ASPELLDEV)
+	cp -f info $(ASPELLDEV)
+	cp -f pearsanta $(ASPELLDEV)/doc
+	cp -f repl $(ASPELLDEV)/doc
+	cp -f ChangeLog $(ASPELLDEV)/doc
 	aspellproc ga
 
 ChangeLog : FORCE

@@ -13,6 +13,7 @@ RELEASE=3.3
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor
+HYPHWORDS= gaeilge.hyp
 AFFIXFILE= gaeilge.aff
 ALTAFFIXFILE=gaeilgemor.aff
 APPNAME=ispell-gaeilge-$(RELEASE)
@@ -32,7 +33,7 @@ GOODSORT=isort
 
 hashtable: $(INSTALLATION).hash
 
-all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash
+all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgehyph.hash
 
 gaeilge.hash: $(RAWWORDS)
 	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
@@ -47,6 +48,9 @@ gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
+gaeilgehyph.hash: $(HYPHWORDS) gaeilgehyph.aff
+	$(ISPELLBIN)/buildhash $(HYPHWORDS) gaeilgehyph.aff gaeilgehyph.hash
+
 personal: $(PERSONAL)
 	rm -f $(HOME)/.ispell_$(INSTALLATION) $(HOME)/.biobla
 	sort -u $(PERSONAL) > $(HOME)/.ispell_$(INSTALLATION)
@@ -59,13 +63,15 @@ install: $(INSTALLATION).hash $(INSTALLATION).aff
 	$(INSTALL_DATA) $(INSTALLATION).hash $(ISPELLDIR)
 	$(INSTALL_DATA) $(INSTALLATION).aff $(ISPELLDIR)
 
-installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
+installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff gaeilgehyph.hash
 	$(INSTALL_DATA) gaeilge.hash $(ISPELLDIR)
 	$(INSTALL_DATA) $(AFFIXFILE) $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgelit.hash $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgelit.aff $(ISPELLDIR)
 	$(INSTALL_DATA) gaeilgemor.hash $(ISPELLDIR)
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
+	$(INSTALL_DATA) gaeilgehyph.hash $(ISPELLDIR)
+	$(INSTALL_DATA) gaeilgehyph.aff $(ISPELLDIR)
 
 clean:
 	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt gaeilgelit.aff ga.cwl repl pearsanta
@@ -89,7 +95,7 @@ fromdb : FORCE
 
 athfromdb : FORCE
 	$(GIN) 10
-	sort -u athfhocail > tempfile
+	LC_COLLATE=ga_IE sort -u athfhocail > tempfile
 	mv -f tempfile athfhocail
 
 sort: FORCE
@@ -232,7 +238,7 @@ adist: aspell.txt apersonal ChangeLog
 	cp -f pearsanta ../aspelldev/doc
 	cp -f repl ../aspelldev/doc
 	cp -f ChangeLog ../aspelldev/doc
-	aspellproc
+	aspellproc ga
 
 ChangeLog : FORCE
 	cvs2cl.pl

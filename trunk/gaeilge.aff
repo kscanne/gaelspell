@@ -435,13 +435,21 @@ flag *A:				             # molaim
 	L O Í M			>	-M,TEÁ
 	L O Í M			>	-M,TÍ
 						     # dluím, guím, luím, suím
-	[^B] U Í M		>	-ÍM,ITEAR
-	[^B] U Í M		>	-ÍM,ITEÁ
-	[^B] U Í M		>	-ÍM,ITÍ
+	[^BH] U Í M		>	-ÍM,ITEAR
+	[^BH] U Í M		>	-ÍM,ITEÁ
+	[^BH] U Í M		>	-ÍM,ITÍ
 						     # buím 
         B U Í M			>	-M,TEAR
 	B U Í M			>	-M,TEÁ
 	B U Í M			>	-M,TÍ
+						     # dhluím,ghuím,srl
+	[^B] H U Í M		>	-ÍM,ITEAR
+	[^B] H U Í M		>	-ÍM,ITEÁ
+	[^B] H U Í M		>	-ÍM,ITÍ
+						     # bhuím 
+        B H U Í M		>	-M,TEAR
+	B H U Í M		>	-M,TEÁ
+	B H U Í M		>	-M,TÍ
 
 
 flag *E:	        		             # mholainn, d'amharcainn
@@ -569,15 +577,19 @@ flag *E:	        		             # mholainn, d'amharcainn
 						     # chloínn
 	L O Í N N		>	-NN,TEÁ
 	L O Í N N		>	-NN,TÍ
-						     # dhluínn, luínn
-	[^H] U Í N N		>	-ÍNN,ITEÁ
-	[^H] U Í N N		>	-ÍNN,ITÍ
+						     # dhluínn, luínn, ndluínn
+	[^BH] U Í N N		>	-ÍNN,ITEÁ
+	[^BH] U Í N N		>	-ÍNN,ITÍ
 						     # ghuínn, shuínn
 	[^B] H U Í N N		>	-ÍNN,ITEÁ
 	[^B] H U Í N N		>	-ÍNN,ITÍ
 						     # bhuínn
 	B H U Í N N		>	-NN,TEÁ
 	B H U Í N N		>	-NN,TÍ
+
+						     # mbuínn
+	B U Í N N		>	-NN,TEÁ
+	B U Í N N		>	-NN,TÍ
 
 flag *C:                                       # beannaím
 	A Í M		>	-M,ONN         # láithreach

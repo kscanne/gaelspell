@@ -4979,6 +4979,8 @@ athimirt/HBMDU
 athinsint/HBMDU
 athinsinte/HBMDU
 athinsintí/HBMDU
+ath-inúsáidteacht/HBMDU
+ath-inúsáidteachta/HBMDU
 athiompaithe/HBMDU
 athiompú/HBMDUT
 athiomrá/HBMDUT
@@ -5743,6 +5745,9 @@ bailíochta/US
 bailíochtaigh/US
 bailíochtaím/USC
 bailíochtaithe/US
+bailíochtóir/US
+bailíochtóirí/US
+bailíochtóra/US
 bailíochtú/US
 bailithe/US
 bailitheacht/US
@@ -14744,6 +14749,8 @@ chonála/U
 chonálainn/JU
 chónasca/U
 chónascainn/EU
+chonbhlóidí/U
+chonbhlóidínn/FU
 chonclúidí/U
 chonclúidínn/FU
 chonduchta/U
@@ -18612,6 +18619,10 @@ conbharsáide/US
 conbharsáidí/US
 conbhlóid/US
 conbhlóide/US
+conbhlóidigh/US
+conbhlóidím/USC
+conbhlóidithe/US
+conbhlóidiú/US
 conbhua/US
 conbhuanna/US
 Concáinis/S
@@ -19802,6 +19813,9 @@ críochnaím/USC
 críochnaithe/US
 críochnaitheach/US
 críochnaitheacha/US
+críochnaitheoir/US
+críochnaitheoirí/US
+críochnaitheora/US
 críochnaithí/US
 críochnaithigh/US
 críochnú/US
@@ -24988,6 +25002,9 @@ dífhabhtaitheacha/US
 dífhabhtaithí/US
 dífhabhtaithigh/US
 dífhabhtán/US
+dífhabhtóir/US
+dífhabhtóirí/US
+dífhabhtóra/US
 dífhabhtú/US
 dífhostaigh/US
 dífhostaím/USC
@@ -33435,6 +33452,9 @@ formán/BMDUS
 formhéadaigh/US
 formhéadaím/USC
 formhéadaithe/USBMD
+formhéadaitheoir/BMDUS
+formhéadaitheoirí/BMDUS
+formhéadaitheora/BMDUS
 formhéadú/USBMD
 formhéadúcháin/BMDUS
 formhéadúchán/BMDUS
@@ -42448,6 +42468,8 @@ intuigtheacht/HBMDU
 intuigtheachta/HBMDU
 intuisceana/HBU
 inúsáidte/HBU
+inúsáidteacht/HBMDU
+inúsáidteachta/HBMDU
 inveirteabrach/HBMDUT
 inveirteabracha/HBU
 inveirteabraí/HBU
@@ -46221,14 +46243,15 @@ lófála
 lófálaí
 lófálaithe
 log
-loga
-logadh
+logáil
 logaill
-logaim/A
+logáilte
 logáin
 logainm
 logainmneacha
-logainn/E
+logála
+logálaim/I
+logálainn/J
 logall
 logán
 logánach
@@ -46264,7 +46287,6 @@ lógó
 lógóireacht
 lógóireachta
 lógónna
-logtha
 loic
 loice
 loiceach
@@ -61163,6 +61185,8 @@ rógairí
 rógánta
 rogha
 roghanna
+roghbhlúire
+roghbhlúirí
 roghchláir
 roghchlár
 roghchoiste
@@ -73003,6 +73027,8 @@ thiarnaí/U
 thiarnaínn/FU
 thiceála/U
 thiceálainn/JU
+thílí/U
+thílínn/FU
 thimfhille/U
 thimfhillinn/EU
 thimpeallaí/U
@@ -73355,6 +73381,10 @@ tile/US
 tíle/US
 tíleanna/US
 tilí/US
+tíligh/US
+tílím/USC
+tílithe/US
+tíliú/US
 tilleadh/US
 tím/US
 Timbeactú/S

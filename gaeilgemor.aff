@@ -337,7 +337,7 @@ flag *A:				             # molaim
 						     # buaim, iaim
 	[IU] A I M		>	-IM,NN       # láithreach CB lch.98
 	[IU] A I M		>	ID
-	[EIU] A I M		>	-M,TEAR      # glaeitear fosta
+	[IU] A I M		>	-M,TEAR
 	[IU] A I M		>	-IM,DH       # caite saor
 	[IU] A I M		>	-IM,FAIDH    # fáistineach
 	[IU] A I M		>	-IM,FAIMID
@@ -347,6 +347,8 @@ flag *A:				             # molaim
 	[IU] A I M		>	-M,DÍS
 	[IU] A I M		>	-IM,FAD       # An B.N.
 	[IU] A I M		>	-IM,FAIR      # An B.N.
+
+	E A I M			>	-AIM,ITEAR   # glaeaim->glaeitear
 
         				             # brisim
 	[^AOÁÉÓÚ] I M		>	-IM,EANN     # láithreach
@@ -462,11 +464,11 @@ flag *E:	        		             # mholainn, d'amharcainn
 
 						     # bhuainn, d'iomluainn
 	[IU] A I N N		>	-INN,MAR     # caite
-	[EIU] A I N N		>	-NN,TEÁ      # gnáthchaite
+	[IU] A I N N		>	-NN,TEÁ      # gnáthchaite
 	[IU] A I N N		>	-INN,DH
 	[IU] A I N N		>	-NN,MIS
 	[IU] A I N N 		>	-NN,DÍS
-	[EIU] A I N N		>	-NN,TÍ       # ghlaeití fosta
+	[IU] A I N N		>	-NN,TÍ
 	[IU] A I N N		>	-INN,FAINN   # coinníollach
 	[IU] A I N N		>	-INN,FÁ
 	[IU] A I N N		>	-INN,FADH
@@ -475,6 +477,9 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[IU] A I N N		> 	-INN,FAÍ
 	[IU] A I N N		>	-INN,DAR     # An B.N.
 	[IU] A I N N		>	-INN,S       # An B.N.
+
+	E A I N N		>	-AINN,ITEÁ   # ghlaeainn->ghlaeiteá
+	E A I N N		>	-AINN,ITÍ
 
         				             # bhrisinn, d'éistinn
 	[^AOÁÉÓÚ] I N N		>	-INN,EAMAR   # caite

@@ -43,6 +43,7 @@ echo 'Checking for funny starting combinations...'
 cat $1 | egrep '^[bcdfghlmnprt]h?[bcdfgmnpst]' | egrep -v '^(b(p|hf)|[cgt]h?n|gc|mb|n[dg]|ts|dt)' | egrep -v '^mh?ná$'
 # this one includes "no initial ll,nn,rr"!
 cat $1 | egrep '^(s[bdg]|[lmnr][lr]|nn|ps)'
+cat $1 | egrep '^e[^aiouáíóú]'
 
 ## Terminal position
 echo 'Checking for funny ending combinations...'
@@ -55,7 +56,7 @@ cat $1 | egrep 'n[dfhilmopru]$' | egrep -v '(ainm|sh?einm|sh?oicind|^Alaind)$'
 ## from Litriú na Gaeilge 
 echo 'Checking for pre-standard spellings (Litriú na Gaeilge rules)...'
 # Rule 2.a, lch 103
-cat $1 | egrep 'tch' | egrep -v '^(g?ch?(airtchlá|eartch|ruitchorda)|n?dh?íotchúis|smúitcheo|Státchiste|d?th?oitcheo|vástchóta)'
+cat $1 | egrep 'tch' | egrep -v '^(g?ch?(airtchlá|eartch|ruitchorda)|leachtchriostai?l$|n?dh?íotchúis|smúitcheo|Státchiste|d?th?oitcheo|vástchóta)' | egrep -v 'fh?abhtcheartú$'
 # Rule 3.I.b, lch 104.  ÓD lch viii -aidhe -> -aí
 cat $1 | egrep 'dhe$' | egrep -v '(aghaidhe|réidhe)$' | egrep -v "^([bdm]'|h|[nt]-)?(fhlidhe|[ou]idhe|uídhe)" | egrep -v '^(luaidhe|(bh)?flidhe|m?bh?úidhe|g?Ch?oimdhe|d?th?eidhe|sh?oraidhe|spleidhe)$'
 # Rule 3.II.b, lch 105  (exceptions include some "lit." spellings)
@@ -63,7 +64,7 @@ cat $1 | egrep 'adha.' | egrep -v "^([bdm]'|h|[nt]-)?adha" | egrep -v '(th?adhai
 # Rule 3.II.c, lch 105
 cat $1 | egrep 'aedh(ea|i)'
 # Rule 3.II.e, lch 105
-cat $1 | egrep 'idhea' | egrep -v 'idheanna?$' | egrep -v '(infridhearg|fh?áidheadóireacht)a?$' | egrep -v '(uidheadha|fh?eidheartha)$' | egrep -v '^(g?ch?á|d?th?e)idheacha?$'
+cat $1 | egrep 'idhea' | egrep -v 'idheanna?$' | egrep -v '(infridhearg|fh?áidheadóireacht)a?$' | egrep -v '(uidheadha|fh?eidheartha)$' | egrep -v '^(g?ch?á|d?th?e)idheacha?$' | egrep -v '^heicsidheachúla'
 # Rule 4, lch 106
 cat $1 | egrep '[bm]hth' | egrep -v '^(réamh|leath|(bh?)fh?rith|neamh|b?ph?ríomh|g?ch?oi?mh|ríomh)th' | egrep -v 'ubhthorai?dh' | egrep -v '^(n?dh?o-chomhthomha|n?gh?eamhthro|d?th?aobhthro|n?dh?ubhthuirs|leamhthuirse$|rabhtha[rs]$)'
 # Rule 6.I.b, lch 106
@@ -98,7 +99,7 @@ cat $1 | egrep 'árr'
 cat $1 | egrep 'éir[dl]' | egrep -v '^(léirlé|spéirl)'
 # Rule 24, lch 124
 cat $1 | egrep "(-.*-|'.*')" | egrep -v '(earraí-le-roinnt$|éan-féin-é$)' | egrep -v '^[nt]-'
-cat $1 | egrep '-' | egrep -v "(-.*-|'.*')" | egrep -v '^([nt]-[aeiouáéíóú]|an-|n?dh?ea-|x-gha)' | egrep -v '([bcdfglmnprst]h?)-(\1|h)' | egrep -v '[aeiouáéíóú]-[aeiouáéíóú]' | egrep -v '[A-ZÁÉÍÓÚ].*-[A-ZÁÉÍÓÚ]' | egrep -v "(ion-anál|^(bh|[bdm]')?(fh?o-[abcéegirt]|fh?rith-chuaran)|^g?ch?omh-a|^n?dh?o-(chomh|gh|ranna|scartha)|t?sh?o-(bh|gha|ranna)|t?sh?(in-sean|íos-lucht)|^([bdm]'|h)?a[mn]-)" | egrep -v '(-ca$|^g?ch?(oisí-clois|raobh-abh)|iar-tharraing|órang-úta|^n?dh?iosc-jaca|^d?th?(adhall-íogair|iuf-teaf)|^m?bh?an-ab|^b?ph?ríomh-(air|bhanaist)|^n?gh?(áma-gha|ar-amha|earr-(aighn|chlóscrío?bh))|^(réalt|spás)-am(a|anna)?$|^hais-táblaí?$|^hurdaí-gurda|^nua-staire?$|^neamh-(a|chomh|shain)|^mh?ór-(ais|éil)|^t-léint?e$|^u-chasadh$|^V-mhuineál$)'
+cat $1 | egrep '-' | egrep -v "(-.*-|'.*')" | egrep -v '^([nt]-[aeiouáéíóú]|an-|n?dh?ea-|x-gha)' | egrep -v '([bcdfglmnprst]h?)-(\1|h)' | egrep -v '[aeiouáéíóú]-[aeiouáéíóú]' | egrep -v '[A-ZÁÉÍÓÚ].*-[A-ZÁÉÍÓÚ]' | egrep -v "(ion-anál|^(bh|[bdm]')?(fh?o-[abcéegirt]|fh?rith-chuaran)|^g?ch?omh-a|^n?dh?o-(chomh|gh|ranna|scartha)|t?sh?o-(bh|gha|ranna)|t?sh?(in-sean|íos-lucht)|^([bdm]'|h)?a[mn]-)" | egrep -v '(-ca$|^g?ch?(oisí-clois|raobh-abh)|iar-tharraing|órang-úta|fh?ia-chai?t$|^n?dh?iosc-jaca|uisce-sciá|^d?th?(adhall-íogair|iuf-teaf)|^m?bh?an-ab|^b?ph?ríomh-(air|bhanaist)|^n?gh?(áma-gha|ar-amha|earr-(aighn|chlóscrío?bh))|^(réalt|spás)-am(a|anna)?$|^hais-táblaí?$|^hurdaí-gurda|^nua-staire?$|^neamh-(a|chomh|shain)|^mh?ór-(ais|éil)|^t-léint?e$|^u-chasadh$|^V-mhuineál$|^m?bh?éite-thástá(il|la)$)'
 # Rule 25, lch 127
 cat $1 | egrep "'" | egrep -v "^(m?b|[dm])'"
 
@@ -227,14 +228,16 @@ cat $1 | egrep '[^aeiouáéíóú]dh$'
 # DH
 cat $1 | egrep 'edh' | egrep -v '(uiscedh|ch?inedheigh)'
 cat $1 | egrep 'údh.'
-cat $1 | egrep '[^aáiou]dh[^aeiouáéíóúlr]'
+cat $1 | egrep '(^|[^aáiou])dh[^aeiouáéíóúlr]'
 
 # DHLÚ-- and DHL(EIÍ)--
 cat $1 | egrep '[^aáiou]dhl' | egrep -v '(dhlú(th|ite)|dhlistean|dhleatha|^neamhdhlíthiú)'
+cat $1 | egrep '^dhl[^aeíiuú]'
 
 # DHR rules
-cat $1 | egrep '[^aáiou]dhr[aáoóuú]' | egrep -v '((dh?obhar|uisce)dhro|^mh?arbhdhra)|^(scig|n?gh?earr)dhrámaí?$'
-cat $1 | egrep '[^aáiou]dhr[eéií]' | egrep -v '(dhréacht|dhreacha?$|eirdhris)'
+cat $1 | egrep '[^aáiou]dhr[aáoóuú]' | egrep -v '((dh?obhar|uisce)dhro|^mh?arbhdhra|^(scig|n?gh?earr)dhrámaí?$|^t?sh?reangdhrumaí?$)'
+cat $1 | egrep '[^aáiou]dhr[eéií]' | egrep -v '(dhr[eé]acht|dhreacha?$|eirdhris)'
+cat $1 | egrep '^dhr[^aáeéiouú]' | egrep -v '^dhr(óla|íoda)'
 
 echo 'E...'
 
@@ -326,7 +329,7 @@ cat $1 | egrep 'gh?(ain|eall)mh' | egrep -v '^n?gh?(ain|eall)mh'
 
 # GH
 cat $1 | egrep '[^aiou]gh[^aeiouáéíóúlnr]'
-cat $1 | egrep '[^aiou]ghl[ií]'
+cat $1 | egrep '[^aiou]ghl[ií]' | egrep -v 'aimhghlic(ea|i)s$'
 
 echo 'I...'
 # IARG
@@ -454,7 +457,7 @@ cat $1 | egrep 'odh[bcdfgmpst]' | egrep -v '^d?th?odhchaí'
 cat $1 | egrep 'oghrúp'  | egrep -v 'fh?oghrúpa'
 
 # OGHLUA
-cat $1 | egrep 'oghlua'  | egrep -v '(^(n?dh?|sh?)oghluaiste(achta?)?$|^d?th?oghluai?s)'
+cat $1 | egrep 'oghlua'  | egrep -v '(^(n?dh?|t?sh?)oghluaiste(achta?)?$|^d?th?oghluai?s)'
 
 # OGHAF
 cat $1 | egrep 'oghaf' | egrep -v '^n?dh?oghafa'
@@ -523,7 +526,7 @@ cat $1 | egrep '[^aeiouáéíóú]th$'
 
 # TH->H, following check for (and find no) potential exceptions (i.e.silent TH)
 cat $1 | egrep '[^a]eth' | egrep -v 'uilethac'
-cat $1 | egrep 'éth' | egrep -v '^n?dh?éth'
+cat $1 | egrep 'éth' | egrep -v '^(n?dh?éth|g?ch?réthul)'
 cat $1 | egrep 'óth[^aeiouáéíóú]'
 
 echo 'U...'
@@ -596,7 +599,7 @@ cat $1 | egrep 'íomhb' | egrep -v '^b?ph?ríomhbhe?an$'
 cat $1 | egrep 'bhmh' | egrep -v '^d?th?aobhmhao'
 cat $1 | egrep 'cgh' | egrep -v '^(m?bh?rioscghlór|t?sh?earcghr)'
 cat $1 | egrep 'chdh' | egrep -v '^(n?dh?rochdh|g?ch?ríochdheigh|smeachdhún)'
-cat $1 | egrep '[áiuú]fh'
+cat $1 | egrep '[áiuú]fh' | egrep -v '^m?bh?áfhuinneo'
 cat $1 | egrep 'éfh' | egrep -v '^n?dh?éfh'
 cat $1 | egrep 'ófh' | egrep -v '^g?ch?lófhoir'
 

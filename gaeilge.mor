@@ -2434,6 +2434,7 @@ cóionainn/US
 cóionainne/US
 cóionann/US
 cóionanna/US
+coipiú/US
 coirbthe/US
 coirbtheach/US
 coirbtheacht/US
@@ -3119,6 +3120,7 @@ cumannaíoch/US
 cumannaíocha/US
 cumarais/US
 cumaras/US
+cumascadh/US
 cúmhacht/US
 cúmhachta/US
 cumhadh/US
@@ -4442,10 +4444,16 @@ eilimistíní/HMDBU
 éinne/H
 einní
 éinní
+einte/HMDBU
+éinte/HMDBU
+eintí/HMDBU
+éintí/HMDBU
+éintigh
 éintigheas/HMDBUT
 éintighis/HMDU
 éintíos/HMDBUT
 éintís/HMDU
+eireas/HMDBUT
 eirghe/HMDBUT
 éirghe/HMDBUT
 eirghidh/HMDBUT
@@ -4460,10 +4468,15 @@ eirím/UC
 eirínn/F
 eiríodh/HU
 eiris/HMDBU
-eirise/HMDU
+eirise/HMDBU
+eiriseach/HMDBUT
 eirisí/HMDBU
+eirisigh/HMDBU
 eirítear/HU
 eirithe/HUB
+eiriticiúil/HBU
+eiriticiúla/HBU
+éiriú/HMDBUT
 éirlis/HMDBU
 éirlise/HMDU
 éirlisí/HMDBU
@@ -4635,6 +4648,9 @@ faisnithe/USBMD
 faisniú/USBMD
 faitcheas/MDBUS
 faitchis/MDBUS
+fáithscéal/MDBUS
+fáithscéalta/MDBUS
+fáithscéil/MDUS
 faitíosach/BUS
 faitíosacha/BUS
 faitíosaí/BUS
@@ -5236,6 +5252,7 @@ foscailtí/MDBUS
 foscladh/MDBUS
 fosclaidh/MDUS
 fosclaím/USC
+fosclaíocha/MDBUS
 fostaitheoir/MDBUS
 fostaitheoirí/MDBUS
 fostaitheora/MDUS
@@ -5343,6 +5360,10 @@ fuairnéil/MDBUS
 fuar/US
 fuaradh/USBMD
 fuaraim/USA
+fuarfholach/BUS
+fuarfholacha/BUS
+fuarfholaí/BUS
+fuarfholaigh/BUS
 fuartha/USBMD
 fuarthóir/MDBUS
 fuarthóirí/MDBUS
@@ -6149,6 +6170,8 @@ gruamdhachta/US
 grug/US
 gruga/US
 gruige/US
+guagaíl/US
+guagaíola/US
 guaille/US
 guailleacha/US
 guailneacha/US
@@ -6162,6 +6185,7 @@ guaireáin/US
 guaireán/US
 guaisiúil/US
 guaisiúla/US
+guais-soilse/US
 guala/US
 gualann/US
 gualanna/US
@@ -6190,6 +6214,7 @@ Hág
 hAifric
 hAifrice
 Háige
+haileo
 hailigin
 hailigine
 hailiginí
@@ -6871,6 +6896,10 @@ laraí
 laraithe
 lárnaithe
 lárnú
+lártheifneach
+lártheifneacha
+lártheifní
+lártheifnigh
 lásair
 lásar
 lascáil
@@ -7415,6 +7444,7 @@ mandáide/S
 mandáidí/S
 mandamuis/S
 mandamus/S
+mangaisí/S
 mangarla/S
 mangarlaí/S
 manráin/S
@@ -8362,6 +8392,7 @@ peártaí/US
 peártaithe/US
 pearúil/US
 pearúl/US
+péas/US
 peataíocht/US
 peataíochta/US
 pébí
@@ -8545,6 +8576,8 @@ pola/US
 porfaraí/US
 Portláirge/S
 pósa/US
+posaitreoin/US
+posaitreon/US
 posta/US
 postaeir/US
 postaer/US
@@ -8873,6 +8906,7 @@ réititheoir
 réititheoirí
 réititheora
 réitiú
+reó
 rí
 riabhach
 riabhacha
@@ -9990,6 +10024,7 @@ soillsiú/S
 soin/S
 soirn/ST
 sol
+sola
 solamanta/S
 solasta/S
 soláthairt/ST
@@ -10404,6 +10439,8 @@ súgha/ST
 súgraidh/ST
 súgraíocht/ST
 súgraíochta/S
+suibíochtúil/S
+suibíochtúla/S
 suidh/S
 suidhe/ST
 suidheacháin/ST
@@ -11536,6 +11573,10 @@ uathacht/HMDBU
 uathachta/HMDU
 uathbháis/HMDU
 uathbhás/HMDBUT
+uathoibritheach/HBU
+uathoibritheacha/HBU
+uathoibrithí/HBU
+uathoibrithigh/HBU
 uchláin/HMDBU
 uchlán/HMDBUT
 uchtáil/HMDBU
@@ -11739,6 +11780,8 @@ usachta/HMDU
 vaicsín
 vaicsíní
 veast
+víorais
+víoras
 visciúlacht
 visciúlachta
 voltmhéadair

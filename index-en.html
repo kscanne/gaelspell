@@ -2,18 +2,18 @@
         "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
-  <title>ispell-gaeilge and aspell-gaeilge</title>
+  <title>GaelSpell Unix: English</title>
   <meta http-equiv="Content-Language" content="en">
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-  <meta name="description" content="English summary of ispell-gaeilge home page">
-  <meta name="keywords" content="ispell, aspell, Irish language, spellchecker">
+  <meta name="description" content="English summary of the GaelSpell Unix home page">
+  <meta name="keywords" content="GaelSpell, ispell, aspell, Irish language, spellchecker">
   <meta name="author" content="Kevin P. Scannell">
   <link rel="stylesheet" href="../kps.css" type="text/css">
 </head>
 
 <body>
 <div class="content">
-<h1>ispell-gaeilge and aspell-gaeilge:<br>
+<h1>GaelSpell Unix:<br>
 English summary
 </h1>
 
@@ -26,13 +26,13 @@ English summary
 <p>
 This page has been provided as an aid to package maintainers 
 who are unable to read the 
-<a href = "index.html"><i>ispell-gaeilge</i> home page</a>
+<a href = "index.html"><i>GaelSpell Unix</i> home page</a>
 which is entirely in Irish.    This is in no sense a translation of 
 the Irish page (which contains much more detailed descriptions).
 </p>
 
 <p>
-Three packages are available, providing Irish language 
+Three packages are available from this site, providing Irish language 
 support for the most widely used spellcheckers in the Open 
 Source community: <i>ispell-gaeilge</i>, for Geoff Kuenning's
 <a href = "http://fmg-www.cs.ucla.edu/geoff/ispell.html"><i>International Ispell</i></a>,
@@ -41,6 +41,14 @@ Source community: <i>ispell-gaeilge</i>, for Geoff Kuenning's
 and <i>myspell-gaeilge</i> for the
 <a href="http://www.openoffice.org/">OpenOffice.org</a> 
 spellchecker.  The word lists are identical, just packaged differently.
+</p>
+
+<p>
+Diarmaid Mac Mathúna has also repackaged the same underlying word
+list for use on Windows machines; 
+it is available (under the GPL) from
+the primary GaelSpell site:
+<a href="http://www.gaelspell.com/">www.gaelspell.com</a>.
 </p>
 
 <hr>
@@ -73,9 +81,10 @@ the foreseeable future.   I spellcheck many of the articles from
 the online Irish language periodicals as a way of keeping up with the latest
 terminology.  I have also been adding words from the terminology dictionaries
 published by <i lang="ga">An Gúm</i>.
-<li><b>Dialect support.</b>  The <i>ispell-gaeilge</i> package provides
-a "large model" which includes many frequently-used but officially 
-non-standard spellings.
+<li><b>Dialect support (<i>ispell</i> only).</b>  There are three
+different installation options included with the 
+<i>ispell-gaeilge</i> package, described below under 
+<a href="#Models">Alternate Models</a>.
 <li><b>Phonetic support (<i>aspell</i> only).</b>  The file 
 <i>gaeilge_phonet.dat</i> provides a complete "coarse" encoding 
 of the pronunciation of Irish.  This allows <i>aspell</i> to make more
@@ -134,14 +143,13 @@ non-standard or dialect spellings (alongside the standard spellings)
 and accepts non-standard inflections of verbs.   This greatly reduces
 its effectiveness as a spellchecking tool; indeed, anyone who uses
 non-standard forms so frequently that he or she finds the standard model 
-inadequate likely disagrees with the very concept of an Irish
+inadequate will likely disagree with the very concept of an Irish
 spellchecker in the first place!
 </p>
 
 <p>
 With all this in mind,
 <b>I strongly urge installers to make the standard model 
-<i>gaeilge.hash</i>
 the default on your system</b>.
 </p>
 

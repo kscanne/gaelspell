@@ -34,7 +34,11 @@ cat $1 | egrep '[aeoáéíó]u'
 cat $1 | egrep '[íoóú][aá]' | egrep -v '^(seampú|buíá|có[aá]|reoá|saíá)' | egrep -v 'iúáil' | egrep -v 'Gh?úam'
 cat $1 | egrep '[aáeéoó]ú' | egrep -v '^(báú|créú|dóú|glaeú|naoú|neamhbháú|séú|sóú)'
 cat $1 | egrep '[aáéíú]ó' | egrep -v '^(buíó|dlaíó|méóis|réó)'
-cat $1 | egrep '(eí|é[áío]|[áu]o)'
+cat $1 | egrep '(eí|é[áío]|[áuú]o)'
+echo 'Checking for weird triphthongs...'
+cat $1 | egrep '[aeiouáéíóú][aeiouáéóú][aeouáéíóú]' | egrep -v '(uaí|iúá)' | egrep -v '^(aeó|gh?lae|hiéan|náia|naoú|paranóia|reoá|spraeá)'
+cat $1 | egrep '(eó|éa|io|iu|ío|uó)i' | egrep -v '^(aeóin|giuirl|sciuir)' | egrep -v 'uóige'
+cat $1 | egrep '[aouáóú]íú' | egrep -v '^(buí|croíú|dlaíó|saíá|spraíú)' | egrep -v 'gh?naíú'
 #echo 'Checking for broad/slender or slender/broad...'
 #cat $1 | egrep '[aáoóuú][bcdfghlmnprst]+[iíeé]' | more
 #cat $1 | egrep '[iíeé][bcdfghlmnprst]+[aáoóuú]' | more

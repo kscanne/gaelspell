@@ -995,12 +995,12 @@ aireamh/HBMDUT
 áireamhán/HBMDUT
 áirge/HBMDU
 airgead/HBMDUT
-airgeadaíche/HBU
+airgeadaí/HBMDUT
 airgeadaigh/HU
 airgeadaím/HUC
 airgeadaínn/F
-airgeadaíoch/HBU
-airgeadaíocha/HBU
+airgeadaíocht/HBMDU
+airgeadaíochta/HBMDU
 airgeadais/HBMDU
 airgeadaithe/HUBMD
 airgeadas/HBMDUT
@@ -1016,8 +1016,12 @@ airgeadúla/HBU
 airgid/HBMDU
 Airgintín
 Airgintíne
+Airgintíneach
+Airgintínigh
 áirgiúil/HBU
 áirgiúla/HBU
+áirgiúlacht/HBMDU
+áirgiúlachta/HBMDU
 airgtheach/HBU
 airgtheacha/HBU
 airgthí/HBU
@@ -2111,7 +2115,6 @@ argóint/HBMDU
 argóinte/HBMDU
 argóintí/HBMDU
 argtha/HUB
-ariamh
 arís
 arm/HBMDUT
 armáil/HUBMDT
@@ -2502,6 +2505,8 @@ b'Aird
 b'Aire
 b'Airgintín
 b'Airgintíne
+b'Airgintíneach
+b'Airgintínigh
 b'Airí
 b'Airméin
 b'Airméine
@@ -3505,6 +3510,8 @@ barrthuisle/US
 barrthuislí/US
 barrúil/US
 barrúla/US
+barrúlacht/US
+barrúlachta/US
 bárthainn/US
 bárthainne/US
 barúil/US
@@ -3512,8 +3519,6 @@ barúin/US
 barúla/US
 barúlach/US
 barúlacha/US
-barúlacht/US
-barúlachta/US
 barúlaí/US
 barúlaigh/US
 barún/US
@@ -4506,6 +4511,7 @@ bloscadh/US
 bloscaidh/US
 bloscaim/USA
 blosctha/US
+bloscthaí/US
 blúire/US
 blúirí/US
 blúis/US
@@ -7760,7 +7766,6 @@ chodlaínn/FU
 chognaínn/FU
 chograínn/FU
 choíche
-choichín
 choigeartaínn/FU
 choigistínn/FU
 choiglínn/FU
@@ -7927,7 +7932,6 @@ chun
 chúnaínn/FU
 chúnantaínn/FU
 chúngaínn/FU
-chúns
 chuntaisinn/EU
 chúplálainn/JU
 chúrsálainn/JU
@@ -8552,6 +8556,10 @@ cliantacht/US
 cliantachta/US
 cliarcholáiste/US
 cliarcholáistí/US
+cliarlathach/US
+cliarlathacha/US
+cliarlathaí/US
+cliarlathaigh/US
 cliarlathais/US
 cliarlathas/US
 cliarscoil/US
@@ -9815,10 +9823,9 @@ comhghléas/US
 comhghléasadh/US
 comhghléasaim/USA
 comhghléasta/US
-comhghuailleacht/US
-comhghuailleachta/US
-comhghuailleachtaí/US
 comhghuaillí/US
+comhghuaillíocht/US
+comhghuaillíochta/US
 comhghuaillithe/US
 comhionainn/US
 comhionainne/US
@@ -10919,6 +10926,7 @@ cruacháis/US
 cruachan/US
 cruachana/US
 cruachás/US
+cruachásanna/US
 cruachóg/US
 cruachóga/US
 cruachóige/US
@@ -11878,6 +11886,8 @@ d'airgeadaigh/U
 d'airgeadaínn/FU
 d'Airgintín
 d'Airgintíne
+d'Airgintíneach
+d'Airgintínigh
 d'Airí
 d'airigh/U
 d'áirigh/U
@@ -15033,7 +15043,8 @@ dothíosach/US
 dothíosacha/US
 dothíosaí/US
 dothíosaigh/US
-dothóigthe/US
+dothógtha/US
+dothomhaiste/US
 dothrasnaithe/US
 dothuigthe/US
 dothuirsithe/US
@@ -15264,6 +15275,7 @@ drochscéal/US
 drochscéalta/US
 drochscéil/US
 drochsheans/US
+drochsheansanna/US
 drochthuairisc/US
 drochthuairisce/US
 drochthuairiscí/US
@@ -17623,6 +17635,7 @@ féinrialach/BMDUS
 féinrialacha/BMDUS
 féinspéisí/BMDUS
 féinspéisithe/BMDUS
+féintruailliú/BMDUS
 féir/BMDUS
 feirbe/BMDUS
 feirc/BMDUS
@@ -21213,7 +21226,6 @@ gnácha/US
 gnáiche/US
 gnáis/US
 gnáith/US
-gnaithe/US
 gnaíúil/US
 gnaíúla/US
 gnaíúlacht/US
@@ -21390,6 +21402,8 @@ góiséireachta/US
 góislín/US
 góislíní/US
 gol/US
+goldair/US
+goldar/US
 golfairt/US
 golfairte/US
 goltraí/US
@@ -21405,7 +21419,6 @@ gora/US
 goradáin/US
 goradán/US
 goradh/US
-goraidh/US
 goraille/US
 goraillí/US
 goraim/USA
@@ -21992,8 +22005,6 @@ guíodóireacht/US
 guíodóireachta/US
 guíonna/US
 guite/US
-guldair/US
-guldar/US
 Gúm/S
 gúm/US
 guma/US
@@ -22130,6 +22141,8 @@ hAird
 hAire
 hAirgintín
 hAirgintíne
+hAirgintíneach
+hAirgintínigh
 hAirí
 hAirméin
 hAirméine
@@ -22481,7 +22494,6 @@ hIúileanna
 hIútlainn
 hIútlainne
 hob
-hóbair
 hÓg
 hÓga
 hÓglach
@@ -23051,10 +23063,10 @@ indíreacha/HBU
 indírí/HBU
 indírigh/HBU
 íne/HBU
+infear/HBMDUT
 infhaighte/HBU
 infhaighteacht/HBMDU
 infhaighteachta/HBMDU
-infhear/HBMDUT
 infheicthe/HBU
 infheictheacht/HBMDU
 infheictheachta/HBMDU
@@ -23075,12 +23087,12 @@ infhilleadh/HUBMDT
 infhillim/HUA
 infhillinn/E
 infhillte/HUBMD
-infhir/HBMDU
 infhulaingthe/HBU
 infinideach/HBU
 infinideacha/HBU
 infinidí/HBU
 infinidigh/HBU
+infir/HBMDU
 ing/HBMDUT
 ingear/HBMDUT
 ingearach/HBU
@@ -24311,7 +24323,6 @@ lárnach
 lárnacha
 lárnaí
 lárnaigh
-lárnaithe
 lárphointe
 lárphointí
 lárú
@@ -24509,6 +24520,8 @@ leaistice
 leaisticí
 leaistigh
 leáite
+leama
+leamaí
 leamh
 léamh
 leamha
@@ -25926,6 +25939,8 @@ m'Aird
 m'Aire
 m'Airgintín
 m'Airgintíne
+m'Airgintíneach
+m'Airgintínigh
 m'Airí
 m'Airméin
 m'Airméine
@@ -26781,7 +26796,6 @@ maranacha/S
 maranaí/S
 maranaigh/S
 maránta/S
-marar
 marascail/S
 marascal/S
 maratóin/S
@@ -28789,6 +28803,8 @@ náireach
 náireacha
 nAirgintín
 nAirgintíne
+nAirgintíneach
+nAirgintínigh
 nAirí
 náirí
 náirigh
@@ -29125,6 +29141,7 @@ neamhní
 neamhnigh
 neamhnithe
 neamhnú
+neamhshaolta
 neamhspleách
 neamhspleácha
 neamhspleáchais
@@ -36713,8 +36730,6 @@ slámóga/S
 slámóige/S
 slán/S
 slána/S
-slánadh/S
-slánaidh/ST
 slánaigh/S
 slánaím/SC
 slánaínn/F
@@ -36727,7 +36742,8 @@ slánaitheoirí/S
 slánaitheora/ST
 slándáil/ST
 slándála/S
-slánú/S
+slánú/ST
+slánuithe/S
 slaod/S
 slaoda/ST
 slaodadh/S
@@ -39426,6 +39442,7 @@ táirgeora/US
 táirgí/US
 tairgim/USA
 táirgim/USA
+tAirgintíneach
 táirgiúlacht/US
 táirgiúlachta/US
 tairgthe/US
@@ -40444,7 +40461,6 @@ thráchtainn/EU
 thraenálainn/JU
 thráinn/EU
 thraochainn/EU
-thraoiáilinn/EU
 thraoithinn/EU
 thrasnaínn/FU
 threabhainn/EU
@@ -40486,7 +40502,6 @@ thugas/U
 thuiginn/EU
 thuilinn/EU
 thuillinn/EU
-thúininn/EU
 thuirlingínn/FU
 thuirsínn/FU
 thuislínn/FU
@@ -41418,10 +41433,6 @@ traoch/US
 traochadh/US
 traochaim/USA
 traochta/US
-traoiáil/US
-traoiáileadh/US
-traoiáilim/USA
-traoiáilte/US
 traoite/US
 traoith/US
 traoitheadh/US
@@ -42138,7 +42149,6 @@ tugtar/US
 tugtha/US
 tuí/US
 tuig/US
-tuige
 tuigim/USA
 tuigthe/US
 tuil/US
@@ -42161,17 +42171,14 @@ tuilsolais/US
 tuilsolas/US
 tuilte/US
 tuin/US
-túin/US
 tuine/US
 tuineach/US
 tuineacha/US
 tuineadh/US
-túineadh/US
 tuineanta/US
 Túinéis/S
 Túinéise/S
 tuiní/US
-túinim/USA
 Túiníseach/S
 Túiníseacha/S
 Túinísí/S
@@ -42180,7 +42187,6 @@ tuinithe/US
 tuinseamh/US
 tuinseamha/US
 tuinsimh/US
-túinte/US
 tuíodóir/US
 tuíodóireacht/US
 tuíodóireachta/US
@@ -42402,8 +42408,6 @@ uaigneas/HBMDUT
 uaigní/HBU
 uaignigh/HBU
 uaignis/HBMDU
-uailbhreas/HBMDUT
-uailbhreasa/HBMDU
 uaill/HBMDU
 uaillbhreas/HBMDUT
 uaillbhreasa/HBMDU

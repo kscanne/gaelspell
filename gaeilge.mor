@@ -32,6 +32,9 @@ aimhréití/HBU
 aimhréitigh/HBU
 aimhris/HBMDU
 ain/U
+airgeadaíche/HBU
+airgeadaíoch/HBU
+airgeadaíocha/HBU
 airicis/HBMDU
 airicise/HBMDU
 áirseoir/HBMDUT
@@ -85,6 +88,7 @@ aon/U
 aorthann/HBMDUT
 ard/U
 argóna/HBMDU
+ariamh
 arm/HU
 armaim/HUA
 armainn/E
@@ -331,6 +335,7 @@ chím
 chíonn
 chleachtaínn/FU
 chnuasainn/EU
+choichín
 choisnínn/FU
 chosnaínn/FU
 chothabhálainn/JU
@@ -340,6 +345,7 @@ chriogainn/EU
 chriothnaínn/FU
 chuartaínn/FU
 chuile
+chúns
 cia
 cian/US
 cianaibhín/US
@@ -668,6 +674,7 @@ domhaine/US
 domhsan
 dórainn/US
 dórainne/US
+dothóigthe/US
 drámatúil/US
 drámatúla/US
 dríb/US
@@ -969,6 +976,7 @@ gluím/USA
 glúinte/US
 gluite/US
 glúnta/US
+gnaithe/US
 gnáth/US
 gnáthach/US
 gnáthacha/US
@@ -1015,10 +1023,13 @@ guaisiúla/US
 gualann/US
 guardail/US
 guardal/US
+guldair/US
+guldar/US
 hIúdach
 hIúdacha
 hIúdaí
 hIúdaigh
+hóbair
 iachaill/HBMDU
 iachall/HBMDUT
 iar/U
@@ -1183,10 +1194,12 @@ mallachtóra/S
 mallachtú/S
 manráin/S
 manrán/S
+mara
 maraitheach/S
 maraitheacha/S
 maraithí/S
 maraithigh/S
+marar
 marbhánach/S
 marbhánaigh/S
 marfa/S
@@ -1631,6 +1644,7 @@ sladaireacht/ST
 sladaireachta/S
 sladairí/S
 slait/S
+slánadh/S
 sléibhteach/S
 sléibhteacha/S
 sléibhtí/S
@@ -1817,6 +1831,7 @@ thiormaínn/FU
 thobhainn/EU
 thomainn/EU
 thosnaínn/FU
+thraoiáilinn/EU
 throscainn/EU
 thuilínn/FU
 thuitinn/EU
@@ -1878,6 +1893,10 @@ tosnaithe/US
 tosnú/US
 trálach/US
 trálaigh/US
+traoiáil/US
+traoiáileadh/US
+traoiáilim/USA
+traoiáilte/US
 tras/US
 tré
 treascrann/US
@@ -1910,6 +1929,7 @@ tuicéad/US
 tuicéid/US
 tuigbheáil/US
 tuigbheála/US
+tuige
 tuigse/US
 tuigseach/US
 tuigseacha/US

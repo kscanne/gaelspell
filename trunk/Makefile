@@ -21,7 +21,7 @@ ATARFILE=$(AAPPNAME).tar
 MYTARFILE=$(MYAPPNAME).tar
 CODEDIR=$(HOME)/math/code
 GIN=$(CODEDIR)/main/Gin
-INSTALL_DATA=$(INSTALL) -m 644
+INSTALL_DATA=$(INSTALL) -m 444
 ASPELLDATA=/usr/local/aspell
 ASPELLFLAGS=--dict-dir=$(ASPELLDATA)/dict --data-dir=$(ASPELLDATA)/data
 ASPELL=/usr/local/bin/aspell $(ASPELLFLAGS)

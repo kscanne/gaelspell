@@ -55,8 +55,11 @@ the primary GaelSpell site:
 <h2><a name="Features">Features</a></h2>
 
 <ul>
-<li><b>Large Word List.</b>  There are around 300,000 words in the database,
-around 15 times larger than the next largest Irish spellchecker.    The 
+<li><b>Large Word List.</b>  There are around 300,000 words in the database;
+this is, by my estimates, about five times larger than the new Irish
+spellchecker released by Microsoft 
+(can't tell for sure -- it's closed-source!)  
+The 
 coverage is equivalent to a dictionary with around 26,000 headwords --
 almost twice as big as a typical pocket dictionary (e.g. the Oxford or
 the Collins Gem).
@@ -82,6 +85,10 @@ the foreseeable future.   I spellcheck many of the articles from
 the online Irish language periodicals as a way of keeping up with the latest
 terminology.  I have also been adding words from the terminology dictionaries
 published by <i lang="ga">An Gúm</i>.
+Plus, if you send me words you would like to see added, I will
+add them to the next release!   It might be a fun experiment to 
+send the same list to Microsoft Ireland and see 
+how long it takes to get new words added to their spellchecker.
 <li><b>Dialect support (<i>ispell</i> only).</b>  There are three
 different installation options included with the 
 <i>ispell-gaeilge</i> package, described below under 
@@ -101,8 +108,7 @@ thereby recognizing and suggesting the correct spelling
 <h2><a name="Installation">Installation</a></h2>
 
 <p>
-I am not an expert with <i>autoconfig</i> or <i>automake</i>
-so the installation procedure is a bit naive.  There is no
+There is no
 "configure" script -- after unpacking the tarball, 
 try using "make" to build the hashed word list
 (<i>gaeilge.hash</i> for <i>ispell</i> and <i>gaeilge</i> for <i>aspell</i>).

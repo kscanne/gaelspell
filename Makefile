@@ -19,8 +19,10 @@ AFFIXFILE= gaeilge.aff
 ALTAFFIXFILE=gaeilgemor.aff
 APPNAME=ispell-gaeilge-$(RELEASE)
 AAPPNAME=aspell-gaeilge-$(RELEASE)
+MYAPPNAME=myspell-gaeilge-$(RELEASE)
 TARFILE=$(APPNAME).tar
 ATARFILE=$(AAPPNAME).tar
+MYTARFILE=$(MYAPPNAME).tar
 CODEDIR=$(HOME)/math/code
 GIN=$(CODEDIR)/main/Gin
 INSTALL_DATA=$(INSTALL) -m 644
@@ -54,7 +56,7 @@ clean:
 
 distclean:
 	$(MAKE) clean
-	rm -f *.hash aspell.txt aspellalt.txt
+	rm -f *.hash aspell.txt aspellalt.txt ga.dic
 
 sort: FORCE
 	sort -f $(RAWWORDS) > tempfile
@@ -127,6 +129,23 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/stair
 	gzip $(TARFILE)
 	rm -f ../$(APPNAME)
+
+ga.dic: gaeilge.raw
+	rm -f ga.dic
+	cat gaeilge.raw | wc -l | tr -d " " > tempcount
+	cat tempcount gaeilge.raw > ga.dic
+	rm -f tempcount
+
+mydist: ga.dic
+	cp README README.txt
+	chmod 644 ga.dic ga.aff COPYING README.txt
+	ln -s ispell-gaeilge ../$(MYAPPNAME)
+	tar cvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ga.dic
+	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ga.aff
+	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/COPYING
+	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/README.txt
+	gzip $(MYTARFILE)
+	rm -f ../$(MYAPPNAME) README.txt
 
 adist: FORCE
 	sort -u $(PERSONAL) > proper

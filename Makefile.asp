@@ -1,6 +1,7 @@
 # Makefile aspell-gaeilge
-ASPELL=/usr/local/bin/aspell
 ASPELLDATA=/usr/local/aspell
+ASPELLFLAGS=--dict-dir=$(ASPELLDATA)/dict --data-dir=$(ASPELLDATA)/data
+ASPELL=/usr/local/bin/aspell $(ASPELLFLAGS)
 INSTALL=/usr/local/bin/install
 
 #   Shouldn't have to change anything below here
@@ -14,8 +15,17 @@ all: FORCE
 	$(ASPELL) --lang=gaeilge create master ./gaeilge < $(RAWWORDS)
 	$(INSTALL_DATA) gaeilge $(ASPELLDATA)/dict
 
+personal: FORCE
+	mv $(HOME)/.aspell.gaeilge.pws $(HOME)/.aspell.gaeilge.pws.old
+	cat daoine gall giorr logainm miotas stair > temp.lst
+	$(ASPELL) --lang=gaeilge create personal $(HOME)/.aspell.gaeilge.pws < temp.lst
+	rm -f temp.lst
+
+sounds.txt: FORCE
+	$(ASPELL) --lang=gaeilge soundslike < $(RAWWORDS) > sounds.txt
+
 distclean:
 clean:
-	rm -f gaeilge
+	rm -f gaeilge sounds.txt
 
 FORCE:

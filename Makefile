@@ -10,7 +10,7 @@ MAKE=/usr/bin/make
 PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt stair.txt
 
 #   Shouldn't have to change anything below here
-RELEASE=3.5
+RELEASE=3.6
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor
@@ -298,7 +298,7 @@ adist: aspell.txt apersonal ChangeLog
 	mv ${ASPELLDEV}/*.bz2 .
 
 ChangeLog : FORCE
-	cvs2cl.pl
+	cvs2cl --FSF
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=ga soundslike < aspell.txt > sounds.txt

@@ -9,11 +9,12 @@
 <p>
 <UL>
 <LI> Síos-luchtaigh
-<A HREF = "http://borel.slu.edu/~kps/ispell/ispell-gaeilge-0.2.tar.gz">
-<I>ispell-gaeilge-0.2</I></A>
+<A HREF = "http://borel.slu.edu/~kps/ispell/ispell-gaeilge-1.0.tar.gz">
+<I>ispell-gaeilge-1.0</I></A>
 <LI> <A HREF = "#Coimriú">Coimriú</A>
 <LI> <A HREF = "#Insealbhú">Insealbhú</A>
 <LI> <A HREF = "#Sonraí">Sonraí</A>
+<LI> <A HREF = "#Canúintí">Canúintí</A>
 <LI> <A HREF = "#Cuidiú">Chun cuidiú</A>
 <LI> <A HREF = "#Cuiditheoir">Cuiditheoirí</A>
 <LI> <A HREF = "#Fabhtanna">Fabhtanna</A>
@@ -61,15 +62,17 @@ Is féidir an brat seo a fhiosrú leis an ordú a leanas:
 </PRE>
 <p>
 Anois, síos-luchtaigh an 
-<A HREF = "http://borel.slu.edu/~kps/ispell/ispell-gaeilge-0.2.tar.gz">
+<A HREF = "http://borel.slu.edu/~kps/ispell/ispell-gaeilge-1.0.tar.gz">
 <I>tar</I>-chomhad comhdhlúite</A>, 
 agus bain amach na comhaid:
 <PRE>
-% gunzip ispell-gaeilge-0.2.tar.gz
-% tar xvf ispell-gaeilge-0.2.tar 
-% cd ispell-gaeilge-0.2
+% gunzip ispell-gaeilge-1.0.tar.gz
+% tar xvf ispell-gaeilge-1.0.tar 
+% cd ispell-gaeilge-1.0
 % ls
-COPYING    gaeilge.aff     gaeilge.raw     Makefile   README
+biobla           gaeilge.aff      gaeilgemor.aff   Makefile
+COPYING          gaeilge.mor      giorr            README
+daoine           gaeilge.raw      logainm
 </PRE>
 Tá <I>Makefile</I> pacáilte leis an <I>tar</I>-chomhad.  Athraigh an athróg
 <I>ISPELLDIR</I> (gar do bharr an <I>Makefile</I>) go dtí ainm 
@@ -86,14 +89,24 @@ Anois nuair a thosaíonn tú <I>Ispell</I>,
 </PRE>
 é sin nó athraigh an athróg timpeallachta <I>DICTIONARY</I> más mian leat
 go mbeadh <I>gaeilge.hash</I> mar fhoclóir caighdeánach agat.  
+<p>
 Ceadaíonn an brat "-p" 
-duit foclóir pearsanta eile a roghnú.  Féach ar 
-<I>man</I>-leathanaigh <I>Ispell</I>
-chun níos mó eolas a fháil.
+duit foclóir pearsanta eile a roghnú.  
+Is féidir leat foclóir pearsanta  
+a chruthú as na chomhaid
+<i>biobla</i>,
+<i>daoine</i>,
+<i>giorr</i>, agus
+<i>logainm</i>
+atá dáilte le <i>ispell-gaeilge</i>.  Úsáid:
+<PRE>
+% make personal
+</PRE>
 <HR>
 <H4><A NAME="Sonraí">Sonraí</A></H4><p>
 I rith 1997-1998, scríobh Alastair McKinstry an clár 
-<A HREF = "http://rpmfind.net/linux/RPM/mandrake/cooker/cooker/Mandrake/RPMS/ispell-ga-0.7-2mdk.noarch.html"><I>ispell-ga</I></A> clár atá cosúil le
+<A HREF = "http://www.userfriendly.net/linux/RPM/cooker/sparc/Mandrake/RPMS/ispell-ga-0.7-2mdk.noarch.html">
+<I>ispell-ga</I></A> clár atá cosúil le
 <I>ispell-gaeilge</I>.  Cé go bhfuil mo straitéis féin éagsúil go leor,
 táim an-bhuíoch de as cúpla dea-smaointe óna chomhad foirceann 
 a d'úsáid mé i mo leagan féin.
@@ -138,17 +151,6 @@ agus ní bhacann sé leis an gcomhthéacs in
 aon chor. Mar shampla, glacfaidh sé le "mo máthair" nó "mo cuid 
 Gaeilge".
 <p>
-B'fhéidir gur thug tú faoi deara an líne:
-<PRE>
-compoundwords on
-</PRE>
-sa chomhad
-<I>gaeilge.aff</I>.  Ciallaíonn an líne seo go nglacfaidh 
-<I>ispell-gaeilge</I> le comhfhocail mar "mórbhóthar" agus
-"cuilpháipéar" (ach, faraor, le "cuilbhóthar" agus 
-"mórpháipéar" fosta).  Is féidir leat an fheidhm seo
-a stopadh leis an mbrat "-B".  
-<p>
 Thriail mé leagan tosaigh de <I>ispell-gaeilge</I> ar an Pheintiteoch
 agus ar na ceithre Shoiscéal as 
 <A HREF = "http://www.fiosfeasa.com/">
@@ -156,11 +158,49 @@ Bíobla Maigh Nuad</A> (atá le fáil ar dhlúthcheirnín).
 Cé is moite d'ainmneacha na ndaoine agus na logainmneacha líonmhara,
 ghlac sé leis na focail ar fad beagnach (agus d'aimsigh sé
 cuid mhaith earráidí -- aicinn ar iarraidh a bhformhór).
-Bhain mé tairbhe mhór as téacsanna ó na fhoilseacháin seo freisin:
+Bhain mé tairbhe mhór as téacsanna as na fhoilseacháin seo freisin:
 <A HREF = "http://www.ireland.com/gaeilge/teangabeo/"><I>An Teanga Bheo</I></A>,
 <A HREF = "http://www.nuacht.com/"><I>Lá</I></A>,
 <A HREF = "http://www.cumasc.ie/"><I>Cumasc</I></A>, agus
 <A HREF = "http://www.foinse.ie/"><I>Foinse</I></A>.
+<p>
+<HR>
+<H4><A NAME="Canúintí">Canúintí</A></H4><p>
+Ba é an <I>Foclóir Gaeilge-Béarla</I> (Niall Ó Dónaill, eag.) 
+mo phríomhfhoinse, agus dá bharr sin, réitíonn na litrithe 
+leis an Chaighdeán Oifigiúil go hiondúil.
+Ar an láimh eile, soláthraíonn <i>ispell-gaeilge</i> 
+beagán tacaíochta canúnach ón leagan 1.0 anuas.
+Chun an leagan canúnach seo
+a insealbhú, athraigh an athróg <I>INSTALLATION</I> 
+(gar do bharr an <I>Makefile</I>) ó <i>gaeilge</i> 
+go dtí <i>gaeilgemor</i>,
+agus ansin úsáid:
+<PRE>
+% make install
+</PRE>
+agus
+<PRE>
+% ispell -dgaeilgemor foo.txt
+</PRE>
+<p>
+Glacann an leagan canúnach le gach aon focal a ghlacann an leagan 
+caighdeánach, agus:
+<UL>
+<LI>comhfhocail mar "mórbhóthar" nó "cuilpháipéar",
+agus focail le réimíreanna mar "drochbhóthar" nó "bhfrithréabhlóid"
+(ach, faraor, le "cuilbhóthar","mórpháipéar","drochdroch" fosta - 
+is féidir leat an fheidhm seo a stopadh leis an mbrat "ispell -B").  
+Tugann an leagan caighdeánach leideanna do na focail seo.
+<LI>iarmhíreanna briathartha neamhchaighdeánacha 
+(-fad, -fead, -fair, -fir, -as, -íos)
+<LI>focail neamhchaighdeánacha eile
+("aimhreas"="amhras", "scaifte"="scata", srl.; féach ar an chomhad 
+<i>gaeilge.mor</i>.  Sa leaganacha amach anseo,
+ba mhaith liom na focail seo a scagadh ina gcanúintí 
+(Connacht, Mumhain, Ulaidh),
+ach beidh gá le cúnamh ó chainteoirí dúchasacha is dócha).
+</UL>
 <p>
 <HR>
 <H4><A NAME="Cuidiú">Chun Cuidiú</A></H4><p>
@@ -169,13 +209,6 @@ tá súil agam go n-inseoidh na Gaeilgeoirí dom faoi
 fhadhbanna sa chomhad foirceann nó faoi fhoirmeacha aisteacha i
 <I>gaeilge.raw</I> a thagann ó mo chuid drochGhaeilge (nó ó
 mo chuid drochríomhaireachta!).
-<p>
-Ba é an <I>Foclóir Gaeilge-Béarla</I> (Niall Ó Dónaill, eag.) 
-mo phríomhfhoinse, agus dá bharr sin, réitíonn na litrithe 
-leis an Chaighdeán Oifigiúil (go hiondúil).
-Tá mé ag déanamh machnaimh ar roinnt athruithe a cheadóidh
-malairtí canúnacha, ach beidh gá le cúnamh ó chainteoirí 
-dúchasacha is dócha.
 <p>
 Mar atá ráite thuas, ní bheidh mé ag cur na foclóirí pearsanta atá 
 ag úsáideoirí <I>ispell-gaeilge</I> isteach leis an leagan poiblí.
@@ -206,59 +239,104 @@ Ba chóir duit na tagairtí a ghiorrú ar chaoi éigin caighdeánach
 <HR>
 <H4><A NAME="Cuiditheoir">Cuiditheoirí</A></H4><p>
 <UL>
+<LI>Diarmaid Mac Mathúna<A HREF = "http://phy19.phy.tcd.ie/gaelspell/index.html"><I>(GaelSpell)</I></A>
 <LI>Alastair McKinstry
+<A HREF = "http://www.userfriendly.net/linux/RPM/cooker/sparc/Mandrake/RPMS/ispell-ga-0.7-2mdk.noarch.html">
+<I>(ispell-ga)</I></A>
 <LI>Vincent Morley
 <LI>Caoimhín Ó Donnaile
 </UL>
 <HR>
 <H4><A NAME="Fabhtanna">Fabhtanna ar m'eolas</A></H4><p>
 
+Focail cearta - níl ann ach leideanna ó <i>ispell-gaeilge</i>.
 <UL>
-<LI> Tá sé rófhlaithiúil maidir le "b'"?
-<LI> Urú sa mhodh foshuiteach?
-<LI> Urú roimh "b'" 
-<LI> Aidiacht comparáideach + "de"; m.sh. uabhride, luaithide
-<LI> Dhá fhoirceann; m.sh. "h+il+iomad", "t-+íon+ghlan", nó "fan+aigí+se"
-<LI> Iarmhír briathartha "-aid", srl.
-<LI> An tuiseal gairmeach (a náisiúna, a thaoiseacha)
-<LI> Iarmhír "-ín" le focail leathana 
-<LI> Comhfhocail le fleiscíní 
-<LI> Aidiachtaí i riocht ainmfhocail (t-uaibhreach, t-anbhann) 
+<LI>Urú (nó h,t) + caipitliú  (tAinm, tSalainn, hAbhann, nDaoine).
+<LI>Focail caipitlithe aisteacha eile (aonMhac, ArdRí).
+<LI>Réimíreanna le fleiscíní (an-, dea-, droch+ch, réamh+mh).
+<LI>Réimíreanna coitianta le dhá litir (do-,fo-,il-,im-,in-,mí-,ró-,so-).
+<LI>Réimíreanna neamhchoitianta le dhá litir (dú-,dé-,ré-,rí-,ur-).
+<LI>Iarmhíreanna fuinniúla (-na,-ne,-sa,-san,-se,-sean).
+<LI>Iarmhír "-ín" le focail caola.
+<LI>Aidiachtaí i riocht ainmfhocail (t-uaibhreach, t-anbhann, d'éagráifeach).
+<LI>An tuiseal gairmeach (a náisiúna, a thaoiseacha).
+<LI>Comhfhocail as mionpháirteanna (athlá, lánré).
 </UL>
-
+<p>
+Focail cearta - ní thugann <i>ispell-gaeilge</i> dada!
+<UL>
+<LI>Comhfhocail le fleiscíní (ceann-nochta, dearg-ghráin, sean-nadúr). 
+<LI>Iarmhír "-ín" le focail leathana nó iolra "-íní".
+<LI>Aidiacht comparáideach + "de" (uabhride, luaithide).
+<LI>Dhá réimír (hiarchime, t-an-duine, d'athghin, mb'amhlaidh).
+<LI>Dhá iarmhír (leanaigíse, leanfaimidne).
+</UL>
+<p>
+Focail mílitrithe a ghlacann <i>ispell-gaeilge</i>.
+<UL>
+<LI> An modh foshuiteach gan urú gan séimhiú
+<LI> tag/tug
+<LI> ghach/bhfiú/tólamh
+</UL>
 <HR>
 <H4><A NAME="Athruithe">Athruithe</A></H4><p>
 <UL>
-<LI> 14 Meitheamh 2000 -- Leagan 0.1 (13,368 ceannfhocal agus 203,191
-focal infhillte) 
-<LI> 20 Meán Fómhair 2000 -- Leagan 0.2 (14,591 ceannfhocal agus 208,448
-focal infhillte)
+<LI> 14 Meitheamh 2000 -- Leagan 0.1<br>
+(13,368 ceannfhocal agus 203,191 focal infhillte) 
+<p>
+<LI> 20 Meán Fómhair 2000 -- Leagan 0.2<br> 
+(14,591 ceannfhocal agus 208,448 focal infhillte)
 <p>Cheartaigh mé na fabhtanna seo:
 <UL>
 <LI> cuid mhaith focal iomarcach i <I>gaeilge.raw</I>  
 <LI> iarmhíreanna briathartha as ionad i <I>gaeilge.aff</I>
 (m.sh. an modh coinníollach faoin mbrat "C")
-<LI> iolraí na n-aidiachtaí "dian", "fiar", "cian", "ciar", "liath", srl.
-<LI> aidiachtaí briathartha de na briathra "logh", "riagh", "ibh", srl.
 <LI> fabht i <I>gaeilge.aff</I> a bhain leis an bhriathar "iaigh".
 <LI> fabht i <I>gaeilge.aff</I> a bhain leis an aimsir chaite
 na mbriathra "adhlaic", "iomlaisc", srl. 
-<LI> nócha (nó mar sin) foirm infhillte mícheart eile
-<LI> ainmfhocail briathartha míchearta ("éiliú", "damhsú", "gluaiseadh", srl.)
-
+<LI> iolraí na n-aidiachtaí seo: dian, fiar, cian, ciar, liath, srl.
+<LI> aidiachtaí briathartha de na briathra seo: adhain, comhaill, cumaisc, dearlaic, deighil, diongaibh, ibh, logh, riagh, sleabhac, spréigh, teasairg, togh. 
+<LI> díochlaonadh de na briathra seo: broim, cadhail, diailigh, fainic, maidhm, saighid, tiúin, uaim.
+<LI> ainmfhocail briathartha míchearta (*éiliú, *damhsú, srl.)
+<LI> ainmfhocail infhillte míchearta (*anacara, *blaosca, *dabhacha, *dumhacha, *fionnóaí, *foghala, *macasamhala, *magaí, *nóinte, *saghasanna).
+<LI> focail mílitrithe (*drochduine, *fiolagrán, *grainnín, *ionanálaigh, *saitir, *seasmacht, *speirling, *teicníc, *t-olltoghcháin).
 </UL>
 <p>Chuir mé sa leagan 0.2:
 <UL>
-<LI> an modh ordaitheach na mbriathra neamhrialta
-<LI> roinnt iarmhíreanna briathartha ("dhódar","phléadar", srl.)
-<LI> iarmhíreanna briathartha (-fad, -fead, -fair, -fir, -íos)
+<LI> an modh ordaitheach na mbriathra neamhrialta.
+<LI> roinnt iarmhíreanna briathartha (dhódar, phléadar, srl.)
+<LI> iarmhíreanna briathartha (-fad, -fead, -fair, -fir, -íos).
 <LI> an aimsir ghnáthchaite na mbriathra a bhfuil guta ag a dtús,
-gan urú agus gan "d'"
-<LI> an iarmhír "-sé" faoi "leideanna" i <I>gaeilge.aff</I>
-<LI> ainmfhocail briathartha leis na réamhlitreacha "t-", "d'", "m'",
-<LI> ainmfhocail briathartha sa thuiseal ghinideach
+gan urú agus gan "d'".
+<LI> an iarmhír "-sé" faoi "leideanna" i <I>gaeilge.aff</I>.
+<LI> ainmfhocail briathartha leis na réamhlitreacha "t-", "d'", "m'", srl.
+<LI> ainmfhocail briathartha sa thuiseal ghinideach.
 </UL>
-<LI> Idir lámha -- Leagan 1.0 (le rogha canúintí!)
+<p>
+<LI> 22 Feabhra 2001 -- Leagan 1.0<br>
+(an leagan caighdeánach: 16,375 ceannfhocal agus 221,451 focal infhillte)<br>
+(an leagan canúnach: 17,214 ceannfhocal agus 239,394 focal infhillte) 
+<p>Cheartaigh mé na fabhtanna seo:
+<UL>
+<LI> aidiachtaí briathartha de na briathra seo: comóir, dathaigh, foirceann, táthaigh, tnúth.
+<LI> tuiseal ginideach de na n-aidiachtaí seo: dearg, bándearg, ..., cearr, dearg, núicléach.
+<LI> foirmeacha infhillte na n-aidiachtaí "-ách".
+<LI> réimniú gan ghá "tig".
+<LI> séimhiú nó urú gan ghá (ala, deara, deo, imigéin, éineacht, srl.)
+<LI> ainmfhocail infhillte míchearta (*bandálaí, *comhdhálaí, *diachara, *garrfhéigh, *midhg, *praghasanna, *sic, *sméimh, *t-atógáil).
+<LI> foircinn mar fhocail neamhspleách (*ath, *droch, srl.)
+<LI> focail mílitrithe (*barúlacht, *comhghuailleacht, *éadóirsigh, *eispéaras, *fáinnéirí, *frithseipteán, *giománach, *giúirléid, *hómaighnéasach, *infhear, *insroichthe, *Meánmhura, *tainséirín, *tradhall, *tráigéide, *uailbhreas).
+</UL>
+<p>Chuir mé sa leagan 1.0:
+<UL>
+<LI> an leagan canúnach.
+<LI> na comhaid <i>biobla</i>, <i>daoine</i>, <i>giorr</i>, agus <i>logainm</i>.
+<LI> leideanna do "ath-", "comh-", "droch-", "for-", "frith-", agus "réamh-" i <I>gaeilge.aff</I>.
+<LI> brait ar ainmfhocail ginideacha neamhrialta (glacfar sa tslí seo "tsúgartha" ach ní ghlacfar *t-adhartha, *t-uí, srl.)
+<LI> "m'", "d'" + ainmfhocail iolra caipitlithe.
+</UL>
+<p>
+<LI> Idir lámha -- Leagan 1.1
 </UL>
 <HR>
 <P><CENTER><A HREF="http://www.fainne.org/"><IMG SRC="fainne1.gif" border=0></A><IMG SRC="fainne.gif"><A HREF="http://gofree.indigo.ie/~mmaa/Teachclainne.htm"><IMG SRC="fainne2.gif" border=0></A></CENTER></P>

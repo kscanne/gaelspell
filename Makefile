@@ -70,6 +70,7 @@ tarfile:
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/COPYING
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/README
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/Makefile
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/biobla
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/daoine
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/giorr
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/logainm

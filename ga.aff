@@ -283,123 +283,79 @@ PFX L s sosh s[aeiouáéíóúlnr]
 SFX A Y 119                      # molaim
 SFX A im nn [^ui]aim      # láithreach
 SFX A 0 id [^ui]aim             
+SFX A im dh [^ui]aim         # caite saor
 SFX A aim faidh [^uif]aim     # fáistineach
 SFX A aim faimid [^uif]aim   
 SFX A aim far [^uif]aim   
-SFX A m nn [^ui]aim          # foshuiteach caite
-SFX A 0 is [^ui]aim   
-SFX A im dh [^ui]aim     
-SFX A m dís [^ui]aim   
-SFX A im 0 [^ui]aim          # foshuiteach
 SFX A m gí [^ui]aim          # ordaitheach
+SFX A 0 is [^ui]aim 
+SFX A m dís [^ui]aim
 SFX A aim tar [^uthi]aim    # láithreach saor
-SFX A aim tá [^uthi]aim     # foshuiteach caite
-SFX A aim taí [^uthi]aim    
 SFX A m dh faim       # fáistineach                   grafaim  liteagrafaim
 SFX A im r faim
 SFX A im r taim       # láithreach saor               róstaim
-SFX A aim á taim      # foshuiteach caite
-SFX A im í taim    
 SFX A aim tar [^t]haim    # láithreach saor           traochaim
-SFX A aim tá [^t]haim     # foshuiteach caite
-SFX A aim taí [^t]haim    
 SFX A haim ar thaim    # láithreach saor              meathaim
-SFX A haim á thaim     # foshuiteach caite
-SFX A haim aí thaim    
 SFX A im nn [oáóú]im      # láithreach cb lch.98      dóim
 SFX A 0 id [oáóú]im
 SFX A m tear [oáóú]im
+SFX A im dh [oáóú]im      # caite saor
 SFX A im faidh [oáóú]im   # fáistineach
 SFX A im faimid [oáóú]im
 SFX A im far [oáóú]im
-SFX A m nn [oáóú]im       # foshuiteach caite
-SFX A m teá [oáóú]im
-SFX A 0 is [oáóú]im
-SFX A im dh [oáóú]im
-SFX A m dís [oáóú]im
-SFX A m tí [oáóú]im
-SFX A im 0 [oáóú]im       # foshuiteach
 SFX A m gí [oáóú]im       # ordaitheach
+SFX A m dís [oáóú]im
+SFX A 0 is [oáóú]im
 SFX A im nn [iu]aim       # láithreach cb lch.98      buaim  iaim
 SFX A 0 id [iu]aim
 SFX A m tear [iu]aim
+SFX A im dh [iu]aim
 SFX A im faidh [iu]aim    # fáistineach
 SFX A im faimid [iu]aim
 SFX A im far [iu]aim
-SFX A m nn [iu]aim        # foshuiteach caite
-SFX A m teá [iu]aim
-SFX A 0 is [iu]aim
-SFX A im dh [iu]aim
-SFX A m dís [iu]aim
-SFX A m tí [iu]aim
-SFX A im 0 [iu]aim        # foshuiteach
 SFX A m gí [iu]aim        # ordaitheach
+SFX A 0 is [iu]aim
+SFX A m dís [iu]aim
 SFX A im eann [^aoáéóú]im    # láithreach             brisim
 SFX A 0 id [^aoáéóú]im
+SFX A im eadh [^aoáéóú]im    # caite saor
 SFX A im fidh [^aoáéóú]im    # fáistineach
 SFX A im fimid [^aoáéóú]im
 SFX A im fear [^aoáéóú]im
-SFX A m nn [^aoáéóú]im       # foshuiteach caite
-SFX A 0 is [^aoáéóú]im
-SFX A im eadh [^aoáéóú]im
-SFX A m dís [^aoáéóú]im
-SFX A im e [^aoáéóú]im       # foshuiteach
 SFX A m gí [^aoáéóú]im       # ordaitheach
+SFX A 0 is [^aoáéóú]im
+SFX A m dís [^aoáéóú]im
 SFX A im tear [^aoáéóúth]im    # láithreach saor
-SFX A im teá [^aoáéóúth]im     # foshuiteach caite
-SFX A im tí [^aoáéóúth]im
 SFX A im ear tim     # láithreach saor                titim
-SFX A im eá tim      # foshuiteach caite
-SFX A im í tim
 SFX A im tear [^t]him    # láithreach saor            sroichim
-SFX A im teá [^t]him     # foshuiteach caite
-SFX A im tí [^t]him    
 SFX A him ear thim    # láithreach saor               caithim
-SFX A him eá thim     # foshuiteach caite
-SFX A him í thim    
 SFX A im ann éim             # láithreach cb lch.99   léim
 SFX A 0 id éim
 SFX A m tear éim
+SFX A im adh éim         # caite saor
 SFX A m fidh éim             # fáistineach
 SFX A m fimid éim
 SFX A m fear éim
-SFX A m nn éim               # foshuiteach caite
-SFX A m teá éim
-SFX A 0 is éim
-SFX A im adh éim
-SFX A m dís éim
-SFX A m tí éim
-SFX A im 0 éim               # foshuiteach
 SFX A m gí éim               # ordaitheach
+SFX A 0 is éim
+SFX A m dís éim
 SFX A m onn ím              # láithreach cb lch.99    guím
 SFX A m mid ím
+SFX A m odh ím              # caite saor
 SFX A m fidh ím             # fáistineach
 SFX A m fimid ím
 SFX A m fear ím
-SFX A m nn ím               # foshuiteach caite
-SFX A m mis ím
-SFX A m odh ím
-SFX A m dís ím
-SFX A m 0 ím                # foshuiteach 
 SFX A m gí ím               # ordaitheach 
+SFX A 0 is ím
+SFX A m dís ím
 SFX A ím itear [^aou]ím
-SFX A ím iteá [^aou]ím
-SFX A ím ití [^aou]ím
 SFX A m tear aím                                   #  cnaím  maím
-SFX A m teá aím
-SFX A m tí aím
 SFX A ím itear [^l]oím                             #  snoím
-SFX A ím iteá [^l]oím
-SFX A ím ití [^l]oím
 SFX A m tear loím                                  #  cloím 
-SFX A m teá loím
-SFX A m tí loím
-SFX A ím itear [^b]uím                             #  dluím  guím  luím  suím
-SFX A ím iteá [^b]uím
-SFX A ím ití [^b]uím
+SFX A ím itear [^bh]uím                            #  dluím  guím  luím  suím
 SFX A m tear buím                                  #  buím 
-SFX A m teá buím
-SFX A m tí buím
+SFX A ím itear [^b]huím                            #  ghuím  srl
+SFX A m tear bhuím                                 #  bhuím 
 
 
 SFX E Y 102                     # mholainn  d'amharcainn
@@ -499,42 +455,36 @@ SFX E ínn iteá [^l]oínn                               # shnoínn
 SFX E ínn ití [^l]oínn
 SFX E nn teá loínn                                    # chloínn
 SFX E nn tí loínn
-SFX E ínn iteá [^h]uínn                               # dhluínn  luínn
-SFX E ínn ití [^h]uínn
+SFX E ínn iteá [^bh]uínn                               # dhluínn  luínn
+SFX E ínn ití [^bh]uínn
 SFX E ínn iteá [^b]huínn                              # ghuínn  shuínn
 SFX E ínn ití [^b]huínn
 SFX E nn teá bhuínn                                   # bhuínn
 SFX E nn tí bhuínn
+SFX E nn teá buínn                                    # mbuínn
+SFX E nn tí buínn
 
 SFX C Y 28                                     # beannaím
 SFX C m onn aím        # láithreach
 SFX C 0 id aím
 SFX C m tear aím
+SFX C m odh aím       # caite saor
 SFX C aím óidh aím     # fáistineach
 SFX C aím óimid aím
 SFX C aím ófar aím
-SFX C m nn aím         # foshuiteach caite
-SFX C m teá aím
-SFX C 0 is aím
-SFX C m odh aím
-SFX C m dís aím
-SFX C m tí aím
-SFX C m 0 aím          # foshuiteach
 SFX C m gí aím         # ordaitheach
+SFX C 0 is aím
+SFX C m dís aím
 SFX C m onn [^a]ím        # láithreach           bailím
 SFX C 0 id [^a]ím
 SFX C m tear [^a]ím
+SFX C m odh [^a]ím        # caite saor
 SFX C ím eoidh [^a]ím     # fáistineach
 SFX C ím eoimid [^a]ím
 SFX C ím eofar [^a]ím
-SFX C m nn [^a]ím         # foshuiteach caite
-SFX C m teá [^a]ím
-SFX C 0 is [^a]ím
-SFX C m odh [^a]ím
-SFX C m dís [^a]ím
-SFX C m tí [^a]ím
-SFX C m 0 [^a]ím          # foshuiteach
 SFX C m gí [^a]ím         # ordaitheach
+SFX C 0 is [^a]ím
+SFX C m dís [^a]ím
 
 SFX F Y 26                                      # bheannaínn  d'iompaínn
 SFX F nn omar aínn       # caite
@@ -567,18 +517,15 @@ SFX F nn odar [^a]ínn       # an B.N.
 SFX I Y 14            # campálaim
 SFX I im nn .         # láithreach
 SFX I 0 id .
+SFX I im dh .         # caite saor
+SFX I im 0 .          # ainmfhocal briathartha
 SFX I aim faidh .     # fáistineach
 SFX I aim faimid .
 SFX I aim far .
-SFX I m nn .          # foshuiteach caite
-SFX I 0 is .
-SFX I im dh .
-SFX I m dís .
-SFX I im 0 .          # foshuiteach
 SFX I m gí .          # ordaitheach
+SFX I 0 is .
+SFX I m dís .
 SFX I laim iltear .   # láithreach saor
-SFX I laim ilteá .    # foshuiteach caite dara phearsa
-SFX I laim iltí .     # foshuiteach caite saor
 
 SFX J Y 13           # champálainn  d'iarnálainn
 SFX J inn mar .      # caite

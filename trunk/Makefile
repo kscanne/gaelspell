@@ -138,6 +138,8 @@ sortpersonal: FORCE
 	mv tempfile gaelu.in
 	sort -f earraidi > tempfile
 	mv tempfile earraidi
+	sort -f uimhreacha > tempfile
+	mv tempfile uimhreacha
 
 personalcheck: $(PERSONAL)
 	rm -f $(HOME)/.ispell_$(INSTALLATION)_check $(HOME)/.biobla

@@ -64,12 +64,11 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt ga.cwl repl pearsanta aspellrev.txt IG2.*
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt ga.cwl repl pearsanta aspellrev.txt IG2.* EN.temp IG.missp IG.temp
 
 distclean:
 	$(MAKE) clean
 	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu
-	rm -f IG.temp EN.temp IG.missp
 
 #############################################################################
 ### Remainder is for development only

@@ -1,5 +1,6 @@
 # Makefile ispell-gaeilge
 # INSTALLATION=gaeilgemor
+SHELL=/bin/sh
 INSTALLATION=gaeilge
 ISPELLDIR=/usr/local/lib
 ISPELLBIN=/usr/local/bin
@@ -11,18 +12,33 @@ AFFIXFILE= gaeilge.aff
 ALTAFFIXFILE=gaeilgemor.aff
 APPNAME=ispell-gaeilge-$(RELEASE)
 TARFILE=$(APPNAME).tar
+CODEDIR=$(HOME)/math/code
+DATAFILE=$(CODEDIR)/data/Dictionary/IG
+GIN=$(CODEDIR)/main/Gin
+STRIP=$(HOME)/clar/stripdbl
 
 hashtable: $(INSTALLATION).hash
 
 all: gaeilge.hash gaeilgemor.hash
 
-gaeilge.hash: $(RAWWORDS) $(AFFIXFILE)
+gaeilge.hash:
 	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
 
-gaeilgemor.hash: $(RAWWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
+gaeilgemor.hash:
 	sort -f $(RAWWORDS) $(ALTWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
+
+fromdb : $(RAWWORDS) $(ALTWORDS)
+	$(MAKE) all
+
+$(RAWWORDS) : $(DATAFILE)
+	$(GIN) 7
+	$(MAKE) sort
+
+$(ALTWORDS) : $(DATAFILE)
+	$(GIN) 7
+	$(MAKE) sort
 
 clean:
 	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full
@@ -47,6 +63,20 @@ count:
 altcount:
 	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | wc -l
 	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | wc -l
+
+allcounts:
+#	@$(GIN) 9
+	@echo 'Leagan caighdeánach:'
+	grep "]:.." igtemp | wc -l
+	@echo 'ceannfhocal agus'
+	make count
+	@echo 'focal infhillte'
+	@echo 'Leagan canúnach:'
+	cat igtemp | wc -l
+	@echo 'ceannfhocal agus'
+	make altcount
+	@echo 'focal infhillte'
+	@rm -f igtemp
 
 full:
 	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 > gaeilge.full
@@ -91,3 +121,13 @@ installall: gaeilge.hash gaeilgemor.hash
 	cp gaeilgemor.hash $(ISPELLDIR)
 	cp gaeilgemor.aff $(ISPELLDIR)
 	$(MAKE) reallyclean
+
+seiceail:
+	@$(GIN) 2   # rebuilds Eng-Ir dict.
+	@$(GIN) 8   # creates local EN.temp, IG.temp
+	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort | $(STRIP) | grep -v \' > EN.temp2
+	@diff -w EN.temp2 ../teacs/eile/Missp | grep "<" > EN.missp
+	@cat IG.temp | $(ISPELLBIN)/ispell -l -d./gaeilge | sort | $(STRIP) > IG.temp2
+	@diff -w IG.temp2 ../teacs/eile/Missp.ga | grep "<" > IG.missp
+	@rm -f EN.temp EN.temp2 IG.temp IG.temp2
+	@cat ../teacs/eile/tcht

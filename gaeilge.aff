@@ -66,7 +66,7 @@ flag *U:
         [AEIOUÁÉÍÓÚ]    >       "N-"
 
 #  b'
-flag *B:
+flag B:
  	[AEIOUÁÉÍÓÚ]	>	B'
         F               >       -F,B'FH
 
@@ -75,17 +75,17 @@ flag *H:
  	[AEIOUÁÉÍÓÚ]	>	H
 	
 #  m'
-flag *M:
+flag M:
         [AEIOUÁÉÍÓÚ]	>	M'
         F               >       -F,M'FH
 
 #  d'
-flag *D:
+flag D:
         [AEIOUÁÉÍÓÚ]	>	D'
         F               >       -F,D'FH
 
 # t-
-flag *T:
+flag T:
         [AEIOUÁÉÍÓÚ]	>	"T-"
 	S		>	T
 	

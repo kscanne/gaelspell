@@ -68,7 +68,7 @@ clean:
 
 distclean:
 	$(MAKE) clean
-	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga.dic gaeilgelit.aff $(ALTAFFIXFILE) ga.aff gaelu
+	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu
 	rm -f IG.temp EN.temp
 
 #############################################################################
@@ -244,31 +244,31 @@ dist: FORCE
 	rm -f ../$(APPNAME)
 	rm -f makefile
 
-ga.dic: $(RAWWORDS)
-	rm -f ga.dic
+ga_IE.dic: $(RAWWORDS)
+	rm -f ga_IE.dic
 	cat $(RAWWORDS) | wc -l | tr -d " " > tempcount
-	cat tempcount $(RAWWORDS) > ga.dic
+	cat tempcount $(RAWWORDS) > ga_IE.dic
 	rm -f tempcount
 
-ga.aff: $(AFFIXFILE)
-	ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspell-header | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > ga.aff
+ga_IE.aff: $(AFFIXFILE)
+	ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspell-header | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > ga_IE.aff
 
-mycheck: ga.dic aspell.txt ga.aff
-	- $(MYSPELL) ga.aff ga.dic aspell.txt | egrep 'incorrect'
+mycheck: ga_IE.dic aspell.txt ga_IE.aff
+	- $(MYSPELL) ga_IE.aff ga_IE.dic aspell.txt | egrep 'incorrect'
 
 README_ga_IE.txt: README COPYING
 	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of myspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 
-mydist: ga.dic README_ga_IE.txt ga.aff
-	chmod 644 ga.dic ga.aff README_ga_IE.txt
-	zip ga_IE ga.dic ga.aff README_ga_IE.txt
+mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff
+	chmod 644 ga_IE.dic ga_IE.aff README_ga_IE.txt
+	zip ga_IE ga_IE.dic ga_IE.aff README_ga_IE.txt
 
-mytardist: ga.dic ChangeLog
+mytardist: ga_IE.dic ChangeLog
 	cp README README.txt
-	chmod 644 ga.dic ga.aff COPYING README.txt
+	chmod 644 ga_IE.dic ga_IE.aff COPYING README.txt
 	ln -s ispell-gaeilge ../$(MYAPPNAME)
-	tar cvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ga.dic
-	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ga.aff
+	tar cvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ga_IE.dic
+	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ga_IE.aff
 	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/COPYING
 	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/ChangeLog
 	tar rvhf $(MYTARFILE) -C .. $(MYAPPNAME)/README.txt

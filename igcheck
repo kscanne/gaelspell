@@ -23,7 +23,7 @@ cat $1 | egrep 'n[dD]h' | egrep -v 'fh?lanndhe[ai]rg([ae])?$'
 cat $1 | egrep '(b[pP]|t[sS]|d[tT])h'
 cat $1 | egrep '^(g[cC]|n[gG]|bh[fF])h'
 echo 'Checking for repeated letters...'
-cat $1 | egrep '([^lnr])\1' | egrep -v '^(b?ph?izza|sh?núú|lottó)'
+cat $1 | egrep '([^lnr])\1' | egrep -v '^(sh?núú|lottó)'
 cat $1 | egrep '([lnr])\1\1'
 cat $1 | egrep '(aá|áa|eé|ée|ií|ií|oó|óo|uú|úu)'
 echo 'Checking for weird diphthongs...'
@@ -582,7 +582,7 @@ cat $1 | egrep '[yY]' | egrep -v '^yóyó'
 
 echo 'Z...'
 # Z
-cat $1 | egrep '[zZ]' | egrep -v '^(z|b?ph?izza|b?ph?uza)' | egrep -v "^([bdm]'|h|[nt]-)?ózó"
+cat $1 | egrep '[zZ]' | egrep -v '^(z|b?ph?uza)' | egrep -v "^([bdm]'|h|[nt]-)?ózó"
 
 ## Remainder were inspired by gaeilge_phonet.dat but either
 ## correspond to defunct rules or exceptions have no logical implications

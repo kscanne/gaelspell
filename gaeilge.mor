@@ -47,6 +47,11 @@ aislingíochta/HBMDU
 aithmhéala/HBMDUT
 aithneachtáil/HBMDU
 aithneachtála/HBMDU
+aithnigh/HU
+aithním/HUC
+aithnínn/F
+aithnithe/HUBMD
+aithniú/HUBMDT
 aithreach/HBU
 aithreacha/HBU
 aithrí/HBU
@@ -83,7 +88,7 @@ ansan
 anshógh/HBMDUT
 aoileann/HBMDU
 aoileanna/HBMDU
-aoileinne/HBMDU
+aoilinne/HBMDU
 aon/U
 aorthann/HBMDUT
 ard/U
@@ -340,7 +345,6 @@ choisnínn/FU
 chosnaínn/FU
 chothabhálainn/JU
 chraithinn/EU
-chreathainn/EU
 chriogainn/EU
 chriothnaínn/FU
 chuartaínn/FU
@@ -478,9 +482,6 @@ crancaire/US
 crancairí/US
 cranna/US
 craobha/US
-creata/US
-creath/US
-creathaim/USA
 creatlach/US
 creatlaigh/US
 creidiúnais/US
@@ -542,6 +543,8 @@ cupraisc/US
 cupraisce/US
 cupraiscí/US
 cut/US
+d'aithnigh/U
+d'aithnínn/FU
 d'amasaigh/U
 d'amasaínn/FU
 d'amhdaigh/U
@@ -897,6 +900,8 @@ gáiriú/US
 gairm/US
 gairmim/USA
 gairmthe/US
+galántais/US
+galántas/US
 galra/US
 galraí/US
 Gaolainn/S
@@ -1269,7 +1274,6 @@ múnlála/S
 muran
 musáin/S
 musán/S
-na
 nádúrthach
 nádúrthacha
 nádúrthaí
@@ -1281,7 +1285,6 @@ naiscim/A
 naiscinn/E
 naiscthe
 naocha
-ne
 neachtracht
 neachtrachta
 neaipicín
@@ -1466,7 +1469,6 @@ rubálainn/J
 ruball
 rusta
 rustaí
-sa
 sagartóide/ST
 sáibhéara/ST
 sáibhéaraí/S
@@ -1487,7 +1489,6 @@ samhailte/S
 samhailtí/S
 samharcáin/ST
 samharcán/S
-san
 saoil/S
 saoltach/S
 saoltacha/S
@@ -1570,7 +1571,6 @@ scumhaínn/F
 scumhaithe
 scumhú
 sdriog
-se
 seabhóid/ST
 seabhóide/S
 seachnadh/S
@@ -1919,6 +1919,10 @@ troscaim/USA
 trosctha/US
 truamhéil/US
 truamhéile/US
+truamhéileach/US
+truamhéileacha/US
+truamhéilí/US
+truamhéiligh/US
 tuatach/US
 tuatacha/US
 tuataí/US

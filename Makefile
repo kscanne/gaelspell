@@ -45,7 +45,7 @@ $(ALTWORDS) : $(DATAFILE)
 	$(MAKE) sort
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full aspell*.txt
 
 reallyclean:
 	$(MAKE) clean
@@ -71,12 +71,11 @@ sort:
 	sort -f stair > tempfile
 	mv tempfile stair
 
-count:
-	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | wc -l
+count: aspell
+	cat aspell.txt | wc -l
 
-altcount:
-	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | wc -l
-	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | wc -l
+altcount: aspellalt
+	cat aspellalt.txt | wc -l
 
 allcounts:
 	@$(GIN) 9
@@ -98,6 +97,12 @@ full:
 altfull:
 	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 > gaeilge.full
 	cat $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 > gaeilge2.full
+
+aspell:
+	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort | $(STRIP) > aspell.txt
+
+aspellalt:
+	cat $(RAWWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort | $(STRIP) > aspellalt.txt
 
 personal:
 	rm -f $(HOME)/.ispell_gaeilge

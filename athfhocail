@@ -459,7 +459,7 @@ aisnéise fhaisnéise
 aisnéisí faisnéisí
 aisnéisí fhaisnéisí
 aistarrac aistarraingt
-aistarraic aistarraingt
+aistarraic aistarraingthe
 aisteacht aisteachas
 aisteacht t-aisteachas
 aisteachta aisteachais
@@ -4971,6 +4971,7 @@ b'ingní b'ingne
 b'inín b'iníon
 b'iníneacha b'iníonacha
 b'iníochta b'iníoctha
+b'iniste b'inste
 b'iniúcha b'iniúchadh
 b'iniúchóireacht b'iniúchadh
 b'inleigheasta b'inleighis
@@ -4990,7 +4991,6 @@ b'innil b'innill
 b'innimh b'inmhe
 b'innis b'ainnise
 b'innisin b'insint
-b'inniste b'iniste
 b'inniste b'inste
 b'innle b'innill
 b'innleadh b'inleadh
@@ -9319,6 +9319,7 @@ chorrmhíola chorrmhíolta
 chorróg charóg
 chorróga charóga
 chorróige charóige
+chorrú chorraí
 Chorsaiceach Chorsacach
 Chorsaiceacha Chorsacacha
 Chorsaicí Chorsacaí
@@ -9582,6 +9583,7 @@ chreidsin chreidiúint
 chreidsint chreidiúint
 chreidsiúint chreidiúint
 chreidsiúna chreidiúna
+chreidthe chreidte
 chriadh chré
 chriadha chréúil
 chriadha chréúla
@@ -11284,6 +11286,7 @@ corrmhíola corrmhíolta
 corróg caróg
 corróga caróga
 corróige caróige
+corrú corraí
 Corsaiceach Corsacach
 Corsaiceacha Corsacacha
 Corsaicí Corsacaí
@@ -11476,6 +11479,7 @@ creidsin creidiúint
 creidsint creidiúint
 creidsiúint creidiúint
 creidsiúna creidiúna
+creidthe creidte
 criadh cré
 criadha créúil
 criadha créúla
@@ -12165,7 +12169,7 @@ d'aisnéis d'fhaisnéis
 d'aisnéise d'fhaisnéise
 d'aisnéisí d'fhaisnéisí
 d'aistarrac d'aistarraingt
-d'aistarraic d'aistarraingt
+d'aistarraic d'aistarraingthe
 d'aisteacht d'aisteachas
 d'aisteachta d'aisteachais
 d'aistíocht d'aisteachas
@@ -18076,6 +18080,7 @@ dtuinn dtoinne
 dtuir dtor
 dTuircméinis dTurcamáinis
 dTuircméinise dTurcamáinise
+dtuirlingte dtuirlingthe
 dtúirne dtuirne
 dtuirnéis dtoirnéis
 dtuirnéise dtoirnéise
@@ -23733,6 +23738,7 @@ gcorrmhíola gcorrmhíolta
 gcorróg gcaróg
 gcorróga gcaróga
 gcorróige gcaróige
+gcorrú gcorraí
 gcórú gcóiriú
 gcosainte gcosanta
 gcosarbolg gcos ar bolg
@@ -26313,7 +26319,7 @@ haisnéis faisnéis
 haisnéise faisnéise
 haisnéisí faisnéisí
 haistarrac haistarraingt
-haistarraic haistarraingt
+haistarraic haistarraingthe
 haisteacht haisteachas
 haisteachta haisteachais
 haistíoch haisteach
@@ -27021,6 +27027,7 @@ hingní hingne
 hinín hiníon
 hiníneacha hiníonacha
 hiníochta hiníoctha
+hiniste hinste
 hiniúcha hiniúchadh
 hiniúchóireacht hiniúchadh
 hiniúchóireachta hiniúchta
@@ -27043,7 +27050,6 @@ hinnis hinis
 hinnise hainnise
 hinnisin hinsint
 hinnisine hinsinte
-hinniste hiniste
 hinniste hinste
 hinnle hinnill
 hinnleadh hinleadh
@@ -27817,6 +27823,7 @@ ingní ingne
 inín iníon
 iníneacha iníonacha
 iníochta iníoctha
+iniste inste
 iniúcha iniúchadh
 iniúchóireacht iniúchadh
 iniúchóireacht t-iniúchadh
@@ -27848,7 +27855,6 @@ innise ainnise
 innisim insím
 innisin insint
 innisine insinte
-inniste iniste
 inniste inste
 inniú inniu
 inniubh inniu
@@ -29586,7 +29592,7 @@ m'aisnéis m'fhaisnéis
 m'aisnéise m'fhaisnéise
 m'aisnéisí m'fhaisnéisí
 m'aistarrac m'aistarraingt
-m'aistarraic m'aistarraingt
+m'aistarraic m'aistarraingthe
 m'aisteacht m'aisteachas
 m'aisteachta m'aisteachais
 m'aistíocht m'aisteachas
@@ -33766,7 +33772,7 @@ n-aisnéis bhfaisnéis
 n-aisnéise bhfaisnéise
 n-aisnéisí bhfaisnéisí
 n-aistarrac n-aistarraingt
-n-aistarraic n-aistarraingt
+n-aistarraic n-aistarraingthe
 n-aisteacht n-aisteachas
 n-aisteachta n-aisteachais
 n-aistíocht n-aisteachas
@@ -46703,6 +46709,7 @@ thuinn thoinne
 thuir thor
 Thuircméinis Thurcamáinis
 Thuircméinise Thurcamáinise
+thuirlingte thuirlingthe
 thúirne thuirne
 thuirnéis thoirnéis
 thuirnéise thoirnéise
@@ -47861,6 +47868,7 @@ tuir tor
 Tuircméinis Turcamáinis
 Tuircméinise Turcamáinise
 t-úireadas úire
+tuirlingte tuirlingthe
 túirne tuirne
 tuirnéis toirnéis
 tuirnéise toirnéise

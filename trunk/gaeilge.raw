@@ -4312,6 +4312,7 @@ aschomhaid/HMDBU
 aschuaigh
 aschuir/HMDU
 aschur/HMDBUT
+aschurtha/HMDU
 ascláin/HMDBU
 asclán/HMDBUT
 ascnaí/U
@@ -7881,6 +7882,8 @@ bhradaí/U
 bhradaínn/FU
 bhraigeála/U
 bhraigeálainn/JU
+bhrainseála/U
+bhrainseálainn/JU
 bhraithe/U
 bhraithinn/EU
 bhrandála/U
@@ -9694,6 +9697,10 @@ brain/US
 braine/US
 brainí/US
 brainse/US
+brainseáil/US
+brainseáilte/S
+brainseála/US
+brainseálaim/USI
 brainsí/US
 braisle/US
 bráisléad/US
@@ -15063,6 +15070,8 @@ cineamatagrafaigh/S
 cineamatagrafaíocht/US
 cineamatagrafaíochta/US
 cineamatagraif/US
+Cinearuáindis/S
+Cinearuáindise/S
 cinedheighilt/US
 cinedheighilte/US
 cinedhíothaithe/US
@@ -18151,6 +18160,7 @@ comhráití/S
 comhráitigh/S
 comhramh/US
 comhranna/US
+comhrannta/US
 comhréalta/US
 comhréaltaí/US
 comhréidh/S
@@ -18179,7 +18189,8 @@ comhrianta/US
 comhroinn/US
 comhroinne/US
 comhroinnim/USA
-comhroinnte/S
+comhroinnt/US
+comhroinnte/SU
 comhscóir/US
 comhscór/US
 comhshamhlaigh/US
@@ -24215,6 +24226,8 @@ dhíchumasaí/U
 dhíchumasaínn/FU
 dhídhaoiní/U
 dhídhaoinínn/FU
+dhídhíolaimí/U
+dhídhíolaimínn/FU
 dhídhlúthaí/U
 dhídhlúthaínn/FU
 dhífhabhtaí/U
@@ -24268,6 +24281,8 @@ dhiogálainn/JU
 dhí-oighrí/U
 dhí-oighrínn/FU
 dhíola/U
+dhíolaimí/U
+dhíolaimínn/FU
 dhíolainn/EU
 dhíolmhaí/U
 dhíolmhaínn/FU
@@ -24621,6 +24636,8 @@ d'Iaránach
 d'Iaránaigh
 d'Iarannaois
 d'Iarannaoise
+d'iarcheangail/U
+d'iarcheanglaínn/FU
 d'iarchuir/U
 d'iarchuirinn/EU
 d'Iar-Indiach
@@ -24868,6 +24885,12 @@ dídhaoinigh/US
 dídhaoiním/USC
 dídhaoinithe/SU
 dídhaoiniú/US
+dídhíolaim/US
+dídhíolaimím/USC
+dídhíolamóir/US
+dídhíolamóirí/US
+dídhíolamóra/US
+dídhíolamtha/S
 dídhlúthaigh/US
 dídhlúthaím/USC
 dídhlúthaithe/SU
@@ -25340,6 +25363,7 @@ díolacháin/US
 díolachán/US
 díolaí/US
 díolaim/USA
+díolaimím/USC
 díolaíocht/US
 díolaíochta/US
 díolaíochtaí/US
@@ -25350,6 +25374,7 @@ díolamaí/US
 díolamóir/US
 díolamóirí/US
 díolamóra/US
+díolamtha/S
 d'Iolar
 díolmhaigh/US
 díolmhaím/USC
@@ -27611,6 +27636,8 @@ d'Uasail
 d'Uasal
 d'uasghrádaigh/U
 d'uasghrádaínn/FU
+d'uasluchtaigh/U
+d'uasluchtaínn/FU
 duasmánaí/US
 duasmánaithe/US
 d'uasmhéadaigh/U
@@ -35554,6 +35581,8 @@ gCiméirise
 gCincís
 gCincíse
 gCincísí
+gCinearuáindis
+gCinearuáindise
 gCinn
 gCinsealacht
 gCinsealachta
@@ -37239,6 +37268,9 @@ glaoireacht/US
 glaoireachta/US
 glaoirí/US
 glaoite/SU
+glaoiteoir/US
+glaoiteoirí/US
+glaoiteora/US
 glaomaire/US
 glaomaireacht/US
 glaomaireachta/US
@@ -40366,6 +40398,15 @@ iar-bhunoideachas/HMDBUT
 iarbhunscoil/HMDBU
 iarbhunscoile/HMDU
 iarbhunscoileanna/HMDBU
+iarcheangail/HU
+iarcheangailte/HB
+iarcheanglaí/U
+iarcheanglaídís/HU
+iarcheanglaígí/HU
+iarcheanglaím/UC
+iarcheanglaínn/F
+iarcheanglaíodh/HU
+iarcheanglaítear/HU
 iarchéim/HMDBU
 iarchéime/HMDU
 iarchéimeanna/HMDBU
@@ -41867,6 +41908,7 @@ inlídís/HU
 inlígí/HU
 inlím/UC
 inlín/HMDU
+inlíne/HB
 inlínn/F
 inlíocht/HMDBU
 inlíochta/HMDU
@@ -50597,6 +50639,9 @@ mionathraigh/S
 mionathraím/SC
 mionathraínn/F
 mionathraithe/S
+mionathraitheoir/S
+mionathraitheoirí/S
+mionathraitheora/S
 mionathrú/S
 mionathruithe/S
 mionbháil/S
@@ -64905,6 +64950,8 @@ Seineagálaí/S
 Seineagálaigh/S
 seinge/S
 seinm/ST
+seinmliosta/ST
+seinmliostaí/S
 seinn/S
 seinne
 séinne/ST
@@ -74631,6 +74678,8 @@ treochta/US
 treochtaí/US
 treodóireacht/US
 treodóireachta/US
+treoíocht/US
+treoíochta/US
 treoir/US
 treoirfhocail/US
 treoirfhocal/US
@@ -76074,6 +76123,16 @@ uaslathas/HMDBUT
 uasluach/HMDBUT
 uasluacha/HMDU
 uasluachanna/HMDBU
+uasluchtaí/U
+uasluchtaídís/HU
+uasluchtaigh/HU
+uasluchtaígí/HU
+uasluchtaím/UC
+uasluchtaínn/F
+uasluchtaíodh/HU
+uasluchtaítear/HU
+uasluchtaithe/HBUMD
+uasluchtú/HUBMDT
 uasmhéadaí/U
 uasmhéadaídís/HU
 uasmhéadaigh/HU

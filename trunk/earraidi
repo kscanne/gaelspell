@@ -28,6 +28,7 @@ afheabhsú a fheabhsú
 afhorbairt a fhorbairt
 agá ag a
 agan ag an
+agas agus
 aghlacadh a ghlacadh
 agna ag na
 agsu agus
@@ -36,11 +37,14 @@ agu agus
 aguisin aguisín
 agusa agus a
 agusan agus an
+agusín aguisín
 agusna agus na
 aigeán aigéan
 Aine Áine
 aineoinn ainneoin
 ainilís anailís
+aimn ainm
+ainmeacha ainmneacha
 airi airí
 áiritear áirítear
 aisci aiscí
@@ -91,6 +95,7 @@ Atha Átha
 athabhairt a thabhairt
 athbreithniú athbhreithniú
 athghabhail athghabháil
+athru athrú
 augs agus
 bad bád
 baguin bagúin
@@ -105,6 +110,7 @@ ballstat ballstát
 beagainín beagáinín
 beagan beagán
 beal béal
+bealtaine Bealtaine
 bearla béarla
 beim béim
 beithioch beithíoch
@@ -129,6 +135,8 @@ boithre bóithre
 bothair bóthair
 bothar bóthar
 braid bráid
+braonín braonán
+bréa breá
 brea breá
 breithiunais breithiúnais
 breithiunas breithiúnas
@@ -155,10 +163,13 @@ cain cáin
 c'ainm cén t-ainm
 caisléan caisleán
 canbhasáil canbhásáil
+Caomhín Caoimhín
+Caoimhin Caoimhín
 carráid earráid
 carta cárta
 cartaí cártaí
 casanna cásanna
+cathar cathair
 ceadunas ceadúnas
 ceadunú ceadúnú
 céana céanna
@@ -172,9 +183,11 @@ Chábháin Chabháin
 cheád chéad
 choích choíche
 chomhmaith chomh maith
+chuna chun a
 chunna chun na
 churar chur ar
 churchun chur chun
+chursa chúrsa
 ciallaionn ciallaíonn
 cibe cibé
 cile eile
@@ -189,6 +202,7 @@ cisti cistí
 ciuin ciúin
 clair cláir
 Claith Cliath
+claraigh cláraigh
 claraithe cláraithe
 clar clár
 clarlann clárlann
@@ -205,6 +219,7 @@ coimisiun coimisiún
 coinníolacha coinníollacha
 coinniollacha coinníollacha
 cóireál cóireáil
+coirpideachas corpoideachas
 colaiste coláiste
 colas eolas
 comhairli comhairlí
@@ -215,6 +230,7 @@ comhreir comhréir
 comhtheacs comhthéacs
 comoradh comóradh
 comparaid comparáid
+cónai cónaí
 conaí cónaí
 conaisc cónaisc
 conaithe cónaithe
@@ -233,6 +249,7 @@ criochnaithe críochnaithe
 criochnú críochnú
 croi croí
 cuig cúig
+cuirdach cuardach
 cuirt cúirt
 cuirteanna cúirteanna
 cuirte cúirte
@@ -265,6 +282,9 @@ danta dánta
 daois d'aois
 data dáta
 deag déag
+déagoir déagóir
+deagoir déagóir
+déagoirí déagóirí
 deanai déanaí
 deanaí déanaí
 déanai déanaí
@@ -284,6 +304,7 @@ déirigh d'éirigh
 deiriochta déiríochta
 deiríochta déiríochta
 deiríocht déiríocht
+deirneach deireanach
 deontaisi deontais
 dfhéadfadh d'fhéadfadh
 dfhógair d'fhógair
@@ -307,6 +328,7 @@ díoma díomá
 diomhaointeas díomhaointeas
 diomhaointis díomhaointis
 diospóireachtaí díospóireachtaí
+diploma dioplóma
 direach díreach
 dirithe dírithe
 diriú díriú
@@ -348,6 +370,7 @@ eadaí éadaí
 eadaigh éadaigh
 eadan éadan
 éadán éadan
+eag éag
 eagran eagrán
 eagsuil éagsúil
 eagsúil éagsúil
@@ -370,6 +393,7 @@ earrai earraí
 easportail easpórtáil
 easportáil easpórtáil
 easportála easpórtála
+ecstais eacstais
 eifeachtach éifeachtach
 eifeachta éifeachta
 eifeacht éifeacht
@@ -424,12 +448,15 @@ feistisí feisteas
 feithicli feithiclí
 fen faoin
 fiain fiáin
+filiocht filíocht
 filiochta filíochta
 fior fíor
 firicí fíricí
 firínne fírinne
 fírínne fírinne
 fobairt forbairt
+focloir foclóir
+focloirí foclóirí
 fodhlithe fodhlíthe
 foglaim foghlaim
 fogra fógra
@@ -439,12 +466,16 @@ foirsteanach fóirsteanach
 folair foláir
 fomhair fómhair
 Fomhair Fómhair
+forala forála
 foralacha forálacha
 foram fóram
+forim foirm
+forleiriú forléiriú
 formhor formhór
 forsa fórsa
 forsai fórsaí
 forsaí fórsaí
+forum fóram
 fresin freisin
 frid tríd
 fritheadh fuarthas
@@ -456,15 +487,19 @@ futhú fúthu
 gabhaltais gabháltais
 gabhaltas gabháltas
 Gaedhael Gael
+Gaelge Gaeilge
+Gaelige Gaeilge
 gaeilge Gaeilge
 Gaeilgoir Gaeilgeoir
 Gaeilgoirí Gaeilgeoirí
 gael Gael
 Gaelige Gaeilge
+Gailege Gaeilge
 Gaililí Gailílí
 gán gan
 gatáir gátair
 gatár gátar
+gcursa gcúrsa
 gearan gearán
 gear géar
 ginearalta ginearálta
@@ -480,6 +515,7 @@ gnóthai gnóthaí
 gobhfuil go bhfuil
 gombeidh go mbeidh
 gra grá
+grammadach gramadach
 greine gréine
 grinneal grinneall
 grupa grúpa
@@ -487,6 +523,8 @@ grupaí grúpaí
 guid gcuid
 habhair hábhair
 habhar hábhar
+hathru hathrú
+healaine healaíne
 heictéar heicteár
 héinní haon ní
 hEireann hÉireann
@@ -497,6 +535,7 @@ hudaráis húdaráis
 hudarás húdarás
 Iarchonnachta Iar-Chonnachta
 iarrthoir iarrthóir
+idirnaisiunta idirnáisiúnta
 idirnaisiúnta idirnáisiúnta
 idtaobh i dtaobh
 igcrích i gcrích
@@ -523,6 +562,8 @@ iomlan iomlán
 iomportail iompórtáil
 iomportáil iompórtáil
 iomportála iompórtála
+ionadai ionadaí
+ionadu ionadú
 ionnanais ionannais
 ionnanas ionannas
 ionnannais ionannais
@@ -553,6 +594,7 @@ leanuint leanúint
 leanunach leanúnach
 leargas léargas
 leasaitear leasaítear
+leathanch leathanach
 leathnach leathanach
 lehaghaidh le haghaidh
 leibheal leibhéal
@@ -588,6 +630,7 @@ liuntais liúntais
 liuntas liúntas
 Lúcas Lúcás
 lúchair lúcháir
+Lunasa Lúnasa
 luthchleasa lúthchleasa
 luthchleas lúthchleas
 macnamh machnamh
@@ -595,6 +638,8 @@ maguaird máguaird
 maidirle maidir le
 mal mál
 ma má
+Martín Máirtín
+Mairtín Máirtín
 másé más é
 mas más
 mathair máthair
@@ -604,6 +649,8 @@ mead méad
 meadú méadú
 meain meáin
 mean meán
+measín meaisín
+measíní meaisíní
 meastú meas tú
 meid méid
 Meirceá Meiriceá
@@ -704,6 +751,7 @@ oiche oíche
 oidreachta oidhreachta
 oidreacht oidhreacht
 oifigi oifigí
+oifigúil oifigiúil
 oige óige
 oig óig
 oileain oileáin
@@ -725,6 +773,8 @@ on ón
 o ó
 oráidí óráidí
 oráid óráid
+oscalit oscailt
+oscalite oscailte
 ospideal ospidéal
 ospideil ospidéil
 ostáin óstlainne
@@ -787,6 +837,8 @@ rialachan rialachán
 rialail rialáil
 riarachain riaracháin
 riomhaire ríomhaire
+riomphoist ríomhphoist
+riomphost ríomhphost
 riomhphost ríomhphost
 riomh ríomh
 roint roinnt
@@ -854,6 +906,7 @@ slándail slándáil
 slandála slándála
 slan slán
 sli slí
+sochai sochaí
 socmhainn sócmhainn
 soileir soiléir
 sóiléir soiléir
@@ -869,6 +922,7 @@ solathrofar soláthrófar
 soléir soiléir
 sonraitear sonraítear
 sort sórt
+Spáinis Spáinnis
 Spainn Spáinn
 sparáil spáráil
 spas spás
@@ -892,10 +946,12 @@ stat stát
 stiuradh stiúradh
 stráinséar strainséir
 straiteis straitéis
+stratéis straitéis
 struchtuir struchtúir
 struchtur struchtúr
 suile súile
 suil súil
+súiomh suíomh
 suiomh suíomh
 tabairt tabhairt
 tabhachtach tábhachtach
@@ -933,6 +989,9 @@ ta tá
 tathar táthar
 teacs téacs
 teagmhail teagmháil
+teaghmáil teagmháil
+teaghmháil teagmháil
+teárma téarma
 tearma téarma
 teastail teastáil
 teastaionn teastaíonn
@@ -945,6 +1004,7 @@ tháinigh tháinig
 thainig tháinig
 thángas thángthas
 thios thíos
+ThuaidhTheas Thuaidh-Theas
 tiarratasóir t-iarratasóir
 tiogair tíogair
 tiortha tíortha
@@ -995,6 +1055,7 @@ turlabhraí t-urlabhraí
 tus tús
 uachtarain uachtaráin
 uachtaran uachtarán
+úafásach uafásach
 udarais údaráis
 udaráis údaráis
 údáráis údaráis
@@ -1010,6 +1071,7 @@ uis úis
 usaide úsáide
 usáide úsáide
 úsaide úsáide
+úsaideach úsáideach
 usáidtear úsáidtear
 úsaidtear úsáidtear
 usaid úsáid

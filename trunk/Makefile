@@ -68,7 +68,7 @@ clean:
 
 distclean:
 	$(MAKE) clean
-	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu
+	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu giorr
 
 #############################################################################
 ### Remainder is for development only
@@ -116,6 +116,10 @@ sort: FORCE
 	$(GOODSORT) $(ALTWORDS) > tempfile
 	mv tempfile $(ALTWORDS)
 
+giorr : giorr.in
+	cat giorr.in | sed 's/ .*//' | sort -f > $@
+
+# giorr done above
 sortpersonal: FORCE
 	sort -f aitiuil > tempfile
 	mv tempfile aitiuil
@@ -125,8 +129,6 @@ sortpersonal: FORCE
 	mv tempfile eachtar
 	sort -f gall > tempfile
 	mv tempfile gall
-	sort -f giorr > tempfile
-	mv tempfile giorr
 	sort -f gno > tempfile
 	mv tempfile gno
 	sort -f logainm > tempfile
@@ -221,7 +223,7 @@ installweb: FORCE
 	$(INSTALL_DATA) sios.html $(HOME)/public_html/ispell
 
 dist: FORCE
-	$(MAKE) ChangeLog stair.txt miotas.txt
+	$(MAKE) ChangeLog stair.txt miotas.txt giorr
 	sed '/development only/,$$d' ./Makefile > makefile
 	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla daoine eachtar gall giorr gno logainm miotas.txt stair.txt makefile
 	chmod 755 igcheck

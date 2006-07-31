@@ -42,7 +42,8 @@ gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE) $(PERSONAL)
 $(ALTAFFIXFILE): $(AFFIXFILE) gaeilgemor.diff
 	patch -o gaeilgemor.aff gaeilge.aff < gaeilgemor.diff
 
-personal: biobla
+personal: biobla $(PERSONAL)
+	sort -u $(PERSONAL) > ./personal
 	rm -f $(HOME)/.ispell_$(INSTALLATION)
 	sort -u biobla > $(HOME)/.ispell_$(INSTALLATION)
 
@@ -62,7 +63,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt ga.cwl repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt ga.cwl repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp personal
 
 distclean:
 	$(MAKE) clean

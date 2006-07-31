@@ -18,32 +18,33 @@ AFFIXFILE= gaeilge.aff
 ALTAFFIXFILE=gaeilgemor.aff
 INSTALL_DATA=$(INSTALL) -m 444
 
-SORT=/usr/bin/sort
+SORT=/usr/bin/sort -u
 
 hashtable: $(INSTALLATION).hash
 
 all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash
 
-gaeilge.hash: $(RAWWORDS) $(AFFIXFILE)
+gaeilge.hash: $(RAWWORDS) $(AFFIXFILE) $(PERSONAL)
+	$(SORT) $(RAWWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > gaeilge.focail
 	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
+	rm -f gaeilge.focail
 
-gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff
-	$(SORT) $(RAWWORDS) $(LITWORDS) > gaeilge.focail
+gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff $(PERSONAL)
+	$(SORT) $(RAWWORDS) $(LITWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail gaeilgelit.aff gaeilgelit.hash
 	rm -f gaeilge.focail
 
-gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
-	$(SORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) > gaeilge.focail
+gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE) $(PERSONAL)
+	$(SORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
 $(ALTAFFIXFILE): $(AFFIXFILE) gaeilgemor.diff
 	patch -o gaeilgemor.aff gaeilge.aff < gaeilgemor.diff
 
-personal: $(PERSONAL)
-	rm -f $(HOME)/.ispell_$(INSTALLATION) $(HOME)/.biobla
-	sort -u $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > $(HOME)/.ispell_$(INSTALLATION)
-	sort -u biobla > $(HOME)/.biobla
+personal: biobla
+	rm -f $(HOME)/.ispell_$(INSTALLATION)
+	sort -u biobla > $(HOME)/.ispell_$(INSTALLATION)
 
 gaeilgelit.aff: $(AFFIXFILE)
 	cp $(AFFIXFILE) gaeilgelit.aff
@@ -61,7 +62,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt ga.cwl repl pearsanta aspellrev.txt IG2.* EN.temp IG.missp IG.temp
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.full gaeilge sounds.txt ga.cwl repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp
 
 distclean:
 	$(MAKE) clean
@@ -201,11 +202,11 @@ aspellalt.txt: gaeilgemor.hash
 	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
 # these aspell function are unimplemented according to K.A. 7/2/03
-apersonal: $(PERSONAL)
-	(echo "personal_repl-1.1 ga 0"; cat athfhocail) > repl
-	(echo "personal_ws-1.1 ga 0"; sort -u $(PERSONAL)) > pearsanta
+apersonal: $(PERSONAL) giorr
+	(echo "personal_repl-1.1 ga 0"; sort -u athfhocail earraidi gaelu) > repl
 	cp -f repl $(HOME)/.aspell.ga.prepl
-	cp -f pearsanta $(HOME)/.aspell.ga.pws
+#	(echo "personal_ws-1.1 ga 0"; sort -u $(PERSONAL)) > pearsanta
+#	cp -f pearsanta $(HOME)/.aspell.ga.pws
 #	rm -f $(HOME)/.aspell.ga.rpl
 #	cat athfhocail | $(ASPELL) --lang=ga create repl $(HOME)/.aspell.ga.rpl
 #	rm -f $(HOME)/.aspell.ga.per
@@ -249,9 +250,10 @@ dist: FORCE
 
 ga_IE.dic: $(RAWWORDS)
 	rm -f ga_IE.dic
-	cat $(RAWWORDS) | wc -l | tr -d " " > tempcount
-	cat tempcount $(RAWWORDS) > ga_IE.dic
-	rm -f tempcount
+	$(GOODSORT) $(RAWWORDS) $(PERSONAL) > tempfile
+	cat tempfile | wc -l | tr -d " " > tempcount
+	cat tempcount tempfile > ga_IE.dic
+	rm -f tempfile tempcount
 
 ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
 	cat myspell-header hunspell-header > myspelltemp.txt
@@ -286,13 +288,14 @@ ga.cwl: aspell.txt
 ASPELLDEV = ${HOME}/gaeilge/gramadoir/ga/aspell
 
 adist: aspell.txt apersonal ChangeLog
-	chmod 644 aspell.txt README README.aspell gaeilge_phonet.dat info pearsanta repl gaeilge.dat
+	sort -u aspell.txt $(PERSONAL) > a.tmp
+	mv a.tmp aspell.txt
+	chmod 644 aspell.txt README README.aspell gaeilge_phonet.dat info repl gaeilge.dat
 	cp -f README $(ASPELLDEV)/Copyright
 	cp -f README.aspell $(ASPELLDEV)/doc/README
 	cp -f gaeilge_phonet.dat $(ASPELLDEV)/ga_phonet.dat
 	cp -f aspell.txt $(ASPELLDEV)
 	cp -f info $(ASPELLDEV)
-	cp -f pearsanta $(ASPELLDEV)/doc
 	cp -f repl $(ASPELLDEV)/doc
 	cp -f ChangeLog $(ASPELLDEV)/doc
 	cp -f gaeilge.dat $(ASPELLDEV)/ga.dat

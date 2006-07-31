@@ -10,7 +10,7 @@ MAKE=/usr/bin/make
 PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt stair.txt
 
 #   Shouldn't have to change anything below here
-RELEASE=4.0
+RELEASE=4.1
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor
@@ -18,10 +18,7 @@ AFFIXFILE= gaeilge.aff
 ALTAFFIXFILE=gaeilgemor.aff
 INSTALL_DATA=$(INSTALL) -m 444
 
-# N.B. ispell "buildhash" only works if the raw word lists are sorted with 
-# "sort -f"; GNU sort doesn't collate the "/"'s correctly so you'll need
-# to check the output of "$(GOODSORT) gaeilge.raw gaeilge.lit" for example
-GOODSORT=isort
+SORT=/usr/bin/sort
 
 hashtable: $(INSTALLATION).hash
 
@@ -31,12 +28,12 @@ gaeilge.hash: $(RAWWORDS) $(AFFIXFILE)
 	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
 
 gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff
-	$(GOODSORT) $(RAWWORDS) $(LITWORDS) > gaeilge.focail
+	$(SORT) $(RAWWORDS) $(LITWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail gaeilgelit.aff gaeilgelit.hash
 	rm -f gaeilge.focail
 
 gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE)
-	$(GOODSORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) > gaeilge.focail
+	$(SORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
@@ -108,6 +105,10 @@ athfromdb : FORCE
 	LC_COLLATE=POSIX sort -u athfhocail | LC_COLLATE=ga_IE sort -k1,1 > tempfile
 	mv -f tempfile athfhocail
 
+# GNU sort ignores "/" so words don't come out in correct alphabetical
+# order, which is desirable for readability and clean CVS logs
+GOODSORT=isort
+
 sort: FORCE
 	$(GOODSORT) $(RAWWORDS) > tempfile
 	mv tempfile $(RAWWORDS)
@@ -143,12 +144,6 @@ sortpersonal: FORCE
 	mv tempfile earraidi
 	sort -f uimhreacha > tempfile
 	mv tempfile uimhreacha
-
-personalcheck: $(PERSONAL)
-	rm -f $(HOME)/.ispell_$(INSTALLATION)_check $(HOME)/.biobla
-	sort -u $(PERSONAL) > $(HOME)/.ispell_$(INSTALLATION)_check
-	sort -u biobla > $(HOME)/.biobla
-
 
 stair.txt : stair
 	sed 's/^[^:]*://' stair | sort -u > stair.txt

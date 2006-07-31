@@ -75,13 +75,13 @@ distclean:
 #############################################################################
 
 APPNAME=ispell-gaeilge-$(RELEASE)
-MYAPPNAME=myspell-gaeilge-$(RELEASE)
+MYAPPNAME=hunspell-gaeilge-$(RELEASE)
 TARFILE=$(APPNAME).tar
 MYTARFILE=$(MYAPPNAME).tar
 CODEDIR=$(HOME)/clar/denartha
 GIN=$(CODEDIR)/Gin
 ASPELL=/usr/bin/aspell
-MYSPELL=/usr/local/bin/myspell
+MYSPELL=/usr/local/bin/hunspell
 
 gaeilgehyph.hash: gaeilge.hyp gaeilgehyph.aff
 	$(ISPELLBIN)/buildhash gaeilge.hyp gaeilgehyph.aff gaeilgehyph.hash
@@ -258,14 +258,16 @@ ga_IE.dic: $(RAWWORDS)
 	cat tempcount $(RAWWORDS) > ga_IE.dic
 	rm -f tempcount
 
-ga_IE.aff: $(AFFIXFILE)
-	ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspell-header | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > ga_IE.aff
+ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
+	cat myspell-header hunspell-header > myspelltemp.txt
+	ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspelltemp.txt | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > ga_IE.aff
+	rm -f myspelltemp.txt
 
 mycheck: ga_IE.dic aspell.txt ga_IE.aff
-	- $(MYSPELL) ga_IE.aff ga_IE.dic aspell.txt | egrep 'incorrect'
+	cat aspell.txt | $(MYSPELL) -l -d ./ga_IE
 
 README_ga_IE.txt: README COPYING
-	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of myspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
+	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of hunspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 
 mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff
 	chmod 644 ga_IE.dic ga_IE.aff README_ga_IE.txt

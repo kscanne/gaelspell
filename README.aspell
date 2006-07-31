@@ -4,21 +4,26 @@ personal replacement dictionary, for instance as
 
 ${HOME}/.aspell.ga.prepl
 
-For now it only contains correctly-spelled but pre-standard
-or dialect word forms and their replacements in the
-Caighdeán Oifigiúil.  Contributions to this list are 
-greatly appreciated.
+It currently contains: 
+(1) correctly-spelled but pre-standard or dialect word forms and
+their replacements in the Caighdeán Oifigiúil (e.g. badhbhdhún->bábhún)
+(2) common mispellings and their replacements, gathered from
+a large corpus of texts gathered from the web (e.g. ionnanas->ionannas)
+(3) anglicised (or other non-Irish) placenames together
+with their Irish forms (Antwerp->Antuairp, Euripides->Eoiripidéas)
 
+Contributions to this file would be greatly appreciated.
 
-   The file "pearsanta" is a large list of proper names.
-It includes Gaelicized spellings of many names of historical
-and mythological figures, placenames, etc.  It also contains
-many common non-Irish first and last names as well as some
-acronyms.  It can be used as your initial personal dictionary
-by copying to:
+In versions 4.0 and earlier, common placenames and personal names
+(Irish or otherwise) were included in the "pearsanta" file in this
+directory.  This file was intended to be used as a personal
+dictionary by copying to:
 
 ${HOME}/.aspell.ga.pws
 
+As of version 4.1, these words have been included in the
+main aspell dictionary.  
+
 - Kevin Scannell
 <scannell@slu.edu>
-Saint Louis, March 2004
+Saint Louis, July 2006

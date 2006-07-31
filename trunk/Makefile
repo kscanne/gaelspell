@@ -25,17 +25,17 @@ hashtable: $(INSTALLATION).hash
 all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash
 
 gaeilge.hash: $(RAWWORDS) $(AFFIXFILE) $(PERSONAL)
-	$(SORT) $(RAWWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > gaeilge.focail
-	$(ISPELLBIN)/buildhash $(RAWWORDS) $(AFFIXFILE) gaeilge.hash
-	rm -f gaeilge.focail
+	$(SORT) $(RAWWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" > gaeilge.focail
+	$(ISPELLBIN)/buildhash gaeilge.focail $(AFFIXFILE) gaeilge.hash
+#	rm -f gaeilge.focail
 
 gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff $(PERSONAL)
-	$(SORT) $(RAWWORDS) $(LITWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > gaeilge.focail
+	$(SORT) $(RAWWORDS) $(LITWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail gaeilgelit.aff gaeilgelit.hash
 	rm -f gaeilge.focail
 
 gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE) $(PERSONAL)
-	$(SORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" > gaeilge.focail
+	$(SORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" > gaeilge.focail
 	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
 	rm -f gaeilge.focail
 
@@ -153,7 +153,10 @@ miotas.txt : miotas
 	sed 's/^[^:]*://' miotas | sort -u > miotas.txt
 
 checkearr: FORCE
+	$(MAKE) gaelu
 	sed 's/^[^ ]* //' earraidi | ispell -dgaeilge -l
+	sed 's/^[^ ]* //' athfhocail | ispell -dgaeilgelit -l
+	sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | ispell -dgaeilge -l
 
 gaelu: gaelu.in
 	bash buildgael > gaelu

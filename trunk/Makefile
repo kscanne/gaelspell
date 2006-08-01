@@ -292,13 +292,12 @@ ga.cwl: aspell.txt
 ASPELLDEV = ${HOME}/gaeilge/gramadoir/ga/aspell
 
 adist: aspell.txt apersonal ChangeLog
-	sort -u aspell.txt $(PERSONAL) > a.tmp
-	mv a.tmp aspell.txt
-	chmod 644 aspell.txt README README.aspell gaeilge_phonet.dat info repl gaeilge.dat
+	LC_ALL=C sort -u aspell.txt $(PERSONAL) > a.tmp
+	chmod 644 a.tmp README README.aspell gaeilge_phonet.dat info repl gaeilge.dat
 	cp -f README $(ASPELLDEV)/Copyright
 	cp -f README.aspell $(ASPELLDEV)/doc/README
 	cp -f gaeilge_phonet.dat $(ASPELLDEV)/ga_phonet.dat
-	cp -f aspell.txt $(ASPELLDEV)
+	cp -f a.tmp $(ASPELLDEV)/aspell.txt
 	cp -f info $(ASPELLDEV)
 	cp -f repl $(ASPELLDEV)/doc
 	cp -f ChangeLog $(ASPELLDEV)/doc
@@ -308,6 +307,7 @@ adist: aspell.txt apersonal ChangeLog
 	sed -i '/^mode aspell5/d' $(ASPELLDEV)/info
 	aspellproc ga
 	mv ${ASPELLDEV}/*.bz2 .
+	rm -f a.tmp
 
 ChangeLog : FORCE
 	cvs2cl --FSF

@@ -1,0 +1,29 @@
+
+   The file "repl" in this directory can be installed as a 
+personal replacement dictionary, for instance as
+
+${HOME}/.aspell.ga.prepl
+
+It currently contains: 
+(1) correctly-spelled but pre-standard or dialect word forms and
+their replacements in the Caighdeán Oifigiúil (e.g. badhbhdhún->bábhún)
+(2) common mispellings and their replacements, gathered from
+a large corpus of texts gathered from the web (e.g. ionnanas->ionannas)
+(3) anglicised (or other non-Irish) placenames together
+with their Irish forms (Antwerp->Antuairp, Euripides->Eoiripidéas)
+
+Contributions to this file would be greatly appreciated.
+
+In versions 4.0 and earlier, common placenames and personal names
+(Irish or otherwise) were included in the "pearsanta" file in this
+directory.  This file was intended to be used as a personal
+dictionary by copying to:
+
+${HOME}/.aspell.ga.pws
+
+As of version 4.1, these words have been included in the
+main aspell dictionary.  
+
+- Kevin Scannell
+<scannell@slu.edu>
+Saint Louis, July 2006

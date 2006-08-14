@@ -270,9 +270,23 @@ mycheck: ga_IE.dic aspell.txt ga_IE.aff
 README_ga_IE.txt: README COPYING
 	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of hunspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 
-mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff
+mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
+	rm -f thes.txt hyph_ga_IE.zip ga_IE.zip
+	rm -Rf dictionaries
 	chmod 644 ga_IE.dic ga_IE.aff README_ga_IE.txt
 	zip ga_IE ga_IE.dic ga_IE.aff README_ga_IE.txt
+	chmod 644 ga_IE.zip
+	echo 'ga,IE,hyph_ga_IE,Irish (Ireland),hyph_ga_IE.zip' > hyph.txt
+	echo 'ga,IE,ga_IE,Irish (Ireland),ga_IE.zip' > spell.txt
+	touch thes.txt
+	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/hyph_ga_IE.zip
+	zip ga_IE-pack ga_IE.zip hyph.txt hyph_ga_IE.zip spell.txt thes.txt
+	mkdir dictionaries
+	cp ga_IE.dic dictionaries
+	cp ga_IE.aff dictionaries
+	cp README_ga_IE.txt dictionaries
+	zip -r ga-IE-dictionary.xpi dictionaries install.rdf install.js
+	rm -Rf dictionaries
 
 mytardist: ga_IE.dic ChangeLog
 	cp README README.txt

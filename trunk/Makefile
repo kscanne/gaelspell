@@ -7,7 +7,7 @@ ISPELLBIN=/usr/bin
 INSTALL=/usr/bin/install
 SHELL=/bin/sh
 MAKE=/usr/bin/make
-PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt stair.txt
+PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt
 
 #   Shouldn't have to change anything below here
 RELEASE=4.1
@@ -93,7 +93,7 @@ gaeilgemor.diff:
 # from backend database
 veryclean:
 	$(MAKE) distclean
-	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt README_ga_IE.txt ChangeLog
+	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt romhanach README_ga_IE.txt ChangeLog
 
 # flip BH for historical compat, clean CVS
 fromdb : FORCE
@@ -148,10 +148,13 @@ sortpersonal: FORCE
 	mv tempfile uimhreacha
 
 stair.txt : stair
-	sed 's/^[^:]*://' stair | sort -u > stair.txt
+	sed 's/^[^:]*://' stair | sort -u > $@
 
 miotas.txt : miotas
-	sed 's/^[^:]*://' miotas | sort -u > miotas.txt
+	sed 's/^[^:]*://' miotas | sort -u > $@
+
+romhanach : roman.pl
+	perl roman.pl > $@
 
 checkearr: FORCE
 	$(MAKE) gaelu
@@ -223,9 +226,9 @@ installweb: FORCE
 	$(INSTALL_DATA) sios.html $(HOME)/public_html/ispell
 
 dist: FORCE
-	$(MAKE) ChangeLog stair.txt miotas.txt giorr
+	$(MAKE) ChangeLog stair.txt miotas.txt romhanach giorr
 	sed '/development only/,$$d' ./Makefile > makefile
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla daoine eachtar gall giorr gno logainm miotas.txt stair.txt makefile
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt makefile
 	chmod 755 igcheck
 	ln -s ispell-gaeilge ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -247,6 +250,7 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/igcheck
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/logainm
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/miotas.txt
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/romhanach
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/stair.txt
 	gzip $(TARFILE)
 	rm -f ../$(APPNAME)

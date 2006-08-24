@@ -24,6 +24,8 @@ aithní/B
 aithnigh
 albanach/HMDBUT
 albanaigh/HMDBU
+ama/HMDBUT
+amaí/HMDBU
 ana/HMDBUT
 anaí/HMDBU
 annáil/HMDBU
@@ -119,8 +121,6 @@ caib/US
 caibe/US
 caibeanna/US
 caileanda/S
-caimse/US
-caimsí/US
 cana/US
 canach/US
 canaí/US
@@ -132,6 +132,8 @@ cánálaim/USI
 car/US
 caraim/USA
 cartha/S
+cartlainn/US
+cartlainne/US
 casach/US
 casacha/US
 casaí/US
@@ -187,6 +189,9 @@ Coimdhe/S
 Coimdheadh/S
 coinneamh/US
 coinnmhe/US
+colainne/US
+colann/US
+colannacha/US
 comhluí/US
 comhluigh/US
 comhluím/USA
@@ -398,6 +403,8 @@ easca/HMDBU
 eascaí/HMDBU
 éigne/HMDBUT
 éigní/HMDBU
+eineach/HMDBUT
+einigh/HMDU
 eis/HU
 eise/U
 eiseadh/HUBMDT
@@ -522,6 +529,8 @@ iachtaigí/HU
 iachtaim/UA
 iachtainn/E
 iachtar/HU
+iar
+iaramh
 ifín/HMDBUT
 ifíní/HMDBU
 ilíocht/HMDBU
@@ -534,6 +543,7 @@ iochta/HMDU
 íomháphróiseáil/HMDBU
 íomháphróiseála/HMDU
 iomorra
+ionchaibh/HMDBU
 ionglais/HMDBU
 ionglaise/HMDU
 ionglaisí/HMDBU
@@ -693,7 +703,6 @@ riaghadh
 riaghaim/A
 riaghainn/E
 riaghtha
-ríghe
 rionn
 rionna
 rionnadh
@@ -748,6 +757,7 @@ seachainn
 seachainne
 seacham
 seachamsa
+seala/ST
 sealg/ST
 sealga/S
 seanadh/S
@@ -795,6 +805,8 @@ síúil/S
 síúla/S
 slád/S
 sláid/ST
+sleith/ST
+sleithe/S
 snaománach/S
 snaománacha/S
 snaománaí/S
@@ -965,6 +977,7 @@ uídh/HMDBU
 uidhe/HMDBUT
 uídhe/HMDU
 uidheadha/HMDBU
+ullastráth
 ur/HMDBUT
 úr/HMDBUT
 ura/HMDBU

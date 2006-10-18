@@ -1,4 +1,4 @@
-var err = initInstall("Litreoir GaelSpell do Mhozilla", "ga-IE@dictionaries.addons.mozilla.org", "4.1");
+var err = initInstall("Litreoir GaelSpell do Mhozilla", "ga-IE@dictionaries.addons.mozilla.org", "4.1.1");
 if (err != SUCCESS)
     cancelInstall();
 

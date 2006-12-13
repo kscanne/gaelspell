@@ -43,9 +43,9 @@ $(ALTAFFIXFILE): $(AFFIXFILE) gaeilgemor.diff
 	patch -o gaeilgemor.aff gaeilge.aff < gaeilgemor.diff
 
 personal: biobla $(PERSONAL)
-	sort -u $(PERSONAL) > ./personal
+	LC_ALL=ga_IE sort -u $(PERSONAL) > ./personal
 	rm -f $(HOME)/.ispell_$(INSTALLATION)
-	sort -u biobla > $(HOME)/.ispell_$(INSTALLATION)
+	LC_ALL=ga_IE sort -u biobla > $(HOME)/.ispell_$(INSTALLATION)
 
 gaeilgelit.aff: $(AFFIXFILE)
 	cp $(AFFIXFILE) gaeilgelit.aff
@@ -104,7 +104,7 @@ fromdb : FORCE
 
 athfromdb : FORCE
 	$(GIN) 10
-	LC_COLLATE=POSIX sort -u athfhocail | LC_COLLATE=ga_IE sort -k1,1 > tempfile
+	LC_ALL=POSIX sort -u athfhocail | LC_ALL=ga_IE sort -k1,1 > tempfile
 	mv -f tempfile athfhocail
 
 # GNU sort ignores "/" so words don't come out in correct alphabetical
@@ -120,31 +120,31 @@ sort: FORCE
 	mv tempfile $(ALTWORDS)
 
 giorr : giorr.in
-	cat giorr.in | sed 's/ .*//' | sort -f > $@
+	cat giorr.in | LC_ALL=C sed 's/ .*//' | LC_ALL=ga_IE sort -f > $@
 
 # giorr done above
 sortpersonal: FORCE
-	sort -f aitiuil > tempfile
+	LC_ALL=ga_IE sort -f aitiuil > tempfile
 	mv tempfile aitiuil
-	sort -f daoine > tempfile
+	LC_ALL=ga_IE sort -f daoine > tempfile
 	mv tempfile daoine
-	sort -f eachtar > tempfile
+	LC_ALL=ga_IE sort -f eachtar > tempfile
 	mv tempfile eachtar
-	sort -f gall > tempfile
+	LC_ALL=ga_IE sort -f gall > tempfile
 	mv tempfile gall
-	sort -f gno > tempfile
+	LC_ALL=ga_IE sort -f gno > tempfile
 	mv tempfile gno
-	sort -f logainm > tempfile
+	LC_ALL=ga_IE sort -f logainm > tempfile
 	mv tempfile logainm
-	sort -f miotas > tempfile
+	LC_ALL=ga_IE sort -f miotas > tempfile
 	mv tempfile miotas
-	sort -f stair > tempfile
+	LC_ALL=ga_IE sort -f stair > tempfile
 	mv tempfile stair
-	sort -f gaelu.in > tempfile
+	LC_ALL=ga_IE sort -f gaelu.in > tempfile
 	mv tempfile gaelu.in
-	sort -f earraidi > tempfile
+	LC_ALL=ga_IE sort -f earraidi > tempfile
 	mv tempfile earraidi
-	sort -f uimhreacha > tempfile
+	LC_ALL=ga_IE sort -f uimhreacha > tempfile
 	mv tempfile uimhreacha
 
 stair.txt : stair
@@ -163,7 +163,7 @@ checkearr: FORCE
 	sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | ispell -dgaeilge -l
 
 gaelu: gaelu.in
-	bash buildgael > gaelu
+	LC_ALL=ga_IE bash buildgael > gaelu
 
 count: aspell.txt
 	cat aspell.txt | wc -l
@@ -200,17 +200,17 @@ altfull: gaeilgemor.hash
 	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 > gaeilgemor.full
 
 aspell.txt: gaeilge.hash
-	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspell.txt
+	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 | tr " " "\n" | egrep -v '\/' | LC_ALL=ga_IE sort -u > aspell.txt
 
 aspelllit.txt: gaeilgelit.hash
-	cat $(RAWWORDS) $(LITWORDS) | $(ISPELLBIN)/ispell -d./gaeilgelit -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspelllit.txt
+	cat $(RAWWORDS) $(LITWORDS) | $(ISPELLBIN)/ispell -d./gaeilgelit -e3 | tr " " "\n" | egrep -v '\/' | LC_ALL=ga_IE sort -u > aspelllit.txt
 
 aspellalt.txt: gaeilgemor.hash
-	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
+	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | tr " " "\n" | egrep -v '\/' | LC_ALL=ga_IE sort -u > aspellalt.txt
 
 # these aspell function are unimplemented according to K.A. 7/2/03
 apersonal: $(PERSONAL) giorr
-	(echo "personal_repl-1.1 ga 0"; sort -u athfhocail earraidi gaelu) > repl
+	(echo "personal_repl-1.1 ga 0"; LC_ALL=ga_IE sort -u athfhocail earraidi gaelu) > repl
 	cp -f repl $(HOME)/.aspell.ga.prepl
 #	(echo "personal_ws-1.1 ga 0"; sort -u $(PERSONAL)) > pearsanta
 #	cp -f pearsanta $(HOME)/.aspell.ga.pws

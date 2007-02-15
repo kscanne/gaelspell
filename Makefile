@@ -109,7 +109,7 @@ athfromdb : FORCE
 
 # GNU sort ignores "/" so words don't come out in correct alphabetical
 # order, which is desirable for readability and clean CVS logs
-GOODSORT=isort
+GOODSORT=bash ./isort
 
 sort: FORCE
 	$(GOODSORT) $(RAWWORDS) > tempfile
@@ -158,9 +158,9 @@ romhanach : roman.pl
 
 checkearr: FORCE
 	$(MAKE) gaelu
-	sed 's/^[^ ]* //' earraidi | ispell -dgaeilge -l
-	sed 's/^[^ ]* //' athfhocail | ispell -dgaeilgelit -l
-	sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | ispell -dgaeilge -l
+	LC_ALL=C sed 's/^[^ ]* //' earraidi | LC_ALL=C ispell -dgaeilge -l
+	LC_ALL=C sed 's/^[^ ]* //' athfhocail | LC_ALL=C ispell -dgaeilgelit -l
+	LC_ALL=C sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | LC_ALL=C ispell -dgaeilge -l
 
 gaelu: gaelu.in
 	LC_ALL=ga_IE bash buildgael > gaelu

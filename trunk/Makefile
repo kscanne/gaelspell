@@ -104,7 +104,7 @@ fromdb : FORCE
 
 athfromdb : FORCE
 	$(GIN) 10
-	LC_ALL=POSIX sort -u athfhocail | LC_ALL=ga_IE sort -k1,1 > tempfile
+	LC_ALL=C sort -u athfhocail | LC_ALL=C sort -k1,1 > tempfile
 	mv -f tempfile athfhocail
 
 # GNU sort ignores "/" so words don't come out in correct alphabetical
@@ -124,34 +124,34 @@ giorr : giorr.in
 
 # giorr done above
 sortpersonal: FORCE
-	LC_ALL=ga_IE sort -f aitiuil > tempfile
+	LC_ALL=C sort -f aitiuil > tempfile
 	mv tempfile aitiuil
-	LC_ALL=ga_IE sort -f daoine > tempfile
+	LC_ALL=C sort -f daoine > tempfile
 	mv tempfile daoine
-	LC_ALL=ga_IE sort -f eachtar > tempfile
+	LC_ALL=C sort -f eachtar > tempfile
 	mv tempfile eachtar
-	LC_ALL=ga_IE sort -f gall > tempfile
+	LC_ALL=C sort -f gall > tempfile
 	mv tempfile gall
-	LC_ALL=ga_IE sort -f gno > tempfile
+	LC_ALL=C sort -f gno > tempfile
 	mv tempfile gno
-	LC_ALL=ga_IE sort -f logainm > tempfile
+	LC_ALL=C sort -f logainm > tempfile
 	mv tempfile logainm
-	LC_ALL=ga_IE sort -f miotas > tempfile
+	LC_ALL=C sort -f miotas > tempfile
 	mv tempfile miotas
-	LC_ALL=ga_IE sort -f stair > tempfile
+	LC_ALL=C sort -f stair > tempfile
 	mv tempfile stair
-	LC_ALL=ga_IE sort -f gaelu.in > tempfile
+	LC_ALL=C sort -f gaelu.in > tempfile
 	mv tempfile gaelu.in
-	LC_ALL=ga_IE sort -f earraidi > tempfile
+	LC_ALL=C sort -f earraidi > tempfile
 	mv tempfile earraidi
-	LC_ALL=ga_IE sort -f uimhreacha > tempfile
+	LC_ALL=C sort -f uimhreacha > tempfile
 	mv tempfile uimhreacha
 
 stair.txt : stair
-	sed 's/^[^:]*://' stair | sort -u > $@
+	sed 's/^[^:]*://' stair | LC_ALL=ga_IE sort -u > $@
 
 miotas.txt : miotas
-	sed 's/^[^:]*://' miotas | sort -u > $@
+	sed 's/^[^:]*://' miotas | LC_ALL=ga_IE sort -u > $@
 
 romhanach : roman.pl
 	perl roman.pl > $@
@@ -343,7 +343,7 @@ seiceail: FORCE
 	@$(GIN) 8   # creates local EN.temp, IG.temp
 #	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort -u | egrep -v \' > EN.temp2
 #	@diff -w EN.temp2 ../bearla/Missp | egrep "<" > EN.missp
-	@cat IG.temp | tr " " "\n" | sort -u > IG.temp2
+	@cat IG.temp | tr " " "\n" | LC_ALL=ga_IE sort -u > IG.temp2
 	@diff -w aspelllit.txt IG.temp2 | egrep '^[<>]' | egrep -v '^> [A-ZÁÉÍÓÚ]' > IG.missp
 	@egrep '^>' IG.missp | sed 's/^> //' > IG2.txt
 	@cat IG2.txt | gram-ga.pl --aschod=iso-8859-1 --litriu > IG2.mis

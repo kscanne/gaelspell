@@ -156,6 +156,12 @@ miotas.txt : miotas
 romhanach : roman.pl
 	perl roman.pl > $@
 
+accents.txt : aspell.txt
+	cat aspell.txt | iconv -f iso-8859-1 -t utf8 > aspell8.txt
+	comh.pl -a aspell8.txt | sed 's/: / /' > accents-a.txt
+	counts.pl /usr/local/share/crubadan/ga/FREQ accents-a.txt | perl -p -e '/([^ ]+) ([0-9]+) ([^ ]+) ([0-9]+)$$/; if ($$2 == 0) {$$ans='INF';} else {$$ans=$$4/$$2;} s/^/$$ans /;' | sort -k1,1 -n -r -k5,5 -n -r > $@
+	rm -f aspell8.txt accents-a.txt
+
 checkearr: FORCE
 	$(MAKE) gaelu
 	LC_ALL=C sed 's/^[^ ]* //' earraidi | LC_ALL=C ispell -dgaeilge -l

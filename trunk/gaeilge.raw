@@ -484,11 +484,11 @@ adóibe/HMDU
 ae/HMDBUT
 aedíleach/HMDBUT
 aedíligh/HMDBU
-Aegéach
-Aegéacha
-Aegéiche
-Aegéigh
-Aegígh
+Aeigéach
+Aeigéacha
+Aeigéiche
+Aeigéigh
+Aeigígh
 aeir/HMDBU
 aeistéit/HMDBU
 aeistéite/HMDU
@@ -845,6 +845,7 @@ aibhéisigh
 aibhéisí/HBMDU
 aibigh/HU
 Aibisín
+Aibisíne
 Aibisíneach
 Aibisíneacha
 Aibisínigh
@@ -1114,6 +1115,9 @@ ailceimice/HMDU
 ailceimiceoir/HMDBUT
 ailceimiceoirí/HMDBU
 ailceimiceora/HMDU
+ailcín/HMDBU
+ailcíne/HMDU
+ailcíní/HMDBU
 aileacó/HMDBUT
 ailearáin/HMDBU
 ailearán/HMDBUT
@@ -3646,6 +3650,10 @@ apaihéilean/HMDBUT
 apaihéilin/HMDBU
 apaipléis/HMDBU
 apaipléise/HMDU
+Apaláiseach
+Apaláiseacha
+Apaláisigh
+Apaláisí
 apasaim/HMDBU
 apasam/HMDBUT
 apastróf/HMDBU
@@ -4875,9 +4883,18 @@ athiarracht/HMDBU
 athiarrachta/HMDU
 athimeartha/HMDU
 athimirt/HMDBU
+athinis/HU
 athinsint/HMDBU
 athinsinte/HMDU
 athinsintí/HMDBU
+athinste/HB
+athinsí/U
+athinsídís/HU
+athinsígí/HU
+athinsím/UC
+athinsínn/F
+athinsíodh/HU
+athinsítear/HU
 athintinn/HMDBU
 athintinne/HMDU
 athiompaithe/HMDU
@@ -5398,10 +5415,10 @@ b'Achtanna
 b'Acáidis
 b'Acáinis
 b'Adhmarais
-b'Aegéach
-b'Aegéacha
-b'Aegéiche
-b'Aegéigh
+b'Aeigéach
+b'Aeigéacha
+b'Aeigéiche
+b'Aeigéigh
 b'Aeniad
 b'Aetóil
 b'Aetóip
@@ -5632,6 +5649,9 @@ b'Aontachtaí
 b'Aontas
 b'Aontroim
 b'Aosdána
+b'Apaláiseach
+b'Apaláiseacha
+b'Apaláisí
 b'Apáis
 b'Apáiseach
 b'Apáiseacha
@@ -5718,6 +5738,7 @@ b'Eabhraí
 b'Eabhraíche
 b'Eabhraíoch
 b'Eabhraíocha
+b'Eabró
 b'Eacuadór
 b'Eacuadórach
 b'Eacuadóracha
@@ -5956,6 +5977,7 @@ b'Iodálach
 b'Iodálacha
 b'Iodálaigh
 b'Iodálaí
+b'Iodúimé
 b'Iolar
 b'Iompróir
 b'Ionad
@@ -6148,7 +6170,6 @@ b'Áivé
 b'Árainn
 b'Árannach
 b'Árannaigh
-b'Éabró
 b'Éadóis
 b'Éatrúscach
 b'Éatrúscacha
@@ -6263,6 +6284,7 @@ babhtála/US
 babhtálaim/USI
 Bablóin/S
 Bablóine/S
+Bablóinia/S
 Bablóinis/S
 Bablóinise/S
 Bablónach/S
@@ -6434,7 +6456,7 @@ bailchríocha/US
 bailcimín/US
 bailcimíní/US
 Baile/S
-baile/US
+baile/SU
 baileabhair/US
 baileach/S
 baileacha/S
@@ -6938,6 +6960,9 @@ baothán/US
 baothánta/S
 baothántacht/US
 baothántachta/US
+baothóg/US
+baothóga/US
+baothóige/US
 bar/US
 bara/US
 baracáid/US
@@ -7030,6 +7055,8 @@ barraíl/US
 barraíocht/US
 barraíochta/US
 barraíola/US
+barrbhanda/US
+barrbhandaí/US
 barrchaite/S
 barrchaolaigh/US
 barrchaolaithe/SU
@@ -7044,6 +7071,8 @@ barrchonlaigh/US
 barrchéim/US
 barrchéime/US
 barrchéimeanna/US
+barrchúrsa/US
+barrchúrsaí/US
 barrdhó/US
 barrdhóigh/US
 barrdhóim/USA
@@ -7787,6 +7816,7 @@ bhFreaslainnis
 bhFreaslainnise
 bhFreaslannach
 bhFreaslannaigh
+bhFrigia
 bhFritíortha
 bhFriúilis
 bhFriúilise
@@ -8283,6 +8313,10 @@ bithlonracht/US
 bithlonrachta/US
 bithlonraigh/S
 bithlonraí/S
+bithnaimhdeach/S
+bithnaimhdeacha/S
+bithnaimhdigh/S
+bithnaimhdí/S
 bithnimh/US
 bithnimhe/US
 bithnimheanna/US
@@ -8302,6 +8336,8 @@ bitseachas/US
 bitseáil/US
 bitseála/US
 bitsí/US
+Bitín/S
+Bitíne/S
 biáid/US
 biáide/US
 biáin/US
@@ -9255,6 +9291,8 @@ bPioraes
 bPiréineach
 bPiréinigh
 bPiréiní
+bPisid
+bPiside
 bPiúratánach
 bPiúratánaigh
 bPlandáil
@@ -12166,6 +12204,8 @@ cairíní/US
 cais/SU
 caiscín/US
 caise/SU
+caiseach/S
+caiseacha/S
 caiseal/US
 caisealta/S
 caisealóid/US
@@ -12175,6 +12215,7 @@ caisearbháin/US
 caisearbhán/US
 Caiseoipé/S
 caisia/US
+caisigh/S
 caisil/US
 caisirnín/US
 caisirníní/US
@@ -12229,7 +12270,7 @@ caistín/US
 caistíní/US
 caiséad/US
 caiséid/US
-caisí/US
+caisí/SU
 caisíneach/US
 caisíní/US
 cait/US
@@ -12785,6 +12826,8 @@ caolagróireachta/US
 caolagróirí/US
 caolagróra/US
 caolaigeanta/S
+caolaigeantacht/US
+caolaigeantachta/US
 caolaigh/US
 Caolais/S
 caolais/US
@@ -12884,6 +12927,8 @@ caoróg/US
 caoróga/US
 caoróige/US
 capa/US
+Capadóic/S
+Capadóice/S
 capaill/US
 capaillín/US
 capaillíní/US
@@ -14041,6 +14086,8 @@ ceobhráin/US
 ceobhrán/US
 ceobhránach/S
 ceobhránacha/S
+ceobhránacht/US
+ceobhránachta/US
 ceobhránaigh/S
 ceobhránaí/S
 ceobháisteach/US
@@ -15805,6 +15852,8 @@ cliathaigh/S
 cliathaí/SU
 cliathbhosca/US
 cliathbhoscaí/US
+cliathmharcach/US
+cliathmharcaigh/US
 cliathreathaithe/US
 cliathreathaí/US
 cliathreathaíocht/US
@@ -15819,6 +15868,9 @@ cliathánacha/S
 cliathánaigh/S
 cliathánaithe/US
 cliathánaí/SU
+cliathóir/US
+cliathóirí/US
+cliathóra/US
 clib/US
 clibe/US
 clibeanna/US
@@ -16108,6 +16160,9 @@ clábarach/S
 clábaracha/S
 clábaraigh/S
 clábaraí/S
+cláideach/US
+cláideacha/US
+cláidí/US
 Cláir/S
 cláir/US
 cláirnéid/US
@@ -18690,6 +18745,8 @@ corcála/US
 corcálaim/USI
 corcán/US
 corda/US
+Cordastáin/S
+Cordastáine/S
 cordaí/US
 Corfú/S
 Corn/S
@@ -18870,9 +18927,11 @@ corruaire/US
 corruimhir/US
 corruimhreach/US
 corruimhreacha/US
+Corráin/S
 corráin/US
 corráinín/US
 corráiníní/US
+Corrán/S
 corrán/US
 corránach/SU
 corránacha/S
@@ -19805,6 +19864,10 @@ cruacheiste/US
 cruacheisteanna/US
 cruachlúdach/US
 cruachlúdaigh/US
+cruachraicneach/S
+cruachraicneacha/S
+cruachraicnigh/S
+cruachraicní/S
 cruachroíche/S
 cruachroíoch/S
 cruachroíocha/S
@@ -20447,6 +20510,8 @@ Cugasaí/S
 cuibheas/US
 cuibheasach/S
 cuibheasacha/S
+cuibheasacht/US
+cuibheasachta/US
 cuibheasaigh/S
 cuibheasaí/S
 cuibheoir/US
@@ -20891,8 +20956,6 @@ curcaí/SU
 curchaise/US
 curchas/US
 curchasa/US
-Curdastáin/S
-Curdastáine/S
 curfá/US
 curfánna/US
 curiarracht/US
@@ -22223,8 +22286,8 @@ d'adhrainn/U
 d'adhramar/U
 d'admhaigh/U
 d'admhaínn/FU
-d'Aegéach
-d'Aegéigh
+d'Aeigéach
+d'Aeigéigh
 d'Aeniad
 d'aeraigh/U
 d'aeraínn/FU
@@ -22278,6 +22341,7 @@ d'aibhsigh/U
 d'aibhsínn/FU
 d'aibigh/U
 d'Aibisín
+d'Aibisíne
 d'Aibisíneach
 d'Aibisínigh
 d'Aibreáin
@@ -22744,6 +22808,8 @@ d'athghair/U
 d'athghairinn/EU
 d'athghin/U
 d'athghininn/EU
+d'athinis/U
+d'athinsínn/FU
 d'athlas/U
 d'athlasainn/EU
 d'athlonnaigh/U
@@ -22819,6 +22885,7 @@ d'Eabhrach
 d'Eabhraigh
 d'Eabhrais
 d'Eabhraise
+d'Eabró
 d'eachtraigh/U
 d'eachtraínn/FU
 d'Eacuadór
@@ -23452,6 +23519,8 @@ d'idirbheartaigh/U
 d'idirbheartaínn/FU
 d'idirbhris/U
 d'idirbhrisinn/EU
+d'idirchuir/U
+d'idirchuirinn/EU
 d'idirdhealaigh/U
 d'idirdhealaínn/FU
 d'idirdhuilligh/U
@@ -23468,6 +23537,8 @@ d'idirnáisiúntaigh/U
 d'idirnáisiúntaínn/FU
 d'idirscar/U
 d'idirscarainn/EU
+d'idirshuigh/U
+d'idirshuínn/EU
 d'idéalaigh/U
 d'idéalaínn/FU
 d'Imbolc
@@ -23586,6 +23657,8 @@ d'inslínn/FU
 d'insteall/U
 d'insteallainn/EU
 d'insínn/FU
+d'insíothlaigh/U
+d'insíothlaínn/FU
 d'iníor/U
 d'iníorainn/EU
 d'Iocht
@@ -23599,6 +23672,7 @@ d'Iodálach
 d'Iodálaigh
 d'iodálaigh/U
 d'iodálaínn/FU
+d'Iodúimé
 d'Iolair
 d'Iolar
 d'iolraigh/U
@@ -23986,7 +24060,6 @@ d'Árainn
 d'Árann
 d'Árannach
 d'Árannaigh
-d'Éabró
 d'Éadóis
 d'Éadóise
 d'Éatrúscach
@@ -24396,6 +24469,10 @@ damáistí/SU
 damáistím/USC
 danaid/US
 danaide/US
+danaideach/S
+danaideacha/S
+danaidigh/S
+danaidí/S
 Danair/S
 danair/US
 Danar/S
@@ -26265,6 +26342,10 @@ dlúthógacha/S
 dlúthógaigh/S
 dlúthógaí/S
 dlúthú/US
+Dnípir/S
+Dnípire/S
+Dnístir/S
+Dnístire/S
 do
 do-aimsithe/S
 do-airithe/S
@@ -26412,6 +26493,9 @@ dofhaighte/S
 dofheicthe/S
 dofheictheacht/US
 dofheictheachta/US
+dofhuascailte/S
+dofhuascailteacht/US
+dofhuascailteachta/US
 dofhulaingthe/S
 doghluaiste/S
 doghluaisteacht/US
@@ -26422,6 +26506,7 @@ doghrainneach/S
 doghrainneacha/S
 doghrainnigh/S
 doghrainní/S
+doghrinnithe/S
 dogma/US
 dogmach/S
 dogmacha/S
@@ -26550,6 +26635,7 @@ dolaim/USA
 dolaí/US
 doldrama/US
 doleigheasta/S
+doleáite/S
 dollair/US
 dollar/US
 dolmain/US
@@ -26729,6 +26815,8 @@ doruithe/US
 dorád/US
 doráid/US
 doréitithe/S
+doréititheacht/US
+doréititheachta/US
 dorú/US
 dos/US
 dosach/S
@@ -26762,6 +26850,12 @@ dosháraitheacht/US
 dosháraitheachta/US
 doshásta/S
 doshéanta/S
+doshínteach/S
+doshínteacha/S
+doshínteacht/US
+doshínteachta/US
+doshíntigh/S
+doshíntí/S
 dosmachtaithe/S
 dosmálta/S
 dosáin/US
@@ -26769,6 +26863,12 @@ dosán/US
 dothairne/US
 dothomhaiste/S
 dothrasnaithe/S
+dothreáite/S
+dothreáiteacht/US
+dothreáiteachta/US
+dothuaslagtha/S
+dothuaslagthacht/US
+dothuaslagthachta/US
 dothuigthe/S
 dothuirsithe/S
 dothuisceanach/S
@@ -27426,6 +27526,8 @@ dTamaisítis
 dTamaisítise
 dTamalach
 dTamalaigh
+dTangainíc
+dTangainíce
 dTansáin
 dTansáine
 dTansánach
@@ -27484,7 +27586,8 @@ dTiobraide
 dTiomna
 dTionóil
 dTionól
-dTioról
+dTioróil
+dTioróile
 dTiorólach
 dTiorólaigh
 dTobága
@@ -28367,6 +28470,10 @@ dícháiliú/US
 dícháilím/USC
 dícháilíocht/US
 dícháilíochta/US
+díchéadfach/S
+díchéadfacha/S
+díchéadfaigh/S
+díchéadfaí/S
 díchéille/US
 díchéillí/S
 díchódaigh/US
@@ -28994,6 +29101,8 @@ dóighe/US
 dóigheanna/US
 dóighiúil/S
 dóighiúla/S
+dóighiúlacht/US
+dóighiúlachta/US
 dóil/US
 dóim/USA
 dóip/US
@@ -29351,6 +29460,7 @@ Eabhraí
 Eabhraíche
 Eabhraíoch
 Eabhraíocha
+Eabró
 eacaineacht/HMDBU
 eacaineachta/HMDU
 eacaineachtaí/HMDBU
@@ -32678,6 +32788,8 @@ fo-chomhfhiosach/BS
 fo-chomhfhiosacha/BS
 fo-chomhfhiosaigh/S
 fo-chomhfhiosaí/BS
+fo-eachtra/MDBUS
+fo-eachtraí/MDBUS
 fo-ghlac/US
 fo-ghlacadh/USBMD
 fo-ghlacaim/USA
@@ -33087,6 +33199,10 @@ folracht/MDBUS
 folrachta/MDUS
 folt/MDBUS
 folta/SBUMD
+foltach/BS
+foltacha/BS
+foltaigh/S
+foltaí/BS
 foltbhuí/BS
 foltfholcadh/MDBUS
 foltfholctha/MDUS
@@ -33631,6 +33747,9 @@ foscríobhaim/USA
 foscríobhaithe/MDBUS
 foscríobhaí/MDBUS
 foscríofa/BSMDU
+foscéal/MDBUS
+foscéalta/MDBUS
+foscéil/MDUS
 foscúil/BS
 foscúla/BS
 fosfair/MDUS
@@ -33887,6 +34006,7 @@ freasúraí/SU
 freisin
 frigháire/US
 frigháirí/US
+Frigia/S
 frigéad/US
 frigéid/US
 frimhagadh/US
@@ -35151,6 +35271,8 @@ fíormhaithe/BS
 fíorscoth/MDBUS
 fíorscotha/MDUS
 fíortha/BS
+fíorthosach/MDBUS
+fíorthosaigh/MDUS
 fíorthábhachtach/BS
 fíorthábhachtacha/BS
 fíorthábhachtaigh/S
@@ -35931,6 +36053,8 @@ galtán/US
 galágó/US
 galágónna/US
 galáin/US
+Galáit/S
+Galáite/S
 galán/US
 galánta/S
 galántacht/US
@@ -36171,6 +36295,8 @@ garmhac/US
 garmheastacháin/US
 garmheastachán/US
 garmhic/US
+garphósadh/US
+garphósta/US
 garr/US
 garraithe/US
 garraí/US
@@ -36325,6 +36451,8 @@ gCanúiris
 gCanúirise
 gCaolais
 gCaolas
+gCapadóic
+gCapadóice
 gCara
 gCara-Chalpáic
 gCara-Chalpáice
@@ -36510,10 +36638,14 @@ gCorcaigh
 gCorcaí
 gCorcaígh
 gCorcaíoch
+gCordastáin
+gCordastáine
 gCorfú
 gCorn
 gCornach
 gCornaigh
+gCorráin
+gCorrán
 gCorsacach
 gCorsacaigh
 gCorsaic
@@ -36576,8 +36708,6 @@ gCultúrlann
 gCumainn
 gCumann
 gCurasao
-gCurdastáin
-gCurdastáine
 gCuáit
 gCuátach
 gCuátaigh
@@ -38554,6 +38684,9 @@ gnáthchomhalta/US
 gnáthchomhaltaí/US
 gnáthchónaithe/US
 gnáthchónaí/US
+gnáthchúraim/US
+gnáthchúraimí/US
+gnáthchúram/US
 gnáthchúrsa/US
 gnáthchúrsaí/US
 gnáthdhaoine/US
@@ -39266,6 +39399,7 @@ gridille/US
 gridillí/US
 grifín
 grin/US
+grinidín/US
 grinn/SU
 grinne/S
 grinneall/US
@@ -40326,8 +40460,8 @@ hAcáinise
 hAdhmarais
 hAdhmaraise
 Hadramut
-hAegéach
-hAegéigh
+hAeigéach
+hAeigéigh
 haemaglóibin
 haemaglóibine
 haemaglóibiní
@@ -40373,6 +40507,7 @@ hagaoisí
 hAgragantach
 hAgragantaigh
 hAibisín
+hAibisíne
 hAibisíneach
 hAibisínigh
 hAibreáin
@@ -40591,6 +40726,7 @@ hAontroim
 hAontroma
 hAosdána
 hap
+hApaláiseach
 hapanna
 hApáis
 hApáise
@@ -40697,6 +40833,7 @@ hEabhraigh
 hEabhrais
 hEabhraise
 hEabhraíoch
+hEabró
 hEacuadór
 hEacuadórach
 hEacuadóraigh
@@ -40945,6 +41082,7 @@ hIodáilis
 hIodáilise
 hIodálach
 hIodálaigh
+hIodúimé
 hIolair
 hIolar
 hIompróir
@@ -41263,6 +41401,8 @@ hurá
 huscaithe
 huscaí
 husá
+husáir
+husár
 huth
 hUíbh
 hÁdhaimh
@@ -41284,7 +41424,6 @@ hÁrainn
 hÁrann
 hÁrannach
 hÁrannaigh
-hÉabró
 hÉadóis
 hÉadóise
 hÉatrúscach
@@ -41904,6 +42043,14 @@ idirchreidmheach/HB
 idirchreidmheacha/B
 idirchreidmhigh
 idirchreidmhí/B
+idirchuir/HMDU
+idirchuire/U
+idirchuireadh/HU
+idirchuiridís/HU
+idirchuirigí/HU
+idirchuirim/UA
+idirchuirinn/E
+idirchuirtear/HU
 idirchultúrachais/HMDU
 idirchultúrachas/HMDBUT
 idirchultúrtha/HB
@@ -41911,6 +42058,8 @@ idirchum/HMDBUT
 idirchumanna/HMDBU
 idirchumarsáid/HMDBU
 idirchumarsáide/HMDU
+idirchur/HMDBUT
+idirchurtha/HB
 idirchéim/HMDBU
 idirchéime/HMDU
 idirchéimeanna/HMDBU
@@ -42056,6 +42205,15 @@ idirscartha/HBMDU
 idirscor/HMDBUT
 idirsholais/HMDU
 idirsholas/HMDBUT
+idirshuigh/HU
+idirshuite/HBUMD
+idirshuitear/HU
+idirshuí/HMDBUT
+idirshuídís/HU
+idirshuígí/HU
+idirshuím/UA
+idirshuínn/E
+idirshuíodh/HU
 idirspleách/HB
 idirspleácha/B
 idirspleáchais/HMDU
@@ -43355,6 +43513,16 @@ insíní/HMDBU
 insíodh/HU
 insíolraithe/HBMDU
 insíolrú/HMDBUT
+insíothlaigh/HU
+insíothlaithe/HBMDU
+insíothlaí/U
+insíothlaídís/HU
+insíothlaígí/HU
+insíothlaím/UC
+insíothlaínn/F
+insíothlaíodh/HU
+insíothlaítear/HU
+insíothlú/HMDBUT
 insítear/HU
 insóinseáilte/HB
 insúl
@@ -43475,6 +43643,7 @@ iodálaínn/F
 iodálaíodh/HU
 iodálaítear/HU
 iodálú/HUBMDT
+Iodúimé
 ioguána/HMDBUT
 ioguánaí/HMDBU
 iolach/HMDBUT
@@ -43936,6 +44105,9 @@ ionduchtaínn/F
 ionduchtaíodh/HU
 ionduchtaítear/HU
 ionduchtuithe/HMDBU
+ionduchtóir/HMDBUT
+ionduchtóirí/HMDBU
+ionduchtóra/HMDU
 ionduchtú/HMDBUT
 iondúil/HB
 Iondúis
@@ -44606,6 +44778,8 @@ lagmhisniúil
 lagmhisniúla
 lagphoill
 lagpholl
+lagphortach
+lagphortaigh
 lagrach
 lagracha
 lagracháin
@@ -45369,8 +45543,10 @@ leathbhoird
 leathbhord
 leathbhreac
 leathbhreall
+leathbhreoite
 leathbhric
 leathbhrille
+leathbhruite
 leathbhróg
 leathbhróga
 leathbhróige
@@ -45461,6 +45637,7 @@ leathlámh
 leathmhaig
 leathmhaige
 leathmhaigí
+leathmheasartha
 leathmhilliúin
 leathmhilliún
 leathmhíle
@@ -45648,6 +45825,8 @@ leid
 leidchárta
 leidchártaí
 leide
+leideach
+leideacha
 leideanna
 leidhbe
 leidhce
@@ -45655,6 +45834,8 @@ leidhcéara
 leidhcéir
 leidhcéirí
 leidhcí
+leidigh
+leidí
 leifteanaint
 leifteanant
 Leigearn
@@ -45787,7 +45968,8 @@ Leitseabuirgise
 leitís
 leitíse
 leitísí
-Leiveant
+Leiveaint
+Leiveainte
 Leiveantach
 Leiveantacha
 Leiveantaigh
@@ -45976,6 +46158,7 @@ Libéir
 Libéire
 libídeo
 Lichtinstéin
+Licia
 Licéam
 licéar
 licéir
@@ -48009,6 +48192,10 @@ lústair
 lústaire
 lústairí
 lústar
+lústrach
+lústracha
+lústraigh
+lústraí
 lúsáilte
 lúth
 lúthaíocht
@@ -48053,8 +48240,8 @@ m'Acáinis
 m'Acáinise
 m'Adhmarais
 m'Adhmaraise
-m'Aegéach
-m'Aegéigh
+m'Aeigéach
+m'Aeigéigh
 m'Aeniad
 m'Aetóil
 m'Aetóile
@@ -48089,6 +48276,7 @@ m'Agaistínigh
 m'Agragantach
 m'Agragantaigh
 m'Aibisín
+m'Aibisíne
 m'Aibisíneach
 m'Aibisínigh
 m'Aibreáin
@@ -48327,6 +48515,7 @@ m'Eabhrach
 m'Eabhraigh
 m'Eabhrais
 m'Eabhraise
+m'Eabró
 m'Eacuadór
 m'Eacuadórach
 m'Eacuadóraigh
@@ -48537,6 +48726,7 @@ m'Iodáilis
 m'Iodáilise
 m'Iodálach
 m'Iodálaigh
+m'Iodúimé
 m'Iolair
 m'Iolar
 m'Iompróir
@@ -48709,7 +48899,6 @@ m'Árainn
 m'Árann
 m'Árannach
 m'Árannaigh
-m'Éabró
 m'Éadóis
 m'Éadóise
 m'Éatrúscach
@@ -49944,6 +50133,7 @@ mb'éigean
 mba
 mBablóin
 mBablóine
+mBablóinia
 mBablóinis
 mBablóinise
 mBablónach
@@ -50058,6 +50248,8 @@ mBiosáinte
 mBiosántach
 mBiosántaigh
 mBissau
+mBitín
+mBitíne
 mBlascaodaí
 mBodach
 mBodaigh
@@ -50526,6 +50718,8 @@ meataí/S
 meath/S
 meath-thinn/S
 meath-thinne/S
+meath-thinneas/S
+meath-thinnis/S
 meath-thuairim/S
 meath-thuairime/S
 meath-thuairimeach/S
@@ -51014,6 +51208,8 @@ mheánchoimrí
 mheánchoimrínn/F
 mhianaí
 mhianaínn/F
+mhianrille
+mhianrillinn/E
 mhille
 mhillinn/E
 mhilsí
@@ -51170,8 +51366,14 @@ mianreolaithe/S
 mianreolaí/S
 mianreolaíocht/S
 mianreolaíochta/S
+mianrill/S
+mianrille
+mianrilleadh/S
 mianrilleáin/S
 mianrilleán/S
+mianrillim/SA
+mianrillinn/E
+mianrillte/S
 mianta/S
 mianú/S
 mianúil/S
@@ -52760,6 +52962,8 @@ mí-éifeacht/S
 mí-éifeachta/S
 mí-úsáid/S
 mí-úsáide/S
+míbhinn/S
+míbhinne/S
 míbhinneas/S
 míbhinnis/S
 míbhlasta/S
@@ -52783,6 +52987,8 @@ míbhéasach/S
 míbhéasacha/S
 míbhéasaigh/S
 míbhéasaí/S
+míbhéasaíocht/S
+míbhéasaíochta/S
 míchairdiúil/S
 míchairdiúla/S
 míchaoithiúil/S
@@ -52938,6 +53144,10 @@ mífheiliúnach/S
 mífheiliúnacha/S
 mífheiliúnaigh/S
 mífheiliúnaí/S
+mífhiúntach/S
+mífhiúntacha/S
+mífhiúntaigh/S
+mífhiúntaí/S
 mífhoighne/S
 mífhoighneach/S
 mífhoighneacha/S
@@ -52970,6 +53180,8 @@ mígheanasacha/S
 mígheanasaigh/S
 mígheanasaí/S
 mígheanmnaí/S
+mígheanmnaíocht/S
+mígheanmnaíochta/S
 míghiúmair/S
 míghiúmar/S
 míghléas/S
@@ -53222,6 +53434,8 @@ mírialtacht/S
 mírialtachta/S
 míriar/S
 míréasúnta/S
+míréasúntacht/S
+míréasúntachta/S
 míréir/S
 míréire/S
 míréireach/S
@@ -53241,6 +53455,8 @@ míshaolta/S
 mísheans/S
 mísheansanna/S
 míshibhialta/S
+míshlacht/S
+míshlachta/S
 míshlachtmhair/S
 míshlachtmhaire/S
 míshlachtmhar/S
@@ -53283,6 +53499,8 @@ míshócúlacha/S
 míshócúlaigh/S
 míshócúlaí/S
 místiúrtha/S
+místuaim/S
+místuaime/S
 místuama/S
 místá/S
 míthaitneamh/S
@@ -53304,6 +53522,8 @@ míthreoraigh/S
 míthreoraí/S
 míthráthúil/S
 míthráthúla/S
+míthráthúlacht/S
+míthráthúlachta/S
 míthrócaireach/S
 míthrócaireacha/S
 míthrócairigh/S
@@ -53526,6 +53746,8 @@ mórmheán/S
 mórmhuir/S
 mórphianó/S
 mórphianónna/S
+Mórsceir/S
+Mórsceire/S
 mórscála/S
 mórscálaí/S
 mórsheisear/S
@@ -53760,8 +53982,8 @@ nadair
 nadaire
 nAdhmarais
 nAdhmaraise
-nAegéach
-nAegéigh
+nAeigéach
+nAeigéigh
 nAeniad
 nAetóil
 nAetóile
@@ -53801,6 +54023,7 @@ naghas
 nAgragantach
 nAgragantaigh
 nAibisín
+nAibisíne
 nAibisíneach
 nAibisínigh
 naibithe
@@ -54258,6 +54481,10 @@ nDivéihis
 nDivéihise
 nDlí
 nDlíthe
+nDnípir
+nDnípire
+nDnístir
+nDnístire
 nDobhair
 nDobhar
 nDoiminice
@@ -54300,6 +54527,7 @@ nEabhrach
 nEabhraigh
 nEabhrais
 nEabhraise
+nEabró
 neach
 neacha
 neacht
@@ -54362,6 +54590,10 @@ neamh-aistreach
 neamh-aistreacha
 neamh-aistrigh
 neamh-aistrí
+neamh-altach
+neamh-altacha
+neamh-altaigh
+neamh-altaí
 neamh-amhrasach
 neamh-amhrasacha
 neamh-amhrasaigh
@@ -54396,6 +54628,8 @@ neamh-incháilithe
 neamh-mheabhair
 neamh-mheabhrach
 neamh-mheasartha
+neamh-mheasarthacht
+neamh-mheasarthachta
 neamh-mheisciúil
 neamh-mheisciúla
 neamh-mheontach
@@ -54430,6 +54664,8 @@ neamh-thréscaoiltigh
 neamh-thréscaoiltí
 neamhaclaí
 neamhaibí
+neamhaibíocht
+neamhaibíochta
 neamhaiceanta
 neamhailínithe
 neamhainciseach
@@ -54455,6 +54691,7 @@ neamhaithnide
 neamhaontach
 neamhaontacha
 neamhaontaigh
+neamhaontaithe
 neamhaontaí
 neamhaí
 neamhbhailbh
@@ -54536,6 +54773,10 @@ neamhcheangailtí
 neamhcheart
 neamhchearta
 neamhcheist
+neamhcheolmhair
+neamhcheolmhaire
+neamhcheolmhar
+neamhcheolmhara
 neamhchinnte
 neamhchinnteacht
 neamhchinnteachta
@@ -54638,6 +54879,8 @@ neamhchásmhair
 neamhchásmhaire
 neamhchásmhar
 neamhchásmhara
+neamhchéadfacht
+neamhchéadfachta
 neamhchóirithe
 neamhchónaitheach
 neamhchónaitheacha
@@ -54849,6 +55092,8 @@ neamhiontaobhaí
 neamhiontaofa
 neamhiontas
 neamhiontaí
+neamhleaisteachais
+neamhleaisteachas
 neamhleanúnach
 neamhleanúnacha
 neamhleanúnachais
@@ -54869,6 +55114,8 @@ neamhlochtach
 neamhlochtacha
 neamhlochtaigh
 neamhlochtaí
+neamhlochtaíl
+neamhlochtaíola
 neamhlonrach
 neamhlonracha
 neamhlonraigh
@@ -54920,6 +55167,10 @@ neamhorgánach
 neamhorgánacha
 neamhorgánaigh
 neamhorgánaí
+neamhpheacúil
+neamhpheacúla
+neamhpheacúlacht
+neamhpheacúlachta
 neamhphearsanta
 neamhpholaitiúil
 neamhpholaitiúla
@@ -54976,6 +55227,8 @@ neamhshaolta
 neamhshaothraithe
 neamhsheasmhach
 neamhsheasmhacha
+neamhsheasmhacht
+neamhsheasmhachta
 neamhsheasmhaigh
 neamhsheasmhaí
 neamhsheicteach
@@ -55019,6 +55272,10 @@ neamhshuntasach
 neamhshuntasacha
 neamhshuntasaigh
 neamhshuntasaí
+neamhsmaointeach
+neamhsmaointeacha
+neamhsmaointigh
+neamhsmaointí
 neamhspleách
 neamhspleácha
 neamhspleáchais
@@ -55093,6 +55350,8 @@ neamhthuisceanacha
 neamhthuisceanaigh
 neamhthuisceanaí
 neamhthuiscint
+neamhthábhacht
+neamhthábhachta
 neamhthábhachtach
 neamhthábhachtacha
 neamhthábhachtaigh
@@ -55115,6 +55374,8 @@ neamhábalta
 neamhábaltacht
 neamhábaltachta
 neamhábhartha
+neamhábharthacht
+neamhábharthachta
 neamháiseach
 neamháiseacha
 neamháisigh
@@ -55382,6 +55643,8 @@ nGallfhuathaigh
 nGalltacht
 nGalltachta
 nGalltachtaí
+nGaláit
+nGaláite
 ngan
 nGandais
 nGandaise
@@ -55643,6 +55906,7 @@ nIodáilis
 nIodáilise
 nIodálach
 nIodálaigh
+nIodúimé
 niogóid
 niogóide
 niogóideach
@@ -56029,7 +56293,6 @@ nÁrainn
 nÁrann
 nÁrannach
 nÁrannaigh
-nÉabró
 nÉadóis
 nÉadóise
 nÉatrúscach
@@ -56668,6 +56931,8 @@ Oileán
 oileán/HMDBUT
 oileánach/HBMDUT
 oileánacha/B
+oileánachais/HMDU
+oileánachas/HMDBUT
 oileánaigh/HMDBU
 oileánaí/B
 Oileánrach
@@ -57793,9 +58058,6 @@ Patagónaigh/S
 Patagónaí/S
 pataire/US
 patairí/US
-path/US
-patha/US
-pathanna/US
 patraisc/US
 patraisce/US
 patraiscí/US
@@ -58468,6 +58730,8 @@ piseáin/US
 piseán/US
 piseánach/US
 piseánaigh/US
+Pisid/S
+Piside/S
 pistil/US
 pistile/US
 pistilí/US
@@ -60093,6 +60357,10 @@ páil/US
 Páile/S
 páile/US
 páileacha/US
+páilleach/S
+páilleacha/S
+páilligh/S
+páillí/S
 páinteach/SU
 páinteacha/S
 páintigh/SU
@@ -62550,6 +62818,10 @@ rífir
 Ríge
 ríge
 ríghe
+ríghlain
+ríghlaine
+ríghlan
+ríghlana
 ríl
 ríle
 ríleanna
@@ -62673,6 +62945,8 @@ ríshleachta
 ríshliocht
 ríste
 rístí
+rístíocht
+rístíochta
 rísí
 rísín
 rísíní
@@ -64037,6 +64311,8 @@ scaip
 scaipe
 scaipeach
 scaipeacha
+scaipeacht
+scaipeachta
 scaipeadh
 scaipigh
 scaipim/A
@@ -66643,6 +66919,8 @@ seoidirí/S
 seoigh/S
 seoighe/S
 seoil/ST
+seoilín/ST
+seoilíní/S
 seoinín/ST
 seoinínteacht/ST
 seoinínteachta/S
@@ -67265,7 +67543,6 @@ silteach/S
 silteacha/S
 silteacht/ST
 silteachta/S
-siltean/S
 silteoir/S
 silteoirí/S
 silteora/ST
@@ -67274,7 +67551,6 @@ silteán/S
 silteánach/S
 silteánaigh/ST
 siltigh/ST
-siltin/ST
 siltí/S
 siléar/S
 siléig/ST
@@ -67397,6 +67673,8 @@ sintéisiú/S
 sintéisí/S
 sintéisím/SC
 sintéisínn/F
+sinéidín/ST
+sinéidíní/S
 siní/S
 siobarnach/ST
 siobarnaí/S
@@ -67648,6 +67926,8 @@ sithí/S
 sitím/S
 siunca/ST
 siuncaí/S
+siurnail/ST
+siurnal/S
 siáin/ST
 sián/S
 sióg/ST
@@ -67784,6 +68064,10 @@ sladaim/SA
 sladainn/E
 sladaithe/S
 sladanna/S
+sladarúsach/S
+sladarúsacha/S
+sladarúsaigh/S
+sladarúsaí/S
 sladaí/ST
 sladaíocht/ST
 sladaíochta/S
@@ -69093,6 +69377,8 @@ soghríosaithe/S
 soibealta/S
 soibealtacht/ST
 soibealtachta/S
+soibealtáin/ST
+soibealtán/S
 soic/ST
 soicind/ST
 soicinde/S
@@ -69117,6 +69403,9 @@ soilseacha/S
 soilsigh/S
 Soilsithe/S
 soilsithe/ST
+soilsitheoir/S
+soilsitheoirí/S
+soilsitheora/ST
 Soilsiú/S
 soilsiú/S
 soilsí/S
@@ -69279,6 +69568,10 @@ somacháin/ST
 somachán/S
 somhaoin/ST
 somhaoine/S
+somhaoineach/S
+somhaoineacha/S
+somhaoinigh/S
+somhaoiní/S
 somheallta/S
 somheanma/ST
 somheanman/S
@@ -72030,9 +72323,13 @@ suthaineacht/ST
 suthaineachta/S
 suthaineachtaí/S
 suthaire/ST
+suthaireacht/ST
+suthaireachta/S
 suthairí/S
 suthanna/S
 suthaí/S
+sutheolaíocht/ST
+sutheolaíochta/S
 Suvais/S
 Suvaise/S
 suáilce/ST
@@ -73150,7 +73447,7 @@ tadhlaíochta/US
 tae/US
 taechupáin/US
 taechupán/US
-tAegéach
+tAeigéach
 taein/US
 taen/US
 taenna/US
@@ -73251,7 +73548,6 @@ taibhsiúlacht/US
 taibhsiúlachta/US
 taibhsí/SU
 taibhsím/USC
-tAibisín
 tAibisíneach
 tAibreán
 taicticiúil/S
@@ -73587,6 +73883,8 @@ tandam/US
 tAndóra
 tAndórach
 tangaint/US
+Tangainíc/S
+Tangainíce/S
 tangant/US
 tAngla-Caitliceach
 tAngla-Indiach
@@ -73946,6 +74244,8 @@ tEabhrac
 tEabhrach
 Teach/S
 teach/US
+teachropadh/US
+teachroptha/US
 teacht/US
 Teachta/S
 teachta/US
@@ -75318,7 +75618,8 @@ tiortáil/US
 tiortála/US
 tiortálacha/US
 tIoruach
-Tioról/S
+Tioróil/S
+Tioróile/S
 Tiorólach/S
 Tiorólacha/S
 Tiorólaigh/S
@@ -75643,7 +75944,7 @@ toiliú/US
 toiliúil/S
 toiliúla/S
 toill/US
-toille/S
+toille/SU
 toilleadh/US
 toilleas/US
 toilleoir/US
@@ -76356,6 +76657,8 @@ treascróra/US
 treasghiair/US
 treasghiar/US
 treasghiaranna/US
+treaspac/US
+treaspaic/US
 treaspáis/US
 treaspás/US
 treathnach/S
@@ -76792,6 +77095,8 @@ trus/US
 trusanna/US
 truslóg/US
 truslóga/US
+truslógaithe/US
+truslógaí/US
 truslóige/US
 trust/US
 trusta/SU
@@ -77402,7 +77707,8 @@ tuairteálach/S
 tuairteálacha/S
 tuairteálaigh/S
 tuairteálaim/USI
-tuairteálaí/S
+tuairteálaithe/US
+tuairteálaí/SU
 Tuaisceart/S
 tuaisceart/US
 tuaisceartach/SU
@@ -77650,11 +77956,18 @@ tulaigh/US
 tulbhuille/US
 tulbhuillí/US
 tulca/US
+tulcach/S
+tulcacha/S
 tulcaeir/US
 tulcaer/US
-tulcaí/US
+tulcaigh/S
+tulcaí/SU
 tulcaíl/US
 tulcaíola/US
+tulchach/S
+tulchacha/S
+tulchaigh/S
+tulchaí/S
 tulcháin/US
 tulchán/US
 tulmhaisithe/US
@@ -78294,6 +78607,8 @@ tírghráthóirí/US
 tírghráthóra/US
 tíriúil/S
 tíriúla/S
+tíriúlacht/US
+tíriúlachta/US
 tírphictiúir/US
 tírphictiúr/US
 tís/US
@@ -79541,8 +79856,12 @@ ursóg/HMDBU
 ursóga/HMDBU
 ursóige/HMDU
 urtheach/HMDBUT
+urtheilgeach/HB
+urtheilgeacha/B
 urtheilgean/HMDBUT
+urtheilgigh
 urtheilgin/HMDBU
+urtheilgí/B
 urthimpeall/HMDBUT
 urthimpill/HMDBU
 urthosach/HMDBUT
@@ -79883,7 +80202,6 @@ zúnna
 Árann
 Árannach
 Árannaigh
-Éabró
 Éadóis
 Éadóise
 Éatrúscach
@@ -80237,11 +80555,11 @@ zúnna
 áitreabhaí/B
 áitribh/HMDBU
 áitrigh/HU
-áitrithe/HBUMD
+áitrithe/HBMDU
 áitritheoir/HMDBUT
 áitritheoirí/HMDBU
 áitritheora/HMDU
-áitriú/HUBMDT
+áitriú/HMDBUT
 áitrí/U
 áitrídís/HU
 áitrígí/HU
@@ -80381,7 +80699,7 @@ zúnna
 éadain/HMDBU
 éadaingean/HB
 éadaingin
-éadaingne/B
+éadaingne/HBMDU
 éadair/HMDBU
 éadairbhe/HMDBU
 éadairbheach/HB
@@ -80410,8 +80728,10 @@ zúnna
 éadláith/HB
 éadláithe/B
 éadlás/HMDBUT
+éadlúis/HMDU
 éadlúith
 éadlúithe/B
+éadlús/HMDBUT
 éadlúth/HB
 éadlútha/B
 éadlúthúcháin/HMDU

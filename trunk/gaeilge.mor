@@ -1203,6 +1203,10 @@ billeoga/US
 billeoige/US
 billín/US
 billíní/US
+binibeach/S
+binibeacha/S
+binibigh/S
+binibí/S
 binneadais/US
 binneadas/US
 bintiúirí/US
@@ -1659,6 +1663,13 @@ buanchais/US
 buanchas/US
 buannaíocht/US
 buannaíochta/US
+bucaed/US
+bucaeid/US
+bucaod/US
+bucaoid/US
+bucáid/US
+bucáide/US
+bucáidí/US
 bucóid/US
 bucóide/US
 bucóidí/US
@@ -1925,6 +1936,8 @@ camchuardaigh/S
 camchuardaí/S
 Campúisia/S
 camroillig/US
+canabais/US
+canabas/US
 canamhain/US
 canamhna/US
 canathaobh
@@ -4833,6 +4846,7 @@ doctúra/US
 doga/US
 dogaí/US
 doghafa/S
+doghlactha/S
 doiciméid/US
 doiciméide/US
 doiciméidí/US
@@ -5778,6 +5792,7 @@ fata/MDBUS
 fataí/MDBUS
 feabhasú/MDBUS
 feabhsa/BS
+feachtanna/MDBUS
 feadalach/MDBUS
 feadalaí/MDUS
 feadh/MDBUS
@@ -6297,10 +6312,11 @@ forálta/MDBUS
 forán/MDBUS
 foránach/MDBUS
 foránaigh/MDBUS
-foscail/US
+foscail/MDBUS
 foscailt/MDBUS
 foscailte/BSMDU
 foscailtí/MDBUS
+foscal/MDBUS
 foscladh/MDBUS
 fosclaidh/MDUS
 fosclaím/USC
@@ -7311,10 +7327,10 @@ goillsteanaigh/S
 goillsteanaí/S
 goillstin/US
 goillstint/US
-goir/US
+goir/SU
 goirdeacht/US
 goirdeachta/US
-goire/US
+goire/SU
 goireacht/US
 goireachta/US
 goirgeach/S
@@ -7333,6 +7349,8 @@ gomhúil/S
 gomhúla/S
 gona/US
 gonann/US
+gor/S
+gora/S
 gortha/S
 gortúil/S
 gortúla/S
@@ -8060,6 +8078,7 @@ ionadathach/HB
 ionadathacha/B
 ionadathaigh
 ionadathaí/B
+ionann's
 ionbhainte/HB
 ionchorparaigh/HU
 ionchorparaithe/HBUMD
@@ -8380,6 +8399,9 @@ leathanóg
 leathanóga
 leathanóige
 leathanú
+leathinis
+leathinse
+leathinsí
 leathmhaing
 leathmhainge
 leathnuithe
@@ -8465,7 +8487,9 @@ leitreachaí
 Leiveant
 lem
 len
+leob
 leobhtha
+leobsan
 leochailleach
 leochailleacha
 leochailligh
@@ -9383,7 +9407,7 @@ muirearadh/S
 muirearáil/S
 muirearála/S
 muirne/S
-muis
+muis/S
 muna
 munab
 munar
@@ -9406,6 +9430,7 @@ muruaigh/S
 murúchaill/S
 murúchaille/S
 murúchaillí/S
+mus/S
 muscail/S
 muscailte/S
 musclaí
@@ -9795,6 +9820,7 @@ nÉabró
 nÓman
 nÚisbéiceastáinis
 nÚisbéiceastáinise
+ná
 ná'n
 ná'r
 nách
@@ -10154,6 +10180,7 @@ pill/US
 pilleadh/US
 pillim/USA
 pillte/SU
+pingineacha/US
 pinginn/US
 pingne/US
 pingneacha/US
@@ -10781,6 +10808,8 @@ riomsa
 rionnadóir
 rionnadóirí
 rionnadóra
+riosta
+riostaí
 riot
 riotsa
 rit
@@ -11453,6 +11482,7 @@ scrúdóireacht
 scrúdóireachta
 scrúdóirí
 scrúdóra
+scuabanna
 scuaine
 scuainí
 scufa
@@ -11864,6 +11894,7 @@ sligeánaigh/S
 sligeánaí/S
 slighe/ST
 slighthe/S
+sligéisc/S
 sliobarna
 sliobarnaíl/ST
 sliobarnaíola/S
@@ -11874,7 +11905,6 @@ sliogaigh/S
 sliogairt/ST
 sliogart/S
 sliogaí/S
-sliogéisc/S
 slios/S
 sliosa
 sliosadh/S
@@ -12428,6 +12458,7 @@ statistíochta
 stealla
 steiling
 steilinge
+steillebheatha
 steipeadaíl
 steipeadaíola
 steirlinge
@@ -13005,6 +13036,7 @@ taltaím/USC
 taltú/US
 talúintí/US
 talúna/US
+tamallacha/US
 tAmerice
 taobh/US
 taobhadh/US

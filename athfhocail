@@ -880,6 +880,7 @@ adubhairt ndúirt
 adubhradh dúradh
 adubhradh ndúradh
 adubhramar dúramar
+aduine anduine
 adéarfadh déarfadh
 adéarfadh ndéarfadh
 adéarfaidh déarfadh
@@ -912,6 +913,7 @@ adúirt dúirt
 adúirt ndúirt
 adúradh dúradh
 adúradh ndúradh
+aen aon
 aeraitheoir aerthóir
 aeraitheoirí aerthóirí
 aeraitheora aerthóra
@@ -1928,9 +1930,11 @@ b'adhnacal b'adhlacadh
 b'adhuathmhaire b'adhfhuafaireacht
 b'adhuathmhaireacht b'adhfhuafaireacht
 b'aduafaireacht b'adhfhuafaireacht
+b'aduine b'anduine
 b'adóg b'fhadóg
 b'adóga b'fhadóga
 b'adú b'fhadú
+b'aen b'aon
 b'aeraitheoir b'aerthóir
 b'aeraitheoirí b'aerthóirí
 b'aerphoirt b'aerfoirt
@@ -3927,6 +3931,7 @@ b'éirsigh b'eiricigh
 b'éiseallach b'éisealach
 b'éiseallacha b'éisealacha
 b'éiseallaí b'éisealaí
+b'éisteach b'éisteacht
 b'éistithe b'éiste
 b'éistiú b'éisteacht
 b'í ba í
@@ -6762,10 +6767,13 @@ bhéalscaoiltigh bhéalscaoilte
 bhéalscaoiltí bhéalscaoilte
 bhéalta bhéala
 bhéarlagar bhéarlagair
+bhéiceach bhéicíl
 bhéiceacháin bhéiceadáin
 bhéiceachán bhéiceadán
 bhéicfeadhach bhéicíl
 bhéicfeadhaí bhéicíola
+bhéicigh bhéicíl
+bhéicigh bhéicíola
 bhéicire bhéiceadáin
 bhéicire bhéiceadán
 bhéicirí bhéiceadáin
@@ -8254,10 +8262,13 @@ béalta béala
 béarfaí bhéarfaí
 béarfaí mbéarfaí
 béarlagar béarlagair
+béiceach béicíl
 béiceacháin béiceadáin
 béiceachán béiceadán
 béicfeadhach béicíl
 béicfeadhaí béicíola
+béicigh béicíl
+béicigh béicíola
 béicire béiceadáin
 béicire béiceadán
 béicirí béiceadáin
@@ -14755,6 +14766,7 @@ d'adhuathmhaireachta d'adhfhuafaireachta
 d'aduafaireacht d'adhfhuafaireacht
 d'aduafaireachta d'adhfhuafaireachta
 d'adubhramar dúramar
+d'aduine d'anduine
 d'adódh d'fhadódh
 d'adófaí d'fhadófaí
 d'adófá d'fhadófá
@@ -16938,6 +16950,7 @@ d'ionnradh d'ionradh
 d'ionnraigh d'ionraigh
 d'ionnsaigh d'ionsaigh
 d'ionnsaithe d'ionsaithe
+d'ionnsaí d'ionsaithe
 d'ionnsaí d'ionsaí
 d'ionnsaídís d'ionsaídís
 d'ionnsaímis d'ionsaímis
@@ -17476,6 +17489,7 @@ d'éirse d'eiriceacht
 d'éirse d'eiriceachta
 d'éirseach d'eiriceach
 d'éirsigh d'eiricigh
+d'éisteach d'éisteacht
 d'éisteodh d'éistfeadh
 d'éisteofaí d'éistfí
 d'éisteofá d'éistfeá
@@ -30891,10 +30905,12 @@ hadhuathmhaireacht hadhfhuafaireacht
 hadhuathmhaireachta hadhfhuafaireachta
 haduafaireacht hadhfhuafaireacht
 haduafaireachta hadhfhuafaireachta
+haduine handuine
 hadóg fadóg
 hadóga fadóga
 hadóige fadóige
 hadú fadú
+haen haon
 haeraitheoir haerthóir
 haeraitheoirí haerthóirí
 haeraitheora haerthóra
@@ -31945,6 +31961,7 @@ hionnraic hionraic
 hionnraigh hionraigh
 hionnsaigh hionsaigh
 hionnsaithe hionsaithe
+hionnsaí hionsaithe
 hionnsaí hionsaí
 hionnsaídís hionsaídís
 hionnsaígí hionsaígí
@@ -32476,6 +32493,7 @@ héirse heiriceachta
 héirseach heiriceach
 héirsigh heiricigh
 héiseallach héisealach
+héisteach héisteacht
 héistigh héist
 héistithe héiste
 héistithe héisteachta
@@ -33297,6 +33315,7 @@ ionnraice ionraice
 ionnraigh ionraigh
 ionnsaigh ionsaigh
 ionnsaithe ionsaithe
+ionnsaí ionsaithe
 ionnsaí ionsaí
 ionnsaídís ionsaídís
 ionnsaígí ionsaígí
@@ -34521,6 +34540,7 @@ m'adhuathmhaireacht m'adhfhuafaireacht
 m'adhuathmhaireachta m'adhfhuafaireachta
 m'aduafaireacht m'adhfhuafaireacht
 m'aduafaireachta m'adhfhuafaireachta
+m'aduine m'anduine
 m'adóg m'fhadóg
 m'adóga m'fhadóga
 m'adóige m'fhadóige
@@ -35989,6 +36009,7 @@ m'ionnrachas m'ionracas
 m'ionnradh m'ionradh
 m'ionnraigh m'ionraigh
 m'ionnsaithe m'ionsaithe
+m'ionnsaí m'ionsaithe
 m'ionnsaí m'ionsaí
 m'ionoighreacht m'oidhreachtán
 m'ionoighreachta m'oidhreachtáin
@@ -36420,6 +36441,7 @@ m'éirse m'eiriceacht
 m'éirse m'eiriceachta
 m'éirseach m'eiriceach
 m'éirsigh m'eiricigh
+m'éisteach m'éisteacht
 m'éistithe m'éisteachta
 m'éistiú m'éisteacht
 m'íobarthach m'íobartach
@@ -37756,10 +37778,13 @@ mbéadh mbeadh
 mbéaloideasa mbéaloidis
 mbéalta mbéala
 mbéarlagar mbéarlagair
+mbéiceach mbéicíl
 mbéiceacháin mbéiceadáin
 mbéiceachán mbéiceadán
 mbéicfeadhach mbéicíl
 mbéicfeadhaí mbéicíola
+mbéicigh mbéicíl
+mbéicigh mbéicíola
 mbéicire mbéiceadáin
 mbéicire mbéiceadán
 mbéicirí mbéiceadáin
@@ -39254,6 +39279,7 @@ n-adhuathmhaireachta n-adhfhuafaireachta
 n-aduafaireacht n-adhfhuafaireacht
 n-aduafaireachta n-adhfhuafaireachta
 n-adubhramar ndúramar
+n-aduine n-anduine
 n-adódh bhfadódh
 n-adófar bhfadófar
 n-adófaí bhfadófaí
@@ -40573,6 +40599,7 @@ n-ionnradh n-ionradh
 n-ionnraigh n-ionraigh
 n-ionnsaigh n-ionsaigh
 n-ionnsaithe n-ionsaithe
+n-ionnsaí n-ionsaithe
 n-ionnsaí n-ionsaí
 n-ionnsaídís n-ionsaídís
 n-ionnsaígí n-ionsaígí
@@ -41167,6 +41194,7 @@ n-éirse n-eiriceacht
 n-éirse n-eiriceachta
 n-éirseach n-eiriceach
 n-éirsigh n-eiricigh
+n-éisteach n-éisteacht
 n-éisteodh n-éistfeadh
 n-éisteofar n-éistfear
 n-éisteofaí n-éistfí
@@ -51590,6 +51618,7 @@ t-adhart t-iarta
 t-adhbhar t-ábhar
 t-adhnacadh t-adhlacadh
 t-adhnacal t-adhlacadh
+t-aduine t-anduine
 t-adú fadú
 t-aeraitheoir t-aerthóir
 t-aerphort t-aerfort
@@ -51875,6 +51904,7 @@ t-éintíos t-aontíos
 t-éirghe t-éirí
 t-éiriú t-éirí
 t-éirseach t-eiriceach
+t-éisteach éisteacht
 t-éistiú éisteacht
 t-íobarthach t-íobartach
 t-íontas t-iontas
@@ -56588,6 +56618,7 @@ vótóra vótálaí
 éiseallacha éisealacha
 éiseallaigh éisealaigh
 éiseallaí éisealaí
+éisteach éisteacht
 éisteodh éistfeadh
 éisteofar éistfear
 éisteofaí éistfí

@@ -10,7 +10,7 @@ MAKE=/usr/bin/make
 PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt
 
 #   Shouldn't have to change anything below here
-RELEASE=4.1
+RELEASE=4.2
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor

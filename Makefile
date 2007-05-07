@@ -303,7 +303,7 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	cp ga_IE.aff dictionaries
 	cp README_ga_IE.txt dictionaries
 	zip -r ga-IE-dictionary.xpi dictionaries install.rdf install.js
-	rm -Rf dictionaries
+	rm -Rf dictionaries hyph.txt spell.txt thes.txt
 
 mytardist: ga_IE.dic ChangeLog
 	cp README README.txt

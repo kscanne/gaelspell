@@ -160,13 +160,13 @@ romhanach : roman.pl
 accents.txt : aspell.txt
 	cat aspell.txt | iconv -f iso-8859-1 -t utf8 > aspell8.txt
 	comh.pl -a aspell8.txt | sed 's/: / /' > accents-a.txt
-	counts.pl /usr/local/share/crubadan/ga/FREQ accents-a.txt | perl -p -e '/([^ ]+) ([0-9]+) ([^ ]+) ([0-9]+)$$/; if ($$2 == 0) {$$ans='INF';} else {$$ans=$$4/$$2;} s/^/$$ans /;' | sort -k1,1 -n -r -k5,5 -n -r > $@
+	counts.pl /usr/local/share/crubadan/ga/FREQ.aimsigh accents-a.txt | perl -p -e '/([^ ]+) ([0-9]+) ([^ ]+) ([0-9]+)$$/; if ($$2 == 0) {$$ans='INF';} else {$$ans=$$4/$$2;} s/^/$$ans /;' | sort -k1,1 -n -r -k5,5 -n -r > $@
 	rm -f aspell8.txt accents-a.txt
 
 # compare eilefromdb target in gramadoir-ga Makefile
 validalts.txt : aspell.txt athfhocail
 	LC_ALL=C sed 's/ .*//' athfhocail | keepif ./aspell.txt latin-1 | LC_ALL=C sort -u | LC_ALL=C join athfhocail - | LC_ALL=C sort -k1,1 | egrep '^' | iconv -f iso-8859-1 -t utf-8 > ./tempvalid.txt
-	counts.pl /usr/local/share/crubadan/ga/FREQ tempvalid.txt | sort -k4,4 -r -n > $@
+	counts.pl /usr/local/share/crubadan/ga/FREQ.aimsigh tempvalid.txt | sort -k4,4 -r -n > $@
 	rm -f tempvalid.txt
 
 checkearr: FORCE

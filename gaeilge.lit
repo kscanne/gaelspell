@@ -407,6 +407,9 @@ eitim/HMDBU
 eitime/HMDU
 eitimí/HMDBU
 eo/HMDBUT
+fabhair/MDBUS
+fabhrach/MDUS
+fabhracha/MDBUS
 fadhbh/US
 fadhbhadh/USBMD
 fadhbhaim/USA
@@ -455,6 +458,7 @@ fochain/MDUS
 fochan/MDBUS
 fodhail/MDBUS
 fodhla/MDUS
+fois/MDUS
 forlainn/MDUS
 forlann/MDBUS
 forthacht/US
@@ -463,6 +467,7 @@ forthachtadh/USBMD
 forthachtaim/USA
 foráin/MDBUS
 forán/MDBUS
+fos/MDBUS
 foscain/US
 foscanta/SB
 foscnaím/USC
@@ -713,6 +718,8 @@ profú/US
 prímhe/US
 príomh/US
 príomha/US
+pucáin/US
+pucán/US
 punta/US
 puntaí/US
 purpair/SU
@@ -725,6 +732,13 @@ páilín/US
 páilíní/US
 rabh
 rabha
+racáil
+racáilte
+racála
+racálaim/I
+racálainn/J
+ragaire
+ragairí
 raibh
 raibhe
 raille
@@ -758,12 +772,17 @@ rionnadh
 rionnaim/A
 rionnainn/E
 rionnta
+ruacháin
+ruachán
 ruidéis
 ruidéise
 ruma
 rumaí
 ruta
 rutaí
+ríbh
+ríbhe
+ríbheanna
 sainsiléar/S
 sainsiléir/ST
 samh
@@ -937,6 +956,8 @@ teannach/S
 teannacha/S
 teannaigh/S
 teannaí/S
+teilgeáin/US
+teilgeán/US
 teirm/US
 teirme/US
 teirmeacha/US

@@ -152,7 +152,7 @@ stair.txt : stair
 	LC_ALL=ga_IE sed 's/^[^:]*://' stair | LC_ALL=ga_IE sort -u > $@
 
 miotas.txt : miotas
-	sed 's/^[^:]*://' miotas | LC_ALL=ga_IE sort -u > $@
+	LC_ALL=ga_IE sed 's/^[^:]*://' miotas | LC_ALL=ga_IE sort -u > $@
 
 romhanach : roman.pl
 	perl roman.pl > $@

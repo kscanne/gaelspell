@@ -10,7 +10,7 @@ MAKE=/usr/bin/make
 PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt
 
 #   Shouldn't have to change anything below here
-RELEASE=4.2
+RELEASE=4.3
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit
 ALTWORDS= gaeilge.mor
@@ -169,11 +169,13 @@ validalts.txt : aspell.txt athfhocail
 	counts.pl /usr/local/share/crubadan/ga/FREQ.aimsigh tempvalid.txt | sort -k4,4 -r -n > $@
 	rm -f tempvalid.txt
 
-checkearr: FORCE
+checkearr: aspelllit.txt
 	$(MAKE) gaelu
-	LC_ALL=C sed 's/^[^ ]* //' earraidi | LC_ALL=C ispell -dgaeilge -l
-	LC_ALL=C sed 's/^[^ ]* //' athfhocail | LC_ALL=C ispell -dgaeilgelit -l
-	LC_ALL=C sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | LC_ALL=C ispell -dgaeilge -l
+	LC_ALL=C sort -u aspelllit.txt $(PERSONAL) > a.tmp
+	LC_ALL=C sed 's/^[^ ]* //' earraidi | tr " " "\n" | keepif -n ./a.tmp latin-1 | LC_ALL=ga_IE sort -u
+	LC_ALL=C sed 's/^[^ ]* //' athfhocail | tr " " "\n" | keepif -n ./a.tmp latin-1 | LC_ALL=ga_IE sort -u
+	LC_ALL=C sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | keepif -n ./a.tmp latin-1 | LC_ALL=ga_IE sort -u
+	rm -f a.tmp
 
 gaelu: gaelu.in
 	LC_ALL=ga_IE bash buildgael > gaelu

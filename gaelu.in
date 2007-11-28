@@ -1,6 +1,6 @@
 Abbeydorney Mainistir Ó dTorna
 Abbeyfeale Mainistir na Féile
-Abbeylara Mainistir  Leathrátha
+Abbeylara Mainistir Leathrátha
 Abbeyleix Mainistir Laoise
 Abbeyshrule Mainistir Shruthla
 Achill Acaill
@@ -74,10 +74,12 @@ Baily Dún Criofainn
 Balbriggan Baile Brigín
 Baldoyle Baile Dúill
 Ballaghaderreen Bealach an Doirín
+Ballaghkeen An Bealach
 Ballaghmore An Bealach Mór
 Ballaghnatrillick Béal Átha an Trí Liag
 Ballickmoyler Baile Mhic Mhaoilir
 Ballina Béal an Átha
+Ballinaclash An Chlais
 Ballinacurra Baile na Cora
 Ballinafad Béal an Átha Fada
 Ballinagree Baile na Graí
@@ -125,6 +127,7 @@ Ballycahill Bealach Achaille
 Ballycanew Baile Uí Chonnmhaí
 Ballycarney Baile Uí Chearnaigh
 Ballycastle Baile an Chaisil
+Ballyclerahan Baile Uí Chléireacháin
 Ballyclogh Baile Cloch
 Ballycommon Baile Uí Chomáin
 Ballyconneely Baile Conaola
@@ -210,6 +213,7 @@ Barefield Gort Lomán
 Barna Bearna
 Barnesmore An Bearnas Mór
 Bawnboy An Bábhún Buí
+Bealaclugga Béal an Chloga
 Bealadangan Béal an Daingin
 Beaufort Lios an Phúca
 Bekan Béacán
@@ -300,6 +304,7 @@ Canningstown Baile Chainín
 Cappagh An Cheapaigh
 Cappamore An Cheapach Mhór
 Capparoe An Cheapach Rua
+Cappoge Ceapach
 Cappoquin Ceapach Choinn
 Cardiff Caerdydd
 Carlingford Cairlinn
@@ -329,7 +334,7 @@ Carrowkeel An Cheathrú Chaol
 Carrowmore Ceathrú Mhór Leacan
 Carrowroe An Cheathrú Rua
 Carrowteige Ceathrú Thaidhg
-Cashel Caiseal
+Cashel An Caiseal
 Cashelmore An Caiseal Mór
 Castlebaldwin Béal Átha na gCarraigíní
 Castlebar Caisleán an Bharraigh
@@ -491,6 +496,7 @@ Cullahill An Chúlchoill
 Culleens Na Coillíní
 Cummer Comar
 Curracloe Currach Cló
+Curragh An Currach
 Curraghboy An Currach Buí
 Curraglass Cora Ghlas
 Currane An Corrán
@@ -544,6 +550,7 @@ Dromineer Drom Inbhir
 Dromiskin Droim Ineasclainn
 Dromkeen Drom Caoin
 Dromod Dromad
+Dromore An Droim Mór
 Drumbane An Drom Bán
 Drumcar Droim Chora
 Drumcliff Droim Chliabh
@@ -700,6 +707,7 @@ Gortatlea Gort an tSléibhe
 Gorteen Goirtín
 Gortgarrigan Gort Geargáin
 Gowran Gabhrán
+Graigue An Ghráig
 Graiguenamanagh Gráig na Manach
 Granagh Greanach
 Granard Gránard
@@ -739,6 +747,7 @@ Inishbofin Inis Bó Finne
 Inishcarra Inis Cara
 Inishcrone Inis Crabhann
 Inisheer Inis Oírr
+Inishfree Inis Fraoigh
 Inishkeen Inis Caoin
 Inishmaan Inis Meáin
 Inishturk Inis Toirc
@@ -773,6 +782,7 @@ Kilbeggan Cill Bheagáin
 Kilbeheny Coill Bheithne
 Kilberry Cill Bhearaigh
 Kilbricken Cill Bhriocáin
+Kilbride Cill Bhríde
 Kilbrittain Cill Briotáin
 Kilcar Cill Charthaigh
 Kilclare Coill an Chláir
@@ -838,6 +848,7 @@ Killygordon Cúil na gCuirridín
 Kilmacanoge Cill Mocheanóg
 Kilmacow Cill Mhic Bhúith
 Kilmacrenan Cill Mhic Réanáin
+Kilmacsimon Coill Mhic Shíomoin
 Kilmacthomas Coill Mhic Thomáisín
 Kilmactranny Cill Mhic Treana
 Kilmaganny Cill Mogeanna
@@ -940,6 +951,7 @@ Liscarney Lios Cearnaigh
 Liscarroll Lios Cearúill
 Lisdoonvarna Lios Dúin Bhearna
 Lisduff An Lios Dubh
+Lisgrea Lios Cré
 Lismore Lios Mór
 Lisnagry Lios na Graí
 Lispole Lios Póil
@@ -958,6 +970,7 @@ Lough Loch
 Loughan Lochán
 Loughmoe Luachma
 Loughrea Baile Locha Riach
+Loughros Luacharos
 Louisburgh Cluain Cearbán
 Lucan Leamhcán
 Lucerne Luzern
@@ -1074,12 +1087,16 @@ Omagh An Ómaigh
 Omeath Ó Méith
 Oola Úlla
 Oranmore Órán Mór
+Orchardstown Baile an Úlloird
+Orchardton Baile an Úlloird
 Oughterard Uachtar Ard
 Oulart An tAbhallort
 Ovens Na hUamhanna
 Owenbeg An Abhainn Bheag
+Owey Uaigh
 Owning Ónainn
 Padua Padova
+Pallas Pailís
 Pallaskenry Pailís Chaonraí
 Palmerston Baile Phámar
 Parkbridge Droichead na Páirce
@@ -1143,6 +1160,7 @@ Recess Sraith Salach
 Redcross An Chrois Dhearg
 Redhills An Cnoc Rua
 Reens Roighne
+Ringville An Rinn
 Ringaskiddy Rinn an Scidígh
 Ringsend An Rinn
 Riverstick Áth an Mhaide
@@ -1155,6 +1173,7 @@ Rockchapel Séipéal na Carraige
 Rockcorry Buíochar
 Roebuck Reabóg
 Roman Rómhánach
+Roonagh Rú an Átha
 Roosky Rúscaigh
 Roscrea Ros Cré
 Rosegreen Faiche Ró
@@ -1295,6 +1314,7 @@ Tullylease Tulach Léis
 Tullyvin Tulaigh Bhinn
 Tulsk Tuilsce
 Tuosist Tuath Ó Siosta
+Turbot Tairbeart
 Ture An tIúr
 Turin Torino
 Turlough Turlach
@@ -1308,6 +1328,7 @@ Ventry Ceann Trá
 Vicarstown Baile an Bhiocáire
 Villierstown An Baile Nua
 Virginia Achadh an Iúir
+Walkinstown Baile Bhailcín
 Waterfall Tobar an Iarla
 Watergrasshill Cnocán na Biolraí
 Waterville An Coireán

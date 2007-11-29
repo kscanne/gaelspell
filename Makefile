@@ -297,9 +297,10 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	chmod 644 ga_IE.zip
 	echo 'ga,IE,hyph_ga_IE,Irish (Ireland),hyph_ga_IE.zip' > hyph.txt
 	echo 'ga,IE,ga_IE,Irish (Ireland),ga_IE.zip' > spell.txt
-	touch thes.txt
+	echo 'ga,IE,thes_ga_IE_v2,Irish (Ireland),thes_ga_IE_v2.zip' > thes.txt
 	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/hyph_ga_IE.zip
-	zip ga_IE-pack ga_IE.zip hyph.txt hyph_ga_IE.zip spell.txt thes.txt
+	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/thes_ga_IE_v2.zip
+	zip ga_IE-pack ga_IE.zip hyph.txt hyph_ga_IE.zip spell.txt thes.txt thes_ga_IE_v2.zip
 	mkdir dictionaries
 	cp ga_IE.dic dictionaries
 	cp ga_IE.aff dictionaries

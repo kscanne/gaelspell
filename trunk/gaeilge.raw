@@ -2717,6 +2717,8 @@ amharcléirithe/HMDU
 amharcléiriú/HMDBUT
 amharctar/HU
 amharctha/HB
+amharcáin/HMDBU
+amharcán/HMDBUT
 amhas/HMDBUT
 amhastrach/HMDBU
 amhastraí/HMDU
@@ -7360,6 +7362,9 @@ bardasaí/S
 bardaí/US
 barr/US
 barra/US
+barra-chairt/US
+barra-chairte/US
+barra-chairteacha/US
 barrach/SU
 barracha/S
 barrachais/US
@@ -20193,6 +20198,10 @@ criospa/US
 criospaí/US
 criostail/US
 criostal/US
+criostalagrafach/S
+criostalagrafacha/S
+criostalagrafaigh/S
+criostalagrafaí/S
 criostalaigh/US
 criostalaithe/SU
 criostalaím/USC
@@ -22622,6 +22631,8 @@ cúitiúic/US
 cúití/S
 cúitím/USC
 cúl/US
+cúl-loirg/US
+cúl-lorg/US
 cúla/US
 cúlach/US
 cúlacha/US
@@ -27793,6 +27804,9 @@ dramhbhanna/US
 dramhbhannaí/US
 dramhphoist/US
 dramhphost/US
+dramhphostóir/US
+dramhphostóirí/US
+dramhphostóra/US
 drandail/US
 drandaim/US
 drandal/US
@@ -33995,6 +34009,8 @@ foghlaím/USC
 foghlaíocht/MDBUS
 foghlaíochta/MDUS
 foghlú/MDBUS
+foghnáthaimh/MDBUS
+foghnáthamh/MDBUS
 foghrach/BS
 foghracha/BS
 foghraigh/SU
@@ -36513,7 +36529,6 @@ fóirdheonaím/USC
 fóirdheontais/MDBUS
 fóirdheontas/MDBUS
 fóirdheonú/MDBUS
-fóire/MDUS
 fóireach/MDUS
 fóireacha/MDBUS
 fóirim/USA
@@ -46777,6 +46792,10 @@ leath-thosaí
 leath-throigh
 leath-throighe
 leath-throithe
+leath-thrédhearcach
+leath-thrédhearcacha
+leath-thrédhearcaigh
+leath-thrédhearcaí
 leath-thunna
 leath-thunnaí
 leath-tháille
@@ -48828,6 +48847,8 @@ lánmhaireacht
 lánmhaireachta
 lánmhar
 lánmhara
+lánmhéid
+lánmhéide
 lánmhúchadh
 lánmhúchta
 lánoiread
@@ -56358,6 +56379,10 @@ neamhchaighdeánach
 neamhchaighdeánacha
 neamhchaighdeánaigh
 neamhchaighdeánaí
+neamhchaillteach
+neamhchaillteacha
+neamhchailltigh
+neamhchailltí
 neamhchais
 neamhchaise
 neamhchaiteoir
@@ -59393,6 +59418,9 @@ pacoighir/US
 pacáil/US
 pacáilte/S
 pacáiste/US
+pacáisteoir/US
+pacáisteoirí/US
+pacáisteora/US
 pacáistigh/US
 pacáistithe/SU
 pacáistiú/US
@@ -59695,6 +59723,10 @@ paraimhíochaineoirí/US
 paraimhíochaineora/US
 paraiméadair/US
 paraiméadar/US
+paraiméadrach/S
+paraiméadracha/S
+paraiméadraigh/S
+paraiméadraí/S
 paraimíleatach/SU
 paraimíleatacha/S
 paraimíleataigh/SU
@@ -60472,6 +60504,8 @@ piotútaí/S
 pireamáine/US
 pirimid/US
 pirimide/US
+pirimidiúil/S
+pirimidiúla/S
 pirimidí/US
 Piréineach/S
 Piréineacha/S
@@ -63530,6 +63564,8 @@ rindreáilte
 rindreála
 rindreálaim/I
 rindreálainn/J
+rindreálaithe
+rindreálaí
 ringear
 ringir
 rinn
@@ -66760,6 +66796,9 @@ sceidealaim/A
 sceidealainn/E
 sceidealaí
 sceidealta
+sceidealóir
+sceidealóirí
+sceidealóra
 sceideáil
 sceideála
 sceidhreog
@@ -70903,6 +70942,8 @@ smeachaíola
 smeachdhúntóir
 smeachdhúntóirí
 smeachdhúntóra
+smeachleabhair
+smeachleabhar
 smeachta
 smeacháin
 smeachán
@@ -77514,6 +77555,8 @@ thras-scríobha/U
 thras-scríobhainn/EU
 thrasbhéarlaí/U
 thrasbhéarlaínn/FU
+thraschódaí/U
+thraschódaínn/FU
 thrasfhoirmí/U
 thrasfhoirmínn/FU
 thrasghearra/U
@@ -78944,6 +78987,10 @@ trasbhéarlaím/USC
 trasbhéarlú/US
 traschéimnithe/US
 traschéimniú/US
+traschódaigh/US
+traschódaithe/SU
+traschódaím/USC
+traschódú/US
 traschóimheas/US
 traschóimheasa/US
 trasduchtaire/US
@@ -78956,6 +79003,9 @@ trasdula/US
 trasfheisteoir/US
 trasfheisteoirí/US
 trasfheisteora/US
+trasfhoirmeoir/US
+trasfhoirmeoirí/US
+trasfhoirmeora/US
 trasfhoirmigh/US
 trasfhoirmithe/SU
 trasfhoirmiú/US
@@ -79246,6 +79296,8 @@ triantánaithe/SU
 triantánaí/S
 triantánaím/USC
 triantánú/US
+triantánúil/S
+triantánúla/S
 triarach/S
 triaracha/S
 triaraigh/S

@@ -14,6 +14,7 @@ Boeing
 Bose
 Boutle
 Budweiser
+Caldera
 Carlsberg
 Cingular
 Clannad
@@ -24,6 +25,7 @@ ComReg
 Corning
 Cybergael
 Damer
+Debian
 Dell
 Deloitte
 Dialang
@@ -41,6 +43,8 @@ Europol
 Europus
 Evertype
 Exxon
+Facebook
+Fedora
 Fiat
 Firefox
 Flickr
@@ -70,7 +74,9 @@ Javascript
 Jelsoft
 Kindersley
 Kinja
+Knoppix
 Lagan
+Linspire
 Linux
 Lurgan
 Lycos
@@ -88,6 +94,7 @@ Mitsubishi
 Mobil
 Moodle
 Mozilla
+MySpace
 Napster
 Nemeton
 Netscape
@@ -110,7 +117,9 @@ Ryanair
 Shailearna
 Shelbourne
 Siemans
+Skolelinux
 Skype
+Slackware
 Smurfit
 Sony
 Symantec
@@ -122,6 +131,7 @@ Texaco
 Ticketmaster
 Touche
 Toyota
+Ubuntu
 Veritas
 Verizon
 Viagra
@@ -133,4 +143,5 @@ Volvo
 Wiley
 Windows
 Xanga
+YouTube
 Óg-Ógras

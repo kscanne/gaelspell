@@ -813,6 +813,8 @@ astar/HMDBUT
 asteach
 astigh
 astoigh
+Astracáin
+Astracán
 Ataen
 atail/HMDU
 atal/HMDBUT
@@ -950,6 +952,7 @@ b'Ardfheiseanna
 b'Ardrúnaí
 b'as
 b'Asairis
+b'Astracán
 b'Ataen
 b'ea
 b'Eachach
@@ -966,8 +969,10 @@ b'iad
 b'Iamáiceach
 b'Iamáiceacha
 b'Iamáicí
+b'Iarachó
 b'Iarnaois
 b'in
+b'Ind
 b'Inde-Sín
 b'Indiathach
 b'Indiathacha
@@ -1447,6 +1452,8 @@ bodhraíola/US
 bodhránaithe/US
 bodhránaí/US
 bogadaigh/US
+bogadáin/US
+bogadán/US
 bogearraí-le-roinnt/US
 boglach/US
 boglacháin/US
@@ -4390,6 +4397,8 @@ d'arm/U
 d'armainn/EU
 d'Asairis
 d'Asairise
+d'Astracáin
+d'Astracán
 d'Ataen
 d'atharaigh/U
 d'atharaínn/FU
@@ -4465,12 +4474,15 @@ d'fhíor
 d'fhíorainn/E
 d'fhónaigh
 d'fhónaínn/F
+d'Iarachó
 d'Iarnaois
 d'Iarnaoise
 d'inanálaigh/U
 d'inanálaínn/FU
 d'inchollaigh/U
 d'inchollaínn/FU
+d'Ind
+d'Inde
 d'Inde-Sín
 d'Inde-Síne
 d'innis/U
@@ -5679,6 +5691,8 @@ dóthainigh/S
 dóthainí/S
 dú/US
 dúbalta/S
+dúbhlaidheacht/US
+dúbhlaidheachta/US
 dúbláid/US
 dúbláide/SU
 dúbláidí/US
@@ -8093,6 +8107,8 @@ hArdfheiseanna
 hArdrúnaí
 hAsairis
 hAsairise
+hAstracáin
+hAstracán
 hAtaen
 hEachach
 hEanar
@@ -8107,12 +8123,15 @@ heorastúla
 hEuróip
 hEuróipe
 hIamáiceach
+hIarachó
 hIarnaois
 hIarnaoise
 hiasaint
 hiasainte
 hiasaintí
 hin
+hInd
+hInde
 hInde-Sín
 hInde-Síne
 hIndiathach
@@ -8170,6 +8189,7 @@ Iamáiceacha
 Iamáicigh
 Iamáicí
 iar/U
+Iarachó
 iarbhaill/HMDBU
 iarbhall/HMDBUT
 iarbhallach/HB
@@ -8304,6 +8324,8 @@ inchánach/HB
 inchánacha/B
 inchánaigh
 inchánaí/B
+Ind
+Inde
 Inde-Sín
 Inde-Síne
 indiaidh
@@ -9505,6 +9527,8 @@ m'Ardfheiseanna
 m'Ardrúnaí
 m'Asairis
 m'Asairise
+m'Astracáin
+m'Astracán
 m'Ataen
 m'Eachach
 m'Eanar
@@ -9515,8 +9539,11 @@ m'Euróipe
 m'Fhionlannais
 m'Fhionlannaise
 m'Fhéinícia
+m'Iarachó
 m'Iarnaois
 m'Iarnaoise
+m'Ind
+m'Inde
 m'Inde-Sín
 m'Inde-Síne
 m'Ioruaidh
@@ -10014,6 +10041,8 @@ mur
 muran
 murbhach/S
 murbhaigh/S
+murdail/S
+murdal/S
 murdhúcha/S
 murdhúchaill/S
 murdhúchaille/S
@@ -10245,6 +10274,8 @@ nascanna
 nascaí
 nascaím/C
 nascaínn/F
+nAstracáin
+nAstracán
 nAtaen
 nathanach
 nathanacha
@@ -10381,6 +10412,7 @@ nGearmánaise
 nGiana
 nGlasgó
 nGuaranaí
+nIarachó
 nIarnaois
 nIarnaoise
 nicotín
@@ -10395,6 +10427,8 @@ nimhneadas
 nimhneas
 nimhnis
 nimhní
+nInd
+nInde
 nInde-Sín
 nInde-Síne
 niocail
@@ -14091,6 +14125,7 @@ taspánta/S
 tastaigh/US
 tastaithe/S
 tastaím/USC
+tAstracán
 tastáil/US
 tastála/US
 tastálacha/US
@@ -14351,6 +14386,7 @@ tiach/US
 tiachair/S
 tiacháin/US
 tiachán/US
+tIarachó
 tiarnach/S
 tiarnacha/S
 tiarnaigh/S

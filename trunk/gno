@@ -37,6 +37,7 @@ Dunnes
 Easons
 EasyReader
 eBay
+Edgecast
 Eircom
 Eurolang
 Europol
@@ -142,6 +143,7 @@ Volkswagen
 Volvo
 Wiley
 Windows
+WordPress
 Xanga
 YouTube
 Óg-Ógras

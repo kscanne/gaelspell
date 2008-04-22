@@ -1260,6 +1260,8 @@ bhFrainceach
 bhFraincigh
 bhFraincís
 bhFraincíse
+bhFrancais
+bhFrancaise
 bhFrancóir
 bhFrancóirí
 bhFrancóra
@@ -2192,6 +2194,8 @@ carabhait/US
 carabhat/US
 carabhata/US
 carabhataí/US
+carachtaeir/US
+carachtaer/US
 caradach/S
 caradacha/S
 caradaigh/S
@@ -2731,6 +2735,7 @@ cinéatach/S
 cinéatacha/S
 cinéataigh/S
 cinéataí/S
+ciní/US
 cinígh/US
 ciníl/US
 ciníoch/US
@@ -4080,6 +4085,9 @@ curr/US
 curra/US
 currach/US
 curraigh/US
+custamaeir/US
+custamaeirí/US
+custamaera/US
 custuim/US
 custum/US
 cut/US
@@ -5250,6 +5258,8 @@ drada/US
 draen/US
 draenta/US
 draide/US
+dramhaoil/US
+dramhaola/US
 dramhaíle/US
 dramhíola/US
 dranntáin/US
@@ -5517,6 +5527,7 @@ durdal/US
 dus/US
 dusa/US
 dá'r
+dáilcheantracha/US
 dáiligh/US
 dáilithe/SU
 dáiliú/US
@@ -6740,6 +6751,8 @@ Frainceach/S
 Fraincigh/S
 Fraincís/S
 Fraincíse/S
+Francais/S
+Francaise/S
 Francóir/S
 Francóirí/S
 Francóra/S
@@ -9076,6 +9089,9 @@ liaghacht
 liaghachta
 liagracha
 liaigh
+liamhain
+liamhaintí
+liamhna
 Libe
 Libeach
 Libeacha
@@ -9806,6 +9822,9 @@ meallairí/S
 meanadh/S
 meangaíl/S
 meangaíola/S
+meanmna/S
+meanmnaidh/S
+meanmnan/S
 meantais/S
 meantas/S
 mearacht/S
@@ -9838,6 +9857,14 @@ meiche/S
 meidiúsa/S
 meidiúsaí/S
 meigea/S
+Meirceánach/S
+Meirceánacha/S
+Meirceánaigh/S
+Meirceánaí/S
+Meireacánach/S
+Meireacánacha/S
+Meireacánaigh/S
+Meireacánaí/S
 meireamorfach/S
 meireamorfacha/S
 meireamorfaigh/S
@@ -9860,6 +9887,7 @@ meáchtaintí/S
 meáchtana/S
 meádhoin/S
 meádhon/S
+meáinchumarsáide/S
 meán/S
 meánlae/S
 meánoíche/S
@@ -11837,6 +11865,8 @@ rómánsúla
 rúchla
 rúchlaí
 rúille-búille
+rúinne
+rúinní
 Rúmáin
 Rúmáine
 Rúmánach
@@ -13077,6 +13107,9 @@ soláthairtí/S
 soláthrach/S
 soláthraigh/ST
 soláthraithe/ST
+soláthraitheoir/S
+soláthraitheoirí/S
+soláthraitheora/ST
 soláthraí
 soláthraím/SC
 soláthraínn/F
@@ -13405,6 +13438,8 @@ stilliú
 stillí
 stillím/C
 stillínn/F
+stiúidíó
+stiúidíónna
 stiúr
 stiúraigh
 stiúraithe
@@ -14502,7 +14537,9 @@ tiormú/US
 Tioról/S
 tirm/S
 titeam/US
+titeamh/US
 titim/US
+titimh/US
 tiubh/US
 tiubhachan/US
 tiubhachana/US
@@ -15054,6 +15091,9 @@ táirgeáilte/S
 táirgeála/US
 táirgeálaim/USI
 táirgigh/S
+táirgitheoir/US
+táirgitheoirí/US
+táirgitheora/US
 táirgtheoir/US
 táirgtheoirí/US
 táirgtheora/US
@@ -15393,6 +15433,10 @@ undúireachtaí/HMDBU
 undúirí/HMDBU
 undúra/HMDU
 ur/U
+urbach/HB
+urbacha/B
+urbaigh
+urbaí/B
 Urdúis
 Urdúise
 urghnaimh/HMDU

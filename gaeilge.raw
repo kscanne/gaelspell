@@ -2235,14 +2235,20 @@ aiteall/HMDBUT
 aitealladh/HMDBUT
 aiteallaidh/HMDU
 aiteann/HMDBUT
+aiteannach/HMDBU
+aiteannaí/HMDU
 aiteas/HMDBUT
 aiteasach/HB
 aiteasacha/B
 aiteasaigh
 aiteasaí/B
 aitheanta/HBMDU
+aitheantach/HB
+aitheantacha/B
+aitheantaigh
 aitheantais/HMDBU
 aitheantas/HMDBUT
+aitheantaí/B
 aitheantóir/HMDBUT
 aitheantóirí/HMDBU
 aitheantóra/HMDU
@@ -7939,6 +7945,7 @@ beistrithe/US
 beistrí/US
 beiséal/US
 beiséil/US
+beiteal/US
 beith/US
 beithe/US
 Beithil/S
@@ -7953,6 +7960,7 @@ beithé/US
 beithéanna/US
 beithígh/US
 beithíoch/US
+beitil/US
 beití/US
 beo/SU
 beochan/US
@@ -10521,6 +10529,9 @@ brufar/S
 brufara/S
 brugh/US
 brugha/US
+bruig/US
+bruige/US
+bruigeanna/US
 bruilíneach/US
 bruilínigh/US
 bruinneall/US
@@ -15572,6 +15583,8 @@ ciapaire/US
 ciapairí/US
 ciapaí/S
 ciaptha/SU
+ciapáil/US
+ciapála/US
 ciapánta/S
 ciapóga/US
 ciar/SU
@@ -22578,6 +22591,8 @@ cúinsí/SU
 Cúipid/S
 cúipéara/US
 cúipéir/US
+cúipéireacht/US
+cúipéireachta/US
 cúipéirí/US
 cúir/US
 cúirialta/S
@@ -25375,8 +25390,10 @@ daonscoile/US
 daonscoileanna/US
 daonuair/US
 daonuaire/US
+daonáin/US
 daonáireamh/US
 daonáirimh/US
+daonán/US
 daor/SU
 daora/S
 daoradh/US
@@ -32469,6 +32486,7 @@ feascairtí/MDBUS
 feascar/MDBUS
 feascartha/MDUS
 feasta
+featha/MDBUS
 feic/MDBUS
 feiceadh
 feiceann/US
@@ -60384,6 +60402,7 @@ pianúla/S
 piara/US
 piaraí/US
 piarbhrú/US
+piarcas/US
 piarda/US
 piardaí/US
 piardáil/US
@@ -68774,6 +68793,8 @@ searróg/ST
 searróga/S
 searróige/S
 searáidí/S
+searúit/ST
+searút/S
 seas/S
 seasa/ST
 seasaim/SA
@@ -72456,6 +72477,8 @@ spleodrach
 spleodracha
 spleodraigh
 spleodraí
+spleotáin
+spleotán
 spleá
 spleách
 spleácha
@@ -75165,6 +75188,7 @@ séasúrach/S
 séasúracha/S
 séasúraigh/S
 séasúraí/S
+séibe/S
 Séicire/S
 Séicirí/S
 séid/S
@@ -76872,6 +76896,8 @@ teaice/US
 teaiceanna/US
 teailí/US
 teallach/US
+teallacháin/US
+teallachán/US
 teallaigh/US
 teallaire/US
 teallaireacht/US
@@ -83750,11 +83776,13 @@ zúnna
 éamú/HMDBUT
 éamúnna/HMDBU
 éan/HMDBUT
+éanach/HMDBUT
 éanadáin/HMDBU
 éanadán/HMDBUT
 éanadóir/HMDBUT
 éanadóirí/HMDBU
 éanadóra/HMDU
+éanaigh/HMDU
 éaneolaithe/HMDBU
 éaneolaí/HMDBUT
 éaneolaíocht/HMDBU

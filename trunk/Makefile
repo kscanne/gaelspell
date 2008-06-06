@@ -105,7 +105,7 @@ fromdb : FORCE
 # must keep sort this way so "join" works in gramadoir-ga makefile...
 athfromdb : FORCE
 	$(GIN) 10
-	LC_ALL=C sort -u athfhocail | LC_ALL=C sort -k1,1 > tempfile
+	LC_ALL=C sort -u athfhocail fgbalts.txt | LC_ALL=C sort -k1,1 > tempfile
 	mv -f tempfile athfhocail
 
 # GNU sort ignores "/" so words don't come out in correct alphabetical

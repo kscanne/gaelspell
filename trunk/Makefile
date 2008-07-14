@@ -147,6 +147,8 @@ sortpersonal: FORCE
 	mv tempfile earraidi
 	LC_ALL=C sort -f uimhreacha > tempfile
 	mv tempfile uimhreacha
+	LC_ALL=C sort -f myalts.txt > tempfile
+	mv tempfile myalts.txt
 
 stair.txt : stair
 	LC_ALL=ga_IE sed 's/^[^:]*://' stair | LC_ALL=ga_IE sort -u > $@

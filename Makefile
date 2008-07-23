@@ -96,6 +96,10 @@ veryclean:
 	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt romhanach README_ga_IE.txt ChangeLog
 
 # flip BH for historical compat, clean CVS
+# note that gaeilge.mor is not complete after this - in "groom"
+# I also add words from fgbalts.txt myalts.txt to it, see "justalts" target
+# below - need to do this after athfhocail and aspellalt.txt have been
+# regenerated
 fromdb : FORCE
 	$(GIN) 7
 	sed -i 's/\/BH/\/HB/' gaeilge.raw gaeilge.lit gaeilge.mor
@@ -107,6 +111,14 @@ athfromdb : FORCE
 	$(GIN) 10
 	LC_ALL=C sort -u athfhocail fgbalts.txt myalts.txt | LC_ALL=C sort -k1,1 > tempfile
 	mv -f tempfile athfhocail
+
+justalts : FORCE
+	cat athfhocail | LC_ALL=C sed 's/ .*//' | keepif -n ./aspellalt.txt latin-1 | LC_ALL=C sort -u >> $(ALTWORDS)
+	$(MAKE) sort
+	$(MAKE) all
+	$(MAKE) aspellalt.txt
+	echo 'Should be no output:'
+	cat athfhocail | LC_ALL=C sed 's/ .*//' | keepif -n ./aspellalt.txt latin-1
 
 # GNU sort ignores "/" so words don't come out in correct alphabetical
 # order, which is desirable for readability and clean CVS logs

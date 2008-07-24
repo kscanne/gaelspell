@@ -3389,8 +3389,6 @@ Aoine
 aoine/HMDBU
 aoinle/HMDBU
 aoinlí/HMDBU
-aoinne/H
-aoinneach/H
 Aointe
 aointe/HMDBU
 aoir/HMDBU
@@ -3974,6 +3972,9 @@ ardranganna/HMDBU
 ardréim/HMDBU
 ardréime/HMDU
 ardrí/HMDBUT
+ardríocht/HMDBU
+ardríochta/HMDU
+ardríochtaí/HMDBU
 ardríthe/HMDBU
 ardrúnaíocht/HMDBU
 ardrúnaíochta/HMDU
@@ -8453,7 +8454,6 @@ bhíodh/U
 bhíoga/U
 bhíogainn/EU
 bhíomar
-bhíos
 bhíothas
 bhíteá/U
 bhítí/U
@@ -20602,6 +20602,9 @@ cruachóipe/US
 cruachóipeanna/US
 cruadhiosca/US
 cruadhioscaí/US
+cruaghaoithe/US
+cruaghaoth/US
+cruaghaotha/US
 cruaiche/US
 cruaigh/SU
 cruaim/USA
@@ -25542,6 +25545,8 @@ dea-chríche/US
 dea-chríoch/US
 dea-chuma/US
 dea-chumtha/S
+dea-cháil/US
+dea-cháile/US
 dea-ghléasta/S
 dea-ghnímh/US
 dea-ghníomh/US
@@ -32431,7 +32436,7 @@ Fear/S
 feara/MDBUS
 fearachais/MDUS
 fearachas/MDBUS
-fearacht/MDBUS
+fearacht
 fearadh/MDBUS
 fearaibh/MDBUS
 fearaim/USA
@@ -32871,6 +32876,7 @@ fheamnaínn/FU
 fheanna/U
 fheannainn/EU
 fheara/U
+fhearacht
 fhearainn/EU
 fhearastaí/U
 fhearastaínn/FU
@@ -34797,6 +34803,9 @@ fortheilgin/MDBUS
 forthroime/BS
 forthrom/BS
 forthroma/BS
+forthuaithe/MDUS
+forthuath/MDBUS
+forthuatha/MDBUS
 forthé/USBMD
 forthéigh/US
 forthéim/USA

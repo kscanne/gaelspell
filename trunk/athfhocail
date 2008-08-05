@@ -5034,6 +5034,8 @@ b'uirí b'úirí
 b'uiríolla b'uiríll
 b'uirísleacht b'uirísle
 b'uiseanna b'uisinní
+b'uiseog b'fhuiseog
+b'uiseoga b'fhuiseoga
 b'ulagáin b'ulchabháin
 b'ulagán b'ulchabhán
 b'ulc b'olc
@@ -8528,6 +8530,7 @@ bhuidheog bhuíóg
 bhuidheoga bhuíóga
 bhuidheoige bhuíóige
 bhuidhigh bhuíoch
+bhuidhin-cheoil bhuíon cheoil
 bhuidhí bhuíche
 bhuig bhog
 bhuige bhoige
@@ -10092,6 +10095,9 @@ bpáirtnéireachtaí bpáirtíochtaí
 bpáirtnéirí bpáirtithe
 bpártaithe bpáirtithe
 bpártaí bpáirtí
+bpásóid bpasáiste
+bpásóide bpasáiste
+bpásóidí bpasáistí
 bpáí bpá
 bpéacaíocht bpéacacht
 bpéacaíochta bpéacachta
@@ -10970,6 +10976,7 @@ buidheog buíóg
 buidheoga buíóga
 buidheoige buíóige
 buidhigh buíoch
+buidhin-cheoil buíon cheoil
 buidhí buíche
 buig bog
 buige boige
@@ -14658,6 +14665,7 @@ chomharbacht chomharbas
 chomharbachta chomharbais
 chomhard chomh-ard
 chomharda chomh-arda
+chomharsain chomharsa
 chomharsain chomharsana
 chomhchaitéanaigh chomhchaitéinigh
 chomhchaitéanaithe chomhchaitéinithe
@@ -18568,6 +18576,7 @@ comharda comh-arda
 comhardamh comhardú
 comhardas comh-ardacht
 comhardaíocht comh-ardacht
+comharsain comharsa
 comharsain comharsana
 comharsantacht comharsanacht
 comhbhia comhbhiathú
@@ -24134,6 +24143,9 @@ d'uiríolla d'uiríll
 d'uirísleacht d'uirísle
 d'uirísleachta d'uirísle
 d'uiseanna d'uisinní
+d'uiseog d'fhuiseog
+d'uiseoga d'fhuiseoga
+d'uiseoige d'fhuiseoige
 d'ulagáin d'ulchabháin
 d'ulagán d'ulchabhán
 d'ulcacháin d'ulchabháin
@@ -38974,6 +38986,7 @@ gcomhairligh gcomhairleora
 gcomhairligh gcomhairlithe
 gcomharbacht gcomharbas
 gcomharbachta gcomharbais
+gcomharsain gcomharsa
 gcomharsain gcomharsana
 gcomhchaitéanaigh gcomhchaitéinigh
 gcomhchaitéanaithe gcomhchaitéinithe
@@ -41759,6 +41772,7 @@ ghlúna ghlúine
 ghlúnach ghlúine
 ghlúnta ghlúine
 ghnaithe ghnó
+ghnaithe ghnóthaí
 ghnaitheach ghnóthach
 ghnaitheacha ghnóthacha
 ghnaithigh ghnóthaigh
@@ -43017,6 +43031,7 @@ glúscarnach gliúrascnach
 glúscarnaíl gliúrascnach
 glúscán gliúrascnach
 gnaithe gnó
+gnaithe gnóthaí
 gnaitheach gnóthach
 gnaitheacha gnóthacha
 gnaithigh gnóthaigh
@@ -45852,6 +45867,9 @@ huirísleacht huirísle
 huirísleachta huirísle
 huis hois
 huiseanna huisinní
+huiseog fuiseog
+huiseoga fuiseoga
+huiseoige fuiseoige
 hulagáin hulchabháin
 hulagán hulchabhán
 hulc holc
@@ -48240,6 +48258,7 @@ leitheadacht leitheadas
 leitheadachta leitheadais
 leitheadaigh leitheadach
 leitheadúil leitheadach
+leitheann leitheanna
 leitheid leithéid
 leitheide leithéide
 leitheidí leithéidí
@@ -51662,6 +51681,9 @@ m'uiríolla m'uiríll
 m'uirísleacht m'uirísle
 m'uirísleachta m'uirísle
 m'uiseanna m'uisinní
+m'uiseog m'fhuiseog
+m'uiseoga m'fhuiseoga
+m'uiseoige m'fhuiseoige
 m'ulagáin m'ulchabháin
 m'ulagán m'ulchabhán
 m'ulcacháin m'ulchabháin
@@ -53549,6 +53571,7 @@ mbuidheann mbuíon
 mbuidheog mbuíóg
 mbuidheoga mbuíóga
 mbuidheoige mbuíóige
+mbuidhin-cheoil mbuíon cheoil
 mbuige mboige
 mbuigiúin mbogshifín
 mbuigiúin mbogshifíní
@@ -57965,6 +57988,9 @@ n-uiríolla n-uiríll
 n-uirísleacht n-uirísle
 n-uirísleachta n-uirísle
 n-uiseanna n-uisinní
+n-uiseog bhfuiseog
+n-uiseoga bhfuiseoga
+n-uiseoige bhfuiseoige
 n-ulagáin n-ulchabháin
 n-ulagán n-ulchabhán
 n-ulcacháin n-ulchabháin
@@ -60711,6 +60737,7 @@ nglúna nglúine
 nglúnach nglúine
 nglúnta nglúine
 ngnaithe ngnó
+ngnaithe ngnóthaí
 ngnaithí ngnóthaí
 ngnoithe ngnó
 ngnách ngnáth
@@ -62923,6 +62950,9 @@ pháirtnéireachtaí pháirtíochtaí
 pháirtnéirí pháirtithe
 phártaithe pháirtithe
 phártaí pháirtí
+phásóid phasáiste
+phásóide phasáiste
+phásóidí phasáistí
 pháí phá
 phéacaíocht phéacacht
 phéacaíochta phéacachta
@@ -64033,6 +64063,9 @@ pápánach pápánta
 pápúil pápach
 pártaithe páirtithe
 pártaí páirtí
+pásóid pasáiste
+pásóide pasáiste
+pásóidí pasáistí
 pátrún patrún
 páí pá
 pé'r pé ar
@@ -65884,6 +65917,7 @@ samhail samhlaigh
 samhailt samhail
 samhailt samhlú
 samhailte samhla
+samhailteacha samhlacha
 samhailtí samhlacha
 samhaircín sabhaircín
 samhalfadh samhlódh
@@ -66088,7 +66122,9 @@ scabthach scaipeach
 scafaireacht scafántacht
 scafaireachta scafántachta
 scafóg scothóg
+scafóga scothóga
 scafógach scothógach
+scafóige scothóige
 scagachán scagaire
 scagadóir scagaire
 scagadóireacht scagaireacht
@@ -67310,6 +67346,8 @@ scuainí cuaineanna
 scuainí gcuaineanna
 scuan scuaine
 scuathóg scothóg
+scuathóga scothóga
+scuathóige scothóige
 scudal cudal
 scudal scodal
 scudalach sciodar
@@ -67437,9 +67475,11 @@ scéach sceach
 scéacha sceacha
 scéachtaint sceitheadh
 scéaltach scéalach
+scéaltach scéalta
 scéaltacha scéalacha
 scéaltaigh scéalaigh
 scéaltaí scéalaí
+scéaltaí scéalta
 scéaltóir scéalaí
 scéaltóireacht scéalaíocht
 scéaltóireachta scéalaíochta
@@ -67982,6 +68022,7 @@ shalchuach shailchuach
 shamhail shamhlaigh
 shamhailt shamhail
 shamhailte shamhla
+shamhailteacha shamhlacha
 shamhailtí shamhlacha
 shamhalfadh shamhlódh
 shamhalfaidh shamhlóidh
@@ -73526,6 +73567,7 @@ stucáil stuc
 stud stoda
 studa stoda
 studach dodach
+studio stiúideo
 stuf stuif
 stuic stoic
 stuideáir staidéir
@@ -80787,7 +80829,12 @@ uisceach uisciúil
 uise uisinn
 uiseann uisinne
 uiseanna uisinní
+uiseog fhuiseog
 uiseog fuiseog
+uiseoga fhuiseoga
+uiseoga fuiseoga
+uiseoige fhuiseoige
+uiseoige fuiseoige
 uladh ula
 ulagáin ulchabháin
 ulagán ulchabhán

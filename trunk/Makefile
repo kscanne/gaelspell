@@ -379,8 +379,8 @@ aspellrev.txt: aspell.txt
 	cat aspell.txt | perl -p -e 's/(.*)/reverse $$1/e;' | sort | perl -p -e 's/(.*)/reverse $$1/e;' > aspellrev.txt 
 
 seiceail: FORCE
-	@$(MAKE) fromdb
-	@$(MAKE) aspelllit.txt
+#	@$(MAKE) fromdb
+#	@$(MAKE) aspelllit.txt
 #	@$(GIN) 2   # rebuilds Eng-Ir dict.
 	@$(GIN) 8   # creates local EN.temp, IG.temp
 #	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort -u | egrep -v \' > EN.temp2

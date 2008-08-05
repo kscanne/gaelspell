@@ -303,6 +303,9 @@ mycheck: ga_IE.dic aspell.txt ga_IE.aff
 README_ga_IE.txt: README COPYING
 	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of hunspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 
+# creates old ga_IE.zip and ga_IE-pack.zip for OOo (now defunct, Summer 2008)
+# also creates xpi for Mozilla programs
+# Summer 2008: now creates oxt installable extension for OOo also
 mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	rm -f thes.txt hyph_ga_IE.zip ga_IE.zip
 	rm -Rf dictionaries
@@ -320,7 +323,16 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	cp ga_IE.aff dictionaries
 	cp README_ga_IE.txt dictionaries
 	zip -r ga-IE-dictionary.xpi dictionaries install.rdf install.js
-	rm -Rf dictionaries hyph.txt spell.txt thes.txt
+	rm -Rf hyph.txt spell.txt thes.txt META-INF
+	mkdir META-INF
+	cp manifest.xml META-INF
+	chmod 644 META-INF/manifest.xml
+	cp hyph_ga_IE.zip dictionaries
+	cp thes_ga_IE_v2.zip dictionaries
+	(cd dictionaries; unzip hyph_ga_IE.zip; unzip thes_ga_IE_v2.zip; rm -f *.zip)
+	sed -i '/<version value=/s/.*/    <version value="$(RELEASE)" \/>/' description.xml
+	zip -r focloiri-gaeilge-$(RELEASE).oxt dictionaries META-INF description.xml dictionaries.xcu LICENSES-en.txt CEADUNAIS-ga.txt
+	rm -Rf dictionaries META-INF
 
 mytardist: ga_IE.dic ChangeLog
 	cp README README.txt

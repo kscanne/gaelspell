@@ -183,11 +183,12 @@ validalts.txt : aspell.txt athfhocail
 	counts.pl /usr/local/share/crubadan/ga/FREQ.aimsigh tempvalid.txt | sort -k4,4 -r -n > $@
 	rm -f tempvalid.txt
 
+# athfhocail check is now defunct b/c of fgbalts
 checkearr: aspelllit.txt
 	$(MAKE) gaelu
 	LC_ALL=C sort -u aspelllit.txt $(PERSONAL) > a.tmp
 	LC_ALL=C sed 's/^[^ ]* //' earraidi | tr " " "\n" | keepif -n ./a.tmp latin-1 | LC_ALL=ga_IE sort -u
-	LC_ALL=C sed 's/^[^ ]* //' athfhocail | tr " " "\n" | keepif -n ./a.tmp latin-1 | LC_ALL=ga_IE sort -u
+#	LC_ALL=C sed 's/^[^ ]* //' athfhocail | tr " " "\n" | keepif -n ./a.tmp latin-1 | LC_ALL=ga_IE sort -u
 	LC_ALL=C sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-Z·ÈÌÛ˙¡…Õ”⁄-]" | keepif -n ./a.tmp latin-1 | LC_ALL=ga_IE sort -u
 	rm -f a.tmp
 

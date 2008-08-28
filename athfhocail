@@ -5204,6 +5204,8 @@ b'éagothromacht b'éagothroime
 b'éagothromachtaí b'éagothroimí
 b'éagothromaíocht b'éagothroime
 b'éagothromaíochtaí b'éagothroimí
+b'éagsamhlacht b'éagsúlacht
+b'éagsamhlachtaí b'éagsúlachtaí
 b'éalaing b'éalang
 b'éalaingeach b'éalangach
 b'éalaingeacha b'éalangacha
@@ -5236,6 +5238,7 @@ b'éideadh b'éide
 b'éididh b'éide
 b'éidreoireach b'éidreorach
 b'éidreoireacha b'éidreoracha
+b'éidreoireacht b'éidreoraí
 b'éidreoirí b'éidreoraí
 b'éifeachtúlacht b'éifeachtacht
 b'éigeanta b'éigeantach
@@ -24345,6 +24348,9 @@ d'éagothromachtaí d'éagothroimí
 d'éagothromaíocht d'éagothroime
 d'éagothromaíochta d'éagothroime
 d'éagothromaíochtaí d'éagothroimí
+d'éagsamhlacht d'éagsúlacht
+d'éagsamhlachta d'éagsúlachta
+d'éagsamhlachtaí d'éagsúlachtaí
 d'éalaing d'éalang
 d'éalaingí d'éalang
 d'éalaingí d'éalanga
@@ -24368,6 +24374,8 @@ d'éibhear d'eibhear
 d'éibhir d'eibhir
 d'éideadh d'éide
 d'éididh d'éide
+d'éidreoireacht d'éidreoraí
+d'éidreoireachta d'éidreoraí
 d'éifeachtúlacht d'éifeachtacht
 d'éifeachtúlachta d'éifeachtachta
 d'éigin d'éigean
@@ -46075,6 +46083,9 @@ héagothromachtaí héagothroimí
 héagothromaíocht héagothroime
 héagothromaíochta héagothroime
 héagothromaíochtaí héagothroimí
+héagsamhlacht héagsúlacht
+héagsamhlachta héagsúlachta
+héagsamhlachtaí héagsúlachtaí
 héalaing héalang
 héalaingeach héalangach
 héalaingí héalang
@@ -46104,6 +46115,8 @@ héicint héigin
 héideadh héide
 héididh héide
 héidreoireach héidreorach
+héidreoireacht héidreoraí
+héidreoireachta héidreoraí
 héifeachtúlacht héifeachtacht
 héifeachtúlachta héifeachtachta
 héigeanta héigeantach
@@ -51840,6 +51853,9 @@ m'éagothromachtaí m'éagothroimí
 m'éagothromaíocht m'éagothroime
 m'éagothromaíochta m'éagothroime
 m'éagothromaíochtaí m'éagothroimí
+m'éagsamhlacht m'éagsúlacht
+m'éagsamhlachta m'éagsúlachta
+m'éagsamhlachtaí m'éagsúlachtaí
 m'éalaing m'éalang
 m'éalaingí m'éalang
 m'éalaingí m'éalanga
@@ -51863,6 +51879,8 @@ m'éibhear m'eibhear
 m'éibhir m'eibhir
 m'éideadh m'éide
 m'éididh m'éide
+m'éidreoireacht m'éidreoraí
+m'éidreoireachta m'éidreoraí
 m'éifeachtúlacht m'éifeachtacht
 m'éifeachtúlachta m'éifeachtachta
 m'éigin m'éigean
@@ -58213,6 +58231,9 @@ n-éagothromachtaí n-éagothroimí
 n-éagothromaíocht n-éagothroime
 n-éagothromaíochta n-éagothroime
 n-éagothromaíochtaí n-éagothroimí
+n-éagsamhlacht n-éagsúlacht
+n-éagsamhlachta n-éagsúlachta
+n-éagsamhlachtaí n-éagsúlachtaí
 n-éalaing n-éalang
 n-éalaingí n-éalang
 n-éalaingí n-éalanga
@@ -58236,6 +58257,8 @@ n-éibhear n-eibhear
 n-éibhir n-eibhir
 n-éideadh n-éide
 n-éididh n-éide
+n-éidreoireacht n-éidreoraí
+n-éidreoireachta n-éidreoraí
 n-éifeachtúlacht n-éifeachtacht
 n-éifeachtúlachta n-éifeachtachta
 n-éigin n-éigean
@@ -58525,6 +58548,7 @@ nInd nIndia
 nInde nIndia
 nInde-Sín nInd-Sín
 nInde-Síne nInd-Síne
+nIorrus nIorras
 nIoruaidh nIorua
 nIoruaidhe nIorua
 nIoslainn nÍoslainn
@@ -65700,6 +65724,8 @@ róidh ró
 róidhiúil róúil
 róigeanta rógánta
 róiléar rollóir
+róimpi roimpi
+róimpise roimpise
 róinne ruainne
 róinneach ruainneach
 róinte rónta
@@ -69655,6 +69681,8 @@ shéithlí shilteánach
 shéithlí shilteánaigh
 shíbhialta shibhialta
 shíbhialtach shibhialtach
+shíbhialtacht shibhialtacht
+shíbhialtachta shibhialtachta
 shíbhialtaigh shibhialtaigh
 shíbhéalta shibhialta
 shíbhéaltacht shibhialtacht
@@ -74124,6 +74152,8 @@ sí is í
 sí sitheadh
 síbhialta sibhialta
 síbhialtach sibhialtach
+síbhialtacht sibhialtacht
+síbhialtachta sibhialtachta
 síbhialtaigh sibhialtaigh
 síbhéalta sibhialta
 síbhéaltacht sibhialtacht
@@ -77603,7 +77633,6 @@ thríbhlianacha thríbhliantúla
 thríbhlianaigh thríbhliantúil
 thríbhlianaí thríbhliantúla
 thríbhse tríbhse
-thríd trí
 thríd tríd
 thrídh trí
 thrídsean trídsean
@@ -79759,6 +79788,7 @@ tséarsa tséirse
 tséidithe tséidte
 tséithle tsilteánaigh
 tséithligh tsilteánaigh
+tsíbhialtacht tsibhialtacht
 tsíbhialtaigh tsibhialtaigh
 tsíbhéaltacht tsibhialtacht
 tsíbhín tsíobhais
@@ -81419,6 +81449,9 @@ vótóra vótálaí
 éagothromaíocht éagothroime
 éagothromaíochta éagothroime
 éagothromaíochtaí éagothroimí
+éagsamhlacht éagsúlacht
+éagsamhlachta éagsúlachta
+éagsamhlachtaí éagsúlachtaí
 éagsúlta éagsúlach
 éaguibheasach éaguibhiúil
 éagóir éagóirigh
@@ -81513,6 +81546,8 @@ vótóra vótálaí
 éidir m'fhéidir
 éidreoireach éidreorach
 éidreoireacha éidreoracha
+éidreoireacht éidreoraí
+éidreoireachta éidreoraí
 éidreoirigh éidreoraigh
 éidreoirí éidreoraí
 éidíoch éadaitheoir

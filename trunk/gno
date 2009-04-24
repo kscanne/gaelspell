@@ -5,6 +5,7 @@ Agtel
 Airbus
 Allfirst
 AltaVista
+Amiga
 Amnesty
 Angelfire
 Apple
@@ -67,6 +68,7 @@ Hilton
 Hotmail
 iMac
 Indymedia
+Intel
 Interpol
 Interreg
 iPod
@@ -76,9 +78,11 @@ Jelsoft
 Kindersley
 Kinja
 Knoppix
+Kodak
 Lagan
 Linspire
 Linux
+Lotus
 Lurgan
 Lycos
 Macintosh
@@ -88,6 +92,7 @@ Mandriva
 Marriott
 Mastercard
 McDonald's
+MediaWiki
 Mercedes
 Mercier
 Microsoft
@@ -145,5 +150,6 @@ Wiley
 Windows
 WordPress
 Xanga
+Xerox
 YouTube
 Óg-Ógras

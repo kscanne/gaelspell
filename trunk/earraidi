@@ -30,6 +30,7 @@ afheabhsú a fheabhsú
 afhorbairt a fhorbairt
 afháil a fháil
 afách áfach
+agaidh aghaidh
 agan ag an
 agas agus
 aghlacadh a ghlacadh
@@ -48,6 +49,7 @@ agá ag a
 aibheil áibhéil
 aigesan aigesean
 aigeán aigéan
+aimisigh aimsigh
 aimn ainm
 aimneacha ainmneacha
 aimnigh ainmnigh
@@ -160,6 +162,7 @@ Bhlarna Bhlárna
 bhuil bhfuil
 Bhuirne Bhúirne
 bhíuil bhfuil
+bionn bíonn
 blathanna bláthanna
 bliadain bliain
 bliaina bliana
@@ -197,9 +200,12 @@ cail cáil
 cailin cailín
 cailiní cailíní
 cailithe cáilithe
+cailitheach cáilitheach
 cailiúil cáiliúil
 cailliuint cailliúint
 cain cáin
+caipéis cáipéis
+caipéisí cáipéisí
 cairdúil cairdiúil
 caislean caisleán
 caisléan caisleán
@@ -217,6 +223,7 @@ Ceadaoin Céadaoin
 Ceadaoine Céadaoin
 ceadunas ceadúnas
 ceadunú ceadúnú
+ceánna céanna
 Ceannain Ceanainn
 cearnog cearnóg
 ceile céile
@@ -240,6 +247,7 @@ cile eile
 cineal cineál
 cinealacha cineálacha
 cinlae cín lae
+cinnitú cinntiú
 ciontai ciontaí
 cios cíos
 ciosa cíosa
@@ -267,6 +275,8 @@ coiméad coimeád
 coinceap coincheap
 coinniollacha coinníollacha
 coinníolacha coinníollacha
+coip cóip
+coipeanna cóipeanna
 coirpideachas corpoideachas
 coiteanta coitianta
 colaiste coláiste
@@ -276,6 +286,7 @@ comhairli comhairlí
 comhaith cómhaith
 comhaltai comhaltaí
 comhaontu comhaontú
+comhdhail comhdháil
 comhlachtai comhlachtaí
 comhlionadh comhlíonadh
 comhreir comhréir
@@ -303,6 +314,7 @@ contac contae
 corais córais
 coras córas
 cothabhail cothabháil
+crannn crann
 crich crích
 criche críche
 crioch críoch
@@ -325,11 +337,13 @@ Cuiv Cuív
 cul cúl
 culghairm cúlghairm
 cultur cultúr
+culturlann cultúrlann
 culturtha cultúrtha
 cumacht cumhacht
 cumarsaide cumarsáide
 cummanach cumannach
 cunamh cúnamh
+cuplá cúpla
 curaim cúraim
 curam cúram
 curamach cúramach
@@ -352,6 +366,7 @@ dail dáil
 dairire dáiríre
 dala dála
 daltai daltaí
+damaiste damáiste
 damhscoil dámhscoil
 dan dán
 danta dánta
@@ -429,9 +444,11 @@ doicméad doiciméad
 doicméid doiciméid
 doigh dóigh
 doman domhan
+dothain dóthain
 drama dráma
 dramaí drámaí
 dramaíocht drámaíocht
+dreim dréim
 dti dtí
 dtína dtí na
 duchais dúchais
@@ -536,6 +553,7 @@ filiochta filíochta
 finiméin feiniméin
 fior fíor
 firicí fíricí
+firinne fírinne
 firínne fírinne
 fobairt forbairt
 focloir foclóir
@@ -564,7 +582,9 @@ forsa fórsa
 forsai fórsaí
 forsaí fórsaí
 forum fóram
+fostoir fostóir
 fresin freisin
+fréisin freisin
 frid tríd
 fritheadh fuarthas
 fuarathas fuarthas
@@ -600,12 +620,16 @@ Gaililí Gailílí
 gairthí ghairtí
 Gallimh Gaillimh
 Gaothdobhair Gaoth Dobhair
+gárda garda
 gatáir gátair
 gatár gátar
 gcursa gcúrsa
 Geailge Gaeilge
+geaitsíocht geáitsíocht
 gear géar
 gearan gearán
+gearrsceálta gearrscéalta
+geilleadh géilleadh
 ginearalta ginearálta
 ginearaltacht ginearáltacht
 ginerálta ginearálta
@@ -627,6 +651,7 @@ gombeadh go mbeadh
 gombeidh go mbeidh
 gra grá
 grammadach gramadach
+greanmhar greannmhar
 greasain gréasáin
 greasan gréasán
 greine gréine
@@ -669,8 +694,11 @@ igcrích i gcrích
 ilghneitheacha ilghnéitheacha
 ilgnéitheach ilghnéitheach
 illdaite ildathach
+imeachtai imeachtaí
 inadhiaidh ina dhiaidh
 inaghaidh in aghaidh
+infrastruchtur infreastruchtúr
+infrastruchtúr infreastruchtúr
 inioctha iníoctha
 inion iníon
 iniuchadh iniúchadh
@@ -700,6 +728,7 @@ ionnanas ionannas
 ionnannais ionannais
 ionnannas ionannas
 Iosa Íosa
+Iósa Íosa
 isea is ea
 iseal íseal
 isfearr is fearr
@@ -743,6 +772,7 @@ leibheil leibhéil
 leibheál leibhéal
 leine léine
 leinn léinn
+leiriú léiriú
 leisan leis an
 leisean leis-sean
 leisna leis na
@@ -865,6 +895,7 @@ narbh nárbh
 ndeanfadh ndéanfadh
 neagraíochtaí n-eagraíochtaí
 nealaíon n-ealaíon
+neamhghlaolmhara neamhghaolmhara
 neamhspleach neamhspleách
 neamhspléach neamhspleách
 neascleanúint nascleanúint
@@ -891,6 +922,7 @@ notaí nótaí
 nuachtain nuachtáin
 nuachtan nuachtán
 NuaGhaeilge Nua-Ghaeilge
+núair nuair
 nuir nuair
 nábhar n-ábhar
 nádurtha nádúrtha
@@ -976,11 +1008,14 @@ plasain plásáin
 plasan plásán
 ple plé
 pleanail pleanáil
+pleanala pleanála
 plodaithe plódaithe
 poibli poiblí
 poilineacht póilíneacht
 poilineachta póilíneachta
 polaitiochta polaitíochta
+polatúil polaitiúil
+polataíocht polaitíocht
 polatíocht polaitíocht
 praicticiúil praiticiúil
 prainn práinn
@@ -1090,6 +1125,7 @@ scealaíocht scéalaíocht
 scealta scéalta
 sceil scéil
 sceim scéim
+sceime scéime
 sceimeanna scéimeanna
 sceál scéal
 sclabhaithe sclábhaithe
@@ -1113,10 +1149,12 @@ seirbhisi seirbhísí
 seirbhisí seirbhísí
 seoa seo a
 seoagus seo agus
+si sí
 siceolaíocht síceolaíocht
 sina sin a
 siniu síniú
 siniú síniú
+sceim scéim
 siochana síochána
 siochána síochána
 siolta síolta
@@ -1154,10 +1192,12 @@ spas spás
 specialta speisialta
 speis spéis
 speisealta speisialta
+speisiúil spéisiúil
 spesialta speisialta
 speárbhean spéirbhean
 spoirt spóirt
 sport spórt
+spriocdáta spriocdháta
 Spáinis Spáinnis
 spéisialta speisialta
 sraid sráid
@@ -1250,6 +1290,7 @@ teaglaigh teaghlaigh
 teagmhail teagmháil
 tearma téarma
 tearmaí téarmaí
+tearmaíocht téarmaíocht
 tearra t-earra
 teastail teastáil
 teilefís teilifís
@@ -1343,6 +1384,7 @@ uachtarain uachtaráin
 uachtaran uachtarán
 uafasach uafásach
 uaír uair
+uasdhátú uasdátú
 ud úd
 udar údar
 udarais údaráis
@@ -1358,6 +1400,7 @@ usaid úsáid
 usaide úsáide
 usáid úsáid
 usáide úsáide
+usaidtear úsáidtear
 usáidtear úsáidtear
 vearsa véarsa
 vota vóta

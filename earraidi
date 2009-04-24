@@ -35,6 +35,8 @@ agan ag an
 agas agus
 aghlacadh a ghlacadh
 agna ag na
+agoid agóid
+agom agam
 agsu agus
 agu agus
 agua agus
@@ -55,6 +57,7 @@ aimneacha ainmneacha
 aimnigh ainmnigh
 Aine Áine
 aineoinn ainneoin
+aineoin ainneoin
 ainilís anailís
 ainmeacha ainmneacha
 ainneoinn ainneoin
@@ -119,11 +122,13 @@ arsa'n arsa an
 arsan arsa an
 asa as a
 asholáthar a sholáthar
+assin as sin
 Atha Átha
 atha átha
 athabhairt a thabhairt
 athas áthas
 athbreithniú athbhreithniú
+athchoiriu athchóiriú
 athghabhail athghabháil
 athru athrú
 augs agus
@@ -167,18 +172,22 @@ blathanna bláthanna
 bliadain bliain
 bliaina bliana
 bliaintúil bliantúil
+bliantiúil bliantúil
 boithre bóithre
 bothair bóthair
 bothar bóthar
+bradan bradán
 braid bráid
 braonín braonán
 brea breá
 breag bréag
+breagach bréagach
 breithiunais breithiúnais
 breithiunas breithiúnas
 bri brí
 Brid Bríd
 bréa breá
+bron brón
 brúscair bruscair
 buachail buachaill
 buideál buidéal
@@ -221,6 +230,7 @@ cathar cathair
 ce cé
 Ceadaoin Céadaoin
 Ceadaoine Céadaoin
+ceadunais ceadúnais
 ceadunas ceadúnas
 ceadunú ceadúnú
 ceánna céanna
@@ -230,6 +240,7 @@ ceile céile
 ceim céim
 ceistenna ceisteanna
 cen cén
+chail cháil
 cheád chéad
 chomhmaith chomh maith
 chonachtas chonacthas
@@ -262,6 +273,8 @@ claraithe cláraithe
 clarlann clárlann
 clarú clárú
 clo cló
+cludach clúdach
+cnamh cnámh
 codhladh codladh
 coimead coimeád
 coimeadán coimeádán
@@ -281,6 +294,7 @@ coirpideachas corpoideachas
 coiteanta coitianta
 colaiste coláiste
 colas eolas
+colun colún
 comairle comhairle
 comhairli comhairlí
 comhaith cómhaith
@@ -290,6 +304,7 @@ comhdhail comhdháil
 comhlachtai comhlachtaí
 comhlionadh comhlíonadh
 comhreir comhréir
+comhthaite comhtháite
 comhtheacs comhthéacs
 comisinéara coimisinéara
 comisinéir coimisinéir
@@ -336,6 +351,7 @@ cuitimh cúitimh
 Cuiv Cuív
 cul cúl
 culghairm cúlghairm
+cultuir cultúir
 cultur cultúr
 culturlann cultúrlann
 culturtha cultúrtha
@@ -388,6 +404,7 @@ deanta déanta
 deantar déantar
 Deardaoin Déardaoin
 dearfainn déarfainn
+dearthair deartháir
 dechuid de chuid
 deileáil déileáil
 deiriochta déiríochta
@@ -499,9 +516,12 @@ eifeacht éifeacht
 eifeachta éifeachta
 eifeachtach éifeachtach
 eigean éigean
+eigeandáil éigeandáil
+eigeandála éigeandála
 eigin éigin
 eilea eile a
 eileamh éileamh
+eilimh éilimh
 eilithe éilithe
 eilíonn éilíonn
 eineacht éineacht
@@ -555,10 +575,14 @@ fior fíor
 firicí fíricí
 firinne fírinne
 firínne fírinne
+fluich fliuch
 fobairt forbairt
+focas fócas
 focloir foclóir
 focloirí foclóirí
 fodhlithe fodhlíthe
+fogair fógair
+fogairt fógairt
 foghlam foghlaim
 foglaim foghlaim
 fogra fógra
@@ -567,6 +591,7 @@ fogrófar fógrófar
 foill fóill
 foirsteanach fóirsteanach
 folair foláir
+foluntas folúntas
 Fomhair Fómhair
 fomhair fómhair
 fomhar fómhar
@@ -682,6 +707,8 @@ husaid húsáid
 héinní haon ní
 héireann hÉireann
 Iarchonnachta Iar-Chonnachta
+iarnrod iarnród
+iarnroid iarnróid
 iarratasoir iarratasóir
 iarriadh iarraidh
 iarrtas iarratas
@@ -723,6 +750,7 @@ iomportáil iompórtáil
 iomportála iompórtála
 ionadai ionadaí
 ionadu ionadú
+ionchuiseamh ionchúiseamh
 ionnanais ionannais
 ionnanas ionannas
 ionnannais ionannais
@@ -740,6 +768,7 @@ iul iúl
 la lá
 lach lách
 ladh 1ú
+laethaenta laethanta
 laidir láidir
 laidre láidre
 laimh láimh
@@ -752,6 +781,8 @@ lamha lámha
 lan lán
 lanúin lánúin
 lar lár
+larionad lárionad
+larionaid lárionaid
 larnach lárnach
 lasa lása
 lasaí lásaí
@@ -837,6 +868,7 @@ meastú meas tú
 measín meaisín
 measíní meaisíní
 meid méid
+meideanna méideanna
 Meirceánach Meiriceánach
 Meiricea Meiriceá
 meánscolaí meánscolaíocht
@@ -879,6 +911,7 @@ nac nach
 nachbhfuil nach bhfuil
 nadaoine na daoine
 nadúr nádúr
+nadurtha nádúrtha
 nadúrtha nádúrtha
 nahÉireann na hÉireann
 naire náire
@@ -942,6 +975,7 @@ ocaid ócáid
 ocaideach ócáideach
 ocaideacha ócáideacha
 ocáid ócáid
+ocáidí ócáidí
 ocáideach ócáideach
 ocáideacha ócáideacha
 ofigiúil oifigiúil
@@ -969,6 +1003,7 @@ oiriúnt oiriúint
 Oirr Oírr
 oirúnach oiriúnach
 ol ól
+ollmhor ollmhór
 omós ómós
 on ón
 ona óna
@@ -1031,6 +1066,7 @@ profisiúnta proifisiúnta
 proiseas próiseas
 proiséas próiseas
 páipear páipéar
+pairceáil páirceáil
 párliament parlaimint
 píóg pióg
 ra rá
@@ -1081,6 +1117,7 @@ riomheolaíocht ríomheolaíocht
 riomhphost ríomhphost
 riomphoist ríomhphoist
 riomphost ríomhphost
+roba róba
 roime roimhe
 roint roinnt
 rol ról
@@ -1097,6 +1134,7 @@ ríomhpost ríomhphost
 Rómhanach Rómhánach
 Rómhanaigh Rómhánaigh
 rómhnic rómhinic
+sabháil sábháil
 sabhliain sa bhliain
 sach sách
 said siad
@@ -1107,15 +1145,18 @@ sanáireamh san áireamh
 saoraid saoráid
 saoraidi saoráidí
 saorail saoráil
+saoranach saoránach
 saoriseoir saoririseoir
 saraíonn sáraíonn
 sarófar sárófar
 saróidh sáróidh
 sarú sárú
+sasamh sásamh
 sasta sásta
 scaileán scáileán
 scannain scannáin
 scannan scannán
+scánnán scannán
 scath scáth
 scatháin scátháin
 scathán scáthán
@@ -1150,6 +1191,7 @@ seirbhisí seirbhísí
 seoa seo a
 seoagus seo agus
 si sí
+síad siad
 siceolaíocht síceolaíocht
 sina sin a
 siniu síniú
@@ -1175,6 +1217,7 @@ slándail slándáil
 sochai sochaí
 socmhainn sócmhainn
 socmhainní sócmhainní
+socraid sochraid
 soisear sóisear
 soisialaigh sóisialaigh
 soisialta sóisialta
@@ -1191,6 +1234,7 @@ sparáil spáráil
 spas spás
 specialta speisialta
 speis spéis
+speise spéise
 speisealta speisialta
 speisiúil spéisiúil
 spesialta speisialta
@@ -1231,6 +1275,7 @@ suile súile
 suiomh suíomh
 suipear suipéar
 suíochan suíochán
+súntas suntas
 sábhailte sábháilte
 séirbhís seirbhís
 síntús síntiús
@@ -1258,6 +1303,7 @@ taim táim
 taimid táimid
 tainm t-ainm
 taire tAire
+tairge táirge
 tairgead t-airgead
 tairgí táirgí
 tairring tarraing
@@ -1268,6 +1314,7 @@ taiscealaíocht taiscéalaíocht
 taiscealaíochta taiscéalaíochta
 taisceál taiscéal
 taisceáladh taiscéaladh
+taispáint taispeáint
 taispeaint taispeáint
 taispeantas taispeántas
 taispeán taispeáin
@@ -1348,6 +1395,7 @@ tradála trádála
 traidisiun traidisiún
 traidisiunta traidisiúnta
 trath tráth
+trathanna tráthanna
 trathnona tráthnóna
 trathnóna tráthnóna
 tre trí
@@ -1359,6 +1407,7 @@ trina trína
 Trionóide Tríonóide
 triur triúr
 triú tríú
+trocaire trócaire
 tráthclár tráthchlár
 tréimse tréimhse
 trím trí mo
@@ -1394,6 +1443,7 @@ udaráis údaráis
 udarás údarás
 udarú údarú
 uineir úinéir
+uirlís uirlis
 uis úis
 uisci uiscí
 usaid úsáid
@@ -1404,6 +1454,7 @@ usaidtear úsáidtear
 usáidtear úsáidtear
 vearsa véarsa
 vota vóta
+votaí vótaí
 Éanair Eanáir
 Éanáir Eanáir
 Éirean Éireann

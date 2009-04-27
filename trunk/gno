@@ -52,6 +52,7 @@ Firefox
 Flickr
 FocalFactory
 Frappr
+G-Spota
 Gaelchultúr
 Gaelport
 Gaelscript
@@ -61,7 +62,6 @@ GaelTeic
 Gcom
 Gentoo
 Google
-G-Spota
 Guardian
 Heineken
 Heinemann

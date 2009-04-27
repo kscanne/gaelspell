@@ -56,8 +56,8 @@ aimn ainm
 aimneacha ainmneacha
 aimnigh ainmnigh
 Aine Áine
-aineoinn ainneoin
 aineoin ainneoin
+aineoinn ainneoin
 ainilís anailís
 ainmeacha ainmneacha
 ainneoinn ainneoin
@@ -186,8 +186,8 @@ breithiunais breithiúnais
 breithiunas breithiúnas
 bri brí
 Brid Bríd
-bréa breá
 bron brón
+bréa breá
 brúscair bruscair
 buachail buachaill
 buideál buidéal
@@ -233,13 +233,13 @@ Ceadaoine Céadaoin
 ceadunais ceadúnais
 ceadunas ceadúnas
 ceadunú ceadúnú
-ceánna céanna
 Ceannain Ceanainn
 cearnog cearnóg
 ceile céile
 ceim céim
 ceistenna ceisteanna
 cen cén
+ceánna céanna
 chail cháil
 cheád chéad
 chomhmaith chomh maith
@@ -609,9 +609,9 @@ forsaí fórsaí
 forum fóram
 fostoir fostóir
 fresin freisin
-fréisin freisin
 frid tríd
 fritheadh fuarthas
+fréisin freisin
 fuarathas fuarthas
 fuithi fúithi
 futhu fúthu
@@ -645,7 +645,6 @@ Gaililí Gailílí
 gairthí ghairtí
 Gallimh Gaillimh
 Gaothdobhair Gaoth Dobhair
-gárda garda
 gatáir gátair
 gatár gátar
 gcursa gcúrsa
@@ -688,6 +687,7 @@ grupaí grúpaí
 gréim greim
 guid gcuid
 gán gan
+gárda garda
 habhair hábhair
 habhar hábhar
 Habháí Haváí
@@ -756,7 +756,6 @@ ionnanas ionannas
 ionnannais ionannais
 ionnannas ionannas
 Iosa Íosa
-Iósa Íosa
 isea is ea
 iseal íseal
 isfearr is fearr
@@ -765,6 +764,7 @@ isle ísle
 isé is é
 isí is í
 iul iúl
+Iósa Íosa
 la lá
 lach lách
 ladh 1ú
@@ -910,8 +910,8 @@ nabliana na bliana
 nac nach
 nachbhfuil nach bhfuil
 nadaoine na daoine
-nadúr nádúr
 nadurtha nádúrtha
+nadúr nádúr
 nadúrtha nádúrtha
 nahÉireann na hÉireann
 naire náire
@@ -955,7 +955,6 @@ notaí nótaí
 nuachtain nuachtáin
 nuachtan nuachtán
 NuaGhaeilge Nua-Ghaeilge
-núair nuair
 nuir nuair
 nábhar n-ábhar
 nádurtha nádúrtha
@@ -967,6 +966,7 @@ níosmó níos mó
 nóa nó a
 nóimead nóiméad
 nóimeád nóiméad
+núair nuair
 núdarás n-údarás
 núicleach núicléach
 núicleacha núicléacha
@@ -975,9 +975,9 @@ ocaid ócáid
 ocaideach ócáideach
 ocaideacha ócáideacha
 ocáid ócáid
-ocáidí ócáidí
 ocáideach ócáideach
 ocáideacha ócáideacha
+ocáidí ócáidí
 ofigiúil oifigiúil
 og óg
 oga óga
@@ -1025,6 +1025,7 @@ paipeir páipéir
 paipéar páipéar
 paipéir páipéir
 pairc páirc
+pairceáil páirceáil
 pairt páirt
 pairteach páirteach
 pairti páirtí
@@ -1049,9 +1050,9 @@ poibli poiblí
 poilineacht póilíneacht
 poilineachta póilíneachta
 polaitiochta polaitíochta
-polatúil polaitiúil
 polataíocht polaitíocht
 polatíocht polaitíocht
+polatúil polaitiúil
 praicticiúil praiticiúil
 prainn práinn
 prainne práinne
@@ -1066,7 +1067,6 @@ profisiúnta proifisiúnta
 proiseas próiseas
 proiséas próiseas
 páipear páipéar
-pairceáil páirceáil
 párliament parlaimint
 píóg pióg
 ra rá
@@ -1134,8 +1134,8 @@ ríomhpost ríomhphost
 Rómhanach Rómhánach
 Rómhanaigh Rómhánaigh
 rómhnic rómhinic
-sabháil sábháil
 sabhliain sa bhliain
+sabháil sábháil
 sach sách
 said siad
 sainiúl sainiúil
@@ -1156,7 +1156,6 @@ sasta sásta
 scaileán scáileán
 scannain scannáin
 scannan scannán
-scánnán scannán
 scath scáth
 scatháin scátháin
 scathán scáthán
@@ -1165,6 +1164,7 @@ sceala scéala
 scealaíocht scéalaíocht
 scealta scéalta
 sceil scéil
+sceim scéim
 sceim scéim
 sceime scéime
 sceimeanna scéimeanna
@@ -1178,6 +1178,7 @@ scriofa scríofa
 scruduithe scrúduithe
 scrudú scrúdú
 scáiléan scáileán
+scánnán scannán
 scátheagra scátheagraíocht
 se sé
 seachtainiúl seachtainiúil
@@ -1191,12 +1192,10 @@ seirbhisí seirbhísí
 seoa seo a
 seoagus seo agus
 si sí
-síad siad
 siceolaíocht síceolaíocht
 sina sin a
 siniu síniú
 siniú síniú
-sceim scéim
 siochana síochána
 siochána síochána
 siolta síolta
@@ -1275,9 +1274,9 @@ suile súile
 suiomh suíomh
 suipear suipéar
 suíochan suíochán
-súntas suntas
 sábhailte sábháilte
 séirbhís seirbhís
+síad siad
 síntús síntiús
 síochain síocháin
 síochana síochána
@@ -1289,6 +1288,7 @@ sóiléir soiléir
 sólais sóláis
 sólas sólás
 súiomh suíomh
+súntas suntas
 ta tá
 tabairt tabhairt
 tabhacht tábhacht
@@ -1314,10 +1314,10 @@ taiscealaíocht taiscéalaíocht
 taiscealaíochta taiscéalaíochta
 taisceál taiscéal
 taisceáladh taiscéaladh
-taispáint taispeáint
 taispeaint taispeáint
 taispeantas taispeántas
 taispeán taispeáin
+taispáint taispeáint
 taispéaint taispeáint
 taispéantas taispeántas
 taistriúchán t-aistriúchán
@@ -1432,8 +1432,8 @@ túrscéalaí t-úrscéalaí
 uachtarain uachtaráin
 uachtaran uachtarán
 uafasach uafásach
-uaír uair
 uasdhátú uasdátú
+uaír uair
 ud úd
 udar údar
 udarais údaráis
@@ -1448,9 +1448,9 @@ uis úis
 uisci uiscí
 usaid úsáid
 usaide úsáide
+usaidtear úsáidtear
 usáid úsáid
 usáide úsáide
-usaidtear úsáidtear
 usáidtear úsáidtear
 vearsa véarsa
 vota vóta

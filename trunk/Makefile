@@ -63,7 +63,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 *.full gaeilge sounds.txt ga.cwl repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 *.full gaeilge sounds.txt ga.cwl repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml
 
 distclean:
 	$(MAKE) clean
@@ -335,6 +335,44 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	zip -r focloiri-gaeilge-$(RELEASE).oxt dictionaries META-INF description.xml dictionaries.xcu LICENSES-en.txt CEADUNAIS-ga.txt
 	rm -Rf dictionaries META-INF
 
+
+mimetype:
+	touch $@
+	
+SentenceExceptList.xml: ${HOME}/gaeilge/gramadoir/gr/ga/giorr-ga.txt
+	echo '<?xml version="1.0" encoding="UTF-8"?>' > $@
+	echo >> $@
+	echo '<block-list:block-list xmlns:block-list="http://openoffice.org/2001/block-list">' >> $@
+	cat ${HOME}/gaeilge/gramadoir/gr/ga/giorr-ga.txt | iconv -f iso-8859-1 -t utf8 | sed 's/\[.\(.\)\]/\1/' | sed 's/.*/ <block-list:block block-list:abbreviated-name="&."\/>/' >> $@
+	echo '</block-list:block-list>' >> $@
+	
+WordExceptList.xml: leadingcaps
+	echo '<?xml version="1.0" encoding="UTF-8"?>' > $@
+	echo >> $@
+	echo '<block-list:block-list xmlns:block-list="http://openoffice.org/2001/block-list">' >> $@
+	cat leadingcaps | iconv -f iso-8859-1 -t utf8 | sed 's/.*/ <block-list:block block-list:abbreviated-name="&"\/>/' >> $@
+	echo '</block-list:block-list>' >> $@
+
+DocumentList.xml: earraidi
+	echo '<?xml version="1.0" encoding="UTF-8"?>' > $@
+	echo >> $@
+	echo '<block-list:block-list xmlns:block-list="http://openoffice.org/2001/block-list">' >> $@
+	echo ' <block-list:block block-list:abbreviated-name="(C)" block-list:name="©"/>' | iconv -f iso-8859-1 -t utf8 >> $@
+	echo ' <block-list:block block-list:abbreviated-name="(R)" block-list:name="®"/>' | iconv -f iso-8859-1 -t utf8 >> $@
+	cat earraidi | iconv -f iso-8859-1 -t utf8 | sed 's/^\([^ ]*\) \(.*\)$$/ <block-list:block block-list:abbreviated-name="\1" block-list:name="\2"\/>/' >> $@
+	echo '</block-list:block-list>' >> $@
+
+META-INF/manifest.xml: acor-manifest.xml
+	rm -Rf META-INF
+	mkdir META-INF
+	cp acor-manifest.xml META-INF/manifest.xml
+	chmod 644 META-INF/manifest.xml
+
+acor_ga-IE.dat: mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml META-INF/manifest.xml
+	rm -f $@ acor-ga.zip
+	zip -r acor-ga.zip mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml META-INF
+	mv acor-ga.zip $@
+
 mytardist: ga_IE.dic ChangeLog
 	cp README README.txt
 	chmod 644 ga_IE.dic ga_IE.aff COPYING README.txt
@@ -350,7 +388,7 @@ mytardist: ga_IE.dic ChangeLog
 ga.cwl: aspell.txt
 	LANG=C; export LANG; cat aspell.txt | sort -u | word-list-compress c > ga.cwl
 
-ASPELLDEV = ${HOME}/gaeilge/gramadoir/ga/aspell
+ASPELLDEV = ${HOME}/gaeilge/ispell/ga-build
 
 adist: aspell.txt apersonal ChangeLog
 	LC_ALL=C sort -u aspell.txt $(PERSONAL) > a.tmp

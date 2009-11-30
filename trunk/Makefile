@@ -305,7 +305,8 @@ README_ga_IE.txt: README COPYING
 	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of hunspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 
 # creates old ga_IE.zip and ga_IE-pack.zip for OOo (now defunct, Summer 2008)
-# also creates xpi for Mozilla programs
+# also creates xpi for Mozilla programs - filenames must be ga.* 
+# for the spell checker to appear localized in context menu
 # Summer 2008: now creates oxt installable extension for OOo also
 mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	rm -f thes.txt hyph_ga_IE.zip ga_IE.zip
@@ -320,8 +321,8 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/thes_ga_IE_v2.zip
 	zip ga_IE-pack ga_IE.zip hyph.txt hyph_ga_IE.zip spell.txt thes.txt thes_ga_IE_v2.zip
 	mkdir dictionaries
-	cp ga_IE.dic dictionaries
-	cp ga_IE.aff dictionaries
+	cp ga_IE.dic dictionaries/ga.dic
+	cp ga_IE.aff dictionaries/ga.aff
 	cp README_ga_IE.txt dictionaries
 	zip -r ga-IE-dictionary.xpi dictionaries install.rdf install.js
 	rm -Rf hyph.txt spell.txt thes.txt META-INF
@@ -330,7 +331,7 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	chmod 644 META-INF/manifest.xml
 	cp hyph_ga_IE.zip dictionaries
 	cp thes_ga_IE_v2.zip dictionaries
-	(cd dictionaries; unzip hyph_ga_IE.zip; unzip thes_ga_IE_v2.zip; rm -f *.zip)
+	(cd dictionaries; unzip hyph_ga_IE.zip; unzip thes_ga_IE_v2.zip; rm -f *.zip; mv ga.dic ga_IE.dic; mv ga.aff ga_IE.aff)
 	sed -i '/<version value=/s/.*/    <version value="$(RELEASE)" \/>/' description.xml
 	zip -r focloiri-gaeilge-$(RELEASE).oxt dictionaries META-INF description.xml dictionaries.xcu LICENSES-en.txt CEADUNAIS-ga.txt
 	rm -Rf dictionaries META-INF

@@ -97,7 +97,7 @@ veryclean:
 
 # flip BH for historical compat, clean CVS
 # note that gaeilge.mor is not complete after this - in "groom"
-# I also add words from fgbalts.txt myalts.txt to it, see "justalts" target
+# I also add words from *alts.txt files to it, see "justalts" target
 # below - need to do this after athfhocail and aspellalt.txt have been
 # regenerated
 fromdb : FORCE
@@ -109,7 +109,7 @@ fromdb : FORCE
 # must keep sort this way so "join" works in gramadoir-ga makefile...
 athfromdb : FORCE
 	$(GIN) 10
-	LC_ALL=C sort -u athfhocail fgbalts.txt myalts.txt | LC_ALL=C sort -k1,1 > tempfile
+	LC_ALL=C sort -u athfhocail dinneenalts.txt fgbalts.txt myalts.txt | LC_ALL=C sort -k1,1 > tempfile
 	mv -f tempfile athfhocail
 
 justalts : FORCE

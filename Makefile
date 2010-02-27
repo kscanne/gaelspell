@@ -12,7 +12,7 @@ PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt romhanach stai
 #   Shouldn't have to change anything below here
 RELEASE=4.4
 RAWWORDS= gaeilge.raw
-LITWORDS= gaeilge.lit
+LITWORDS= gaeilge.lit dinneenok.txt
 ALTWORDS= gaeilge.mor
 AFFIXFILE= gaeilge.aff
 ALTAFFIXFILE=gaeilgemor.aff
@@ -127,8 +127,8 @@ GOODSORT=bash ./isort
 sort: FORCE
 	$(GOODSORT) $(RAWWORDS) > tempfile
 	mv tempfile $(RAWWORDS)
-	$(GOODSORT) $(LITWORDS) > tempfile
-	mv tempfile $(LITWORDS)
+	$(GOODSORT) gaeilge.lit > tempfile
+	mv tempfile gaeilge.lit
 	$(GOODSORT) $(ALTWORDS) > tempfile
 	mv tempfile $(ALTWORDS)
 
@@ -264,8 +264,9 @@ dist: FORCE
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gaeilgemor.diff
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(RAWWORDS) 
-	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(LITWORDS) 
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/gaeilge.lit
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(ALTWORDS) 
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/dinneenok.txt
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/COPYING
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/ChangeLog
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/README

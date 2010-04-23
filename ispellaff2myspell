@@ -1,0 +1,380 @@
+#!/usr/bin/perl -w
+# 	$Id: ispellaff2myspell,v 1.1 2010-04-23 16:31:21 kps Exp $
+# 
+#   (C) 2002 Agustin Martin Domingo <agmartin@aq.upm.es> 
+# 
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program; if not, write to the Free Software
+#    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+
+sub usage {
+    print "ispellaff2myspell: A program to convert ispell affix tables to myspell format
+(C) 2002 Agustin Martin Domingo <agmartin\@debian.org>         License: GPL
+
+Usage:
+	ispellaff2myspell [options] <affixfile> --myheader your_header
+
+      Options:
+	--affixfile=s      Affix file
+	--bylocale         Use current locale setup for upper/lowercase 
+                           conversion
+	--charset=s        Use specified charset for upper/lowercase 
+                           conversion (defaults to latin1)
+ 	--debug            Print debugging info
+ 	--extraflags       Allow some non alphabetic flags
+	--lowercase=s      Lowercase string
+        --myheader=s       Header file (mandatory)
+	--printcomments    Print commented lines in output 
+        --split=i          Split flags with more that i entries
+	--uppercase=s      Uppercase string
+	--wordlist=s       Still unused
+
+  Currently allowed valued for charset are: latin1, latin2, latin3
+
+This script does not create the dict file. Something like
+
+( echo `cat mydict.words+ | wc -l`; cat mydict.words+ ) > mydict.dict
+
+should do the work, with mydict.words+ being the munched wordlist
+
+";
+    exit;
+}
+
+sub debugprint {
+    if ( $debug ){
+	print STDERR "@_";
+    }
+}
+
+sub shipoutflag{
+    my $flag_entries=scalar @flag_array;
+	
+    if ( $flag_entries != 0 ){
+	if ( $split ){
+	    while ( @flag_array ){
+		my @flag_subarray=splice(@flag_array,0,$split);
+		my $subflag_entries=scalar @flag_subarray;
+		if ( scalar @flag_array ){
+		    print "$myaffix $flagname $flagcombine $subflag_entries S\n";
+		} else {
+		    print "$myaffix $flagname $flagcombine $subflag_entries\n";
+		}
+		print join("\n",@flag_subarray);
+		print "\n\n";
+	    }
+	} else {
+	    print "$myaffix $flagname $flagcombine $flag_entries\n";
+	    print join("\n",@flag_array);
+	    print "\n\n";
+	}
+    }
+    @flag_array=();
+    $flagname='';
+    $flagcombine='';
+}
+
+sub mylc{
+    my $inputstring=shift;
+    my $outputstring;
+
+    if ( $bylocale ){
+	{ 
+	    use locale;
+	    $outputstring =  lc $inputstring;
+	}
+    } else {
+	if ( $charset eq "latin1" ){
+	    $lowercase='a-zàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþ';
+	    $uppercase='A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞ';
+	} elsif ( $charset eq "latin2" ){
+	    $lowercase='a-z±³µ¶¹º»¼¾¿àáâãäåæçèéêëìíîïðñòóôõöøùúûüýþ';
+	    $uppercase='A-Z¡£¥¦©ª«¬®¯ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞ';
+	} elsif ( $charset eq "latin3" ){
+	    $lowercase='a-z±¶¹º»¼¿àáâäåæçèéêëìíîïñòóôõö÷øùúûüýþ';
+	    $uppercase='A-Z¡¦©ª«¬¯ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÕÖ×ØÙÚÛÜÝÞ';
+#	} elsif ( $charset eq "other_charset" ){
+#	    die "latin2 still unimplemented";
+	} else {
+	    if ( not $lowercase and not $uppercase ){
+		die "Unsupported charset [$charset]
+
+use explicitely --lowercase=string and --uppercase=string
+options. Remember that both string must match exactly, but 
+case changed.
+";
+	    }
+	}
+	$outputstring=$inputstring;
+	eval "\$outputstring=~tr/$uppercase/$lowercase/";
+    }
+    return $outputstring;
+}
+
+sub validate_flag (){
+    my $flag = shift;
+    if ($flag=~m/[a-zA-Z]+/){
+	return $flag;
+    } elsif ( $extraflags ){
+	if ($flag=~m/^\\/){
+	    $flag =~ s/^\\//;
+	    return $flag;
+	} 
+    } 
+    return '';
+}
+
+# -----------------------------------------------------------
+# Now the progran start, after the functions are defined
+# -----------------------------------------------------------
+
+use Getopt::Long;
+
+# Initializing option values
+$affixfile     = '';
+$bylocale      = '';
+$charset       = '';
+$debug         = '';
+$extraflags    = '';
+$lowercase     = '';
+$myheader      = '';
+$printcomments = '';
+$split         = '';
+$uppercase     = '';
+$wordlist      = '';
+# Initializing root values
+$rootremove    = "0";
+$rootname      = '';
+$addtoroot     = '';
+$comment       = '';
+# Initializing flag values
+@flag_array    = ();
+$flagname      = '';
+$flagcombine   = '';
+$inflags       = '';
+
+GetOptions ('affixfile=s'   => \$affixfile,
+	    'bylocale'      => \$bylocale,
+	    'charset=s'     => \$charset,
+	    'debug'         => \$debug,
+	    'extraflags'    => \$extraflags,
+	    'lowercase=s'   => \$lowercase,
+	    'myheader=s'    => \$myheader,
+	    'printcomments' => \$printcomments,
+	    'split=i'       => \$split,
+	    'uppercase=s'   => \$uppercase,
+	    'wordlist=s'    => \$wordlist) or usage;
+
+if ( not $affixfile ){
+    $affixfile=shift or usage;
+}
+
+if ( $charset and ( $lowercase or $uppercase )){
+    die "Error: charset and lowercase/uppercase options
+are incompatible. Use either charset or lowercase/uppercase options to 
+specify the patterns
+"
+} elsif ( not $lowercase and not $uppercase and not $charset ){
+    $charset="latin1";
+}
+
+debugprint "$affixfile $charset";
+
+open (AFFIXFILE,"< $affixfile") || 
+    die "Error: Could not open affix file: $affixfile";
+
+if ( $myheader){
+    my $myspell_header=`cat $myheader`;
+    print $myspell_header;
+} else {
+    die "Error: A header file is mandatory\n";
+}
+
+while (<AFFIXFILE>){
+    chomp;
+    if (/^\s*\#.*/){
+	debugprint "Ignoring line $.\n";
+	print "$_\n" if $printcomments;
+    } elsif (/^\s*$/){
+	debugprint "Ignoring line $.\n";
+    } elsif (/^\s*prefixes/){
+	debugprint "Prefixes starting in line $.\n";
+	$affix="PFX";
+    } elsif (/^\s*suffixes/){
+	debugprint "Suffixes starting in line $.\n";
+	$affix="SFX";
+    } elsif (/^[\s\t]*flag.*/){
+	next if not $affix;         # In case we are still in the preamble
+	shipoutflag if $inflags;
+	$inflags="yes";
+	s/^[\s\t]*flag[\s\t]*//;
+	s/[\s\t]*:.*$//;
+	debugprint "Found flag $_ in line $.\n";
+	
+	if (/\*/){
+	    s/[\*\s]//g;
+	    $flagcombine="Y";
+	    debugprint "Flag renamed to $_ with combine=$flagcombine\n";
+	} else {
+	    $flagcombine="N";
+	}
+	
+	if ( $flagname = &validate_flag($_) ){
+	    $myaffix  = $affix;
+	} else {
+	    $myaffix  = "\# $affix";
+	    $flagname = $_;
+	    print STDERR "Ignoring invalid flag $flagname in line $.\n";
+	}
+    } elsif ( $affix and $inflags ) {
+	@inputline =  split '>';
+	$rootname  =  shift @inputline;
+	$rootname  =~ s/\s*//g;
+	$addtoroot =  join('>',@inputline);
+	@inputline =  split('#',$addtoroot);
+	$addtoroot =  shift @inputline;
+	
+	$rootname  =  mylc $rootname;
+	$addtoroot =  mylc $addtoroot;
+	
+	if ( $addtoroot=~/\-.*,.*/ ){
+	    $rootremove=$addtoroot;
+	    $rootremove=~s/-(.*),.*/$1/g;
+	    $addtoroot=~s/.*,(.*)/$1/g;
+	}
+	$comment    =  '# ' . join('#',@inputline);
+	$rootname   =~ s/\s*//g;
+	$addtoroot  =~ s/\s*//g;
+	$addtoroot  =~ s/\\\-/\-/g;
+	$rootremove =~ s/\s*//g;
+	$addtoroot  =  "0" if ( $addtoroot eq "\-" );
+	debugprint "$rootname, $addtoroot, $rootremove\n";
+	if ( $printcomments ){
+	    $affix_line=sprintf("%s %s   %-5s %-11s %-24s %s",
+				$myaffix, $flagname, $rootremove, 
+				$addtoroot, $rootname, $comment);
+	} else {
+	    $affix_line=sprintf("%s %s   %-5s %-11s %s",
+				$myaffix, $flagname, $rootremove, 
+				$addtoroot, $rootname);
+	}
+	$rootremove = "0";
+	$rootname   = '';
+	$addtoroot  = '';
+	$comment    = '';
+	push @flag_array,$affix_line;
+	debugprint "$affix_line\n";
+    } else {
+	#
+    }
+}
+shipoutflag;
+
+close AFFIXFILE;
+
+__END__
+
+=head1 NAME
+
+B<ispellaff2myspell> - A program to convert ispell affix tables to myspell format.
+
+=head1 SYNOPSIS
+
+ ispellaff2myspell [options] <affixfile> --myheader your_header
+
+   Options:
+    --affixfile=s      Affix file
+    --bylocale         Use current locale setup for upper/lowercase 
+                       conversion
+    --charset=s        Use specified charset for upper/lowercase 
+                       conversion (defaults to latin1)
+    --debug            Print debugging info
+    --extraflags       Allow some non alphabetic flags
+    --lowercase=s      Lowercase string
+    --myheader=s       Header file (mandatory)
+    --printcomments    Print commented lines in output 
+    --split=i          Split flags with more that i entries
+    --uppercase=s      Uppercase string
+
+=head1 DESCRIPTION
+
+B<ispellaff2myspell> is a script that will convert ispell affix tables 
+to myspell format in a more or less successful way. 
+
+This script does not create the dict file. Something like
+
+( echo `cat mydict.words+ | wc -l`; cat mydict.words+ ) > mydict.dict
+
+should do the work, with mydict.words+ being the munched wordlist
+
+=head1 OPTIONS
+
+=over 8
+
+=item B<--affixfile=s>  
+
+Affix file. You can put it directly in the command line.
+
+=item B<--bylocale> 
+
+Use current locale setup for upper/lowercase conversion. Make sure 
+that the selected locale match the dictionary one, or you might get 
+into trouble.
+
+=item B<--charset=s>        
+
+Use specified charset for upper/lowercase conversion (defaults to latin1). 
+Currently allowed values for charset are: latin1, latin2, latin3.
+
+=item B<--debug>            
+
+Print some debugging info.
+
+=item B<--extraflags>       
+
+Allow some non alphabetic flags, currently those corresponding to chars 
+represented with the escape char B<\> as first char. B<\> will be stripped.
+
+=item B<--lowercase=s>      
+
+Lowercase string. Manually set the string of lowercase chars. This 
+requires B<--uppercase> having exactly that string but uppercase.
+ 
+=item B<--myheader=s>       
+
+Header file (mandatory). The myspell aff header. You need to write it 
+manually.
+
+=item B<--printcomments>    
+
+Print commented lines in output.
+
+=item B<--split=i>          
+
+Split flags with more that i entries. This can be of interest for flags 
+having a lot of entries. Will split the flag in chunks containing B<i> 
+entries.
+
+=item B<--uppercase=s>      
+
+Uppercase string. Manually set the sring of uppercase chars. This 
+requires B<--lowercase> having exactly that string but lowercase.
+
+=back
+
+=head1 AUTHORS
+
+Agustin Martin <agmartin@debian.org>
+
+=cut

@@ -28,53 +28,53 @@ AERGA--              *R       # epenthetic exception, see RG, aerga only
 AORG-                *R       # epenthetic exception, see RG, [ms]aorg*, etc.
 AEILG-               *L       # epenthetic exception, Gaeilge* only, see LG 
 AILBH--              *L*      # epenthetic vowel, [bcs]ailbh* only, see LBH--
-ALBHÁD----           *L       # galbhád only, next few are exceptions to ALBH
-ALBHÁID-----         *L       # galbháid only (coinnealbháidís, etc. b4)
+ALBHÃD----           *L       # galbhÃ¡d only, next few are exceptions to ALBH
+ALBHÃID-----         *L       # galbhÃ¡id only (coinnealbhÃ¡idÃ­s, etc. b4)
 ALBHR---             *L       # pobalbhreith, galbhruith, etc. except. to next
 ALBH--               *L*      # epenthetic vowel
-ARBHÁD----           *R       # mótarbhád only, exception to ARBH epenth.
-ARBHÁID-----         *R       # mótarbháid only,   "       "   "    " 
+ARBHÃD----           *R       # mÃ³tarbhÃ¡d only, exception to ARBH epenth.
+ARBHÃID-----         *R       # mÃ³tarbhÃ¡id only,   "       "   "    " 
 ARBHUIL-----         *R       # epenth. exception, garbhuille only, cuarbh* b4
 ARBHUA----           *R       # epenth. exception, eadarbhuas* only
 ARBHIN----           *R*      # exception to next, marbhintinn* only
 ARBH(EI)---          *R       # epenthetic exception to next, *tarbhealach, etc.
 ARBH--               *R*      # epenthetic, garbh, dearbh, etc. - [IU]ARBH b4
-ATHFH(ÁÉÓAEIOU)---   *H       # athfhill,uathfheidhmeach,etc.-exception to next
-ATH(BCDFGLMNPRST)-   *        # athlas, mionathrú, etc. - exception to TH->H
+ATHFH(ÃÃ‰Ã“AEIOU)---   *H       # athfhill,uathfheidhmeach,etc.-exception to next
+ATH(BCDFGLMNPRST)-   *        # athlas, mionathrÃº, etc. - exception to TH->H
 ADH                  *        # bladhm, feadhain, tadhall, adhmad, -adh$, etc.
 AGHI---              *        # exception to AGH, corraghiob only
 AGHLOIN------        *        #   "       "  ", pleicseaghl- only (not aghloit)
-AGH                  *        # slaghdán, treaghd, saghas, etc.
+AGH                  *        # slaghdÃ¡n, treaghd, saghas, etc.
 AOMH(FLNST)---       *        # faomh[ft]-,caomhn*,naomh* only, OMH exception
 A                    *
-ÁIRG-                *R       # epenthetic exception, see RG, táirg*, etc.
-ÁDHU---              *        # pádhuille only, exception to next
-ÁDH                  *        # ádhúil, -ádh$ only
-ÁTHFH--              *H       # táthfhéithleann, gnáthfh- only exception to next
-ÁTH(BCDFGLMNPRST)-   *        # fáthscéal, gnáth*, bláthfhleasc, etc.
-Á                    *
-BANBH^$              B*N*V    # epenthetic vowel, see NBH--, banbh, not -arún
+ÃIRG-                *R       # epenthetic exception, see RG, tÃ¡irg*, etc.
+ÃDHU---              *        # pÃ¡dhuille only, exception to next
+ÃDH                  *        # Ã¡dhÃºil, -Ã¡dh$ only
+ÃTHFH--              *H       # tÃ¡thfhÃ©ithleann, gnÃ¡thfh- only exception to next
+ÃTH(BCDFGLMNPRST)-   *        # fÃ¡thscÃ©al, gnÃ¡th*, blÃ¡thfhleasc, etc.
+Ã                    *
+BANBH^$              B*N*V    # epenthetic vowel, see NBH--, banbh, not -arÃºn
 BHANBH^$             V*N*V    # epenthetic vowel, see NBH--
 BAINBH^$             B*N*V    # epenthetic vowel, see NBH--, bainbh only
 BHAINBH^$            V*N*V    # epenthetic vowel, see NBH--
 BH                   V        # includes bh$, eclipsis of F via collapsing
 B                    B        # note eclipsis of P via collapsing
-CHÉADFAÍ--$          K*TV     # exception to FAÍ$, (bréag|do|mí)
+CHÃ‰ADFAÃ--$          K*TV     # exception to FAÃ$, (brÃ©ag|do|mÃ­)
 CHEARCH--            K*R*     # epenthetic vowel, chearchaill only
 CEARCH--             K*R*     # epenthetic vowel, g?cearchaill only
 CHONF                K*N*V    # epenthetic vowel,no dash=>handles FAI?DH$excepts
 CONF                 K*N*V    #     "        "    "   "     "       "       "
-CANBH--              K*N*     # epenthetic vowel, see NBH--, g?canbhás* only
-CHANBH--             K*N*     # epenthetic vowel, see NBH--, chanbhás* only
-COLBHA---            K*L*     # epenthetic vowel, see LBH--, g?colbhaí? only
-CHOLBHA---           K*L*     # epenthetic vowel, see LBH--, cholbhaí? only
-CURF                 K*RV     # exception to FÁ$, g?curfá(nna) only
-CHURF                K*RV     # exception to FÁ$, churfá(nna) only
+CANBH--              K*N*     # epenthetic vowel, see NBH--, g?canbhÃ¡s* only
+CHANBH--             K*N*     # epenthetic vowel, see NBH--, chanbhÃ¡s* only
+COLBHA---            K*L*     # epenthetic vowel, see LBH--, g?colbhaÃ­? only
+CHOLBHA---           K*L*     # epenthetic vowel, see LBH--, cholbhaÃ­? only
+CURF                 K*RV     # exception to FÃ$, g?curfÃ¡(nna) only
+CHURF                K*RV     # exception to FÃ$, churfÃ¡(nna) only
 CH                   K        # OK
 C                    K
 DHORCH--             K*R*     # epenthetic vowel, dorcha root only
 DORCH--              T*R*     # epenthetic vowel, dorcha root only
-DHEARF               Y*R*     # epenthetic vowel,init only, no dash=>FAÍ except
+DHEARF               Y*R*     # epenthetic vowel,init only, no dash=>FAÃ except
 DEARF                T*R*     # epenthetic vowel,initial only (nd- done b4)
 DHEIRF-              Y*R*     # epenthetic vowel, initial only
 DEIRF-               T*R*     # epenthetic vowel, (leas)?deirf* only
@@ -82,13 +82,13 @@ DHOIL(BF)-           K*L*     # epenthetic,see LBH--,initial only,dhoil(fe|bh)*
 DOIL(BF)-            T*L*     # epenthetic, see LBH--, "      "  (nd- done b4)
 DHIFEAR              Y*V*R    # exception to FEAR$, ^dhifear$ only
 DIFEAR               T*V*R    # exception to FEAR$, ^difear$ only (nd- b4)
-DH$                  _        # [aáu]dh+most [io]dh done b4,[eéíóú]dh done here
-DH(AÁOÓUÚ)-          K        # athdhúchas, buídhonn, comhdháil, etc.
-DH(EÉIÍ)-            Y        # athdhéan, caordhearg, cinedheighilt, etc.
-DHL(AUÚ)--           K        # comhdhlúthaigh, ^dhl-  only
-DHL(EIÍ)--           Y        # (mí|neamh)dhl(istean|eath|íthiú), ^dhl  only
-DHR(AÁOÓUÚ)--        K        # *dhroim,marbhdhra*,*dhr[áu]ma, ^dhr only
-DHR(ÉEIÍ)--          Y        # *dhreach,feirdhris,*dhréacht,*dhreasacht,^dhr
+DH$                  _        # [aÃ¡u]dh+most [io]dh done b4,[eÃ©Ã­Ã³Ãº]dh done here
+DH(AÃOÃ“UÃš)-          K        # athdhÃºchas, buÃ­dhonn, comhdhÃ¡il, etc.
+DH(EÃ‰IÃ)-            Y        # athdhÃ©an, caordhearg, cinedheighilt, etc.
+DHL(AUÃš)--           K        # comhdhlÃºthaigh, ^dhl-  only
+DHL(EIÃ)--           Y        # (mÃ­|neamh)dhl(istean|eath|Ã­thiÃº), ^dhl  only
+DHR(AÃOÃ“UÃš)--        K        # *dhroim,marbhdhra*,*dhr[Ã¡u]ma, ^dhr only
+DHR(Ã‰EIÃ)--          Y        # *dhreach,feirdhris,*dhrÃ©acht,*dhreasacht,^dhr
 D                    T        # note eclipsis of T via collapsing
 EAFAR--$             *V       # geafar, meafar only, FAR$ exception
 EOFAR--$             *        # silent verb ending, exception to OFAR$ except!
@@ -96,14 +96,14 @@ EILBH--              *L*      # epenthetic vowel, see LBH-- exception below
 EIDH(EI)-            *        # augments IDH rule,eidheann,teidheach,meidhir,etc
 EOMH(FT)---          *        # leomh[ft]- only, exception to -omh rule
 E                    *
-ÉARBH--              *R       # epenthetic exception, géarbh- only
-ÉARM-                *R       # epenthetic exception, éarmh+ téarma root only
-ÉARG-                *R       # epenthetic exception, éargh+(lán)?léargas only
-ÉIRG-                *R       # epenthetic exception, éirgh+ ailléirge only
-ÉIRBH--              *R       # epenthetic except. léirbhreith*, spéirbhean only
-ÉALBH--              *L       # béalbhach only, exception to ALBH
-ÉAFÁ                 *V*      # éafá only, exception to FÁ$
-É                    *
+Ã‰ARBH--              *R       # epenthetic exception, gÃ©arbh- only
+Ã‰ARM-                *R       # epenthetic exception, Ã©armh+ tÃ©arma root only
+Ã‰ARG-                *R       # epenthetic exception, Ã©argh+(lÃ¡n)?lÃ©argas only
+Ã‰IRG-                *R       # epenthetic exception, Ã©irgh+ aillÃ©irge only
+Ã‰IRBH--              *R       # epenthetic except. lÃ©irbhreith*, spÃ©irbhean only
+Ã‰ALBH--              *L       # bÃ©albhach only, exception to ALBH
+Ã‰AFÃ                 *V*      # Ã©afÃ¡ only, exception to FÃ$
+Ã‰                    *
 FHAIRCH--            *R*      # epenthetic vowel, fhairch* only
 FAIRCH--             V*R*     # epenthetic vowel, (bh)?fairch* only
 FHOIRF-              *R*      # epenthetic vowel, foirfe root only
@@ -117,9 +117,9 @@ FOLMH--              V*L*     # epenthetic vowel, see LMH--, (bh)?folmh* only
 FEADH^$              V*       # exception to verb ending below, eclipsis by luck
 FEAR^$               V*R      #     "      "   "     "     "        "     "   " 
 FINN^$               V*N      #     "      "   "     "     "        "     "   " 
-FEÁ^$                V*       #     "      "   "     "     "        "     "   " 
-FAÍ^$                V*       #     "      "   "     "     "        "     "   " 
-FÍ^$                 V*       #     "      "   "     "     "        "     "   " 
+FEÃ^$                V*       #     "      "   "     "     "        "     "   " 
+FAÃ^$                V*       #     "      "   "     "     "        "     "   " 
+FÃ^$                 V*       #     "      "   "     "     "        "     "   " 
 FAIDH----$           _        # silent 'f' in verb ending
 FADH---$             _        #   "     "   "   "    "
 FIDH---$             _        #   "     "   "   "    "
@@ -128,14 +128,14 @@ FEAR---$             _        #   "     "   "   "    "
 FAR--$               _        #   "     "   "   "    "
 FINN---$             _        #   "     "   "   "    "    
 FAINN----$           _        #   "     "   "   "    "    
-FÁ-$                 _        #   "     "   "   "    " 
-FEÁ--$               _        #   "     "   "   "    " 
-FAÍ--$               _        #   "     "   "   "    "
-FÍ-$                 _        #   "     "   "   "    "
+FÃ-$                 _        #   "     "   "   "    " 
+FEÃ--$               _        #   "     "   "   "    " 
+FAÃ--$               _        #   "     "   "   "    "
+FÃ-$                 _        #   "     "   "   "    "
 FAIMI(DS)-----$      _        #   "     "   "   "    "  (no exceptions)
 FIMI(DS)----$        _        #   "     "   "   "    "  (no exceptions)
-FAIDÍS-----$         _        #   "     "   "   "    "  (no exceptions)
-FIDÍS----$           _        #   "     "   "   "    "  (no exceptions)
+FAIDÃS-----$         _        #   "     "   "   "    "  (no exceptions)
+FIDÃS----$           _        #   "     "   "   "    "  (no exceptions)
 FH                   _        # always silent 
 F                    V
 GHAINMH--            K*N*     # epenthetic vowel,see NMH--,^ghainmh* only
@@ -146,49 +146,49 @@ GLAFADH              KL*V*    # exception to FADH$, not glafarnach
 GHLAFADH             KL*V*    # exception to FADH$ 
 GLAFAIDH             KL*V*    # exception to FAIDH$, not glafaire
 GHLAFAIDH            KL*V*    # exception to FAIDH$ 
-GH$                  _        # [aióu]gh,most ogh done b4,[eáéíú]gh all terminal
-GH(AÁOÓUÚ)-          K        # bobghaiste, deoirghás, soghonta, etc.
-GH(EÉIÍ)-            Y        # athghin, luasghéaraigh, etc.
-GHL(AÁOÓUÚ)--        K        # ardghlórach, folúsghlantóir, etc.
-GHL(EÉI)--           Y        # comhghléas, comhghleacaí, scoiltghleann, etc.
-GHR(AÁOÓUÚ)--        K        # tírghrá, grianghraf, aoisghrúpa, etc. 
-GHR(EÉIÍ)--          Y        # idirghréasán, breithghreamannach, etc.
-GHN(AÁOÓUÚ)--        K        # deasghnáth, neamhghnách, etc.
-GHN(EÉIÍ)--          Y        # leorgníomh, aonghnéitheach, etc.
+GH$                  _        # [aiÃ³u]gh,most ogh done b4,[eÃ¡Ã©Ã­Ãº]gh all terminal
+GH(AÃOÃ“UÃš)-          K        # bobghaiste, deoirghÃ¡s, soghonta, etc.
+GH(EÃ‰IÃ)-            Y        # athghin, luasghÃ©araigh, etc.
+GHL(AÃOÃ“UÃš)--        K        # ardghlÃ³rach, folÃºsghlantÃ³ir, etc.
+GHL(EÃ‰I)--           Y        # comhghlÃ©as, comhghleacaÃ­, scoiltghleann, etc.
+GHR(AÃOÃ“UÃš)--        K        # tÃ­rghrÃ¡, grianghraf, aoisghrÃºpa, etc. 
+GHR(EÃ‰IÃ)--          Y        # idirghrÃ©asÃ¡n, breithghreamannach, etc.
+GHN(AÃOÃ“UÃš)--        K        # deasghnÃ¡th, neamhghnÃ¡ch, etc.
+GHN(EÃ‰IÃ)--          Y        # leorgnÃ­omh, aonghnÃ©itheach, etc.
 G                    K        # note eclipsis of C via collapsing
-H                    H        # between vowels+Faranhaít,forhalla,etc.
-IARG-                *R       # epenthetic exception, iargúil, tiargáil, etc.
-IARBH--              *R       # iarbháis, giarbhosca, etc. epenth. exception
+H                    H        # between vowels+FaranhaÃ­t,forhalla,etc.
+IARG-                *R       # epenthetic exception, iargÃºil, tiargÃ¡il, etc.
+IARBH--              *R       # iarbhÃ¡is, giarbhosca, etc. epenth. exception
 IDIRBH--             *T*R     # idirbheart, idirbhliain, etc., exception to IRBH
-IRBHRÚ----           *R       # muirbhrúcht* only, exception to IRBH--
+IRBHRÃš----           *R       # muirbhrÃºcht* only, exception to IRBH--
 IRBHU---             *R       # eochairbhuille,litirbhuama only, except. to next
-IRBH--               *R*      # *seirbhís, tairbh*, toirbh*, etc. epenthetic
-IFÍ-$                *V       # exception to FÍ$, ÉIFÍ$ done before
-INMHE(AÁ)----        *N       # exception to next,ainmheasartha,inmheabhrú, etc.
+IRBH--               *R*      # *seirbhÃ­s, tairbh*, toirbh*, etc. epenthetic
+IFÃ-$                *V       # exception to FÃ$, Ã‰IFÃ$ done before
+INMHE(AÃ)----        *N       # exception to next,ainmheasartha,inmheabhrÃº, etc.
 INMHE---             *N*      # epenthetic vowel, inmhe$ only by previous
 INNMH--              *N*      # epenthetic vowel, fuinnmh-, coinnmhe only
 IONMHAG----          *N       # exception to next, mionmhagadh only
 IONMHA---            *N*      # epenthetic vowel, cionmhar only, see NMH--
-ITHFH(AEIOUÁÉÍÓÚ)--- *H       # cithfholc*,crithfhuacht,frith* only- see next
+ITHFH(AEIOUÃÃ‰ÃÃ“Ãš)--- *H       # cithfholc*,crithfhuacht,frith* only- see next
 ITH(BCDFGLMNPRST)-   *        # aithris, frith*, etc.  exception to TH->H
 IDH(BCDFGLMNPRST)-   *        # feidhm, traidhfil, oidhre, etc.
-IGH(CDEFILNRST)-     *        # foighne,caighdeán,oighrigh,oighear,feighil,etc.
+IGH(CDEFILNRST)-     *        # foighne,caighdeÃ¡n,oighrigh,oighear,feighil,etc.
 I                    *
-ÍORM-                *R       # epenthetic exception, díorma, fíor- only
-ÍOMH(BCDFGLMNPRST)--- *       # (pr|r|l|sn|gn)íomh- only, exceptions to omh-
-ÍTHS-                *        # clíthseach only (no excp. for díthreabh, etc.)
-Í                    *
-J                    T        # initial j, diosc-jacaí only; bit like slender d
-K                    K        # karaté only
+ÃORM-                *R       # epenthetic exception, dÃ­orma, fÃ­or- only
+ÃOMH(BCDFGLMNPRST)--- *       # (pr|r|l|sn|gn)Ã­omh- only, exceptions to omh-
+ÃTHS-                *        # clÃ­thseach only (no excp. for dÃ­threabh, etc.)
+Ã                    *
+J                    T        # initial j, diosc-jacaÃ­ only; bit like slender d
+K                    K        # karatÃ© only
 LEANBH--             L*N*     # epenthetic vowel, (ucht)?leanbh(aois)?,see NBH--
 LINBH--              L*N*     # epenthetic vowel, (ucht)?linbh only, see NBH--
-LMH--                L        # feallmharú, etc., epenth. exception
+LMH--                L        # feallmharÃº, etc., epenth. exception
 LBH--                L        # uaillbhreas, etc., epenth. exception
 LGH--                L        # timpeallghearr, etc., epenth. exception
 L(BGM)-              L*       # epenthetic vowel, see also ULCH--
 L                    L
-MORFAÍ--$            M*RV     # exception to silent FAÍ$
-MBANBH^$             M*N*V    # epenthetic vowel, see NBH--, not -arún
+MORFAÃ--$            M*RV     # exception to silent FAÃ$
+MBANBH^$             M*N*V    # epenthetic vowel, see NBH--, not -arÃºn
 MBAINBH^$            M*N*V    # epenthetic vowel, see NBH--
 MB^                  M        # eclipsis
 MHARF-               V*R*     # epenthetic vowel
@@ -197,9 +197,9 @@ MHODH                V*       # ODH exception, usually initial
 MODH                 M*       #  "     "     ,   "       "
 MH                   V        # includes mh$,/w/,/v/ + see UMH
 M                    M
-NAFAÍ--              N*V      # exception to FAÍ$, snafaí only
+NAFAÃ--              N*V      # exception to FAÃ$, snafaÃ­ only
 NNARB-               N*R      # exception to RB epenthetic, ionnarb* only
-NNEALBH--            N*L      # exception to ALBH epenthetic, coinnealbhá only
+NNEALBH--            N*L      # exception to ALBH epenthetic, coinnealbhÃ¡ only
 NDORCH--             N*R*     # epenthetic vowel, see DORCH--
 NDEARF-              N*R*     # epenthetic vowel, see DEARF-
 NDEIRF-              N*R*     # epenthetic vowel, see DEIRF-
@@ -209,7 +209,7 @@ NGAINMH--            N*N*     # epenthetic vowel, see GAINMH--
 NGEALLMH--           N*L*     # epenthetic vowel, see GEALLMH-
 NGLAFADH             NL*V*    # exception to FADH$, ^nglafadh$ only
 NGLAFAIDH            NL*V*    # exception to FAIDH$, ^nglafaidh$ only
-NCHA(ÍS)----         N*       # epenthetic vowel, *sh?eancha(ís)*,ionchas only
+NCHA(ÃS)----         N*       # epenthetic vowel, *sh?eancha(Ã­s)*,ionchas only
 NCHAIRD------        N        # exception to next, daonchaird* only
 NCHAI(RS)-----       N*       # epenth. tionchair*, ionchais, *sh?eanchai*, etc.
 NCHAITHE-------      N*       #     "        "  , sh?eanchaithe, not seanchaite
@@ -220,35 +220,35 @@ N(BM)-               N*       # epenthetic vowel, binb, ainm, etc.
 N                    N
 OFAR--$              *V       # exception to FAR$, EOFAR done b4
 OIRCH--              *R*      # epenthetic vowel, t?oirch* only
-OCALBH--             *K*L     # exception to ALBH - focalbhá* only
-ORBHÁ---             *R*      # epenthetic vowel, forbhás only
+OCALBH--             *K*L     # exception to ALBH - focalbhÃ¡* only
+ORBHÃ---             *R*      # epenthetic vowel, forbhÃ¡s only
 ONNCHA---            *N*      # epenthetic vowel   fionncha, Donncha only
 OMHARB-              *R       # exception to epenth. R(BFGM)-, comharba* only
 OMH(BCDFGLMNPRST)-   *        # comh-, Domhnach, etc. (several excpts b4 this)
-OTH(BCDGLMNPRS)-     *        # cothrom, baothchaint, gaothscáth, etc.
+OTH(BCDGLMNPRS)-     *        # cothrom, baothchaint, gaothscÃ¡th, etc.
 ODHAO----            *        # fodhao* only, exception to next
-ODH(ACLNR)-          *        # bodhrán,modhnaigh,todhchaí,fodhla,bodhar etc.
-OGHRÚP-----          *        # foghrúpa, this and next few are OGH->* excepts.
+ODH(ACLNR)-          *        # bodhrÃ¡n,modhnaigh,todhchaÃ­,fodhla,bodhar etc.
+OGHRÃšP-----          *        # foghrÃºpa, this and next few are OGH->* excepts.
 OGHLUA-----          *        # so/doghluaiste* only
 OGHAF----            *        # doghafa only
-OGH(AÁBCDFGLMNPRST)- *        # ogham, foghlaim, boghdóir, toghchán, etc.
+OGH(AÃBCDFGLMNPRST)- *        # ogham, foghlaim, boghdÃ³ir, toghchÃ¡n, etc.
 O                    *
-ÓR(GM)-              *R       # epenthetic exception, (for)?th?órmach, órga,etc.
-ÓGH                  *        # ógha?$ only
-Ó                    *
+Ã“R(GM)-              *R       # epenthetic exception, (for)?th?Ã³rmach, Ã³rga,etc.
+Ã“GH                  *        # Ã³gha?$ only
+Ã“                    *
 PH                   V        # OK
 P                    B
-QU                   KV       # ^quinín$, ^quarto$ only
-RANFAÍ--             R*NV     # exception to silent FAÍ$, -chuaranfaí only
-RAFAÍ--              R*V      # exception to silent FAÍ$, all *graf-
+QU                   KV       # ^quinÃ­n$, ^quarto$ only
+RANFAÃ--             R*NV     # exception to silent FAÃ$, -chuaranfaÃ­ only
+RAFAÃ--              R*V      # exception to silent FAÃ$, all *graf-
 RRBHA---             R*       # epenthetic vowel, cearrbh* only, no carrbhuama
 REALMH--             R*L*     # epenthetic vowel, see LMH--, trealmh* only
-RÍFEAR^$             R*V*R    # exception to FEAR$, not athrífear!
+RÃFEAR^$             R*V*R    # exception to FEAR$, not athrÃ­fear!
 ROMH(FT)---          R*       # promh[ft]- only, exception to -omh rule
 RFEAN----            R*       # epenthetic vowel, (be|se|ga)irfean only
 RFIN---$             R*       # epenthetic vowel, same words as previous
-RBH--                R        # cíorbhuí, aerbhrat, etc., epenth. exception
-RMH--                R        # iarmhar, léirmheas, etc., epenth. exception
+RBH--                R        # cÃ­orbhuÃ­, aerbhrat, etc., epenth. exception
+RMH--                R        # iarmhar, lÃ©irmheas, etc., epenth. exception
 RGH--                R        # daorghalar, etc., epenth. exception
 RBO--                R        # cosarbolg only, epenth. exception
 R(BGM)-              R*       # epenthetic vowel
@@ -271,29 +271,29 @@ TS^                  T        # prefix-t
 TH$                  _        # no exceptions
 TH                   H
 T                    T
-UFA(ÍR)--$           *V       # exception to FAR$, brufar/[cr]ufaí only
+UFA(ÃR)--$           *V       # exception to FAR$, brufar/[cr]ufaÃ­ only
 UARG-                *R       # epenthetic exception, fuarga*, tuargain only
 UAIRG-               *R       # epenthetic exception, tuairgn* only
 UARBH--              *R       # epenthetic exception, fuarbh*, cuarbh* only 
 UALGA--              *L       # epenthetic exception, dualgas only
 ULLMH--              *L*      # epenthetic vowel, see LMH--
-UMH                  *        # cumhacht, umhlaíocht, ciumhais, except. to MH->V
+UMH                  *        # cumhacht, umhlaÃ­ocht, ciumhais, except. to MH->V
 UTH(BCDGLMNPR)-      *        # sruth*, guthphost only, TH->H exception
-ULCH--               *L*      # epenth. vowel,ulcha,[tm]ulchán,amhulchach only
-URCH(AÓ)---          *R*      # epenthetic vowel, urchar, urchall, urchóid, etc.
+ULCH--               *L*      # epenth. vowel,ulcha,[tm]ulchÃ¡n,amhulchach only
+URCH(AÃ“)---          *R*      # epenthetic vowel, urchar, urchall, urchÃ³id, etc.
 UDH                  *        # mudh* only (literary)
 UGH                  *        # brugh* only (literary)
 U                    *
-ÚIRG-                *R       # epenthetic exception, liotúirg* only, see RG
-ÚTH(BCDFLPR)-        *        # lúthchleasa, dúthracht, etc. - TH->H exception
-Ú                    *
+ÃšIRG-                *R       # epenthetic exception, liotÃºirg* only, see RG
+ÃšTH(BCDFLPR)-        *        # lÃºthchleasa, dÃºthracht, etc. - TH->H exception
+Ãš                    *
 V                    V
 W                    V        # wigwam only
-X(AEÉIÍ)-^           S        # xileafón, etc.
+X(AEÃ‰IÃ)-^           S        # xileafÃ³n, etc.
 X^                   *KS      # x-gha* only
 X                    KS       # Marxach only
-Y                    Y        # yóyó only
-Z                    S        # zú, puzal, etc.
+Y                    Y        # yÃ³yÃ³ only
+Z                    S        # zÃº, puzal, etc.
 
 #############################################################################
 #
@@ -309,7 +309,7 @@ Z                    S        # zú, puzal, etc.
 #
 #############################################################################
 #     Encoded sounds     ---->      Allowable characters
-#   (notation from Foclóir Póca)    in translated string
+#   (notation from FoclÃ³ir PÃ³ca)    in translated string
 #############################################################################
 #    /b/,/b'/,/p/,/p'/                       B
 #    /h/                                     H
@@ -326,6 +326,6 @@ Z                    S        # zú, puzal, etc.
 #    all strings of vowel sounds             *
 #############################################################################
 #  Useful references:
-#  (1) Foclóir Póca, An Gúm, 1986 
-#  (2) Learning Irish, M. Ó Siadhail, 1988, pp. 221-230
+#  (1) FoclÃ³ir PÃ³ca, An GÃºm, 1986 
+#  (2) Learning Irish, M. Ã“ Siadhail, 1988, pp. 221-230
 #############################################################################

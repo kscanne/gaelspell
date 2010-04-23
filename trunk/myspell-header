@@ -1,7 +1,7 @@
 # hunspell affix file for Irish by Kevin Scannell
 # I created this file by converting my ispell affix file on 5 August 2002
 # Exactly the same set of affixes, except one can avoid the acrobatics
-# for the verb "buígh" because hunspell is a bit smarter about
+# for the verb "buÃ­gh" because hunspell is a bit smarter about
 # combining affixes
 #
 #               ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -33,9 +33,9 @@
 
 SET ISO8859-1
 
-# TRY aihnrsetcdoglumbíéáfóúpvjzxywqk    (Aug. 2002, 8MB corpus)
-# TRY aihnrestcoldgumíábéfúóCpATBSIDNMGRFLEOPHÉUÁÓÍyÚJvkqKWVwzxjYQZX    (Sept. 2003, 75MB corpus)
+# TRY aihnrsetcdoglumbÃ­Ã©Ã¡fÃ³Ãºpvjzxywqk    (Aug. 2002, 8MB corpus)
+# TRY aihnrestcoldgumÃ­Ã¡bÃ©fÃºÃ³CpATBSIDNMGRFLEOPHÃ‰UÃÃ“ÃyÃšJvkqKWVwzxjYQZX    (Sept. 2003, 75MB corpus)
 # Latest: July 2006, 128MB corpus
-# TRY aihnretsocldgmuíábéfúóACpTSINBDEMRGL-FOP'HUyÉwvÁÓkÍJÚWKxVYqzjXZQ
+# TRY aihnretsocldgmuÃ­Ã¡bÃ©fÃºÃ³ACpTSINBDEMRGL-FOP'HUyÃ‰wvÃÃ“kÃJÃšWKxVYqzjXZQ
 # May 2008, full aimsigh.com corpus
-TRY aihnertsolcdgmuáíbéfúóCApTSBGFILDMRNP-E'OÉÓUÁÚvÍVHZjzQJxqXwyYKkW
+TRY aihnertsolcdgmuÃ¡Ã­bÃ©fÃºÃ³CApTSBGFILDMRNP-E'OÃ‰Ã“UÃÃšvÃVHZjzQJxqXwyYKkW

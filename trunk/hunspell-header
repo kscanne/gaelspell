@@ -9,11 +9,11 @@ WORDCHARS -'
 # nor with derivational morphology, since these are undesirable for
 # spelling replacement
 REP 64
-REP a ·
-REP e È
-REP i Ì
-REP o Û
-REP u ˙
+REP a √°
+REP e √©
+REP i √≠
+REP o √≥
+REP u √∫
 REP uigh aigh
 REP uith aith
 REP idhth ith
@@ -22,25 +22,25 @@ REP sg sc
 REP sb sp
 REP sd st
 REP dn nn
-REP eu Èa
+REP eu √©a
 REP tch t
-REP idhea Ìo
-REP ighea Ìo
-REP idhe Ì
-REP ighe Ì
-REP uÌm aÌm
-REP uÌt aÌt
-REP uÌo aÌo
-REP aghadh ˙
-REP adha ˙
-REP ·dh ·
+REP idhea √≠o
+REP ighea √≠o
+REP idhe √≠
+REP ighe √≠
+REP u√≠m a√≠m
+REP u√≠t a√≠t
+REP u√≠o a√≠o
+REP aghadh √∫
+REP adha √∫
+REP √°dh √°
 REP mhth f
 REP bhth f
 REP thmh f
 REP thbh f
 REP thch ch
 REP tht t
-REP ghaÌ aÌ
+REP gha√≠ a√≠
 REP llr lr
 REP lls ls
 REP llt lt
@@ -51,35 +51,35 @@ REP nnr nr
 REP nns ns
 REP nnt nt
 REP aingc aing
-REP Èagc Èag
-REP Èigc Èig
+REP √©agc √©ag
+REP √©igc √©ig
 REP iargc iarg
-REP Èadt Èad
-REP Èidt Èid
+REP √©adt √©ad
+REP √©idt √©id
 REP domb dom
-REP dÌomb dÌom
+REP d√≠omb d√≠om
 REP dhomb dhom
-REP dhÌomb dhÌom
+REP dh√≠omb dh√≠om
 REP anbhf anbh
 REP ainbhf ainbh
-REP ighim Ìm
-REP ighidh Ì
-REP ighinn Ìnn
-REP È· Èa
-REP ·Ì ·i
-REP ÈÌ Èi
-REP ÛÌ Ûi
-REP ˙Ì ˙i
-REP ÌÛ Ìo
-REP Ì· i·
-REP Ì˙ i˙
+REP ighim √≠m
+REP ighidh √≠
+REP ighinn √≠nn
+REP √©√° √©a
+REP √°√≠ √°i
+REP √©√≠ √©i
+REP √≥√≠ √≥i
+REP √∫√≠ √∫i
+REP √≠√≥ √≠o
+REP √≠√° i√°
+REP √≠√∫ i√∫
 
 MAP 5
-MAP a·A¡
-MAP eÈE…
-MAP iÌIÕ
-MAP oÛO”
-MAP u˙U⁄
+MAP a√°A√Å
+MAP e√©E√â
+MAP i√≠I√ç
+MAP o√≥O√ì
+MAP u√∫U√ö
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 #     End hunspell extensions; remainder are PFX and SFX specifications     #

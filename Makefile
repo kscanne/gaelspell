@@ -27,23 +27,26 @@ all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash
 # grep -v filters out Malmö, São, LC_ALL=C needed!
 gaeilge.hash: $(RAWWORDS) $(AFFIXFILE) $(PERSONAL)
 	LC_ALL=C $(SORT) $(RAWWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f utf8 -t iso-8859-1 > gaeilge.focail
-	$(ISPELLBIN)/buildhash gaeilge.focail $(AFFIXFILE) gaeilge.hash
-	rm -f gaeilge.focail
+	iconv -f utf8 -t iso-8859-1 $(AFFIXFILE) > tempaff.txt
+	$(ISPELLBIN)/buildhash gaeilge.focail tempaff.txt gaeilge.hash
+	rm -f gaeilge.focail tempaff.txt
 
 gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff $(PERSONAL)
 	LC_ALL=C $(SORT) $(RAWWORDS) $(LITWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f utf8 -t iso-8859-1 > gaeilge.focail
-	$(ISPELLBIN)/buildhash gaeilge.focail gaeilgelit.aff gaeilgelit.hash
-	rm -f gaeilge.focail
+	iconv -f utf8 -t iso-8859-1 gaeilgelit.aff > tempaff.txt
+	$(ISPELLBIN)/buildhash gaeilge.focail tempaff.txt gaeilgelit.hash
+	rm -f gaeilge.focail tempaff.txt
 
 gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE) $(PERSONAL)
 	LC_ALL=C $(SORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f utf8 -t iso-8859-1 > gaeilge.focail
-	$(ISPELLBIN)/buildhash gaeilge.focail $(ALTAFFIXFILE) gaeilgemor.hash
-	rm -f gaeilge.focail
+	iconv -f utf8 -t iso-8859-1 $(ALTAFFIXFILE) > tempaff.txt
+	$(ISPELLBIN)/buildhash gaeilge.focail tempaff.txt gaeilgemor.hash
+	rm -f gaeilge.focail tempaff.txt
 
 $(ALTAFFIXFILE): $(AFFIXFILE) gaeilgemor.diff
 	patch -o gaeilgemor.aff gaeilge.aff < gaeilgemor.diff
 
-# "personal" file not used anywhere anymore
+# "personal" file used in gramadoir-ga "lexfromdb", that's all
 personal: biobla $(PERSONAL)
 	sort -u $(PERSONAL) > ./personal
 	rm -f $(HOME)/.ispell_$(INSTALLATION)
@@ -54,22 +57,29 @@ gaeilgelit.aff: $(AFFIXFILE)
 
 install: $(INSTALLATION).hash $(INSTALLATION).aff
 	$(INSTALL_DATA) $(INSTALLATION).hash $(ISPELLDIR)
-	$(INSTALL_DATA) $(INSTALLATION).aff $(ISPELLDIR)
+	iconv -f utf8 -t iso-8859-1 $(INSTALLATION).aff > tempaff.txt
+	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/$(INSTALLATION).aff
+	rm -f tempaff.txt
 
 installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) gaeilge.hash $(ISPELLDIR)
-	$(INSTALL_DATA) $(AFFIXFILE) $(ISPELLDIR)
+	iconv -f utf8 -t iso-8859-1 $(AFFIXFILE) > tempaff.txt
+	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/$(AFFIXFILE)
 	$(INSTALL_DATA) gaeilgelit.hash $(ISPELLDIR)
-	$(INSTALL_DATA) gaeilgelit.aff $(ISPELLDIR)
+	iconv -f utf8 -t iso-8859-1 gaeilgelit.aff > tempaff.txt
+	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/gaeilgelif.aff
 	$(INSTALL_DATA) gaeilgemor.hash $(ISPELLDIR)
-	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
+	iconv -f utf8 -t iso-8859-1 $(ALTAFFIXFILE) > tempaff.txt
+	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/$(ALTAFFIXFILE)
+	rm -f tempaff.txt
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat	validalts.txt
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt
 
+# not giorr, romhanach, etc.  see veryclean
 distclean:
 	$(MAKE) clean
-	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu giorr
+	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu
 
 #############################################################################
 ### Remainder is for development only
@@ -86,17 +96,18 @@ MYSPELL=/usr/local/bin/hunspell
 
 gaeilgehyph.hash: gaeilge.hyp gaeilgehyph.aff
 	iconv -f utf8 -t iso-8859-1 gaeilge.hyp > temphyp
-	$(ISPELLBIN)/buildhash temphyp gaeilgehyph.aff gaeilgehyph.hash
-	rm -f temphyp
+	iconv -f utf8 -t iso-8859-1 gaeilgehyph.aff > tempaff.txt
+	$(ISPELLBIN)/buildhash temphyp tempaff.txt gaeilgehyph.hash
+	rm -f temphyp tempaff.txt
 
 gaeilgemor.diff:
-	(diff -c $(AFFIXFILE) $(ALTAFFIXFILE) > gaeilgemor.diff; echo)
+	(diff -u $(AFFIXFILE) $(ALTAFFIXFILE) > gaeilgemor.diff; echo)
 
 # like "maintainer" clean -- distclean PLUS kill files that are makeable
 # from backend database
 veryclean:
 	$(MAKE) distclean
-	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt romhanach README_ga_IE.txt ChangeLog
+	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt romhanach README_ga_IE.txt ChangeLog giorr
 
 # flip BH for historical compat, clean CVS
 # note that gaeilge.mor is not complete after this - in "groom"
@@ -117,12 +128,12 @@ athfromdb : FORCE
 	mv -f tempfile athfhocail
 
 justalts : FORCE
-	cat athfhocail | sed 's/ .*//' | keepif -n ./aspellalt.txt UTF-8 | LC_ALL=C sort -u >> $(ALTWORDS)
+	cat athfhocail | sed 's/ .*//' | keepif -n ./aspellalt.txt | LC_ALL=C sort -u >> $(ALTWORDS)
 	$(MAKE) sort
 	$(MAKE) all
 	$(MAKE) aspellalt.txt
 	echo 'Should be no output:'
-	cat athfhocail | sed 's/ .*//' | keepif -n ./aspellalt.txt UTF-8
+	cat athfhocail | sed 's/ .*//' | keepif -n ./aspellalt.txt
 
 # GNU sort ignores "/" so words don't come out in correct alphabetical
 # order, which is desirable for readability and clean CVS logs
@@ -182,7 +193,7 @@ accents.txt : aspell.txt
 
 # compare eilefromdb target in gramadoir-ga Makefile
 validalts.txt : aspell.txt athfhocail
-	sed 's/ .*//' athfhocail | keepif ./aspell.txt UTF-8 | LC_ALL=C sort -u | LC_ALL=C join athfhocail - | LC_ALL=C sort -k1,1 | egrep '^' | egrep -v ' .* ' > ./tempvalid.txt
+	sed 's/ .*//' athfhocail | keepif ./aspell.txt | LC_ALL=C sort -u | LC_ALL=C join athfhocail - | LC_ALL=C sort -k1,1 | egrep '^' | egrep -v ' .* ' > ./tempvalid.txt
 	counts.pl /usr/local/share/crubadan/ga/FREQ.aimsigh tempvalid.txt | sort -k4,4 -r -n > $@
 	rm -f tempvalid.txt
 
@@ -192,9 +203,9 @@ validalts.txt : aspell.txt athfhocail
 checkearr: aspelllit.txt
 	$(MAKE) gaelu
 	LC_ALL=C sort -u aspelllit.txt $(PERSONAL) > a.tmp
-	sed 's/^[^ ]* //' earraidi | tr " " "\n" | keepif -n ./a.tmp UTF-8 | sort -u
-#	LC_ALL=C sed 's/^[^ ]* //' athfhocail | tr " " "\n" | keepif -n ./a.tmp latin-1 | LC_ALL=ga_IE sort -u
-	sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | keepif -n ./a.tmp UTF-8 | sort -u
+	sed 's/^[^ ]* //' earraidi | tr " " "\n" | keepif -n ./a.tmp | sort -u
+#	sed 's/^[^ ]* //' athfhocail | tr " " "\n" | keepif -n ./a.tmp | sort -u
+	sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | keepif -n ./a.tmp | sort -u
 	rm -f a.tmp
 
 gaelu: gaelu.in
@@ -229,6 +240,7 @@ allcounts: FORCE
 	@$(MAKE) altcount
 	@echo 'focal infhillte'
 
+# ispell -e3 will only work with latin-1 input 
 aspell.txt: gaeilge.hash
 	cat $(RAWWORDS) | iconv -f utf8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilge -e3 | iconv -f iso-8859-1 -t utf8 | tr " " "\n" | egrep -v '\/' | sort -u > aspell.txt
 
@@ -238,9 +250,9 @@ aspelllit.txt: gaeilgelit.hash
 aspellalt.txt: gaeilgemor.hash
 	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | iconv -f utf8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | iconv -f iso-8859-1 -t utf8 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
-# these aspell function are unimplemented according to K.A. 7/2/03
+# these aspell functions are unimplemented according to K.A. 7/2/03
 apersonal: $(PERSONAL) giorr
-	(echo "personal_repl-1.1 ga 0"; LC_ALL=ga_IE sort -u athfhocail earraidi gaelu) > repl
+	(echo "personal_repl-1.1 ga 0 utf-8"; sort -u athfhocail earraidi gaelu) > repl
 	cp -f repl $(HOME)/.aspell.ga.prepl
 #	(echo "personal_ws-1.1 ga 0"; sort -u $(PERSONAL)) > pearsanta
 #	cp -f pearsanta $(HOME)/.aspell.ga.pws
@@ -288,10 +300,10 @@ dist: FORCE
 	rm -f makefile
 
 ga_IE.dic: $(RAWWORDS)
-	rm -f ga_IE.dic
+	rm -f $@
 	$(GOODSORT) $(RAWWORDS) $(PERSONAL) > tempfile
 	cat tempfile | wc -l | tr -d " " > tempcount
-	cat tempcount tempfile > ga_IE.dic
+	cat tempcount tempfile > $@
 	rm -f tempfile tempcount
 
 ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
@@ -375,6 +387,7 @@ acor_ga-IE.dat: mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.
 	zip -r acor-ga.zip mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml META-INF
 	mv acor-ga.zip $@
 
+# creates hunspell-gaeilge-x.x.tar.gz
 mytardist: ga_IE.dic ChangeLog
 	cp README README.txt
 	chmod 644 ga_IE.dic ga_IE.aff COPYING README.txt
@@ -394,8 +407,8 @@ adist: aspell.txt apersonal ChangeLog
 	chmod 644 a.tmp README README.aspell gaeilge_phonet.dat info repl gaeilge.dat
 	cp -f README $(ASPELLDEV)/Copyright
 	cp -f README.aspell $(ASPELLDEV)/doc/README
-	cp -f gaeilge_phonet.dat $(ASPELLDEV)/ga_phonet.dat
-	cp -f a.tmp $(ASPELLDEV)/aspell.txt
+	iconv -f utf8 -t iso-8859-1 gaeilge_phonet.dat > $(ASPELLDEV)/ga_phonet.dat
+	iconv -f utf8 -t iso-8859-1 a.tmp > $(ASPELLDEV)/aspell.txt
 	cp -f info $(ASPELLDEV)
 	cp -f repl $(ASPELLDEV)/doc
 	cp -f ChangeLog $(ASPELLDEV)/doc
@@ -411,6 +424,7 @@ adist: aspell.txt apersonal ChangeLog
 
 ChangeLog : FORCE
 	cvs2cl --FSF
+	utf ChangeLog
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=ga soundslike < aspell.txt > sounds.txt
@@ -419,25 +433,24 @@ aspellrev.txt: aspell.txt
 	cat aspell.txt | perl -p -e 's/(.*)/reverse $$1/e;' | sort | perl -p -e 's/(.*)/reverse $$1/e;' > aspellrev.txt 
 
 seiceail: FORCE
-#	@$(MAKE) fromdb
-#	@$(MAKE) aspelllit.txt
-#	@$(GIN) 2   # rebuilds Eng-Ir dict.
-	@$(GIN) 8   # creates local EN.temp, IG.temp
-#	@cat EN.temp | $(ISPELLBIN)/ispell -l | sort -u | egrep -v \' > EN.temp2
-#	@diff -w EN.temp2 ../bearla/Missp | egrep "<" > EN.missp
-	@cat IG.temp | tr " " "\n" | LC_ALL=ga_IE sort -u > IG.temp2
-	@diff -w aspelllit.txt IG.temp2 | egrep '^[<>]' | egrep -v '^> [A-ZÁÉÍÓÚ]' > IG.missp
-	@egrep '^>' IG.missp | sed 's/^> //' > IG2.txt
-	@cat IG2.txt | gram-ga.pl --aschod=iso-8859-1 --litriu > IG2.mis
-	@diff -u IG2.txt IG2.mis
-	@rm -f EN.temp EN.temp2 IG.temp2 IG2.txt IG2.mis
+	$(MAKE) fromdb
+	$(MAKE) aspelllit.txt
+	$(GIN) 2   # rebuilds Eng-Ir dict.
+	$(GIN) 8   # creates local EN.temp, IG.temp
+	utf EN.temp IG.temp
+	cat IG.temp dinneenok.txt | tr " " "\n" | sort -u > IG.temp2
+	diff -w aspelllit.txt IG.temp2 | egrep '^[<>]' > IG.missp
+	echo "forms generated by ispell/affix file but not by Dict/IG:"
+	-egrep '^<' IG.missp
+	egrep '^>' IG.missp | sed 's/^> //' > IG2.txt
+	echo "forms generated by Dict/IG but not in ispell/gen. by affix file:"
+	cat IG2.txt | gram-ga.pl --ionchod=utf8 --litriu
+	rm -f EN.temp EN.temp2 IG.temp2 IG2.txt IG2.mis
 #	@$(MAKE) distclean
 # the stuff in IG.missp should be mostly be labelled ">", meaning they are 
 # words generated by "all_inflections", but hopefully just from compound
 # words like "déan a bheag de" where the inflection code isn't done
-# and you get "dhéanadar" vs. "rinneadar", etc.   This can be checked
-# by simply running these ">" words thru "gr --litriu", all should show
-# up as misspelled.
+# and you get "dhéanadar" vs. "rinneadar", etc.
 #   Anything with a "<" is more worrisome; these are either 
 #   things incorrectly absent from all_inflections (hence Gramadoir)
 #   or else unwanted things in ispell generation code (fhuarthas was 

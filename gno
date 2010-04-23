@@ -56,6 +56,7 @@ G-Spota
 Gaelchultúr
 Gaelport
 Gaelscript
+Gaelscéal
 GaelSpell
 Gaeltalk
 GaelTeic
@@ -73,6 +74,7 @@ Indymedia
 Intel
 Interpol
 Interreg
+iPad
 iPhone
 iPod
 iTunes
@@ -126,6 +128,7 @@ Ryanair
 Samsung
 Shailearna
 Shelbourne
+Shell
 Siemans
 Skolelinux
 Skype
@@ -137,6 +140,7 @@ Technorati
 Telecom
 Telegael
 Terralingua
+Tesco
 Texaco
 Ticketmaster
 Tocco

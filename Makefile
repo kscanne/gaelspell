@@ -63,7 +63,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) $(ALTAFFIXFILE) $(ISPELLDIR)
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 *.full gaeilge sounds.txt ga.cwl repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 *.full gaeilge sounds.txt ga.cwl repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat
 
 distclean:
 	$(MAKE) clean
@@ -99,10 +99,11 @@ veryclean:
 # note that gaeilge.mor is not complete after this - in "groom"
 # I also add words from *alts.txt files to it, see "justalts" target
 # below - need to do this after athfhocail and aspellalt.txt have been
-# regenerated
+# regenerated.  Gin 7 generates the three gaeilge.* files.
 fromdb : FORCE
 	$(GIN) 7
 	sed -i 's/\/BH/\/HB/' gaeilge.raw gaeilge.lit gaeilge.mor
+	utf gaeilge.raw gaeilge.lit gaeilge.mor
 	$(MAKE) sort
 	$(MAKE) all
 
@@ -183,7 +184,9 @@ validalts.txt : aspell.txt athfhocail
 	counts.pl /usr/local/share/crubadan/ga/FREQ.aimsigh tempvalid.txt | sort -k4,4 -r -n > $@
 	rm -f tempvalid.txt
 
-# athfhocail check is now defunct b/c of fgbalts
+# checks to see if right-hand side of replacements are known-correct words
+# athfhocail check is now defunct b/c of fgbalts, dinneenalts - don't
+# want to add those right-hand side lists wholesale without careful auditing
 checkearr: aspelllit.txt
 	$(MAKE) gaelu
 	LC_ALL=C sort -u aspelllit.txt $(PERSONAL) > a.tmp
@@ -204,11 +207,16 @@ litcount: aspelllit.txt
 altcount: aspellalt.txt
 	cat aspellalt.txt | wc -l
 
+# Gin 9 writes igtemp to current working dir;
+# looks a bit like ig7, but no multiword headwords
+# ok that it's latin-1 since we just want line count
 allcounts: FORCE 
 	@$(MAKE) aspell.txt aspelllit.txt aspellalt.txt
-	@$(GIN) 9
+	@$(GIN) 9  
+	@utf igtemp
 	@echo 'Leagan caighdeánach:'
-	@egrep "]:.." igtemp | wc -l
+	@egrep '^' igtemp | wc -l
+	@rm -f igtemp
 	@echo 'ceannfhocal agus'
 	@$(MAKE) count
 	@echo 'focal infhillte'
@@ -218,7 +226,6 @@ allcounts: FORCE
 	@echo 'Leagan canúnach:'
 	@$(MAKE) altcount
 	@echo 'focal infhillte'
-	@rm -f igtemp
 
 full: gaeilge.hash
 	cat $(RAWWORDS) | $(ISPELLBIN)/ispell -d./gaeilge -e3 > gaeilge.full
@@ -296,7 +303,7 @@ ga_IE.dic: $(RAWWORDS)
 
 ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
 	cat myspell-header hunspell-header > myspelltemp.txt
-	${HOME}/clar/libexec/ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspelltemp.txt | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > ga_IE.aff
+	./ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspelltemp.txt | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > ga_IE.aff
 	rm -f myspelltemp.txt
 
 mycheck: ga_IE.dic aspell.txt ga_IE.aff
@@ -405,10 +412,12 @@ adist: aspell.txt apersonal ChangeLog
 	cp -f gaeilge.dat $(ASPELLDEV)/ga.dat
 	aspellproc ga
 	mv ${ASPELLDEV}/*.bz2 .
-	sed -i '/^mode aspell5/d' $(ASPELLDEV)/info
-	aspellproc ga
-	mv ${ASPELLDEV}/*.bz2 .
-	rm -f a.tmp
+#     no need for aspell6 dictionary - if I do one and use affixes,
+#     need to improve the .dat file, see aspell manual for additional fields
+#	sed -i '/^mode aspell5/d' $(ASPELLDEV)/info
+#	aspellproc ga
+#	mv ${ASPELLDEV}/*.bz2 .
+#	rm -f a.tmp
 
 ChangeLog : FORCE
 	cvs2cl --FSF

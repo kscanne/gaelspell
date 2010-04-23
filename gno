@@ -53,10 +53,10 @@ Flickr
 FocalFactory
 Frappr
 G-Spota
-Gaelchultúr
+GaelchultÃºr
 Gaelport
 Gaelscript
-Gaelscéal
+GaelscÃ©al
 GaelSpell
 Gaeltalk
 GaelTeic
@@ -116,7 +116,7 @@ Odeo
 Oracle
 Oxfam
 PayPal
-País
+PaÃ­s
 Quicktime
 Radisson
 Raytheon
@@ -161,4 +161,4 @@ WordPress
 Xanga
 Xerox
 YouTube
-Óg-Ógras
+Ã“g-Ã“gras

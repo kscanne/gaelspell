@@ -197,6 +197,7 @@ cinnirthe/S
 cinte/SU
 ciolairn/US
 ciolarn/US
+ciúir/US
 cleath/US
 cleatha/US
 cleathchuir/US
@@ -628,6 +629,7 @@ greise/US
 griogcháin/US
 griogchán/US
 gráín/US
+guilmne/US
 gáil/US
 gál/US
 géata/US
@@ -644,10 +646,14 @@ iachtar/HU
 iachtaí/HMDBU
 iar
 iaramh
+idircheart/HMDBUT
+idirchearta/HMDU
 ifín/HMDBUT
 ifíní/HMDBU
 ilíocht/HMDBU
 ilíochta/HMDU
+imchian/HMDBU
+imchiana/HMDBU
 imcháin/HU
 imcháine/U
 imcháineadh/HUBMDT
@@ -657,6 +663,7 @@ imcháinim/UA
 imcháininn/E
 imcháinte/HBUMD
 imcháintear/HU
+imchéine/HMDU
 ing/HMDBUT
 inneachadh/HMDBUT
 inneachaidh/HMDU
@@ -675,6 +682,10 @@ intleamh/HMDBUT
 intlimh/HMDU
 iocht/HMDBU
 iochta/HMDU
+iochtmhair
+iochtmhaire/B
+iochtmhar/HB
+iochtmhara/B
 iomorra
 ionadacht/HMDBU
 ionadachta/HMDU
@@ -694,6 +705,8 @@ laite
 laiteanna
 lann
 lanna
+laochra
+laochraí
 lasrach
 lasracha
 lasraigh
@@ -709,6 +722,8 @@ leitreach
 leitreacha
 leámháin
 leámhán
+leáthánach
+leáthánaigh
 liost
 loingseach
 loingsigh
@@ -769,6 +784,9 @@ meamair/S
 meamar/S
 meann/S
 meile/S
+meilit/S
+meilite/S
+meilití/S
 meilí/S
 mhachta
 mhachtainn/E
@@ -786,6 +804,8 @@ minn/S
 miní/S
 mionnáin/S
 mionnán/S
+monghair/S
+monghar/S
 mudh/S
 mudha
 mudhadh/S
@@ -814,12 +834,18 @@ nion
 nuaill
 nuair
 nuall
+nuallghubha
 nuar
 náis
 nás
 nása
+ochadh/HMDBUT
+ochaidh/HMDU
 odhar/HMDBU
 oir/HMDBU
+oirchiseacht/HMDBU
+oirchiseachta/HMDU
+oirdne/HMDBU
 oireachais/HMDU
 oireachas/HMDBUT
 oireacht/HMDBUT
@@ -829,6 +855,8 @@ ois/HMDBU
 onchoin/HMDBU
 onchon/HMDU
 onchú/HMDBU
+orda/HMDBU
+ordan/HMDU
 os/HMDBUT
 pair/US
 paist/US
@@ -872,6 +900,8 @@ páilín/US
 páilíní/US
 páin/US
 pán/US
+póirt/US
+pórt/US
 rabh
 rabha
 racáil
@@ -935,6 +965,9 @@ saordha/S
 scabhail
 scabhal
 scaile
+scainnear
+scainnre
+scainnreacha
 scairbh
 scaird
 scairteach
@@ -952,6 +985,8 @@ scliuracha
 scliuracht
 scliurachta
 scliuraí
+scodaithe
+scodaí
 scrobáin
 scrobán
 scríodáin
@@ -982,6 +1017,10 @@ seanmóirthe/S
 seiceal/S
 seicil/ST
 seicilí/S
+seicneach/S
+seicneacha/S
+seicnigh/S
+seicní/S
 seilge/S
 sheanmóire
 sheanmóirinn/E
@@ -1026,6 +1065,7 @@ sirinn/E
 sirthe/ST
 siseal/S
 sisil/ST
+sist
 sleamháin/ST
 sleamhán/S
 sleith/ST
@@ -1041,6 +1081,12 @@ snáith/S
 snáithe
 snáithim/SA
 snáithinn/E
+sochraíocht/ST
+sochraíochta/S
+sodarnach/S
+sodarnacha/S
+sodarnaigh/S
+sodarnaí/S
 soinmheach/S
 soinmheacha/S
 soinmhigh/S
@@ -1084,6 +1130,8 @@ Sumatraigh/S
 Sumatraí/S
 sunais/ST
 sunaise/S
+sínéad/S
+sínéid/ST
 síúil/S
 síúla/S
 súire/ST
@@ -1112,6 +1160,8 @@ tarracha/S
 tarraic/US
 tarraigh/S
 tarraí/S
+tascair/US
+tascar/US
 teacht/US
 teachta/S
 teachtaim/USA
@@ -1253,6 +1303,8 @@ uscar/HMDU
 áirmhigh
 áirmhí/B
 áirí/HMDBU
+ánradh/HMDBUT
+ánraidh/HMDBU
 áradh/HMDBUT
 áraidh/HMDBU
 éadaigh/HU

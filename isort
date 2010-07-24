@@ -1,0 +1,13 @@
+#!/bin/sh
+# ways, even when locale is taken into account.  For instance, it seems
+# GNU sort strips out non-alphabetical characters
+# and sorts on what's left over.   So for instance, a chunk of 
+# the ispell dictionary files might sort like this:
+#
+# uatha/HBMDU
+# uath/HBMDUT
+# uidheadha/HBMDU
+# uidhe/HBMDU
+#  etc.
+# this script gets around this; makes CVS logs and .dic files more readable
+cat "$@" | LC_ALL=C sed 's/^\([^\/]*\)$/% \1/; s/^\(.*\)\/\([A-Za-z]*\)$/\2 \1/' | LC_ALL=C sort -k 2 -k 1,1 -f | LC_ALL=C sed 's/^% \(.*\)$/\1/; s/^\([A-Za-z]*\) \(.*\)$/\2\/\1/' 

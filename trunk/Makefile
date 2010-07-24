@@ -268,6 +268,7 @@ apersonal: $(PERSONAL) giorr
 installweb: FORCE
 	$(INSTALL_DATA) index.html $(HOME)/public_html/ispell
 	$(INSTALL_DATA) index-en.html $(HOME)/public_html/ispell
+	$(INSTALL_DATA) cuidiu.html $(HOME)/public_html/ispell
 	$(INSTALL_DATA) sonrai.html $(HOME)/public_html/ispell
 	$(INSTALL_DATA) sios.html $(HOME)/public_html/ispell
 

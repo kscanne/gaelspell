@@ -2,10 +2,10 @@
         "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="ga">
 <head>
-  <title>GaelSpell Unix</title>
+  <title>GaelSpell</title>
   <meta http-equiv="Content-Language" content="ga">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Clár cinn ispell-gaeilge agus aspell-gaeilge">
+  <meta name="description" content="Leathanach baile GaelSpell">
   <meta name="keywords" content="GaelSpell, litreoir, ispell, aspell, Gaeilge">
   <meta name="author" content="Kevin P. Scannell">
   <link rel="stylesheet" href="../kps.css" type="text/css">
@@ -13,8 +13,8 @@
 
 <body>
 <div class="content">
-<h1>GaelSpell Unix:<br>
-ispell-gaeilge agus aspell-gaeilge
+<h1>GaelSpell:<br>
+Leathanach Baile
 </h1>
 
 <h2>
@@ -25,122 +25,49 @@ ispell-gaeilge agus aspell-gaeilge
 <h2><a name="Achoimre">Achoimre</a></h2>
 
 <p>
-Le fáil ar an leathanach seo tá an pacáiste
-<i>ispell-gaeilge</i> a dheimhníonn 
-an litriú de cháipéisí Gaeilge
-le cabhair an fheidhmchláir
-<a href = "http://fmg-www.cs.ucla.edu/geoff/ispell.html">
-<i>International Ispell</i></a>.
-Is ceartaitheoir litrithe inaistrithe agus idirghníomhach é
-<a href = "http://fmg-www.cs.ucla.edu/geoff/ispell.html"><i>ispell</i></a> 
-a ghlacann le teangacha eile seachas an Béarla.  
-Soláthraíonn <i>ispell-gaeilge</i>
-an liosta focal (<i>gaeilge.raw</i>) agus an "comhad foirceann" 
-(<i>gaeilge.aff</i>) atá riachtanach do <i>ispell</i>.
+Seo é leathanach baile GaelSpell, litreoir cumhachtach don Ghaeilge
+atá ar fáil <i>saor in aisce</i> ó 2000.     Tá níos mó ná 332,000 focal 
+ina bhunachar sonraí faoi láthair, agus focail nua ag dul isteach ann
+i gcónaí.  <a href="cuidiu.html">Cabhraigh linn!</a>
 </p>
 
 <p>
-Má tá ríomhaire Windows nó Macintosh agat agus más mian leat 
-cáipéisí i gcruth Microsoft Word a cheartú,
-féach ar an 
-<a href="http://www.gaelspell.com/">phríomhláithreán GaelSpell</a>.
-Rinneadh gach aon leagan de GaelSpell as bunliosta amháin
-den chéad scoth.
+Is féidir GaelSpell a úsáid ar gach cineál ríomhaire: Linux, Mac, Windows.
+Féach ar an leathanach <a href="sios.html">Íosluchtú</a> chun tuilleadh 
+eolais a fháil agus an leagan is oiriúnaí a íosluchtú.
+</p>
+
+<p>
+Is ríomhchlár "foinse oscailte" é GaelSpell, ar fáil faoin cheadúnas
+<a href="http://www.gnu.org/licenses/gpl-2.0.html">GPLv2</a>.
+Tá an bunchód go léir ar fáil ónár suíomh forbartha ag
+<a href="http://code.google.com/p/gaelspell/">Google Code</a>.
+</p>
+
+<p>
+Táimid ar Facebook anois freisin: <a href="http://www.facebook.com/group.php?gid=114129875265581">Bí i do leantóir!</a>
 </p>
 
 <hr>
 
-<h2><a name="Suiteail">Suiteáil</a></h2>
+<h2><a name="Sonrai">Stair agus Sonraí</a></h2>
 
 <p>
-I dtosach báire, íosluchtaigh agus tiomsaigh 
-<a href = "http://fmg-www.cs.ucla.edu/geoff/ispell.html">
-<i>ispell</i></a>, mura bhfuil sé agat cheana.
-Toisc gur úsáid mé an caighdeán códála
-<a href = "http://www.cs.uu.nl/wais/html/na-dir/internationalization/iso-8859-1-charset.html">
-ISO-8859-1
-</a> 
-sa liosta focal 
-agus sa chomhad foirceann, 
-ní foláir duit do leagan de <i>ispell</i> a thiomsú <b>gan</b> 
-an brat <i>NO8BIT</i>.
-Is féidir an brat seo a fhiosrú leis an ordú a leanas:
-</p>
-<pre>
-% ispell -vv
-</pre>
-
-<p>
-Anois, <a href="sios.html">íosluchtaigh</a> an 
-<i>tar</i>-chomhad comhdhlúite, 
-agus bain amach na comhaid:
-</p>
-<pre>
-% gunzip ispell-gaeilge-4.4.tar.gz
-% tar xvf ispell-gaeilge-4.4.tar 
-% cd ispell-gaeilge-4.4
-</pre>
-
-<p>
-Tá <i>Makefile</i> pacáilte leis an <i>tar</i>-chomhad.  Athraigh an athróg
-<i>ISPELLDIR</i> (gar do bharr an <i>Makefile</i>) go dtí ainm 
-na comhadlainne ina gcoinníonn tú hais-táblaí <i>ispell</i> 
-(mar shampla, <i>english.hash</i>). 
-Ansin, úsáid:
-</p>
-<pre>
-% make
-% make install
-</pre>
-
-<p>
-Anois nuair a thosaíonn tú <i>ispell</i>, 
-úsáid an brat "-d" do cháipéisí as Gaeilge:
-</p>
-<pre>
-% ispell -dgaeilge foo.txt
-</pre>
-<p>
-é sin nó athraigh an athróg timpeallachta <i>DICTIONARY</i> más mian leat
-go mbeadh <i>gaeilge.hash</i> mar fhoclóir caighdeánach agat.  
-</p>
-
-<p>
-Ceadaíonn an brat "-p" 
-duit foclóir pearsanta eile a roghnú.  
-Is féidir leat foclóir pearsanta  
-a chruthú as na chomhaid
-<i>biobla</i>,
-<i>daoine</i>, <i>gall</i>
-<i>giorr</i>,
-<i>logainm</i>, <i>miotas</i>, agus
-<i>stair</i>
-atá dáilte le <i>ispell-gaeilge</i>.  Úsáid:
-</p>
-<pre>
-% make personal
-</pre>
-
-<hr>
-
-<h2><a name="Sonrai">Sonraí</a></h2>
-
-<p>
-I rith 1997-1998, scríobh Alastair McKinstry an clár 
+I rith 1997-1998, scríobh Alastair McKinstry
 <a href = "http://packages.debian.org/unstable/text/ispell-ga.html">
-<i>ispell-ga</i></a> clár atá cosúil le
+<i>ispell-ga</i></a>, clár atá cosúil le
 <i>ispell-gaeilge</i>.  Cé go bhfuil mo straitéis féin éagsúil go leor,
 táim an-bhuíoch de as cúpla dea-smaointe óna chomhad foirceann 
 a d'úsáid mé i mo leagan féin.
 </p>
 
 <p>
-Scríobh mé an clár seo i mí Feabhra 2000,
+Scríobh mé an chéad leagan de GaelSpell i mí Feabhra 2000,
 mar chuid de mo chúrsa san 
 Innealtóireacht Bhogearraí ag
 <a href = "http://www.slu.edu/">Ollscoil San Laoiseach</a>,
-d'fhonn na deacrachtaí a bhaineann le hidirnáisiúntú bogearraí
-a léiriú.
+chun na deacrachtaí a bhaineann le hidirnáisiúntú bogearraí
+a léiriú do mo mhic léinn.
 </p>
 
 <p>
@@ -151,7 +78,7 @@ Scríobh mé ríomhchlár beag a tháirgeann go huathoibríoch
 gach uile fhoirm infhillte de
 na hainmfhocal, de na briathra, agus de na haidiachtaí.
 Ansin, gineann an ríomhchlár
-an bunliosta focal <i>gaeilge.raw</i>.
+an bunliosta focal a úsáideann an litreoir.
 Coinníonn an comhad seo: 
 </p>
 <ul>
@@ -166,33 +93,33 @@ le brat a léiríonn a réimniú
 
 <p>
 Tá an rang deireanach seo ann de bharr rialacha dochta caipitlithe 
-i n-<i>ispell</i>; ó Alastair McKinstry a fuair mé an
+sna litreoirí coitianta; is ó Alastair McKinstry a fuair mé an
 smaoineamh seo.
-Soláthraíonn an comhad foirceann 
-(<i>gaeilge.aff</i>) 
+Ansin, soláthraíonn "comhad foirceann"
 réimniú iomlán gach uile bhriathar rialta
 chomh maith le séimhithe agus uruithe, más gá.
 </p>
 
 <p>
-Is é an toradh hais-tábla beacht 
+Is é an toradh foclóir an-bheacht 
 (dheimhnigh mé na ceannfhocail i bhfoclóirí priontáilte) 
 agus iomlán (coinníonn sé gach uile fhoirm infhillte
 de na ceannfhocail).
 De bharr seo, ní bheidh mé ag meascadh liostaí eile focal 
-(m.sh. na liostaí atá ag A. McKinstry) leis an leagan poiblí, 
+(m.sh. na liostaí a bhí ag A. McKinstry) leis an leagan poiblí, 
 cé gur chóir duit é seo a dhéanamh i do leagan féin más mian leat.
 </p>
 
 <p>
-Ar ndóigh, deimhníonn <i>ispell</i> an litriú seachas an ghramadach 
+Ar ndóigh, deimhníonn litreoirí an litriú seachas an ghramadach 
 agus ní bhacann sé leis an gcomhthéacs in 
 aon chor. Mar shampla, glacfaidh sé le "mo máthair" nó "mo cuid 
-Gaeilge".
+Gaeilge".  Má tá tú ag iarraidh rud éigin níos cumhachtaí, féach ar mo
+chlár <a href="/gramadoir/index.html">An Gramadóir</a>.
 </p>
 
 <p>
-Thriail mé leagan tosaigh de <i>ispell-gaeilge</i> ar an Pheintiteoch
+Thriail mé leagan tosaigh de <i>GhaelSpell</i> ar an Pheintiteoch
 agus ar na ceithre Shoiscéal as 
 <a href = "http://www.fiosfeasa.com/">
 Bíobla Maigh Nuad</a> (atá le fáil ar dhlúthcheirnín).
@@ -205,48 +132,6 @@ Bhain mé tairbhe mhór as téacsanna as na fhoilseacháin seo freisin:
 <a href = "http://www.cumasc.ie/"><i>Cumasc</i></a>, agus
 <i>Foinse</i>.
 </p>
-
-<hr>
-
-<h2><a name="Canuinti">Canúintí</a></h2>
-
-<p>
-Ba é an <i>Foclóir Gaeilge-Béarla</i> (Niall Ó Dónaill, eag.) 
-mo phríomhfhoinse, agus dá bharr sin, réitíonn na litrithe 
-leis an Chaighdeán Oifigiúil go hiondúil.
-Ar an láimh eile, soláthraíonn <i>ispell-gaeilge</i> 
-beagán tacaíochta canúnach ón leagan 1.0 anuas.
-Chun an leagan canúnach seo
-a shuiteáil, athraigh an athróg <i>INSTALLATION</i> 
-(gar do bharr an <i>Makefile</i>) ó <i>gaeilge</i> 
-go dtí <i>gaeilgemor</i>,
-agus ansin úsáid:
-</p>
-<pre>
-% make
-% make install
-% ispell -dgaeilgemor foo.txt
-</pre>
-
-<p>
-Glacann an leagan canúnach le gach aon focal a ghlacann an leagan 
-caighdeánach, agus:
-</p>
-<ul>
-<li>comhfhocail mar "mórbhóthar" nó "cuilpháipéar",
-agus focail le réimíreanna mar "drochbhóthar" nó "bhfrithréabhlóid"
-(ach, faraor, le "cuilbhóthar","mórpháipéar","drochdroch" fosta - 
-is féidir leat an fheidhm seo a stopadh leis an mbrat "ispell -B").  
-Tugann an leagan caighdeánach leideanna do na focail seo.
-<li>iarmhíreanna briathartha neamhchaighdeánacha 
-(-fad, -fead, -fair, -fir, -as, -íos)
-<li>focail neamhchaighdeánacha eile
-("aimhreas"="amhras", "scaifte"="scata", srl.; féach ar an chomhad 
-<i>gaeilge.mor</i>.  Sna leaganacha amach anseo,
-ba mhaith liom na focail seo a scagadh ina gcanúintí 
-(Connacht, Mumhain, Ulaidh),
-ach beidh gá le cúnamh ó chainteoirí dúchasacha is dócha).
-</ul>
 
 <hr>
 
@@ -349,7 +234,7 @@ ach beidh gá le cúnamh ó chainteoirí dúchasacha is dócha).
 <li>Idir lámha -- Leagan 4.5
 </ul>
 <hr>
-<em>© Cóipcheart/Copyright 2000-2008 Kevin P. Scannell</em><br><br>
+<em>© Cóipcheart/Copyright 2000-2010 Kevin P. Scannell</em><br><br>
 </div>
 <div class="navigation">
 Baile<br>
@@ -358,6 +243,7 @@ Baile<br>
 <a href = "cuidiu.html">Cuidiú</a><br>
 <a href = "sonrai.html">Athruithe</a><br>
 <a href = "/nlp.html">Tionscadail</a><br>
+<br>
 </div>
 </body>
 </html>

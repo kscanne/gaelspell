@@ -2,10 +2,10 @@
         "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
-  <title>GaelSpell Unix: English</title>
+  <title>GaelSpell: English</title>
   <meta http-equiv="Content-Language" content="en">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="English summary of the GaelSpell Unix home page">
+  <meta name="description" content="English summary of the GaelSpell home page">
   <meta name="keywords" content="GaelSpell, ispell, aspell, Irish language, spellchecker">
   <meta name="author" content="Kevin P. Scannell">
   <link rel="stylesheet" href="../kps.css" type="text/css">
@@ -13,7 +13,7 @@
 
 <body>
 <div class="content">
-<h1>GaelSpell Unix:<br>
+<h1>GaelSpell:<br>
 English summary
 </h1>
 
@@ -26,13 +26,13 @@ English summary
 <p>
 This page has been provided as an aid to package maintainers 
 and others who might be unable to read the 
-<a href = "index.html"><i>GaelSpell Unix</i> home page</a>
+<a href = "index.html"><i>GaelSpell</i> home page</a>
 which is entirely in Irish.    This is in no sense a translation of 
 the Irish page (which contains much more detailed descriptions).
 </p>
 
 <p>
-Three packages are available from this site, providing Irish language 
+For Linux users, we have packages which provide Irish language 
 support for the most widely used spellcheckers in the Open 
 Source community: <i>ispell-gaeilge</i>, for Geoff Kuenning's
 <a href = "http://fmg-www.cs.ucla.edu/geoff/ispell.html"><i>International Ispell</i></a>,
@@ -47,7 +47,7 @@ spellchecker.  The word lists are identical, just packaged differently.
 Diarmaid Mac Mathúna has also repackaged the same underlying word
 list for use on Windows machines; 
 it is available (under the GPL) from
-the primary GaelSpell site:
+the GaelSpell site:
 <a href="http://www.gaelspell.com/">www.gaelspell.com</a>.
 </p>
 
@@ -55,7 +55,7 @@ the primary GaelSpell site:
 <h2><a name="Features">Features</a></h2>
 
 <ul>
-<li><b>Large Word List.</b>  There are around 300,000 words in the database;
+<li><b>Large Word List.</b>  There are around 330,000 words in the database;
 this is, by my estimates, about five times larger than the new Irish
 spellchecker released by Microsoft 
 (can't tell for sure -- it's closed-source!)  
@@ -106,32 +106,14 @@ thereby recognizing and suggesting the correct spelling
 </ul>
 
 <hr>
-<h2><a name="Installation">Installation</a></h2>
-
-<p>
-There is no
-"configure" script -- after unpacking the tarball, 
-try using "make" to build the hashed word list
-(<i>gaeilge.hash</i> for <i>ispell</i> and <i>gaeilge</i> for <i>aspell</i>).
-If you run into trouble
-you should edit the 
-variables at the top of the
-Makefile to the appropriate directories and try again.
-</p>
-
-<p>
-The ISO-639-1 code for Irish is "ga".
-</p>
-
-<hr>
 <h2><a name="Models">Alternate Models</a></h2>
 
 <p>
-The default hash table conforms strictly to standardized Irish spelling.
+The default word list conforms strictly to standardized Irish spelling.
 You can generate either a "literary" or "dialect" model
 (<i>ispell</i> only) by changing the variable 
 <i>INSTALLATION</i> at the top of the Makefile
-to <i>gaeilgelit</i> or <i>gaeilgemor</i> and using "make" as before.  
+to <i>gaeilgelit</i> or <i>gaeilgemor</i> and using "make" as usual.  
 </p>
 
 <p>
@@ -161,7 +143,9 @@ With all this in mind,
 the default on your system</b>.
 </p>
 
-<em>© Copyright 2002-2008 Kevin P. Scannell</em><br><br>
+<hr>
+
+<em>© Copyright 2002-2010 Kevin P. Scannell</em><br><br>
 </div>
 <div class="navigation">
 <a href = "index.html">Home</a><br>

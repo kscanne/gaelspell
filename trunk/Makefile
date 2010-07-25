@@ -67,7 +67,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/$(AFFIXFILE)
 	$(INSTALL_DATA) gaeilgelit.hash $(ISPELLDIR)
 	iconv -f utf8 -t iso-8859-1 gaeilgelit.aff > tempaff.txt
-	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/gaeilgelif.aff
+	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/gaeilgelit.aff
 	$(INSTALL_DATA) gaeilgemor.hash $(ISPELLDIR)
 	iconv -f utf8 -t iso-8859-1 $(ALTAFFIXFILE) > tempaff.txt
 	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/$(ALTAFFIXFILE)

@@ -1572,6 +1572,7 @@ anaictear/HU
 anaicthe/HB
 anaim
 anairde
+anaireicse/HMDBU
 anaithe
 anaitheach
 anaitheanta
@@ -4007,6 +4008,7 @@ boilsceanta
 boilsceán
 boilsceánach
 boilse
+boilímia/US
 boimbealóir
 boimbiléad
 boimpéis
@@ -13564,7 +13566,9 @@ dighnite/US
 dilín
 dimileighe
 dinc
-dindiúir
+dindiúir/US
+dindiúirí/US
+dindiúra/US
 dineadh/US
 dineann/US
 dinnle
@@ -20022,6 +20026,8 @@ Gailleach/S
 Gailleacha/S
 gailleog
 Gailligh/S
+Gaillimheach/S
+Gaillimhigh/S
 gaillshíon
 gaillshíonach
 Gaillí/S
@@ -20757,7 +20763,6 @@ gidiream
 gidiriam
 gidirne
 gifireacht
-gige
 gigea/US
 gigil
 gigileach
@@ -22313,6 +22318,8 @@ géilltí/S
 géimreach
 géineachain/US
 géineachan/US
+géinitic/US
+géinitice/US
 géinneach
 géireacht
 géireadas
@@ -22483,6 +22490,10 @@ hIarnaoise
 hiasaint
 hiasainte
 hiasaintí
+hidrealeictreach
+hidrealeictreacha
+hidrealeictrigh
+hidrealeictrí
 himthighidh
 hin
 hInd
@@ -24031,6 +24042,7 @@ lagspiorad
 lagspioradúil
 lagsprideach
 lagtha
+lagtrá
 lagáisean
 lagáisin
 lagáisiúil
@@ -25563,6 +25575,9 @@ léireacht
 léirigh
 léirightheacht
 léirightheachta
+léirseoir
+léirseoirí
+léirseora
 léirstin
 léirstineach
 léirstineacha
@@ -28239,6 +28254,8 @@ nGaelainne
 nGaelsaoire
 nGaeluinn
 nGaeluinne
+nGaillimheach
+nGaillimhigh
 nGalailéach
 nGalailéigh
 nGalailí
@@ -29720,6 +29737,7 @@ porrán
 porsaláin/US
 porsalán/US
 portanacht
+portanna/US
 portaíl
 portaíocht
 Portláirge/S
@@ -35557,6 +35575,8 @@ spraiciúlacht
 spraiciúlachta
 spraid
 sprainlín
+spraoiúil
+spraoiúla
 sprasa
 sprat
 spreabanna
@@ -40211,6 +40231,7 @@ téiteora/US
 tí
 tífeadh
 tífeá
+tímcheall
 tíobhas
 tíobhasach
 tíochas
@@ -40524,6 +40545,9 @@ uasalaicme
 uasalaicmeach
 uaschama/HMDBUT
 uaschamaí/HMDBU
+uasteilgeoir/HMDBUT
+uasteilgeoirí/HMDBU
+uasteilgeora/HMDU
 uath/U
 uatha
 uathacht/HMDBU
@@ -40628,6 +40652,7 @@ uiginn
 uigín
 uilc/HMDU
 uilce/B
+uile-oileánda/HB
 uile-íce/HMDBUT
 uileag
 uileloisctheach/HMDBUT
@@ -41151,6 +41176,7 @@ Zéalann
 áluinn/HB
 ámad
 ámar
+ámhach
 ámhaill
 ámhailleach
 ámhailleacht
@@ -41161,6 +41187,7 @@ Zéalann
 ámhar/HB
 ámhara/B
 ámharaíocht
+ámhthach
 ámén
 ána/HMDBUT
 ánaiste
@@ -41735,8 +41762,6 @@ Zéalann
 óspidéil/HMDBU
 óstachas
 óstas
-óstáin/HMDBU
-óstán/HMDBUT
 óstánach/HMDBUT
 óstánaigh/HMDBU
 ót

@@ -51,6 +51,9 @@ agá ag a
 aibheil áibhéil
 aigesan aigesean
 aigeán aigéan
+aigneacht aighneacht
+aigneachta aighneachta
+aigneachtaí aighneachtaí
 aimisigh aimsigh
 aimn ainm
 aimneacha ainmneacha
@@ -93,11 +96,15 @@ amlaidh amhlaidh
 amáin amháin
 anamh annamh
 anaus anuas
+anbhródúil an-bhródúil
+anbhuíoch an-bhuíoch
+anchabhrach an-chabhrach
 anchuid an-chuid
 anios aníos
 anmhór an-mhór
 ansiud ansiúd
 antábhachtach an-tábhachtach
+antóir an-tóir
 ao'chor aon chor
 aonduine aon duine
 aoí aoi
@@ -638,7 +645,6 @@ Gaelge Gaeilge
 Gaelgeoir Gaeilgeoir
 Gaelgeoirí Gaeilgeoirí
 Gaelige Gaeilge
-Gaelige Gaeilge
 Gailege Gaeilge
 gailge Gaeilge
 Gaililí Gailílí
@@ -788,6 +794,7 @@ lasa lása
 lasaí lásaí
 lathair láthair
 leabharín leabhairín
+leachtóir léachtóir
 leanuint leanúint
 leanunach leanúnach
 leargas léargas
@@ -913,6 +920,7 @@ nadaoine na daoine
 nadurtha nádúrtha
 nadúr nádúr
 nadúrtha nádúrtha
+naghaidh n-aghaidh
 nahÉireann na hÉireann
 naire náire
 nais n-ais
@@ -925,6 +933,7 @@ naisiúnta náisiúnta
 naistriú n-aistriú
 nar nár
 narbh nárbh
+nathruithe n-athruithe
 ndeanfadh ndéanfadh
 neagraíochtaí n-eagraíochtaí
 nealaíon n-ealaíon
@@ -936,6 +945,8 @@ ngairthí ngairtí
 ngíomh ngníomh
 ni ní
 nil níl
+niliomad n-iliomad
+nimeachtaí n-imeachtaí
 nior níor
 niorbh níorbh
 nios níos
@@ -952,6 +963,7 @@ nosanna nósanna
 nota nóta
 notai nótaí
 notaí nótaí
+nuaaimseartha nua-aimseartha
 nuachtain nuachtáin
 nuachtan nuachtán
 NuaGhaeilge Nua-Ghaeilge
@@ -962,6 +974,7 @@ náisiun náisiún
 náisiunta náisiúnta
 náisúnta náisiúnta
 néireodh n-éireodh
+néiríonn n-éiríonn
 níosmó níos mó
 nóa nó a
 nóimead nóiméad
@@ -970,6 +983,7 @@ núair nuair
 núdarás n-údarás
 núicleach núicléach
 núicleacha núicléacha
+núsáid n-úsáid
 o ó
 ocaid ócáid
 ocaideach ócáideach
@@ -1164,7 +1178,6 @@ sceala scéala
 scealaíocht scéalaíocht
 scealta scéalta
 sceil scéil
-sceim scéim
 sceim scéim
 sceime scéime
 sceimeanna scéimeanna
@@ -1424,6 +1437,7 @@ tángadar thángadar
 téan t-éan
 téileamh t-éileamh
 tógail tógáil
+tóstán t-óstán
 tóstóir t-óstóir
 túdar t-údar
 túdarás t-údarás
@@ -1443,6 +1457,7 @@ udaráis údaráis
 udarás údarás
 udarú údarú
 uineir úinéir
+uinéir úinéir
 uirlís uirlis
 uis úis
 uisci uiscí

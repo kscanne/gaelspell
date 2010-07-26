@@ -428,9 +428,9 @@ adist: aspell.txt apersonal ChangeLog
 #	mv ${ASPELLDEV}/*.bz2 .
 #	rm -f a.tmp
 
+# move to google code svn => logs in utf-8 by default, no "utf" call needed
 ChangeLog : FORCE
-	cvs2cl --FSF
-	utf ChangeLog
+	svn2cl
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=ga soundslike < aspell.txt > sounds.txt

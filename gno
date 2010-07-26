@@ -52,6 +52,7 @@ EasyReader
 eBay
 Edgecast
 Eircom
+Eirgrid
 Elsevier
 Enron
 Esquire
@@ -67,7 +68,10 @@ Fiat
 Firefox
 Flickr
 FocalFactory
+Foxconn
 Frappr
+Fuji
+Fujifilm
 G-Spota
 Gaelchultúr
 Gaelport
@@ -77,6 +81,7 @@ GaelSpell
 Gaeltalk
 GaelTeic
 Gallup
+Gazprom
 Gcom
 Gentoo
 Google
@@ -185,6 +190,7 @@ Telecom
 Telegael
 Terralingua
 Tesco
+Tesla
 Texaco
 Ticketmaster
 Timberland
@@ -192,6 +198,7 @@ Tocco
 Toshiba
 Touche
 Toyota
+Twitter
 Ubuntu
 Veritas
 Verizon
@@ -207,6 +214,7 @@ Wiley
 Windows
 WordPress
 Xanga
+Xbox
 Xerox
 YouTube
 Óg-Ógras

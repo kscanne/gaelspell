@@ -92,7 +92,7 @@ MYTARFILE=$(MYAPPNAME).tar
 CODEDIR=$(HOME)/clar/denartha
 GIN=$(CODEDIR)/Gin
 ASPELL=/usr/bin/aspell
-MYSPELL=/usr/local/bin/hunspell
+MYSPELL=/usr/bin/hunspell
 
 gaeilgehyph.hash: gaeilge.hyp gaeilgehyph.aff
 	iconv -f utf8 -t iso-8859-1 gaeilge.hyp > temphyp

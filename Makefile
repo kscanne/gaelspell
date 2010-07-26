@@ -277,7 +277,7 @@ dist: FORCE
 	sed '/development only/,$$d' ./Makefile > makefile
 	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt makefile
 	chmod 755 igcheck
-	ln -s ispell-gaeilge ../$(APPNAME)
+	ln -s gaelspell ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gaeilgemor.diff
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/$(RAWWORDS) 

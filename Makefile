@@ -326,16 +326,18 @@ README_ga_IE.txt: README COPYING
 # also creates xpi for Mozilla programs - filenames must be ga.* 
 # for the spell checker to appear localized in context menu
 # Summer 2008: now creates oxt installable extension for OOo also
+# Back to rebuilding hyphenation.  Used to just grab from:	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/hyph_ga_IE.zip
 mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	rm -f thes.txt hyph_ga_IE.zip ga_IE.zip
 	rm -Rf dictionaries
+	(cd ${HOME}/gaeilge/fleiscin/fleiscin; make hyph_ga_IE.zip)
+	cp -f ${HOME}/gaeilge/fleiscin/fleiscin/hyph_ga_IE.zip .
 	chmod 644 ga_IE.dic ga_IE.aff README_ga_IE.txt
 	zip ga_IE ga_IE.dic ga_IE.aff README_ga_IE.txt
 	chmod 644 ga_IE.zip
 	echo 'ga,IE,hyph_ga_IE,Irish (Ireland),hyph_ga_IE.zip' > hyph.txt
 	echo 'ga,IE,ga_IE,Irish (Ireland),ga_IE.zip' > spell.txt
 	echo 'ga,IE,thes_ga_IE_v2,Irish (Ireland),thes_ga_IE_v2.zip' > thes.txt
-	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/hyph_ga_IE.zip
 	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/thes_ga_IE_v2.zip
 	zip ga_IE-pack ga_IE.zip hyph.txt hyph_ga_IE.zip spell.txt thes.txt thes_ga_IE_v2.zip
 	mkdir dictionaries

@@ -28,6 +28,7 @@ Chrysler
 Cingular
 Cisco
 Citigroup
+Citroën
 Clannad
 Clarendon
 Claris
@@ -41,6 +42,7 @@ Debian
 Dell
 Deloitte
 Dialang
+Digg
 Digiscoil
 Digital
 Disney
@@ -68,6 +70,7 @@ Fiat
 Firefox
 Flickr
 FocalFactory
+Foróige
 Foxconn
 Frappr
 Fuji
@@ -121,6 +124,7 @@ Lurgan
 Lycos
 Macintosh
 Macromedia
+Maithú
 Mandrake
 Mandriva
 Marriott
@@ -140,6 +144,7 @@ Mozilla
 MySpace
 Napster
 Nemeton
+Nestlé
 Netflix
 Netscape
 Nike
@@ -216,5 +221,6 @@ WordPress
 Xanga
 Xbox
 Xerox
+Xposé
 YouTube
 Óg-Ógras

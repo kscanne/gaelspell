@@ -27,6 +27,7 @@ Cheerios
 Chrysler
 Cingular
 Cisco
+Citibank
 Citigroup
 Citroën
 Clannad
@@ -92,6 +93,7 @@ Greenpeace
 Guardian
 Gucci
 Halliburton
+Hamas
 Harley
 Heineken
 Heinemann
@@ -142,6 +144,7 @@ Moodle
 Motorola
 Mozilla
 MySpace
+Mythbusters
 Napster
 Nemeton
 Nestlé

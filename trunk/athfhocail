@@ -1582,6 +1582,8 @@ aertha aeraithe
 aertá aeraíteá
 aerí aeraí
 aerú aeráil
+aestrais éastrais
+aestras éastras
 afast tópás
 ag chuig
 aga eang
@@ -3529,6 +3531,7 @@ aonarúil aonarach
 aonarúil aonaraigh
 aonarúla aonaracha
 aonarúla aonaraí
+aonchor aon chor
 aonda aonta
 aondacht aontacht
 aondachta aontachta
@@ -4751,6 +4754,7 @@ b'aerphoirt b'aerfoirt
 b'aerphort b'aerfort
 b'aertha b'aeraithe
 b'aerí b'aeraí
+b'aestras b'éastras
 b'againidheacht b'aighneas
 b'agar b'agairt
 b'aghaidh-fidil b'aghaidh fidil
@@ -5306,6 +5310,7 @@ b'aonaránta b'aonaránaí
 b'aonarúil b'aonarach
 b'aonarúla b'aonaracha
 b'aonarúla b'aonaraí
+b'aonchor aon chor
 b'aonda b'aonta
 b'aondacht b'aontacht
 b'aondachtaithe b'aontachtaithe
@@ -34621,6 +34626,8 @@ d'aerphort d'aerfort
 d'aertaí d'aeraítí
 d'aertha d'aeraithe
 d'aertá d'aeraíteá
+d'aestrais d'éastrais
+d'aestras d'éastras
 d'againidheacht d'aighneas
 d'againidheachta d'aighnis
 d'agar d'agairt
@@ -35463,6 +35470,7 @@ d'aonarachais d'aonarachta
 d'aonarachas d'aonaracht
 d'aonardhacht d'aonaracht
 d'aonardhachta d'aonarachta
+d'aonchor aon chor
 d'aondacht d'aontacht
 d'aondachta d'aontachta
 d'aondachtaithe d'aontachtaithe
@@ -40445,6 +40453,8 @@ dTreighdín dTréidín
 dTurcamáinis dTuircméinis
 dTurcamáinise dTuircméinise
 dTírchonaill dTír Chonaill
+da-ríribh dáiríre
+da-ríribhe dáiríre
 dabhad dabhaid
 dabhada dabhaideanna
 dabhaich dabhach
@@ -41468,6 +41478,8 @@ deárthatúil dealraitheach
 dh'ea ea
 dh'ea hea
 dh'á á
+dha-ríribh dháiríre
+dha-ríribhe dháiríre
 dhabhair dhabhcha
 dhabhair dhaibhche
 dhabhair dhobhair
@@ -47848,6 +47860,9 @@ dtriar dtriúr
 dtrioca dtrioc
 dtriocha dtríocha
 dtriochad dtríochad
+dtriológ dtríológ
+dtriológa dtríológa
+dtriolóige dtríolóige
 dtriomlach dtriomach
 dtriomlaigh dtriomaigh
 dtriosc dtoireasc
@@ -48095,9 +48110,6 @@ dtríléime léime thriarach
 dtríléimí léimeanna thriarach
 dtríobúin dtreabhainn
 dtríobún dtreabhann
-dtríológ dtriológ
-dtríológa dtriológa
-dtríolóige dtriolóige
 dtríomhadh dtríú
 dtríopais dtríopas
 dtríopaise dtríopais
@@ -70503,6 +70515,8 @@ haerphoirt haerfoirt
 haerphort haerfort
 haertar haeraítear
 haertha haeraithe
+haestrais héastrais
+haestras héastras
 hagainidheacht haighneas
 hagainidheachta haighnis
 hagar hagairt
@@ -71230,6 +71244,7 @@ haonardhachta haonarachta
 haonartha haonarach
 haonaránta haonaránach
 haonarúil haonarach
+haonchor aon chor
 haonda haonta
 haondacht haontacht
 haondachta haontachta
@@ -76301,6 +76316,8 @@ leamhain leamhaigh
 leamhan leamhach
 leamhchas leamhas
 leamhlacht leamhnacht
+leamhnacháin leamhacháin
+leamhnachán leamhachán
 leamhnas leamhas
 leamhnú deonú
 leamhnú dheonú
@@ -76733,6 +76750,7 @@ leá lia
 leá lianna
 leábán lábán
 leáchas gleáchas
+leácháin leamhacháin
 leáchán leamhachán
 leáigh lia
 leáiteoir leádóir
@@ -76740,6 +76758,8 @@ leáiteoirí leádóirí
 leáiteora leádóra
 leáman leamhan
 leámharaic leábharaic
+leócháin leamhacháin
+leóchán leamhachán
 leómhain leoin
 leómhan leon
 liabhán liamhán
@@ -78646,6 +78666,8 @@ m'aeridheachta m'aeraíochta
 m'aerphoirt m'aerfoirt
 m'aerphort m'aerfort
 m'aertha m'aeraithe
+m'aestrais m'éastrais
+m'aestras m'éastras
 m'againidheacht m'aighneas
 m'againidheachta m'aighnis
 m'agar m'agairt
@@ -79149,6 +79171,7 @@ m'aonarachais m'aonarachta
 m'aonarachas m'aonaracht
 m'aonardhacht m'aonaracht
 m'aonardhachta m'aonarachta
+m'aonchor aon chor
 m'aondacht m'aontacht
 m'aondachta m'aontachta
 m'aondachtaithe m'aontachtaithe
@@ -89431,6 +89454,8 @@ n-aertar n-aeraítear
 n-aertaí n-aeraítí
 n-aertha n-aeraithe
 n-aertá n-aeraíteá
+n-aestrais n-éastrais
+n-aestras n-éastras
 n-againidheacht n-aighneas
 n-againidheachta n-aighnis
 n-agar n-agairt
@@ -90484,6 +90509,7 @@ n-aonarachais n-aonarachta
 n-aonarachas n-aonaracht
 n-aonardhacht n-aonaracht
 n-aonardhachta n-aonarachta
+n-aonchor aon chor
 n-aondacht n-aontacht
 n-aondachta n-aontachta
 n-aondachtaithe n-aontachtaithe
@@ -104522,7 +104548,6 @@ ríomhóimis ríomhfaimis
 ríomhóinn ríomhfainn
 ríomhú ríomh
 ríosáil rosáil
-ríribh dáiríre
 ríse raidhse
 rísiúil raidhsiúil
 rísiúla raidhsiúla
@@ -117149,6 +117174,7 @@ t-adú fadú
 t-aeradh t-aerú
 t-aeraitheoir t-aerthóir
 t-aerphort t-aerfort
+t-aestras t-éastras
 t-agar agairt
 t-aghnas t-aighneas
 t-aghnuidhe t-aighne
@@ -121308,6 +121334,9 @@ thriar thriúr
 thrioca thrioc
 thriocha thríocha
 thriochad thríochad
+thriológ thríológ
+thriológa thríológa
+thriolóige thríolóige
 thriomlach thriomach
 thriomlaigh thriomaigh
 thriosc thoireasc
@@ -121624,9 +121653,6 @@ thrínn trínn
 thrínne trínne
 thríobúin threabhainn
 thríobún threabhann
-thríológ thriológ
-thríológa thriológa
-thríolóige thriolóige
 thríom tríom
 thríomhadh thríú
 thríomsa tríomsa
@@ -123736,6 +123762,9 @@ trioll drioll
 triollabhait turlabhait
 triollús treallús
 triollúsach treallúsach
+triológ tríológ
+triológa tríológa
+triolóige tríolóige
 trioma tirime
 triomlach triomach
 triomlaigh triomaigh
@@ -124117,9 +124146,6 @@ tríléimí léimeanna thriarach
 trín trína
 tríobúin treabhainn
 tríobún treabhann
-tríológ triológ
-tríológa triológa
-tríolóige triolóige
 tríomhadh tríú
 tríontalach trintealach
 tríonóideach Tríonóideach

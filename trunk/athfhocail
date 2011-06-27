@@ -367,6 +367,8 @@ Gaedhilgeora Gaeilgeora
 Gaeilg Gaeilge
 Gaeilic Gaeilge
 Gaeilice Gaeilge
+Gael-Linn Gael Linn
+GaelLinn Gael Linn
 Gaelainn Gaeilge
 Gaelainne Gaeilge
 Gaelsaoire GaelSaoire
@@ -424,6 +426,8 @@ Ghaedhilgeora Ghaeilgeora
 Ghaeilg Ghaeilge
 Ghaeilic Ghaeilge
 Ghaeilice Ghaeilge
+Ghael-Linn Ghael Linn
+GhaelLinn Ghael Linn
 Ghaelainn Ghaeilge
 Ghaelainne Ghaeilge
 Ghaelsaoire GhaelSaoire
@@ -936,6 +940,10 @@ Thibéadaise Thibéidise
 Thigrinis Thigrínis
 Thigrinise Thigrínise
 Thiobrad Thiobraid
+Thiobraideach Thiobradach
+Thiobraideacha Thiobradacha
+Thiobraidigh Thiobradaigh
+Thiobraidí Thiobradaí
 Thioról Thioróil
 Thioról Thioróile
 Thraoi Thraí
@@ -951,6 +959,10 @@ Tibéadaise Tibéidise
 Tigrinis Tigrínis
 Tigrinise Tigrínise
 Tiobrad Tiobraid
+Tiobraideach Tiobradach
+Tiobraideacha Tiobradacha
+Tiobraidigh Tiobradaigh
+Tiobraidí Tiobradaí
 Tioról Tioróil
 Tioról Tioróile
 Traoi Traí
@@ -40446,6 +40458,8 @@ dTibéadaise dTibéidise
 dTigrinis dTigrínis
 dTigrinise dTigrínise
 dTiobrad dTiobraid
+dTiobraideach dTiobradach
+dTiobraidigh dTiobradaigh
 dTioról dTioróil
 dTioról dTioróile
 dTraoi dTraí
@@ -76628,6 +76642,7 @@ leithide leithéid
 leithidí leithéidí
 leithimeall leathimeall
 leithimeallach leathimeallach
+leithinisí leithinsí
 leithise léise
 leithiúnachas cleithiúnas
 leithleachasach leithleach
@@ -87384,6 +87399,31 @@ mhálaidí mhálaí
 mhám mhama
 mhánráin bhanráin
 mhánrán bhanrán
+mhárcáil mharcáil
+mhárcáilte mharcáilte
+mhárcáiltear mharcáiltear
+mhárcáilteá mharcáilteá
+mhárcáiltí mharcáiltí
+mhárcála mharcála
+mhárcáladar mharcáladar
+mhárcáladh mharcáladh
+mhárcálaidís mharcálaidís
+mhárcálaigí mharcálaigí
+mhárcálaim mharcálaim
+mhárcálaimid mharcálaimid
+mhárcálaimis mharcálaimis
+mhárcálainn mharcálainn
+mhárcálamar mharcálamar
+mhárcálann mharcálann
+mhárcálfadh mharcálfadh
+mhárcálfaidh mharcálfaidh
+mhárcálfaidís mharcálfaidís
+mhárcálfaimid mharcálfaimid
+mhárcálfaimis mharcálfaimis
+mhárcálfainn mharcálfainn
+mhárcálfar mharcálfar
+mhárcálfaí mharcálfaí
+mhárcálfá mharcálfá
 mhárla mharla
 mhárlaí mharlaí
 mhásánach mhásach
@@ -88539,6 +88579,31 @@ mánrán mbanrán
 mánta mánla
 mántacht mánlacht
 márach amárach
+márcáil marcáil
+márcáilte marcáilte
+márcáiltear marcáiltear
+márcáilteá marcáilteá
+márcáiltí marcáiltí
+márcála marcála
+márcáladar marcáladar
+márcáladh marcáladh
+márcálaidís marcálaidís
+márcálaigí marcálaigí
+márcálaim marcálaim
+márcálaimid marcálaimid
+márcálaimis marcálaimis
+márcálainn marcálainn
+márcálamar marcálamar
+márcálann marcálann
+márcálfadh marcálfadh
+márcálfaidh marcálfaidh
+márcálfaidís marcálfaidís
+márcálfaimid marcálfaimid
+márcálfaimis marcálfaimis
+márcálfainn marcálfainn
+márcálfar marcálfar
+márcálfaí marcálfaí
+márcálfá marcálfá
 márla marla
 márlaí marlaí
 mársáil máirseáil
@@ -94061,6 +94126,8 @@ nGaedhilgeora nGaeilgeora
 nGaeilg nGaeilge
 nGaeilic nGaeilge
 nGaeilice nGaeilge
+nGael-Linn nGael Linn
+nGaelLinn nGael Linn
 nGaelainn nGaeilge
 nGaelainne nGaeilge
 nGaelsaoire nGaelSaoire
@@ -109493,6 +109560,10 @@ shliosta shliste
 shliostar shlistear
 shliostaí shlistí
 shliostá shlisteá
+shlipéara shlipéir
+shlipéir shlipéar
+shlipéirí shlipéar
+shlipéirí shlipéir
 shliseáil shliseadh
 shliseáin shliseoga
 shliseáin shliseoige
@@ -112159,8 +112230,11 @@ sliostá slisteá
 sliosán sleasán
 sliotharnach sailchearnach
 slipeánach slip
+slipéara slipéir
 slipéid slipéar
 slipéir slipéar
+slipéirí slipéar
+slipéirí slipéir
 slipín líbín
 sliseáil slis
 sliseáil sliseadh
@@ -114133,7 +114207,13 @@ sporán sparán
 spot spota
 spotaithe spotach
 spotar sputar
+spotashoilse spotsoilse
+spotasholais spotsolais
+spotasholas spotsolas
 spothánach speathánach
+spotshoilse spotsoilse
+spotsholais spotsolais
+spotsholas spotsolas
 sprabhais gramhas
 sprabhas gramhas
 spracadh spreacadh
@@ -124443,6 +124523,7 @@ tsliobarnaíl liobarnacht
 tsliogairt tslíogairt
 tsliom-aráin tslimaráin
 tsliosta tsliste
+tslipéara tslipéir
 tsliseáil sliseadh
 tsliseáin sliseoige
 tslisneáil sliseadh

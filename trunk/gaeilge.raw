@@ -9614,6 +9614,9 @@ bléininne/S
 bléinte/US
 bléitse/US
 blím/USA
+blíp/US
+blípe/US
+blípeanna/US
 blúire/US
 blúirí/US
 blúirín/US
@@ -21723,8 +21726,12 @@ croiniceora/US
 croinicí/US
 Croise/S
 croise/US
+croiseach/S
+croiseacha/S
 croisiféar/US
 croisiféir/US
+croisigh/S
+croisí/S
 croisín/US
 croisíní/US
 croit/US
@@ -30414,6 +30421,8 @@ dTibéidise
 dTigrínis
 dTigrínise
 dTimbeactú
+dTiobradach
+dTiobradaigh
 dTiobraid
 dTiobraide
 dTiomna
@@ -39225,7 +39234,6 @@ Gaeilgeoireachta/S
 Gaeilgeoirí/S
 Gaeilgeora/S
 Gael/S
-Gael-Linn
 Gael-Mheiriceánach
 Gael-Mheiriceánacha
 Gael-Mheiriceánaigh
@@ -41025,7 +41033,6 @@ ghabha/U
 ghabhainn/EU
 ghabhlaí/U
 ghabhlaínn/FU
-Ghael-Linn
 Ghael-Mheiriceánach
 Ghael-Mheiriceánacha
 Ghael-Mheiriceánaigh
@@ -41829,6 +41836,9 @@ glantacháin/US
 glantachán/US
 glantaigh/S
 glantaí/S
+glantosaitheoir/US
+glantosaitheoirí/US
+glantosaitheora/US
 glantáirgeacht/US
 glantáirgeachta/US
 glantáirgeachtaí/US
@@ -49784,6 +49794,8 @@ leas
 leas-ardeaglais
 leas-ardeaglaise
 leas-ardeaglaisí
+leas-phríomhoide
+leas-phríomhoidí
 leasa
 leasacháin
 leasachán
@@ -50011,6 +50023,9 @@ leathchois
 leathchoise
 leathchoróin
 leathchos
+leathchraobh
+leathchraobhacha
+leathchraoibhe
 leathchruinne
 leathchruinní
 leathchuibheasach
@@ -58050,6 +58065,10 @@ méiseáilteachta/S
 méiseála/S
 méiseálaithe/S
 méiseálaí/S
+méisiliteach/S
+méisiliteacha/S
+méisilitigh/S
+méisilití/S
 méisitéilióma/S
 méisín/S
 méisíní/S
@@ -61262,7 +61281,6 @@ nGaeilgeoireachta
 nGaeilgeoirí
 nGaeilgeora
 nGael
-nGael-Linn
 nGael-Mheiriceánach
 nGael-Mheiriceánaigh
 nGael-Taca
@@ -70555,6 +70573,9 @@ saordhán/S
 saordhána/S
 saorealaíon/S
 saorealaíona/S
+saorealaíontóir/S
+saorealaíontóirí/S
+saorealaíontóra/ST
 saorearra/ST
 saorearraí/S
 saorfhear/S
@@ -70971,8 +70992,11 @@ scamha
 scamhacháin
 scamhachán
 scamhadh
+scamhailéara
+scamhailéir
 scamhailéireacht
 scamhailéireachta
+scamhailéirí
 scamhaim/A
 scamhainn/E
 scamhaird
@@ -71471,6 +71495,8 @@ scigmhagadh
 scigmhagaidh
 scigphictiúir
 scigphictiúr
+scigpháipéar
+scigpháipéir
 scil
 scile
 scileach
@@ -72290,6 +72316,9 @@ scríobhaim/A
 scríobhainn/E
 scríobhaithe
 scríobhaí
+scríobhlainne
+scríobhlann
+scríobhlanna
 scríoblach
 scríoblaigh
 scríoblíne
@@ -75054,6 +75083,8 @@ slatbhalla/ST
 slatbhallaí/S
 slatfhoilt/ST
 slatfholt/S
+slatiascaire/ST
+slatiascairí/S
 slatmhaide/ST
 slatmhaidí/S
 slatáil/ST
@@ -83061,6 +83092,10 @@ tintríochta/US
 tiníl/US
 tiníleach/US
 tiníleacha/US
+Tiobradach/S
+Tiobradacha/S
+Tiobradaigh/S
+Tiobradaí/S
 Tiobraid/S
 Tiobraide/S
 tiocfaidh/US
@@ -85486,6 +85521,7 @@ tuairimitheora/US
 tuairimiú/US
 tuairimiúil/S
 tuairimiúla/S
+tuairimse/US
 tuairimí/SU
 tuairimím/USC
 tuairimíocht/US
@@ -89775,6 +89811,9 @@ zúnna
 ógchiontóra/HMDU
 ógchlub/HMDBUT
 ógchlubanna/HMDBU
+ógeagraíocht/HMDBU
+ógeagraíochta/HMDU
+ógeagraíochtaí/HMDBU
 ógfhear/HMDBUT
 ógfhir/HMDBU
 ógh/HMDBU

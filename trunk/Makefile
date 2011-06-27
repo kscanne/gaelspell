@@ -10,7 +10,7 @@ MAKE=/usr/bin/make
 PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt
 
 #   Shouldn't have to change anything below here
-RELEASE=4.5
+RELEASE=4.6
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit dinneenok.txt
 ALTWORDS= gaeilge.mor
@@ -317,11 +317,13 @@ ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
 	rm -f myspelltemp.txt
 
 mycheck: ga_IE.dic aspell.txt ga_IE.aff
-	cat aspell.txt | $(MYSPELL) -l -d ./ga_IE
+	cat aspell.txt personal | $(MYSPELL) -l -d ./ga_IE
 
 README_ga_IE.txt: README COPYING
 	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of hunspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 
+#  * Don't want to use local make-exts since it doesn't package up
+#    the thesaurus and hyphenation patterns in xx_YY-pack or .oxt...
 # creates old ga_IE.zip and ga_IE-pack.zip for OOo (now defunct, Summer 2008)
 # also creates xpi for Mozilla programs - filenames must be ga.* 
 # for the spell checker to appear localized in context menu
@@ -440,6 +442,7 @@ sounds.txt: FORCE
 aspellrev.txt: aspell.txt
 	cat aspell.txt | perl -p -e 's/(.*)/reverse $$1/e;' | sort | perl -p -e 's/(.*)/reverse $$1/e;' > aspellrev.txt 
 
+# Now defunct; if I revive this, should do justalts after the fromdb...
 seiceail: FORCE
 	$(MAKE) fromdb
 	$(MAKE) aspelllit.txt

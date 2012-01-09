@@ -254,6 +254,20 @@ aspelllit.txt: gaeilgelit.hash
 aspellalt.txt: gaeilgemor.hash
 	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | iconv -f utf8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | iconv -f iso-8859-1 -t utf8 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
+# Scrabble3D
+# No poncanna, like the "official" rules
+gaeilge.dic: aspell.txt
+	(echo '[Header]'; echo "Version=$(RELEASE)"; echo 'Author=Kevin Scannell'; echo 'StandardCategory=GaelSpell'; echo 'Licence=GNU GPLv2'; echo "Comment=This is Kevin Scannell's GaelSpell Irish word list"; echo '[Categories]'; echo '[Words]'; cat aspell.txt | egrep '..' | egrep -v '[A-ZÁÉÍÓÚ]' | tr 'a-záéíóú' 'A-ZÁÉÍÓÚ' | egrep -v "[JKQVWXYZ'-]") > $@
+
+scrabble-heads.txt: ${HOME}/seal/ig7
+	cat ${HOME}/seal/ig7 | egrep '^[a-záéíóú][^ ]+\.' | sed 's/\..*//' 
+
+# poncanna, but also "free" H's at beginning, FORHALLA, etc.
+#	(echo '[Header]'; echo "Version=$(RELEASE)"; echo 'Author=Kevin Scannell'; echo 'StandardCategory=unknown'; echo 'Licence=GNU GPLv2'; echo "Comment=This is Kevin Scannell's GaelSpell Irish word list"; echo '[Categories]'; echo '[Words]'; cat aspell.txt | egrep -v '[A-ZÁÉÍÓÚ]' | tr 'a-záéíóú' 'A-ZÁÉÍÓÚ' | egrep -v "[JKQVWXYZ'-]" | sed 's/BH/Ḃ/g; s/CH/Ċ/g; s/DH/Ḋ/g; s/FH/Ḟ/g; s/GH/Ġ/g; s/MH/Ṁ/g; s/PH/Ṗ/g; s/SH/Ṡ/g; s/TH/Ṫ/g') > $@
+# For poncanna and no free h's at all:
+seanghaeilge.dic: aspell.txt
+	(echo '[Header]'; echo "Version=$(RELEASE)"; echo 'Author=Kevin Scannell'; echo 'StandardCategory=GaelSpell'; echo 'Licence=GNU GPLv2'; echo "Comment=This is Kevin Scannell's GaelSpell Irish word list"; echo '[Replace]'; echo 'Ḃ=BH'; echo 'Ċ=CH'; echo 'Ḋ=DH'; echo 'Ḟ=FH'; echo 'Ġ=GH'; echo 'Ṁ=MH'; echo 'Ṗ=PH'; echo 'Ṡ=SH'; echo 'Ṫ=TH'; echo '[Categories]'; echo '[Words]'; cat aspell.txt | egrep '..' | egrep -v '[A-ZÁÉÍÓÚ]' | tr 'a-záéíóú' 'A-ZÁÉÍÓÚ' | egrep -v "[JKQVWXYZ'-]" | egrep -v '^H' | egrep -v '[^BCDFGMPST]H' | sed 's/BH/Ḃ/g; s/CH/Ċ/g; s/DH/Ḋ/g; s/FH/Ḟ/g; s/GH/Ġ/g; s/MH/Ṁ/g; s/PH/Ṗ/g; s/SH/Ṡ/g; s/TH/Ṫ/g') > $@
+
 # these aspell functions are unimplemented according to K.A. 7/2/03
 apersonal: $(PERSONAL) giorr
 	(echo "personal_repl-1.1 ga 0 utf-8"; sort -u athfhocail earraidi gaelu) > repl
@@ -329,6 +343,7 @@ README_ga_IE.txt: README COPYING
 # for the spell checker to appear localized in context menu
 # Summer 2008: now creates oxt installable extension for OOo also
 # Back to rebuilding hyphenation.  Used to just grab from:	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/hyph_ga_IE.zip
+#	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/thes_ga_IE_v2.zip
 mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	rm -f thes.txt hyph_ga_IE.zip ga_IE.zip
 	rm -Rf dictionaries
@@ -340,7 +355,6 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	echo 'ga,IE,hyph_ga_IE,Irish (Ireland),hyph_ga_IE.zip' > hyph.txt
 	echo 'ga,IE,ga_IE,Irish (Ireland),ga_IE.zip' > spell.txt
 	echo 'ga,IE,thes_ga_IE_v2,Irish (Ireland),thes_ga_IE_v2.zip' > thes.txt
-	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/thes_ga_IE_v2.zip
 	zip ga_IE-pack ga_IE.zip hyph.txt hyph_ga_IE.zip spell.txt thes.txt thes_ga_IE_v2.zip
 	mkdir dictionaries
 	cp ga_IE.dic dictionaries/ga.dic
@@ -410,6 +424,10 @@ mytardist: ga_IE.dic ChangeLog
 	rm -f ../$(MYAPPNAME) README.txt
 
 ASPELLDEV = ${HOME}/gaeilge/ispell/ga-build
+
+gaelspell.zip: aspell.txt $(PERSONAL) COPYING README
+	LC_ALL=C sort -u aspell.txt $(PERSONAL) > gaelspell.txt
+	zip $@ gaelspell.txt COPYING README
 
 adist: aspell.txt apersonal ChangeLog
 	LC_ALL=C sort -u aspell.txt $(PERSONAL) > a.tmp

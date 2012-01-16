@@ -74,9 +74,11 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	rm -f tempaff.txt
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga_IE.txt gaelspell.txt gaeilge.dic
 
-# not giorr, romhanach, etc.  see veryclean
+# Clean back to what gets packaged up in an ispell-gaeilge tarball
+# So don't wipe out generated ChangeLog, giorr, romhanach, etc.
+# See veryclean, maintainer-clean below
 distclean:
 	$(MAKE) clean
 	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu
@@ -103,11 +105,18 @@ gaeilgehyph.hash: gaeilge.hyp gaeilgehyph.aff
 gaeilgemor.diff:
 	(diff -u $(AFFIXFILE) $(ALTAFFIXFILE) > gaeilgemor.diff; echo)
 
-# like "maintainer" clean -- distclean PLUS kill files that are makeable
+# clean everything not tracked in version control.
+# So, distclean PLUS kill files that are makeable
 # from backend database
 veryclean:
 	$(MAKE) distclean
-	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor miotas.txt stair.txt romhanach README_ga_IE.txt ChangeLog giorr
+	rm -f miotas.txt stair.txt romhanach ChangeLog giorr
+
+# clean a few files that are in version control, but which I generate
+# from the backend database periodically
+maintainer-clean:
+	$(MAKE) veryclean
+	rm -f athfhocail gaeilge.raw gaeilge.lit gaeilge.mor
 
 # flip BH for historical compat, clean CVS
 # note that gaeilge.mor is not complete after this - in "groom"

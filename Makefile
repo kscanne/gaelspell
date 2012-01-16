@@ -74,7 +74,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	rm -f tempaff.txt
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt
 
 # not giorr, romhanach, etc.  see veryclean
 distclean:
@@ -425,9 +425,19 @@ mytardist: ga_IE.dic ChangeLog
 
 ASPELLDEV = ${HOME}/gaeilge/ispell/ga-build
 
-gaelspell.zip: aspell.txt $(PERSONAL) COPYING README
-	LC_ALL=C sort -u aspell.txt $(PERSONAL) > gaelspell.txt
+gaelspell.txt: aspell.txt $(PERSONAL)
+	LC_ALL=C sort -u aspell.txt $(PERSONAL) > $@
+
+gaelspell.zip: gaelspell.txt COPYING README
 	zip $@ gaelspell.txt COPYING README
+
+adaptxt-ga.zip: ga_inclusion.txt ga_corpus.txt
+	zip $@ ga_inclusion.txt ga_corpus.txt
+
+CLEANFREQ=/usr/local/share/crubadan/ga/CLEANFREQ
+HUNSPELLGD=${HOME}/seal/hunspell-gd
+ga_inclusion.txt ga_corpus.txt: gaelspell.txt $(CLEANFREQ)
+	perl $(HUNSPELLGD)/toadaptxt.pl ga gaelspell.txt $(CLEANFREQ)
 
 adist: aspell.txt apersonal ChangeLog
 	LC_ALL=C sort -u aspell.txt $(PERSONAL) > a.tmp

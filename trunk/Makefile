@@ -74,7 +74,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	rm -f tempaff.txt
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga_IE.txt gaelspell.txt gaeilge.dic
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga_IE.txt gaelspell.txt gaeilge.dic ga-media-freq.txt ga_corpus-utf8.txt ga-freq.txt phrases-freq.txt ga_inclusion-utf8.txt twitter-survey.txt gaelspellalt-ascii.txt gaelspell-anything.txt gaelspellalt.txt
 
 # Clean back to what gets packaged up in an ispell-gaeilge tarball
 # So don't wipe out generated ChangeLog, giorr, romhanach, etc.
@@ -434,19 +434,52 @@ mytardist: ga_IE.dic ChangeLog
 
 ASPELLDEV = ${HOME}/gaeilge/ispell/ga-build
 
+gaelspell-anything.txt: gaelspellalt.txt gaelspellalt-ascii.txt uimhreacha
+	cat gaelspellalt.txt gaelspellalt-ascii.txt uimhreacha | LC_ALL=C sort -u > $@
+
+gaelspellalt-ascii.txt: gaelspellalt.txt
+	cat gaelspellalt.txt | tolow | toascii > $@
+
+gaelspellalt.txt: teacs.txt uimhreacha aspellalt.txt $(PERSONAL)
+	LC_ALL=C sort -u teacs.txt uimhreacha aspellalt.txt $(PERSONAL) > $@
+
 gaelspell.txt: aspell.txt $(PERSONAL)
 	LC_ALL=C sort -u aspell.txt $(PERSONAL) > $@
 
 gaelspell.zip: gaelspell.txt COPYING README
 	zip $@ gaelspell.txt COPYING README
 
+CORPUS=${HOME}/gaeilge/diolaim
+ga-freq.txt:
+	find ${CORPUS} -type f | egrep 'gaeilge/diolaim/[ln]/' | xargs cat | sed 's/[#@][A-Za-z0-9áéíóúÁÉÍÓÚ_-]*//g' | togail ga token | egrep '[A-Za-záéíóúÁÉÍÓÚ]' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -n -r > $@
+
+ga-media-freq.txt:
+	find ${CORPUS} -type f | egrep '/(Blaganna|Twitter)' | xargs cat | sed 's/[#@][A-Za-z0-9áéíóúÁÉÍÓÚ_-]*//g' | togail ga token | egrep '[A-Za-záéíóúÁÉÍÓÚ]' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -n -r > $@
+
+phrases-freq.txt:
+	egrep '^[^.]+ ' ${HOME}/seal/ig7 | egrep -v '\. v' | egrep -v '^([Aa]n|[Nn]a) ' | sed 's/\..*//' | sort -u | while read x; do echo `find ${CORPUS} -type f | egrep 'gaeilge/diolaim/[ln]/' | xargs egrep "$$x" | egrep "\b$${x}\b" | wc -l` $$x; done > $@
+
+text-freq.txt:
+	cat teacs.txt | while read x; do echo `find ${CORPUS} -type f | egrep 'gaeilge/diolaim/[ln]/' | xargs egrep "$$x" | egrep "\b$${x}\b" | wc -l` $$x; done > $@
+
 adaptxt-ga.zip: ga_inclusion.txt ga_corpus.txt
 	zip $@ ga_inclusion.txt ga_corpus.txt
 
-CLEANFREQ=/usr/local/share/crubadan/ga/CLEANFREQ
+ga_corpus.txt: ga_corpus-utf8.txt
+	iconv -f UTF-8 -t UCS-2LE ga_corpus-utf8.txt > $@
+
+ga_inclusion.txt: ga_inclusion-utf8.txt
+	iconv -f UTF-8 -t UCS-2LE ga_inclusion-utf8.txt > $@
+
+#CLEANFREQ=/usr/local/share/crubadan/ga/CLEANFREQ
+#CLEANFREQ=ga-media-freq.txt
+CLEANFREQ=ga-freq.txt
 HUNSPELLGD=${HOME}/seal/hunspell-gd
-ga_inclusion.txt ga_corpus.txt: gaelspell.txt $(CLEANFREQ)
-	perl $(HUNSPELLGD)/toadaptxt.pl ga gaelspell.txt $(CLEANFREQ)
+ga_inclusion-utf8.txt ga_corpus-utf8.txt: gaelspellalt.txt $(CLEANFREQ)
+	perl $(HUNSPELLGD)/toadaptxt.pl ga gaelspellalt.txt $(CLEANFREQ)
+
+twitter-survey.txt: gaelspell-anything.txt ${CORPUS}/l/Twitter
+	cat ${CORPUS}/l/Twitter | sed 's/[#@][A-Za-z0-9áéíóúÁÉÍÓÚ_-]*//g' | sed 's/http[^ ]*//g' | togail ga token | egrep '[A-Za-záéíóúÁÉÍÓÚ]' | keepif -n gaelspell-anything.txt | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
 
 adist: aspell.txt apersonal ChangeLog
 	LC_ALL=C sort -u aspell.txt $(PERSONAL) > a.tmp

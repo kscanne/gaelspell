@@ -984,6 +984,8 @@ Zéalann Shéalainn
 Zéalann Séalainn
 Zéalann tSéalainn
 a as
+a'am agam
+a'amsa agamsa
 a'd agat
 a'dsan agatsa
 a'm agam
@@ -8106,6 +8108,7 @@ b'áintín b'aintín
 b'áintíní b'aintíní
 b'áird b'aird
 b'áird-cheimneacht b'ardchéimíocht
+b'áirde b'airde
 b'áirdleog b'airleog
 b'áirdleoga b'airleoga
 b'áirdleogach b'airleogach
@@ -8154,6 +8157,8 @@ b'ámhara b'ámharacha
 b'ána b'ana
 b'ápáin b'ápaí
 b'ápán b'ápa
+b'árd b'ard
+b'árda b'arda
 b'árdoras b'fhardoras
 b'árgúint b'argóint
 b'árgúintí b'argóintí
@@ -15103,6 +15108,7 @@ bhíodánach bhéadánach
 bhíodánacha bhéadánacha
 bhíodánaigh bhéadánaigh
 bhíodánaí bhéadánaí
+bhíonns bhíonn
 bhíos bhí mé
 bhíos bhíonn
 bhíoth bhaoi
@@ -18757,6 +18763,7 @@ bíogach bíoganach
 bíogadaíl bíogaíl
 bíogarnaíl bíogarnach
 bíondal bindealán
+bíonns bíonn
 bíos bíonn
 bíoth baoi
 bíotha baoi
@@ -66925,6 +66932,31 @@ ghliondarach ghliondrach
 ghliondaracha ghliondracha
 ghliondaraigh ghliondraigh
 ghliondaraí ghliondraí
+ghliondáil ghlinneáil
+ghliondáilte ghlinneáilte
+ghliondáiltear ghlinneáiltear
+ghliondáilteá ghlinneáilteá
+ghliondáiltí ghlinneáiltí
+ghliondála ghlinneála
+ghliondáladar ghlinneáladar
+ghliondáladh ghlinneáladh
+ghliondálaidís ghlinneálaidís
+ghliondálaigí ghlinneálaigí
+ghliondálaim ghlinneálaim
+ghliondálaimid ghlinneálaimid
+ghliondálaimis ghlinneálaimis
+ghliondálainn ghlinneálainn
+ghliondálamar ghlinneálamar
+ghliondálann ghlinneálann
+ghliondálfadh ghlinneálfadh
+ghliondálfaidh ghlinneálfaidh
+ghliondálfaidís ghlinneálfaidís
+ghliondálfaimid ghlinneálfaimid
+ghliondálfaimis ghlinneálfaimis
+ghliondálfainn ghlinneálfainn
+ghliondálfar ghlinneálfar
+ghliondálfaí ghlinneálfaí
+ghliondálfá ghlinneálfá
 ghlisiam chlisiam
 ghliúcaithe ghliúcach
 ghliúcaithe ghliúcaigh
@@ -68616,6 +68648,19 @@ gliondaracha gliondracha
 gliondaraigh gliondraigh
 gliondaraí gliondraí
 gliondáil glinneáil
+gliondáilte glinneáilte
+gliondáiltear glinneáiltear
+gliondála glinneála
+gliondáladh glinneáladh
+gliondálaidís glinneálaidís
+gliondálaigí glinneálaigí
+gliondálaim glinneálaim
+gliondálaimid glinneálaimid
+gliondálaimis glinneálaimis
+gliondálann glinneálann
+gliondálfaidh glinneálfaidh
+gliondálfaimid glinneálfaimid
+gliondálfar glinneálfar
 gliong gliog
 gliongaireacht gliogaireacht
 gliongarán gliográn
@@ -73423,6 +73468,7 @@ hápáin hápa
 hápáin hápaí
 hápán hápa
 hápán hápaí
+hárd hard
 hárdorais fardorais
 hárdoras fardoras
 hárgúint hargóint
@@ -85679,6 +85725,7 @@ mbíodhgúlacht mbíogúlacht
 mbíodhgúlachta mbíogúlachta
 mbíodáin mbéadáin
 mbíodán mbéadán
+mbíonns mbíonn
 mbíos mbíonn
 mbíoth mbaoi
 mbíotha mbaoi
@@ -85954,6 +86001,7 @@ meascúil meisciúil
 measraidh measra
 measraidhe measúil
 measraidhe measúla
+meastú meas tú
 meastúcháin meastacháin
 meastúchán meastachán
 meastúil measúil
@@ -97842,6 +97890,30 @@ ngliogarnáil ngliogarnach
 ngliogarnála ngliogarnaí
 ngliogaíl ngliogaireacht
 ngliogaíola ngliogaireachta
+ngliondáil nglinneáil
+ngliondáiltear nglinneáiltear
+ngliondáilteá nglinneáilteá
+ngliondáiltí nglinneáiltí
+ngliondála nglinneála
+ngliondáladar nglinneáladar
+ngliondáladh nglinneáladh
+ngliondálaidís nglinneálaidís
+ngliondálaigí nglinneálaigí
+ngliondálaim nglinneálaim
+ngliondálaimid nglinneálaimid
+ngliondálaimis nglinneálaimis
+ngliondálainn nglinneálainn
+ngliondálamar nglinneálamar
+ngliondálann nglinneálann
+ngliondálfadh nglinneálfadh
+ngliondálfaidh nglinneálfaidh
+ngliondálfaidís nglinneálfaidís
+ngliondálfaimid nglinneálfaimid
+ngliondálfaimis nglinneálfaimis
+ngliondálfainn nglinneálfainn
+ngliondálfar nglinneálfar
+ngliondálfaí nglinneálfaí
+ngliondálfá nglinneálfá
 nglisiam gclisiam
 ngliúcaithe ngliúcach
 ngliúcaithe ngliúcaigh
@@ -102772,7 +102844,7 @@ rabhaisceach rabhaisc
 rabhall rollóir
 rabhartas rabharta
 rabhartúil rabhartach
-rabhas raibh
+rabhas raibh mé
 rabhdar rabhadar
 rabhdlamán rabhdalam
 rabhlaer rollóir
@@ -102887,6 +102959,7 @@ raghfaí rachfaí
 raibh ruibh
 raibh rú
 raibh's raibh fhios
+raibheas raibh mé
 raibhte rabhaite
 raibhte rabhaiteanna
 raibhéar ribhéar
@@ -125259,6 +125332,7 @@ táchtach tábhachtach
 táchtacha tábhachtacha
 táchtaigh tábhachtaigh
 táchtaí tábhachtaí
+tádar tá siad
 táibheirne tábhairne
 táibheirní tábhairní
 táibhirne tábhairne
@@ -126842,7 +126916,9 @@ wombat vombat
 ár dár
 áraistí árais
 árbhach ármhach
+árd ard
 árd-ollamhantacht ardollúnacht
+árda arda
 árdorais fardorais
 árdorais fhardorais
 árdoras fardoras

@@ -2995,15 +2995,27 @@ amárach
 amóinia/HMDBU
 amú/HUBMDT
 an
+an-aisteach/HB
+an-aisteacha/B
+an-aistigh
+an-aistí/B
 an-ard
 an-bhaol
 an-bheag
 an-bhródúil
+an-bhrónach/HB
+an-bhrónacha/B
+an-bhrónaigh
+an-bhrónaí/B
 an-bhrú
 an-bhuíoch
 an-bhéim
+an-chiúin/HB
+an-chiúine/B
 an-choitianta
 an-chosúil
+an-chraic/HMDBU
+an-chraice/HMDU
 an-chrua
 an-chuid/HMDBU
 an-cháil
@@ -3022,11 +3034,16 @@ an-díomách
 an-fhada
 an-fholláin/HB
 an-fholláine/B
+an-fhuair
+an-fhuaire/B
+an-fhuar/HB
+an-fhuara/B
 an-ghearr
 an-ghníomhach
 an-ghnóthach
 an-imní
 an-iontas
+an-jab/HMDBUT
 an-lag
 an-lasánta/HB
 an-leathan
@@ -3061,9 +3078,14 @@ an-taithí
 an-taitneamh
 an-te
 an-teoranta
+an-time/HMDBU
 an-tinn
 an-tionchar
 an-tugtha
+an-tuirseach/HB
+an-tuirseacha/B
+an-tuirsigh
+an-tuirsí/B
 an-tábhacht
 an-tábhachtach
 an-tógtha
@@ -3635,6 +3657,7 @@ aoichainteora/HMDU
 aoil/HMDU
 aoileach/HMDBUT
 aoiligh/HMDU
+Aoin
 aoin/HMDU
 Aoine
 aoine/HMDBU
@@ -3711,6 +3734,7 @@ aomthaí/B
 aomthóir/HMDBUT
 aomthóirí/HMDBU
 aomthóra/HMDU
+Aon
 aon/HBMDUT
 aonach/HMDBUT
 Aonad
@@ -6372,6 +6396,7 @@ b'Aointe
 b'Aoire
 b'Aois
 b'Aoiseanna
+b'Aon
 b'Aonad
 b'Aonaíche
 b'Aonaígh
@@ -6849,6 +6874,7 @@ b'Otamánaigh
 b'Otamánaí
 b'Oíche
 b'Uachtarán
+b'Uachtaránacht
 b'Uan
 b'Uasal
 b'Udmairt
@@ -21401,6 +21427,8 @@ creachaí/SU
 creachlaois/US
 creachlaoise/US
 creachlaoisí/US
+creachlathais/US
+creachlathas/US
 creachta/SU
 creacháin/US
 creachán/US
@@ -22702,6 +22730,7 @@ cuidithí/S
 cuidiú/US
 cuidiúil/S
 cuidiúla/S
+cuidse/US
 cuidsúlach/S
 cuidsúlacha/S
 cuidsúlaigh/S
@@ -24892,6 +24921,7 @@ d'análaigh/U
 d'análaínn/FU
 d'anótáil/U
 d'anótálainn/JU
+d'Aoin
 d'Aoine
 d'Aointe
 d'Aoire
@@ -24904,6 +24934,7 @@ d'aol/U
 d'aolainn/EU
 d'aom/U
 d'aomainn/EU
+d'Aon
 d'Aonad
 d'Aonaid
 d'Aonaígh
@@ -26350,6 +26381,8 @@ d'Oíche
 d'uachtaigh/U
 d'Uachtaráin
 d'Uachtarán
+d'Uachtaránacht
+d'Uachtaránachta
 d'uachtaínn/FU
 d'uaill/U
 d'uaillinn/EU
@@ -36177,6 +36210,7 @@ foclóirí/MDBUS
 foclóirín/MDBUS
 foclóiríní/MDBUS
 foclóra/MDUS
+focáilte/BS
 fodair/MDUS
 fodar/MDBUS
 fodhaoine/MDBUS
@@ -39260,6 +39294,8 @@ Gaelaíonn/S
 Gaelaítear/S
 gaelcholáiste/US
 gaelcholáistí/US
+Gaelchultúir/S
+Gaelchultúr/S
 Gaeleagrais/S
 Gaeleagras/S
 gaeloideachais/US
@@ -39275,6 +39311,7 @@ Gaelscoilis/S
 Gaelscoilise/S
 gaelscolaíocht/US
 gaelscolaíochta/US
+Gaelscéal/S
 Gaeltacht/S
 Gaeltachta/S
 Gaeltachtaí/S
@@ -44610,6 +44647,9 @@ hAiríoch
 hais
 hais-tábla
 hais-táblaí
+haischlib
+haischlibe
+haischlibeanna
 haise
 haiseanna
 haiseáil
@@ -44734,12 +44774,14 @@ hAntartaice
 hAntartaigh
 hAntuairp
 Hanáí
+hAoin
 hAoine
 hAointe
 hAoire
 hAois
 hAoise
 hAoiseanna
+hAon
 hAonad
 hAonaid
 hAonaígh
@@ -45427,6 +45469,8 @@ Hotantataigh
 hOíche
 hUachtaráin
 hUachtarán
+hUachtaránacht
+hUachtaránachta
 hUain
 hUan
 hUasail
@@ -53151,12 +53195,14 @@ m'Antartach
 m'Antartaice
 m'Antartaigh
 m'Antuairp
+m'Aoin
 m'Aoine
 m'Aointe
 m'Aoire
 m'Aois
 m'Aoise
 m'Aoiseanna
+m'Aon
 m'Aonad
 m'Aonaid
 m'Aonaígh
@@ -53591,6 +53637,8 @@ m'Otamánaigh
 m'Oíche
 m'Uachtaráin
 m'Uachtarán
+m'Uachtaránacht
+m'Uachtaránachta
 m'Uain
 m'Uan
 m'Uasail
@@ -59653,6 +59701,7 @@ naofachta
 naoi
 naoimh
 naoimhe
+nAoin
 nAoine
 nAointe
 nAoire
@@ -59699,6 +59748,7 @@ naomhóg
 naomhóga
 naomhóige
 naomhú
+nAon
 nAonad
 nAonaid
 nAonaígh
@@ -61302,6 +61352,8 @@ nGaelaíonn
 nGaelaítear
 nGaelaíteá
 nGaelaítí
+nGaelchultúir
+nGaelchultúr
 nGaeleagrais
 nGaeleagras
 nGaelSaoire
@@ -61310,6 +61362,7 @@ nGaelscoile
 nGaelscoileanna
 nGaelscoilis
 nGaelscoilise
+nGaelscéal
 nGaeltacht
 nGaeltachta
 nGaeltachtaí
@@ -61901,6 +61954,8 @@ nuacht
 nuachta
 nUachtaráin
 nUachtarán
+nUachtaránacht
+nUachtaránachta
 nuachtghníomhaireacht
 nuachtghníomhaireachta
 nuachtghníomhaireachtaí
@@ -69123,6 +69178,7 @@ réóin
 réón
 rí
 Rí-Chomhairle
+Rí-Rá
 Ríce
 Ríceach
 Ríceacha
@@ -69383,6 +69439,7 @@ ródaíochta
 ródhaonra
 ródheacair
 ródheacra
+ródhona
 ródháileog
 ródháileoga
 ródháileoige
@@ -69451,6 +69508,7 @@ róluchtaínn/F
 róluchtú
 róláidir
 róláidre
+róléannta
 Rómainis
 Rómainise
 rómhaille
@@ -74527,6 +74585,7 @@ singleáil/ST
 singleála/S
 singléad/S
 singléid/ST
+singlí/S
 sinn
 Sinn/S
 sinne
@@ -81485,6 +81544,7 @@ taomghoinidí/S
 taomtha/SU
 taomáin/US
 taomán/US
+tAon
 tAonad
 tAonaíoch
 tAontachtaí
@@ -86739,7 +86799,9 @@ Uachtaráin
 uachtaráin/HMDBU
 Uachtarán
 uachtarán/HMDBUT
+Uachtaránacht
 uachtaránacht/HMDBU
+Uachtaránachta
 uachtaránachta/HMDU
 uachtarúil/HB
 uachtarúla/B
@@ -88551,6 +88613,9 @@ zúnna
 áisiúla/B
 áisiúlacht/HMDBU
 áisiúlachta/HMDU
+áislainne/HMDU
+áislann/HMDBU
+áislanna/HMDBU
 áisí/B
 áisín/HMDBUT
 áisíneacht/HMDBU

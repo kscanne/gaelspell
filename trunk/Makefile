@@ -74,7 +74,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	rm -f tempaff.txt
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga_IE.txt gaelspell.txt gaeilge.dic ga-media-freq.txt ga_corpus-utf8.txt ga-freq.txt phrases-freq.txt ga_inclusion-utf8.txt twitter-survey.txt gaelspellalt-ascii.txt gaelspell-anything.txt gaelspellalt.txt
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga_IE.txt gaelspell.txt gaeilge.dic ga-media-freq.txt ga_corpus-utf8.txt ga-word-freq.txt ga-freq.txt ga-phrases-freq.txt ga_inclusion-utf8.txt twitter-survey.txt gaelspellalt-ascii.txt gaelspell-anything.txt gaelspellalt.txt text-freq.txt ga-phrases.txt
 
 # Clean back to what gets packaged up in an ispell-gaeilge tarball
 # So don't wipe out generated ChangeLog, giorr, romhanach, etc.
@@ -434,15 +434,20 @@ mytardist: ga_IE.dic ChangeLog
 
 ASPELLDEV = ${HOME}/gaeilge/ispell/ga-build
 
+# filter stuff in here out when looking for new words in a corpus;
+# see twitter-survey for example...
 gaelspell-anything.txt: gaelspellalt.txt gaelspellalt-ascii.txt uimhreacha
 	cat gaelspellalt.txt gaelspellalt-ascii.txt uimhreacha | LC_ALL=C sort -u > $@
 
+# used in building gaelspell-anything, in turn used to mine new words
 gaelspellalt-ascii.txt: gaelspellalt.txt
 	cat gaelspellalt.txt | tolow | toascii > $@
 
-gaelspellalt.txt: teacs.txt uimhreacha aspellalt.txt $(PERSONAL)
-	LC_ALL=C sort -u teacs.txt uimhreacha aspellalt.txt $(PERSONAL) > $@
+# This is the main word list input for Adaptxt!!
+gaelspellalt.txt: ga-phrases.txt teacs.txt uimhreacha aspellalt.txt $(PERSONAL)
+	LC_ALL=C sort -u ga-phrases.txt teacs.txt uimhreacha aspellalt.txt $(PERSONAL) > $@
 
+# Main word list for Diarmaid
 gaelspell.txt: aspell.txt $(PERSONAL)
 	LC_ALL=C sort -u aspell.txt $(PERSONAL) > $@
 
@@ -450,15 +455,23 @@ gaelspell.zip: gaelspell.txt COPYING README
 	zip $@ gaelspell.txt COPYING README
 
 CORPUS=${HOME}/gaeilge/diolaim
-ga-freq.txt:
-	find ${CORPUS} -type f | egrep 'gaeilge/diolaim/[ln]/' | xargs cat | sed 's/[#@][A-Za-z0-9áéíóúÁÉÍÓÚ_-]*//g' | togail ga token | egrep '[A-Za-záéíóúÁÉÍÓÚ]' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -n -r > $@
+ga-word-freq.txt: ga-phrases.txt
+	(cat ga-phrases.txt; find ${CORPUS} -type f | egrep 'gaeilge/diolaim/[ln]/' | xargs cat | sed 's/[#@][A-Za-z0-9áéíóúÁÉÍÓÚ_-]*//g') | togail ga token | egrep '[A-Za-záéíóúÁÉÍÓÚ]' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -n -r | sed 's/^ *//' > $@
 
+# not used
 ga-media-freq.txt:
 	find ${CORPUS} -type f | egrep '/(Blaganna|Twitter)' | xargs cat | sed 's/[#@][A-Za-z0-9áéíóúÁÉÍÓÚ_-]*//g' | togail ga token | egrep '[A-Za-záéíóúÁÉÍÓÚ]' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -n -r > $@
 
-phrases-freq.txt:
+ga-phrases-freq.txt:
 	egrep '^[^.]+ ' ${HOME}/seal/ig7 | egrep -v '\. v' | egrep -v '^([Aa]n|[Nn]a) ' | sed 's/\..*//' | sort -u | while read x; do echo `find ${CORPUS} -type f | egrep 'gaeilge/diolaim/[ln]/' | xargs egrep "$$x" | egrep "\b$${x}\b" | wc -l` $$x; done > $@
 
+ga-phrases.txt: ga-phrases-freq.txt
+	cat ga-phrases-freq.txt | egrep -v '^0' | sed 's/^[0-9]* //' > $@
+
+ga-freq.txt: ga-word-freq.txt ga-phrases-freq.txt
+	cat ga-word-freq.txt ga-phrases-freq.txt | LC_ALL=C sort -k1,1 -r -n > $@
+
+# just for curiosity
 text-freq.txt:
 	cat teacs.txt | while read x; do echo `find ${CORPUS} -type f | egrep 'gaeilge/diolaim/[ln]/' | xargs egrep "$$x" | egrep "\b$${x}\b" | wc -l` $$x; done > $@
 

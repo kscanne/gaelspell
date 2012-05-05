@@ -8058,6 +8058,7 @@ b'urruithe b'urraithe
 b'urrúntas b'urrúntacht
 b'ursa b'ursain
 b'ursana b'ursaineacha
+b'ursanacha b'ursaineacha
 b'ursannacha b'ursaineacha
 b'urusa b'fhurasta
 b'urús b'urrús
@@ -12340,7 +12341,6 @@ bhfuarainn bhfuaraínn
 bhfuaramar bhfuaireamar
 bhfuaramar bhfuaraíomar
 bhfuarann bhfuaraíonn
-bhfuaras bhfuair
 bhfuarc bhfeirc
 bhfuarchaoineacháin bhfuarchaointe
 bhfuarchaoineachán bhfuarchaoineadh
@@ -27693,6 +27693,7 @@ chóicthighis choicíse
 chóicthighis choicísí
 chóicín chócaoin
 chóicín chócaon
+chóidhche choíche
 chóig chúig
 chóige chúige
 chóigeach chúigeach
@@ -38058,7 +38059,6 @@ d'fhuaraimis d'fhuaraímis
 d'fhuarainn d'fhuaraínn
 d'fhuaramar d'fhuaraíomar
 d'fhuaramar fuaireamar
-d'fhuaras fuair
 d'fhuarc d'fheirc
 d'fhuarchaoineacháin d'fhuarchaointe
 d'fhuarchaoineachán d'fhuarchaoineadh
@@ -40032,6 +40032,7 @@ d'ursa d'ursain
 d'ursa d'ursaine
 d'ursan d'ursaine
 d'ursana d'ursaineacha
+d'ursanacha d'ursaineacha
 d'ursannacha d'ursaineacha
 d'urúis d'urrúis
 d'urús d'urrús
@@ -47605,10 +47606,12 @@ dtomadar dtumadar
 dtomadh dtumadh
 dtomaidís dtumaidís
 dtomaigí dtumaigí
+dtomaill dtamaill
 dtomaim dtumaim
 dtomaimid dtumaimid
 dtomaimis dtumaimis
 dtomainn dtumainn
+dtomall dtamall
 dtomamar dtumamar
 dtomann dtumann
 dtomanna dtoim
@@ -48331,6 +48334,7 @@ dtufóg dtuthóg
 dtufóga dtuthóga
 dtufóige dtuthóige
 dtugaidh dtuga
+dtugamaid dtugaimid
 dtugas dtug
 dtuicéad dticéad
 dtuicéid dticéid
@@ -54974,7 +54978,6 @@ fhuarainn fhuaraínn
 fhuaramar fhuaraíomar
 fhuaramar fuaireamar
 fhuarann fhuaraíonn
-fhuaras fuair
 fhuarc fheirc
 fhuarchaoineacháin fhuarchaointe
 fhuarchaoineachán fhuarchaoineadh
@@ -57666,6 +57669,8 @@ fuaraimis fuaraímis
 fuarainm forainm
 fuaramánta fuaránta
 fuarann fuaraíonn
+fuaras bhfuair
+fuaras fuair
 fuarc feirc
 fuarchaoineacháin fuarchaointe
 fuarchaoineachán fuarchaoineadh
@@ -73514,6 +73519,7 @@ hursa hursain
 hursa hursaine
 hursan hursaine
 hursana hursaineacha
+hursanacha hursaineacha
 hursannacha hursaineacha
 hurusa furasta
 hurú furú
@@ -82037,6 +82043,7 @@ m'ursa m'ursain
 m'ursa m'ursaine
 m'ursan m'ursaine
 m'ursana m'ursaineacha
+m'ursanacha m'ursaineacha
 m'ursannacha m'ursaineacha
 m'urúis m'urrúis
 m'urús m'urrús
@@ -87577,6 +87584,7 @@ mhul mhol
 mhula mhoil
 mhulcháin ulchabháin
 mhulchán ulchabhán
+mhullacha mhullaí
 mhullacháin mhothallacháin
 mhullachán mhothallachán
 mhuláin mhulláin
@@ -88725,6 +88733,7 @@ mulchán ulchabhán
 mulcáil bulcáil
 mulcán mulchán
 mulla mullach
+mullacha mullaí
 mullacháin mothallacháin
 mullachán mothallachán
 mullán bollán
@@ -93796,6 +93805,7 @@ n-ursa n-ursain
 n-ursa n-ursaine
 n-ursan n-ursaine
 n-ursana n-ursaineacha
+n-ursanacha n-ursaineacha
 n-ursannacha n-ursaineacha
 n-urúis n-urrúis
 n-urús n-urrús
@@ -99645,6 +99655,7 @@ núidhe nua
 núidheasach núíosach
 núis múisc
 núsc nús
+o'n ón
 oba hob
 obaigh ob
 obainn thobainn
@@ -110291,8 +110302,6 @@ shnasóir shnasaire
 shnasóirí shnasairí
 shnasóra shnasaire
 shnathad shnáthaid
-shnathad shnáthaidí
-shnathada shnáthaidí
 shnathadh shnáthadh
 shnathadáin shnáthadáin
 shnathadán shnáthadán
@@ -110384,8 +110393,6 @@ shnámhchnaoi shnámhchnaí
 shnámhánaithe shnámhaithe
 shnámhánaí shnámhaí
 shnáthad shnáthaid
-shnáthad shnáthaidí
-shnáthada shnáthaidí
 shníomhadóir shníomhaí
 shníomhadóireacht shníomhachán
 shníomhadóireachta shníomhacháin
@@ -113573,8 +113580,6 @@ snasóirí snasairí
 snasóra snasaire
 snasúil snasta
 snathad snáthaid
-snathad snáthaidí
-snathada snáthaidí
 snathadh snáthadh
 snathadáin snáthadáin
 snathadán snáthadán
@@ -113722,8 +113727,6 @@ snámhánaí snámhaí
 snámhánta snámhach
 snáthach snáth
 snáthad snáthaid
-snáthad snáthaidí
-snáthada snáthaidí
 sníomhadóir sníomhaí
 sníomhadóireacht sníomhachán
 sníomhadóireachta sníomhacháin
@@ -121429,10 +121432,12 @@ thomadar thumadar
 thomadh thumadh
 thomaidís thumaidís
 thomaigí thumaigí
+thomaill thamaill
 thomaim thumaim
 thomaimid thumaimid
 thomaimis thumaimis
 thomainn thumainn
+thomall thamall
 thomamar thumamar
 thomann thumann
 thomanna thoim
@@ -122316,6 +122321,7 @@ thufógaigh thuthógaigh
 thufógaí thuthógaí
 thufóige thuthóige
 thugaidh thuga
+thugamaid thugaimid
 thugas thug
 thuicéad thicéad
 thuicéid thicéid
@@ -123823,10 +123829,12 @@ tomadóir tumadóir
 tomadóireacht tumadóireacht
 tomaidís tumaidís
 tomaigí tumaigí
+tomaill tamaill
 tomaim tumaim
 tomaimid tumaimid
 tomaimis tumaimis
 tomaire tumaire
+tomall tamall
 tomann tumann
 tomanna toim
 tomba tuama
@@ -125439,6 +125447,7 @@ tug dtug
 tug thug
 tugaid tucaid
 tugaid tugann siad
+tugamaid tugaimid
 tugtaí dtugtaí
 tugtaí thugtaí
 tuicéad ticéad

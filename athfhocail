@@ -1502,6 +1502,7 @@ aduafaireacht adhfhuafaireacht
 aduafaireachta adhfhuafaireachta
 adubairt a dúirt
 adubhairt a dúirt
+adubhart a dúirt
 adubhradar a dúradar
 adubhradh a dúradh
 adubhramar a dúramar
@@ -3585,6 +3586,7 @@ aonracht aonaracht
 aonracán aonarán
 aonracánach aonaránach
 aonracánacht aonaránacht
+aonrud aon rud
 aonránach aonaránach
 aonránacha aonaránacha
 aonránaigh aonaránaigh
@@ -23357,6 +23359,7 @@ chloisinte chloisteála
 chloistin chloisteáil
 chloistint chloisteáil
 chloistinte chloisteála
+chlos chloisteáil
 chluain chuáin
 chluainireacht chluanaireacht
 chluainireachta chluanaireachta
@@ -28640,6 +28643,7 @@ cionnas cionn is
 cionnas conas
 cionntacht ciontacht
 cionntachta ciontachta
+cionnus conas
 cionstar ceanastar
 ciontaitheoir ciontóir
 ciontaitheoirí ciontóirí
@@ -61770,6 +61774,7 @@ gcloisinte gcloisteála
 gcloistin gcloisteáil
 gcloistint gcloisteáil
 gcloistinte gcloisteála
+gclos gcloisteáil
 gcluain gcuáin
 gcluainireacht gcluanaireacht
 gcluainireachta gcluanaireachta
@@ -67014,6 +67019,7 @@ gheimhrimis gheimhrímis
 gheimhrinn gheimhrínn
 gheimléad ghimléad
 gheimléid ghimléid
+ghein rinne
 gheiniúint ghiniúint
 gheiniúna ghiniúna
 gheinte ghinte
@@ -75161,6 +75167,7 @@ inntleachtaí intleachtaí
 inntleadh inleadh
 inntí inti
 inntíse intise
+inocht anocht
 inphinseanála inphinsin
 inphriontála inphriontáilte
 inre inmhe
@@ -78540,6 +78547,7 @@ lásadh lásáil
 lásair léasair
 lásar léasar
 láthadh láth
+láthaireach láithreach
 láthaireacha láithreacha
 láthaíocht láth
 láí láiche
@@ -98373,6 +98381,7 @@ ngeimhrimis ngeimhrímis
 ngeimhrinn ngeimhrínn
 ngeimléad ngimléad
 ngeimléid ngimléid
+ngein rinne
 ngeiniúint nginiúint
 ngeiniúna nginiúna
 ngeireadh ngeire
@@ -109008,6 +109017,7 @@ seáspán sáspan
 sgein scian
 sgin scian
 sgéal scéal
+sgéal scéalta
 sgéalta scéalta
 sgéil scéil
 shabhálach shábhálach
@@ -111173,6 +111183,8 @@ sholáthróirí sholáthraithe
 sholáthróra sholáthraí
 sholáthrú sholáthar
 sholéighte sholéite
+sholéir shoiléir
+sholéire shoiléire
 shomach shomachán
 shomaigh shomacháin
 shompla shampla
@@ -114632,6 +114644,8 @@ soláthróirí soláthraithe
 soláthróra soláthraí
 soláthrú soláthar
 soléighte soléite
+soléir soiléir
+soléire soiléire
 somach somachán
 somaigh somacháin
 somhaltas tomhaltas

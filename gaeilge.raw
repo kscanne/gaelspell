@@ -3855,6 +3855,8 @@ aonseilbhe/HMDU
 aonsmaoineamh/HMDBUT
 aonsmaoinimh/HMDU
 aonta/HBMDU
+aontachais/HMDU
+aontachas/HMDBUT
 Aontacht
 aontacht/HMDBU
 Aontachta
@@ -4127,6 +4129,8 @@ Ard-Fheise
 Ard-Fheiseanna
 Ard-Ghiúiré
 Ard-Mhéara
+Ard-Mhúsaeim
+Ard-Mhúsaem
 Ard-Oideachais
 Ard-Oideachas
 Ard-Oifig
@@ -6443,6 +6447,8 @@ b'Ard-Fheis
 b'Ard-Fheiseanna
 b'Ard-Ghiúiré
 b'Ard-Mhéara
+b'Ard-Mhúsaeim
+b'Ard-Mhúsaem
 b'Ard-Oideachas
 b'Ard-Oifig
 b'Ard-Reachtaire
@@ -6581,6 +6587,7 @@ b'Fheabhra
 b'Fheabhraí
 b'Fhear
 b'Fhearsaid
+b'Fheidhmeannacht
 b'Fheidhmeannas
 b'Fheisire
 b'Fheisirí
@@ -8670,6 +8677,8 @@ bhFear
 bhfearr
 bhFearsaid
 bhFearsaide
+bhFeidhmeannacht
+bhFeidhmeannachta
 bhFeidhmeannais
 bhFeidhmeannas
 bhFeirste
@@ -11799,6 +11808,8 @@ buamáilte/S
 buamála/US
 buamálaim/USI
 buan/S
+buan-naisc/US
+buan-nasc/US
 Buan-Orduithe
 Buan-Ordú
 Buan-Óglach
@@ -13208,6 +13219,8 @@ caifirín/US
 caifiríní/US
 caifitéire/US
 caifitéirí/US
+caifé/US
+caiféanna/US
 caiféin/US
 caiféine/US
 caifí/SU
@@ -24998,6 +25011,8 @@ d'Ard-Fheise
 d'Ard-Fheiseanna
 d'Ard-Ghiúiré
 d'Ard-Mhéara
+d'Ard-Mhúsaeim
+d'Ard-Mhúsaem
 d'Ard-Oideachais
 d'Ard-Oideachas
 d'Ard-Oifig
@@ -25522,6 +25537,8 @@ d'fheicimis
 d'fheicinn
 d'fheicteá
 d'fheictí
+d'Fheidhmeannacht
+d'Fheidhmeannachta
 d'Fheidhmeannais
 d'Fheidhmeannas
 d'fheidhmigh
@@ -33696,8 +33713,6 @@ Eoráiseach
 Eoráiseacha
 Eoráisigh
 Eoráisí
-eoró/HMDBUT
-eorónna/HMDBU
 eotanáis/HMDBU
 eotanáise/HMDU
 fabhair/MDBUS
@@ -34658,6 +34673,8 @@ feidhmeach/BS
 feidhmeacha/BS
 feidhmeanna/MDBUS
 feidhmeannach/MDBUS
+Feidhmeannacht/S
+Feidhmeannachta/S
 feidhmeannaigh/MDBUS
 feidhmeannais/MDUS
 Feidhmeannais/S
@@ -44845,6 +44862,8 @@ hArd-Fheise
 hArd-Fheiseanna
 hArd-Ghiúiré
 hArd-Mhéara
+hArd-Mhúsaeim
+hArd-Mhúsaem
 hArd-Oideachais
 hArd-Oideachas
 hArd-Oifig
@@ -47521,6 +47540,8 @@ iniúchainn/E
 iniúchta/HBMDU
 iniúchtar/HU
 iniúchóir/HMDBUT
+iniúchóireacht/HMDBU
+iniúchóireachta/HMDU
 iniúchóirí/HMDBU
 iniúchóra/HMDU
 inlamháilte/HB
@@ -53261,6 +53282,8 @@ m'Ard-Fheise
 m'Ard-Fheiseanna
 m'Ard-Ghiúiré
 m'Ard-Mhéara
+m'Ard-Mhúsaeim
+m'Ard-Mhúsaem
 m'Ard-Oideachais
 m'Ard-Oideachas
 m'Ard-Oifig
@@ -53390,6 +53413,8 @@ m'Fheabhraí
 m'Fhear
 m'Fhearsaid
 m'Fhearsaide
+m'Fheidhmeannacht
+m'Fheidhmeannachta
 m'Fheidhmeannais
 m'Fheidhmeannas
 m'Fheirste
@@ -59827,6 +59852,8 @@ nArd-Fheise
 nArd-Fheiseanna
 nArd-Ghiúiré
 nArd-Mhéara
+nArd-Mhúsaeim
+nArd-Mhúsaem
 nArd-Oideachais
 nArd-Oideachas
 nArd-Oifig
@@ -81688,6 +81715,7 @@ tArd-Bhailitheoir
 tArd-Easpag
 tArd-Ghiúiré
 tArd-Mhéara
+tArd-Mhúsaem
 tArd-Oideachas
 tArd-Reachtaire
 tArd-Rúnaí

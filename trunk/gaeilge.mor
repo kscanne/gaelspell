@@ -3701,6 +3701,7 @@ bladhgaire
 bladhgaireacht
 bladhgar/US
 bladhmadóireacht
+bladhman/US
 bladhmannas
 bladhmarach
 bladhmsach/US
@@ -3800,6 +3801,7 @@ bliadhna/US
 bliadhnúil/S
 bliadhnúla/S
 bliadna/US
+bliaghna/US
 bliaintiúil/S
 bliaintiúla/S
 bliaist
@@ -6414,6 +6416,7 @@ catafalt/US
 cathais
 cathaiseach
 cathamh/US
+cathana/US
 cathaoire/US
 catharach/US
 catharacha/US
@@ -6829,6 +6832,7 @@ ceisniú/US
 ceisním/USC
 ceiste/US
 ceisteachán
+ceisteana/US
 ceisteoir/US
 ceisteoireacht
 ceisteoirí/US
@@ -12633,6 +12637,8 @@ d'Ollaind
 d'Ollainde
 d'Ollaindeach
 d'Ollaindigh
+d'ollamhaigh/U
+d'ollamhaínn/FU
 d'Ollannais
 d'Ollannaise
 d'onnmhuirigh/U
@@ -13343,6 +13349,7 @@ deimhnithí/S
 deimhníocht
 dein/US
 deineadh/US
+deinean/US
 deineann/US
 deinidh/US
 deinimid/US
@@ -15338,6 +15345,8 @@ déidhionaigh/S
 déidhionaí/S
 déineacht/US
 déineachta/US
+déineadar/US
+déinean/US
 déineas
 déir/US
 déirceoir/US
@@ -16459,6 +16468,7 @@ eiriticiúla/B
 eirlinn
 eirí/U
 eirídís/HU
+eiríghe/HMDBUT
 eirígí/HU
 eirím/UC
 eirín
@@ -18399,6 +18409,7 @@ fobht
 fobhta
 fobhtaach
 fobhtach
+focalaibh/MDBUS
 fochaideadh
 focham
 fochann
@@ -19671,6 +19682,7 @@ fágh/US
 fágha/US
 fághail/MDBUS
 fághala/MDUS
+fághalta/BS
 fághaltais/MDBUS
 fághaltas/MDBUS
 fághnach/BS
@@ -19685,10 +19697,12 @@ fágálaí/MDBUS
 fáibre
 fáibreach
 fáidhbhile
+fáidhe/MDBUS
 fáidheanna/MDBUS
 fáidheoir
 fáidheoireacht/MDBUS
 fáidheoireachta/MDUS
+fáidhibh/MDBUS
 fáidhim
 fáigiúil
 fáileog/MDBUS
@@ -19847,6 +19861,7 @@ féastrach/MDBUS
 féastraigh/MDBUS
 féatacht/MDBUS
 féatachta/MDUS
+féi
 féichiúin/MDBUS
 féichiún/MDBUS
 féichiúnach/MDBUS
@@ -19897,6 +19912,7 @@ féireacht
 féireálta
 féirigh
 féirsce
+féise
 féist/MDBUS
 féiste/MDUS
 féisteanna/MDBUS
@@ -24872,6 +24888,7 @@ leatromadh
 led
 lefteanaint
 lefteanant
+legáid
 leibheann
 leibid
 leibideog
@@ -28283,6 +28300,7 @@ nAlpaí
 nAmarais
 nAmaraise
 nAmerice
+namhdaibh
 nAmstardaim
 nAmsterdam
 nana
@@ -29323,10 +29341,20 @@ Ollaindigh
 Ollaindí
 ollamh/HB
 ollamha/B
+ollamhaigh/HU
 ollamhain/HMDBU
+ollamhaithe/HBUMD
 ollamhan/HMDU
 ollamhanta
+ollamhaí/U
+ollamhaídís/HU
+ollamhaígí/HU
+ollamhaím/UC
+ollamhaínn/F
+ollamhaíodh/HU
+ollamhaítear/HU
 ollamhnacht
+ollamhú/HUBMDT
 Ollannais
 Ollannaise
 ollathainn
@@ -30207,6 +30235,7 @@ pochán/US
 pochóid
 pocóid
 pogaide
+poibilí/S
 poibilíocht/US
 poibilíochta/US
 Poil/S
@@ -30371,6 +30400,8 @@ prisleoirí/US
 prisleora/US
 prislínteacht
 prispín
+priúnsa/US
+priúnsaí/US
 priúnáil
 probasc
 probhais
@@ -31905,6 +31936,8 @@ rígheachta
 rígheachtaí
 ríghte
 ríghthe
+ríghtheighlach
+ríghtheighlaigh
 ríobail
 ríobal
 ríobóidim
@@ -32653,6 +32686,7 @@ scannlaí
 scannlaím/C
 scannlaínn/F
 scannlú
+scannra
 scannradh
 scannraigh
 scanrabóid
@@ -33178,6 +33212,7 @@ scog
 scoibleach
 scoid
 scoil
+scoileana
 scoilteog
 scoiltighthe
 scoiltthe
@@ -33392,13 +33427,18 @@ scréachaíola
 scríb
 scríbe
 scríbeanna
+scríbh
+scríbhe
 scríbheann
 scríbheanna
+scríbhim/A
+scríbhinn/E
 scríbhinne
 scríbhnidh
 scríbhnithe
 scríbhní
 scríbhte
+scrífe
 scríobadóir
 scríobarnach
 scríobhadóir
@@ -34391,6 +34431,9 @@ simné/ST
 simnéidh/S
 simpleacháin/ST
 simpleachán/S
+sinagóg/ST
+sinagóga/S
+sinagóige/S
 sineacht
 singilte/S
 singirlín
@@ -35292,6 +35335,8 @@ smutaíl
 smutaíola
 smutracha
 smutúil
+smuíneamh
+smuínte
 smáil
 smáilc
 sméarabhán
@@ -35759,6 +35804,9 @@ sologhtha
 sologhthacht
 soluis/ST
 solus/S
+soluíd/ST
+soluíde/S
+soluídí/S
 soláthair/S
 soláthairt/ST
 soláthairte/S
@@ -37438,6 +37486,7 @@ sábhálta/S
 sábháltacht/ST
 sábháltachta/S
 sácraimint
+sácraimínt/ST
 sádh/S
 sádha/S
 sádhadh
@@ -38057,6 +38106,7 @@ tafta/US
 taftaí/US
 tagairte/US
 tagaithe/S
+tagan/US
 tagartar/US
 tagarthach/S
 tagarthacha/S
@@ -38230,6 +38280,8 @@ taithneamh/US
 taithneamhacht/US
 taithneamhachta/US
 taithneamhachtaí/US
+taithnean/US
+taithneann/US
 taithnigh/US
 taithnimh/US
 taithnithe/S
@@ -38806,6 +38858,7 @@ thaiteanfaí/U
 thaiteanfá/U
 thaiteantaí/U
 thaiteantá/U
+thaithn/U
 thaithní/U
 thaithnínn/FU
 thaitin/U
@@ -40866,6 +40919,8 @@ tífeadh
 tífeá
 tímcheall
 tímchioll
+tímpail/US
+tímpal/US
 tímpalghearradh/US
 tíncéara/US
 tíncéir/US
@@ -41797,6 +41852,7 @@ Zéalann
 áiteachadh
 áiteamh/HMDBUT
 áiteana/HMDBU
+áiteanaibh/HMDBU
 áiteoir/HMDBUT
 áiteoirí/HMDBU
 áiteora/HMDU
@@ -42345,6 +42401,7 @@ Zéalann
 ócáidiúil/HB
 ócáidiúla/B
 ód
+ódheas
 óg/U
 ógbhadh
 óghacht/HMDBU

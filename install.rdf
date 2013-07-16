@@ -7,6 +7,7 @@
     <em:type>64</em:type>
     <em:version>4.6</em:version>
     <em:unpack>true</em:unpack>
+    <!-- Firefox -->
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
@@ -14,6 +15,7 @@
 	<em:maxVersion>25.0</em:maxVersion>
       </Description>
     </em:targetApplication>
+    <!-- Thunderbird -->
     <em:targetApplication>
       <Description>
         <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
@@ -21,11 +23,28 @@
 	<em:maxVersion>25.0</em:maxVersion>
       </Description>
     </em:targetApplication>
+    <!-- SeaMonkey -->
     <em:targetApplication>
       <Description>
         <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
 	<em:minVersion>1.1a</em:minVersion>
 	<em:maxVersion>2.21.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <!-- Firefox for Android -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</em:id>
+	<em:minVersion>10.0</em:minVersion>
+	<em:maxVersion>25.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <!-- Fennec -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</em:id>
+	<em:minVersion>1.0</em:minVersion>
+	<em:maxVersion>25.0</em:maxVersion>
       </Description>
     </em:targetApplication>
     <em:name>Litreoir GaelSpell do Mhozilla</em:name>

@@ -4,6 +4,7 @@ Aertel
 Agtel
 Airbus
 Allfirst
+Altan
 AltaVista
 Amazon
 Amiga

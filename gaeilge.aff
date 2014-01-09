@@ -392,14 +392,12 @@ flag *A:				             # molaim
 	A Í M			>	-M,TEAR
 						     # snoím
 	[^L] O Í M		>	-ÍM,ITEAR
-						     # cloím 
-        [CH] L O Í M			>	-M,TEAR
-						     # loím 
-        [^CH] L O Í M			>	-ÍM,ITEAR
+						     # cloím (only)
+    L O Í M			>	-M,TEAR
 						     # dluím, guím, luím, suím
 	[^BH] U Í M		>	-ÍM,ITEAR
 						     # buím 
-        B U Í M			>	-M,TEAR
+    B U Í M			>	-M,TEAR
 						     # ghuím,srl
 	[^B] H U Í M		>	-ÍM,ITEAR
 						     # bhuím
@@ -531,12 +529,9 @@ flag *E:	        		             # mholainn, d'amharcainn
 						     # shnoínn
 	[^L] O Í N N		>	-ÍNN,ITEÁ
 	[^L] O Í N N		>	-ÍNN,ITÍ
-						     # chloínn
-	[CH] L O Í N N		>	-NN,TEÁ
-	[CH] L O Í N N		>	-NN,TÍ
-						     # loínn (gaeilge.mor)
-	[^CH] L O Í N N		>	-ÍNN,ITEÁ
-	[^CH] L O Í N N		>	-ÍNN,ITÍ
+						     # chloínn (only)
+	L O Í N N		>	-NN,TEÁ
+	L O Í N N		>	-NN,TÍ
 						     # dhluínn, luínn, ndluínn
 	[^BH] U Í N N		>	-ÍNN,ITEÁ
 	[^BH] U Í N N		>	-ÍNN,ITÍ

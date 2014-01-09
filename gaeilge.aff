@@ -314,7 +314,7 @@ flag *A:				             # molaim
 	[^T] H A I M		>	-AIM,TAR     # láithreach saor
 
 					             # meathaim
-	T H A I M		>	-HAIM,AR     # láithreach saor
+	T H A I M		>	-THAIM,TAR     # láithreach saor (strip/add t for Latg)
 
 						     # dóim
 	[OÁÓÚ] I M		>	-IM,NN       # láithreach CB lch.98
@@ -362,7 +362,7 @@ flag *A:				             # molaim
 	[^T] H I M		>	-IM,TEAR     # láithreach saor
 
 						     # caithim
-	T H I M			>	-HIM,EAR     # láithreach saor
+	T H I M			>	-THIM,TEAR     # láithreach saor (strip/add t for Latg)
 
 						     # léim
 	É I M		>	-IM,ANN              # láithreach CB lch.99
@@ -431,8 +431,8 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^T] H A I N N		>	-AINN,TAÍ     
 
 					             # meathainn
-	T H A I N N		>	-HAINN,Á     # gnáthchaite
-	T H A I N N		>	-HAINN,AÍ     
+	T H A I N N		>	-THAINN,TÁ     # gnáthchaite (strip/add t for Latg)
+	T H A I N N		>	-THAINN,TAÍ     
 
 						     # dhóinn, d'ionsáinn
 	[OÁÓÚ] I N N		>	-INN,MAR     # caite
@@ -492,8 +492,8 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^T] H I N N		>	-INN,TÍ     
 
 						      # caithinn
-	T H I N N		>	-HINN,EÁ      # gnáthchaite
-	T H I N N		>	-HINN,Í     
+	T H I N N		>	-THINN,TEÁ      # gnáthchaite (strip/add t for Latg)
+	T H I N N		>	-THINN,TÍ     
 
 						      # phléinn, d'atéinn
 	É I N N		>	-INN,AMAR             # caite
@@ -534,7 +534,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 						     # chloínn
 	[CH] L O Í N N		>	-NN,TEÁ
 	[CH] L O Í N N		>	-NN,TÍ
-						     # loínn
+						     # loínn (gaeilge.mor)
 	[^CH] L O Í N N		>	-ÍNN,ITEÁ
 	[^CH] L O Í N N		>	-ÍNN,ITÍ
 						     # dhluínn, luínn, ndluínn

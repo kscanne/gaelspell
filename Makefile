@@ -12,7 +12,7 @@ GAELPERSONAL=daoine logainm miotas.txt stair.txt
 PERSONAL=$(GALLPERSONAL) $(GAELPERSONAL)
 
 #   Shouldn't have to change anything below here
-RELEASE=4.6
+RELEASE=4.7
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit dinneenok.txt
 ALTWORDS= gaeilge.mor

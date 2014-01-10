@@ -301,7 +301,7 @@ flag *A:				             # molaim
 	[^UI] A I M		>	IS           
 	[^UI] A I M		>	-M,DÍS       
 
-	[^EUTHI] A I M		>	-AIM,TAR     # láithreach saor
+	[^HEUTI] A I M		>	-AIM,TAR     # láithreach saor
 
                                                      # grafaim, liteagrafaim
 	F A I M			>	-M,DH        # fáistineach
@@ -310,8 +310,12 @@ flag *A:				             # molaim
 						     # róstaim
 	T A I M			>	-IM,R        # láithreach saor
 
-					             # traochaim
-	[^T] H A I M		>	-AIM,TAR     # láithreach saor
+					             # lobhaim, traochaim, snámhaim, toghaim
+								# separate rules to simplify Latg version
+	B H A I M		>	-AIM,TAR     # láithreach saor
+	C H A I M		>	-AIM,TAR     # láithreach saor
+	G H A I M		>	-AIM,TAR     # láithreach saor
+	M H A I M		>	-AIM,TAR     # láithreach saor
 
 					             # meathaim
 	T H A I M		>	-THAIM,TAR     # láithreach saor (strip/add t for Latg)
@@ -353,13 +357,15 @@ flag *A:				             # molaim
 	[^AOÁÉÓÚ] I M		>	IS
 	[^AOÁÉÓÚ] I M		>	-M,DÍS
 
-	[^AOÁÉÓÚTH] I M		>	-IM,TEAR     # láithreach saor
+	[^HAOÁÉÓÚT] I M		>	-IM,TEAR     # láithreach saor
 
 						     # titim
 	T I M			>	-IM,EAR      # láithreach saor
 
-						     # sroichim
-	[^T] H I M		>	-IM,TEAR     # láithreach saor
+						     # ibhim, doilbhim, cluichim, sroichim
+								# separate rules to simplify Latg version
+	B H I M		>	-IM,TEAR     # láithreach saor
+	C H I M		>	-IM,TEAR     # láithreach saor
 
 						     # caithim
 	T H I M			>	-THIM,TEAR     # láithreach saor (strip/add t for Latg)
@@ -395,11 +401,12 @@ flag *A:				             # molaim
 						     # cloím (only)
     L O Í M			>	-M,TEAR
 						     # dluím, guím, luím, suím
-	[^BH] U Í M		>	-ÍM,ITEAR
+	[^HB] U Í M		>	-ÍM,ITEAR
 						     # buím 
     B U Í M			>	-M,TEAR
-						     # ghuím,srl
-	[^B] H U Í M		>	-ÍM,ITEAR
+						     # ghuím,shuím,athshuím,srl.
+	G H U Í M		>	-ÍM,ITEAR
+	S H U Í M		>	-ÍM,ITEAR
 						     # bhuím
 	B H U Í M		>	-M,TEAR
 
@@ -417,16 +424,23 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^IUF] A I N N		> 	-AINN,FAÍ
 	[^IU] A I N N		>	-INN,DAR     # An B.N.
 
-	[^EUTIH] A I N N		>	-AINN,TÁ     # gnáthchaite
-	[^EUTIH] A I N N		>	-AINN,TAÍ     
+	[^HEUTI] A I N N		>	-AINN,TÁ     # gnáthchaite
+	[^HEUTI] A I N N		>	-AINN,TAÍ     
 
 						     # ghrafainn,    róstainn
 	[FT] A I N N		>	-AINN,Á	     # coinníollach,gnáthchaite
 	[FT] A I N N		> 	-INN,Í
 
-					             # traochainn
-	[^T] H A I N N		>	-AINN,TÁ     # gnáthchaite
-	[^T] H A I N N		>	-AINN,TAÍ     
+								# lobhainn, thraochainn, shnámhainn, thoghainn
+								# separate rules to ease conversion to Latg
+	B H A I N N		>	-AINN,TÁ     # gnáthchaite
+	B H A I N N		>	-AINN,TAÍ     
+	C H A I N N		>	-AINN,TÁ
+	C H A I N N		>	-AINN,TAÍ     
+	G H A I N N		>	-AINN,TÁ
+	G H A I N N		>	-AINN,TAÍ     
+	M H A I N N		>	-AINN,TÁ
+	M H A I N N		>	-AINN,TAÍ     
 
 					             # meathainn
 	T H A I N N		>	-THAINN,TÁ     # gnáthchaite (strip/add t for Latg)
@@ -478,16 +492,18 @@ flag *E:	        		             # mholainn, d'amharcainn
 	[^AOÁÉÓÚ] I N N		> 	-INN,FÍ
 	[^AOÁÉÓÚ] I N N		>	-INN,EADAR    # An B.N.
 
-	[^AOÁÉÓÚTH] I N N	>	-INN,TEÁ      # gnáthchaite
-	[^AOÁÉÓÚTH] I N N	>	-INN,TÍ
+	[^HAOÁÉÓÚT] I N N	>	-INN,TEÁ      # gnáthchaite
+	[^HAOÁÉÓÚT] I N N	>	-INN,TÍ
 
 						      # titinn
 	T I N N			>	-INN,EÁ       # gnáthchaite
 	T I N N			>	-INN,Í
 
-						      # sroichinn
-	[^T] H I N N		>	-INN,TEÁ      # gnáthchaite
-	[^T] H I N N		>	-INN,TÍ     
+						      # ibhinn, chluichinn, dhoilbhinn, shroichinn
+	B H I N N		>	-INN,TEÁ      # gnáthchaite
+	B H I N N		>	-INN,TÍ     
+	C H I N N		>	-INN,TEÁ
+	C H I N N		>	-INN,TÍ     
 
 						      # caithinn
 	T H I N N		>	-THINN,TEÁ      # gnáthchaite (strip/add t for Latg)
@@ -532,12 +548,15 @@ flag *E:	        		             # mholainn, d'amharcainn
 						     # chloínn (only)
 	L O Í N N		>	-NN,TEÁ
 	L O Í N N		>	-NN,TÍ
-						     # dhluínn, luínn, ndluínn
-	[^BH] U Í N N		>	-ÍNN,ITEÁ
-	[^BH] U Í N N		>	-ÍNN,ITÍ
-						     # ghuínn, shuínn
-	[^B] H U Í N N		>	-ÍNN,ITEÁ
-	[^B] H U Í N N		>	-ÍNN,ITÍ
+						     # luínn, suínn
+	[^HB] U Í N N		>	-ÍNN,ITEÁ
+	[^HB] U Í N N		>	-ÍNN,ITÍ
+						     # ghuínn, shuínn, athshuínn
+							# separate rules to simplify Latg conversion
+	G H U Í N N		>	-ÍNN,ITEÁ
+	G H U Í N N		>	-ÍNN,ITÍ
+	S H U Í N N		>	-ÍNN,ITEÁ
+	S H U Í N N		>	-ÍNN,ITÍ
 						     # bhuínn
 	B H U Í N N		>	-NN,TEÁ
 	B H U Í N N		>	-NN,TÍ

@@ -7,7 +7,9 @@ ISPELLBIN=/usr/bin
 INSTALL=/usr/bin/install
 SHELL=/bin/sh
 MAKE=/usr/bin/make
-PERSONAL=aitiuil daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt
+GALLPERSONAL=aitiuil eachtar gall giorr gno romhanach
+GAELPERSONAL=daoine logainm miotas.txt stair.txt
+PERSONAL=$(GALLPERSONAL) $(GAELPERSONAL)
 
 #   Shouldn't have to change anything below here
 RELEASE=4.6
@@ -263,6 +265,17 @@ aspelllit.txt: gaeilgelit.hash
 aspellalt.txt: gaeilgemor.hash
 	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | iconv -f utf8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | iconv -f iso-8859-1 -t utf8 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
+# (1) generate all words by unmunching hunspell dic/aff
+# and be sure they're all in aspell.txt (i.e. gen. by ispell affix file)
+# (2) generate all words w/ ispell affix file and be sure hunspell
+# .dic/.aff pair accepts them
+# (3) If (1) and (2) pass, then aspell.txt is the same for ispell/hunspell.  
+# Convert that file to poncanna, and be sure ga-Latg .dic/.aff accept 'em all
+aspelltest: ga_IE.dic ga_IE.aff aspell.txt personal
+	unmunch ./ga_IE | keepif -n aspell.txt | keepif -n personal
+	cat aspell.txt | hunspell -d ./ga_IE -l
+	cat aspell.txt | perl ~/gaeilge/ocr/toponc.pl | hunspell -d ./ga-Latg -l
+
 # Scrabble3D
 # No poncanna, like the "official" rules
 gaeilge.dic: aspell.txt
@@ -327,16 +340,23 @@ dist: FORCE
 	rm -f ../$(APPNAME)
 	rm -f makefile
 
-ga_IE.dic: $(RAWWORDS)
+# relies on fact that H affix always immediately follows the slash :/
+# though see "obainn" - one exception
+ga-Latg.dic: $(RAWWORDS)
+	(cat $(RAWWORDS) $(GAELPERSONAL) | perl ${HOME}/gaeilge/ocr/toponc.pl; cat $(GALLPERSONAL)) > $@
+	sed -i "1s/.*/`cat $@ | wc -l`\n&/" $@
+
+ga-Latg.aff: ga_IE.aff
+	cat ga_IE.aff | sed 's/WORDCHAR/WORDC{H}AR/' | perl ${HOME}/gaeilge/ocr/toponc.pl | sed '/^SFX/s/\[\^h/[^ḃċḋḟġṁṗṡṫ/' > $@
+
+ga_IE.dic: $(RAWWORDS) $(PERSONAL)
 	rm -f $@
-	$(GOODSORT) $(RAWWORDS) $(PERSONAL) > tempfile
-	cat tempfile | wc -l | tr -d " " > tempcount
-	cat tempcount tempfile > $@
-	rm -f tempfile tempcount
+	$(GOODSORT) $(RAWWORDS) $(PERSONAL) > $@
+	sed -i "1s/.*/`cat $@ | wc -l`\n&/" $@
 
 ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
 	cat myspell-header hunspell-header > myspelltemp.txt
-	./ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspelltemp.txt | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > ga_IE.aff
+	./ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspelltemp.txt | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > $@
 	rm -f myspelltemp.txt
 
 mycheck: ga_IE.dic aspell.txt ga_IE.aff

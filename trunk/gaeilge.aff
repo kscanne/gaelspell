@@ -619,11 +619,13 @@ flag *F:                                        # bheannaínn, d'iompaínn
 	[^A] Í N N	>	-ÍNN,EOFAÍ
 	[^A] Í N N	>	-NN,ODAR        # An B.N. 
 
+#  This syntax works, but unmunch doesn't like a 0 replacement:
+#   L A I M              >       -IM,""          # ainmfhocal briathartha
 flag *I:				       # campálaim
         L A I M              >       -IM,NN          # láithreach
         L A I M              >       ID
         L A I M              >       -IM,DH          # caite saor
-        L A I M              >       -IM,""          # ainmfhocal briathartha
+        L A I M              >       -AIM,A          # ainmfhocal briathartha
         L A I M              >       -AIM,FAIDH      # fáistineach
         L A I M              >       -AIM,FAIMID
         L A I M              >       -AIM,FAR

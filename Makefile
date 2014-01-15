@@ -76,14 +76,14 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	rm -f tempaff.txt
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-IE-dictionary.xpi focloiri-gaeilge-*.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga_IE.txt gaelspell.txt gaeilge.dic ga-media-freq.txt ga_corpus-utf8.txt ga-word-freq.txt ga-freq.txt ga-phrases-freq.txt ga_inclusion-utf8.txt twitter-survey.txt gaelspellalt-ascii.txt gaelspell-anything.txt gaelspellalt.txt text-freq.txt ga-phrases.txt
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-*dictionary.xpi *.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga-Latg-IE.txt README_ga_IE.txt gaelspell.txt gaeilge.dic ga-media-freq.txt ga_corpus-utf8.txt ga-word-freq.txt ga-freq.txt ga-phrases-freq.txt ga_inclusion-utf8.txt twitter-survey.txt gaelspellalt-ascii.txt gaelspell-anything.txt gaelspellalt.txt text-freq.txt ga-phrases.txt
 
 # Clean back to what gets packaged up in an ispell-gaeilge tarball
 # So don't wipe out generated ChangeLog, giorr, romhanach, etc.
 # See veryclean, maintainer-clean below
 distclean:
 	$(MAKE) clean
-	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu
+	rm -f *.hash aspell.txt aspelllit.txt aspellalt.txt ga_IE.dic gaeilgelit.aff $(ALTAFFIXFILE) ga_IE.aff gaelu ga-Latg-IE.dic ga-Latg-IE.aff
 
 #############################################################################
 ### Remainder is for development only
@@ -274,7 +274,7 @@ aspellalt.txt: gaeilgemor.hash
 aspelltest: ga_IE.dic ga_IE.aff aspell.txt personal
 	unmunch ./ga_IE | keepif -n aspell.txt | keepif -n personal
 	cat aspell.txt | hunspell -d ./ga_IE -l
-	cat aspell.txt | perl ~/gaeilge/ocr/toponc.pl | hunspell -d ./ga-Latg -l
+	cat aspell.txt | perl ~/gaeilge/ocr/toponc.pl | hunspell -d ./ga-Latg-IE -l
 
 # Scrabble3D
 # No poncanna, like the "official" rules
@@ -342,11 +342,11 @@ dist: FORCE
 
 # relies on fact that H affix always immediately follows the slash :/
 # though see "obainn" - one exception
-ga-Latg.dic: $(RAWWORDS)
+ga-Latg-IE.dic: $(RAWWORDS)
 	(cat $(RAWWORDS) $(GAELPERSONAL) | perl ${HOME}/gaeilge/ocr/toponc.pl; cat $(GALLPERSONAL)) > $@
 	sed -i "1s/.*/`cat $@ | wc -l`\n&/" $@
 
-ga-Latg.aff: ga_IE.aff
+ga-Latg-IE.aff: ga_IE.aff
 	cat ga_IE.aff | sed 's/WORDCHAR/WORDC{H}AR/' | perl ${HOME}/gaeilge/ocr/toponc.pl | sed '/^SFX/s/\[\^h/[^ḃċḋḟġṁṗṡṫ/' > $@
 
 ga_IE.dic: $(RAWWORDS) $(PERSONAL)
@@ -359,11 +359,17 @@ ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
 	./ispellaff2myspell --charset=latin1 gaeilge.aff --myheader myspelltemp.txt | sed 's/""/0/' | sed '40,$$s/"//g' | perl -p -e 's/^PFX S( +)([a-z])( +)[a-z]h( +)[a-z](.*)/print "PFX S$$1$$2$$3$$2h$$4$$2$$5\nPFX S$$1\u$$2$$3\u$$2h$$4\u$$2$$5";/e' | sed 's/S Y 9$$/S Y 18/' | sed 's/\([]A-Z]\)1$$/\1/' > $@
 	rm -f myspelltemp.txt
 
+ga-Latg-IE-dictionary.xpi: ga-Latg-IE.dic ga-Latg-IE.aff README_ga-Latg-IE.txt
+	make-exts ga-Latg-IE Irish Ireland 4.7 'GaelSpell Seanchló'
+
 mycheck: ga_IE.dic aspell.txt ga_IE.aff
 	cat aspell.txt personal | $(MYSPELL) -l -d ./ga_IE
 
 README_ga_IE.txt: README COPYING
 	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of hunspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
+
+README_ga-Latg-IE.txt: README_ga_IE.txt
+	cp -f README_ga_IE.txt $@
 
 #  * Don't want to use local make-exts since it doesn't package up
 #    the thesaurus and hyphenation patterns in xx_YY-pack or .oxt...
@@ -373,7 +379,7 @@ README_ga_IE.txt: README COPYING
 # Summer 2008: now creates oxt installable extension for OOo also
 # Back to rebuilding hyphenation.  Used to just grab from:	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/hyph_ga_IE.zip
 #	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/thes_ga_IE_v2.zip
-mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
+mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf
 	rm -f thes.txt hyph_ga_IE.zip ga_IE.zip
 	rm -Rf dictionaries
 	(cd ${HOME}/gaeilge/fleiscin/fleiscin; make hyph_ga_IE.zip)
@@ -389,7 +395,7 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf install.js
 	cp ga_IE.dic dictionaries/ga.dic
 	cp ga_IE.aff dictionaries/ga.aff
 	cp README_ga_IE.txt dictionaries
-	zip -r ga-IE-dictionary.xpi dictionaries install.rdf install.js
+	zip -r ga-IE-dictionary.xpi dictionaries install.rdf
 	rm -Rf hyph.txt spell.txt thes.txt META-INF
 	mkdir META-INF
 	cp manifest.xml META-INF

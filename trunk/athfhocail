@@ -799,6 +799,8 @@ Samáirigh Samáraigh
 Samáirí Samáraí
 Sasain Sasana
 Sasana tSasana
+Sasannach Sasanach
+Sasannaigh Sasanaigh
 Satán Sátan
 Scainnimh Scainimh
 Sean-tiomna Sean-Tiomna
@@ -832,6 +834,8 @@ Shamáireacha Shamáracha
 Shamáirigh Shamáraigh
 Shamáirí Shamáraí
 Shasain Shasana
+Shasannach Shasanach
+Shasannaigh Shasanaigh
 Shean-tiomna Shean-Tiomna
 Sheicshlovaic Sheicslóvaic
 Sheicshlovaice Sheicslóvaice
@@ -39350,6 +39354,7 @@ d'inghen d'iníon
 d'inghilt d'innilt
 d'inghilte d'innilte
 d'inghin d'iníne
+d'inghine d'iníne
 d'inghion d'iníon
 d'inghreamughadh d'inghreim
 d'inghreamú d'inghreim
@@ -49041,6 +49046,9 @@ dtuilíonn dtuileann
 dtuilítear dtuiltear
 dtuilíteá dtuilteá
 dtuilítí dtuiltí
+dtuincéara dtincéara
+dtuincéir dtincéir
+dtuincéirí dtincéirí
 dtuinn dtoinne
 dtuinn dtonn
 dtuinne dtoinne
@@ -73378,6 +73386,7 @@ hinghen hiníon
 hinghilt hinnilt
 hinghilte hinnilte
 hinghin hiníne
+hinghine hiníne
 hinghion hiníon
 hinghreamach hinghreimtheach
 hinghreamthach hinghreimtheach
@@ -75636,6 +75645,7 @@ inghen iníon
 inghilt innilt
 inghilte innilte
 inghin iníne
+inghine iníne
 inghion iníon
 inghreama inghreime
 inghreamach inghreimtheach
@@ -78103,6 +78113,8 @@ leordhóthaineacha leordhóthanacha
 leordhóthainigh leordhóthanaigh
 leordhóthainí leordhóthanaí
 leos léas
+leotha leo
+leotha leosan
 leothu leo
 leothusan leosan
 ler lenar
@@ -78123,6 +78135,8 @@ leócháin leamhacháin
 leóchán leamhachán
 leómhain leoin
 leómhan leon
+leótha leo
+leótha leosan
 liabhán liamhán
 liabán liamhán
 liabóg leadhbóg
@@ -82435,6 +82449,7 @@ m'inghen m'iníon
 m'inghilt m'innilt
 m'inghilte m'innilte
 m'inghin m'iníne
+m'inghine m'iníne
 m'inghion m'iníon
 m'inghreamughadh m'inghreim
 m'inghreamú m'inghreim
@@ -93695,6 +93710,7 @@ n-inghen n-iníon
 n-inghilt n-innilt
 n-inghilte n-innilte
 n-inghin n-iníne
+n-inghine n-iníne
 n-inghion n-iníon
 n-inghreamughadh n-inghreim
 n-inghreamú n-inghreim
@@ -119947,6 +119963,7 @@ tSacsan tSasana
 tSacsanaigh tSasanaigh
 tSagsbhéarla tSacs-Bhéarla
 tSasain Sasana
+tSasannaigh tSasanaigh
 tSean-tiomna tSean-Tiomna
 tSeicshlovaic tSeicslóvaic
 tSein-tiomna tSean-Tiomna
@@ -124094,6 +124111,9 @@ thuilíonn thuileann
 thuilítear thuiltear
 thuilíteá thuilteá
 thuilítí thuiltí
+thuincéara thincéara
+thuincéir thincéir
+thuincéirí thincéirí
 thuinn thoinne
 thuinn thonn
 thuinne thoinne
@@ -127265,6 +127285,9 @@ tuilíodh tuileadh
 tuilíonn tuileann
 tuilítear tuiltear
 tuimidín toimidín
+tuincéara tincéara
+tuincéir tincéir
+tuincéirí tincéirí
 tuinidhe tuiní
 tuinithe tuiní
 tuinn toinne

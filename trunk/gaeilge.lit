@@ -55,6 +55,15 @@ athlaimh
 athlaimhe/B
 athlamh/HB
 athlamha/B
+athshú/HUBMDT
+athshúdh/HU
+athshúidís/HU
+athshúigh/HU
+athshúigí/HU
+athshúim/UA
+athshúinn/E
+athshúite/HBUMD
+athshúitear/HU
 baineannacht/US
 baineannachta/US
 baise/US
@@ -180,6 +189,8 @@ ceantrach/S
 ceantracha/S
 ceantraigh/S
 ceantraí/S
+ceártais/US
+ceártas/US
 chara/U
 charainn/EU
 chine/U
@@ -230,10 +241,12 @@ cocairí/US
 cocaí/S
 cogarnach/US
 cogarnaigh/US
+coilleach
 Coimdhe/S
 Coimdheadh/S
 coinneamh/US
 coinnmhe/US
+coit/US
 colainne/US
 colann/US
 colannacha/US
@@ -249,6 +262,7 @@ conaigh/US
 connaill/US
 connall/US
 corca/US
+cot/US
 croin/US
 cron/US
 crúthach/US
@@ -286,6 +300,8 @@ cúiteántais/US
 cúiteántas/US
 cúradh/US
 cúrtha/US
+d'athshúigh/U
+d'athshúinn/EU
 d'eis/U
 d'eisinn/EU
 d'fhadhbh
@@ -838,6 +854,7 @@ múig/S
 múige/S
 múraithe/S
 múraí/S
+neam
 neana
 nion
 nuaill
@@ -1174,10 +1191,14 @@ tascar/US
 teacht/US
 teachta/S
 teachtaim/USA
+teangaigh/US
+teangaithe/SU
+teangaím/USC
 teanglaigh/US
 teanglaithe/SU
 teanglaím/USC
 teanglú/US
+teangú/US
 teannach/S
 teannacha/S
 teannaigh/S
@@ -1191,6 +1212,8 @@ thaisealbha/U
 thaisealbhainn/EU
 theachta/U
 theachtainn/EU
+theangaí/U
+theangaínn/FU
 theanglaí/U
 theanglaínn/FU
 thiolpa/U
@@ -1211,6 +1234,8 @@ thiomnaidís/U
 thiomnaimis/U
 thiomnainn/U
 thiomnamar/U
+thonaí/U
+thonaínn/FU
 thíora/U
 thíorainn/EU
 tim/S
@@ -1233,6 +1258,7 @@ tiomnaim/US
 tiomnaimid/US
 tiomnaimis
 tiomnann/US
+tiuc
 tochra/US
 toibhéim/US
 toibhéime/US
@@ -1245,6 +1271,10 @@ tolach/S
 tolacha/S
 tolaigh/S
 tolaí/S
+tonaigh/US
+tonaithe/SU
+tonaím/USC
+tonú/US
 torchartha/US
 torchra/US
 toth/US
@@ -1281,7 +1311,11 @@ tíor/US
 tíoradh/US
 tíoraim/USA
 tíortha/SU
+tóc/US
+tóic/US
 tóla/US
+túfa/US
+túfaí/US
 uail/HMDBU
 uaile/HMDU
 uairleáin/HMDBU
@@ -1328,6 +1362,8 @@ uscar/HMDU
 éadú/HUBMDT
 éigne/HMDBUT
 éigní/HMDBU
+íodh/HMDBUT
+íodha/HMDU
 íoslín/HMDU
 íoslíon/HMDBUT
 íoslíonta/HMDBU
@@ -1335,5 +1371,10 @@ uscar/HMDU
 óm/HMDBUT
 ómósaithe/HMDBU
 ómósaí/HMDBUT
+úilíteach/HB
+úilíteacha/B
+úilítigh
+úilítí/B
+úiré/HMDBU
 úr/HMDBUT
 úra/HMDU

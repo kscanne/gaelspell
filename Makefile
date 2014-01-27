@@ -273,8 +273,8 @@ aspellalt.txt: gaeilgemor.hash
 # Convert that file to poncanna, and be sure ga-Latg .dic/.aff accept 'em all
 aspelltest: ga_IE.dic ga_IE.aff aspell.txt personal
 	unmunch ./ga_IE | keepif -n aspell.txt | keepif -n personal
-	cat aspell.txt | hunspell -d ./ga_IE -l
-	cat aspell.txt | perl ~/gaeilge/ocr/toponc.pl | hunspell -d ./ga-Latg-IE -l
+	cat aspell.txt | $(MYSPELL) -d ./ga_IE -l
+	cat aspell.txt | perl ~/gaeilge/ocr/toponc.pl | $(MYSPELL) -d ./ga-Latg-IE -l
 
 # Scrabble3D
 # No poncanna, like the "official" rules

@@ -1157,6 +1157,10 @@ aisteachán/HMDBUT
 aistearach
 aistearánach/HMDBUT
 aistearánaigh/HMDBU
+Aisticeach
+Aisticeacha
+Aisticigh
+Aisticí
 aistigheal/HMDBU
 aistigheala/HMDU
 aistireach/HB
@@ -2568,6 +2572,10 @@ b'Afraiceacha
 b'Afraicí
 b'Aifrean
 b'Aifric
+b'Aisticeach
+b'Aisticeacha
+b'Aisticigh
+b'Aisticí
 b'Alba
 b'Alpaí
 b'Amarais
@@ -2666,6 +2674,11 @@ b'Ollaindeacha
 b'Ollaindigh
 b'Ollaindí
 b'Ollannais
+b'Oman
+b'Omanach
+b'Omanacha
+b'Omanaigh
+b'Omanaí
 b'shin
 b'shiúd
 b'Ucráin
@@ -2674,7 +2687,7 @@ b'Ucránach
 b'Ucránacha
 b'Ucránaigh
 b'Ucránaí
-b'Urdúis
+b'Urdais
 b'Árd-Easbog
 b'Árd-Easboig
 b'Ástráil
@@ -2688,7 +2701,6 @@ b'Éireanach
 b'Éireanacha
 b'Éireanaí
 b'Óiríon
-b'Óman
 b'Úisbéiceastáinis
 b'Úral
 b'é
@@ -3217,8 +3229,6 @@ beaitsiléir/US
 beaitsiléirí/US
 bealaitheacht/US
 bealaitheachta/US
-Bealarúis/S
-Bealarúise/S
 bealaíonach
 Bealltaine/S
 Bealltainí/S
@@ -5580,6 +5590,14 @@ bídhge/US
 bígearnach
 bígh
 bígidh/US
+Bílearúis/S
+Bílearúise/S
+Bílearúiseach/S
+Bílearúiseacha/S
+Bílearúisigh/S
+Bílearúisis/S
+Bílearúisise/S
+Bílearúisí/S
 bínn/S
 bínne/S
 bínse/US
@@ -7827,6 +7845,8 @@ cineadhaigh/S
 cineadhaí/S
 cineamoin/US
 cineamon/US
+Cinearuáindis/S
+Cinearuáindise/S
 cinematograf/US
 cinematografach/S
 cinematografacha/S
@@ -12262,6 +12282,8 @@ d'aisnéidhteá
 d'aisnéidhtí
 d'aisnéis/U
 d'aisnéisinn/EU
+d'Aisticeach
+d'Aisticigh
 d'aithbhear/U
 d'aithbhearainn/EU
 d'aithbhir/U
@@ -12891,6 +12913,9 @@ d'Ollannais
 d'Ollannaise
 d'ollmhaigh/U
 d'ollmhaínn/FU
+d'Oman
+d'Omanach
+d'Omanaigh
 d'onnmhuirigh/U
 d'onnmhuirínn/FU
 d'oscail/U
@@ -12925,8 +12950,8 @@ d'ullamhaigh/U
 d'ullamhaínn/FU
 d'unfart/U
 d'unfartainn/EU
-d'Urdúis
-d'Urdúise
+d'Urdais
+d'Urdaise
 d'urghéill/U
 d'urghéillinn/EU
 d'urúigh/U
@@ -12941,7 +12966,6 @@ d'Éatruscaigh
 d'Éiphte
 d'Éirean
 d'Óiríon
-d'Óman
 d'Úisbéiceastáinis
 d'Úisbéiceastáinise
 d'Úral
@@ -15242,8 +15266,8 @@ dTeileagúilise
 dTibéad
 dTibéadais
 dTibéadaise
-dTigrinis
-dTigrinise
+dTigrínis
+dTigrínise
 dTiobrad
 dTiobraideach
 dTiobraidigh
@@ -16506,8 +16530,10 @@ easargana/HMDU
 easarlaí
 easarlaíocht
 easartha
-easbaidh
+easba/HMDBU
+easbaidh/HMDBU
 easbaidheach
+easbaí/HMDBU
 easbhaidh
 easbhaidheach
 easboc/HMDBUT
@@ -21015,6 +21041,8 @@ gCatáir
 gCatár
 gCeatharloch
 gCeatharloigh
+gCinearuáindis
+gCinearuáindise
 gCiosvahaílis
 gCiosvahaílise
 gCirgeastáinis
@@ -23166,6 +23194,8 @@ haincearsan
 hainceasúr
 haincisiúr
 hainic
+hAisticeach
+hAisticigh
 haistil
 haisís
 haisíse
@@ -23218,6 +23248,10 @@ hataeir
 hAtaen
 hath
 hatóir
+Haváíais
+Haváíaise
+Haváís
+Haváíse
 hEabhraí
 hEabhraígh
 hEabhraíoch
@@ -23305,6 +23339,9 @@ hOllannais
 hOllannaise
 homaighnéasachais
 homaighnéasachas
+hOman
+hOmanach
+hOmanaigh
 hop
 hubhradh
 hUcráin
@@ -23321,8 +23358,8 @@ huigistéar
 huirs
 huis
 hulla
-hUrdúis
-hUrdúise
+hUrdais
+hUrdaise
 husae
 husaeireacht
 hustaeir
@@ -23337,7 +23374,6 @@ hÉiphte
 hÉirean
 hÉireanach
 hÓiríon
-hÓman
 hÚisbéiceastáinis
 hÚisbéiceastáinise
 hÚral
@@ -26386,6 +26422,8 @@ láthadh
 láthaireach
 láthaireacha
 láthaíocht
+Láóis
+Láóise
 léab
 léaba
 léabair
@@ -26772,6 +26810,8 @@ m'Aegéigh
 m'Aifrean
 m'Aifric
 m'Aifrice
+m'Aisticeach
+m'Aisticigh
 m'Alba
 m'Alban
 m'Albana
@@ -26854,14 +26894,17 @@ m'Ollaindeach
 m'Ollaindigh
 m'Ollannais
 m'Ollannaise
+m'Oman
+m'Omanach
+m'Omanaigh
 m'Ucráin
 m'Ucráine
 m'Ucráinis
 m'Ucráinise
 m'Ucránach
 m'Ucránaigh
-m'Urdúis
-m'Urdúise
+m'Urdais
+m'Urdaise
 m'Árd-Easbog
 m'Árd-Easboig
 m'Ástráil
@@ -26872,7 +26915,6 @@ m'Éatruscaigh
 m'Éiphte
 m'Éirean
 m'Óiríon
-m'Óman
 m'Úisbéiceastáinis
 m'Úisbéiceastáinise
 m'Úral
@@ -27201,6 +27243,8 @@ mangart
 mangcán
 mangrae
 mann
+Mannainis/S
+Mannainise/S
 manrach
 manráin/S
 manrán/S
@@ -27413,8 +27457,6 @@ mBaibilóin
 mBaibilóine
 mBaile-Átha-Cliath
 mBatavia
-mBealarúis
-mBealarúise
 mBealltaine
 mBealltainí
 mBorneo
@@ -27439,6 +27481,12 @@ mbáidhtear
 mbáidhteá
 mbáidhtí
 mBéarút
+mBílearúis
+mBílearúise
+mBílearúiseach
+mBílearúisigh
+mBílearúisis
+mBílearúisise
 meabhail/S
 meabhaile/S
 meabhair-ghalair/S
@@ -28886,6 +28934,8 @@ naisceadh
 naiscim/A
 naiscinn/E
 naiscthe
+nAisticeach
+nAisticigh
 naith
 naitheach
 naithíocht
@@ -29515,6 +29565,9 @@ nOllaindeach
 nOllaindigh
 nOllannais
 nOllannaise
+nOman
+nOmanach
+nOmanaigh
 non-eclipsing
 Normánach
 Normánacha
@@ -29576,8 +29629,8 @@ nuimhrím/C
 nuimhrínn/F
 nuin
 nuine
-nUrdúis
-nUrdúise
+nUrdais
+nUrdaise
 nuálachais
 nuálachas
 nuálacht
@@ -29599,7 +29652,6 @@ nÉatruscaigh
 nÉiphte
 nÉirean
 nÓiríon
-nÓman
 nÚisbéiceastáinis
 nÚisbéiceastáinise
 nÚral
@@ -30037,6 +30089,11 @@ oléadach/HMDBUT
 oléadaigh/HMDU
 oléadaí/HMDBU
 omair/HMDBU
+Oman
+Omanach
+Omanacha
+Omanaigh
+Omanaí
 omar/HMDBUT
 ombó
 oncail/HMDBU
@@ -39253,6 +39310,7 @@ taispeáinte/SU
 taispeánach
 taistealach/US
 taistealaigh/US
+tAisticeach
 taisím/USC
 taiteanfaidh/US
 taiteanfaimid/US
@@ -40220,8 +40278,8 @@ tigherna/US
 tighernaí/US
 tighis/US
 tightheach/US
-Tigrinis/S
-Tigrinise/S
+Tigrínis/S
+Tigrínise/S
 tigín/US
 tigíní/US
 til
@@ -40757,6 +40815,8 @@ tomaill/US
 tomaim/USA
 tomaire
 tomall/US
+tOman
+tOmanach
 tomanna/US
 tomba/US
 tombac
@@ -41825,7 +41885,6 @@ tuíon
 tÁrd-Easbog
 tÉatruscach
 tÓiríon
-tÓman
 tá'n
 tá's
 tábhachtmhar
@@ -42625,11 +42684,11 @@ urchrach
 urdaill/HMDBU
 urdaille/HMDU
 urdaillí/HMDBU
+Urdais
+Urdaise
 urdhamh
 urdhubhadh
 urdhálta
-Urdúis
-Urdúise
 urfhuigheall
 urfhógair
 urfhógra
@@ -42826,7 +42885,6 @@ Zéalann
 Éireanaí
 Éireanna
 Óiríon
-Óman
 Údás
 Úisbéiceastáinis
 Úisbéiceastáinise

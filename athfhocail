@@ -17,6 +17,10 @@ Aifreannacha Aifrinn
 Aifric Afraic
 Aifrice Afraice
 Aifrinntí Aifrinn
+Aisticeach Astacach
+Aisticeacha Astacacha
+Aisticigh Astacaigh
+Aisticí Astacaí
 Alba Albain
 Albana Alban
 Alpaí Alpa
@@ -69,8 +73,6 @@ Bailtigh Baltaigh
 Bailtí Baltaí
 Batavia Batáiv
 Batavia Batáive
-Bealarúis Bílearúis
-Bealarúise Bílearúise
 Bealltaine Bealtaine
 Bealltainí Bealtainí
 Beáltaine Bealtaine
@@ -83,8 +85,6 @@ Bhailtigh Bhaltaigh
 Bhailtí Bhaltaí
 Bhatavia Bhatáiv
 Bhatavia Bhatáive
-Bhealarúis Bhílearúis
-Bhealarúise Bhílearúise
 Bhealltaine Bhealtaine
 Bhealltainí Bhealtainí
 Bholaiveach Bholavach
@@ -113,6 +113,14 @@ Bhriotáiní Bhriotanaí
 Bhruiséal Bhruiséil
 Bhruiséal Bhruiséile
 Bhéarút Bhéiriút
+Bhílearúis Bhealarúis
+Bhílearúise Bhealarúise
+Bhílearúiseach Bhealarúiseach
+Bhílearúiseacha Bhealarúiseacha
+Bhílearúisigh Bhealarúisigh
+Bhílearúisis Bhealarúisis
+Bhílearúisise Bhealarúisise
+Bhílearúisí Bhealarúisí
 Bolaiveach Bolavach
 Bolaiveacha Bolavacha
 Bolaivigh Bolavaigh
@@ -142,6 +150,14 @@ Bruiséal Bruiséile
 Bríghde Bríde
 Bríghid Bríd
 Béarút Béiriút
+Bílearúis Bealarúis
+Bílearúise Bealarúise
+Bílearúiseach Bealarúiseach
+Bílearúiseacha Bealarúiseacha
+Bílearúisigh Bealarúisigh
+Bílearúisis Bealarúisis
+Bílearúisise Bealarúisise
+Bílearúisí Bealarúisí
 Bóraimhe Ború
 Bóramha Ború
 Caismíor Caismír
@@ -180,6 +196,8 @@ Chatáir Chatáraigh
 Chatár Chatárach
 Cheatharloch Cheatharlach
 Cheatharloigh Cheatharlaigh
+Chinearuáindis Chiniaruaindis
+Chinearuáindise Chiniaruaindise
 Chiosvahaílis Svahaílis
 Chiosvahaílise Svahaílise
 Chirgeastáinis Chirgisis
@@ -229,6 +247,8 @@ Chóiriaiche Chóiréiche
 Chópanhágan Chóbanhávan
 Chóráin Chóran
 Chórán Chóran
+Cinearuáindis Ciniaruaindis
+Cinearuáindise Ciniaruaindise
 Cingcís Cincís
 Cingcíseach Cincíseach
 Ciosvahaílis Svahaílis
@@ -501,6 +521,10 @@ Gréigeach Gréagach
 Guaranaí Guaráinis
 Guaranaí Guaráinise
 Haití Háítí
+Haváíais Haváis
+Haváíaise Haváise
+Haváís Haváis
+Haváíse Haváise
 Hiteais Hitis
 Hiteaise Hitise
 Hág Háig
@@ -601,6 +625,8 @@ Lughnasa Lúnasa
 Lughnasadh Lúnasa
 Luimní Luimnigh
 Lundain Londain
+Láóis Laoisis
+Láóise Laoisise
 Lúna Lúnasa
 Lúnasna Lúnasa
 Maigheo Maigh Eo
@@ -615,6 +641,8 @@ Manannais Manainnis
 Manannaise Manainnise
 Mancúir Manchúir
 Mancúire Manchúire
+Mannainis Manainnis
+Mannainise Manainnise
 Maoinis Maonais
 Mathamadach Mahamadach
 Mathamadachas Mahamadachas
@@ -643,6 +671,8 @@ Mhanannais Mhanainnis
 Mhanannaise Mhanainnise
 Mhancúir Mhanchúir
 Mhancúire Mhanchúire
+Mhannainis Mhanainnis
+Mhannainise Mhanainnise
 Mhanntáin Mhantáin
 Mhearaiceá Mheiriceá
 Mhecsícó Mheicsiceo
@@ -707,6 +737,11 @@ Ollaindí Ollannaí
 Ollannais Ollainnis
 Ollannaise Ollainnise
 Olltach Ultach
+Oman Óman
+Omanach Ómanach
+Omanacha Ómanacha
+Omanaigh Ómanaigh
+Omanaí Ómanaí
 Pailistín Palaistín
 Pailistíne Palaistíne
 Pailistíneach Palaistíneach
@@ -1023,8 +1058,8 @@ Theileagúilise Theileagúise
 Thibéad Thibéid
 Thibéadais Thibéidis
 Thibéadaise Thibéidise
-Thigrinis Thigrínis
-Thigrinise Thigrínise
+Thigrínis Thigrinis
+Thigrínise Thigrinise
 Thiobrad Thiobraid
 Thiobraideach Thiobradach
 Thiobraideacha Thiobradacha
@@ -1043,8 +1078,8 @@ Thóraíocha Thóraí
 Tibéad Tibéid
 Tibéadais Tibéidis
 Tibéadaise Tibéidise
-Tigrinis Tigrínis
-Tigrinise Tigrínise
+Tigrínis Tigrinis
+Tigrínise Tigrinise
 Tiobrad Tiobraid
 Tiobraideach Tiobradach
 Tiobraideacha Tiobradacha
@@ -1070,8 +1105,8 @@ Ucránach Úcránach
 Ucránacha Úcránacha
 Ucránaigh Úcránaigh
 Ucránaí Úcránaí
-Urdúis Urdais
-Urdúise Urdaise
+Urdais Urdúis
+Urdaise Urdúise
 Vítneaimis Vítneamais
 Vítneaimise Vítneamaise
 Zéalainn Shéalainne
@@ -4673,6 +4708,10 @@ b'Afraiceacha b'Afracacha
 b'Afraicí b'Afracaí
 b'Aifrean b'Aifreann
 b'Aifric b'Afraic
+b'Aisticeach b'Astacach
+b'Aisticeacha b'Astacacha
+b'Aisticigh b'Astacaigh
+b'Aisticí b'Astacaí
 b'Alba b'Albain
 b'Alpaí b'Alpa
 b'Amarais b'Amáiris
@@ -4758,13 +4797,18 @@ b'Ollaindeacha b'Ollannacha
 b'Ollaindigh b'Ollannaigh
 b'Ollaindí b'Ollannaí
 b'Ollannais b'Ollainnis
+b'Oman b'Óman
+b'Omanach b'Ómanach
+b'Omanacha b'Ómanacha
+b'Omanaigh b'Ómanaigh
+b'Omanaí b'Ómanaí
 b'Ucráin b'Úcráin
 b'Ucráinis b'Úcráinis
 b'Ucránach b'Úcránach
 b'Ucránacha b'Úcránacha
 b'Ucránaigh b'Úcránaigh
 b'Ucránaí b'Úcránaí
-b'Urdúis b'Urdais
+b'Urdais b'Urdúis
 b'abaidh b'aibí
 b'abaidhe b'aibí
 b'abaidheacht b'aibíocht
@@ -5886,6 +5930,9 @@ b'easaontathach b'easaontach
 b'easaontathacha b'easaontacha
 b'easaontathaí b'easaontaí
 b'easargain teasargan
+b'easba b'easpa
+b'easbaidh b'easpa
+b'easbaí b'easpaí
 b'easboc b'easpag
 b'easbog b'easpag
 b'easboic b'easpaig
@@ -8385,7 +8432,6 @@ b'Éireanach b'Éireannach
 b'Éireanacha b'Éireannacha
 b'Éireanaí b'Éireannaí
 b'Óiríon b'Oiríon
-b'Óman b'Oman
 b'Úisbéiceastáinis b'Úisbéicis
 b'Úral b'Úrail
 b'ábharach b'ábhartha
@@ -35454,6 +35500,8 @@ d'Aegéigh d'Aeigéigh
 d'Aifrean d'Aifreann
 d'Aifric d'Afraic
 d'Aifrice d'Afraice
+d'Aisticeach d'Astacach
+d'Aisticigh d'Astacaigh
 d'Alba d'Albain
 d'Albana d'Alban
 d'Alpaí d'Alpa
@@ -35539,14 +35587,17 @@ d'Ollaindeach d'Ollannach
 d'Ollaindigh d'Ollannaigh
 d'Ollannais d'Ollainnis
 d'Ollannaise d'Ollainnise
+d'Oman d'Óman
+d'Omanach d'Ómanach
+d'Omanaigh d'Ómanaigh
 d'Ucráin d'Úcráin
 d'Ucráine d'Úcráine
 d'Ucráinis d'Úcráinis
 d'Ucráinise d'Úcráinise
 d'Ucránach d'Úcránach
 d'Ucránaigh d'Úcránaigh
-d'Urdúis d'Urdais
-d'Urdúise d'Urdaise
+d'Urdais d'Urdúis
+d'Urdaise d'Urdúise
 d'a dá
 d'abadh d'aba
 d'abaidheacht d'aibíocht
@@ -37355,6 +37406,9 @@ d'easaontacht d'easaontas
 d'easaontachta d'easaontais
 d'easargain teasargan
 d'easargana teasargain
+d'easba d'easpa
+d'easbaidh d'easpa
+d'easbaí d'easpaí
 d'easboc d'easpag
 d'easbog d'easpag
 d'easboic d'easpaig
@@ -41403,7 +41457,6 @@ d'Éiphte d'Éigipt
 d'Éiphte d'Éigipte
 d'Éirean d'Éireann
 d'Óiríon d'Oiríon
-d'Óman d'Oman
 d'Úisbéiceastáinis d'Úisbéicis
 d'Úisbéiceastáinise d'Úisbéicise
 d'Úral d'Úrail
@@ -41940,8 +41993,8 @@ dTeileagúilise dTeileagúise
 dTibéad dTibéid
 dTibéadais dTibéidis
 dTibéadaise dTibéidise
-dTigrinis dTigrínis
-dTigrinise dTigrínise
+dTigrínis dTigrinis
+dTigrínise dTigrinise
 dTiobrad dTiobraid
 dTiobraideach dTiobradach
 dTiobraidigh dTiobradaigh
@@ -52499,8 +52552,10 @@ easargana theasargain
 easarlaí asarlaí
 easarlaíocht asarlaíocht
 easartha easraithe
+easba easpa
 easbaidh easpa
 easbaidheach easpach
+easbaí easpaí
 easbhaidh easpa
 easbhaidheach easpach
 easboc easpag
@@ -60776,6 +60831,8 @@ gCatáir gCatáraigh
 gCatár gCatárach
 gCeatharloch gCeatharlach
 gCeatharloigh gCeatharlaigh
+gCinearuáindis gCiniaruaindis
+gCinearuáindise gCiniaruaindise
 gCiosvahaílis Svahaílis
 gCiosvahaílise Svahaílise
 gCirgeastáinis gCirgisis
@@ -72743,6 +72800,8 @@ hAfraiceach hAfracach
 hAifrean hAifreann
 hAifric hAfraic
 hAifrice hAfraice
+hAisticeach hAstacach
+hAisticigh hAstacaigh
 hAlba hAlbain
 hAlbana hAlban
 hAlpaí hAlpa
@@ -72834,14 +72893,17 @@ hOllaindeach hOllannach
 hOllaindigh hOllannaigh
 hOllannais hOllainnis
 hOllannaise hOllainnise
+hOman hÓman
+hOmanach hÓmanach
+hOmanaigh hÓmanaigh
 hUcráin hÚcráin
 hUcráine hÚcráine
 hUcráinis hÚcráinis
 hUcráinise hÚcráinise
 hUcránach hÚcránach
 hUcránaigh hÚcránaigh
-hUrdúis hUrdais
-hUrdúise hUrdaise
+hUrdais hUrdúis
+hUrdaise hUrdúise
 ha'nduine haon duine
 habadh haba
 habaidh haibí
@@ -74350,6 +74412,9 @@ heasaontachta heasaontais
 heasaontathach heasaontach
 heasargain teasargan
 heasargana teasargain
+heasba heaspa
+heasbaidh heaspa
+heasbaí heaspaí
 heasboc heaspag
 heasbog heaspag
 heasboic heaspaig
@@ -76022,7 +76087,6 @@ hÉiphte hÉigipte
 hÉirean hÉireann
 hÉireanach hÉireannach
 hÓiríon hOiríon
-hÓman hOman
 hÚisbéiceastáinis hÚisbéicis
 hÚisbéiceastáinise hÚisbéicise
 hÚral hÚrail
@@ -81503,6 +81567,8 @@ m'Aegéigh m'Aeigéigh
 m'Aifrean m'Aifreann
 m'Aifric m'Afraic
 m'Aifrice m'Afraice
+m'Aisticeach m'Astacach
+m'Aisticigh m'Astacaigh
 m'Alba m'Albain
 m'Albana m'Alban
 m'Alpaí m'Alpa
@@ -81588,14 +81654,17 @@ m'Ollaindeach m'Ollannach
 m'Ollaindigh m'Ollannaigh
 m'Ollannais m'Ollainnis
 m'Ollannaise m'Ollainnise
+m'Oman m'Óman
+m'Omanach m'Ómanach
+m'Omanaigh m'Ómanaigh
 m'Ucráin m'Úcráin
 m'Ucráine m'Úcráine
 m'Ucráinis m'Úcráinis
 m'Ucráinise m'Úcráinise
 m'Ucránach m'Úcránach
 m'Ucránaigh m'Úcránaigh
-m'Urdúis m'Urdais
-m'Urdúise m'Urdaise
+m'Urdais m'Urdúis
+m'Urdaise m'Urdúise
 m'abadh m'aba
 m'abaidheacht m'aibíocht
 m'abaidheachta m'aibíochta
@@ -82648,6 +82717,9 @@ m'easaontacht m'easaontas
 m'easaontachta m'easaontais
 m'easargain teasargan
 m'easargana teasargain
+m'easba m'easpa
+m'easbaidh m'easpa
+m'easbaí m'easpaí
 m'easboc m'easpag
 m'easbog m'easpag
 m'easboic m'easpaig
@@ -85039,7 +85111,6 @@ m'Éiphte m'Éigipt
 m'Éiphte m'Éigipte
 m'Éirean m'Éireann
 m'Óiríon m'Oiríon
-m'Óman m'Oman
 m'Úisbéiceastáinis m'Úisbéicis
 m'Úisbéiceastáinise m'Úisbéicise
 m'Úral m'Úrail
@@ -85451,8 +85522,6 @@ mBaibilóine mBablóine
 mBaile-Átha-Cliath mBaile Átha Cliath
 mBatavia mBatáiv
 mBatavia mBatáive
-mBealarúis mBílearúis
-mBealarúise mBílearúise
 mBealltaine mBealtaine
 mBealltainí mBealtainí
 mBorneo mBoirneo
@@ -85469,6 +85538,12 @@ mBreathnaise mBreatnaise
 mBruiséal mBruiséil
 mBruiséal mBruiséile
 mBéarút mBéiriút
+mBílearúis mBealarúis
+mBílearúise mBealarúise
+mBílearúiseach mBealarúiseach
+mBílearúisigh mBealarúisigh
+mBílearúisis mBealarúisis
+mBílearúisise mBealarúisise
 macadáin macáin
 macadán macán
 macaidín macáin
@@ -95061,6 +95136,9 @@ n-easaontacht n-easaontas
 n-easaontachta n-easaontais
 n-easargain dteasargan
 n-easargana dteasargain
+n-easba n-easpa
+n-easbaidh n-easpa
+n-easbaí n-easpaí
 n-easboc n-easpag
 n-easbog n-easpag
 n-easboic n-easpaig
@@ -97964,6 +98042,8 @@ nAegéigh nAeigéigh
 nAifrean nAifreann
 nAifric nAfraic
 nAifrice nAfraice
+nAisticeach nAstacach
+nAisticigh nAstacaigh
 nAlba nAlbain
 nAlbana nAlban
 nAlpaí nAlpa
@@ -98109,14 +98189,17 @@ nOllaindeach nOllannach
 nOllaindigh nOllannaigh
 nOllannais nOllainnis
 nOllannaise nOllainnise
+nOman nÓman
+nOmanach nÓmanach
+nOmanaigh nÓmanaigh
 nUcráin nÚcráin
 nUcráine nÚcráine
 nUcráinis nÚcráinis
 nUcráinise nÚcráinise
 nUcránach nÚcránach
 nUcránaigh nÚcránaigh
-nUrdúis nUrdais
-nUrdúise nUrdaise
+nUrdais nUrdúis
+nUrdaise nUrdúise
 nach ach
 nachar nár
 nae naetha
@@ -103277,7 +103360,6 @@ nÉiphte nÉigipt
 nÉiphte nÉigipte
 nÉirean nÉireann
 nÓiríon nOiríon
-nÓman nOman
 nÚisbéiceastáinis nÚisbéicis
 nÚisbéiceastáinise nÚisbéicise
 nÚral nÚrail
@@ -122909,6 +122991,7 @@ tAbrán tAibreán
 tAdhamhchlonn Ádhamhchlann
 tAegéach tAeigéach
 tAifrean tAifreann
+tAisticeach tAstacach
 tAmerice Meiriceá
 tAmsterdam tAmstardam
 tAontachtach tAontachtaí
@@ -122927,6 +123010,8 @@ tIarachó tIreachó
 tIúdaí Giúdach
 tIúl tIúil
 tOllaindeach tOllannach
+tOman tÓman
+tOmanach tÓmanach
 tSacsain Sasana
 tSacsan tSasana
 tSacsanaigh tSasanaigh
@@ -130898,7 +130983,6 @@ tuíon tuíneach
 tÁrd-Easbog tArd-Easpag
 tÉatruscach tÉatrúscach
 tÓiríon tOiríon
-tÓman tOman
 tá'n tá
 tá's tá fhios
 tábhachtmhar tábhachtach
@@ -132325,7 +132409,6 @@ xéarantamam shearantamam
 Éireanaí Éireannaí
 Éireanna Éireann
 Óiríon Oiríon
-Óman Oman
 Údás iúdás
 Úisbéiceastáinis Úisbéicis
 Úisbéiceastáinise Úisbéicise

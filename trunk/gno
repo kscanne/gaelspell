@@ -77,18 +77,21 @@ Electric
 Elsevier
 Enron
 Esquire
+Eudora
 Eurolang
 Europa
 Europol
 Europus
 Evertype
 Examiner
+Explorer
 Exxon
 Facebook
 Fedora
 Ferrari
 Fiat
 Firefox
+Flash
 Flickr
 FocalFactory
 Formula
@@ -124,6 +127,7 @@ Honda
 Hotmail
 Hyundai
 iGaeilge
+iGoogle
 iMac
 Indo
 Indymedia
@@ -146,6 +150,7 @@ Kroger
 Kíla
 Lagan
 Lakers
+LibreOffice
 Linspire
 Linux
 Lockheed
@@ -192,7 +197,9 @@ Nokia
 Oberweis
 Odeo
 Olympus
+OpenOffice
 Oracle
+Outlook
 Oxegen
 Oxfam
 Pandora
@@ -249,6 +256,7 @@ Terralingua
 Tesco
 Tesla
 Texaco
+Thunderbird
 Ticketmaster
 Timberland
 Tocco
@@ -257,6 +265,7 @@ Touche
 Toyota
 Twitter
 Ubuntu
+Unicode
 Unilever
 United
 Veritas
@@ -265,6 +274,7 @@ Viacom
 Viagra
 Vifax
 Visa
+Vista
 Vodafone
 Volkswagen
 Volvo
@@ -279,5 +289,7 @@ Xanga
 Xbox
 Xerox
 Xposé
+Yahoo
+Yelp
 YouTube
 Óg-Ógras

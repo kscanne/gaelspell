@@ -1,0 +1,1 @@
+Is litreoir cumhachtach é GaelSpell atá ar fáil saor in aisce le deich mbliana anuas. Tá níos mó ná 332,000 focal ina bhunachar sonraí faoi láthair, agus focail nua ag dul isteach ann i gcónaí.

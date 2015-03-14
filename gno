@@ -67,6 +67,7 @@ Dorling
 Dow
 Drupal
 Dunnes
+Duolingo
 Easons
 EasyReader
 eBay

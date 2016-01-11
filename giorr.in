@@ -6,6 +6,7 @@ ACS    An tAonad Cothaithe Sláinte
 ADM    Area Development Managment (Ltd.)
 AE     Aontas Eorpach
 AEA    Aontas Eacnamaíoch agus Airgeadaíochta (féach EMU)
+AGM    Annual General Meeting
 AGOA   Ag Gáire Os Ard
 Aib    Aibreán
 AIB    Anglo-Irish Bank
@@ -16,21 +17,28 @@ AMAI   Association of Municipal Authorities of Ireland
 AMÉ    Aontas Múinteoirí Éireann (féach TUI)
 AMLÉ   Aontas na Mac Léinn in Éirinn
 ANC    African National Congress
+ANSI   American National Standards Institute
 AOH    Ancient Order of Hibernians
 AOL    America Online
+API    Application Programming Interface
+ASCII  American Standard Code for Information Interchange
+ASNC   Ar Son na Cúise
 ÁSPC   Árachas Sóisialach Pá-Choibhneasta
 ASTI   Association of Secondary Teachers, Ireland
 ATO    degree
 ATR    Anailís ar Thionchar Rialaitheach
 BA     Bachelor of Arts
 BÁC    Baile Átha Cliath
+BAI    Broadcasting Authority of Ireland
 BBC    British Broadcasting Company
 BCE    Banc Ceannais na hEorpa/Before Common Era (RCR)
 BCI    Broadcasting Commission of Ireland
+BCL    Bachelor of Civil Law
 BF     Béal Feirste
 BFC    Bord Forbartha Contae/Cathrach
 BFLT   Bainistíocht Forbartha Limistéar Teoranta (féach ADM)
 BhÁC   Bhaile Átha Cliath
+BLD    Buíochas le Dia
 BLÉ    Bord Lúthchleas na hÉireann
 BMW    Bavarian Motor Works
 BNLO   Bord Náisiúnta um Leas Oideachais
@@ -113,6 +121,7 @@ CSE    Ciste Sóisialta Eorpaigh
 CSÉ    Coimisinéirí na Solas Éireannacha/Comhairle Spóirt na hÉireann
 CSF    Frámaíocht um Thacaíocht Phobail/Comhaontú Seasmhachta agus Fáis
 CSO    Central Statistics Office
+CSS    Cascading Style Sheets
 CST    Cearta Speisialta Tarraingthe/Central Standard Time
 CSTE   Comhlachas Saorthrádála na hEorpa
 CSV    Comma Separated Values
@@ -127,11 +136,15 @@ DEA    Drug Enforcement Agency
 DERI   Digital Enterprise Research Institute
 DF     Deireadh Fómhair
 DFÉ    Déan Féin É
+DHCP   Dynamic Host Configuration Protocol
 DIL    Diode Transistor Logic/Dictionary of the Irish Language
 DJ     Diosc-Jacaí
 DNA    deoxyribonucleic acid
 DNB    Dictionary of National Biography
+DNS    Domain Name System
+DOS    Disk Operating System
 DRM    Digital Rights Management
+DS     Deireadh Seachtaine
 DTD    Document Type Definition
 DTO    Dublin Transportation Office
 DTT    Teilifís Dhigiteach Trastíre/Digital Terrestrial Television
@@ -182,9 +195,11 @@ FPP    Fóram Póilíneachta an Phobail
 FSF    Free Software Foundation
 FSND   Foireann na Straitéise Náisiúnta ar Dhrugaí
 FSS    Feidhmeannacht na Seirbhíse Sláinte
+FTP    File Transfer Protocol
 GAA    Gaelic Athletic Association
 GBCN   Gníomhaireacht Bainistíochta an Chisteáin Náisiúnta
 GCE    General Certificate of Education
+GCL    Gaelcholáiste Luimnigh
 GCSE   General Certificate of Secondary Education
 gCo    gContae
 GE     General Electric, General Election
@@ -194,13 +209,16 @@ GFTB   Grúpa Forbartha don Tionscal Bia
 GIS    geographical information system
 GLP    Gás Leachtach Peitriliam
 GMIT   Galway-Mayo Institute of Technology
+GML    Gabh Mo Leithscéal
 GMT    Greenwich Mean Time
 GNU    GNU's Not Unix
 GOA    Gáire Os Ard
 GOP    (US) Republican Party
 GPL    (GNU) General Public License
+GPO    General Post Office
 GRD    Galway Rural Development
 GRMA   Go Raibh Maith Agat
+GRMMA  Go Raibh Míle Maith Agat
 GSI    Suirbhéireacht Gheolaíochta Éireann
 GUI    Graphical User Interface
 HETAC  Higher Education and Training Awards Council
@@ -209,9 +227,11 @@ HTTP   Hypertext Transfer Protocol
 IÁS    (Uimhir) Ioncáim agus Árachais Shóisialaigh
 IBEC   Irish Business and Employers Confederation
 IBI    Ionad Buail Isteach
+IBM    International Business Machines
 ICTU   Irish Congress of Trade Unions
 IDA    Industrial Development Authority
 IEA    Gníomhaireacht Idirnáisiúnta Fuinnimh
+IFC    Intermediate Football Championship
 IIA    Irish Internet Association
 IICD   Institute for International Cooperation and Development/Independent International Commission on Decommissioning
 IMAP   Internet Message Access Protocol
@@ -224,20 +244,25 @@ INTO   Irish National Teachers' Organisation
 Íocht  Íochtar
 IPA    International Phonetic Alphabet/Institute of Public Administration
 IRA    Irish Republican Army
+IRC    Internet Relay Chat
 IRMA   Irish Recorded Music Association
 ISBN   International Standard Book Number
 ISC    Ionad Seirbhísí Comhroinnte
 ISDN   Córas Comhtháite Seirbhísí Digiteacha
+ISIS   Islamic State
 ISO    International Standards Organization
 ISSN   International Standard Serial Number
 IT     Institiúid Teicneolaíochta
 ITÉ    Institiúid Teangeolaíochta Éireann
+JAFC   Junior A Football Championship
 JFK    John F. Kennedy
+JSON   JavaScript Object Notation
 KDE    K Desktop Environment
 LAI    Library Association of Ireland
 lch    leathanach
 LCA    Liúntas Cúraim Altramais
 LCVP   Leaving Certificate Vocational Programme
+LDAP   Lightweight Directory Access Protocol
 LDSIP  Clár Forbartha Áitiúla do Chuimsitheacht Shóisialta
 LED    Light-Emittng Diode
 LFOLO  Lárionad um Fhorbairt agus Oideachas na Luath-Óige
@@ -257,13 +282,17 @@ mBÁC   mBaile Átha Cliath
 mBF    mBéal Feirste
 MDH    Michael D. Higgins
 MF     Meán Fómhair
+MFC    Minor Football Championship
 MFG    Meitheal Forbartha na Gaeltachta
 MHMG   Mo Hat Mo Gheansaí
+MIDI   Musical Instrument Digital Interface
 MIF    Management Information Framework
+MIME   Multipurpose Internet Mail Extensions
 MIT    Massachusetts Institute of Technology
 MLA    Member of the Legislative Assembly
 MMR    Measles, Mumps and Rubella
 MP     Member of Parliament
+MPEG   Moving Picture Experts Group
 MRIA   Member of the Royal Academy of Ireland
 MSN    Microsoft Network
 MTV    Music Television
@@ -282,6 +311,7 @@ NDA    National Democratic Alliance/National Disability Authority
 NDP    Plean Forbartha Náisiúnta
 NDST   Meitheal na Straitéise Náisiúnta Drugaí
 NESC   National Economic and Social Council
+NFL    National Football League
 NICRA  Northern Ireland Civil Rights Association
 NIUP   Northern Ireland Unionist Party
 Noll   Nollaig
@@ -290,6 +320,7 @@ NRA    National Roads Authority/National Rifle Association
 NSAI   Údarás um Chaighdeáin Náisiúnta na hÉireann
 NUI    National University of Ireland
 NUIG   National University of Ireland - Galway
+NVDA   NonVisual Desktop Access
 OCBÁC  Ollscoil Cathair Bhaile Átha Cliath (DCU)
 ODCA   Oifig an Stiúrthóra Gnóthaí Tomhaltóirí
 ODCE   Office of the Director of Corporate Enforcement
@@ -314,6 +345,7 @@ OSPS   Oideachas Sóisialta, Pearsanta agus Sláinte
 OTI    Olltáirgeacht Intíre
 OTN    Olltáirgeacht Náisiúnta
 OUP    Official Unionist Party
+PCD    Pobalscoil Chorca Dhuibhne
 PCSP   Primary Curriculum Support Programme
 PD     An Páirtí Daonlathach
 PDA    Personal Digital Assistant
@@ -322,13 +354,16 @@ PFI    Private Finance Initiative
 PFN    Plean Forbartha Náisiúnta
 PfP    Páirtíocht Síochána
 PFS    Pleanáil Fhorbartha Scoile
+PGP    Pretty Good Privacy
 pH     acidity
 PhD    Doctor of Philosophy
 PHP    PHP Hypertext Preprocesser
 PIAB   Personal Injuries Assessment Board
 PLO    Eagras Fuascailte na Palaistíne
 PMDS   Córas Bainistíochta agus Forbartha Feidhmíochta
+POP    Post Office Protocol
 POS    An Príomh-Oifig Staidrimh
+POSIX  Portable Operating System Interface
 PPF    Clár um Rathúnas agus Chothroime
 PPP    Public Private Partnership
 PPS    Personal Public Service (Number) (féach PSP)
@@ -343,6 +378,7 @@ QCS    Quality Customer Service
 QUB    Queen's University Belfast
 RA     Ríocht Aontaithe
 RAF    Royal Air Force
+RAM    Random Access Memory
 RBÉ    Roinn Bhéaloideas Éireann
 RC     Roimh Chríost
 RCEF   Roinne Cultúir, Ealaíon agus Fóillíochta (Tuaisceart)
@@ -350,6 +386,7 @@ RCR    Roimh an gComhré (féach ar BCE)
 RDF    Resource Description Framework
 RDS    Royal Dublin Society
 REPS   Rural Environmental Protection Scheme
+RGB    Red Green Blue
 RGSPT  Roinn Gnóthaí Sóisialacha, Pobail agus Teaghlaigh
 RHA    Royal Hibernian Academy
 RIP    Requiescat In Pace
@@ -368,6 +405,7 @@ SAM    Stáit Aontaithe Mheiriceá
 Samh   Samhain
 SARS   Severe Acute Respiratory Syndrome
 SAS    Sindeacáitiú An-Simplí/Ráiteas Caighdeáin Iniúchóireachta
+SASL   Simple Authentication and Security Layer
 SBB    Seán Bán Breathnach
 sbh    solasbhliain
 SCG    Scrúdú le haghaidh Cáilíochta sa Ghaeilge
@@ -379,8 +417,11 @@ SEC    Securities and Exchange Commission
 SESE   Social, Environmental, and Scientific Education
 SF     Sinn Féin
 SFÁ    Scéim Feabhsúcháin Áitiúil
+SFC    Senior Football Championship
 SFI    Science Foundation Ireland
 SGML   Standard Generalized Markup Language
+SHC    Senior Hurling Championship
+SIM    Subscriber Identity Module
 SIPTU  Services, Industrial, Professional and Technical Union
 SJ     Society of Jesus
 SLG    Scéim Labhairt na Gaeilge
@@ -390,16 +431,19 @@ SMS    Short Message Service
 SMTP   Simple Mail Transfer Protocol
 SnaG   Seachtain na Gaeilge
 SND    Straitéis Náisiúnta na nDrugaí
+SNP    Scottish National Party
 SPC    Strategic Policy Committee
 SPHE   Social, Personal and Health Education
 SQL    Structured Query Language
 Sr     Siúr/Senior
 srl    agus araile
+SSH    Secure Shell
 SSL    Secure Socket Layer
 SSP    Páirtí Sóisíalach na hAlban
 SSS    (Comhairle) Sláinte agus Seirbhísí Sóisialta
 SSSP   Seirbhísí Sláinte agus Sóisialta Pearsanta
 STP    Saotharlann Traenála an Phobail
+SVG    Scalable Vector Graphics
 SVN    Subversion
 SWI    Social Welfare Inspector/Cigire Leasa Shóisialaigh
 TAC    Tionscnamh Athbhreithnithe Caiteachais, The Athletics Congress
@@ -421,6 +465,7 @@ TFR    Tascfhórsaí Frithdhrugaí Réigiúnacha
 TG     Teilifís Gaeilge
 tIRA   (An) tIrish Republican Army
 TLI    Teorainn, Lártíre agus Iartharach
+TLS    Transport Layer Security
 TnaG   Teilifís na Gaeilge
 tOll   (An) tOllamh
 TPFS   Tionscnamh um Phleanáil Fhorbartha Scoile
@@ -432,6 +477,7 @@ TUI    Teachers' Union of Ireland (féach AME)
 TUV    Traditional Unionist Voice
 UACC   Uimhir Aitheantais an Chomhairleora Cánach
 ÚAO    Údarás um Ard-Oideachas
+UAP    Uimhir Aitheantais Phearsanta
 Uas    Uasal
 UCC    University College, Cork
 UCD    University College, Dublin
@@ -441,13 +487,16 @@ UDA    Ulster Defence Association
 UDP    Ulster Democratic Party
 UFF    Ulster Freedom Fighters
 uimh   uimhir
+UKIP   UK Independence Party
 UKUP   United Kingdom Unionist Party
 ÚnaG   Údarás na Gaeltachta
 UNESCO United Nations Educational, Scientific and Cultural Organisation
 UNICEF The United Nations Children's Fund
 UNIX   Unix
+URI    Uniform Resource Identifier
 URL    Uniform Resource Locator
 USA    United States of America
+USB    Universal Serial Bus
 USI    Union of Students in Ireland
 ÚSLO   Údarás Sláinte Limistéar an Oirthir
 UUC    Ulster Unionist Council/University of Ulster, Coleraine
@@ -455,6 +504,8 @@ UUP    Ulster Unionist Party
 UVF    Ulster Volunteer Force
 VEC    Vocational Education Committee
 VEID   Víreas Easpa Imdhíonachta Daonna (HIV)
+VGA    Video Graphics Array
+VPN    Virtual Private Network
 VTOS   Scéim na nDeiseanna Gairmoiliúna
 WDC    Western Development Commission
 WMF    Windows Meta File

@@ -76,7 +76,7 @@ installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	rm -f tempaff.txt
 
 clean:
-	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-*dictionary.xpi *.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga-Latg-IE.txt README_ga_IE.txt gaelspell.txt gaeilge.dic ga-media-freq.txt ga_corpus-utf8.txt ga-word-freq.txt ga-freq.txt ga-phrases-freq.txt ga_inclusion-utf8.txt twitter-survey.txt gaelspellalt-ascii.txt gaelspell-anything.txt gaelspellalt.txt text-freq.txt ga-phrases.txt
+	rm -f *.cnt *.stat *.bak *.tar *.tar.gz *.zip *.tar.bz2 gaeilge sounds.txt repl aspellrev.txt IG2.* EN.temp IG.missp IG.temp IG.temp2 personal accents.txt ga-*dictionary.xpi *.oxt mimetype SentenceExceptList.xml WordExceptList.xml DocumentList.xml acor_ga-IE.dat validalts.txt ga_inclusion.txt ga_corpus.txt a.tmp seanghaeilge.dic README_ga-Latg-IE.txt README_ga_IE.txt gaelspell.txt gaeilge.dic ga-media-freq.txt ga_corpus-utf8.txt ga-word-freq.txt ga-freq.txt ga-phrases-freq.txt ga_inclusion-utf8.txt twitter-survey.txt gaelspellalt-ascii.txt gaelspell-anything.txt gaelspellalt.txt text-freq.txt ga-phrases.txt README_hyph_ga_IE.txt README_th_ga_IE_v2.txt hyph_ga_IE.dic th_ga_IE_v2.dat th_ga_IE_v2.idx
 
 # Clean back to what gets packaged up in an ispell-gaeilge tarball
 # So don't wipe out generated ChangeLog, giorr, romhanach, etc.

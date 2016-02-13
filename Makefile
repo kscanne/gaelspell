@@ -360,7 +360,7 @@ ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
 	rm -f myspelltemp.txt
 
 ga-Latg-IE-dictionary.xpi: ga-Latg-IE.dic ga-Latg-IE.aff README_ga-Latg-IE.txt
-	make-exts ga-Latg-IE Irish Ireland 4.7 'GaelSpell Seanchló'
+	make-exts ga-Latg-IE Irish Ireland $(RELEASE) 'GaelSpell Seanchló'
 
 mycheck: ga_IE.dic aspell.txt ga_IE.aff personal
 	cat aspell.txt personal | $(MYSPELL) -l -d ./ga_IE
@@ -398,15 +398,16 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf
 	cp ga_IE.aff dictionaries/ga.aff
 	cp README_ga_IE.txt dictionaries
 	zip -r ga-IE-dictionary.xpi dictionaries install.rdf
-	rm -Rf hyph.txt spell.txt thes.txt META-INF
+	rm -Rf hyph.txt spell.txt thes.txt META-INF dictionaries
 	mkdir META-INF
 	cp manifest.xml META-INF
 	chmod 644 META-INF/manifest.xml
-	cp hyph_ga_IE.zip dictionaries
-	cp thes_ga_IE_v2.zip dictionaries
-	(cd dictionaries; unzip hyph_ga_IE.zip; unzip thes_ga_IE_v2.zip; rm -f *.zip; mv ga.dic ga_IE.dic; mv ga.aff ga_IE.aff)
+	rm -f hyph_ga_IE.dic th_ga_IE_v2.dat th_ga_IE_v2.idx README_hyph_ga_IE.txt README_th_ga_IE_v2.txt
+	unzip hyph_ga_IE.zip
+	unzip thes_ga_IE_v2.zip
 	sed -i '/<version value=/s/.*/    <version value="$(RELEASE)" \/>/' description.xml
-	zip -r focloiri-gaeilge-$(RELEASE).oxt dictionaries META-INF description.xml dictionaries.xcu LICENSES-en.txt CEADUNAIS-ga.txt
+	rm -f focloiri-gaeilge-$(RELEASE).oxt
+	zip -r focloiri-gaeilge-$(RELEASE).oxt ga_IE.aff ga_IE.dic description.xml dictionaries.xcu hyph_ga_IE.dic META-INF th_ga_IE_v2.dat th_ga_IE_v2.idx LICENSES-en.txt CEADUNAIS-ga.txt
 	rm -Rf dictionaries META-INF
 
 

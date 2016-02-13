@@ -957,7 +957,6 @@ ainshrianta/HB
 ainshriantacht
 ainsrianta/HB
 aint/HMDBUT
-ainteasach
 aintiarnacht/HMDBU
 aintiarnachta/HMDU
 aintighearna/HMDBUT
@@ -14548,7 +14547,8 @@ dochtú/US
 dochtúr/US
 dochtúra/US
 dochtúraí/US
-dochuimsitheacht
+dochuimsitheacht/US
+dochuimsitheachta/US
 dochum
 dochumhscanta
 dochéadfaithe/S
@@ -30614,7 +30614,7 @@ percentáistí/US
 Persach/S
 Persaigh/S
 petiúinia/US
-petiúiniaí/US
+petiúiniacha/US
 petróleum/US
 peáitse
 peártaithe/US
@@ -30658,6 +30658,8 @@ phéacaí/U
 phéacaínn/FU
 phínteála/U
 phínteálainn/JU
+phúdarála/U
+phúdarálainn/JU
 phúsca/U
 phúscainn/EU
 piaclach/S
@@ -30838,6 +30840,8 @@ pithilín/US
 pithilíneach/US
 pithilínigh/US
 pithilíní/US
+pitiúinia/US
+pitiúiniacha/US
 pitrisc/US
 pitrisce/US
 pitriscí/US
@@ -31752,7 +31756,10 @@ pósa/US
 pósaí
 púdaraigh
 púdarlán
-púdaráil
+púdaráil/US
+púdaráilte/S
+púdarála/US
+púdarálaim/USI
 púicirliún
 púinc/US
 púint/US
@@ -32642,7 +32649,10 @@ rádhmhaille
 ráfladh
 ráflaíocht
 ráibeáil
+ráibeálaithe
 ráibeálaí
+ráibheálaithe
+ráibheálaí
 ráibéadach
 ráibéardaí
 ráidh
@@ -32884,6 +32894,9 @@ ríocáil
 ríogain
 ríogan
 ríoganna
+ríogaíche
+ríogaíoch
+ríogaíocha
 ríogh
 ríogh-bhoth
 ríogh-bhrugh
@@ -33617,10 +33630,13 @@ scamhacha
 scamhadóir
 scamhaigh
 scamhaite
+scamhaithe
 scamhardúil
 scamhardúla
 scamhaí
 scamhaíl
+scamhaím/C
+scamhaínn/F
 scamhlaeir
 scamhlaeireacht
 scamhláil
@@ -33631,6 +33647,7 @@ scamhán
 scamhóir
 scamhóirí
 scamhóra
+scamhú
 scamóg
 scannail
 scannal
@@ -35905,9 +35922,13 @@ sleabhacán/S
 sleacht
 sleachtanna/S
 sleagh/ST
+sleaghach/S
+sleaghacha/S
 sleaghadóir/S
 sleaghadóirí/S
 sleaghadóra/ST
+sleaghaigh/S
+sleaghaí/S
 sleaghdóir/S
 sleaghdóireacht
 sleaghdóirí/S
@@ -36148,7 +36169,6 @@ sládarúsaigh/S
 sládarúsaí/S
 sláineacht/ST
 sláineachta/S
-sláintíocha
 slámás
 slámóg/ST
 slámóga/S
@@ -37133,6 +37153,9 @@ speal
 speala
 spealanna
 speallraíd
+spealt
+spealta
+spealtanna
 spearacha
 spearóg
 spearóga
@@ -38025,6 +38048,7 @@ stodach
 stodaire
 stodaireacht
 stodúil
+stoirc
 stoirdín
 stoiric
 stoiricín
@@ -38070,6 +38094,7 @@ stopuaireadóra
 stora
 storadh
 storaic
+storc
 storgadán
 storn
 storragán
@@ -41937,6 +41962,7 @@ tuitmheach
 tuitmheannach
 tulacháin/US
 tulachán/US
+tulaigh
 tulca/US
 tulcadh/US
 tulcaid

@@ -10,9 +10,9 @@
         !!! might be troublesome in multi-user installations if no shared-layer !!!
         !!! installation can be done.                                           !!! -->
     <registration>
-        <simple-license accept-by="admin" suppress-on-update="false" >
-            <license-text xlink:href="LICENSES-en.txt" lang="en" />
-            <license-text xlink:href="CEADUNAIS-ga.txt" lang="ga" />
+        <simple-license accept-by="admin" default-license-id="en-US" suppress-on-update="false" >
+            <license-text xlink:href="LICENSES-en.txt" lang="en-US" license-id="en-US" />
+            <license-text xlink:href="CEADUNAIS-ga.txt" lang="ga-IE" license-id="ga-IE" />
         </simple-license>
     </registration>
     

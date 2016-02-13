@@ -12,7 +12,7 @@ GAELPERSONAL=daoine logainm miotas.txt stair.txt
 PERSONAL=$(GALLPERSONAL) $(GAELPERSONAL)
 
 #   Shouldn't have to change anything below here
-RELEASE=4.7
+RELEASE=4.8
 RAWWORDS= gaeilge.raw
 LITWORDS= gaeilge.lit dinneenok.txt
 ALTWORDS= gaeilge.mor
@@ -214,7 +214,7 @@ validalts.txt : aspell.txt athfhocail
 checkearr: aspelllit.txt
 	$(MAKE) gaelu
 	LC_ALL=C sort -u aspelllit.txt $(PERSONAL) > a.tmp
-	sed 's/^[^ ]* //' earraidi | tr " " "\n" | keepif -n ./a.tmp | sort -u
+	sed 's/^[^ ]* //' earraidi | tr " " "\n" | keepif -n ./a.tmp | egrep -v '^[0-9]' | sort -u
 #	sed 's/^[^ ]* //' athfhocail | tr " " "\n" | keepif -n ./a.tmp | sort -u
 	sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | keepif -n ./a.tmp | sort -u
 	rm -f a.tmp
@@ -384,6 +384,8 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf
 	rm -Rf dictionaries
 	(cd ${HOME}/gaeilge/fleiscin/fleiscin; make hyph_ga_IE.zip)
 	cp -f ${HOME}/gaeilge/fleiscin/fleiscin/hyph_ga_IE.zip .
+	(cd ${HOME}/gaeilge/roget/teasaras; make thes_ga_IE_v2.zip)
+	cp -f ${HOME}/gaeilge/roget/teasaras/thes_ga_IE_v2.zip .
 	chmod 644 ga_IE.dic ga_IE.aff README_ga_IE.txt
 	zip ga_IE ga_IE.dic ga_IE.aff README_ga_IE.txt
 	chmod 644 ga_IE.zip
@@ -541,9 +543,9 @@ adist: aspell.txt apersonal ChangeLog
 #	mv ${ASPELLDEV}/*.bz2 .
 #	rm -f a.tmp
 
-# move to google code svn => logs in utf-8 by default, no "utf" call needed
+# used to just run "svn2cl"
 ChangeLog : FORCE
-	svn2cl
+	echo 'Full history available from https://github.com/kscanne/gaelspell/commits/master' > $@
 
 sounds.txt: FORCE
 	$(ASPELL) --lang=ga soundslike < aspell.txt > sounds.txt

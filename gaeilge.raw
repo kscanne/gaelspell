@@ -3116,6 +3116,8 @@ an-fhuair
 an-fhuaire/B
 an-fhuar/HB
 an-fhuara/B
+an-ghairid/HB
+an-ghairide/B
 an-ghearr
 an-ghníomhach
 an-ghnóthach
@@ -4983,6 +4985,10 @@ ataispeánta/HB
 ataispeántar/HU
 atall/HMDBUT
 atanna/HMDBU
+Atapascach
+Atapascacha
+Atapascaigh
+Atapascaí
 atar/HU
 atarlaigh/HU
 atarlaithe/HBMDU
@@ -6758,6 +6764,9 @@ b'Astrálaigh
 b'Astrálaí
 b'Astúiris
 b'Asóir
+b'Atapascach
+b'Atapascacha
+b'Atapascaí
 b'Ateachtach
 b'Ateachtaigh
 b'Athair
@@ -8713,10 +8722,7 @@ Beidiúnach/S
 Beidiúnacha/S
 Beidiúnaigh/S
 Beidiúnaí/S
-beidís
 beifear/US
-beifeá
-beifí
 beigéara/US
 beigéir/US
 beigéireacht/US
@@ -8734,7 +8740,6 @@ beilteanna/US
 Beilís/S
 Beilíse/S
 beimid/US
-beimis
 Beinidicteach/S
 Beinidicteacha/S
 Beinidictigh/S
@@ -8746,7 +8751,6 @@ beinifís/US
 beinifíse/US
 beinifísí/US
 Beinin/S
-beinn
 beinsín/US
 beinsíní/US
 beinteach/US
@@ -13187,13 +13191,13 @@ bídeoga/US
 bídeoige/US
 bídigh/S
 bídí/S
-bídís
+bídís/US
 bíge/US
 bígí/US
 bíl/US
 bím/US
 bímid/US
-bímis
+bímis/US
 bímse/US
 bíobalta/S
 bíobha/US
@@ -13209,7 +13213,7 @@ bíocuntaois/US
 bíocuntaoise/US
 bíocuntaoisí/US
 bíocuntaí/US
-bíodh
+bíodh/US
 bíog/US
 bíoga/US
 bíogach/S
@@ -20413,6 +20417,7 @@ comheisiatacha/S
 comheisiataigh/S
 comheisiataí/S
 comhfhad/US
+comhfhada/S
 comhfhadaigh/US
 comhfhadaithe/SU
 comhfhadaím/USC
@@ -24654,6 +24659,10 @@ cómhargáil/US
 cómhargála/US
 cómhaímh/US
 cómhaíomh/US
+cómhóir/S
+cómhóire/S
+cómhór/S
+cómhóra/S
 cón/US
 cónach/S
 cónacha/S
@@ -27418,6 +27427,8 @@ d'áitrínn/FU
 d'áitínn/FU
 d'árachaigh/U
 d'árachaínn/FU
+d'ársaigh/U
+d'ársaínn/FU
 d'áscaigh/U
 d'áscaínn/FU
 d'éadromaigh/U
@@ -28037,6 +28048,7 @@ dea-ghlóir/US
 dea-ghlór/US
 dea-ghnímh/US
 dea-ghníomh/US
+dea-ghníomhartha/US
 dea-ghuí/US
 dea-iompair/US
 dea-iompar/US
@@ -28095,7 +28107,7 @@ dea-shamplaí/SU
 dea-shaoránacht/US
 dea-shaoránachta/US
 dea-shláinte/US
-dea-snoite/S
+dea-shnoite/S
 dea-staid/US
 dea-staide/US
 dea-theastais/US
@@ -28388,6 +28400,8 @@ deartha/SU
 Deartháir/S
 deartháir/US
 deartháireacha/US
+deartháirín/US
+deartháiríní/US
 Dearthár/S
 dearthár/US
 dearthóir/US
@@ -36792,6 +36806,10 @@ Fionn-Úgraí
 fionna/BSMDU
 Fionnach/S
 Fionnacha/S
+fionnachais/S
+fionnachaise/BS
+fionnachas/BS
+fionnachasa/BS
 fionnachreatha/MDUS
 fionnachrith/MDBUS
 fionnachruth/MDBUS
@@ -43041,6 +43059,10 @@ gircín/US
 gircíní/US
 girréis/US
 girréise/US
+girréiseach/S
+girréiseacha/S
+girréisigh/S
+girréisí/S
 girseach/US
 girseacha/US
 girsí/US
@@ -44414,6 +44436,7 @@ graeipe/US
 graeipí/US
 graenna/US
 graf/US
+grafa/SU
 grafach/S
 grafacha/S
 grafadh/US
@@ -44430,7 +44453,6 @@ grafnóirí/US
 grafnóra/US
 grafpháipéar/US
 grafpháipéir/US
-graftha/SU
 grafáin/US
 grafán/US
 grafóg/US
@@ -46272,6 +46294,7 @@ hAstúirise
 hAsóir
 hAsór
 hata
+hAtapascach
 hataí
 hAteachtach
 hAteachtaigh
@@ -51662,6 +51685,8 @@ leathchodlata
 leathchois
 leathchoise
 leathchoróin
+leathchorónach
+leathchorónacha
 leathchos
 leathchraobh
 leathchraobhacha
@@ -52595,7 +52620,6 @@ liteagrafaithe
 liteagrafaí
 liteagrafaíocht
 liteagrafaíochta
-liteagraftha
 liteagraif
 liteartha
 litearthacht
@@ -59743,7 +59767,9 @@ máithriúlacht/S
 máithriúlachta/S
 máithrí/S
 máithrím/SC
+máithrín/S
 máithrínn/F
+máithríní/S
 mál/S
 mála/S
 málaí/S
@@ -69423,7 +69449,6 @@ radagrafaim/A
 radagrafainn/E
 radagrafaíocht
 radagrafaíochta
-radagraftha
 radagraif
 radagraim
 radagram
@@ -71589,6 +71614,9 @@ réóin
 réón
 rí
 Rí-Chomhairle
+rí-ollaimh
+rí-ollamh
+rí-ollúna
 Rí-Rá
 ríbheag
 ríbheaga
@@ -72408,8 +72436,10 @@ sadhlais/ST
 sadhlann/ST
 sadhlanna/S
 sadhlas/S
-Sadúisíneach/S
-Sadúisínigh/S
+Sadúcach/S
+Sadúcacha/S
+Sadúcaigh/S
+Sadúcaí/S
 sagailse
 Sagairt/S
 sagairt/ST
@@ -77053,8 +77083,8 @@ shúisteála
 shúisteálainn/J
 shúmála
 shúmálainn/J
-shúraice
-shúraicinn/E
+shúraicí
+shúraicínn/F
 sia/S
 siabhartha/ST
 siabhradh/S
@@ -81148,6 +81178,8 @@ stairiúil
 stairiúla
 stairiúlacht
 stairiúlachta
+stairsheanchais
+stairsheanchas
 staitisteoir
 staitisteoirí
 staitisteora
@@ -83784,10 +83816,10 @@ súpláil/ST
 súplála/S
 súrac/S
 súraic/ST
-súraice
-súraicim/SA
-súraicinn/E
 súraicthe/S
+súraicí
+súraicím/SC
+súraicínn/F
 súraim/ST
 súram/S
 súsa/ST
@@ -88443,7 +88475,7 @@ tSacs-Bhéarla
 tSacsain
 tSacsainis
 tSacsanaigh
-tSadúisínigh
+tSadúcaigh
 tSagairt
 tSahára
 tSaibínigh
@@ -91984,11 +92016,21 @@ zúnna
 ármhá/HMDBU
 ármhánna/HMDBU
 ársa/HB
+ársaigh/HU
+ársaithe/HBMDU
 ársaitheoir/HMDBUT
 ársaitheoirí/HMDBU
 ársaitheora/HMDU
+ársaí/HMDBUT
+ársaídís/HU
+ársaígí/HU
+ársaím/UC
+ársaínn/F
 ársaíocht/HMDBU
 ársaíochta/HMDU
+ársaíodh/HU
+ársaítear/HU
+ársú/HUBMDT
 árthach/HMDBUT
 árthaigh/HMDU
 árthaí/HMDBU
@@ -92254,7 +92296,7 @@ zúnna
 éagothrom/HB
 éagothroma/B
 éagrua/HB
-éagruais/HMDU
+éagruais/HMDBU
 éagruas/HMDBUT
 éagruth/HMDBUT
 éagrutha/HMDU

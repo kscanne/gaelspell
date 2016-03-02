@@ -9,6 +9,8 @@ ab' ab
 'Ac Mac
 ad' i do
 am' i mo
+amú' amú
+annsa' sa
 ao' aon
 'ar ar
 arb' arb
@@ -16,6 +18,8 @@ arbh' arbh
 'ar inar
 'ár inár
 ars' arsa
+at' i do
+at' atá
 'athair a athair
 'Athair a Athair
 b' ba
@@ -32,14 +36,17 @@ bhfich' bhfiche
 'bhur in bhur
 'bhus abhus
 'brath ag brath
+'ca acu
 'cainnt ag caint
 cérbh' cérbh
+'ch gach
 'chaon gach aon
 'chéile lena chéile
 choidhch' choíche
 'chois de chois
 'chomhair chóir
 'chor ar chor
+chúig' chúige
 'chuile gach uile
 'Chuile Gach uile
 'chur a chur
@@ -53,6 +60,8 @@ dear' deara
 ded' de do
 'deir a deir
 dem' de mo
+'dé cad é
+'Dé Cad é
 'dé'n cad é an
 'dén cad é an
 d'fhich' d'fhiche
@@ -62,6 +71,7 @@ dheárn' dhearna
 'Dhia A Dhia
 'dhíoghbháil de dhíobháil
 'dhith de dhíth
+dhom' do mo
 dhuin' dhuine
 'dhuine a dhuine
 'dir idir
@@ -69,6 +79,7 @@ dob' ba
 dod' do do
 'do i do
 dom' do mo
+dot' do do
 dtaini' dtáinig
 dtearn' ndearna
 dteárn' ndearna
@@ -99,12 +110,14 @@ fich' fiche
 'gabháil ag gabháil
 'g ag
 'gá á
+'gainn againn
 'gam agam
 'gár dár
 'gat agat
 'ge ag
 'ge aige
 'ghá á
+'gha á
 'ghabháil a ghabháil
 'ghár dár
 'gheall de gheall
@@ -120,9 +133,11 @@ id' i do
 im' i mo
 'imirt a imirt
 in' ina
+insa' sa
 'innse a insint
 'in sin
 ionns' ionsar
+it' i do
 'ithe a ithe
 lach' lacha
 'leanbh a leanbh
@@ -131,6 +146,7 @@ led' le do
 'léim de léim
 lem' le mo
 len' lena
+'Liam Liam
 'mach amach
 madr' madra
 marab' murab
@@ -147,9 +163,11 @@ m' mo
 mis' mise
 'mo i mo
 'mó mó
+'muigh amuigh
 murab' murab
 'mur in bhur
 mur' mura
+'N-a Ina
 'n-a ina
 'na ina
 'Na Ina
@@ -170,6 +188,7 @@ ndeárn' ndearna
 'ndiu inniu
 'ndiú inniu
 'n-diú inniu
+ndó' ndóigh
 nduin' nduine
 'nghean iníon
 'nghín iníon
@@ -177,12 +196,16 @@ nduin' nduine
 'nina ina
 níorbh' níorbh
 'níos aníos
+'nn i
+'nn ann
 'nna ina
 'nocht anocht
 'noir anoir
 'nois anois
 'Nois Anois
 'nonn anonn
+'nuair nuair
+'Nuair Nuair
 'nuas anuas
 'nuraidh anuraidh
 oidhch' oíche
@@ -200,12 +223,17 @@ oidh' oíche
 'réir aréir
 're re
 'riamh riamh
+'rís arís
 'rith i rith
 'rún a rún
 'sa' sa
-'san san
 'sa sa
+'Sa Sa
 sa' sa
+'san sa
+'san san
+'San Sa
+'San San
 'sdó is dóigh
 'Sdó Is dóigh
 'sdóigh is dóigh
@@ -244,6 +272,8 @@ thearn' dhearna
 theárn' dhearna
 trém' trí mo
 tsléibh' tsléibhe
+'tuige cad chuige
+'Tuige Cad chuige
 'ubhairt dúirt
 'ucú chucu
 'uig chuig
@@ -252,3 +282,4 @@ tsléibh' tsléibhe
 'ul dul
 'un chun
 'Un Chun
+'ur bhur

@@ -2242,10 +2242,10 @@ aisiompaínn/F
 aisiompaíodh/HU
 aisiompaítear/HU
 aisiompú/HMDBUT
-aisioncrónach/HB
-aisioncrónacha/B
-aisioncrónaigh
-aisioncrónaí/B
+aisioncronach/HB
+aisioncronacha/B
+aisioncronaigh
+aisioncronaí/B
 Aisiria
 Aisiriach
 Aisiriacha
@@ -10617,6 +10617,8 @@ botha/US
 Bothanna/S
 bothanna/US
 botháin/US
+botháinín/US
+botháiníní/US
 bothán/US
 bothánaithe/US
 bothánaí/US
@@ -12101,6 +12103,8 @@ buachailleacht/US
 buachailleachta/US
 Buachaillí/S
 buachaillí/US
+buachaillín/US
+buachaillíní/US
 buachair/US
 Buachalla/S
 buachalla/US
@@ -12611,6 +12615,9 @@ bunscoile/US
 bunscoileanna/US
 bunscolaíocht/US
 bunscolaíochta/US
+bunscéal/US
+bunscéalta/US
+bunscéil/US
 bunsileáin/US
 bunsileán/US
 bunsmaoineamh/US
@@ -12888,6 +12895,8 @@ báirseoireacht/US
 báirseoireachta/US
 báirseoirí/US
 báirseora/US
+báirsiúil/S
+báirsiúla/S
 báirsí/US
 báirí/US
 Báis/S
@@ -13259,6 +13268,8 @@ bítear/US
 bíthin/US
 bó/US
 bóchna/US
+bóchoinneal/US
+bóchoinnle/US
 bógaithe/US
 bógaí/US
 bóibéis/US
@@ -17204,8 +17215,12 @@ ciaróga/US
 ciaróige/US
 cibeal/US
 cibeala/US
+cibirniteach/S
+cibirniteacha/S
 cibirnitic/US
 cibirnitice/US
+cibirnitigh/S
+cibirnití/S
 cibirspáis/US
 cibirspás/US
 cibleacháin/US
@@ -30391,6 +30406,7 @@ donnghlasa/S
 donnlus/US
 donnlusa/US
 donnlusanna/US
+donnroisc/US
 donnrua/SU
 donnáin/US
 donnán/US
@@ -30964,6 +30980,8 @@ drochdhathaigh/S
 drochdhathaí/S
 drochdhuine/US
 drochfhear/US
+drochfhiach/US
+drochfhiacha/US
 drochfhir/US
 drochfhocail/US
 drochfhocal/US
@@ -30981,6 +30999,7 @@ drochfháistiní/SU
 drochfhéachaint/US
 drochfhéachaintí/US
 drochfhéachana/US
+drochfhéich/US
 drochghiúmair/US
 drochghiúmar/US
 drochghnáthaithe/US
@@ -37409,6 +37428,8 @@ fodhála/USMD
 fodhálaim/USI
 fofhillteáin/MDBUS
 fofhillteán/MDBUS
+fofhine/MDBUS
+fofhinte/MDBUS
 fofhoirgneamh/MDBUS
 fofhoirgnimh/MDBUS
 fogais/S
@@ -38558,6 +38579,8 @@ frasaíola/US
 fraschanna/US
 fraschannaí/US
 frasú/US
+freachnaimh/US
+freachnamh/US
 freacnairc/US
 freacnairce/US
 freacnairceach/S
@@ -39041,6 +39064,8 @@ fuail/MDUS
 fuaim/MDBUSA
 fuaimbhac/MDBUS
 fuaimbhaic/MDUS
+fuaimchláir/MDBUS
+fuaimchlár/MDBUS
 fuaimdhíonach/BS
 fuaimdhíonacha/BS
 fuaimdhíonadh/MDBUS
@@ -39819,6 +39844,10 @@ féindochrú/USBMD
 Féineach
 Féineachais/S
 Féineachas/S
+féinfheasach/BS
+féinfheasacha/BS
+féinfheasaigh/S
+féinfheasaí/BS
 féinfhorbairt/MDBUS
 féinfhorbartha/MDUS
 féinfhostaithe/BS
@@ -51788,6 +51817,9 @@ leathnaithe
 leathnaí
 leathnaím/C
 leathnaínn/F
+leathnocht
+leathnochta
+leathnoichte
 leathnóg
 leathnóga
 leathnóige
@@ -53530,6 +53562,8 @@ luibhne
 luibhre
 luibhí
 luiche
+luichín
+luichíní
 luid
 luide
 luideanna
@@ -54275,6 +54309,8 @@ léirscríobha
 léirscríobhaim/A
 léirscríobhainn/E
 léirscríofa
+léirshamhlaithe
+léirshamhlú
 léirsigh
 léirsithe
 léirsitheoir
@@ -72103,6 +72139,7 @@ rósanna
 rósarnach
 rósarnaigh
 rósaí
+róscanraithe
 Róschrosach
 Róschrosaigh
 rósciamhach
@@ -73298,6 +73335,9 @@ saothraíocht/ST
 saothraíochta/S
 saothráin/ST
 saothrán/S
+saothróg/ST
+saothróga/S
+saothróige/S
 saothrú/S
 sapair/ST
 sapar/S
@@ -73328,6 +73368,9 @@ satailít/ST
 satailíte/S
 satailítí/S
 satair/ST
+sataireach/S
+sataireacha/S
+satairigh/S
 Satairn/S
 satairí/S
 Satarn/S
@@ -76819,8 +76862,8 @@ shiolpa
 shiolpainn/E
 shiombalaí
 shiombalaínn/F
-shioncrónaí
-shioncrónaínn/F
+shioncronaí
+shioncronaínn/F
 shioncóipí
 shioncóipínn/F
 shiortaí
@@ -77535,14 +77578,14 @@ sionaid/ST
 Sionainn/S
 Sionainne/S
 sionapsa/ST
-sioncrónach/S
-sioncrónacha/S
-sioncrónaigh/S
-sioncrónaithe/ST
-sioncrónaí/S
-sioncrónaím/SC
-sioncrónaínn/F
-sioncrónú/S
+sioncronach/S
+sioncronacha/S
+sioncronaigh/S
+sioncronaithe/ST
+sioncronaí/S
+sioncronaím/SC
+sioncronaínn/F
+sioncronú/S
 sioncóipigh/S
 sioncóipis/ST
 sioncóipise/S
@@ -82595,6 +82638,9 @@ sultán/S
 sumach/S
 sumaigh/ST
 Sumatra/S
+sumnadóir/S
+sumnadóirí/S
+sumnadóra/ST
 suncaire/ST
 suncairí/S
 suncáil/ST
@@ -82983,6 +83029,8 @@ sástacht/ST
 sástachta/S
 sásúil/S
 sásúla/S
+Sátain/S
+Sátan/S
 Sáír/S
 Sáíre/S
 Sáíreach/S
@@ -88655,6 +88703,7 @@ tSár
 tSár-Riail
 tSárbruc
 tSárlannaigh
+tSátain
 tSáír
 tSáírigh
 tSéalainn

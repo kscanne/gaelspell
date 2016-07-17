@@ -8,7 +8,7 @@ INSTALL=/usr/bin/install
 SHELL=/bin/sh
 MAKE=/usr/bin/make
 GALLPERSONAL=aitiuil eachtar gall giorr gno romhanach
-GAELPERSONAL=daoine logainm miotas.txt stair.txt
+GAELPERSONAL=daoine logainm miotas.txt stair.txt treise
 PERSONAL=$(GALLPERSONAL) $(GAELPERSONAL)
 
 #   Shouldn't have to change anything below here
@@ -179,6 +179,8 @@ sortpersonal: FORCE
 	mv tempfile miotas
 	LC_ALL=C sort -f stair > tempfile
 	mv tempfile stair
+	LC_ALL=C sort -f treise > tempfile
+	mv tempfile treise
 	LC_ALL=C sort -f gaelu.in > tempfile
 	mv tempfile gaelu.in
 	LC_ALL=C sort -f earraidi > tempfile
@@ -313,7 +315,7 @@ installweb: FORCE
 dist: FORCE
 	$(MAKE) ChangeLog stair.txt miotas.txt romhanach giorr
 	sed '/development only/,$$d' ./Makefile > makefile
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt makefile
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt treise makefile
 	chmod 755 igcheck
 	ln -s gaelspell ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -338,6 +340,7 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/miotas.txt
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/romhanach
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/stair.txt
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/treise
 	gzip $(TARFILE)
 	rm -f ../$(APPNAME)
 	rm -f makefile

@@ -159,37 +159,37 @@ sort: FORCE
 	mv tempfile $(ALTWORDS)
 
 giorr : giorr.in
-	cat giorr.in | sed 's/ .*//' | sort -f > $@
+	cat giorr.in | sed 's/ .*//' | sort -f | sort -u > $@
 
 # giorr done above
 sortpersonal: FORCE
-	LC_ALL=C sort -f aitiuil > tempfile
+	LC_ALL=C sort -u aitiuil | LC_ALL=C sort -f > tempfile
 	mv tempfile aitiuil
-	LC_ALL=C sort -f daoine > tempfile
+	LC_ALL=C sort -u daoine | LC_ALL=C sort -f > tempfile
 	mv tempfile daoine
-	LC_ALL=C sort -f eachtar > tempfile
+	LC_ALL=C sort -u eachtar | LC_ALL=C sort -f > tempfile
 	mv tempfile eachtar
-	LC_ALL=C sort -f gall > tempfile
+	LC_ALL=C sort -u gall | LC_ALL=C sort -f > tempfile
 	mv tempfile gall
-	LC_ALL=C sort -f gno > tempfile
+	LC_ALL=C sort -u gno | LC_ALL=C sort -f > tempfile
 	mv tempfile gno
-	LC_ALL=C sort -f logainm > tempfile
+	LC_ALL=C sort -u logainm | LC_ALL=C sort -f > tempfile
 	mv tempfile logainm
-	LC_ALL=C sort -f miotas > tempfile
+	LC_ALL=C sort -u miotas | LC_ALL=C sort -f > tempfile
 	mv tempfile miotas
-	LC_ALL=C sort -f stair > tempfile
+	LC_ALL=C sort -u stair | LC_ALL=C sort -f > tempfile
 	mv tempfile stair
-	LC_ALL=C sort -f treise > tempfile
+	LC_ALL=C sort -u treise | LC_ALL=C sort -f > tempfile
 	mv tempfile treise
-	LC_ALL=C sort -f gaelu.in > tempfile
+	LC_ALL=C sort -u gaelu.in | LC_ALL=C sort -f > tempfile
 	mv tempfile gaelu.in
-	LC_ALL=C sort -f earraidi > tempfile
+	LC_ALL=C sort -u earraidi | LC_ALL=C sort -f > tempfile
 	mv tempfile earraidi
-	LC_ALL=C sort -f uimhreacha > tempfile
+	LC_ALL=C sort -u uimhreacha | LC_ALL=C sort -f > tempfile
 	mv tempfile uimhreacha
-	LC_ALL=C sort -f myalts.txt > tempfile
+	LC_ALL=C sort -u myalts.txt | LC_ALL=C sort -f > tempfile
 	mv tempfile myalts.txt
-	LC_ALL=C sort -f riaalts.txt > tempfile
+	LC_ALL=C sort -u riaalts.txt | LC_ALL=C sort -f > tempfile
 	mv tempfile riaalts.txt
 
 stair.txt : stair

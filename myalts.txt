@@ -9,6 +9,8 @@ Absalom Aibseálóm
 abórad déarfaidh mé
 abóraid déarfaidh
 abóraimíd déarfaimid
+abórainn déarfainn
+abórainn ndéarfainn
 abórair déarfaidh tú
 aca-san acusan
 acha'n gach aon
@@ -83,12 +85,14 @@ aicese aicise
 aicíse aicise
 ainim-se ainmse
 air-san airsean
+airse arsa
 ale a leith
 Alegsandair Alastair
 Alegsandar Alastar
 Alegsandra Alecsandra
 Aman Hámán
 ambriathar dom briathar
+amhlasan amhlaidh sin
 Ammoin Amón
 andaidh don daighe
 andaigh don daighe
@@ -111,6 +115,7 @@ atámuid táimid
 atán atá
 Auguistín Agaistín
 b'aca ba acu
+b'air ba air
 b'fhacthas chonacthas
 b'fhearacht ba é a fhearacht
 B'l'acliath Baile Átha Cliath
@@ -131,6 +136,7 @@ beir beidh tú
 bfhearr b'fhearr
 Bhaal Bhál
 bhainid bhaineann siad
+bhainios bhaineann
 bhais bhois
 Bhanba Bhanbha
 Bhaoigheallach Bhaollach
@@ -290,6 +296,8 @@ bíon bíonn
 bír bíonn tú
 Bóraimhe Ború
 Bóramha Ború
+caithfí chaithfí
+caithfí gcaithfí
 Caitilín Caitlín
 Caoimhghin Caoimhín
 Caoimhghín Caoimhín
@@ -318,6 +326,7 @@ chonnaicís chonaic tú
 chonncathas chonacthas
 chonnoc chonaic
 chonnuc chonaic
+chos-in-áirde chos in airde
 chroidhesa chroíse
 chroidhese chroíse
 chuadhabhar chuaigh sibh
@@ -331,11 +340,13 @@ chualaís chuala tú
 chuas chuaigh mé
 chuas-sa chuaigh mise
 chuidsa chuidse
+chuirios chuireann
 Chéasar Chaesar
 chíd fheiceann
 chíd fheiceann siad
 chídís d'fheicidís
 chífinn d'fheicfinn
+chífá d'fheicfeá
 chímid a fheicimid
 chímid feicimid
 chímíd a fheicimid
@@ -375,9 +386,12 @@ d'bhur de bhur
 d'bhur do bhur
 d'bhúr de bhur
 d'bhúr do bhur
+d'chuid do chuid
 d'fhaghail a fháil
 d'fhaghbháil a fháil
+d'fhiafruig d'fhiafraigh
 d'fhobair dóbair
+d'fhreagairt a fhreagairt
 d'fhágaibh d'fhág
 d'fhágaidh d'fhág
 d'fhágas d'fhág mé
@@ -386,6 +400,7 @@ d'iar d'iarr
 d'imthig d'imigh
 d'innseas d'inis mé
 d'á á
+d'éinní d'aon ní
 d'ólas d'ól mé
 da á
 daoithesa dise
@@ -415,6 +430,7 @@ dhearnas dhearna mé
 dhearnuigh dhearna
 dheinimse dhéanaimse
 dheirim deirim
+dhem de mo
 dhiaidh-san dhiaidhsean
 dho-san dósan
 Dhoimnic Dhoiminic
@@ -433,6 +449,7 @@ dhéanfair dhéanfaidh tú
 dhéarfadh déarfadh
 dhéarfainn déarfainn
 dhéineann dhéanann
+dhéinid dhéanann
 Dhúnchaoin Dhún Chaoin
 dob ab
 dobheirid a thugann
@@ -477,6 +494,7 @@ dochonnarcadar chonaiceadar
 dochonnarcais chonaic tú
 dochonnarcamar chonaiceamar
 dochonnarcas chonaic mé
+dochonncadar chonaiceadar
 dochuaidh a chuaigh
 dochuaidh chuaigh
 dochualabhar chuala sibh
@@ -609,8 +627,10 @@ dteachadar ndeachamar
 dteachais ndeachaigh tú
 dteachas ndeachaigh mé
 dteachthas ndeachthas
+dtearnamar ndearnamar
 dtiocfaid dtiocfaidh
 dtiocfaid dtiocfaidh siad
+dtiubhra dtabharfaidh
 dtiubhrad dtabharfaidh mé
 dtiubhrair dtabharfaidh tú
 dtréithribh dtréithe
@@ -636,6 +656,7 @@ déanfad déanfaidh mé
 déanfadh dhéanfadh
 déanfadh ndéanfadh
 déanfair déanfaidh tú
+déintí dhéantaí
 dóibhsan dóibhsean
 Dómhnal Dónal
 dúbhart dúirt mé
@@ -695,6 +716,9 @@ fuaras fuair mé
 fád faoi do
 fághaid faigheann siad
 féadair féadfaidh tú
+féadfí bhféadfaí
+féadfí d'fhéadfaí
+féadfí fhéadfaí
 Féidhlim Féilim
 Fódhla Fódla
 gachaon gach aon
@@ -858,6 +882,7 @@ Músgraigheach Múscraíoch
 n'fheadair ní fheadar
 n'fhéadfadh ní fhéadfadh
 n'fhéadfainn ní fhéadfainn
+n-abórainn ndéarfainn
 Nabuchodonosor Nabúcadnazar
 nanam n-anam
 Nangail Nangle
@@ -1135,10 +1160,12 @@ Zíon Síón
 Éamuinn Éamoinn
 Éibhlín Eibhlín
 Óméith Ó Méith
+éan-lá aon lá
 éan-mhaith aon mhaith
 éan-rud aon rud
 éan-uair aon uair
 éanchor aon chor
+éin-cheann aon cheann
 íosad íosfaidh mé
 íosaimíd íosfaimid
 íosair íosfaidh tú

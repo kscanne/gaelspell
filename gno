@@ -253,6 +253,7 @@ Prudential
 Python
 Quicktime
 Radisson
+Rangers
 Ravelóid
 Raytheon
 Reader

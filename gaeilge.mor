@@ -8,7 +8,7 @@ a'd
 a'dsan
 a'm
 a'msa
-a'n
+a'n/HMDBUT
 a'nduine/H
 a's
 a't
@@ -1030,9 +1030,9 @@ aindeise/HBMDU
 aindeiseoir/HMDBUT
 aindeiseoirí/HMDBU
 aindeiseora/HMDU
-aindeoin
+aindeoin/HMDBU
 aindeonach
-aindeóin
+aindeóin/HMDBU
 aindeóntach
 aindiach/HMDBUT
 aindiadha/HB
@@ -1947,7 +1947,7 @@ an-chógarach
 an-dainnsearach
 an-deagh-mhóideach
 an-dhrochmhúinte
-an-dúil
+an-dúil/HMDBU
 an-eólasach
 an-fheileamhnach
 an-fhiafruightheach
@@ -2430,7 +2430,7 @@ aonartha/HB
 aonaránta/HB
 aonarúil/HB
 aonarúla/B
-aonchor/HMDBU
+aonchor
 aonda/HB
 aondacht/HMDBU
 aondachta/HMDU
@@ -14939,7 +14939,6 @@ d'aigeal/U
 d'aigealainn/EU
 d'ail/U
 d'ailinn/EU
-d'aindeoin
 d'ainimnigh/U
 d'ainimnínn/FU
 d'airg/U
@@ -20822,7 +20821,7 @@ eibhleachta/HMDU
 eibhleog
 Eibhlís
 Eibhlíse
-eicín
+eicín/HB
 eicínt/HB
 eicínteach
 eidhbhéardach
@@ -20846,8 +20845,8 @@ eidir-mheadhóntóir
 eidtreorach
 eifís
 eige/HMDU
-eighinteach
-eighinteacht
+eighinteach/HB
+eighinteacht/HB
 eighre
 eighreacht
 Eilbhéis
@@ -22681,6 +22680,7 @@ fhréamha/U
 fhréamhainn/EU
 fhuagraí/U
 fhuagraínn/FU
+fhuaid
 fhuair
 fhuara/U
 fhuarainn/EU
@@ -24343,7 +24343,7 @@ fuagraím/USC
 fuagrán
 fuaicht/MDUS
 fuaicle
-fuaid/MDBUS
+fuaid
 fuaidh
 fuaidiméad
 fuaidiméadach
@@ -29317,7 +29317,7 @@ icneomónach/HB
 icneomónacha/B
 icneomónaigh
 icneomónaí/B
-icínt
+icínt/HB
 id
 idh
 idir/U
@@ -29668,7 +29668,7 @@ indéich
 indíotálta/HB
 ine
 ineach/HMDBUT
-ineacht
+ineacht/HB
 inead
 ineagluighthe
 ineathar
@@ -29798,7 +29798,7 @@ inmheadhónaigh
 inmheadhónaí/B
 inmheádhonach
 inmhianta/HB
-inmhuirearaithe/HB
+inmhuirearaithe
 inn/H
 inn-seadar
 inna
@@ -30029,9 +30029,9 @@ ináitreabh/HB
 ináitreabha/B
 ináitreibhe/B
 ináitribh
-inárachaithe/HB
+inárachaithe
 iné
-inéilithe/HB
+inéilithe
 inílt
 inín/HMDBU
 iníne/HMDU
@@ -52587,7 +52587,7 @@ uilce/B
 uile-chomhachtach
 uile-chómhachtach
 uile-go-léir
-uile-oileánda/HB
+uile-oileánda
 uile-íce/HMDBUT
 uileag
 uilechomhachtach/HB
@@ -53644,8 +53644,8 @@ Zíon
 éigheamh
 éigheantach
 éighim/U
-éighinteach
-éighinteacht
+éighinteach/HB
+éighinteacht/HB
 éighmhe
 éighmheach/HB
 éighmheacha/B
@@ -53667,9 +53667,9 @@ Zíon
 éigineach
 éiginn/HMDU
 éiginnteach
-éigint
-éiginteach
-éiginteacht
+éigint/HB
+éiginteach/HB
+éiginteacht/HB
 éigion
 éiglí/HB
 éiglíocht/HMDBU
@@ -53717,7 +53717,7 @@ Zíon
 éinfeacht
 éinfheacht
 éinfhir
-éinig
+éinig/HB
 éinirte
 éinmhic
 éinne/H

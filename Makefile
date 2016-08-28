@@ -138,7 +138,7 @@ athfromdb : FORCE
 	egrep "^m'[^ ]+ [BbCcDdFfGgMmPpSsTt][^'][^ ]+$$" athfhocail | LC_ALL=C sort -u | sed "s/^.'\([^ ]*\) \(.*\)$$/\/^m'\1 \2$$\/s\/ \\\\(.\\\\)\/ mo \\\\1h\/\n\/^d'\1 \2$$\/s\/ \\\\(.\\\\)\/ do \\\\1h\/\n\/^b'\1 \2$$\/s\/ \\\\(.\\\\)\/ ba \\\\1h\//" > cleanup.sed
 	cat athfhocail | egrep "^.[^'][^ ]+ m'" | sed "s/ m'/ d'/" > tokill.txt
 	cat athfhocail | keepif -n tokill.txt | egrep -v "^.[^'][^ ]+ [bm]'" | sed -f cleanup.sed > tempfile
-	rm -f cleanup.sed
+	rm -f cleanup.sed tokill.txt
 	mv -f tempfile athfhocail
 	LC_ALL=C sort -u athfhocail dinneenalts.txt fgbalts.txt myalts.txt riaalts.txt | LC_ALL=C sort -k1,1 > tempfile
 	mv -f tempfile athfhocail

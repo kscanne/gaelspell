@@ -292,6 +292,7 @@ Subhóró
 Symantec
 Sétanta
 Target
+Tayto
 Technorati
 Telecom
 Telegael

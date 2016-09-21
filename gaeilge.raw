@@ -3091,6 +3091,7 @@ an-chabhrach/HB
 an-chabhracha/B
 an-chabhraigh
 an-chabhraí/B
+an-chasta/HB
 an-cheana/HMDU
 an-chion/HMDBUT
 an-chiúin/HB
@@ -3129,6 +3130,7 @@ an-ghairide/B
 an-ghearr
 an-ghníomhach
 an-ghnóthach
+an-iarracht
 an-imní
 an-iontas
 an-jab/HMDBUT
@@ -3165,6 +3167,7 @@ an-smaoineamh/HMDBUT
 an-smaoinimh/HMDU
 an-soiléir
 an-speisialta/HB
+an-spraoi/HMDBUT
 an-spéis
 an-spéisiúil
 an-sraith
@@ -4009,6 +4012,10 @@ aonseomraí/HMDBU
 aonsmaoineamh/HMDBUT
 aonsmaoinimh/HMDU
 aonstábla/HB
+aonsúileach/HB
+aonsúileacha/B
+aonsúiligh
+aonsúilí/B
 aonta/HBMDU
 aontachais/HMDU
 aontachas/HMDBUT
@@ -7149,6 +7156,8 @@ b'Oiríseach
 b'Oiríseacha
 b'Oirísis
 b'Oirísí
+b'Oiséit
+b'Oiséitis
 b'Oisín
 b'Oisíneach
 b'Oisíneacha
@@ -7305,8 +7314,6 @@ b'Óglach
 b'Óglaigh
 b'Ógras
 b'Óige
-b'Óiséit
-b'Óiséitis
 b'Óman
 b'Ómanach
 b'Ómanacha
@@ -9876,11 +9883,11 @@ bliantóige/US
 bliantúil/S
 bliantúla/S
 blide/US
+bligeaird/US
 bligeard/US
 bligeardacht/US
 bligeardachta/US
 bligh/US
-bligird/US
 blimpe/US
 blimpí/US
 bliosáin/US
@@ -11127,6 +11134,7 @@ breacaireachta/US
 breacairí/US
 breacaois/US
 breacaoise/US
+breacaosta/S
 breacbhallach/S
 breacbhallacha/S
 breacbhallaigh/S
@@ -18437,6 +18445,8 @@ cluasairí/US
 cluasaí/S
 cluasaíocht/US
 cluasaíochta/US
+cluastuisceana/US
+cluastuiscint/US
 cluasáin/US
 cluasán/US
 cluasánach/US
@@ -27211,6 +27221,10 @@ d'Oirthir
 d'Oiríon
 d'Oirísis
 d'Oirísise
+d'Oiséit
+d'Oiséite
+d'Oiséitis
+d'Oiséitise
 d'Oisín
 d'olaigh/U
 d'olaínn/FU
@@ -27451,10 +27465,6 @@ d'Ógrais
 d'Ógras
 d'Óig
 d'Óige
-d'Óiséit
-d'Óiséite
-d'Óiséitis
-d'Óiséitise
 d'Óman
 d'Ómanach
 d'Ómanaigh
@@ -28443,7 +28453,9 @@ deargrúiscthe/US
 deargrúscadh/US
 deargtha/SU
 deargáin/US
+deargáir/US
 deargán/US
+deargár/US
 deargéadain/US
 deargéadan/US
 deargéitheach/US
@@ -28985,7 +28997,6 @@ dheile/U
 dheilinn/EU
 dheimhní/U
 dheimhnínn/FU
-dhein/U
 dheire/U
 dheirimid/U
 dheirtear/U
@@ -30724,6 +30735,7 @@ dramhphostóirí/US
 dramhphostóra/US
 dramhpháipéar/US
 dramhpháipéir/US
+dramhuisce/US
 drandail/US
 drandaim/US
 drandal/US
@@ -35026,6 +35038,7 @@ fadbhreathnaitheacht/MDBUS
 fadbhreathnaitheachta/MDUS
 fadbhreathnaithigh/S
 fadbhreathnaithí/BS
+fadbhunaithe/BS
 fadchainteach/BS
 fadchainteacha/BS
 fadchaintigh/S
@@ -40282,8 +40295,13 @@ fíormhullaigh/MDUS
 fíormhullaí/MDBUS
 fíorscoth/MDBUS
 fíorscotha/MDUS
+fíorscéal/MDBUS
+fíorscéalta/MDBUS
+fíorscéil/MDUS
 fíorshuimiúil/BS
 fíorshuimiúla/BS
+fíorspéisiúil/BS
+fíorspéisiúla/BS
 fíortha/BS
 fíorthosach/MDBUS
 fíorthosaigh/MDUS
@@ -44121,6 +44139,9 @@ gnáthphobal/US
 gnáthrud/US
 gnáthruda/US
 gnáthrudaí/US
+gnáthscoil/US
+gnáthscoile/US
+gnáthscoileanna/US
 gnáthscríobh/US
 gnáthshaighdiúir/US
 gnáthshaighdiúirí/US
@@ -46961,6 +46982,10 @@ hOiríon
 hOiríseach
 hOirísis
 hOirísise
+hOiséit
+hOiséite
+hOiséitis
+hOiséitise
 hOisín
 hOisíneach
 holagraim
@@ -47191,10 +47216,6 @@ hÓgrais
 hÓgras
 hÓig
 hÓige
-hÓiséit
-hÓiséite
-hÓiséitis
-hÓiséitise
 hÓman
 hÓmanach
 hÓmanaigh
@@ -47275,6 +47296,7 @@ híleantóirí
 híleantóra
 hílim
 hín
+hóigh
 Hóiméarach
 Hóiméaracha
 Hóiméaraigh
@@ -48131,7 +48153,7 @@ ilbhuaiche/B
 ilbhéarlach/HBMDUT
 ilbhéarlacha/B
 ilbhéarlaigh/HMDBU
-ilbhéarlaí/B
+ilbhéarlaí/HBMDU
 ilchaidreamhach/HB
 ilchaidreamhacha/B
 ilchaidreamhaigh
@@ -48256,6 +48278,8 @@ ilnithe/HMDBU
 ilnáisiúnta/HB
 ilnáisiúntach/HMDBUT
 ilnáisiúntaigh/HMDBU
+ilphléacs/HMDBUT
+ilphléacsanna/HMDBU
 ilpháirteach/HB
 ilpháirteacha/B
 ilpháirtigh
@@ -48911,6 +48935,10 @@ incháilitheacht/HMDBU
 incháilitheachta/HMDU
 incháinithe/HB
 incháinte/HB
+inchánach/HB
+inchánacha/B
+inchánaigh
+inchánaí/B
 inchónaitheach/HB
 inchónaitheacha/B
 inchónaithigh
@@ -49474,7 +49502,10 @@ inslítear/HU
 insmaoinimh
 inspioráid/HMDBU
 inspioráide/HMDU
-inspioráidí/HMDBU
+inspioráideach/HB
+inspioráideacha/B
+inspioráidigh
+inspioráidí/HBMDU
 inspreagadh/HMDBUT
 inspreagtha/HBMDU
 inspreagthacht/HMDBU
@@ -51925,6 +51956,7 @@ leathlae
 leathlaethanta
 leathlaithe
 leathlaí
+leathluí
 leathlá
 leathláimh
 leathláimhe
@@ -55519,6 +55551,10 @@ m'Oirthir
 m'Oiríon
 m'Oirísis
 m'Oirísise
+m'Oiséit
+m'Oiséite
+m'Oiséitis
+m'Oiséitise
 m'Oisín
 m'Ollaimh
 m'Ollainn
@@ -55664,10 +55700,6 @@ m'Ógrais
 m'Ógras
 m'Óig
 m'Óige
-m'Óiséit
-m'Óiséite
-m'Óiséitis
-m'Óiséitise
 m'Óman
 m'Ómanach
 m'Ómanaigh
@@ -57445,6 +57477,8 @@ meannáin/S
 meannán/S
 meantáin/S
 meantán/S
+meantóireacht/S
+meantóireachta/S
 meanórá/S
 meanóráí/S
 mear/S
@@ -64135,6 +64169,10 @@ nOirthir
 nOiríon
 nOirísis
 nOirísise
+nOiséit
+nOiséite
+nOiséitis
+nOiséitise
 nOisín
 noitmig
 noitmige
@@ -64473,10 +64511,6 @@ nÓgrais
 nÓgras
 nÓig
 nÓige
-nÓiséit
-nÓiséite
-nÓiséitis
-nÓiséitise
 nÓman
 nÓmanach
 nÓmanaigh
@@ -65342,6 +65376,10 @@ oisteansóirí/HMDBU
 oisteansóra/HMDU
 oistéapait/HMDBU
 oistéapat/HMDBUT
+Oiséit
+Oiséite
+Oiséitis
+Oiséitise
 Oisín
 oisín/HMDBUT
 Oisíneach
@@ -68121,9 +68159,6 @@ preasanna/US
 preaseisiúint/US
 preaseisiúintí/US
 preaseisiúna/US
-preasocáid/US
-preasocáide/US
-preasocáidí/US
 preasoifig/US
 preasoifige/US
 preasoifigí/US
@@ -68137,6 +68172,9 @@ preasála/US
 preasálaim/USI
 preasálaithe/US
 preasálaí/US
+preasócáid/US
+preasócáide/US
+preasócáidí/US
 preibe/US
 preiceall/US
 preicille/US
@@ -68897,7 +68935,6 @@ puilín/US
 puilíní/US
 puimcín/US
 puimcíní/US
-puinc/US
 puinn
 puins/US
 Puinseaib/S
@@ -68957,6 +68994,7 @@ punainne/US
 punann/US
 punanna/US
 punc/US
+puncaí/US
 punt/US
 puntaim/US
 puntam/US
@@ -72036,6 +72074,8 @@ ríshlat
 ríshlata
 ríshleachta
 ríshliocht
+ríshoiléir
+ríshoiléire
 ríste
 rístí
 rístíocht
@@ -73019,6 +73059,8 @@ sainroghanna/S
 sainráite/S
 sainré/ST
 sainréanna/S
+sainréimse/ST
+sainréimsí/S
 sainscil/ST
 sainscile/S
 sainscileanna/S
@@ -74789,6 +74831,8 @@ scoithe
 scoitheadh
 scoithim/A
 scoithinn/E
+scoithphointe
+scoithphointí
 scoithín
 scoithíní
 scoití
@@ -79446,6 +79490,8 @@ sobhriste/S
 sobhristeacht/ST
 sobhristeachta/S
 sobhuailte/S
+sobhéas/S
+sobhéasa/ST
 sobhéasach/S
 sobhéasacha/S
 sobhéasaigh/S
@@ -87339,6 +87385,8 @@ tonnmhair/S
 tonnmhaire/S
 tonnmhar/S
 tonnmhara/S
+tonnmharcaíocht/US
+tonnmharcaíochta/US
 tonnta/SU
 tonntaoscadh/US
 tonntaosctha/US
@@ -91936,10 +91984,6 @@ zúnna
 Ógras
 Óig
 Óige
-Óiséit
-Óiséite
-Óiséitis
-Óiséitise
 Óman
 Ómanach
 Ómanacha
@@ -92613,12 +92657,14 @@ zúnna
 éagoitiantachta/HMDU
 éagoitinn
 éagoitinne/HBMDU
+éagomhlainn/HMDBU
+éagomhlann/HMDBUT
 éagosúil/HB
 éagosúla/B
-éagothroim
+éagothroim/HMDU
 éagothroime/HBMDU
 éagothroimí/HMDBU
-éagothrom/HB
+éagothrom/HBMDUT
 éagothroma/B
 éagrua/HB
 éagruais/HMDBU

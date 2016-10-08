@@ -185,7 +185,8 @@ LINBH--              L*N*     # epenthetic vowel, (ucht)?linbh only, see NBH--
 LMH--                L        # feallmharú, etc., epenth. exception
 LBH--                L        # uaillbhreas, etc., epenth. exception
 LGH--                L        # timpeallghearr, etc., epenth. exception
-L(BGM)-              L*       # epenthetic vowel, see also ULCH--
+#L(BGM)-              L*       # epenthetic vowel, see also ULCH--
+L(GM)-               L*       # epenthetic vowel, see also ULCH--
 L                    L
 MORFAÍ--$            M*RV     # exception to silent FAÍ$
 MBANBH^$             M*N*V    # epenthetic vowel, see NBH--, not -arún
@@ -251,7 +252,8 @@ RBH--                R        # cíorbhuí, aerbhrat, etc., epenth. exception
 RMH--                R        # iarmhar, léirmheas, etc., epenth. exception
 RGH--                R        # daorghalar, etc., epenth. exception
 RBO--                R        # cosarbolg only, epenth. exception
-R(BGM)-              R*       # epenthetic vowel
+#R(BGM)-              R*       # epenthetic vowel
+RB-                  R*       # epenthetic vowel
 R                    R
 SHORCH--             H*R*     # epenthetic vowel, sorcha root only
 SORCH--              S*R*     # epenthetic vowel, sorcha root only

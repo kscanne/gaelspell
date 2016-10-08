@@ -354,15 +354,15 @@ dist: FORCE
 # relies on fact that H affix always immediately follows the slash :/
 # though see "obainn" - one exception
 ga-Latg-IE.dic: $(RAWWORDS)
-	(cat $(RAWWORDS) $(GAELPERSONAL) | perl ${HOME}/gaeilge/ocr/toponc.pl; cat $(GALLPERSONAL)) > $@
+	(cat $(RAWWORDS) $(GAELPERSONAL) latecaps | perl ${HOME}/gaeilge/ocr/toponc.pl; cat $(GALLPERSONAL)) > $@
 	sed -i "1s/.*/`cat $@ | wc -l`\n&/" $@
 
 ga-Latg-IE.aff: ga_IE.aff
 	cat ga_IE.aff | sed 's/WORDCHAR/WORDC{H}AR/' | perl ${HOME}/gaeilge/ocr/toponc.pl | sed '/^SFX/s/\[\^h/[^ḃċḋḟġṁṗṡṫ/' > $@
 
-ga_IE.dic: $(RAWWORDS) $(PERSONAL)
+ga_IE.dic: $(RAWWORDS) $(PERSONAL) latecaps
 	rm -f $@
-	$(GOODSORT) $(RAWWORDS) $(PERSONAL) > $@
+	$(GOODSORT) $(RAWWORDS) $(PERSONAL) latecaps > $@
 	sed -i "1s/.*/`cat $@ | wc -l`\n&/" $@
 
 ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
@@ -540,7 +540,7 @@ twitter-survey.txt: gaelspell-anything.txt ${CORPUS}/l/Twitter
 	cat ${CORPUS}/l/Twitter | sed 's/[#@][A-Za-z0-9áéíóúÁÉÍÓÚ_-]*//g' | sed 's/http[^ ]*//g' | togail ga token | egrep '[A-Za-záéíóúÁÉÍÓÚ]' | keepif -n gaelspell-anything.txt | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
 
 adist: aspell.txt apersonal ChangeLog
-	LC_ALL=C sort -u aspell.txt $(PERSONAL) > a.tmp
+	LC_ALL=C sort -u aspell.txt $(PERSONAL) latecaps > a.tmp
 	chmod 644 a.tmp README README.aspell gaeilge_phonet.dat info repl gaeilge.dat
 	cp -f README $(ASPELLDEV)/Copyright
 	cp -f README.aspell $(ASPELLDEV)/doc/README

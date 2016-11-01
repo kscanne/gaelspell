@@ -9718,7 +9718,7 @@ b'oighriúla b'oighreata
 b'oighrí b'oidhrí
 b'oighríocht b'oidhreacht
 b'oighríochtaí b'oidhreachtaí
-b'oile b'eile
+b'oile eile
 b'oileadh b'oiliúint
 b'oileamhain b'oiliúint
 b'oileamhaint b'oiliúint
@@ -29899,6 +29899,7 @@ chomhraicítear chomhraictear
 chomhraicíteá chomhraicteá
 chomhraicítí chomhraictí
 chomhrainn chomhroinne
+chomhrainn chónra
 chomhraithe choimircí
 chomhrann chomhroinn
 chomhraí choimirce
@@ -36714,6 +36715,7 @@ comhraicíodh comhraiceadh
 comhraicíonn comhraiceann
 comhraicítear comhraictear
 comhrainn comhroinne
+comhrainn cónra
 comhraithe coimircí
 comhrann comhroinn
 comhranna comhroinne
@@ -49182,7 +49184,9 @@ dh'aon-ghnoithe d'aon ghnó
 dh'ea ea
 dh'ea hea
 dh'eadh dhea
+dh'fhághail fháil
 dh'fháilt fháil
+dh'innsint insint
 dh'itheann itheann
 dh'á á
 dha-ríribh dháiríre
@@ -50312,9 +50316,12 @@ dhioscán dheascán
 dhiospóid dhíospóid
 dhiospóide dhíospóide
 dhiospóidí dhíospóidí
+dhiospóir dhíospóir
 dhiospóireacht dhíospóireacht
 dhiospóireachta dhíospóireachta
 dhiospóireachtaí dhíospóireachtaí
+dhiospóirí dhíospóirí
+dhiospóra dhíospóra
 dhiotháil dhíobháil
 dhise dise
 dhisréad aisréad
@@ -52834,6 +52841,8 @@ diospóir díospóir
 diospóireacht díospóireacht
 diospóireachta díospóireachta
 diospóireachtaí díospóireachtaí
+diospóirí díospóirí
+diospóra díospóra
 diosán giosán
 direoil dearóil
 discréid discréideach
@@ -74962,6 +74971,7 @@ gcomhraicítear gcomhraictear
 gcomhraicíteá gcomhraicteá
 gcomhraicítí gcomhraictí
 gcomhrainn gcomhroinne
+gcomhrainn gcónra
 gcomhraithe gcoimircí
 gcomhrann gcomhroinn
 gcomhraí gcoimirce
@@ -86399,7 +86409,7 @@ hoighríochta hoidhreachta
 hoighríochtaí hoidhreachtaí
 hoighríodh hoidhríodh
 hoighrítear hoidhrítear
-hoile heile
+hoile eile
 hoileadh hoiliúint
 hoileamhain hoiliúint
 hoileamhaint hoiliúint
@@ -113157,9 +113167,12 @@ ndioscán ndeascán
 ndiospóid ndíospóid
 ndiospóide ndíospóide
 ndiospóidí ndíospóidí
+ndiospóir ndíospóir
 ndiospóireacht ndíospóireacht
 ndiospóireachta ndíospóireachta
 ndiospóireachtaí ndíospóireachtaí
+ndiospóirí ndíospóirí
+ndiospóra ndíospóra
 ndisréad n-aisréad
 ndisréid n-aisréid
 ndith ndíth

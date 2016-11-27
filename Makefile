@@ -494,7 +494,7 @@ gaelspell.txt: aspell.txt $(PERSONAL)
 # clean word list for Caighdeánaitheoir "clean.txt"
 # used to just use gaelspell.txt but I wanted aspelllit.txt words too
 caighdean.txt: aspelllit.txt $(PERSONAL)
-	LC_ALL=C sort -u aspelllit.txt $(PERSONAL) > $@
+	sort -u aspelllit.txt $(PERSONAL) uimhreacha > $@
 
 gaelspell.zip: gaelspell.txt COPYING README
 	zip $@ gaelspell.txt COPYING README

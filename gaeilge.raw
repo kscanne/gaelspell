@@ -420,6 +420,7 @@ adhlacaim/UA
 adhlacainn/E
 adhlactar/HU
 adhlactha/HBMDU
+adhlacthaí/HMDBU
 adhlacóir/HMDBUT
 adhlacóireacht/HMDBU
 adhlacóireachta/HMDU
@@ -3096,6 +3097,7 @@ an-cheana/HMDU
 an-chion/HMDBUT
 an-chiúin/HB
 an-chiúine/B
+an-chliste
 an-chláir/HMDBU
 an-chlár/HMDBUT
 an-choitianta
@@ -3130,6 +3132,7 @@ an-ghairide/B
 an-ghearr
 an-ghníomhach
 an-ghnóthach
+an-ghreannmhar
 an-iarracht
 an-imní
 an-iontas
@@ -22693,6 +22696,10 @@ croí/US
 croíbhriste/S
 croíbhrú/US
 croíbhrúite/S
+croíchruthach/S
+croíchruthacha/S
+croíchruthaigh/S
+croíchruthaí/S
 croídhícheall/US
 croídhíchill/US
 croídhílis/S
@@ -24573,6 +24580,8 @@ códaithe/SU
 códaím/USC
 códaíocht/US
 códaíochta/US
+códfhocail/US
+códfhocal/US
 códleathanach/US
 códleathanaigh/US
 códáil/US
@@ -28084,6 +28093,10 @@ dea-bhlasanna/US
 dea-bhlasta/S
 dea-bholadh/US
 dea-bholaidh/US
+dea-bhriathrach/S
+dea-bhriathracha/S
+dea-bhriathraigh/S
+dea-bhriathraí/S
 dea-bháis/US
 dea-bhás/US
 dea-bhéas/US
@@ -32654,6 +32667,9 @@ dífheistigh/US
 dífheistithe/SU
 dífheistiú/US
 dífheistím/USC
+dífhibrileoir/US
+dífhibrileoirí/US
+dífhibrileora/US
 dífhostaigh/US
 dífhostaithe/SU
 dífhostaím/USC
@@ -38626,6 +38642,8 @@ fraecsáil/US
 fraecsála/US
 fraedóireacht/US
 fraedóireachta/US
+fraiceáil/US
+fraiceála/US
 fraigh/US
 fraighe/US
 fraighfhliuchrais/US
@@ -40468,6 +40486,7 @@ fóilió/MDBUS
 fóiliónna/MDBUS
 fóill/BS
 fóille/BS
+fóillín/MDBUS
 fóillíocht/MDBUS
 fóillíochta/MDUS
 fóin/MDBUS
@@ -42497,7 +42516,6 @@ geodasaigh/SU
 geodasaí/S
 geodasaíocht/US
 geodasaíochta/US
-geoga/US
 geografach/S
 geografacha/S
 geografaigh/S
@@ -50700,6 +50718,7 @@ Iávach
 Iávacha
 Iávaigh
 Iávaí
+ióga/HMDBUT
 iógairt/HMDU
 iógart/HMDBUT
 Iónach
@@ -54064,6 +54083,7 @@ lánchumhachtaí
 lánchumhachtóir
 lánchumhachtóirí
 lánchumhachtóra
+láncháilithe
 lánchúlaithe
 lánchúlaí
 lándaite
@@ -54170,6 +54190,8 @@ lántosacha
 lántosaigh
 lántosaithe
 lántosaí
+lántréimhse
+lántréimhsí
 lántáille
 lántáillí
 lánáin
@@ -63000,6 +63022,8 @@ neamhgharacha
 neamhgharaigh
 neamhgharaí
 neamhgheanmnaí
+neamhgheanúil
+neamhgheanúla
 neamhghiorraithe
 neamhghlain
 neamhghlaine
@@ -63256,6 +63280,10 @@ neamhscrupallacha
 neamhscrupallaigh
 neamhscrupallaí
 neamhscríofa
+neamhscáfair
+neamhscáfaire
+neamhscáfar
+neamhscáfara
 neamhshainithe
 neamhshaolta
 neamhshaothraithe
@@ -68264,6 +68292,8 @@ prionsachtaí/US
 prionsaí/US
 prionsúil/S
 prionsúla/S
+prionsúlacht/US
+prionsúlachta/US
 prionta/US
 priontaí/US
 priontáil/US
@@ -87725,6 +87755,9 @@ trasfhoirmigh/US
 trasfhoirmithe/SU
 trasfhoirmiú/US
 trasfhoirmím/USC
+trasfhreagróir/US
+trasfhreagróirí/US
+trasfhreagróra/US
 trasghalaithe/US
 trasghalú/US
 trasghearr/US
@@ -88599,6 +88632,8 @@ trébhliantúla/S
 tréchleas/US
 tréchleasa/US
 tréchlis/US
+tréchuir/US
+tréchur/US
 trédhearcach/S
 trédhearcacha/S
 trédhearcacht/US
@@ -90229,7 +90264,11 @@ tópáis/US
 tópás/US
 tóra/US
 tóracs/US
+tóracsach/S
+tóracsacha/S
+tóracsaigh/S
 tóracsanna/US
+tóracsaí/S
 tóraigh/US
 tórais/US
 Tóraithe/S

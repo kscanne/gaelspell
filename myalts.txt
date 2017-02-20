@@ -137,6 +137,7 @@ Aristóbuluis Arastabúlas
 Aristóbulus Arastabúlas
 arsan arsa an
 arsé ar sé
+arádh a rá
 atchífeadh a d'fheicfeadh
 atchífeas a fheicfidh
 atchífeá a d'fheicfeá
@@ -154,6 +155,7 @@ atán atá
 atánn atá
 atáthaoi atá tú
 Auguistín Agaistín
+aír air
 b'aca ba acu
 b'ag ba ag
 b'aige ba aige
@@ -200,6 +202,7 @@ bhais bhois
 Bhalac Bhálác
 Bhanba Bhanbha
 Bhaoigheallach Bhaollach
+bharamhailsa bharúilse
 bharamhailse bharúilse
 bhead bheidh mé
 bhead-sa bheidh mise
@@ -363,7 +366,7 @@ bhíom bhímid
 bhíom bhímis
 bhíon bhíonn
 bhíos bhí mé
-bhíos-sa bhí mise
+bhíossa bhí mise
 bhír bhíonn tú
 bhís bhí tú
 bhís-se bhí tusa
@@ -419,6 +422,8 @@ Chanaain Chanán
 Charmail Chairmeil
 Charmal Chairmeil
 Cheann-Fhaolaidh Chionnaola
+cheapaid cheapann
+cheapaid cheapann siad
 cheire ceithre
 cheire cheithre
 cheofaidh fheicfidh
@@ -456,6 +461,7 @@ chuadhabhar chuaigh sibh
 chuadhadar chuadar
 chuadhas chuaigh mé
 Chuailnge Chuailgne
+chualabhar chuala sibh
 chualais chuala tú
 chualas chuala mé
 chualas-sa chuala mise
@@ -554,6 +560,7 @@ d'fhreagairt a fhreagairt
 d'fhreagra do fhreagra
 d'fhágaibh d'fhág
 d'fhágaidh d'fhág
+d'fhágail a fhágáil
 d'fhágas d'fhág mé
 d'fhágbhadar d'fhágadar
 d'fhásann a fhásann
@@ -565,6 +572,7 @@ d'imthigheann imíonn
 d'innseas d'inis mé
 d'innsigheas d'inis mé
 d'insíos d'inis mé
+d'láimh do láimh
 d'mháthair do mháthair
 d'á á
 d'árdach a ardú
@@ -574,10 +582,12 @@ d'é é a
 d'éalóidh d'éalaigh
 d'éigsibh d'éigse
 d'éigsíbh d'éigse
+d'éinneach d'aon neach
 d'éinní d'aon ní
 d'éirig d'éirigh
 d'ólas d'ól mé
 da á
+daimhdheoin d'ainneoin
 Damascus an Damaisc
 Damascus na Damaisce
 daobhthasan dóibhsean
@@ -612,6 +622,7 @@ dheaghas dheachaigh mé
 dheaghthas dheachthas
 dheanfas a dhéanfaidh
 dheanfas dhéanfaidh
+dhearbhráthairsa dheartháirse
 dhearnabhar dhearna sibh
 dhearnaigh dhearna
 dhearnais dhearna tú
@@ -633,6 +644,7 @@ dhot do do
 Dhrioscoill Dhrisceoil
 Dhubhgáin Dhúgáin
 dhubhras ndúirt mé
+dhuitsi duitse
 Dháibhid Dháiví
 dhálta-sa dhála-sa
 dhéanad dhéanfaidh mé
@@ -979,6 +991,7 @@ fuaras bhfuair mé
 fuaras fuair mé
 fá'm faoi mo
 fád faoi do
+fágfí fhágfaí
 fághaid faigheann siad
 féadair féadfaidh tú
 féadfí bhféadfaí
@@ -991,6 +1004,7 @@ Fódhla Fódla
 gachaon gach aon
 gaedhilge Gaeilge
 gairfí ghairfí
+gansrang gan sreang
 gaoith gaoth
 gcaithfam gcaithfimid
 gcionn gceann
@@ -1024,6 +1038,7 @@ gheobhfas gheobhaidh
 ghirsigh ghirseach
 ghlacaid ghlacann
 ghlacaid ghlacann siad
+ghloin ghlain
 ghnidh a dhéanann
 ghnidh dhéanann
 ghnímse a dhéanaimse
@@ -1148,6 +1163,7 @@ lámh-láidir lámh láidir
 Léabáin Liabáin
 léighios léigh mé
 léithe-se léise
+lém le mo
 líonas líon mé
 m'ainimse m'ainmse
 m'chroidhe mo chroí
@@ -1189,12 +1205,14 @@ mbéarad mbéarfaidh mé
 mbéaradsa mbéarfaidh mise
 mbéarair mbéarfaidh tú
 mbéidhinnse mbeinnse
+mbéidhmid mbeimid
 mbéidís mbeidís
 mbéinn-se mbeinnse
 mbíom mbímid
 mbíom mbímis
 mbíon mbíonn
 mbír mbíonn tú
+meascne meascna
 Meidhbh Méabh
 Messiah Meisias
 mhacasamhailsa mhacasamhailse
@@ -1235,6 +1253,7 @@ mé'r mé ar
 Méadhbh Méabh
 Méadhbha Méabha
 Méibh Méabh
+mór-mór mór mór
 Músgraigheach Múscraíoch
 n'fheaca ní fhaca
 n'fheadair ní fheadar
@@ -1418,6 +1437,8 @@ rugas rug mé
 rádh's rá is
 ráibh raibh
 rángadar ráinigh siad
+réidh-airgead airgead réidh
+réidh-airgid airgid réidh
 rém le mo
 Rósínanté Rocinante
 s'chuaidh seo a chuaigh
@@ -1498,7 +1519,9 @@ Súileabháin Súilleabháin
 súilibh súile
 Súilliobháin Súilleabháin
 t-Iroquois tIroquois
+t-uisge-fé-thalamh t-uisce faoi thalamh
 t-éan-áit t-aon áit
+t-éinní t-aon ní
 tabharfad tabharfaidh mé
 tabharfadsa tabharfaidh mise
 tabharfaí thabharfaí
@@ -1508,6 +1531,7 @@ taobh-shiar taobh thiar
 taoibh taobh
 taoidheann atá
 taoidheann tá
+tchídhfeadh d'fheicfeadh
 tchídhfeas fheicfidh
 tchífinn d'fheicfinn
 tchím-se feicimse

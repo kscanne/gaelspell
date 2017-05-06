@@ -94,6 +94,7 @@ Eurolang
 Europa
 Europol
 Europus
+Eurovision
 Evertype
 Examiner
 Excel

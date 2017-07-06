@@ -1,4 +1,5 @@
 a'bhfuil an bhfuil
+abaile abhaile
 abalta ábalta
 abhaineann a bhaineann
 abhaint a bhaint
@@ -70,6 +71,7 @@ ainneoinn ainneoin
 airi airí
 airithiú áirithiú
 aisci aiscí
+aisioc aisíoc
 aisiúil áisiúil
 aistharraing aistarraing
 aistharraingt aistarraingt
@@ -185,6 +187,7 @@ bfhéidir b'fhéidir
 bfuil bhfuil
 bhaineannle bhaineann le
 bhaintamach bhaint amach
+bheagan bheagán
 bheal bhéal
 bheul bhuel
 bhfhearr b'fhearr
@@ -510,6 +513,9 @@ dheanann dhéanann
 dheanfadh dhéanfadh
 dheanfaidh dhéanfaidh
 dhearthair dheartháir
+dhibir dhíbir
+dhiol dhíol
+dhiot díot
 dho dó
 dhothain dhóthain
 dhruite dhruidte
@@ -527,6 +533,7 @@ diobhála díobhála
 diol díol
 diolaim díolaim
 diom díom
+diomhaoin díomhaoin
 diomhaointeas díomhaointeas
 diomhaointis díomhaointis
 dion díon
@@ -572,6 +579,8 @@ drochairleacan drochairleacán
 druite druidte
 dti dtí
 dtir dtír
+dtire dtíre
+dtus dtús
 dtí'n dtí an
 dtín dtí an
 dtína dtí na
@@ -988,6 +997,8 @@ liomataiste líomatáiste
 liomataisti líomatáistí
 lion líon
 lionadh líonadh
+lionmhar líonmhar
+lionta líonta
 litriocht litríocht
 liuntais liúntais
 liuntas liúntas
@@ -1048,8 +1059,11 @@ meiríneach méiríneach
 meánscolaí meánscolaíocht
 meárach méarach
 Mharta Mhárta
+mheid mhéid
 mheárach mhéarach
+mhi mhí
 mhile mhíle
+mhna mhná
 mhor mhór
 mhuinteoir mhúinteoir
 mi mí
@@ -1083,6 +1097,7 @@ morgaiste morgáiste
 moráil móráil
 moráis mór-ais
 morán mórán
+muchta múchta
 muineadh múineadh
 muinin muinín
 muinteoir múinteoir
@@ -1119,6 +1134,7 @@ nathruithe n-athruithe
 ndail ndáil
 ndairíre ndáiríre
 ndeanfadh ndéanfadh
+ndeantar ndéantar
 ndoigh ndóigh
 ndáirire ndáiríre
 ndéanfa ndéanfá
@@ -1258,6 +1274,7 @@ ple plé
 pleanail pleanáil
 pleanala pleanála
 plodaithe plódaithe
+Pléimionn Pléimeann
 poibli poiblí
 poilineacht póilíneacht
 poilineachta póilíneachta
@@ -1433,6 +1450,8 @@ siniu síniú
 siniú síniú
 siochana síochána
 siochána síochána
+siol síol
+siolchur síolchur
 siolta síolta
 Sionnaine Sionainne
 siopai siopaí
@@ -1465,6 +1484,7 @@ solathróidh soláthróidh
 soléir soiléir
 sort sórt
 Spainn Spáinn
+Spainne Spáinne
 sparáil spáráil
 spas spás
 specialta speisialta
@@ -1483,6 +1503,7 @@ Spáinis Spáinnis
 spárail spáráil
 spéisialta speisialta
 sraid sráid
+sraide sráide
 sruchtúr struchtúr
 stadas stádas
 stadáis stádais
@@ -1604,6 +1625,7 @@ teárma téarma
 thainic tháinig
 thainig tháinig
 thios thíos
+thir thír
 thogaint thógáil
 thogáil thógáil
 ThuaidhTheas Thuaidh-Theas
@@ -1661,6 +1683,7 @@ trathanna tráthanna
 trathnona tráthnóna
 trathnóna tráthnóna
 tre trí
+trean tréan
 treimhse tréimhse
 treor treoir
 tri trí

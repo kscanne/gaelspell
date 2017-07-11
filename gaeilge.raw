@@ -1658,6 +1658,8 @@ ainiochtach/HB
 ainiochtacha/B
 ainiochtaigh
 ainiochtaí/B
+ainiomad/HMDBUT
+ainiomaid/HMDU
 ainle/HMDBU
 ainleog/HMDBU
 ainleoga/HMDBU
@@ -3157,6 +3159,7 @@ an-deas
 an-dian
 an-difriúil
 an-dochar
+an-dona/HB
 an-dorcha/HB
 an-dul
 an-dáiríre
@@ -14491,6 +14494,8 @@ calmais/US
 calmaithe/SU
 calmas/US
 calmaím/USC
+calmfhear/US
+calmfhir/US
 calmú/US
 calra/US
 calraiméadair/US
@@ -21784,6 +21789,9 @@ corpéislinní/S
 corpíomhá/US
 corpíomhánna/US
 corr/SU
+corr-rud/US
+corr-ruda/US
+corr-rudaí/US
 corra/SU
 corrabhuais/US
 corrabhuaise/US
@@ -43775,6 +43783,10 @@ glanachar/US
 glanadh/US
 glanaim/USA
 glanbhearrtha/S
+glanfhuair/S
+glanfhuaire/S
+glanfhuar/S
+glanfhuara/S
 glanluach/US
 glanluacha/US
 glanluachanna/US
@@ -50072,6 +50084,7 @@ intéirneachtaí/HMDBU
 intéirnigh/HMDBU
 intí/HB
 intíre/HB
+inuchtaigh
 inveirteabrach/HBMDUT
 inveirteabracha/B
 inveirteabraigh/HMDBU
@@ -52550,6 +52563,8 @@ leathstócach
 leathstócaigh
 leathuair
 leathuaire
+leathuillinn
+leathuillinne
 leathurláir
 leathurlár
 leatháin
@@ -58960,6 +58975,10 @@ mil/S
 mileoidean/S
 mileoidin/S
 milis/S
+milisbhriathrach/S
+milisbhriathracha/S
+milisbhriathraigh/S
+milisbhriathraí/S
 mill/S
 mille/S
 milleadh/S
@@ -62467,6 +62486,7 @@ naomhaínn/F
 naomhfhear
 naomhfhir
 naomhfháidh
+naomhghrásta
 naomhluain
 naomhluan
 Naomhshacraimint
@@ -71905,6 +71925,7 @@ ráthú
 rátáil
 rátáilte
 rátála
+rátálacha
 rátálaim/I
 rátálainn/J
 rátúcháin
@@ -72551,6 +72572,7 @@ rímharfóirí
 rímharfóra
 rímhin
 rímhine
+rímhinic
 rímhion
 rímhiona
 rímhná
@@ -72726,6 +72748,7 @@ ró-onórach
 ró-onóracha
 ró-onóraigh
 ró-onóraí
+ró-uaisle
 ró-ualach
 ró-ualaigh
 ró-ualaithe
@@ -72733,6 +72756,8 @@ ró-ualaí
 ró-ualaím/C
 ró-ualaínn/F
 ró-ualú
+ró-uasail
+ró-uasal
 ró-éasca
 ró-éileamh
 ró-éilimh
@@ -75645,6 +75670,10 @@ scothdhearg
 scothdhearga
 scothdheirg
 scothdheirge
+scothdhoinn
+scothdhoinne
+scothdhonn
+scothdhonna
 scothláin
 scothláine
 scothlán

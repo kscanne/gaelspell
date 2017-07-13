@@ -128,6 +128,7 @@ Gazprom
 Gcom
 Gentoo
 Ghostscript
+Gibsol
 Gmail
 Google
 Greenpeace

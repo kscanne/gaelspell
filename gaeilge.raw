@@ -4381,6 +4381,8 @@ Ard-Bhailitheora
 Ard-Bheith
 Ard-Bheithe
 Ard-Chomhairle
+Ard-Chraobh
+Ard-Chraoibhe
 Ard-Chúirt
 Ard-Chúirte
 ard-deagánach/HMDBUT
@@ -6883,6 +6885,7 @@ b'Ard-Bhailitheoir
 b'Ard-Bhailitheoirí
 b'Ard-Bheith
 b'Ard-Chomhairle
+b'Ard-Chraobh
 b'Ard-Chúirt
 b'Ard-Easpag
 b'Ard-Easpaig
@@ -19170,6 +19173,8 @@ cnocadóra/US
 cnocaigh/S
 cnocaí/S
 cnocáin/US
+cnocáinín/US
+cnocáiníní/US
 cnocán/US
 cnocánach/S
 cnocánacha/S
@@ -26117,6 +26122,8 @@ d'Ard-Bhailitheora
 d'Ard-Bheith
 d'Ard-Bheithe
 d'Ard-Chomhairle
+d'Ard-Chraobh
+d'Ard-Chraoibhe
 d'Ard-Chúirt
 d'Ard-Chúirte
 d'Ard-Easpag
@@ -46843,6 +46850,8 @@ hArd-Bhailitheora
 hArd-Bheith
 hArd-Bheithe
 hArd-Chomhairle
+hArd-Chraobh
+hArd-Chraoibhe
 hArd-Chúirt
 hArd-Chúirte
 hArd-Easpag
@@ -55694,6 +55703,8 @@ m'Ard-Bhailitheora
 m'Ard-Bheith
 m'Ard-Bheithe
 m'Ard-Chomhairle
+m'Ard-Chraobh
+m'Ard-Chraoibhe
 m'Ard-Chúirt
 m'Ard-Chúirte
 m'Ard-Easpag
@@ -61979,6 +61990,7 @@ mórthimpeall/S
 mórthimpill/S
 mórthionscadail/S
 mórthionscadal/S
+mórthrócaire/S
 mórthéarma/S
 mórthéarmaí/S
 mórthíortha/S
@@ -62555,6 +62567,8 @@ nArd-Bhailitheora
 nArd-Bheith
 nArd-Bheithe
 nArd-Chomhairle
+nArd-Chraobh
+nArd-Chraoibhe
 nArd-Chúirt
 nArd-Chúirte
 nArd-Easpag
@@ -72045,6 +72059,8 @@ réaltra
 réaltraí
 réaltsliogáin
 réaltsliogán
+réaltsolais
+réaltsolas
 réaltóg
 réaltóga
 réaltógach
@@ -72793,6 +72809,10 @@ róbhoicht
 róbhoichte
 róbhoig
 róbhoige
+róbhoirb
+róbhoirbe
+róbhorb
+róbhorba
 róbhreá
 róbhruite
 róbhruith
@@ -73126,7 +73146,11 @@ róshaothraí
 róshaothraím/C
 róshaothraínn/F
 róshaothrú
+róshean
+rósheana
 róshimplí
+róshin
+róshine
 róshásta
 róst
 rósta
@@ -80896,6 +80920,8 @@ spaid
 spaide
 spaideanna
 spaigití
+spaigín
+spaigíní
 spaill
 spaille
 spailleadh
@@ -84009,6 +84035,8 @@ sámhasacha/S
 sámhasaigh/S
 sámhasaí/S
 sámhaí/ST
+sámhchodladh/S
+sámhchodlata/ST
 sámhnais/ST
 sámhnas/S
 sámháin/ST
@@ -84586,6 +84614,8 @@ síoraíochta/S
 síorchaint/ST
 síorchainte/S
 síorchaitheamh/S
+síorchasadh/S
+síorchasta/ST
 síorchiste/ST
 síorchistí/S
 síorchodladh/S

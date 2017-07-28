@@ -28,20 +28,20 @@ all: gaeilge.hash gaeilgelit.hash gaeilgemor.hash
 
 # grep -v filters out Malmö, São, LC_ALL=C needed!
 gaeilge.hash: $(RAWWORDS) $(AFFIXFILE) $(PERSONAL)
-	LC_ALL=C $(SORT) $(RAWWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f utf8 -t iso-8859-1 > gaeilge.focail
-	iconv -f utf8 -t iso-8859-1 $(AFFIXFILE) > tempaff.txt
+	LC_ALL=C $(SORT) $(RAWWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f UTF-8 -t iso-8859-1 > gaeilge.focail
+	iconv -f UTF-8 -t iso-8859-1 $(AFFIXFILE) > tempaff.txt
 	$(ISPELLBIN)/buildhash gaeilge.focail tempaff.txt gaeilge.hash
 	rm -f gaeilge.focail tempaff.txt
 
 gaeilgelit.hash: $(RAWWORDS) $(LITWORDS) gaeilgelit.aff $(PERSONAL)
-	LC_ALL=C $(SORT) $(RAWWORDS) $(LITWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f utf8 -t iso-8859-1 > gaeilge.focail
-	iconv -f utf8 -t iso-8859-1 gaeilgelit.aff > tempaff.txt
+	LC_ALL=C $(SORT) $(RAWWORDS) $(LITWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f UTF-8 -t iso-8859-1 > gaeilge.focail
+	iconv -f UTF-8 -t iso-8859-1 gaeilgelit.aff > tempaff.txt
 	$(ISPELLBIN)/buildhash gaeilge.focail tempaff.txt gaeilgelit.hash
 	rm -f gaeilge.focail tempaff.txt
 
 gaeilgemor.hash: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(ALTAFFIXFILE) $(PERSONAL)
-	LC_ALL=C $(SORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f utf8 -t iso-8859-1 > gaeilge.focail
-	iconv -f utf8 -t iso-8859-1 $(ALTAFFIXFILE) > tempaff.txt
+	LC_ALL=C $(SORT) $(RAWWORDS) $(LITWORDS) $(ALTWORDS) $(PERSONAL) | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f UTF-8 -t iso-8859-1 > gaeilge.focail
+	iconv -f UTF-8 -t iso-8859-1 $(ALTAFFIXFILE) > tempaff.txt
 	$(ISPELLBIN)/buildhash gaeilge.focail tempaff.txt gaeilgemor.hash
 	rm -f gaeilge.focail tempaff.txt
 
@@ -52,26 +52,26 @@ $(ALTAFFIXFILE): $(AFFIXFILE) gaeilgemor.diff
 personal: biobla $(PERSONAL)
 	sort -u $(PERSONAL) > ./personal
 	rm -f $(HOME)/.ispell_$(INSTALLATION)
-	LC_ALL=C sort -u biobla | iconv -f utf8 -t iso-8859-1 > $(HOME)/.ispell_$(INSTALLATION)
+	LC_ALL=C sort -u biobla | iconv -f UTF-8 -t iso-8859-1 > $(HOME)/.ispell_$(INSTALLATION)
 
 gaeilgelit.aff: $(AFFIXFILE)
 	cp $(AFFIXFILE) gaeilgelit.aff
 
 install: $(INSTALLATION).hash $(INSTALLATION).aff
 	$(INSTALL_DATA) $(INSTALLATION).hash $(ISPELLDIR)
-	iconv -f utf8 -t iso-8859-1 $(INSTALLATION).aff > tempaff.txt
+	iconv -f UTF-8 -t iso-8859-1 $(INSTALLATION).aff > tempaff.txt
 	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/$(INSTALLATION).aff
 	rm -f tempaff.txt
 
 installall: gaeilge.hash gaeilgelit.hash gaeilgemor.hash gaeilgelit.aff
 	$(INSTALL_DATA) gaeilge.hash $(ISPELLDIR)
-	iconv -f utf8 -t iso-8859-1 $(AFFIXFILE) > tempaff.txt
+	iconv -f UTF-8 -t iso-8859-1 $(AFFIXFILE) > tempaff.txt
 	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/$(AFFIXFILE)
 	$(INSTALL_DATA) gaeilgelit.hash $(ISPELLDIR)
-	iconv -f utf8 -t iso-8859-1 gaeilgelit.aff > tempaff.txt
+	iconv -f UTF-8 -t iso-8859-1 gaeilgelit.aff > tempaff.txt
 	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/gaeilgelit.aff
 	$(INSTALL_DATA) gaeilgemor.hash $(ISPELLDIR)
-	iconv -f utf8 -t iso-8859-1 $(ALTAFFIXFILE) > tempaff.txt
+	iconv -f UTF-8 -t iso-8859-1 $(ALTAFFIXFILE) > tempaff.txt
 	$(INSTALL_DATA) tempaff.txt $(ISPELLDIR)/$(ALTAFFIXFILE)
 	rm -f tempaff.txt
 
@@ -99,8 +99,8 @@ ASPELL=/usr/bin/aspell
 MYSPELL=/usr/bin/hunspell
 
 gaeilgehyph.hash: gaeilge.hyp gaeilgehyph.aff
-	iconv -f utf8 -t iso-8859-1 gaeilge.hyp > temphyp
-	iconv -f utf8 -t iso-8859-1 gaeilgehyph.aff > tempaff.txt
+	iconv -f UTF-8 -t iso-8859-1 gaeilge.hyp > temphyp
+	iconv -f UTF-8 -t iso-8859-1 gaeilgehyph.aff > tempaff.txt
 	$(ISPELLBIN)/buildhash temphyp tempaff.txt gaeilgehyph.hash
 	rm -f temphyp tempaff.txt
 
@@ -269,13 +269,13 @@ allcounts: FORCE
 
 # ispell -e3 will only work with latin-1 input 
 aspell.txt: gaeilge.hash
-	cat $(RAWWORDS) | iconv -f utf8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilge -e3 | iconv -f iso-8859-1 -t utf8 | tr " " "\n" | egrep -v '\/' | sort -u > aspell.txt
+	cat $(RAWWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilge -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > aspell.txt
 
 aspelllit.txt: gaeilgelit.hash
-	cat $(RAWWORDS) $(LITWORDS) | iconv -f utf8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgelit -e3 | iconv -f iso-8859-1 -t utf8 | tr " " "\n" | egrep -v '\/' | sort -u > aspelllit.txt
+	cat $(RAWWORDS) $(LITWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgelit -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > aspelllit.txt
 
 aspellalt.txt: gaeilgemor.hash
-	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | iconv -f utf8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | iconv -f iso-8859-1 -t utf8 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
+	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
 
 # (1) generate all words by unmunching hunspell dic/aff
 # and be sure they're all in aspell.txt (i.e. gen. by ispell affix file)
@@ -431,7 +431,7 @@ SentenceExceptList.xml: ${HOME}/gaeilge/gramadoir/gr/ga/giorr-ga.txt
 	echo '<?xml version="1.0" encoding="UTF-8"?>' > $@
 	echo >> $@
 	echo '<block-list:block-list xmlns:block-list="http://openoffice.org/2001/block-list">' >> $@
-	cat ${HOME}/gaeilge/gramadoir/gr/ga/giorr-ga.txt | iconv -f iso-8859-1 -t utf8 | sed 's/\[.\(.\)\]/\1/' | sed 's/.*/ <block-list:block block-list:abbreviated-name="&."\/>/' >> $@
+	cat ${HOME}/gaeilge/gramadoir/gr/ga/giorr-ga.txt | iconv -f iso-8859-1 -t UTF-8 | sed 's/\[.\(.\)\]/\1/' | sed 's/.*/ <block-list:block block-list:abbreviated-name="&."\/>/' >> $@
 	echo '</block-list:block-list>' >> $@
 	
 WordExceptList.xml: leadingcaps
@@ -546,8 +546,8 @@ adist: aspell.txt apersonal ChangeLog
 	chmod 644 a.tmp README README.aspell gaeilge_phonet.dat info repl gaeilge.dat
 	cp -f README $(ASPELLDEV)/Copyright
 	cp -f README.aspell $(ASPELLDEV)/doc/README
-	iconv -f utf8 -t iso-8859-1 gaeilge_phonet.dat > $(ASPELLDEV)/ga_phonet.dat
-	iconv -f utf8 -t iso-8859-1 a.tmp > $(ASPELLDEV)/aspell.txt
+	iconv -f UTF-8 -t iso-8859-1 gaeilge_phonet.dat > $(ASPELLDEV)/ga_phonet.dat
+	iconv -f UTF-8 -t iso-8859-1 a.tmp > $(ASPELLDEV)/aspell.txt
 	cp -f info $(ASPELLDEV)
 	cp -f repl $(ASPELLDEV)/doc
 	cp -f ChangeLog $(ASPELLDEV)/doc

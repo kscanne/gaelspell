@@ -112,7 +112,7 @@ gaeilgemor.diff:
 # from backend database
 veryclean:
 	$(MAKE) distclean
-	rm -f miotas.txt stair.txt romhanach ChangeLog giorr
+	rm -f miotas.txt stair.txt romhanach ChangeLog giorr athfhocail-pre.txt gaeilge-pre.mor
 
 # clean a few files that are in version control, but which I generate
 # from the backend database periodically

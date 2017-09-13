@@ -130,6 +130,7 @@ Bhréanainn
 Bhríd
 Bhríde
 Bhróna
+Bhrúin
 Bhuachalla
 Bhuadáin
 Bhuitléaraigh
@@ -299,10 +300,12 @@ Chilliain
 Chinnéide
 Chinnéidigh
 Chionnaith
+Chití
 Chlochráin
 Chláis
 Chlás
 Chléirigh
+Chlíodhna
 Chlóidigh
 Chnáimhsí
 Chochlainn
@@ -425,6 +428,7 @@ Comhraidhe
 Comhraí
 Con
 Conaill
+Conaillín
 Conaing
 Conaire
 Conal
@@ -469,6 +473,8 @@ Connmhaigh
 Conraoi
 Consaidín
 Corcoráil
+Corcoráin
+Corcráin
 Cormac
 Cormaic
 Corragáin
@@ -535,6 +541,9 @@ Cóilín
 Cómhanaigh
 Cónnaille
 Cúndún
+d'Eibhlín
+d'Eoghan
+d'Fhearghus
 Daeid
 Daibhéad
 Daibhéid
@@ -572,6 +581,7 @@ Dhochartaigh
 Dhoiminic
 Dhoirnín
 Dhomhnaill
+Dhomhnaillín
 Dhomhnall
 Dhonnabháin
 Dhonnagáin
@@ -581,6 +591,7 @@ Dhonnchadha
 Dhonnchaidh
 Dhonnchú
 Dhroighneáin
+Dhubhghaill
 Dhubhthaigh
 Dhubháin
 Dhufaigh
@@ -598,6 +609,7 @@ Dhómhnaigh
 Dhónaill
 Dhúgáin
 Dhúill
+Dhúnlaing
 Diarmada
 Diarmaid
 Diarmuid
@@ -618,7 +630,9 @@ Doiminic
 Doinnchín
 Doirnín
 Domhnaill
+Domhnaillín
 Domhnall
+Domhnallach
 Domhnalláin
 Donghaile
 Donnabháin
@@ -730,6 +744,7 @@ Feardaí
 Feardorcha
 Feargal
 Fearghail
+Fearghaill
 Fearghal
 Fearghas
 Fearghus
@@ -769,6 +784,7 @@ Fhionnlaoich
 Fhionnáin
 Fhionnán
 Fhirbhisigh
+Fhirbisigh
 Fhlaithbheartach
 Fhlaithearta
 Fhlaithrí
@@ -791,6 +807,7 @@ Fiachrach
 Fiaich
 Fiannachta
 Fiannaidhe
+Finghín
 Finnbhéil
 Finneadha
 Fiodhnaise
@@ -805,6 +822,7 @@ Fionnáin
 Fionnán
 Fionán
 Firbhisigh
+Firbisigh
 Firghil
 Flaithbheartach
 Flaithbheartaigh
@@ -823,7 +841,9 @@ Foghlú
 Foighil
 Frainc
 Fraincín
+Frighil
 Fréine
+Fréiní
 Fáilbhe
 Fátharta
 Féilim
@@ -842,6 +862,7 @@ Gairmleadhaigh
 Gallachóir
 Gallaí
 Gallchobhair
+Gallchobhaireach
 Gallchóir
 Gaoithín
 Gaora
@@ -1044,6 +1065,7 @@ Leannain
 Learaí
 Leathlaobhair
 Leocháin
+Leoid
 Leon
 Leódhais
 Liadh
@@ -1138,7 +1160,9 @@ Matha
 Mathúna
 mBairéadach
 mBlácach
+mBreathnach
 mBrianach
+mBrúnach
 mBúrcach
 Meachair
 Meadhbh
@@ -1178,6 +1202,7 @@ Mhicilín
 Mhicí
 Mhig
 Mhistéal
+Mhodhráin
 Mhodhránach
 Mhonacháin
 Mhonghaile
@@ -1185,10 +1210,12 @@ Mhorna
 Mhuircheartach
 Mhuircheartaigh
 Mhuire
+Mhuirgheasa
 Mhuirghéis
 Mhuiris
 Mhuirthile
 Mhuiréide
+Mhuisire
 Mhurchadh
 Mhurchadha
 Mhurchaidh
@@ -1241,6 +1268,7 @@ Muiréad
 Muirí
 Muiríneach
 Muiríoch
+Muisire
 Murchadh
 Murchadha
 Murchaidh
@@ -1284,6 +1312,7 @@ nDálach
 Neachtain
 Neachtán
 Neain
+Neainín
 Neans
 Neansaí
 Neasa
@@ -1309,6 +1338,7 @@ Nuadháin
 Nuala
 Nualaidín
 Nualainn
+Nualaitín
 Nualann
 Nuallain
 Nualláin
@@ -1346,6 +1376,7 @@ Parthalán
 Peadair
 Peadar
 Peait
+Peaits
 Peatáin
 Peig
 Peige
@@ -1359,6 +1390,7 @@ Phaorach
 Pharthaláin
 Pheadair
 Pheait
+Pheaits
 Phearsain
 Pheats
 Pheig
@@ -1366,6 +1398,7 @@ Pheige
 Pheigí
 Pheigín
 Phiarais
+Phiaras
 Phiarsach
 Phiarsaigh
 Phroinnsís
@@ -1417,6 +1450,7 @@ Raghallaigh
 Raghnall
 Raghnallach
 Raicín
+Raidhrí
 Raifeartaigh
 Raiftearaí
 Raifteirí
@@ -1523,6 +1557,7 @@ Seosaimhín
 Seosamh
 Seáinín
 Seán
+Seárlaí
 Seósamh
 Shabaistín
 Shadhbh
@@ -1553,6 +1588,7 @@ Shorcha
 Shuibhne
 Shuibhneach
 Shuilleabháin
+Sháibhe
 Shé
 Shéagha
 Shéamais
@@ -1560,6 +1596,7 @@ Shéamaisín
 Shéamas
 Shéamaí
 Shéamuis
+Shéamuisín
 Shéamus
 Shéarlais
 Shéarlas
@@ -1609,6 +1646,7 @@ Séaghdha
 Séamaisín
 Séamas
 Séamuis
+Séamuisín
 Séamus
 Séarlas
 Séarlaí
@@ -1705,6 +1743,7 @@ Uidhir
 Uidhrín
 Uiginn
 Uigín
+Uilic
 Uilliam
 Uinseann
 Uinsionn

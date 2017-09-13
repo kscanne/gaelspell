@@ -139,8 +139,10 @@ gaeilge.raw gaeilge.lit gaeilge-pre.mor: ${HOME}/math/code/data/Dictionary/IG
 	mv tempfile gaeilge.lit
 	mv -f gaeilge.mor gaeilge-pre.mor
 
-gaeilge.mor: gaeilge-pre.mor athfhocail
-	(cat gaeilge-pre.mor; cat athfhocail | sed 's/ .*//' | keepif -n ./aspellalt.txt | LC_ALL=C sort -u) > $@
+gaeilge.mor: gaeilge-pre.mor dinneenalts.txt fgbalts.txt myalts.txt riaalts.txt
+	cat gaeilge-pre.mor | sed 's/\/.*//' > headwordtemp.txt
+	(cat gaeilge-pre.mor; cat dinneenalts.txt fgbalts.txt myalts.txt riaalts.txt | sed 's/ .*//' | keepif -n headwordtemp.txt | LC_ALL=C sort -u) > $@
+	rm -f headwordtemp.txt
 	$(GOODSORT) $(ALTWORDS) > tempfile
 	mv tempfile $(ALTWORDS)
 

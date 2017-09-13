@@ -168,11 +168,10 @@ giorr : giorr.in
 	cat giorr.in | sed 's/ .*//' | sort -f | sort -u > $@
 
 # giorr done above
+# don't sort apost since that causes rebuild of aposttodo.txt for caighdean
 sortpersonal: FORCE
 	LC_ALL=C sort -u aitiuil | LC_ALL=C sort -f > tempfile
 	mv tempfile aitiuil
-	LC_ALL=C sort -u apost | sort -f -k1,1 > tempfile
-	mv tempfile apost
 	LC_ALL=C sort -u daoine | LC_ALL=C sort -f > tempfile
 	mv tempfile daoine
 	LC_ALL=C sort -u eachtar | LC_ALL=C sort -f > tempfile

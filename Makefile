@@ -129,6 +129,8 @@ GOODSORT=bash ./isort
 # I also add words from *alts.txt files to it (see gaeilge.mor target)
 # Need to do this after athfhocail and aspellalt.txt have been
 # regenerated.  Gin 7 generates the three gaeilge.* files.
+# Note that the files Gin 7 creates are ISO-8859-1 and don't have
+# a trailing newline; call to "utf" and the sort process fix those issues
 gaeilge.raw gaeilge.lit gaeilge-pre.mor: ${HOME}/math/code/data/Dictionary/IG
 	$(GIN) 7
 	utf gaeilge.raw gaeilge.lit gaeilge.mor
@@ -137,7 +139,7 @@ gaeilge.raw gaeilge.lit gaeilge-pre.mor: ${HOME}/math/code/data/Dictionary/IG
 	mv tempfile $(RAWWORDS)
 	$(GOODSORT) gaeilge.lit > tempfile
 	mv tempfile gaeilge.lit
-	mv -f gaeilge.mor gaeilge-pre.mor
+	$(GOODSORT) gaeilge.mor > gaeilge-pre.mor
 
 gaeilge.mor: gaeilge-pre.mor dinneenalts.txt fgbalts.txt myalts.txt riaalts.txt
 	cat gaeilge-pre.mor | sed 's/\/.*//' > headwordtemp.txt

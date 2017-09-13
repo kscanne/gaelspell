@@ -267,14 +267,14 @@ allcounts: FORCE
 	@echo 'focal infhillte'
 
 # ispell -e3 will only work with latin-1 input 
-aspell.txt: gaeilge.hash
-	cat $(RAWWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilge -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > aspell.txt
+aspell.txt: $(RAWWORDS) gaeilge.hash
+	cat $(RAWWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilge -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > $@
 
-aspelllit.txt: gaeilgelit.hash
-	cat $(RAWWORDS) $(LITWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgelit -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > aspelllit.txt
+aspelllit.txt: $(RAWWORDS) $(LITWORDS) gaeilgelit.hash
+	cat $(RAWWORDS) $(LITWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgelit -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > $@
 
-aspellalt.txt: gaeilgemor.hash
-	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > aspellalt.txt
+aspellalt.txt: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) gaeilgemor.hash
+	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > $@
 
 # (1) generate all words by unmunching hunspell dic/aff
 # and be sure they're all in aspell.txt (i.e. gen. by ispell affix file)
@@ -302,15 +302,9 @@ seanghaeilge.dic: aspell.txt
 	(echo '[Header]'; echo "Version=$(RELEASE)"; echo 'Author=Kevin Scannell'; echo 'StandardCategory=GaelSpell'; echo 'Licence=GNU GPLv2'; echo "Comment=This is Kevin Scannell's GaelSpell Irish word list"; echo '[Replace]'; echo 'Ḃ=BH'; echo 'Ċ=CH'; echo 'Ḋ=DH'; echo 'Ḟ=FH'; echo 'Ġ=GH'; echo 'Ṁ=MH'; echo 'Ṗ=PH'; echo 'Ṡ=SH'; echo 'Ṫ=TH'; echo '[Categories]'; echo '[Words]'; cat aspell.txt | egrep '..' | egrep -v '[A-ZÁÉÍÓÚ]' | tr 'a-záéíóú' 'A-ZÁÉÍÓÚ' | egrep -v "[JKQVWXYZ'-]" | egrep -v '^H' | egrep -v '[^BCDFGMPST]H' | sed 's/BH/Ḃ/g; s/CH/Ċ/g; s/DH/Ḋ/g; s/FH/Ḟ/g; s/GH/Ġ/g; s/MH/Ṁ/g; s/PH/Ṗ/g; s/SH/Ṡ/g; s/TH/Ṫ/g') > $@
 
 # these aspell functions are unimplemented according to K.A. 7/2/03
-apersonal: $(PERSONAL) giorr
-	(echo "personal_repl-1.1 ga 0 utf-8"; sort -u athfhocail earraidi gaelu) > repl
-	cp -f repl $(HOME)/.aspell.ga.prepl
-#	(echo "personal_ws-1.1 ga 0"; sort -u $(PERSONAL)) > pearsanta
-#	cp -f pearsanta $(HOME)/.aspell.ga.pws
-#	rm -f $(HOME)/.aspell.ga.rpl
-#	cat athfhocail | $(ASPELL) --lang=ga create repl $(HOME)/.aspell.ga.rpl
-#	rm -f $(HOME)/.aspell.ga.per
-#	sort -u $(PERSONAL) | $(ASPELL) --lang=ga create personal $(HOME)/.aspell.ga.per < tempwords 
+repl: athfhocail earraidi gaelu
+	(echo "personal_repl-1.1 ga 0 utf-8"; sort -u athfhocail earraidi gaelu) > $@
+	cp -f $@ $(HOME)/.aspell.ga.prepl
 
 installweb: FORCE
 	$(INSTALL_DATA) index.html $(HOME)/public_html/ispell
@@ -494,7 +488,7 @@ gaelspell.txt: aspell.txt $(PERSONAL)
 
 # clean word list for Caighdeánaitheoir "clean.txt"
 # used to just use gaelspell.txt but I wanted aspelllit.txt words too
-caighdean.txt: aspelllit.txt $(PERSONAL)
+caighdean.txt: aspelllit.txt $(PERSONAL) uimhreacha
 	sort -u aspelllit.txt $(PERSONAL) uimhreacha > $@
 
 gaelspell.zip: gaelspell.txt COPYING README
@@ -540,7 +534,7 @@ ga_inclusion-utf8.txt ga_corpus-utf8.txt: gaelspellalt.txt $(CLEANFREQ)
 twitter-survey.txt: gaelspell-anything.txt ${CORPUS}/l/Twitter
 	cat ${CORPUS}/l/Twitter | sed 's/[#@][A-Za-z0-9áéíóúÁÉÍÓÚ_-]*//g' | sed 's/http[^ ]*//g' | togail ga token | egrep '[A-Za-záéíóúÁÉÍÓÚ]' | keepif -n gaelspell-anything.txt | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
 
-adist: aspell.txt apersonal ChangeLog
+adist: aspell.txt repl ChangeLog
 	LC_ALL=C sort -u aspell.txt $(PERSONAL) latecaps > a.tmp
 	chmod 644 a.tmp README README.aspell gaeilge_phonet.dat info repl gaeilge.dat
 	cp -f README $(ASPELLDEV)/Copyright

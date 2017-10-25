@@ -196,6 +196,7 @@ b'aige ba aige
 b'air ba air
 b'e ba é
 b'eigin b'éigean
+b'fhacas chonacthas
 b'fhacthas chonacthas
 b'fhearacht ba é a fhearacht
 b'fhéadair b'fhéidir
@@ -234,6 +235,7 @@ Beránger Béranger
 Betlehem Beithil
 Bettí Beití
 bfhearr b'fhearr
+bfhiú b'fhiú
 bfuilid bhfuil siad
 bfuill bhfuil
 Bhaal Bhál
@@ -376,6 +378,8 @@ bhfágham bhfaighimid
 bhfághann bhfaigheann
 bhfágtí bhfágfaí
 bhFáilghe bhFailí
+bhfásaid bhfásann
+bhfásaid bhfásann siad
 bhféadan bhféadann
 bhféadfidís bhféadfaidís
 bhféadfimís bhféadfaimis
@@ -395,6 +399,8 @@ Bhrighide Bhríde
 Bhríghde Bhríde
 Bhríghid Bhríd
 Bhríghidín Bhrídín
+bhuailid bhuaileann
+bhuailid bhuaileann siad
 bhudh ba
 bhéad bheidh mé
 bhéadsa bheidh mise
@@ -525,6 +531,7 @@ chlainnse chlannsa
 Chlaudius Chláidias
 Chlauidias Chláidias
 Chleopátra Chléópátra
+chodlais chodail tú
 chodlas chodail mé
 choinnesa choinnese
 chol-ceathar chol ceathrair
@@ -565,9 +572,11 @@ chualasa chuala mise
 chualaís chuala tú
 chuas chuaigh mé
 chuas-sa chuaigh mise
+chucasan chucusan
 Chuchulain Chú Chulainn
 chud chuid
 chugadsa chugatsa
+chugainn-ne chugainne
 chuidsa chuidse
 Chuinigh Choinnigh
 chuireans chuireann
@@ -698,6 +707,7 @@ d'fhásann a fhásann
 d'fhéadfad d'fhéadfadh
 d'fhúig d'fhág
 d'iar d'iarr
+d'iaradar d'iarradar
 d'iarrfaidh iarrfaidh
 d'imthidh d'imigh
 d'imthig d'imigh
@@ -736,6 +746,7 @@ daoithesa dise
 daoithese dise
 Daphne Dafnae
 Darius Dáirias
+dbhur do bhur
 de'm de mo
 Dealgain Dealgan
 deinimse déanaimse
@@ -818,8 +829,10 @@ dhéinid dhéanann
 dhíbirsiod dhíbríodar
 dhíobhsan díobhsan
 dhíthcéille dhíth céille
+dhóibhsan dóibhsean
 dhóibhsean dóibhsean
 Dhómhnail Dhónail
+dhúisig dhúisigh
 Dhúnchaoin Dhún Chaoin
 Dhúngarbhán Dhún Garbhán
 Diarmuda Diarmada
@@ -827,6 +840,7 @@ Diarmut Diarmaid
 dilse dílse
 dividenda díbhinní
 dividendum díbhinn
+do'd do do
 do'm do mo
 dob ab
 dob'eadh ba ea
@@ -1141,6 +1155,7 @@ fhaghair fhaigheann tú
 fhaiceann fheiceann
 fheaca fhaca
 fheacamair fhacamar
+fheacasa fhaca mé
 fheacathas fhacthas
 fheacaís fhaca tú
 Fhearmuighe Fhear Maí
@@ -1209,6 +1224,8 @@ Gaililee Gailíle
 Gaililee na Gailíle
 Gaillti Gailte
 gairfí ghairfí
+galgreine gal gréine
+galgreineac galghréineach
 galgreineach galghréineach
 gansrang gan sreang
 gaodal Gael
@@ -1326,6 +1343,8 @@ Hiobáird Hiobaird
 hiomchradh iompraíodh
 hiompradh iompraíodh
 Holofernes Holafarnaes
+htabhairt thabhairt
+htouirt thabhairt
 htugan thugann
 hug thug
 huga chugat
@@ -1334,6 +1353,7 @@ Huircánach Hiorcánas
 Huircánuis Hiorcánas
 hÉigceartaigh hÉigeartaigh
 hÉil Héil
+héinní haon ní
 Hélen Héilin
 Hélí Héilí
 Hérod Héaród
@@ -1357,8 +1377,31 @@ Iesabel Ízeibil
 Ietró Iatró
 imbliadhna i mbliana
 in-aice in aice
+in-aimhdheoin in ainneoin
+in-ainm in ainm
+in-am in am
+in-an in ann
 in-ann in ann
+in-ao'-chor in aon chor
+in-aois in aois
 in-aon in aon
+in-aon-chor in aon chor
+in-aonfheacht in éineacht
+in-eagar in eagar
+in-easnamh in easnamh
+in-inead in ionad
+in-inmhe in inmhe
+in-ionad in ionad
+in-iúil in iúl
+in-iúl in iúl
+in-oigheallan in oighneán
+in-uimhir in uimhir
+in-Éirinn in Éirinn
+in-áit in áit
+in-éag in éag
+in-éan in aon
+in-éan-chor in aon chor
+in-éinfheacht in éineacht
 indán i ndán
 ingan i ngan
 inganfhios i ngan fhios
@@ -1404,6 +1447,7 @@ le'm le mo
 le'n lena
 le'r lenar
 le'r lenár
+leannan leanann
 Leargán Leargain
 leataoibh leataobh
 leath-bealaigh leath bealaigh
@@ -1453,6 +1497,8 @@ Magdalén Mhaigdiléana
 Maghchromtha Maigh Chromtha
 Maghnus Mánas
 Mairghréad Maighréad
+mairir maire tú
+mairirse maire tú
 Malluch Mallúc
 Maoinis Maonais
 Maolmuire Maolmhuire
@@ -1466,6 +1512,7 @@ Mathghamhna Mathúna
 Mathghamhnach Mathúnach
 Mathghamhun Mathúna
 mB'l'áth mBaile Átha
+mB'l'áthluain mBaile Átha Luain
 mbadh mba
 mbainid mbaineann siad
 mBanba mBanbha
@@ -1568,6 +1615,7 @@ n'fheadair ní fheadar
 n'fhear ina fhear
 n'fhéadfadh ní fhéadfadh
 n'fhéadfainn ní fhéadfainn
+n'íl níl
 n-abraid ndeir
 n-abraid ndeir siad
 n-abórainn ndéarfainn
@@ -1628,6 +1676,7 @@ ndéanair ndéanfaidh tú
 ndéanfad ndéanfaidh mé
 ndéanfair ndéanfaidh tú
 ndúbhairt ndúirt
+ndúbhart ndúirt
 nDúnchaoin nDún Chaoin
 nDúngarbhán nDún Garbhán
 ndúras ndúirt mé
@@ -1915,6 +1964,7 @@ séa'r'd is éard
 Séasar Caesar
 Séimidh Séimí
 Séimisín Séamaisín
+sér'd is éard
 Síghle Síle
 Sígurd Sigurd
 Símeon Simeon
@@ -2040,6 +2090,8 @@ tugadar thugadar
 tugas thug mé
 tugsad thugadar
 tuigfí thuigfí
+tuitfeadh dtitfeadh
+tuitfeadh thitfeadh
 tuitthe tite
 tÁird-Rí tArdrí
 táid tá siad
@@ -2098,6 +2150,7 @@ Zíon Síón
 ás as
 é'n é an
 é-fhéin é féin
+é-féin é féin
 éan-amhras aon amhras
 éan-chuma aon chuma
 éan-fhocal aon fhocal
@@ -2124,6 +2177,8 @@ Zíon Síón
 ís is
 ó'd ó do
 ó'm ó mo
+ólaid ólann
+ólaid ólann siad
 ólas ól mé
 ólas ólann
 ólas-sa ól mise

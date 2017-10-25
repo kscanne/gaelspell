@@ -3114,8 +3114,12 @@ an-bhaol
 an-bheag
 an-bhocht/HB
 an-bhochta/B
+an-bhog/HB
+an-bhoga/B
 an-bhoicht
 an-bhoichte/B
+an-bhoig
+an-bhoige/B
 an-bhreá/HB
 an-bhródúil
 an-bhrónach/HB
@@ -28785,9 +28789,12 @@ deargaistrithe/US
 deargaistriú/US
 deargbhithiúnach/US
 deargbhithiúnaigh/US
+deargbhréag/US
+deargbhréaga/US
 deargbhréagadóir/US
 deargbhréagadóirí/US
 deargbhréagadóra/US
+deargbhréige/US
 deargbhuile/US
 deargchorcra/S
 deargchosach/S
@@ -40761,8 +40768,10 @@ fíorluachmhar/BS
 fíorluachmhara/BS
 fíorláidir/BS
 fíorláidre/BS
+fíormhac/MDBUS
 fíormhaith/BS
 fíormhaithe/BS
+fíormhic/MDBUS
 fíormhullach/MDBUS
 fíormhullaigh/MDUS
 fíormhullaí/MDBUS
@@ -53832,6 +53841,10 @@ lomaim/A
 lomainn/E
 lomair
 lomaire
+lomairnéaltach
+lomairnéaltacha
+lomairnéaltaigh
+lomairnéaltaí
 lomairt
 lomairtí
 lomairí
@@ -60240,6 +60253,8 @@ muicirise/S
 muicirisí/S
 muicithe/S
 muicí/S
+muicín/S
+muicíní/S
 muid
 muidne
 muifléad/S
@@ -62114,8 +62129,10 @@ mórsheisir/S
 mórshiúil/S
 mórshiúl/S
 mórshiúlta/S
+mórshliabh/S
 mórshlua/S
 mórshluaite/S
+mórshléibhe/S
 mórshrónach/S
 mórshrónacha/S
 mórshrónaigh/S
@@ -69539,6 +69556,9 @@ príomhscileanna/US
 príomhscéal/US
 príomhscéalta/US
 príomhscéil/US
+príomhscéim/US
+príomhscéime/US
+príomhscéimeanna/US
 príomhshamhaltais/US
 príomhshamhaltas/US
 príomhsheomra/US
@@ -72953,6 +72973,10 @@ ró-aosta
 ró-ard
 ró-iascaireacht
 ró-iascaireachta
+ró-iontach
+ró-iontacha
+ró-iontaigh
+ró-iontaí
 ró-oifigiúlachais
 ró-oifigiúlachas
 ró-oilc
@@ -72973,6 +72997,8 @@ ró-ualaínn/F
 ró-ualú
 ró-uasail
 ró-uasal
+ró-áille
+ró-álainn
 ró-éasca
 ró-éileamh
 ró-éilimh
@@ -73000,6 +73026,8 @@ róbheaga
 róbheaichte
 róbhig
 róbhige
+róbhinn
+róbhinne
 róbhocht
 róbhochta
 róbhog
@@ -73106,6 +73134,7 @@ ródhoilí
 ródhoimhne
 ródhomhain
 ródhona
+ródhorcha
 ródháileog
 ródháileoga
 ródháileoige
@@ -77323,6 +77352,8 @@ seanpháipéar/S
 seanpháipéir/ST
 seanphéire/ST
 seanphéirí/S
+seanphíopa/ST
+seanphíopaí/S
 seanrainn/ST
 seanrann/S
 seanreacht/S
@@ -79143,6 +79174,8 @@ siúlbhealaí/S
 siúlscéalaithe/S
 siúlscéalaí/ST
 siúlta/S
+siúláin/ST
+siúlán/S
 siúlóid/ST
 siúlóide/S
 siúlóideach/S
@@ -84934,6 +84967,8 @@ síormhachnamh/S
 síormheilt/ST
 síormheilte/S
 síormheisce/ST
+síormholadh/S
+síormholta/ST
 síorsheaca/ST
 síorshioc/S
 síorshiúil/ST

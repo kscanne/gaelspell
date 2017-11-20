@@ -8,7 +8,7 @@ INSTALL=/usr/bin/install
 SHELL=/bin/sh
 MAKE=/usr/bin/make
 GALLPERSONAL=aitiuil eachtar gall giorr gno romhanach
-GAELPERSONAL=daoine logainm miotas.txt stair.txt treise
+GAELPERSONAL=bioblabeag daoine logainm miotas.txt stair.txt treise
 PERSONAL=$(GALLPERSONAL) $(GAELPERSONAL)
 
 #   Shouldn't have to change anything below here
@@ -315,7 +315,7 @@ installweb: FORCE
 dist: FORCE
 	$(MAKE) ChangeLog stair.txt miotas.txt romhanach giorr
 	sed '/development only/,$$d' ./Makefile > makefile
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt treise makefile
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla bioblabeag daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt treise makefile
 	chmod 755 igcheck
 	ln -s gaelspell ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -330,6 +330,7 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/makefile
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/aitiuil
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/biobla
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/bioblabeag
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/daoine
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/eachtar
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gall

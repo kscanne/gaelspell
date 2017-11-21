@@ -7,7 +7,7 @@ ISPELLBIN=/usr/bin
 INSTALL=/usr/bin/install
 SHELL=/bin/sh
 MAKE=/usr/bin/make
-GALLPERSONAL=aitiuil eachtar gall giorr gno romhanach
+GALLPERSONAL=aitiuil ceol eachtar gall giorr gno lit romhanach
 GAELPERSONAL=bioblabeag daoine logainm miotas.txt stair.txt treise
 PERSONAL=$(GALLPERSONAL) $(GAELPERSONAL)
 
@@ -171,6 +171,8 @@ giorr : giorr.in
 sortpersonal: FORCE
 	LC_ALL=C sort -u aitiuil | LC_ALL=C sort -f > tempfile
 	mv tempfile aitiuil
+	LC_ALL=C sort -u ceol | LC_ALL=C sort -f > tempfile
+	mv tempfile ceol
 	LC_ALL=C sort -u daoine | LC_ALL=C sort -f > tempfile
 	mv tempfile daoine
 	LC_ALL=C sort -u eachtar | LC_ALL=C sort -f > tempfile
@@ -179,6 +181,8 @@ sortpersonal: FORCE
 	mv tempfile gall
 	LC_ALL=C sort -u gno | LC_ALL=C sort -f > tempfile
 	mv tempfile gno
+	LC_ALL=C sort -u lit | LC_ALL=C sort -f > tempfile
+	mv tempfile lit
 	LC_ALL=C sort -u logainm | LC_ALL=C sort -f > tempfile
 	mv tempfile logainm
 	LC_ALL=C sort -u miotas | LC_ALL=C sort -f > tempfile
@@ -315,7 +319,7 @@ installweb: FORCE
 dist: FORCE
 	$(MAKE) ChangeLog stair.txt miotas.txt romhanach giorr
 	sed '/development only/,$$d' ./Makefile > makefile
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla bioblabeag daoine eachtar gall giorr gno logainm miotas.txt romhanach stair.txt treise makefile
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla bioblabeag ceol daoine eachtar gall giorr gno lit logainm miotas.txt romhanach stair.txt treise makefile
 	chmod 755 igcheck
 	ln -s gaelspell ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -331,12 +335,14 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/aitiuil
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/biobla
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/bioblabeag
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/ceol
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/daoine
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/eachtar
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gall
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/giorr
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gno
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/igcheck
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/lit
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/logainm
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/miotas.txt
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/romhanach

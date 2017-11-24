@@ -55,6 +55,7 @@ Citigroup
 Citroën
 Citywest
 Clarendon
+Clarion
 Claris
 Colgate
 Comcast
@@ -101,6 +102,7 @@ Eudora
 Euratom
 Eurolang
 Europa
+Europass
 Europol
 Europus
 Eurostat
@@ -114,6 +116,7 @@ Facebook
 Fedora
 Ferrari
 Fiat
+Filmbase
 Firefox
 Flash
 Flickr
@@ -133,6 +136,7 @@ Gaelscript
 GaelSpell
 Gaeltalk
 GaelTeic
+Gaiety
 Galaxy
 Gallup
 Gamble
@@ -141,6 +145,7 @@ Gcom
 Gentoo
 Ghostscript
 Gibsol
+Gleneagle
 Gmail
 Google
 Greenpeace
@@ -160,6 +165,7 @@ Hyundai
 iGaeilge
 iGoogle
 iMac
+Indecon
 Independent
 Indo
 Indymedia
@@ -242,6 +248,7 @@ Nintendo
 Nippon
 Nissan
 Nokia
+NovaUCD
 Oberweis
 Odeo
 Olympus
@@ -250,6 +257,7 @@ OpenOffice
 OpenPGP
 Opera
 Oracle
+Oscars
 Outlook
 Oxegen
 Oxfam
@@ -272,9 +280,11 @@ PowerPoint
 Prius
 Procter
 Prudential
+Pulse
 Python
 Quicktime
 Radisson
+Randox
 Rangers
 Raonaithe
 Ravelóid
@@ -286,12 +296,14 @@ Renault
 Reuters
 Roomthree
 Routledge
+Rovers
 Ruby
 Ryanair
 Rí-Rá
 Safari
 Samba
 Samsung
+Scarlets
 Scoilnet
 Scrabble
 Scratch
@@ -357,6 +369,7 @@ Vonage
 WalMart
 Westlife
 WhatsApp
+Whelan's
 Wii
 WikiLeaks
 Wiley
@@ -369,4 +382,5 @@ Xposé
 Yahoo
 Yelp
 YouTube
+Zara
 Óg-Ógras

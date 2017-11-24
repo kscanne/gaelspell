@@ -12,6 +12,7 @@ a'gluaiseacht
 a'inn
 a'inne
 a'm
+a'Mhíl
 a'msa
 a'n/HMDBUT
 a'nduine/H
@@ -3327,6 +3328,7 @@ ath-mhúsgluighthe
 ath-thógaint/HMDBU
 ath-thógainte/HMDU
 atha
+Atha'n
 athach/HMDBUT
 athaid
 athaidh
@@ -3872,6 +3874,7 @@ b'Iarachó
 b'Iarnaois
 b'Iarusalem
 b'Iarúsalem
+b'Iehova
 b'Ierichó
 b'Iericó
 b'Ierusaleim
@@ -10364,6 +10367,7 @@ Cheann-Fhaolaidh
 cheann-so
 cheannacha/U
 cheannachainn/EU
+Cheannfhaola
 cheannfurt
 cheannuig
 cheannuigheas-sa
@@ -13804,6 +13808,9 @@ comhoibritheoir/US
 comhoibritheoirí/US
 comhoibritheora/US
 comhoibriughadh/US
+comhoibríche/S
+comhoibríoch/S
+comhoibríocha/S
 comhoighre/US
 comhoighrí/US
 comhoireamhnach/S
@@ -16485,6 +16492,9 @@ céireach
 céiseog/US
 céiseoga/US
 céiseoige/US
+céist/US
+céiste/US
+céisteanna/US
 céisín/US
 céisíní/US
 céithleann/US
@@ -17872,6 +17882,7 @@ d'Iarusalem
 d'Iarúsalem
 d'idirnáisiúntaigh/U
 d'idirnáisiúntaínn/FU
+d'Iehova
 d'Ierichó
 d'Iericó
 d'Ierusaleim
@@ -18572,6 +18583,8 @@ dea-mhóideacha/S
 dea-mhóidigh/S
 dea-mhóidí/S
 dea-oibrea
+dea-rialachais/US
+dea-rialachas/US
 dea-shompla/US
 dea-shomplach
 dea-shomplaí/US
@@ -20926,6 +20939,8 @@ doicheal
 doichealach
 doichleach
 doichlí
+doiciméadúcháin/US
+doiciméadúchán/US
 doiciméid/US
 doiciméide/US
 doiciméidí/US
@@ -21907,6 +21922,7 @@ dTaidsícise
 dtaisbeánan
 dtaisbéanfaidh
 dtaithnfeadh
+dTaliban
 dtarlaigh
 dteachabhar
 dteachadar
@@ -22402,6 +22418,8 @@ dáileamhan
 dáiligh/US
 dáilithe/SU
 dáiliú/US
+dáiliúcháin/US
+dáiliúchán/US
 dáilím/USC
 dáimh
 dáimheach
@@ -26963,6 +26981,8 @@ fo-roinnte/MDUS
 fo-shirriam/MDBUS
 fo-shirriamaí/MDBUS
 fo-shirriamh/MDBUS
+foailt/MDBUS
+foalt/MDBUS
 fobair/US
 fobha/MDBUS
 fobhach/BS
@@ -32797,6 +32817,7 @@ gáibhthe
 gáibhtheach
 gáibhéireacht
 gáid/US
+Gáidhealtachd
 gáig/US
 gáige/US
 gáigeach
@@ -33337,6 +33358,8 @@ hEibhlís
 hEilbhéis
 hEilbhéise
 hEilbhéiseach
+heileacaptair
+heileacaptar
 hein
 hEireannaigh
 hEirinne
@@ -33391,6 +33414,7 @@ hidrealeictreacha
 hidrealeictrigh
 hidrealeictrí
 hidé
+hIehova
 hIerichó
 hIericó
 hIerusaleim
@@ -33716,6 +33740,8 @@ iaraidh
 iaraim
 iaraimh
 iaraimís
+iarAire/HU
+iarAirí/HU
 iaram
 iaramíd
 iaran
@@ -33922,6 +33948,7 @@ idéeolaíochta/HMDU
 idéithe/HMDBU
 idéolaíocht/HMDBU
 idéolaíochta/HMDU
+Iehova
 Iehú
 Iephte
 ier
@@ -36140,6 +36167,7 @@ laéthamhuil
 laímh
 laói
 le
+le'd
 le'm
 le'n
 le'n-a
@@ -37174,6 +37202,7 @@ lioraigh
 liorán
 lioscán
 liospán
+Liospóine
 liost
 liostach
 liostram
@@ -38788,6 +38817,7 @@ m'Iarnaois
 m'Iarnaoise
 m'Iarusalem
 m'Iarúsalem
+m'Iehova
 m'Ierichó
 m'Iericó
 m'Ierusaleim
@@ -42642,6 +42672,10 @@ neamhfhaitíosach
 neamhfhaitíosacha
 neamhfhaitíosaigh
 neamhfhaitíosaí
+neamhfheidhmeannach
+neamhfheidhmeannacha
+neamhfheidhmeannaigh
+neamhfheidhmeannaí
 neamhfhoghlumtha
 neamhfhoighdeach
 neamhfhoighdeacha
@@ -43075,6 +43109,7 @@ nid
 nide
 nidh
 nidhthibh
+nIehova
 nIerichó
 nIericó
 nIerusaleim
@@ -43238,6 +43273,7 @@ norrtha
 nota
 nua
 Nua-Eabhrach
+Nua-Eabhraic
 nua-Ghaedhilg
 Nua-ghaedhilge
 nua-Ghaedhilge
@@ -43587,6 +43623,7 @@ oba
 obaigh
 obainn
 obainne/HBMDU
+obairbhaile/HMDBU
 oban/HB
 obann/HB
 obanna/B
@@ -45251,6 +45288,8 @@ polamorfachais/US
 polamorfachas/US
 Polannais/S
 Polannaise/S
+polataíocht/US
+polataíochta/US
 polatúil/S
 polatúla/S
 polaí/US
@@ -45338,6 +45377,7 @@ potáta/US
 potátaí/US
 potúin/US
 potún/US
+Powerpoint
 poínnte
 prab/US
 prabhtais
@@ -47496,6 +47536,9 @@ ráon
 rápaire
 rápal
 rás
+rás-riain
+rás-rian
+rás-rianta
 rása
 rásach
 rásanna
@@ -47733,6 +47776,7 @@ ríghtheadh
 ríghtheighlach
 ríghtheighlaigh
 ríghthibh
+Rímhinn
 rínce
 ríncí
 ríobail
@@ -49049,8 +49093,11 @@ sceidhreach
 sceidimín
 sceidimíní
 sceilbe
+sceilig
+sceilige
 sceilimis
 sceillig
+sceillige
 sceilligeach
 sceilp
 sceilpeach
@@ -49769,6 +49816,7 @@ scríbhnithe
 scríbhní
 scríbhte
 scrífe
+scrígh
 scríobadóir
 scríobarnach
 scríobhadóir
@@ -50315,6 +50363,7 @@ seandhuine/ST
 seanduiní/S
 seanfaíoch
 seanfhaltanas
+seanfhocla/S
 seanfhundúir/S
 seanfhundúirí/S
 seanfhundúra/ST
@@ -56016,6 +56065,7 @@ t-Athair
 t-bhacart
 t-chonnairc
 t-chualaidh
+t-iarAire
 t-Iroquois
 t-itheadóir
 t-ochtmadh
@@ -56525,6 +56575,7 @@ talcantachta/US
 talchaireacht
 talcmhaireacht
 talcmhar
+Taliban/S
 tall
 tallainn
 tallaire
@@ -58033,6 +58084,7 @@ ticineálaí
 ticéadaí/US
 ticéidí/US
 tidhimse
+tIehova
 tIerichó
 tIericó
 tiflíteas/US
@@ -59095,6 +59147,8 @@ treabhairí/US
 treabhaite
 treabhanna/US
 treabhaí
+treabhdóireacht/US
+treabhdóireachta/US
 treabhlach/US
 treabhlaigh/US
 treabhlas
@@ -60616,6 +60670,8 @@ téaltóigh
 téaltú/US
 téalú/US
 téamfaí
+téamúil/S
+téamúla/S
 téanaidh
 téanaidhidh
 téanaig
@@ -61306,6 +61362,7 @@ uile-chomhachtach
 uile-chómhachtach
 uile-go-léir
 uile-oileánda
+uile-Éireannach
 uile-íce/HMDBUT
 uileag
 uilechomhachtach/HB
@@ -61883,6 +61940,7 @@ yeanavh
 yia
 ynaih
 yo
+Youtube
 Zeús
 Zéalainn
 Zéalann
@@ -61908,6 +61966,7 @@ Zíon
 Ástráil
 Ástráile
 Áth-Cliath
+Átha'n
 Éabh
 Éabró
 Éadhmonn

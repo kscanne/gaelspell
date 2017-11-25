@@ -43,10 +43,12 @@ Cadillac
 Caldera
 Carlsberg
 Carrefour
+Centra
 Chase
 Cheerios
 Chevron
 Chrome
+Chronicle
 Chrysler
 Cingular
 Cisco
@@ -122,6 +124,7 @@ Flash
 Flickr
 Flirt
 FocalFactory
+Folens
 Formula
 Foróige
 Foxconn
@@ -165,6 +168,7 @@ Hyundai
 iGaeilge
 iGoogle
 iMac
+Imram
 Indecon
 Independent
 Indo
@@ -197,10 +201,13 @@ Lakers
 LaTeX
 Lego
 LibreOffice
+Lidl
 LinkedIn
 Linspire
 Linux
 Lockheed
+Lohans
+Londis
 Lotus
 Lurgan
 Lycos
@@ -251,6 +258,7 @@ Nokia
 NovaUCD
 Oberweis
 Odeo
+Ofcom
 Olympus
 OpenGL
 OpenOffice
@@ -311,6 +319,7 @@ Shailearna
 Shelbourne
 Shell
 Siemens
+Skillnets
 Skolelinux
 Sky
 Skype
@@ -320,11 +329,15 @@ Smithsonian
 Smurfit
 Snapchat
 Sony
+SoundCloud
+SourceForge
+Spar
 SpongeBob
 Spotify
 Starbucks
 Statoil
 Subhóró
+Superquinn
 SuperValu
 Symantec
 Sétanta
@@ -352,6 +365,7 @@ Ubuntu
 Unicode
 Unilever
 United
+Unix
 Veritas
 Verizon
 Viacom
@@ -374,6 +388,7 @@ Wii
 WikiLeaks
 Wiley
 Windows
+WinGléacht
 WordPress
 Xanga
 Xbox
@@ -381,6 +396,7 @@ Xerox
 Xposé
 Yahoo
 Yelp
+Youthreach
 YouTube
 Zara
 Óg-Ógras

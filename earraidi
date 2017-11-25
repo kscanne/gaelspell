@@ -265,6 +265,7 @@ cailithe cáilithe
 cailitheach cáilitheach
 cailiúil cáiliúil
 cailliuint cailliúint
+cailliúnt cailliúint
 cailte caillte
 cain cáin
 caipéis cáipéis
@@ -308,6 +309,7 @@ chiosa chíosa
 chlar chlár
 chlaru chlárú
 choimead choimeád
+Choiré Chóiré
 chomhmaith chomh maith
 chonachtas chonacthas
 chonaí chónaí
@@ -414,6 +416,7 @@ conasc cónasc
 conasctha cónasctha
 conaí cónaí
 congarach cóngarach
+congaraí cóngaraí
 Conghial Conghail
 conlaigí conlaígí
 Connamara Conamara
@@ -486,6 +489,7 @@ d'Eirinn d'Éirinn
 d'fhag d'fhág
 d'féadfadh d'fhéadfadh
 d'thoil do thoil
+d'íoch d'íoc
 da dá
 daignithe daingnithe
 dail dáil
@@ -587,6 +591,7 @@ diúltiú diúltú
 dli dlí
 dlithe dlíthe
 dlithiúil dlíthiúil
+dlithiúla dlíthiúla
 docha dócha
 dochais dóchais
 dochas dóchas
@@ -668,6 +673,7 @@ Eanair Eanáir
 eanlaithe éanlaithe
 eard éard
 earnail earnáil
+Earra-Gháidheal Earra-Ghàidheal
 earrai earraí
 easportail easpórtáil
 easportáil easpórtáil
@@ -778,6 +784,7 @@ foghlam foghlaim
 foglaim foghlaim
 fogra fógra
 fogran fógrán
+fograí fógraí
 fogrófar fógrófar
 foill fóill
 foirsteanach fóirsteanach
@@ -862,6 +869,7 @@ gatár gátar
 gcaislean gcaisleán
 gcasanna gcásanna
 gconaí gcónaí
+gCuirt gCúirt
 gcul gcúl
 gcuram gcúram
 gcursa gcúrsa
@@ -930,6 +938,7 @@ Habháís Haváis
 hachmhainní hacmhainní
 haite háite
 haithle aithle
+halainn hálainn
 hathru hathrú
 he hé
 healaine healaíne
@@ -938,6 +947,7 @@ hEireann hÉireann
 hEirinn hÉirinn
 hiomlan hiomlán
 hoglach hóglach
+Horselips Horslips
 hudaráis húdaráis
 hudarás húdarás
 husaid húsáid
@@ -966,6 +976,7 @@ inaghaidh in aghaidh
 infhilte infhillte
 infrastruchtur infreastruchtúr
 infrastruchtúr infreastruchtúr
+inge ingne
 inioctha iníoctha
 inion iníon
 iniuchadh iniúchadh
@@ -1024,6 +1035,7 @@ lair láir
 Lairge Láirge
 laithreach láithreach
 laithrean láithreán
+laithreán láithreán
 lamh lámh
 lamha lámha
 lan lán
@@ -1064,6 +1076,8 @@ leisna leis na
 leissin leis sin
 leitheid leithéid
 leitheidí leithéidí
+leitheoir léitheoir
+leitheoireacht léitheoireacht
 leitheoireachta léitheoireachta
 leitheoirí léitheoirí
 leithsceal leithscéal
@@ -1073,6 +1087,7 @@ leoir leor
 leí léi
 leís leis
 liathroid liathróid
+libhéal leibhéal
 limistear limistéar
 limisteir limistéir
 line líne
@@ -1162,6 +1177,7 @@ mhor mhór
 mhoran mhórán
 mhuchadh mhúchadh
 mhuinteoir mhúinteoir
+mhuscailt mhúscailt
 Mhuscraí Mhúscraí
 mhíúsáid mhí-úsáid
 mi mí
@@ -1217,6 +1233,7 @@ n-oilean n-oileán
 nabliana na bliana
 nac nach
 nachbhfuil nach bhfuil
+nacmhainní n-acmhainní
 nadaoine na daoine
 nadurtha nádúrtha
 nadúr nádúr
@@ -1262,6 +1279,7 @@ ngaeilge nGaeilge
 ngairthí ngairtí
 ngíomh ngníomh
 ni ní
+niarratas n-iarratas
 nil níl
 niliomad n-iliomad
 nimeachtaí n-imeachtaí
@@ -1277,6 +1295,7 @@ noileán n-oileán
 noimead nóiméad
 noiméad nóiméad
 noinin nóinín
+nollaig Nollaig
 Normanach Normannach
 nos nós
 nosanna nósanna
@@ -1415,6 +1434,7 @@ profisiúnta proifisiúnta
 proiseas próiseas
 proiséas próiseas
 páipear páipéar
+páirithe páirtithe
 párliament parlaimint
 píóg pióg
 ra rá
@@ -1430,6 +1450,7 @@ raiteas ráiteas
 raitis ráitis
 rannog rannóg
 rannphairtíocht rannpháirtíocht
+rannpháirithe rannpháirtithe
 ratai rátaí
 rathaíocht ráthaíocht
 raíbh raibh
@@ -1465,6 +1486,7 @@ rialachain rialacháin
 rialachan rialachán
 rialail rialáil
 riarachain riaracháin
+Rimhinn Rìmhinn
 riomh ríomh
 riomhaire ríomhaire
 riomheolaíocht ríomheolaíocht
@@ -1496,6 +1518,7 @@ ríomphost ríomhphost
 Rómhanach Rómhánach
 Rómhanaigh Rómhánaigh
 rómhnic rómhinic
+Rónan Rónán
 Rótón Rólón
 sabhailte sábháilte
 sabhliain sa bhliain
@@ -1572,6 +1595,7 @@ short shórt
 shuile shúile
 si sí
 siceolaíocht síceolaíocht
+siceolaíochta síceolaíochta
 sina sin a
 siniu síniú
 siniú síniú
@@ -1659,6 +1683,7 @@ stratéis straitéis
 struchtuir struchtúir
 struchtur struchtúr
 stráinséar strainséir
+stráitéiseach straitéiseach
 stáidéar staidéar
 stáidéir staidéir
 stáiriúil stairiúil
@@ -1686,6 +1711,7 @@ sóchmhainní sócmhainní
 sóiléir soiléir
 sólais sóláis
 sólas sólás
+sóláistí sólaistí
 súid siúd
 súiomh suíomh
 súntas suntas
@@ -1698,6 +1724,7 @@ ta tá
 tabairt tabhairt
 tabhacht tábhacht
 tabhachtach tábhachtach
+tabhachtacha tábhachtacha
 tabhachtaí tábhachtaí
 tabhairne tábhairne
 tabla tábla
@@ -1728,6 +1755,7 @@ taispéaint taispeáint
 taispéantas taispeántas
 taistriúchán t-aistriúchán
 taitheantas t-aitheantas
+talainne tallainne
 talann tallann
 talt t-alt
 talun talún
@@ -1760,6 +1788,7 @@ teárma téarma
 thabhachtach thábhachtach
 thainic tháinig
 thainig tháinig
+thairscint thairiscint
 theaglach theaghlach
 thios thíos
 thir thír
@@ -1778,6 +1807,7 @@ ti tí
 tiarratas t-iarratas
 tiarratasóir t-iarratasóir
 timpeallac timpeallacht
+Tiobráid Tiobraid
 tiocfadh thiocfadh
 tiochfaidh tiocfaidh
 tiogair tíogair
@@ -1890,6 +1920,7 @@ Uidhlín Uidhilín
 uineir úinéir
 uinéir úinéir
 uirlís uirlis
+uirlísí uirlisí
 uis úis
 uisci uiscí
 umhlaim umhlaím
@@ -1905,6 +1936,8 @@ votala vótála
 votaí vótaí
 votáil vótáil
 votála vótála
+vótail vótáil
+Westminister Westminster
 xéareáise xéaráise
 Ábraham Abrahám
 Éanair Eanáir
@@ -1929,8 +1962,10 @@ xéareáise xéaráise
 íarraidh iarraidh
 ídir idir
 ín in
+íoch íoc
 íochta íoctha
 íomha íomhá
+íonadh ionadh
 íonsaí ionsaí
 ísteach isteach
 ócaid ócáid

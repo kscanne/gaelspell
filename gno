@@ -27,7 +27,9 @@ Aviva
 Baboró
 Bacardi
 Bayer
+Beamish
 Bebo
+Bewley's
 Blockbuster
 Blogger
 Bluetooth
@@ -78,6 +80,7 @@ Dialang
 Digg
 Digiscoil
 Digital
+Dimplex
 Disney
 Disneyland
 Dodge
@@ -95,7 +98,7 @@ Edgecast
 eFlow
 Eircode
 Eircom
-Eirgrid
+EirGrid
 Electric
 Elsevier
 Enron
@@ -141,8 +144,10 @@ Gaeltalk
 GaelTeic
 Gaiety
 Galaxy
+Galleon
 Gallup
 Gamble
+Gateway
 Gazprom
 Gcom
 Gentoo
@@ -178,6 +183,7 @@ Instagram
 Intel
 Interpol
 Interreg
+Intreo
 iOS
 iPad
 iPhone
@@ -239,6 +245,7 @@ Moodle
 Morgan
 Motorola
 Mozilla
+Mylan
 MySpace
 MySQL
 Mythbusters
@@ -277,6 +284,7 @@ Perl
 Peugeot
 Pfizer
 Phillies
+Photocall
 Picasa
 Pidgin
 Pinterest
@@ -311,6 +319,7 @@ Rí-Rá
 Safari
 Samba
 Samsung
+Saorview
 Scarlets
 Scoilnet
 Scrabble
@@ -336,6 +345,7 @@ SpongeBob
 Spotify
 Starbucks
 Statoil
+Steam
 Subhóró
 Superquinn
 SuperValu
@@ -399,4 +409,6 @@ Yelp
 Youthreach
 YouTube
 Zara
+Zebre
+Ériu
 Óg-Ógras

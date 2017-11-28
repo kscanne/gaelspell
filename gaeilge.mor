@@ -6510,6 +6510,8 @@ botúnta/S
 boí
 bPailistín
 bPailistíne
+bPailistíneach
+bPailistínigh
 bpairliméid
 bparróiste
 bpeacadhuibh
@@ -9749,6 +9751,9 @@ ceannaightheacha/US
 ceannain/S
 ceannaine/S
 ceannainn
+ceannairceoir/US
+ceannairceoirí/US
+ceannairceora/US
 ceannaire
 ceannairg
 ceannairge
@@ -17726,9 +17731,11 @@ d'fhorbartá
 d'fhorbradar
 d'fhorbradh
 d'fhorbraidís
+d'fhorbraigh
 d'fhorbraimis
 d'fhorbrainn
 d'fhorbramar
+d'fhorbraínn/F
 d'fhorceann
 d'fhorceannainn/E
 d'fhorcoimeád
@@ -17808,8 +17815,10 @@ d'fhreagraidís
 d'fhreagraimis
 d'fhreagrainn
 d'fhreagramar
+d'fhreastail
 d'fhreastal
 d'fhreastalainn/E
+d'fhreastlaínn/F
 d'fhrámáil
 d'fhrámálainn/J
 d'fhréamh
@@ -18414,6 +18423,8 @@ damnadh/US
 damnaim/USA
 damnta/SU
 damsa
+Damáisc/S
+Damáisce/S
 damánta/S
 dana
 danagar
@@ -23393,6 +23404,7 @@ dúbláid/US
 dúbláide/SU
 dúbláidí/US
 dúblú/US
+dúbáilte/S
 dúcha
 dúchaint
 Dúcharaidh
@@ -26126,6 +26138,8 @@ fhorbraidís/U
 fhorbraimis/U
 fhorbrainn/U
 fhorbramar/U
+fhorbraí/U
+fhorbraínn/FU
 fhorceanna/U
 fhorceannainn/EU
 fhorcoimeáda/U
@@ -26223,6 +26237,8 @@ fhreagur
 fhreagóradh
 fhreastala/U
 fhreastalainn/EU
+fhreastlaí/U
+fhreastlaínn/FU
 Fhrighill
 fhrithGhiúdachais/U
 fhrithGhiúdachas/U
@@ -27541,11 +27557,14 @@ forbháilte
 forbháilteach
 forbradh
 forbraidís
+forbraigh/US
 forbraigí/US
 forbraim/US
 forbraimid/US
 forbraimis
+forbraithe/SB
 forbrann/US
+forbraím/USC
 forcamhás
 forcan
 forcanna
@@ -27888,11 +27907,14 @@ freasaitheachas/US
 freasaitheas/US
 freasaithis/US
 freasghabháil
+freastail/US
+freastailte/S
 freastal/US
 freastaladh/US
 freastalaim/USA
 freastalta/SU
 freastlann
+freastlaím/USC
 freastáil/US
 freastála/US
 freinge/US
@@ -33796,6 +33818,8 @@ iarbhallach/HB
 iarbhallacha/B
 iarbhallaigh
 iarbhallaí/B
+iarbhunleibhéal/HMDBUT
+iarbhunleibhéil/HMDBU
 iarbhunoideachais/HMDU
 iarbhunoideachas/HMDBUT
 iarbhunscoil/HMDBU
@@ -33912,6 +33936,8 @@ iarthráigh
 iarthuaidh/HMDBUT
 iarttain
 iarua
+iarUachtaráin/HU
+iarUachtarán/HU
 iaruinn
 iarumh
 Iarusalem
@@ -33957,6 +33983,7 @@ idir-ríoghachta/HMDU
 idir-ríoghachtaí/HMDBU
 idirbheartaíochtaí/HMDBU
 idircheirt
+idirchúige/HB
 idireascán
 idirghuidhtheoir/HMDBUT
 idirghuidhtheoirí/HMDBU
@@ -34330,6 +34357,7 @@ inasbhainteacha/B
 inasbhaintigh
 inasbhaintí/B
 inathcheaptha/HB
+inathchúrsáilte/HB
 inathnuaite/HB
 inathsholáthraithe/HB
 inbhe/HMDBU
@@ -35488,6 +35516,9 @@ ionshoilsím/UC
 ionshoilsínn/F
 ionshoilsíodh/HU
 ionshoilsítear/HU
+ionsparáid/HMDBU
+ionsparáide/HMDU
+ionsparáidí/HMDBU
 ionstadtha
 ionstraimint
 ionstruim/HMDBU
@@ -42300,6 +42331,7 @@ nArdrúnaí
 naro
 naráin
 narán
+Nasaireit
 nAsairis
 nAsairise
 Nasarach
@@ -42368,6 +42400,8 @@ nbhur
 nbhúr
 ndainginiú
 ndamanta
+nDamáisc
+nDamáisce
 nDaphne
 ndaóine
 ndeacaidh
@@ -44029,6 +44063,8 @@ oisfheola/HMDU
 Oisin
 oispidéal/HMDBUT
 oispidéil/HMDBU
+oispís/HMDBU
+oispíse/HMDU
 oistre
 oistreach
 oistín
@@ -44332,6 +44368,8 @@ osnaidh/HMDU
 osnamhach
 osnaí
 osnaíocht
+ospais/HMDBU
+ospaise/HMDU
 ospuidéal/HMDBUT
 ospuidéil/HMDBU
 osta
@@ -45315,7 +45353,8 @@ poblachtánacha/S
 poblachtánachais/US
 poblachtánachas/US
 poblachtánaigh/SU
-poblachtánaí/S
+poblachtánaithe/US
+poblachtánaí/SU
 pobuil/US
 pobul/US
 poc
@@ -46534,6 +46573,9 @@ rannaim/A
 rannainn/E
 rannaithe
 rannaí
+rannaíocaíocht
+rannaíocaíochta
+rannaíocaíochtaí
 rannc
 ranncanna
 ranng
@@ -50868,6 +50910,7 @@ seothó/S
 Serbhia
 serbhís
 serbhíse
+Serbia/S
 sergeant/S
 sesamh
 sesean
@@ -56169,6 +56212,8 @@ t-bhacart
 t-chonnairc
 t-chualaidh
 t-iarAire
+t-iarUachtarán
+t-iliomad
 t-Iroquois
 t-itheadóir
 t-ochtmadh
@@ -58743,6 +58788,9 @@ toghdóireacht/US
 toghdóireachta/US
 toghdóirí/US
 toghdóra/US
+toghlacht/US
+toghlachta/US
+toghlachtaí/US
 toghladh
 toghmhall
 toghnamh
@@ -59636,6 +59684,8 @@ truailleánta
 truaillitheacht/US
 truaillitheachta/US
 truaillitheachtaí/US
+truailliúcháin/US
+truailliúchán/US
 truaimhéileach/S
 truaimhéileacha/S
 truaimhéiligh/S
@@ -59978,6 +60028,7 @@ tSeirb
 tSeireoicís
 tSeitnia
 tSeitsin
+tSerbia
 tSevern
 tshaoghail
 tshaoghal
@@ -62062,6 +62113,7 @@ Zéalann
 Zíon
 Ábrahaim
 Ádam
+Águstas
 Áindrías
 Áird-Ríogh
 Áiréas

@@ -1,6 +1,7 @@
 a'bhfuil an bhfuil
 abaile abhaile
 abalta ábalta
+abea ab ea
 abhaineann a bhaineann
 abhaint a bhaint
 abhair ábhair
@@ -297,11 +298,13 @@ ceile céile
 ceim céim
 ceistenna ceisteanna
 cen cén
+ceoltoirí ceoltóirí
 ceánna céanna
 chaighdean chaighdeán
 chaighdéan chaighdeán
 chail cháil
 chailiní chailíní
+chailliúnt chailliúint
 chaipéis cháipéis
 chaipéisí cháipéisí
 chaislean chaisleán
@@ -321,6 +324,7 @@ chonaí chónaí
 choroin choróin
 chosta chósta
 choích choíche
+chreidiúnt chreidiúint
 Chrocaigh Chrócaigh
 chrúthú chruthú
 chualthas chualathas
@@ -481,6 +485,8 @@ cuspoir cuspóir
 cáirde cairde
 céadatán céatadán
 céana céanna
+céann ceann
+céann céanna
 céiliúradh ceiliúradh
 Cíochóité Cíochótae
 cóireál cóireáil
@@ -663,6 +669,7 @@ díobhse díobhsan
 díogras díograis
 díolmhaim díolmhaím
 díoma díomá
+díomach díomách
 Dóbhair Dobhair
 dóthin dóthain
 Eabharc Eabhrac
@@ -699,6 +706,7 @@ eigean éigean
 eigeandáil éigeandáil
 eigeandála éigeandála
 eigin éigin
+eigse éigse
 eilea eile a
 eileamh éileamh
 eileofar éileofar
@@ -719,6 +727,7 @@ eisiuint eisiúint
 eist éist
 eisteacht éisteacht
 eisteachta éisteachta
+eochar eochair
 eolaíchta eolaíochta
 Eorap Eoraip
 eíle eile
@@ -761,6 +770,7 @@ feistisí feisteas
 feithicli feithiclí
 fen faoin
 feách féach
+fhagann fhágann
 fheachaint fhéachaint
 fheicteár fheictear
 fheicéail fheiceáil
@@ -834,8 +844,10 @@ fáighte faighte
 fáisnéis faisnéis
 fáisnéise faisnéise
 fáíl fáil
+féachanna féachana
 féachána féachana
 féarr fearr
+féiceáil feiceáil
 Féirste Feirste
 féíle féile
 féín féin
@@ -934,6 +946,7 @@ gran grán
 greanmhar greannmhar
 greasain gréasáin
 greasan gréasán
+greasáin gréasáin
 greine gréine
 greásáin gréasáin
 greásán gréasán
@@ -959,6 +972,7 @@ he hé
 healaine healaíne
 heictéar heicteár
 hEireann hÉireann
+heireann hÉireann
 hEirinn hÉirinn
 hiomlan hiomlán
 hoglach hóglach
@@ -968,6 +982,7 @@ hudarás húdarás
 husaid húsáid
 héireann hÉireann
 Iarchonnachta Iar-Chonnachta
+iarghúlta iargúlta
 iarnrod iarnród
 iarnroid iarnróid
 iarratasoir iarratasóir
@@ -1188,11 +1203,13 @@ mheid mhéid
 mheárach mhéarach
 mhi mhí
 mhile mhíle
+mhiniú mhíniú
 mhna mhná
 mhor mhór
 mhoran mhórán
 mhuchadh mhúchadh
 mhuinteoir mhúinteoir
+mhusaem mhúsaem
 mhuscailt mhúscailt
 Mhuscraí Mhúscraí
 mhíúsáid mhí-úsáid
@@ -1237,6 +1254,7 @@ muinin muinín
 muinteoir múinteoir
 muinteoirí múinteoirí
 muinéal muineál
+máinleá máinlia
 máithair máthair
 másé más é
 Mícheal Mícheál
@@ -1292,6 +1310,7 @@ neiri n-éirí
 neirí n-éirí
 nfheadar ní fheadar
 ngaeilge nGaeilge
+ngael nGael
 ngairthí ngairtí
 ngíomh ngníomh
 ni ní
@@ -1321,6 +1340,7 @@ notaí nótaí
 nuaaimseartha nua-aimseartha
 nuachtain nuachtáin
 nuachtan nuachtán
+nuaealain nua-ealaín
 NuaGhaeilge Nua-Ghaeilge
 nuir nuair
 nábhar n-ábhar
@@ -1334,6 +1354,7 @@ néirí n-éirí
 néiríonn n-éiríonn
 níosmó níos mó
 nóa nó a
+nóg n-óg
 nóimead nóiméad
 nóimeád nóiméad
 núair nuair
@@ -1530,6 +1551,7 @@ ráidió raidió
 réasuin réasúin
 réasun réasún
 réasunta réasúnta
+réimhse réimse
 réitim réitím
 ríathair rínathair
 ríomhpost ríomhphost
@@ -1619,6 +1641,7 @@ siceolaíochta síceolaíochta
 sina sin a
 siniu síniú
 siniú síniú
+sintiús síntiús
 siochana síochána
 siochána síochána
 siol síol
@@ -1918,6 +1941,7 @@ tástalóir tástálóir
 téan t-éan
 téileamh t-éileamh
 Tíobóid Tiobóid
+títhíochta tithíochta
 tógail tógáil
 tóstán t-óstán
 tóstóir t-óstóir
@@ -1999,6 +2023,7 @@ Zurich Zürich
 ócaideach ócáideach
 ócaideacha ócáideacha
 óiche oíche
+ómos ómós
 ónóir onóir
 óstan óstán
 úachtarán uachtarán

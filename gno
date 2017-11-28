@@ -142,6 +142,7 @@ Gaelscript
 GaelSpell
 Gaeltalk
 GaelTeic
+Gaelturas
 Gaiety
 Galaxy
 Galleon
@@ -235,6 +236,7 @@ Mercedes
 Mercier
 Merck
 Meteor
+Meyrick
 Michelin
 Microsoft
 Mitsubishi
@@ -299,6 +301,7 @@ Prudential
 Pulse
 Python
 Quicktime
+RaboDirect
 Radisson
 Randox
 Rangers
@@ -405,6 +408,7 @@ Xbox
 Xerox
 Xposé
 Yahoo
+Yale
 Yelp
 Youthreach
 YouTube

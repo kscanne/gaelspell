@@ -20,6 +20,7 @@ Angelfire
 Anonymous
 Apache
 Apple
+Argos
 Arramara
 Arsenal
 Audacity
@@ -30,6 +31,8 @@ Bayer
 Beamish
 Bebo
 Bewley's
+Bisto
+Blackboard
 Blockbuster
 Blogger
 Bluetooth
@@ -72,6 +75,7 @@ Costco
 Cybergael
 Daimler
 Damer
+Debenhams
 Debian
 Dell
 Deloitte
@@ -101,6 +105,7 @@ Eircom
 EirGrid
 Electric
 Elsevier
+Energia
 Enron
 Esquire
 Eudora
@@ -121,6 +126,7 @@ Facebook
 Fedora
 Ferrari
 Fiat
+Figgis
 Filmbase
 Firefox
 Flash
@@ -132,16 +138,19 @@ Formula
 Foróige
 Foxconn
 Frappr
+Frontex
 Fuji
 Fujifilm
 Fujitsu
 Fulbright
 G-Spota
+Gaeloiliúint
 Gaelport
 Gaelscript
 GaelSpell
 Gaeltalk
 GaelTeic
+Gaeltext
 Gaelturas
 Gaiety
 Galaxy
@@ -173,6 +182,7 @@ Hotmail
 Hyundai
 iGaeilge
 iGoogle
+IKEA
 iMac
 Imram
 Indecon
@@ -189,11 +199,13 @@ iOS
 iPad
 iPhone
 iPod
+Ipsos
 iTunes
 Jabber
 Java
 JavaScript
 Jelsoft
+JobsPlus
 Joomla
 Kappa
 Kickstarter
@@ -205,6 +217,7 @@ Kodak
 Kroger
 Lagan
 Lakers
+Largo
 LaTeX
 Lego
 LibreOffice
@@ -212,6 +225,7 @@ Lidl
 LinkedIn
 Linspire
 Linux
+Liveline
 Lockheed
 Lohans
 Londis
@@ -311,9 +325,12 @@ Raytheon
 Reader
 RealPlayer
 Reddit
+RefWorks
 Renault
 Reuters
+Rondomondo
 Roomthree
+Rosetta
 Routledge
 Rovers
 Ruby

@@ -756,6 +756,7 @@ dteagmhail dteagmháil
 dti dtí
 dtir dtír
 dtire dtíre
+dtoghchaí dtodhchaí
 dtrath dtráth
 dtus dtús
 dtí'n dtí an
@@ -1355,6 +1356,7 @@ líomátaiste líomatáiste
 líosta liosta
 Lúcas Lúcás
 lúchair lúcháir
+lúil Iúil
 ma má
 macnaimh machnaimh
 macnamh machnamh
@@ -1373,11 +1375,13 @@ mathair máthair
 mathar máthar
 mbais mbáis
 mbeagan mbeagán
+mbeaidh mbeidh
 mBeal mBéal
 mbeal mbéal
 mBearla mBéarla
 mbliaina mbliana
 mbothar mbóthar
+mbéifeá mbeifeá
 me mé
 meachan meáchan
 meachani meáchain
@@ -1397,12 +1401,15 @@ Meiricea Meiriceá
 meiríneach méiríneach
 Meith Meith
 meith méith
+meitheamh Meitheamh
 meánscolaí meánscolaíocht
 meárach méarach
 mhaguaird máguaird
 Mhairtín Mháirtín
+mhaithreachais mháithreachais
 Mhantain Mhantáin
 Mharta Mhárta
+mheadú mhéadú
 mheid mhéid
 mheárach mhéarach
 mhi mhí
@@ -1432,6 +1439,7 @@ milte mílte
 minigh mínigh
 minithe mínithe
 miniú míniú
+mionlacha mionlaigh
 mionshonra mionsonra
 mionshonraí mionsonraí
 miosa míosa
@@ -1465,6 +1473,7 @@ muinéal muineál
 máinleá máinlia
 máithair máthair
 másé más é
+méain meáin
 Míchaél Mícheál
 Mícheal Mícheál
 Mícháel Mícheál
@@ -1522,6 +1531,7 @@ neamh-achmainn neamhacmhainn
 neamhghlaolmhara neamhghaolmhara
 neamhspleach neamhspleách
 neamhspléach neamhspleách
+neamhspléacha neamhspleácha
 neamsheasmhach neamhsheasmhach
 neascleanúint nascleanúint
 neiri n-éirí
@@ -1533,6 +1543,7 @@ ngaeltacht nGaeltacht
 ngaillimh nGaillimh
 ngairthí ngairtí
 ngíomh ngníomh
+ngíomhaíochtaí ngníomhaíochtaí
 ni ní
 niarrachtaí n-iarrachtaí
 niarratas n-iarratas
@@ -1579,6 +1590,7 @@ néireoidh n-éireoidh
 néirí n-éirí
 néiríonn n-éiríonn
 níocaíochtaí n-íocaíochtaí
+níomhaíochtaí ngníomhaíochtaí
 níosmó níos mó
 níraibh ní raibh
 nóa nó a
@@ -1700,6 +1712,7 @@ polaitiochta polaitíochta
 polataíocht polaitíocht
 polatíocht polaitíocht
 polatúil polaitiúil
+poncánaigh Poncánaigh
 portraidi portráidí
 posadh pósadh
 praicticiúil praiticiúil
@@ -1901,7 +1914,12 @@ seirbhisí seirbhísí
 seoa seo a
 seoagus seo agus
 seribhísí seirbhísí
+seáin Seáin
+seán sean
+seán Seán
+seú séú
 shabháil shábháil
+shamhna Shamhna
 shaorstait shaorstáit
 sharú shárú
 shasamh shásamh
@@ -1963,6 +1981,7 @@ soláis solais
 soláis sóláis
 soláistí sólaistí
 soléir soiléir
+solúbhtha solúbtha
 sort sórt
 sortáil sórtáil
 sortála sórtála
@@ -2153,6 +2172,7 @@ teilifise teilifíse
 teolas t-eolas
 teács téacs
 teárma téarma
+thabhacht thábhacht
 thabhachtach thábhachtach
 thainic tháinig
 thainig tháinig
@@ -2163,6 +2183,7 @@ thaispeán thaispeáin
 thaispéaint thaispeáint
 theaglach theaghlach
 thearmaí théarmaí
+thinig tháinig
 thios thíos
 thir thír
 thire thíre
@@ -2172,6 +2193,7 @@ thogáil thógáil
 thradisiún thraidisiún
 threig thréig
 threimhse thréimhse
+thriú thríú
 thréimse thréimhse
 ThuaidhTheas Thuaidh-Theas
 thus thús
@@ -2186,6 +2208,7 @@ Tiobráid Tiobraid
 tiocfadh thiocfadh
 tiochfaidh tiocfaidh
 tiogair tíogair
+tiomanaí tiománaí
 tiomlán t-iomlán
 tionad t-ionad
 tionscamh tionscnamh
@@ -2204,21 +2227,26 @@ togadh tógadh
 togail tógáil
 toghchain toghcháin
 toghchan toghchán
+toghchaí todhchaí
 togtha tógtha
 togáil tógáil
 togála tógála
 toibhim toibhím
 toideachas t-oideachas
 toileán t-oileán
+toraíocht tóraíocht
 tordú t-ordú
 torthai torthaí
 tostal tóstal
 tra trá
 tracht trácht
 trachtail tráchtáil
+trachtaire tráchtaire
 trachtaireacht tráchtaireacht
 trachtála tráchtála
 tradail trádáil
+tradisiúin traidisiúin
+tradisiúin traidisiún
 tradisiún traidisiún
 tradisiúnta traidisiúnta
 tradála trádála
@@ -2242,6 +2270,7 @@ Trionóide Tríonóide
 triur triúr
 triú tríú
 trocaire trócaire
+tráidisiúnta traidisiúnta
 tráthclár tráthchlár
 tréimse tréimhse
 tréimshe tréimhse

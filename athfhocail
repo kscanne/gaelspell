@@ -11499,6 +11499,9 @@ b'osnadha b'osnaí
 b'ospais b'ospís
 b'ospuidéal b'ospidéal
 b'ospuidéil b'ospidéil
+b'osréalaíche b'osréalaí
+b'osréalaíoch b'osréalach
+b'osréalaíocha b'osréalacha
 b'otharais b'othrais
 b'otharas b'othras
 b'otra b'otracht
@@ -22414,6 +22417,7 @@ bpairlimint bparlaimint
 bpairliminte bparlaiminte
 bpairlimintí bparlaimintí
 bpairliméid bparlaimint
+bpairtnéirí bpáirtithe
 bpais bpas
 bpaisnéara bpaisinéara
 bpaisnéir bpaisinéir
@@ -22582,6 +22586,7 @@ bpearsain bpearsa
 bpearsanacht bpearsantacht
 bpearsanachta bpearsantachta
 bpearsannaibh bpearsana
+bpearsaí bpearsana
 bpearsáil bpeirsil
 bpearsáile bpeirsile
 bpearúil bparúil
@@ -54085,6 +54090,7 @@ dearcaidh dearcaí
 dearcaint dearcadh
 dearcamis dearcaimis
 dearcamuis dearcaimis
+dearcaí dearcthaí
 dearcc dearc
 dearcthar dearctar
 dearcóir brabhsálaí
@@ -55356,6 +55362,7 @@ dhearbhóra dhearfóra
 dhearc dheirc
 dhearc dheirceanna
 dhearca dheirceanna
+dhearcaí dhearcthaí
 dhearcóir bhrabhsálaí
 dhearcóirí bhrabhsálaithe
 dhearcóra bhrabhsálaí
@@ -65215,6 +65222,7 @@ dtúirne dtuirne
 dtúirní dtuirní
 dtúirnín dtuirnín
 dtúirníní dtuirníní
+dtúirt dtabhairt
 dtúisceacht dtúisce
 dtúisceachta dtúisce
 dtúismitheoir dtuismitheoir
@@ -96192,6 +96200,7 @@ hospais hospís
 hospaise hospíse
 hospuidéal hospidéal
 hospuidéil hospidéil
+hosréalaíoch hosréalach
 hotharais hothrais
 hotharas hothras
 hothrach hothar
@@ -125424,6 +125433,7 @@ ndearbhóra ndearfóra
 ndearc ndeirc
 ndearc ndeirceanna
 ndearca ndeirceanna
+ndearcaí ndearcthaí
 ndearcóir mbrabhsálaí
 ndearcóirí mbrabhsálaithe
 ndearcóra mbrabhsálaí
@@ -128252,7 +128262,12 @@ neamhchoiteanna neamhchoitianta
 neamhchoitinn neamhchoitianta
 neamhchoitinne neamhchoitianta
 neamhcholatach neamhchodlatach
+neamhchomhfhiosach neamh-chomhfhiosach
+neamhchomhfhiosacha neamh-chomhfhiosacha
+neamhchomhfhiosaigh neamh-chomhfhiosaigh
+neamhchomhfhiosaí neamh-chomhfhiosaí
 neamhchomhlíonadh neamh-chomhlíonadh
+neamhchomhlíonta neamh-chomhlíonta
 neamhchon-gantach neamhchúntach
 neamhchonntabharthach neamhchontúirteach
 neamhchorbhuaiseach neamhchorrabhuaiseach
@@ -128272,6 +128287,10 @@ neamhchásúla neamhchásmhaire
 neamhchásúla neamhchásmhara
 neamhchéadfaíocht neamhchéadfacht
 neamhchéadfaíochta neamhchéadfachta
+neamhchónaithe neamhchónaitheach
+neamhchónaithe neamhchónaitheacha
+neamhchónaithe neamhchónaithigh
+neamhchónaithe neamhchónaithí
 neamhchóruighthe neamhchóirithe
 neamhdha neamhaí
 neamhdhireach neamhdhíreach
@@ -128322,6 +128341,9 @@ neamhghnaitheach neamhghnóthach
 neamhghnathach neamhghnách
 neamhghnoitheach neamhghnóthach
 neamhghnáthach neamhghnách
+neamhghnáthacha neamhghnácha
+neamhghnáthaigh neamhghnách
+neamhghnáthaí neamhghnáiche
 neamhghrásmhair neamhghrástúil
 neamhghrásmhaire neamhghrástúla
 neamhghrásmhar neamhghrástúil
@@ -128340,6 +128362,7 @@ neamhleanúntas neamhleanúnachas
 neamhlochtaí neamhlochtaíl
 neamhlochtaí neamhlochtaíola
 neamhmaitheach neamaiteach
+neamhmhonaraithe neamh-mhonaraithe
 neamhnaid niamhnaid
 neamhnidh neamhní
 neamhnídh neamhní
@@ -132282,6 +132305,10 @@ ospais ospís
 ospaise ospíse
 ospuidéal ospidéal
 ospuidéil ospidéil
+osréalaíche osréalaí
+osréalaíoch osréalach
+osréalaíoch osréalaigh
+osréalaíocha osréalacha
 osta ósta
 ostaeir óstóir
 otartha otair
@@ -132406,6 +132433,7 @@ pairliminte parlaiminte
 pairlimintí parlaimintí
 pairliméide parlaiminte
 pairt spairt
+pairtnéirí páirtithe
 pais pas
 paisiún paisean
 paisiúnta paiseanta
@@ -132629,6 +132657,7 @@ pearsantach pearsanta
 pearsantacha pearsanta
 pearsantaigh pearsanta
 pearsantaí pearsanta
+pearsaí pearsana
 pearsáil peirsil
 pearsáile peirsile
 pearsánta pearsanta
@@ -132784,6 +132813,7 @@ phairdeoige phardóige
 phairlimint pharlaimint
 phairliminte pharlaiminte
 phairlimintí pharlaimintí
+phairtnéirí pháirtithe
 phais phas
 phaisnéara phaisinéara
 phaisnéir phaisinéir
@@ -132989,6 +133019,7 @@ phearsantach phearsanta
 phearsantacha phearsanta
 phearsantaigh phearsanta
 phearsantaí phearsanta
+phearsaí phearsana
 phearsuinn phearsa
 phearsáil pheirsil
 phearsáile pheirsile
@@ -134219,6 +134250,10 @@ phíoblíne phíblíne
 phíoblínte phíblínte
 phíocháin phiacháin
 phíochán phiachán
+phíolóiteach phíolótach
+phíolóiteacha phíolótacha
+phíolóitigh phíolótaigh
+phíolóití phíolótaí
 phíonóis phionóis
 phíonós phionós
 phíop phíopa
@@ -135775,7 +135810,11 @@ píoláid pálás
 píolóid piolóid
 píolóit píolóta
 píolóite píolóta
+píolóiteach píolótach
+píolóiteacha píolótacha
+píolóitigh píolótaigh
 píolóití píolóta
+píolóití píolótaí
 píonasach pionósach
 píonta pionta
 píonóis pionóis
@@ -138066,8 +138105,11 @@ réann réitíonn
 réapáil réabadh
 réar lenar
 réasúnach réasúnta
+réasúnacha réasúnta
 réasúnacht réasúntacht
 réasúnachta réasúntachta
+réasúnaigh réasúnta
+réasúnaí réasúnta
 réasúntaíocht réasúntacht
 réd le do
 rédhánta réagánta
@@ -144048,6 +144090,7 @@ shiocaigh shioc
 shiocain shiocáin
 shiocaithe shioctha
 shiocan shiocán
+shiocar shiocair
 shiocaí shioca
 shiocaídís shiocaidís
 shiocaígí shiocaigí
@@ -147102,6 +147145,7 @@ siocain siocáin
 siocaire siocair
 siocaithe sioctha
 siocan siocán
+siocar siocair
 siocaí sioca
 siocaídís siocaidís
 siocaígí siocaigí
@@ -156416,6 +156460,8 @@ teichmhigh teifigh
 teichte teite
 teichtear teitear
 teicineáil toicneáil
+teicniciúil teicniúil
+teicniciúla teicniúla
 teicstíleacha teicstílí
 teid téann
 teidheann téann
@@ -158236,6 +158282,8 @@ theichte theite
 theichtear theitear
 theichteá theiteá
 theichtí theití
+theicniciúil theicniúil
+theicniciúla theicniúla
 theicstíleacha theicstílí
 theid théann
 theidheadh théadh
@@ -164174,6 +164222,7 @@ tsinnseardhacht tsinsearacht
 tsinsireacht tsinsearacht
 tsinéirge tsineirgíocht
 tsiocain tsiocáin
+tsiocar tsiocair
 tsiodchabaire tseadchabaire
 tsiodgháire tseitgháire
 tsiogma sigme
@@ -166036,6 +166085,7 @@ túirní tuirní
 túirnín tuirnín
 túirníní tuirníní
 túirseach tuirseach
+túirt tabhairt
 túirt-suas tabhairt suas
 túis tús
 túisceacht túisce

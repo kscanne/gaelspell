@@ -34017,6 +34017,8 @@ iarbhunoideachas/HMDBUT
 iarbhunscoil/HMDBU
 iarbhunscoile/HMDU
 iarbhunscoileanna/HMDBU
+iarbhunscolaíocht/HMDBU
+iarbhunscolaíochta/HMDU
 iarchomaoin
 iarchomaoine
 iarchomhrac
@@ -34431,6 +34433,8 @@ imréitithe/HMDU
 imrím/HMDBU
 Imríme
 imríme/HMDU
+imscrúdúcháin/HMDBU
+imscrúdúchán/HMDBUT
 imsheachtar
 imsheachtrach
 imshneamh/HMDBUT
@@ -34576,6 +34580,7 @@ inchollaítear/HU
 inchollú/HMDBUT
 inchomhiomlánaithe/HB
 inchomhlíonta/HB
+inchomhshóite/HB
 inchreidhte/HB
 inchuir/HMDBU
 inchur/HMDBUT
@@ -34657,6 +34662,8 @@ infhiúchtar/HU
 infinid
 infrastruchtúir/HMDBU
 infrastruchtúr/HMDBUT
+infrastruchtúrtha/HB
+infreastruchtúrtha/HB
 ing/HMDBU
 ingach
 ingan
@@ -34671,6 +34678,7 @@ ingearthach
 ingeilt/HMDBU
 ingeilte/HMDU
 ingen
+inghairme/HB
 ingheal
 inghealt
 inghean/HMDBUT
@@ -34741,6 +34749,7 @@ inis
 Inis-Mheadhóin
 inise/HMDU
 iniseann
+inisileacha/HMDBU
 inisint
 iniste/HB
 inistear
@@ -35156,6 +35165,7 @@ iolscoile/HMDU
 iolscoileanna/HMDBU
 iolscolaíocht
 iolstarthach
+ioma/HB
 iomada
 iomadach/HB
 iomadacha/B
@@ -36330,6 +36340,9 @@ lansáil
 lansála
 lantaeir
 lantaeireacht
+lantainíd
+lantainíde
+lantainídí
 lantaoir
 lantarn
 lantóir
@@ -36681,6 +36694,7 @@ leanmhuin
 leanmhuint
 leann
 leanna
+leannacht
 leannain
 leannan
 leanndubh
@@ -36816,6 +36830,8 @@ leathanú
 leathbhliadhain
 leathbhliadhanta
 leathbhliadhna
+leathcheal
+leathcheala
 leathcheann
 leathcheathrúin
 leathchion
@@ -36857,6 +36873,7 @@ leathnú
 leathphighne
 leathphinge
 leathphinginn
+leathphingne
 leathphinne
 leathphiont
 leathphiúnt
@@ -37500,6 +37517,8 @@ lipéadta
 lipéidí
 lipín
 lipíní
+liriciúil
+liriciúla
 lis
 lite
 liteardhacht
@@ -37741,6 +37760,9 @@ loisceán
 loiscigh
 loiscinn
 loiscithe
+loiscneoir
+loiscneoirí
+loiscneora
 loisctheach
 loiscí
 loise
@@ -37859,6 +37881,7 @@ lonna
 lonnach
 lonnacha
 lonnacht
+lonnadh
 lonnaigh
 lonnardha
 lonnardhacht
@@ -38415,6 +38438,7 @@ lánmhór
 lánpháirtiúil
 lánpháirtiúla
 lánscur
+lánseoil
 lánshúil
 lánsá
 lánta
@@ -38442,6 +38466,7 @@ lártheifneach
 lártheifneacha
 lártheifnigh
 lártheifní
+lártéarma
 lásadh
 lásair
 lásar
@@ -39216,6 +39241,7 @@ macanta
 macaoimhe/S
 macaomhnacht
 macasamhailt
+macasamhlacha/S
 macc
 macdha
 macdhacht
@@ -39375,6 +39401,7 @@ mailléid/S
 mailí/S
 mailíosach
 maime/S
+maimeo/S
 maimilíneach
 maimithe/S
 maimí/S
@@ -39749,6 +39776,10 @@ maoraíocht
 maordha/S
 maordhacht/S
 maordhachta/S
+maorlathach/S
+maorlathaigh/S
+maorláthach/S
+maorláthaigh/S
 maorláthais/S
 maorláthas/S
 maortha
@@ -40097,6 +40128,7 @@ meabhair-ghalar/S
 meabhar/S
 meabharghalair/S
 meabharghalar/S
+meabharshláinte/S
 meabhla
 meabhlacháin/S
 meabhlachán/S
@@ -40106,6 +40138,7 @@ meabhrán
 meabhsain
 meabhán
 meach/S
+meachán/S
 meacán
 meadair/S
 meadaireacht/S
@@ -40204,6 +40237,10 @@ meanaithe
 meanamnach
 meanbh
 meanbhaigh
+meandarach/S
+meandaracha/S
+meandaraigh/S
+meandaraí/S
 meangaid
 meangal
 meangaíl/S
@@ -40710,6 +40747,8 @@ micri-bhitheolaíocht/S
 micri-bhitheolaíochta/S
 micribitheolaíocht/S
 micribitheolaíochta/S
+micín/S
+micíní/S
 midh
 Midheach
 midheamh
@@ -40831,6 +40870,7 @@ mionscrúdta/S
 mionáin/S
 mionán/S
 mionúch
+mionúirí/S
 mionúr
 miorbhailt/S
 miorbhailte/S
@@ -41435,6 +41475,8 @@ máinléad/S
 máinléid/S
 máinlíocht/S
 máinlíochta/S
+máinséar/S
+máinséir/S
 máireach
 máirneálach/S
 máirneálaigh/S
@@ -41695,6 +41737,7 @@ míchomhthroime/S
 míchomhthrom/S
 míchomhthroma/S
 míchomhthromach
+míchothroime/S
 míchothromais/S
 míchothromas/S
 míchothromaíocht/S
@@ -45664,6 +45707,7 @@ posta/US
 postacht/US
 postachta/US
 postaeir/US
+postaeirí/US
 postaer/US
 postanna/US
 postaí/US
@@ -46342,6 +46386,8 @@ píob/US
 píoba/US
 píobaireacht
 píobaí/US
+píoblíne/US
+píoblínte/US
 píocarlach
 píocháin/US
 píochán/US
@@ -46622,6 +46668,7 @@ raibh
 raibh's
 raibhe
 raibheadar
+raibheamar
 raibheas
 raibhi
 raibhte
@@ -46654,12 +46701,18 @@ raidiciúlacht
 raidiciúlachta
 raidicí
 raidigh
+raidighníomhach
+raidighníomhacha
+raidighníomhaigh
+raidighníomhaí
 raidim/A
 raidinn/E
 raidire
 raidireach
 raidireacht
 raidithe
+raiditheileagrafaíocht
+raiditheileagrafaíochta
 raiditheoir
 raiditheoirí
 raiditheora
@@ -52709,6 +52762,7 @@ smaicht
 smaichtín
 smaichtíní
 smailc
+smailceanna
 smaillic
 smailín
 smairtín
@@ -57679,6 +57733,7 @@ teora/US
 teoragáin/US
 teoragán/US
 teoraigh
+teorainne/US
 teorainniú/US
 teorainnteach
 teorann/US
@@ -63073,7 +63128,7 @@ Zíon
 éascaidhe/HB
 éascanna
 éascas
-éascaí
+éascaí/B
 éascúil
 éascúlacht
 éasáid/HMDBU
@@ -63521,6 +63576,14 @@ Zíon
 íorghail/HMDBU
 íorthachánacht
 íorthann
+íoróineach/HB
+íoróineacha/B
+íoróinigh
+íoróiní/B
+íorónach/HB
+íorónacha/B
+íorónaigh
+íorónaí/B
 íos/U
 íosa/U
 íosad

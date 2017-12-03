@@ -546,7 +546,7 @@ adist: aspell.txt repl ChangeLog
 	cp -f README $(ASPELLDEV)/Copyright
 	cp -f README.aspell $(ASPELLDEV)/doc/README
 	iconv -f UTF-8 -t iso-8859-1 gaeilge_phonet.dat > $(ASPELLDEV)/ga_phonet.dat
-	iconv -f UTF-8 -t iso-8859-1 a.tmp > $(ASPELLDEV)/aspell.txt
+	cat a.tmp | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ/-]" | iconv -f UTF-8 -t iso-8859-1 > $(ASPELLDEV)/aspell.txt
 	cp -f info $(ASPELLDEV)
 	cp -f repl $(ASPELLDEV)/doc
 	cp -f ChangeLog $(ASPELLDEV)/doc

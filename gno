@@ -222,6 +222,7 @@ LaTeX
 Lego
 LibreOffice
 Lidl
+Lingus
 LinkedIn
 Linspire
 Linux

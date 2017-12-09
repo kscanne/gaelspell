@@ -5172,6 +5172,7 @@ armphinsean/HMDBUT
 armphinsin/HMDBU
 armshlua/HMDBUT
 armshluaite/HMDBU
+armtha/HB
 armáid/HMDBU
 armáide/HMDU
 armáidí/HMDBU
@@ -7689,6 +7690,7 @@ b'Ibéaraí
 b'Ibéir
 b'Idirlíon
 b'IdirThrádÉireann
+b'Ifreann
 b'Imbolc
 b'Imeacht
 b'Inbhirnis
@@ -28073,6 +28075,8 @@ d'idirshuigh/U
 d'idirshuínn/EU
 d'idéalaigh/U
 d'idéalaínn/FU
+d'Ifreann
+d'Ifrinn
 d'Imbolc
 d'imchas/U
 d'imchasainn/EU
@@ -30210,6 +30214,7 @@ dhathaí/U
 dhathaínn/FU
 dhea
 dhea-Ghaeilge/U
+dheabhra
 dheachadar/U
 dheachaigh/U
 dheachamar/U
@@ -48636,6 +48641,8 @@ hidrileictreachais
 hidrileictreachas
 hidrileictrigh
 hidrileictrí
+hIfreann
+hIfrinn
 hImbolc
 hImeacht
 hImeachta
@@ -50135,9 +50142,11 @@ idéanna/HMDBU
 idéil/HMDBU
 ife/HB
 ifreanda/HB
+Ifreann
 ifreann/HMDBUT
 ifreannach/HMDBUT
 ifreannaigh/HMDBU
+Ifrinn
 ifrinn/HMDU
 igín/HMDBUT
 igíní/HMDBU
@@ -57824,6 +57833,8 @@ m'Ibéir
 m'Ibéire
 m'Idirlín
 m'Idirlíon
+m'Ifreann
+m'Ifrinn
 m'Imbolc
 m'Imeacht
 m'Imeachta
@@ -65396,6 +65407,10 @@ neamhchríonnacht
 neamhchríonnachta
 neamhchríostúil
 neamhchríostúla
+neamhchrómatach
+neamhchrómatacha
+neamhchrómataigh
+neamhchrómataí
 neamhchuideachtúil
 neamhchuideachtúla
 neamhchuimseach
@@ -66730,6 +66745,8 @@ nideoige
 nIdirlín
 nIdirlíon
 nIdirThrádÉireann
+nIfreann
+nIfrinn
 nigh
 Nigéarach
 Nigéaracha
@@ -90182,6 +90199,7 @@ ticeálaim/USI
 ticéad/US
 ticéid/US
 tIdirlíon
+tIfreann
 tig/US
 tigh/US
 tigim/US

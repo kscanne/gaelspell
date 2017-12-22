@@ -3256,7 +3256,8 @@ an-chostasach/HB
 an-chostasacha/B
 an-chostasaigh
 an-chostasaí/B
-an-chosúil
+an-chosúil/HB
+an-chosúla/B
 an-chosúlacht/HMDBU
 an-chosúlachta/HMDU
 an-chraic/HMDBU
@@ -9255,6 +9256,8 @@ beagmhisniúla/S
 beagnach
 beagnithe/US
 beagní/US
+beagshaothair/US
+beagshaothar/US
 beagthairbhe/US
 beagthairbheach/S
 beagthairbheacha/S
@@ -16147,6 +16150,8 @@ casurlaí/US
 casóg/US
 casóga/US
 casóige/US
+casóigín/US
+casóigíní/US
 casúir/US
 casúireacht/US
 casúireachta/US
@@ -16961,6 +16966,8 @@ ceiliúraigh/S
 ceiliúraim/USA
 ceiliúraí/S
 ceiliúrtha/SU
+ceiliúráin/US
+ceiliúrán/US
 ceilp/US
 ceilpe/US
 ceilpeadóir/US
@@ -45777,6 +45784,10 @@ glúcóis/US
 glúcós/US
 glúin/US
 glúine/US
+glúineach/SU
+glúineacha/S
+glúinigh/S
+glúiní/SU
 glúiníneach/SU
 glúiníneacha/S
 glúinínigh/S
@@ -46823,6 +46834,8 @@ griollam/US
 griollta/SU
 griolsa/US
 griolsaí/US
+griongail/US
+griongal/US
 griothail/US
 griothal/US
 griothalach/S
@@ -64558,6 +64571,9 @@ naoithe
 naomh
 Naomh-Impireacht
 Naomh-Impireachta
+naomh-mháithreacha
+naomh-mháthair
+naomh-mháthar
 naomha
 naomhabhlainne
 naomhabhlann
@@ -74970,6 +74986,10 @@ réiltíneacha
 réiltínigh
 réiltíní
 réim
+réimdhíreach
+réimdhíreacha
+réimdhírigh
+réimdhírí
 réime
 réimeach
 réimeacha
@@ -75127,6 +75147,10 @@ rímhiona
 rímhná
 rímháistreacht
 rímháistreachta
+rímhóir
+rímhóire
+rímhór
+rímhóra
 ríméad
 ríméadach
 ríméadacha
@@ -75530,6 +75554,10 @@ rófhuaire
 rófhuar
 rófhuara
 rófhurasta
+rófhíor
+rófhíora
+rófhír
+rófhíre
 rógaire
 rógaireacht
 rógaireachta
@@ -79629,6 +79657,8 @@ seanchreidimh/ST
 seanchruth/S
 seanchrutha/ST
 seanchruthanna/S
+seanchréatúir/ST
+seanchréatúr/S
 seanchríonna/S
 seanchríonnacht/ST
 seanchríonnachta/S
@@ -83807,6 +83837,8 @@ spartaigh
 Spartaí
 spartaí
 sparáin
+sparáinín
+sparáiníní
 sparán
 sparánacht
 sparánachta
@@ -87403,6 +87435,8 @@ síolaím/SC
 síolaínn/F
 síolbhach/S
 síolbhaigh/ST
+síolchoirce/ST
+síolchoircí/S
 síolchuir/ST
 síolchuire
 síolchuirim/SA
@@ -87463,6 +87497,8 @@ síonra/ST
 síonta/S
 Síonáí/S
 síor/S
+síor-reatha/ST
+síor-rith/S
 síor-rá/S
 síora/S
 síoraigh/S
@@ -94758,6 +94794,8 @@ uibhe/HMDU
 uibheacha/HMDBU
 uibheagáin/HMDBU
 uibheagán/HMDBUT
+uibhín/HMDBUT
+uibhíní/HMDBU
 uige/HMDBU
 uigeach/HB
 uigeacha/B

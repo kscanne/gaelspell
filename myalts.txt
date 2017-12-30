@@ -9,6 +9,7 @@ a'Mhíl an Mhíl
 a'tighe an tí
 aar ár
 ab'eadh ba ea
+ab'fhearr ab fhearr
 Abbán Abán
 Abdenago Aibéid Neagó
 Abel Ábael
@@ -184,6 +185,7 @@ Artuir Artúir
 arádh a rá
 asdó is dóigh
 astó is dóigh
+ataoi'n atá
 atchífeadh a d'fheicfeadh
 atchífeas a fheicfidh
 atchífeá a d'fheicfeá
@@ -329,6 +331,8 @@ bhfeicfam bhfeicfimid
 bhfeicfir bhfeicfidh tú
 bhfeicir bhfeiceann tú
 bhfhuil bhfuil
+bhfiadháin fiáin
+bhfiadháin fiáine
 bhFian bhFiann
 bhfiuchaid bhfiuchann siad
 bhfuaireabhar bhfuair sibh
@@ -491,6 +495,8 @@ caidé cad é a
 caillid chailleann
 caillid chailleann siad
 Caiphas Cáiafas
+caithfeadh chaithfeadh
+caithfeadh gcaithfeadh
 caithfí chaithfí
 caithfí gcaithfí
 caithidh caithfidh
@@ -624,6 +630,7 @@ chír fheiceann tú
 chítí d'fheictí
 Chúnó Kuno
 cia cé a
+ciar'bhé cérbh é
 Cicero Cicearó
 cig msh
 Cinnáird Cinn Aird
@@ -697,6 +704,7 @@ d'bhúr de bhur
 d'bhúr do bhur
 d'chaint do chaint
 d'chosaibh do chosa
+d'chroidhe do chroí
 d'chroídhe do chroí
 d'chuid do chuid
 d'eirig d'éirigh
@@ -715,6 +723,7 @@ d'fhágail a fhágáil
 d'fhágas d'fhág mé
 d'fhágbhadar d'fhágadar
 d'fhágbhas d'fhág mé
+d'fhághbhail a fháil
 d'fhásann a fhásann
 d'fhéadfad d'fhéadfadh
 d'fhéadfaidh d'fhéadfadh
@@ -778,6 +787,7 @@ dfhás d'fhás
 dfhéach d'fhéach
 dh'aon-ghnoithe d'aon ghnó
 dh'eadh dhea
+dh'fhanann fhanann
 dh'fhághail fháil
 dh'fháilt fháil
 dh'innsint insint
@@ -844,6 +854,8 @@ dhéineann dhéanann
 dhéinid dhéanann
 dhíbirsiod dhíbríodar
 dhíobhsan díobhsan
+dhíolaid dhíolann
+dhíolaid dhíolann siad
 dhíthcéille dhíth céille
 dhóibhsan dóibhsean
 dhóibhsean dóibhsean
@@ -1256,6 +1268,7 @@ gaodhal Gael
 gaoith gaoth
 gcaithfam gcaithfimid
 gCarmain Garman
+gciad gcéad
 gcionn gceann
 gcloisead gcloisfidh mé
 gcreidid gcreideann
@@ -1323,6 +1336,7 @@ gníonn déanann
 Gobnuit Gobnait
 goidé'n cad é an
 Gregóir Gréagóir
+guirm goirm
 gurb'in gur sin
 gurb'é gurb é
 gurbh'é gurbh é
@@ -1390,6 +1404,7 @@ Iacob Iacób
 Iacoib Iacób
 ibhfad i bhfad
 idh iodh
+idtigh i dtigh
 Iehú Iéahú
 Iephte Iaftá
 Ieremias Irimia
@@ -1659,6 +1674,7 @@ na'n ná an
 Naaman Námán
 Nabuchodonosor Nabúcadnazar
 naigne n-aigne
+nalt n-alt
 nanam n-anam
 nanama n-anama
 Nangail Nangle
@@ -1929,6 +1945,7 @@ scríobhfair scríobhfaidh tú
 sdó is dóigh
 seadh is ea
 Seadhna Séadna
+seagainne s'againne
 Seaghain Seáin
 Seaghan Seán
 Seagháinín Seáinín
@@ -2045,6 +2062,8 @@ Tahiti Taihítí
 talamh-cheannaigh cheannaigh talún
 tanam t-anam
 taobh-shiar taobh thiar
+taoi'n atá
+taoi'n tá
 taoibh taobh
 taoidheann atá
 taoidheann tá
@@ -2131,6 +2150,7 @@ treás tráth is
 trialladar thrialladar
 trom-thruime tromthroime
 Truíphon Trufón
+trá's tráth is
 Tráighlí Trá Lí
 tré'n tríd an
 Tréalach Traolach

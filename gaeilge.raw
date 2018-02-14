@@ -2168,6 +2168,7 @@ Airíocha
 airíodh/HU
 airíonna/HMDBU
 airítear/HU
+ais
 ais/HMDBU
 ais-seol/HU
 ais-seola/U
@@ -4035,7 +4036,7 @@ anróiteach/HB
 anróiteacha/B
 anróitigh
 anróití/B
-ansa/B
+ansa/HB
 ansacht/HMDBU
 ansachta/HMDU
 ansclábhaíocht/HMDBU
@@ -12056,6 +12057,7 @@ breachnú/US
 breachta/US
 breachtradh/US
 breachtraidh/US
+breachtraí/US
 breaclach/US
 breaclacha/US
 breaclae/US
@@ -31553,6 +31555,8 @@ dlisteanú/US
 dlite/SU
 dliteanais/US
 dliteanas/US
+dlochtáin/US
+dlochtán/US
 Dlí/S
 dlí/US
 Dlí-Chumainn
@@ -43117,6 +43121,9 @@ gairmiúil/S
 gairmiúla/S
 gairmiúlacht/US
 gairmiúlachta/US
+gairmneach/US
+gairmneacha/US
+gairmní/US
 gairmoideachais/US
 gairmoideachas/US
 gairmoiliúint/US
@@ -43656,6 +43663,10 @@ garsúin/US
 garsúinín/US
 garsúiníní/US
 garsún/US
+gartach/S
+gartacha/S
+gartaigh/S
+gartaí/S
 garthimpeallacht/US
 garthimpeallachta/US
 garáiste/US
@@ -43720,6 +43731,8 @@ gathaíochta/US
 gathlach/US
 gathlaigh/US
 gathuithe/US
+gatháin/US
+gathán/US
 gathú/US
 gaín/US
 gaíon/US
@@ -45146,8 +45159,12 @@ ghúistínn/FU
 giair/US
 giall/US
 gialla/US
+giallach/S
+giallacha/S
 giallacht/US
 giallachta/US
+giallaigh/S
+giallaí/S
 giallfach/US
 giallfaigh/US
 giar/US
@@ -45170,6 +45187,8 @@ gibiris/US
 gibirise/US
 gibléad/US
 gibléid/US
+gibne/US
+gibní/US
 gibreacht/US
 gibreachta/US
 gibrím/USC
@@ -60413,9 +60432,13 @@ meallacacht/S
 meallacachta/S
 meallacaigh/S
 meallacaí/S
+meallach/S
+meallacha/S
 mealladh/S
+meallaigh/S
 meallaim/SA
 meallainn/E
+meallaí/S
 meallta/S
 mealltach/S
 mealltacha/S
@@ -68913,6 +68936,8 @@ oll-longa/HMDBU
 olla/HBMDU
 ollach/HB
 ollacha/B
+ollacht/HMDBU
+ollachta/HMDU
 ollaigh/HU
 Ollaimh
 ollaimh/HMDU
@@ -92400,7 +92425,9 @@ Traígh/S
 Traíoch/S
 Traíocha/S
 treabh/US
+treabhach/US
 treabhadh/US
+treabhaigh/US
 treabhaim/USA
 treabhair/S
 treabhaire/SU

@@ -7661,6 +7661,7 @@ b'acadóirí b'acadúlaigh
 b'acadúlaithe b'acadúlaigh
 b'acadúlaí b'acadúlach
 b'acaistear b'acastóir
+b'acar b'acra
 b'acara b'acra
 b'acaraí b'acraí
 b'acfainn b'acmhainn
@@ -20077,6 +20078,8 @@ bhramaire bhromaire
 bhramairí bhromairí
 bhrandubh bhrannamh
 bhranduibh bhrannaimh
+bhrannda bhranda
+bhranndaí bhrandaí
 bhraoinín bhraonáin
 bhraoinín bhraonán
 bhraoiníní bhraonáin
@@ -24691,6 +24694,8 @@ brandubh brannamh
 branduibh brannaimh
 brandy branda
 brandán branrán
+brannda branda
+branndaí brandaí
 brannsánta breabhsánta
 branra branar
 braoinín braonáin
@@ -28032,7 +28037,6 @@ carraoin carrán
 carraí carranna
 carraíocht coraíocht
 carraíochta coraíochta
-carraíochtaí coraíochtaí
 carrbhuaic corrabhuais
 carrbhán carbhán
 carrbhánach carbhán
@@ -28648,8 +28652,7 @@ ceardachas ceardaíocht
 ceardacht ceardaíocht
 ceardachta ceardaíochta
 ceardais ceardaíochta
-ceardanna cearn
-ceardanna cearna
+ceardanna cearnaí
 ceardas ceardaíocht
 ceardcha ceárta
 ceardchain ceárta
@@ -28670,8 +28673,6 @@ cearnach cearnóg
 cearnaigh cearnóga
 cearnaigh cearnóige
 cearnamán cearnamhán
-cearnaí cearn
-cearnaí cearna
 cearndamhán cearnamhán
 cearndubhán cearnamhán
 cearr carr
@@ -30135,7 +30136,6 @@ charraigreacha charraigeacha
 charraí charranna
 charraíocht choraíocht
 charraíochta choraíochta
-charraíochtaí choraíochtaí
 charrfhia charria
 charrfhiadh charria
 charriacha charrianna
@@ -30635,8 +30635,7 @@ cheardachas cheardaíocht
 cheardacht cheardaíocht
 cheardachta cheardaíochta
 cheardais cheardaíochta
-cheardanna chearn
-cheardanna chearna
+cheardanna chearnaí
 cheardas cheardaíocht
 cheardcha cheárta
 cheardchain cheárta
@@ -30652,8 +30651,6 @@ chearnabhán chearnamhán
 chearnach chearnóg
 chearnaigh chearnóga
 chearnaigh chearnóige
-chearnaí chearn
-chearnaí chearna
 chearrbhlach chearrbhach
 chearrbhlaigh chearrbhaigh
 cheartacháin cheirteacháin
@@ -37671,6 +37668,10 @@ cháisimh chásaimh
 cháiteach cháiteog
 cháiteacha cháiteoga
 cháithe chátha
+cháithleáin cháithlí
+cháithleán cháithleach
+cháithlíneach cháithleach
+cháithlíní cháithlí
 cháití cháiteoige
 cháll chall
 chálráib chál rábach
@@ -45334,8 +45335,10 @@ cáiteacha cáiteoga
 cáithe cátha
 cáitheach cáiteach
 cáithleach cáithíl
+cáithleáin cáithlí
 cáithleán cáithleach
 cáithlíneach cáithleach
+cáithlíní cáithlí
 cáithneán cáithnín
 cáithreach cáithleach
 cáití cáiteoige
@@ -46696,6 +46699,7 @@ d'acadúlaithe d'acadúlaigh
 d'acadúlaí d'acadúlach
 d'acadúlaí d'acadúlaigh
 d'acaistear d'acastóir
+d'acar d'acra
 d'acara d'acra
 d'acaraí d'acraí
 d'acfainn d'acmhainn
@@ -82068,7 +82072,6 @@ gcarraigreacha gcarraigeacha
 gcarraí gcarranna
 gcarraíocht gcoraíocht
 gcarraíochta gcoraíochta
-gcarraíochtaí gcoraíochtaí
 gcarrfhia gcarria
 gcarrfhiadh gcarria
 gcarriacha gcarrianna
@@ -82482,8 +82485,7 @@ gceardachas gceardaíocht
 gceardacht gceardaíocht
 gceardachta gceardaíochta
 gceardais gceardaíochta
-gceardanna gcearn
-gceardanna gcearna
+gceardanna gcearnaí
 gceardas gceardaíocht
 gceardcha gceárta
 gceardchain gceárta
@@ -82499,8 +82501,6 @@ gcearnabhán gcearnamhán
 gcearnach gcearnóg
 gcearnaigh gcearnóga
 gcearnaigh gcearnóige
-gcearnaí gcearn
-gcearnaí gcearna
 gcearrbhlach gcearrbhach
 gcearrbhlaigh gcearrbhaigh
 gceartacháin gceirteacháin
@@ -88399,6 +88399,10 @@ gcáisimh gcásaimh
 gcáiteach gcáiteog
 gcáiteacha gcáiteoga
 gcáithe gcátha
+gcáithleáin gcáithlí
+gcáithleán gcáithleach
+gcáithlíneach gcáithleach
+gcáithlíní gcáithlí
 gcáití gcáiteoige
 gcáll gcall
 gcálráib gcál rábach
@@ -95540,6 +95544,7 @@ hacadúlaithe hacadúlaigh
 hacadúlaí hacadúlach
 hacadúlaí hacadúlaigh
 hacaistear hacastóir
+hacar hacra
 hacara hacra
 hacaraí hacraí
 hacaí haca
@@ -107441,6 +107446,7 @@ m'acadúlaithe m'acadúlaigh
 m'acadúlaí m'acadúlach
 m'acadúlaí m'acadúlaigh
 m'acaistear m'acastóir
+m'acar m'acra
 m'acara m'acra
 m'acaraí m'acraí
 m'acfainn m'acmhainn
@@ -115249,6 +115255,8 @@ mbramaire mbromaire
 mbramairí mbromairí
 mbrandubh mbrannamh
 mbranduibh mbrannaimh
+mbrannda mbranda
+mbranndaí mbrandaí
 mbraoinín mbraonáin
 mbraoinín mbraonán
 mbraoiníní mbraonáin
@@ -121728,6 +121736,7 @@ n-acadúlaithe n-acadúlaigh
 n-acadúlaí n-acadúlach
 n-acadúlaí n-acadúlaigh
 n-acaistear n-acastóir
+n-acar n-acra
 n-acara n-acra
 n-acaraí n-acraí
 n-acfainn n-acmhainn
@@ -150862,6 +150871,7 @@ shéithleach shilteánach
 shéithligh shilteánaigh
 shéithlí shilteánach
 shéithlí shilteánaigh
+shí shitheadh
 shíar siar
 shíbhialta shibhialta
 shíbhialtach shibhialtach
@@ -158765,6 +158775,7 @@ t-abú t-aibiú
 t-acadóir t-acadúlach
 t-acadúlaí t-acadúlach
 t-acaistear t-acastóir
+t-acar t-acra
 t-acara t-acra
 t-acharann t-achrann
 t-achmhusán t-achasán

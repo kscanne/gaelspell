@@ -554,6 +554,7 @@ adist: aspell.txt repl ChangeLog
 	aspellproc ga
 	mv ${ASPELLDEV}/*.bz2 .
 	rm -f ${ASPELLDEV}/aspell.txt ${ASPELLDEV}/ga_phonet.dat ${ASPELLDEV}/ga.wl
+	rm -f a.tmp
 #     no need for aspell6 dictionary - if I do one and use affixes,
 #     need to improve the .dat file, see aspell manual for additional fields
 #	sed -i '/^mode aspell5/d' $(ASPELLDEV)/info

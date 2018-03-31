@@ -309,13 +309,6 @@ repl: athfhocail earraidi gaelu
 	(echo "personal_repl-1.1 ga 0 utf-8"; sort -u athfhocail earraidi gaelu) > $@
 	cp -f $@ $(HOME)/.aspell.ga.prepl
 
-installweb: FORCE
-	$(INSTALL_DATA) index.html $(HOME)/public_html/ispell
-	$(INSTALL_DATA) index-en.html $(HOME)/public_html/ispell
-	$(INSTALL_DATA) cuidiu.html $(HOME)/public_html/ispell
-	$(INSTALL_DATA) sonrai.html $(HOME)/public_html/ispell
-	$(INSTALL_DATA) sios.html $(HOME)/public_html/ispell
-
 dist: FORCE
 	$(MAKE) ChangeLog stair.txt miotas.txt romhanach giorr
 	sed '/development only/,$$d' ./Makefile > makefile

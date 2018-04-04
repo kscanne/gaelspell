@@ -1,120 +1,76 @@
-<h2>Summary</h2>
 <p>
-This page has been provided as an aid to package maintainers 
-and others who might be unable to read the 
-<a href = "index.html"><i>GaelSpell</i> home page</a>
-which is entirely in Irish.    This is in no sense a translation of 
-the Irish page (which contains much more detailed descriptions).
+This is the home page for GaelSpell, a powerful Irish language 
+spell checker that has been freely available since the year 2000.
+The latest version recognizes more than 360,000 words, and
+we are continuously adding new words to the database.
+If you notice any missing words,
+<a href="cuidiu-en.html">we welcome all suggestions</a> from the community.
 </p>
 
 <p>
-For Linux users, we have packages which provide Irish language 
-support for the most widely used spellcheckers in the Open 
-Source community: <i>ispell-gaeilge</i>, for Geoff Kuenning's
-<a href = "http://fmg-www.cs.ucla.edu/geoff/ispell.html"><i>International Ispell</i></a>,
-<i>aspell-gaeilge</i> for Kevin Atkinson's
-<a href = "http://aspell.sourceforge.net/"><i>Aspell</i></a>,
-and <i>hunspell-gaeilge</i> for the
-<a href="http://www.openoffice.org/">OpenOffice.org</a> 
-spellchecker.  The word lists are identical, just packaged differently.
+You can use GaelSpell on all major computing platforms
+(Linux, Mac, Windows),
+or even directly in your web browser thanks to a
+<a target="_blank" href="http://www.potafocal.com/lit/">nice interface</a>
+created by Michal Boleslav Měchura, and powered by the
+GaelSpell web service.
+There is additional information available on the 
+<a href="sios-en.html">Download</a> page
+to help you choose the correct version to download.
 </p>
 
 <p>
-Diarmaid Mac Mathúna has also repackaged the same underlying word
-list for use on Windows machines; 
-it is available (under the GPL) from
-the GaelSpell site:
-<a href="http://www.gaelspell.com/">www.gaelspell.com</a>.
+GaelSpell is open source software, available under the
+<a target="_blank" href="http://www.gnu.org/licenses/gpl-2.0.html">GPLv2</a>.
+All of the code and data underlying the spell checker are 
+available from our development site on  
+<a target="_blank" href="https://github.com/kscanne/gaelspell/">Github</a>.
 </p>
 
-<hr>
+<p>
+Of course, because GaelSpell is a spell checker, it only checks spelling
+and not grammar, so it doesn't pay any attention to a word's context;
+e.g. it accepts “mo máthair” and “mo cuid Gaeilge”.
+If you want to catch errors like these, you might have a look at
+our grammar checker <a href="/gramadoir/index-en.html">An&nbsp;Gramadóir</a>.
+</p>
+
 <h2><a name="Features">Features</a></h2>
 
 <ul>
-<li><b>Large Word List.</b>  There are around 330,000 words in the database;
-this is, by my estimates, about five times larger than the Irish
-spellchecker released by Microsoft in the early 2000's
-(can't tell for sure -- it's closed-source!)  
-The 
-coverage is equivalent to a dictionary with around 26,000 headwords --
-almost twice as big as a typical pocket dictionary (e.g. the Oxford or
+<li><b>Large Word List.</b> With better than 360,000 words in the database,
+GaelSpell accepts more than 96% of words in typical Irish texts,
+personal names and placenames included.
+The coverage is equivalent to a dictionary with around 39,000 headwords —
+almost three times as big as a typical pocket dictionary (e.g. the Oxford or
 the Collins Gem).
 <li><b>Grammatical Completeness.</b>  I have written software which 
 generates every inflected form of a dictionary headword when provided
 with a limited amount of grammatical information.   For instance,
 by adding the word <i lang="ga">fuaimnigh</i> to the underlying database 
-as a second declension verb, 87 inflected forms 
+as a second declension verb, more than 80 inflected forms 
 are added to the word list (all verb endings plus lenition, eclipsis, 
-prefix "d'" etc.)
+prefix “d'” etc.)
 <li><b>Accuracy.</b>  The only absolute rule when generating a spellchecker
-is that there should be no misspelled words in the basic word lists.
-Every word has been checked against print sources at least once.
-The software which generates the inflected forms has been tested various
-ways, including through the use of the shell script "igcheck" 
-which checks a word list
-for letter combinations which are illegal or "pre-standard" in Irish.
-The other word lists I've seen contain anywhere from 10% to 40% English or 
-misspelled Irish words.
-<li><b>Frequent Updates.</b> I have provided major updates every six 
-months or so since the initial release and plan to continue this for
+is that there should be no misspelled words in the basic word list.
+Every word in the GaelSpell database has been checked against
+print sources at least once, and the software that generates the
+inflected forms has been thoroughly tested as well.
+<li><b>Frequent Updates.</b> I have provided major updates 
+on a regular basis since the initial release and plan to continue this for
 the foreseeable future.   
 Candidates for addition to the word list are harvested via
 statistical methods as part of the
-<a href="http://crubadan.org/"><i lang="ga">Crúbadán</i></a> web crawling project;
-this is an effective way of keeping up with the latest
-terminology.
-I have also been adding words from the print dictionaries
-published by <i lang="ga">An Gúm</i> and the resources available
-from <a href="http://www.acmhainn.ie/">acmhainn.ie</a>.
-<li><b>Dialect support (<i>ispell</i> only).</b>  There are three
-different installation options included with the 
-<i>ispell-gaeilge</i> package, described below under 
-<a href="#Models">Alternate Models</a>.
+<a target="_blank" href="http://crubadan.org/"><i lang="ga">Crúbadán</i></a>
+web crawling project;
+this is an effective way of keeping up with the latest terminology.
 <li><b>Phonetic support (<i>aspell</i> only).</b>  The file 
-<i>gaeilge_phonet.dat</i> provides a complete "coarse" encoding 
+<i>gaeilge_phonet.dat</i> provides a complete “coarse” encoding 
 of the pronunciation of Irish.  This allows <i>aspell</i> to make more
 intelligent suggestions when it comes across a misspelled word.  For instance,
 where <i>ispell</i> gives no suggestions for the pre-standard 
 <i lang="ga">imfhiosach</i>,
-<i>aspell</i> uses the phonetics file to encode this as "*M*S*K",
+<i>aspell</i> uses the phonetics file to encode this as “*M*S*K”,
 thereby recognizing and suggesting the correct spelling 
 <i lang="ga">iomasach</i>.
 </ul>
-
-<hr>
-<h2><a name="Models">Alternate Models</a></h2>
-
-<p>
-The default word list conforms strictly to standardized Irish spelling.
-You can generate either a "literary" or "dialect" model
-(<i>ispell</i> only) by changing the variable 
-<i>INSTALLATION</i> at the top of the Makefile
-to <i>gaeilgelit</i> or <i>gaeilgemor</i> and using "make" as usual.  
-</p>
-
-<p>
-The <i>gaeilgelit</i> model contains many obsolete or obscure 
-(but standardly spelled) words which are probably best left out
-of any good Irish spellchecker.
-For instance, <i lang="ga">brúitíneach</i> (a stumpy or stuffy person
-in Ó Dónaill) is a likely misspelling of the much more common word
-<i lang="ga">bruitíneach</i> (the measles).  Other typical 
-"dangerous" word pairs: 
-<i lang="ga">deirc</i> for <i lang="ga">déirc</i>.
-<i lang="ga">múid</i> for <i lang="ga">muid</i>, etc.
-</p>
-<p>
-The <i>gaeilgemor</i> model, on the other hand, contains
-non-standard or dialect spellings (alongside the standard spellings)
-and accepts non-standard inflections of verbs.   This greatly reduces
-its effectiveness as a spellchecking tool; indeed, anyone who uses
-non-standard forms so frequently that he or she finds the standard model 
-inadequate will likely disagree with the very concept of an Irish
-spellchecker in the first place!
-</p>
-
-<p>
-With all this in mind,
-<b>I strongly urge installers to make the standard model 
-the default on your system</b>.
-</p>

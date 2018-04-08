@@ -1,0 +1,572 @@
+<h2><a name="Sonrai">History and Details</a></h2>
+
+<p>
+In 1997-1998, Alastair McKinstry created an open source spell checker
+<i>ispell-ga</i> that was based on a rather small word list.
+Although I ended up not using the words from that list in GaelSpell,
+I'm nevertheless grateful to Alastair for a couple of useful ideas that
+I was able to borrow from his affix file.
+</p>
+
+<p>
+I developed the first version of GaelSpell in February of 2000
+as part of the Software Engineering course I teach at
+<a target="_blank" href = "http://www.slu.edu/">Saint Louis University</a>,
+as a way of illustrating some the difficulties involved with 
+software internationalization to my students. 
+</p>
+
+<p>
+My basic strategy was to produce a list of headwords along
+with complete grammatical information for each one, and to collect
+that information in a single, centralized database.
+Then I wrote a small program that automatically produces all inflected forms
+of each noun, verb, and adjective, and used
+this program to create the
+<a target="_blank" href="https://raw.githubusercontent.com/kscanne/gaelspell/master/gaeilge.raw">basic word list</a>
+that I use in the spell checker.
+In this file you'll find:
+</p>
+<ul>
+<li>the headwords along with codes that indicate lenition (S), eclipsis (U), etc.
+<li>inflected forms of the nouns and adjectives
+<li>first person singular present tense of the verbs with codes (A,C,I) that indicate their conjugation
+<li>first person singular imperfect of the verbs with codes (E,F,J) that indicate their conjugation
+<li>versions of words containing capital letters with prefixed “n”, “h”, “t”, or eclipsis as appropriate
+</ul>
+
+<p>
+This last set of words must be included because of the strict rules 
+regarding capitalization imposed by the most common spell checkers;
+this idea came from Alastair McKinstry's work.
+Then the so-called “affix file” generates complete conjugations
+of all regular verbs, including lenited and eclipsed forms when necessary.
+</p>
+
+<p>
+The result is a dictionary that is highly accurate
+(I have verified every headword against print dictionaries at least once)
+and complete (it accepts every inflected form of each headword).
+</p>
+
+<hr>
+
+<h2><a name="Leaganacha">Releases</a></h2>
+<ul>
+<li>14 June 2000 — Version 0.1<br>
+(13,368 headwords and 171,416 inflected forms)<br><br>
+<li>20 September 2000 — Version 0.2<br> 
+(14,591 headwords and 188,202 inflected forms)
+<a href ="#ohonetoohtwo">Details</a><br><br>
+<li>22 February 2001 — Version 1.0<br>
+(standard version: 16,375 headwords and 200,068 inflected forms)<br>
+(non-standard version: 216,264 inflected forms) 
+<a href ="#ohtwotooneoh">Details</a><br><br>
+<li>28 December 2001 — Version 1.1<br>
+(standard version: 20,986 headwords and 241,969 inflected forms)<br>
+(non-standard version: 259,880 inflected forms) 
+<a href ="#oneohtooneone">Details</a><br><br>
+<li>26 June 2002 — Version 1.2<br>
+(standard version: 25,638 headwords and 282,260 inflected forms)<br>
+(non-standard version: 301,142 inflected forms) 
+<a href ="#oneonetoonetwo">Details</a><br><br>
+<li>31 July 2002 — Version 2.0<br>
+(standard version: 25,953 headwords and 284,287 inflected forms)<br>
+(non-standard version: 303,244 inflected forms) 
+<a href ="#onetwototwooh">Details</a><br><br>
+<li>17 December 2002 — Version 3.0<br>
+(standard version: 27,428 headwords and 288,307 inflected forms)<br>
+(literary version: 290,136 inflected forms)<br>
+(non-standard version: 308,995 inflected forms) 
+<a href ="#twoohtothreeoh">Details</a><br><br>
+<li>5 March 2003 — Version 3.1<br>
+(standard version: 27,829 headwords and 292,976 inflected forms)<br>
+(literary version: 294,964 inflected forms)<br>
+(non-standard version: 325,509 inflected forms) 
+<a href ="#threeohtothreeone">Details</a><br><br>
+<li>18 April 2003 — Version 3.2<br>
+(standard version: 27,843 headwords and 292,961 inflected forms)<br>
+(literary version: 295,041 inflected forms)<br>
+(non-standard version: 325,656 inflected forms) 
+<a href ="#threeonetothreetwo">Details</a><br><br>
+<li>10 July 2003 — Version 3.3<br>
+(standard version: 28,360 headwords and 298,394 inflected forms)<br>
+(literary version: 300,487 inflected forms)<br>
+(non-standard version: 332,086 inflected forms) 
+<a href ="#threetwotothreethree">Details</a><br><br>
+<li>1 April 2004 — Version 3.4<br>
+(standard version: 28,365 headwords and 298,814 inflected forms)<br>
+(literary version: 301,684 inflected forms)<br>
+(non-standard version: 335,137 inflected forms) 
+<a href ="#threethreetothreefour">Details</a><br><br>
+<li>18 July 2004 — Version 3.5<br>
+(standard version: 28,764 headwords and 302,301 inflected forms)<br>
+(literary version: 305,181 inflected forms)<br>
+(non-standard version: 352,749 inflected forms) 
+<a href ="#threefourtothreefive">Details</a><br><br>
+<li>7 January 2005 — Version 3.6<br>
+(standard version: 29,267 headwords and 294,739 inflected forms)<br>
+(literary version: 297,698 inflected forms)<br>
+(non-standard version: 360,598 inflected forms) 
+<a href ="#threefivetothreesix">Details</a><br><br>
+<li>18 July 2005 — Version 4.0<br>
+(standard version: 29,577 headwords and 293,456 inflected forms)<br>
+(literary version: 296,778 inflected forms)<br>
+(non-standard version: 358,975 inflected forms) 
+<a href ="#threesixtofouroh">Details</a><br><br>
+<li>31 July 2006 — Version 4.1<br>
+(standard version: 31,023 headwords and 302,992 inflected forms)<br>
+(literary version: 306,762 inflected forms)<br>
+(non-standard version: 372,094 inflected forms) 
+<a href ="#fourohtofourone">Details</a><br><br>
+<li>6 May 2007 — Version 4.2<br>
+(standard version: 32,004 headwords and 310,789 inflected forms)<br>
+(literary version: 315,044 inflected forms)<br>
+(non-standard version: 385,595 inflected forms) 
+<a href ="#fouronetofourtwo">Details</a><br><br>
+<li>29 October 2007 — Version 4.3<br>
+(standard version: 32,923 headwords and 318,856 inflected forms)<br>
+(literary version: 323,202 inflected forms)<br>
+(non-standard version: 397,504 inflected forms) 
+<a href ="#fourtwotofourthree">Details</a><br><br>
+<li>4 August 2008 — Version 4.4<br>
+(standard version: 33,062 headwords and 319,631 inflected forms)<br>
+(literary version: 323,978 inflected forms)<br>
+(non-standard version: 415,743 inflected forms) 
+<a href ="#fourthreetofourfour">Details</a><br><br>
+<li>26 July 2010 — Version 4.5<br>
+(standard version: 35,317 headwords and 335,801 inflected forms)<br>
+(literary version: 341,178 inflected forms)<br>
+(non-standard version: 474,505 inflected forms) 
+<a href ="#fourfourtofourfive">Details</a><br><br>
+<li>27 July 2011 — Version 4.6<br>
+(standard version: 35,340 headwords and 335,994 inflected forms)<br>
+(literary version: 341,379 inflected forms)<br>
+(non-standard version: 474,823 inflected forms) 
+<a href ="#fourfivetofoursix">Details</a><br><br>
+<li>9 January 2014 — Version 4.7<br>
+(standard version: 35,376 headwords and 336,207 inflected forms)<br>
+(literary version: 341,594 inflected forms)<br>
+(non-standard version: 473,820 inflected forms) 
+<a href ="#foursixtofourseven">Details</a><br><br>
+<li>13 February 2016 — Version 4.8<br>
+(standard version: 36,956 headwords and 347,664 inflected forms)<br>
+(literary version: 353,941 inflected forms)<br>
+(non-standard version: 491,113 inflected forms) 
+<a href ="#fourseventofoureight">Details</a><br><br>
+<li>3 December 2017 — Version 5.0<br>
+(standard version: 38,835 headwords and 359,732 inflected forms)<br>
+(literary version: 366,336 inflected forms)<br>
+(non-standard version: 538,283 inflected forms) 
+<a href ="#foureighttofiveoh">Details</a><br><br>
+<li>In Progress — Version 5.1
+</ul>
+
+<hr>
+<h2><a name="Athruithe">ChangeLog</a></h2>
+<h3><a name="ohonetoohtwo">20 September 2000 — Version 0.2</a></h3>
+Bug fixes:
+<ul>
+<li>many extraneous words removed from <i>gaeilge.raw</i>  
+<li>incorrect verb endings in <i>gaeilge.aff</i>
+(e.g. conditional under affix flag “C”)
+<li>bug in <i>gaeilge.aff</i> related to the verb “iaigh”
+<li>bug in <i>gaeilge.aff</i> related to the past tense of the verbs
+“adhlaic”, “iomlaisc”, etc. 
+<li>plural of these adjectives: dian, fiar, cian, ciar, liath, etc.
+<li>verbal adjectives of these verbs: adhain, comhaill, cumaisc, dearlaic, deighil, diongaibh, ibh, logh, riagh, sleabhac, spréigh, teasairg, togh
+<li>corrected declensions of these verbs: broim, cadhail, diailigh, fainic, maidhm, saighid, tiúin, uaim
+<li>incorrect verbal nouns (*éiliú, *damhsú, etc.)
+<li>incorrect noun inflections (*anacara, *blaosca, *dabhacha, *dumhacha, *fionnóaí, *foghala, *macasamhala, *magaí, *nóinte, *saghasanna)
+<li>misspelled words (*drochduine, *fiolagrán, *grainnín, *ionanálaigh, *saitir, *seasmacht, *speirling, *teicníc, *t-olltoghcháin)
+</ul>
+<br>
+Added in version 0.2:
+<ul>
+<li>imperative of irregular verbs
+<li>new verbal endings (dhódar, phléadar, etc.)
+<li>non-standard verbal endings (-fad, -fead, -fair, -fir, -íos)
+<li>imperfect of verbs with initial vowel, without eclipsis or prefix “d'”
+<li>the suffix “-sé” in the hints in <i>gaeilge.aff</i>
+<li>verbal nouns with prefixed “t-”, “d'”, “m'”, etc.
+<li>genitive of verbal nouns
+</ul>
+<br>
+<h3><a name="ohtwotooneoh">22 February 2001 — Version 1.0</a></h3>
+Bug fixes:
+<ul>
+<li>verbal adjectives of these verbs: comóir, dathaigh, foirceann, táthaigh, tnúth
+<li>genitive of these adjectives: dearg, bándearg, ..., cearr, núicléach
+<li>inflected forms of adjectives ending in “-ách”
+<li>unnecessary conjugation of “tig”
+<li>unnecessary lenition or eclipsis (ala, deara, deo, imigéin, éineacht, etc.)
+<li>incorrectly inflected nouns (*bandálaí, *comhdhálaí, *diachara, *garrfhéigh, *midhg, *praghasanna, *sic, *sméimh, *t-atógáil).
+<li>affixes as standalone words (*ath, *droch, etc.)
+<li>misspelled words (*barúlacht, *comhghuailleacht, *éadóirsigh, *eispéaras, *fáinnéirí, *frithseipteán, *giománach, *giúirléid, *hómaighnéasach, *infhear, *insroichthe, *Meánmhura, *tainséirín, *tradhall, *tráigéide, *uailbhreas)
+</ul>
+<br>
+Added in version 1.0:
+<ul>
+<li>support for the non-standard version
+<li>new files <i>biobla</i>, <i>daoine</i>, <i>giorr</i>, and <i>logainm</i>
+<li>hints for “ath-”, “comh-”, “droch-”, “for-”, “frith-”, and “réamh-” in <i>gaeilge.aff</i>
+<li>flags for irregular nouns in the genitive case (in order to accept “tsúgartha” but not *t-adhartha, *t-uí, etc.)
+<li>“m'”, “d'” + capitalized plural nouns
+</ul>
+<br>
+<h3><a name="oneohtooneone">28 December 2001 — Version 1.1</a></h3>
+Bug fixes:
+<ul>
+<li>verbal adjectives of these verbs: aischuir, freaschuir, síolchuir, etc.
+<li>slenderization of words ending in “-eann” (aoileann, baineann, broineann, coiteann, etc.)
+<li>unnecessary plurals (Airí, Ard-Oifigí, Bailte, Ollscoileanna, etc.)
+<li>other unnecessary inflections (*adanóid, *aoldathanna, *báisteacha,
+*bóiléagair, *builí, *clochmhóinte, *coimeáid, *coimhéid, *cruóga, *éadruaigh, 
+*féinrialacha, *forbaí, *imshaolta, *luasc-cheolta, *mórthíortha, *seansaolta, 
+*seintimintí, *siúcraí, *stopainní)
+<li>incorrectly inflected words (*cainninn, *cileavataí, *coirdéil, *cráifiscí,
+*dé-óidí, *dirbh, *eiriceacha, *eiricí, *fabhaile, *fabhala, *feorainneacha, 
+*garmhaic, *geiréinéim, *leathronna, *leathuaireanta, *mainneire, 
+*neamhbheichte, *peiréid, *sabhana, *searca, *sréin, *suirbhéithe, 
+*traidhfile, *traidhfilí, *tsnáth, *vataí, *voltaí)
+<li>misspelled words (*aisín, *bachrán, *bitiúman, *camchéachta, *ceannrach,
+*Céineach, *ceoldhráma, *cnuachair, *cos-i-mbos, *diosc-thiomáint, *eispistil, 
+*fadbhreathaitheach, *Fionlannais, *gall, *feisire, *hiptéis, *meilséara, 
+*mígnaíúil, *míliste, *mísheanmhar, *Neipeálach, *ói, *príbhéad, *Ródéiseach, 
+*Rúmáin, *Rúmánach, *sainchomartha, *scabharta, *tagdhach)
+</ul>
+<br>
+Versions:
+<ul>
+<li>non-standard → standard (cranna, daoránach, múnláil, raiméis, reathaire,
+failm, feara, fraochmhar, síolaigh, tamhnóg, tutaíl, uaire)
+<li>standard → non-standard (aindiathaí, aipsint, aislingeoir, alabastar, 
+anaestéise, anaestéiseach, anaestéisí, bearád, bomaite, cianúlas, cionúireacht,
+costriomach, cothaíocht, cráiteach, diabaetas, dúthach, easláintiúil,
+faillíoch, faireoir, fealsúnta, féaracht, fisicí, fisiciúil, fogus, gabháile,
+gabháilte, galltacht, gearr-ruballach, gidh, glaech, gliogarnáil, gliúcálaí,
+húrla-hárla, ilphairtíoch, imirceoir, ináitreabh, iniúchóireacht, lásar,
+miocrascóp, muruach, naofar nuall, ógán, óstán, Pol, préatóiriam, ráiméis,
+réigh, saitilít, séaram, tachtóir, tartúil, tiomchaint, tréanmhar,
+truaillitheacht, uileloisctheach, vultúr) and
+“Bolaiveach”, “Cóiriach”, “Colóimbeach”, etc. from the handbook of the <i>Caighdeán Oifigiúil</i>
+</ul>
+<br>
+<h3><a name="oneonetoonetwo">26 June 2002 — Version 1.2</a></h3>
+Added in version 1.2:
+<ul>
+<li>new files <i>gall</i>, <i>miotas</i>, and <i>stair</i>
+<li>the script <i>igcheck</i>
+</ul>
+<br>
+Bug fixes:
+<ul>
+<li>bug in <i>gaeilge.aff</i> and <i>gaeilgemor.aff</i> involving the verb “graf”.
+<li>unnecessary inflections (*glanaidh).
+<li>superlative of these adjectives: beag, breac, ceart, geal, mear,
+oircheas, sean, seicear, etc.
+<li>other incorrectly inflected words (*-chuirthe, *comhluú (etc),
+*faighineacha, *faraesean, *Gaelím (etc), *glaeim (etc), *naouithe, 
+*neamhdhaingeana, *neamhthinne,
+*parailéile, *parailéala, *rúndaingeana, *séuithe, *spraeáilim (etc),
+*táthchuda, *uiríseala)
+<li>misspelled words (*ardteistméireacht, *bruinneach,
+*cisíocht, *deasgnáth, *Neipeál, *scríoblálaí, *svaistice, 
+*taobhraoinn, *teasóras)
+</ul>
+<br>
+Versions:
+<ul>
+<li>non-standard → standard (cuideog)
+<li>standard → non-standard (achréidh, adaigh, Bailteach, 
+casino, ceirib, cruinníocha, galaoireach, íodha, kebab, méasantar, parfaraí, 
+Samáireach, slabaire)
+<li>standard → logainm (Achréidh, Caerdydd)
+</ul>
+<br>
+<h3><a name="onetwototwooh">31 July 2002 — Version 2.0</a></h3>
+Added in version 2.0:
+<ul>
+<li>Files for Aspell
+<li>Many new rules in the script <i>igcheck</i>
+</ul>
+<br>
+Bug fixes:
+<ul>
+<li>unnecessary inflections (*dhara, *soiscéalta, *SHEIF, *dt-léine, *th-léine,
+*hu-chasadh, etc.)
+<li>unnecessary hyphens (ard-teicneolaíocht, feidhm-oideas, dreach-caillte)
+<li>other incorrectly inflected words (*Fionlanna)
+<li>lenition of words with two capital letters
+(e.g. Gael-Mheiriceánach/S  →  ghael-Mheiriceánach)
+</ul>
+<br>
+Versions:
+<ul>
+<li>non-standard → standard (bunán)
+<li>standard → non-standard (aillse, cáideo)
+</ul>
+<br>
+<h3><a name="twoohtothreeoh">17 December 2002 — Version 3.0</a></h3>
+Added in version 3.0:
+<ul>
+<li>The literary version
+<li>Words from the Apocrypha in <i>biobla</i>
+</ul>
+<br>
+Bug fixes:
+<ul>
+<li>subjunctives without lenition or eclipsis
+<li>prefix “h” on verb forms
+<li>unnecessary “cross-products” with affix flags B,D,H,M,T
+<li>bug in <i>gaeilge.aff</i> involving the verb “buígh”
+<li>unnecessary inflections (*Bairéine, *Búcairiste, *Búdaipeiste, *d'fhaigh, *Eacuadóir, *eoil, *ghach, *Iarúsailéime, *Iostanbúil, *Liospóine, *Lováine, *Maidride, *Mósaimbíce, *Nasaireite, *Omain, *Suaise, *tÉimin, *t-eol, *tIamáice, *tSomáile, *Túinise)
+<li>unnecessary inflections in <i>biobla</i> (*gChazó, *bPharóis, *Pht-, *mPt-)
+<li>incorrectly inflected words (*Gaelaíodar, *Gaelódh, *Gaelófá, etc., *neamhfhorleathna)
+<li>misspelled words (*ath-thochrais, *Basútalainn, *Beachuanalainn, *ceolsholas, *cognolaíoch, *crombóg, *daonnachaí, *dísréad, *dtag, *feimeanachas, *Gúam, *hipeartéacs, *Inde-Sín, *ionsamhlaigh, *ionsamhlóir, *Iútach, *naíon, *Sáir, *Seirb, *síthrá, *sótálaigh, *Suaslannach, *tag, *thag, *thólamh, *tólamh, *tug, *Túiníseach, *Úral)
+<li>misspelled words in <i>biobla</i> (*Níocanór, *Ptolamaís, *Dionisius, *Sóspatras)
+<li>removed non-existent suffix “-sé”
+</ul>
+<br>
+Versions:
+<ul>
+<li>non-standard → standard (togra)
+<li>standard → non-standard (baoischreideamh, Caismíor, cileabeart, ecstasaí, fiolaictéir, fuarthóir, grás, grásmhar, greas, iliteach, iliteoir, ing, Laitve, luathrán, neamhfhaitíosach, pizza, robar, síceois, Somáileach, stopuaireadóir, tríléim, visciúlacht)
+</ul>
+<br>
+<h3><a name="threeohtothreeone">5 March 2003 — Version 3.1</a></h3>
+Added in version 3.1:
+<ul>
+<li>The file <i>athfhocail</i>
+</ul>
+<br>
+Bug fixes:
+<ul>
+<li>unnecessary inflections (*achras, *adhnas, *adhras, *Connaichte, *dheighleas, *ghleadhras, *ionlas, *máinneálann, etc, *saighdeas, *scuabálann, etc, *sleabhcas, *thiomnas, *thorchras)
+<li>incorrectly inflected words (*breithmhis, *eisiaite, *glaetar, *ghlaetá, *ghlaetaí, *iaite, *iarmhartha, *móideimeanna)
+<li>misspelled words (*cóireagrafaí, *máistirplean, *staidiúil, 
+*teasdhíonadh, *teipeannach)
+<li>genitive of verbal nouns ending in “-áil” (“-áilte”  →  “ála”)
+</ul>
+<br>
+Versions:
+<ul>
+<li>literary → standard (aonbheannach, coránach, sacraifís, soraidh, sroigheall)
+<li>standard → literary (adag, áirí, brúitíneach, casca, cíl, cloca, dálta, deirc, deois, dreasachtach, fuad, géata, liost, loistín, miam, múid, nuar, pana, rabh, ruma, seanadh, sill, slád, tairiseacht, táite, tóla)
+<li>non-standard → literary (ing)
+<li>non-standard → standard (fuirste)
+<li>standard → non-standard (cnágshnámh, doghafa, dros, dubhú, éagadh, foghúna, fuaireas, fuirsíonn, etc., glaothán, itheas, léimeadh, meathadh, rugas, siocadh, thugas, tiúna, tráchtadh)
+</ul>
+<br>
+<h3><a name="threeonetothreetwo">18 April 2003 — Version 3.2</a></h3>
+Versions:
+<ul>
+<li>literary → standard (fiondruine, Ultaibh)
+<li>standard → literary (athlamh, drochbhlasta, easca, éigne, mionnán, mun, paist, sealg, sir)
+<li>standard → non-standard (Féinícia)
+</ul>
+<br>
+<h3><a name="threetwotothreethree">10 July 2003 — Version 3.3</a></h3>
+Bug fixes:
+<ul>
+<li>unnecessary inflections (*ioncholluithe, *inleighise)
+<li>misspelled words (*fótachríoch, *Teileagúis)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → literary (lóch, muscail, raille)
+<li>standard → non-standard (fínéagrán, Francóir, pandiachas, Seitnia)
+<li>non-standard → standard (nascóir)
+</ul>
+<br>
+<h3><a name="threethreetothreefour">1 April 2004 — Version 3.4</a></h3>
+Bug fixes:
+<ul>
+<li>changed the verb “neamhnigh” from broad to slender root
+<li>no longer permit “b'”, “m'”, “d'” before nouns beginning with “fh”+consonant
+<li>unnecessary inflections (*t-altóir, *n-arsa, *bhrách, *mbrách, *cheadas, *gceadas, *dhéarfá, *dhéarfadh, *dhéarfaí, etc., *deirigí, *dheirim, *dheirinn, etc., *dhú, *ndú, *dhúirt, *dhúradh, etc., *fách, *fhách, *fhud, *grástaí, *ghrifín, *ngrifín, *dtáthar, *tháthar, *t-achtáil, *t-athchúrsáil, etc. ..., *tseirbheála,...)
+<li>misspelled words (*domhsan, *idirgníomhú, *Ocsatánais, *Úizbeiceastáin)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → literary (ar/air n., aireamh, aithneach, ana, bas, beartanna, búr, cana, car (v.), chuile, cláracha, cláraí, cogarnaigh, conach, connall, crúthaigh, cuile, díbh (v.), díogach, dram, drud, eis, far, féan, feir, fhéin, fíge, fineach, fóbairt, forán, Franc, gaoith, geál, gion, gléic, leabhair adj., leitir, los, príomh, rionn, scairtigh, sios, stáid, tarrach, teannach, time, tiomain(t), tíor, ur)
+<li>standard → non-standard (bráithreacha, cinní, comhadaigh, deireann, fuaid, geanntracha, gheobhair, Guaranaí, rachad, tabharfad, tiorma, Urdúis)
+<li>literary → standard (beannachtach, ibhe, sceallagach, suaill)
+</ul>
+<br>
+<h3><a name="threefourtothreefive">18 July 2004 — Version 3.5</a></h3>
+Bug fixes:
+<ul>
+<li>unnecessary inflections (*han-ard, *n-an-ard, etc.)
+<li>incorrectly inflected words (*uasmhéide, *uasmhéidí)
+<li>misspelled words (*fodhlithe, *péindlithe)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (gairmiúlachas)
+<li>literary → standard (tobscoir)
+</ul>
+<br>
+<h3><a name="threefivetothreesix">7 January 2005 — Version 3.6</a></h3>
+Bug fixes:
+<ul>
+<li>removed the prefix “b'” from all words in the genitive case
+<li>removed eclipsis from all adjectives (besides numbers: gceithre, gcéad, etc.)
+<li>unnecessary inflections (*féimheacha, *féimhí, *fhuaireadar, *fhuaireamar, *fhuarthas)
+<li>incorrectly inflected words (*carnta, *cornta, *cuntrapháirtí, *díchornta, *íosmhéide(anna), *spairnte)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (diagnóisíoch, guais-soilse, íospairteach, log (v.), picseal)
+<li>standard → literary (láthar)
+<li>non-standard → standard (logáil (v.))
+</ul>
+<br>
+<h3><a name="threesixtofouroh">18 July 2005 — Version 4.0</a></h3>
+Bug fixes:
+<ul>
+<li>removed eclipsis from all verbal adjectives (that are not genitives of verbal nouns also, e.g. -áilte, etc.)
+<li>removed prefix “b'” from adjectives in the genitive singular masculine
+<li>removed prefix “h” from all plural or genitive adjectives
+<li>unnecessary inflections (*dtinneall, *thinneall)
+<li>incorrectly inflected words (*buairthe, *coinscríobha, *coirthe, *doirthe, *iniste, *íospairthe, *lánscoirim etc., *mir, *scoirthe, *tobscoirthe, *tuirlingte)
+<li>misspelled words (*Limbuirgis, *Limbúis)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (algóirithim, Amarais, bandaraon, bogearraí-le-roinnt, Casacstáis, Címéiris, cosarbolg, dearcóir, facthas, feidhmoideas, fostaitheoir, idiréadan, líonléitheoir, nuachtghrúpa, Réitea-Rómáinis, Seireoicis, síos-luchtaigh, Tibéadais, toipic)
+<li>standard → literary (beitheanna, breacachan, brod, canach, ceantrach, cin (v.), cocaire, cocaireacht, cuise, deachaigh (v.), deán, dluigh (v.), éadaigh (v.), t-inse, punta, ranníocach, rata, scal, troim (gen. trom))
+<li>non-standard → standard (algartam)
+</ul>
+<br>
+<h3><a name="fourohtofourone">31 July 2006 — Version 4.1</a></h3>
+Bug fixes:
+<ul>
+<li>incorrectly inflected words (*ciúáileann, *gliúáileann, *sciáileann, *scriúáileann, *spraeáileann, *straeáileann, *stuáileann, *tatuáileann, etc.)
+<li>misspelled words (*cortásach)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (dí-scrios)
+<li>standard → literary (seiceal)
+</ul>
+<br>
+<h3><a name="fouronetofourtwo">6 May 2007 — Version 4.2</a></h3>
+Bug fixes:
+<ul>
+<li>unnecessary inflections (*tAibisín, *tEiritré)
+<li>incorrectly inflected words (*bloghtha)
+<li>misspelled words (*srathmharfóir)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (Aegéach, buncaer, Éabró, cogneolaíoch, Curdastáin, friotaí, Leiveant, meireamorfach, mhaille, sligéisc, Tioról)
+<li>standard → literary (b'ama, t-ama, etc., cartlainn, colann, faisc, goire, gora, gráín, iar, maltach, oireacht, path, seafaid, siltean)
+<li>literary → standard (caimse, comhré, crannstruchtúr, críochach, dréachtlitir, forghníomhaitheach, glaotháille, íomháphróiseáil, jabdheis, ríghe, saormheán, uaschostas, uídh)
+<li>non-standard → standard (friotóir, sliogéisc)
+</ul>
+<br>
+<h3><a name="fourtwotofourthree">29 October 2007 — Version 4.3</a></h3>
+Bug fixes:
+<ul>
+<li>incorrectly inflected words (*mairthe, *nanashoicinde, *soicinde)
+<li>misspelled words (*Moraiv, *neamhchairéiseach)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (aircitíp, aircitípeach, Béarút, cantóir, cianósta, Cirgeastáinis, creachóir, grog, Hiteais, iarChríost, inathnuaite, inseoir, lánGhaeilge, neamhghairéad, próiseálán, Suiméarais, Tigrinis, topagrafacht, Turcamáinis, uamhach)
+<li>standard → literary (fáthach, fos, ragaire, sleamhán, teilgeán)
+<li>non-standard → standard (lán-Ghaeilge, Tigrínis, Tuircméinis)
+</ul>
+<br>
+<h3><a name="fourthreetofourfour">4 August 2008 — Version 4.4</a></h3>
+Bug fixes:
+<ul>
+<li>incorrectly inflected words (*ardrithe, *leasrithe)
+<li>unnecessary inflections (*bhfearacht, *d'fhearacht, etc.)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (aoinne, aoinneach, Astracán, bhíos, Iarachó, Ind, Muscat)
+<li>standard → literary (fóire)
+<li>non-standard → standard (Muscáit)
+</ul>
+<br>
+<h3><a name="fourfourtofourfive">26 July 2010 — Version 4.5</a></h3>
+Bug fixes:
+<ul>
+<li>incorrectly inflected words (*buaí, *ilbhreice, *méadala, *méadalacha)
+<li>misspelled words (*ard-abhcóide, *arm-phinsean, *ciansheoladh, *corr-thrádáil, *marbhdraoi, *Paiseadóir, *pápanta, *siúlacht, *sneaitsíneacht)
+<li>unnecessary inflections (*tsainchónaí)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (anaireicse, banaisteoir, barra-chairt, boilímia, Bramanachas, bróist, daoirseacha, físdhiosca, flanndhearg, freasaitheachas, iarbhunscoil, intrialta, íosthuarastal, mór-éileamh, postdhíol, roithín, seabhacóireacht, seimisteas, teanndháileog)
+<li>standard → literary (meilit, oireachas, pórt, taen)
+<li>literary → standard (foscain, seachaibh, seachainn, seacham)
+<li>non-standard → standard (aitheach, ardmhaor, barrachairt, cábach, cadrán, caimseach, ciabhach, comhairleacht, cuisleannach, dornóg, easach, easnaí, fiailteach, fiarach, foirneach, fáinneoireacht, féigh, gailbheach, gairbhín, gliadaire, guairneánach, iarratacha, ionramh, langaire, leadhbacha, leathracha, léiritheacht, lópa, martaíocht, measach, oigheartha, oilteanas, óstán, preicleach, páin, reathacha, scimeal, sciodarnach, seimeastar, sirtheach, sonda, síofrach, tochard, truailleach, truas, turaire, uamaigh, urlann, vásta)
+<li>non-standard → literary (cairbh, cairre, corca, cáidhe, feimíneach, páin)
+</ul>
+<br>
+<h3><a name="fourfivetofoursix">27 July 2011 — Version 4.6</a></h3>
+Versions:
+<ul>
+<li>standard → non-standard (Gael-Linn, triológ)
+<li>standard → literary (macha)
+<li>non-standard → standard (tríológ)
+</ul>
+<br>
+<h3><a name="foursixtofourseven">9 January 2014 — Version 4.7</a></h3>
+Bug fixes:
+<ul>
+<li>incorrectly inflected words (*leasmháthrach, *seanmháthrach, *sin-seanmháthrach)
+<li>misspelled word (*eoró)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (aimnisintéis, bith-theicneolaíocht, mageanta, Ocatáinis, siomtóm, tríceireatóp, úirí(ocha))
+</ul>
+<br>
+<h3><a name="fourseventofoureight">13 February 2016 — Version 4.8</a></h3>
+Bug fixes:
+<ul>
+<li>incorrectly inflected words (*atruaí, *sleáine, *taistilím, etc., *tulaigh)
+<li>unnecessary inflections (*t-athsheinm, *crochaillí, *t-impí, *t-intreoir, *tsleán)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (Aisticeach, bástcóta, Bílearúis, Bílearúisis (etc.), blagadóir, broinceach, buiséad (v.), canbhásáil, Cinearuáindis, comóirim, etc., fáiscealaín, frithghiúdachas, Iávais, inchánaithe, ion-análaigh, jóic, Láóis, Neipealais, Oman, pitiúinia, réibh, réibhcheol, ríogaíoch, róbó, sleasfhuinneog, sleaspholl, steirió, svaistíce, Tigrínis, tíorthaíoch, treóch, uranach, Urdais, xéireacs(áil))
+<li>standard → literary (daith, rob, ruis)
+<li>non-standard → standard (ainteasach, Bealarúis, buiséadaigh (v.), caisligh, cianghlao, cóilí, comóraim, diúlaithe, drochthorthaí, graidhin, incháinithe, Neipeailis, Óman, róbat, svaistice, teanntacht, Tigrinis, Urdúis)
+<li>non-standard → literary (feith)
+<li>literary → standard (breacdhubh)
+<li>literary → non-standard (forán)
+</ul>
+<br>
+<h3><a name="foureighttofiveoh">3 December 2017 — Version 5.0</a></h3>
+Bug fixes:
+<ul>
+<li>incorrectly inflected words (*athdhálann, *fodhálann, *imdhálann, etc., *bligird, *graftha, *liteagraftha, *puinc, *radagraftha, *súraicim, etc.)
+<li>misspelled words (*beidís, *beifeá, *beifí, *beimis, *beinn, *Chaomhanach, *dea-snoite, *gobhanóireacht, *macratheanga, *preasocáid)
+<li>unnecessary inflections (*b'eile, *bhféidir, *bpaindéimeach, *d'fhéidir, *dtraschurtha, *heile, *leoir, *leoire, *leora, *m'fhéidir, *tsainordú)
+</ul>
+<br>
+Versions:
+<ul>
+<li>standard → non-standard (Adhmarais, Afárais, Afra-Mheiriceánach, Águstas, aisioncrónach, alos, amharcán, anarac, antoisceacht, aontachtúil, Apáis, Apáiseach, etc., athbheochantóir, athchuimhniú, Avairis, barbaiciú, bhfuilid, Bihairis, Bioslamais, blagsféar, Búidis, cláirnéid, costéifeachtach, Curasao, déabhlóideann, etc., dhein, diúltacht, eicsigéis, éilipsóideach, eirgeanamach, eirgeanamaic, faidhpeáil, ficseanach, fíordheimhneoir, fisiteiripeach, Gandais, giostáil, idirnáisiúntaigh, etc., inaisíoctha, insuite, lantainíd, leicsím, lognormálta, Malagásais, Marascailis, meandarach, meanórá, Moldávais, Nasaireit, neamhfheidhmeannach, níb, níba, nílid, Óiséit, Óiséitis, etc., Portó, propán, roghnaíoch, Sadúisíneach, searút, seinmliosta, sioncrónaigh, sioncrónú, etc., smiotáil, súmáil, taibh-ealaíona, típeolaíocht, trasphlandáil)
+<li>non-standard → standard (aisioncronach, anorac, girréiseach, ionsuite, Pórtó, s'agam, s'agat, etc., sioncronaigh, sioncronú, etc.)
+<li>literary → standard (Abcásach, Angaíle, caoineog, Craís, curlóir, cúlscríbhneoir, fadamharc, faighneogach, feabhsach, Gallóis, geo-éagsúlacht, géarghoil, íoslíon, laparascópach, Liovóinis, Liovónach, méarla, neamhainmníocht, Níobhais, oileánda, ríomhléitheoir, Sumatrach, tráthnóinín, Tíbhis)
+<li>literary → non-standard (seicilí)
+</ul>

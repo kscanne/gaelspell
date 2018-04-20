@@ -9,7 +9,7 @@ to power the GaelSpell web interface on
 
 To use the API, simply make a HTTP POST request to the URL
 `https://cadhan.com/api/gaelspell/1.0`
-with one parameters:
+with one parameter:
 
 * `teacs`: The Irish language text to be checked, as URL-encoded UTF-8
 

@@ -440,7 +440,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	C H A I N N		>	-AINN,TÁ
 	C H A I N N		>	-AINN,TAÍ     
 	D H A I N N		>	-AINN,TÁ  # literary/non-standard only, crádh- eg.
-	D H A I N N		>	-AINN,TAÍ     
+	D H A I N N		>	-AINN,TAÍ
 	G H A I N N		>	-AINN,TÁ
 	G H A I N N		>	-AINN,TAÍ     
 	M H A I N N		>	-AINN,TÁ
@@ -509,7 +509,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	C H I N N		>	-INN,TEÁ
 	C H I N N		>	-INN,TÍ     
 	D H I N N		>	-INN,TEÁ  # literary/non-standard only, crádh- eg.
-	D H I N N		>	-INN,TÍ     
+	D H I N N		>	-INN,TÍ
 
 						      # caithinn
 	T H I N N		>	-THINN,TEÁ      # gnáthchaite (strip/add t for Latg)

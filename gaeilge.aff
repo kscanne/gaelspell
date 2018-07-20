@@ -314,7 +314,7 @@ flag *A:				             # molaim
 								# separate rules to simplify Latg version
 	B H A I M		>	-AIM,TAR     # láithreach saor
 	C H A I M		>	-AIM,TAR     # láithreach saor
-	D H A I M		>	-AIM,TAR     # (non-standard) crádh- stem eg.
+	D H A I M		>	-AIM,TAR     # literary/non-standard only, crádh- eg.
 	G H A I M		>	-AIM,TAR     # láithreach saor
 	M H A I M		>	-AIM,TAR     # láithreach saor
 
@@ -367,7 +367,7 @@ flag *A:				             # molaim
 								# separate rules to simplify Latg version
 	B H I M		>	-IM,TEAR     # láithreach saor
 	C H I M		>	-IM,TEAR     # láithreach saor
-	D H I M		>	-IM,TEAR     # (non-standard) glaoidhtear, too
+	D H I M		>	-IM,TEAR     # literary/non-standard only, crádh- eg.
 
 						     # caithim
 	T H I M			>	-THIM,TEAR     # láithreach saor (strip/add t for Latg)
@@ -439,7 +439,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	B H A I N N		>	-AINN,TAÍ     
 	C H A I N N		>	-AINN,TÁ
 	C H A I N N		>	-AINN,TAÍ     
-	D H A I N N		>	-AINN,TÁ  # non-standard only (crádh- stem e.g.)
+	D H A I N N		>	-AINN,TÁ  # literary/non-standard only, crádh- eg.
 	D H A I N N		>	-AINN,TAÍ     
 	G H A I N N		>	-AINN,TÁ
 	G H A I N N		>	-AINN,TAÍ     
@@ -508,7 +508,7 @@ flag *E:	        		             # mholainn, d'amharcainn
 	B H I N N		>	-INN,TÍ     
 	C H I N N		>	-INN,TEÁ
 	C H I N N		>	-INN,TÍ     
-	D H I N N		>	-INN,TEÁ  # non-standard only (glaoidh-)
+	D H I N N		>	-INN,TEÁ  # literary/non-standard only, crádh- eg.
 	D H I N N		>	-INN,TÍ     
 
 						      # caithinn

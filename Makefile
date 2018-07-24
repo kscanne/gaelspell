@@ -131,7 +131,9 @@ GOODSORT=bash ./isort
 # regenerated.  Gin 7 generates the three gaeilge.* files.
 # Note that the files Gin 7 creates are ISO-8859-1 and don't have
 # a trailing newline; call to "utf" and the sort process fix those issues
-gaeilge.raw gaeilge.lit gaeilge-pre.mor: ${HOME}/math/code/data/Dictionary/IG
+# This strictly speaking should depend on math/code/data/Dictionary/IG
+# but don't put that here so end-users can make w/o that dependency
+gaeilge.raw gaeilge.lit gaeilge-pre.mor:
 	$(GIN) 7
 	utf gaeilge.raw gaeilge.lit gaeilge.mor
 	sed -i 's/\/BH/\/HB/' gaeilge.raw gaeilge.lit gaeilge.mor
@@ -148,7 +150,9 @@ gaeilge.mor: gaeilge-pre.mor dinneenalts.txt fgbalts.txt myalts.txt riaalts.txt
 	$(GOODSORT) $(ALTWORDS) > tempfile
 	mv tempfile $(ALTWORDS)
 
-athfhocail-pre.txt: ${HOME}/math/code/data/Dictionary/IG
+# This strictly speaking should depend on math/code/data/Dictionary/IG
+# but don't put that here so end-users can make w/o that dependency
+athfhocail-pre.txt:
 	$(GIN) 10
 	mv -f athfhocail $@
 	utf $@

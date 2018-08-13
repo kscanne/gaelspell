@@ -335,7 +335,10 @@ bhfaighthear bhfaighfear
 bhfaightheá bhfaighfeá
 bhfaighthí bhfaighfí
 bhfasta bhfostú
+bhfeacamair bhfacamar
 bhfeacaís bhfaca tú
+bhfeacha bhfaca
+bhfeacuighis bhfaca tú
 bhfearabh bhfir
 bhFearnaigh bhFearnaí
 bhfeicfam bhfeicfimid
@@ -347,6 +350,7 @@ bhfiadháin fiáin
 bhfiadháin fiáine
 bhFian bhFiann
 bhfiuchaid bhfiuchann siad
+bhfoiridh bhfóire
 bhfuaireabhar bhfuair sibh
 bhfuaireas bhfuair mé
 bhfuaireas fuair mé
@@ -386,6 +390,7 @@ bhfuighthí bhfaightí
 bhfuil's bhfuil a fhios
 bhfuile bhfuil tú
 bhfuileadar bhfuil siad
+bhfuileamar bhfuilimid
 bhfuilese bhfuil tusa
 bhfuilid bhfuil siad
 bhfuilir bhfuil tú
@@ -463,6 +468,7 @@ bhíon bhíonn
 bhíos bhí mé
 bhíosa bhí mise
 bhíossa bhí mise
+bhíothar bhíothas
 bhír bhíonn tú
 bhís bhí tú
 bhísse bhí tusa
@@ -527,6 +533,7 @@ Carrthach Cárthach
 Carrthaigh Cárthaigh
 cCallain gCallainn
 ceann-fé ceann faoi
+ceanntuí ceann tuí
 Ceanúig Ceannúigh
 Cearbhal Cearbhall
 Cearbhuidh Cearbhaigh
@@ -558,6 +565,8 @@ cheire ceithre
 cheire cheithre
 cheistsa cheistse
 cheofaidh fheicfidh
+cheánna cheana
+cheánna chéanna
 chiainibh chianaibh
 chialluíd chiallaíonn siad
 chidh feiceann
@@ -602,6 +611,7 @@ chroidhesi chroíse
 Chromaill Chromail
 Chromwell Chromail
 Chruim Chroim
+chua chuaigh
 chuadhabhar chuaigh sibh
 chuadhadar chuadar
 chuadhas chuaigh mé
@@ -649,8 +659,11 @@ chífá d'fheicfeá
 chífí d'fheicfeadh
 chímid a fheicimid
 chímid feicimid
+chímse feicimse
+chímse fheicimse
 chímíd a fheicimid
 chímíd feicimid
+chínn d'fheicinn
 Chíochóté Chíochótae
 chíodh d'fheiceadh
 chír fheiceann tú
@@ -694,6 +707,7 @@ cuirfam cuirfimid
 cuirfeadh chuirfeadh
 cuirfeadh gcuirfeadh
 cuirfí chuirfí
+cuiridh cuirigí
 cuirtí chuirtí
 Cumhail Cumhaill
 Cumhthaigh Cumhaigh
@@ -705,6 +719,7 @@ céidrí chéad rí
 céidrí céad rí
 cíd feiceann
 cíd feiceann siad
+cídhfeá bhfeicfeá
 címid feicimid
 címíd feicimid
 Cíochóté Cíochótae
@@ -751,6 +766,7 @@ d'fhiafruig d'fhiafraigh
 d'fhobair dóbair
 d'fhoghlaimíos d'fhoghlaim mé
 d'fhreagairt a fhreagairt
+d'fhulang a fhulaingt
 d'fhágaibh d'fhág
 d'fhágaidh d'fhág
 d'fhágail a fhágáil
@@ -816,6 +832,7 @@ deirm deirim
 deirmse deirimse
 Demétriuis Déiméitrias
 Demétrius Déimitrias
+denár dár
 deontais-i-gcabhair deontais i gcabhair
 deontas-i-gcabhair deontas i gcabhair
 dfhagháil a fháil
@@ -855,6 +872,7 @@ dhearnas dhearna mé
 dhearnuigh dhearna
 dheineas rinne mé
 dheinimse dhéanaimse
+dheirbhshiúrsa dheirfiúrsa
 dheirim deirim
 dheisgiobuilse dheisceabalsa
 dhem de mo
@@ -1059,6 +1077,7 @@ doghéanfainn dhéanfainn
 doghéanfainnse dhéanfainnse
 Doimnic Doiminic
 Domhnal Dónal
+donár dár
 doníd a dhéanann
 doníd a dhéanann siad
 doníd déanann
@@ -1198,9 +1217,12 @@ Eilis Eilís
 Eirne Éirne
 Eleásar Eileázár
 Eliséus Éilias
+ephoist rphoist
+ephost rphost
 Ephraim Eafráím
 Ester Eistir
 Eudhmonn Éamonn
+euró euro
 Eádhra Eadhra
 Eóchaill Eochaill
 Eóchaille Eochaille
@@ -1214,6 +1236,8 @@ Faill-Cliath Faill Cliath
 Faill-Móir Faill Móir
 Faithleann Faithlinn
 feaca bhfaca
+feacamair bhfacamar
+feacamair fhacamar
 fearabh fir
 fearaibh fir
 feicir feiceann tú
@@ -1328,6 +1352,8 @@ gcródha cróga
 gcualthas chualathas
 gcud gcuid
 gcuirfam gcuirfimid
+gcídhfeá bhfeicfeá
+gcídhfimís bhfeicfimis
 gcífeadh bhfeicfeadh
 gcífeá bhfeicfeá
 gcífeása bhfeicfeása
@@ -1539,6 +1565,7 @@ Júdah Iúdá
 Júdéa Iúdáia
 Laban Lábán
 Laeire Laoire
+lagthrá lag trá
 Laigheann Laighean
 lain lán
 landlord tiarna talún
@@ -2211,6 +2238,7 @@ thugabhar thug sibh
 thugaid thugann
 thugas thug mé
 thugthar thugtar
+thuitimsa thitimse
 thuitios thiteann
 thán'adar thángadar
 thána tháinig mé
@@ -2256,6 +2284,7 @@ tréigid tréigeann
 tréigid tréigeann siad
 tréithribh tréithe
 trí-na-chéile trína chéile
+tríú-leibhéal tríú leibhéal
 tsaoghailso tsaoil seo
 tSasanach Sasanach
 tseanmhnaoi tseanbhean

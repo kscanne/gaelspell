@@ -1600,6 +1600,7 @@ mílliún milliún
 míoiriúnach mí-oiriúnach
 míúsáid mí-úsáid
 móran mórán
+mórthimpall mórthimpeall
 múinteorí múinteoirí
 n'eiri n-éirí
 n'ingne na hingne
@@ -1689,6 +1690,7 @@ niorbh níorbh
 nios níos
 nn ann
 no nó
+noibleagáidí n-oibleagáidí
 noibríonn n-oibríonn
 noidhreacht n-oidhreacht
 noileán n-oileán
@@ -1812,6 +1814,7 @@ phaipéar pháipéar
 phaipéir pháipéir
 phairc pháirc
 phairt pháirt
+phairtithe pháirtithe
 phairtí pháirtí
 phictúir phictiúr
 phiopa phíopa
@@ -1878,9 +1881,11 @@ príomhá príomha
 Pádraigh Pádraig
 páipear páipéar
 páirithe páirtithe
+páirtíthe páirtithe
 párliament parlaimint
 pás pas
 pásití páistí
+péile peile
 píóg pióg
 póiblí poiblí
 póitéinsiúil poitéinsiúil
@@ -1952,6 +1957,7 @@ roba róba
 rochiuin róchiúin
 rofhada rófhada
 roime roimhe
+roineann roinneann
 roint roinnt
 rol ról
 romh roimh
@@ -2005,6 +2011,7 @@ sarófar sárófar
 saróidh sáróidh
 sarú sárú
 sasamh sásamh
+sasanach Sasanach
 sasanaigh Sasanaigh
 sasta sásta
 sasúil sásúil
@@ -2034,12 +2041,14 @@ scilleanna scileanna
 sciomram sciomraím
 scith scíth
 sclabhaithe sclábhaithe
+sclabhaí sclábhaí
 scoilbliana scoilbhliana
 scoileadh scaoileadh
 screachán scréachán
 scribhinn scríbhinn
 scribhinni scríbhinní
 scribhneoir scríbhneoir
+scribhneoireachta scríbhneoireachta
 scribhneoirí scríbhneoirí
 scriobh scríobh
 scriofa scríofa
@@ -2074,6 +2083,7 @@ seirbhise seirbhíse
 seirbhiseach seirbhíseach
 seirbhisi seirbhísí
 seirbhisí seirbhísí
+seiseann seisean
 seoa seo a
 seoagus seo agus
 seribhísí seirbhísí
@@ -2103,6 +2113,8 @@ shóchmhainn shócmhainn
 shóchmhainní shócmhainní
 shólathar sholáthar
 si sí
+sias siad
+sias síos
 siceolaithe síceolaithe
 siceolaíoch síceolaíoch
 siceolaíocht síceolaíocht
@@ -2186,6 +2198,7 @@ sraid sráid
 sraide sráide
 sraideanna sráideanna
 sruchtúr struchtúr
+sráith sraith
 stadas stádas
 stadáis stádais
 stadás stádas
@@ -2280,6 +2293,7 @@ t-oilean t-oileán
 t-ola ola
 t-uachtaránacht uachtaránacht
 t-ubh ubh
+t-ám t-am
 t-éide éide
 t-éifeacht éifeacht
 t-íomhá íomhá
@@ -2317,6 +2331,7 @@ taiscealaíochta taiscéalaíochta
 taisceál taiscéal
 taisceáladh taiscéaladh
 taispeaint taispeáint
+taispeantais taispeántais
 taispeantas taispeántas
 taispeán taispeáin
 taispáint taispeáint
@@ -2330,6 +2345,7 @@ talt t-alt
 talun talún
 talúin talún
 tam t-am
+tamhlaíochta talmhaíochta
 tamhrán t-amhrán
 taon t-aon
 tarringím tarraingím
@@ -2371,6 +2387,7 @@ thair thiar
 thairscint thairiscint
 thaispeán thaispeáin
 thaispéaint thaispeáint
+thalann thallann
 theaglach theaghlach
 thearmaí théarmaí
 thinig tháinig
@@ -2393,6 +2410,7 @@ tháing tháinig
 tháini tháinig
 tháinigh tháinig
 tháining tháinig
+tháithí thaithí
 ti tí
 tiarratas t-iarratas
 tiarratasóir t-iarratasóir
@@ -2496,6 +2514,7 @@ tábhactach tábhachtach
 tábhar t-ábhar
 tádh t-ádh
 tágtha tagtha
+táithí taithí
 tángadar thángadar
 tástalóir tástálóir
 téan t-éan
@@ -2529,6 +2548,7 @@ udarú údarú
 Ui Uí
 Uibh Uíbh
 Uidhlín Uidhilín
+uileann uilleann
 uineir úinéir
 uinéir úinéir
 uirlís uirlis

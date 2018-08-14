@@ -15888,7 +15888,7 @@ cruinnig-se
 cruinnightheacha/US
 cruinniugadh
 cruinniughthe/US
-cruinniúcha
+cruinniúcha/US
 cruinníghthe/US
 cruinníocha/US
 cruinnú
@@ -22529,6 +22529,7 @@ drochmheastúil
 drochshaoghail/US
 drochshaoghal/US
 drochshompla/US
+drochspion/US
 drod/US
 drogha
 drogóid/US
@@ -41551,6 +41552,9 @@ meastúchán/S
 meastúil/S
 meastúla/S
 measuim
+measúnóireacht/S
+measúnóireachta/S
+measúnóireachtaí/S
 meatachais/S
 meatachas/S
 meataire
@@ -41828,6 +41832,7 @@ mheirbhínn/F
 mheisi
 mheisiúnaí
 mheisiúnaínn/F
+mheánoirthear
 mhiann
 mhich
 Mhichil
@@ -42868,6 +42873,7 @@ méire/S
 méireacha
 méireana
 méireanna/S
+méireanta/S
 méireasta
 Méiriceá/S
 méiricínteacht
@@ -43595,6 +43601,7 @@ n-érdam
 n-éun
 n-ólfainn-se
 n-úbhall
+n-úsáidte
 na'n
 Naaman
 nabarthar
@@ -44330,6 +44337,7 @@ neamhfhoighdeach
 neamhfhoighdeacha
 neamhfhoighdigh
 neamhfhoighdí
+neamhfhoirmeáilte
 neamhfhoirmeálta
 neamhfhomóis
 neamhfhomós
@@ -44452,6 +44460,7 @@ neantáin
 neantán
 neaomh
 nearraí
+nearta
 neartmhaireacht
 neartmhur
 neartrach
@@ -44532,6 +44541,7 @@ neimhthní
 neimhí
 Neipealais
 Neipealaise
+Neipeál
 neirbhis
 neirbhise
 neirt
@@ -45076,8 +45086,12 @@ nádurthach
 nádúir
 nádúire
 nádúra
+nádúrach
+nádúracha
 nádúracht
 nádúrachta
+nádúraigh
+nádúraí
 nádúrthach
 nádúrthacha
 nádúrthaigh
@@ -45104,6 +45118,9 @@ náiríocht
 náiseáin
 náiseán
 náisián
+náisiúnacht
+náisiúnachta
+náisiúnachtaí
 náisiúnaibh
 náisiúnt
 náisiúntóir
@@ -45385,6 +45402,7 @@ oibhseacha/B
 oibhsigh
 oibhsí/B
 oibir/HU
+oibire/HMDU
 oibirigh/HU
 oibirithe/HBUMD
 oibiriú/HUBMDT
@@ -45643,6 +45661,7 @@ oirthíse
 oisfheoil/HMDBU
 oisfheola/HMDU
 Oisin
+oisirí/HMDBU
 oispidéal/HMDBUT
 oispidéil/HMDBU
 oispís/HMDBU
@@ -46094,6 +46113,10 @@ paitfheoil
 paitinneacha/US
 paitionta
 paitire
+paitriarcach/S
+paitriarcacha/S
+paitriarcaigh/S
+paitriarcaí/S
 paitrisc/US
 paitrisce/US
 paitriscí/US
@@ -46972,6 +46995,9 @@ poblachtánachas/US
 poblachtánaigh/SU
 poblachtánaithe/US
 poblachtánaí/SU
+poblachtóir/US
+poblachtóirí/US
+poblachtóra/US
 pobuil/US
 pobul/US
 poc
@@ -46980,6 +47006,7 @@ pocaid/US
 pocaide/US
 pocaidí/US
 pocaire
+pocanna/US
 pochaille
 pocháin/US
 pochán/US
@@ -49451,6 +49478,7 @@ réamainn/E
 réamh
 réamhfhaisnéis
 réamhfhaisnéise
+réamhmheasta
 réamhrádh
 réamhráidte
 réamhráiteach
@@ -50578,6 +50606,11 @@ scafail
 scafaireacht
 scafaireachta
 scafal
+scaffláil
+scaffláilte
+scafflála
+scafflálaim/I
+scafflálainn/J
 scafóg
 scafóga
 scafógach
@@ -52042,6 +52075,7 @@ seach/S
 seach's
 seach-labhraim
 seacha
+seachadófar/S
 seachaid/S
 seachaide
 seachaidim/SA
@@ -54257,6 +54291,7 @@ sluinn-each
 sluinneach
 sluinnte/S
 slumairt
+slumanna/S
 slup
 slupairt
 sluparnach
@@ -54938,6 +54973,7 @@ sobhaircín/ST
 sobhaircíní/S
 sobharcáin/ST
 sobharcán/S
+sobhlasta/S
 sobháilceach
 sobul
 socadán
@@ -55064,6 +55100,7 @@ soghabhálas/S
 soghabháltacht/ST
 soghabháltachta/S
 soghainn
+soghalaithe/S
 soghamhail/S
 soghamhaile/S
 soghanna/S
@@ -55300,6 +55337,8 @@ soláthrú/S
 soléighte/S
 soléir/S
 soléire/S
+solúbacht/ST
+solúbachta/S
 somach/S
 somaigh/ST
 somhaltas
@@ -55592,6 +55631,7 @@ spiochán
 spiogód
 spiogóda
 spiogóide
+spion
 spionnadach
 spionnadacha
 spionnadaigh
@@ -56170,6 +56210,8 @@ sratháin/ST
 srathán/S
 sreabhnaí/S
 sreabhán
+sreachailt/ST
+sreachailte/S
 sream
 sreamach/S
 sreamacha/S
@@ -56441,6 +56483,7 @@ staireog
 stairfhiacail
 stairfhiacaile
 stairidhthe
+stairithe
 stairrfeach
 stairric
 stairriceach
@@ -56613,6 +56656,7 @@ stiúraí
 stiúraím/C
 stiúraínn/F
 stiúraíocht
+stiúriú
 stiúrthach
 stiúrthaigh
 stiúróchadh
@@ -58406,6 +58450,7 @@ taibhsiúlacht
 taibhsíocht/US
 taibhsíochta/US
 taibhím/USC
+taibléidí/US
 taice
 taichim
 taictic/US
@@ -58429,6 +58474,7 @@ taidhse
 taidhseach
 Taidsícis/S
 Taidsícise/S
+taifeadú/US
 taifnigh
 tAifrean
 taigeoruid
@@ -58665,6 +58711,8 @@ taispánaim/USA
 taispánta/S
 taistealach/US
 taistealaigh/US
+taisteáil/US
+taisteála/US
 tAisticeach
 taisím/USC
 taite
@@ -60165,6 +60213,8 @@ tháiníc
 tháinís-se
 tháirgeála/U
 tháirgeálainn/JU
+tháirgí/U
+tháirgínn/FU
 tháirse
 tháirsesean
 tháirste
@@ -61289,6 +61339,8 @@ totaíl
 totbhalbh
 tothóg
 tra
+trachtaire/US
+trachtairí/US
 trachtáil
 tradhall/US
 tradhna/US
@@ -62844,7 +62896,8 @@ táirgeáil/US
 táirgeáilte/S
 táirgeála/US
 táirgeálaim/USI
-táirgigh/S
+táirgigh/SU
+táirgithe/S
 táirgitheoir/US
 táirgitheoirí/US
 táirgitheora/US
@@ -62853,6 +62906,7 @@ táirgtheoir/US
 táirgtheoirí/US
 táirgtheora/US
 táirgí/S
+táirgím/USC
 táirgíocht/US
 táirgíochta/US
 táirgítear/US
@@ -65814,6 +65868,7 @@ Zíon
 óspidéil/HMDBU
 ósta
 óstachas
+óstaithe/HB
 óstas
 óstáidh/HMDU
 óstán

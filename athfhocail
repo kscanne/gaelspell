@@ -1622,6 +1622,7 @@ MhacFhionnlaoigh Mhac Fhionnlaoich
 Mhacabéach Mhacabaech
 Mhacabéigh Mhacabaeigh
 Mhacdara Mhac Dara
+Mhadaigh Mhadaidh
 Mhaelsheachlainn Mhaolsheachlainn
 Mhagdalén Mhaigdiléana
 Mhaghnuis Mhánais
@@ -1700,7 +1701,9 @@ Mhumha Mhumhain
 Mhuscat Mhuscáit
 Mhuscat Mhuscáite
 Mhuslamach Mhoslamach
+Mhuslamacha Mhoslamacha
 Mhuslamaigh Mhoslamaigh
+Mhuslamaí Mhoslamaí
 Mhághnuis Mhánais
 Mhághnus Mhánas
 Mháighréad Mháiréad
@@ -1719,6 +1722,7 @@ Mhúmhain Mhumhain
 Mhúmhan Mhumhan
 Michil Michíl
 Midheach Míoch
+Mionloch Mionlach
 Mitheamh Meitheamh
 Mithimh Meithimh
 Mithiomh Meitheamh
@@ -1738,7 +1742,9 @@ Mumha Mumhain
 Muscat Muscáit
 Muscat Muscáite
 Muslamach Moslamach
+Muslamacha Moslamacha
 Muslamaigh Moslamaigh
+Muslamaí Moslamaí
 Muímhneach Muimhneach
 Muímhneachaibh Muimhnigh
 Muímhnig Muimhnigh
@@ -1837,6 +1843,10 @@ Ollaindeach Ollannach
 Ollaindeacha Ollannacha
 Ollaindigh Ollannaigh
 Ollaindí Ollannaí
+Ollainneach Ollannach
+Ollainneacha Ollannacha
+Ollainnigh Ollannaigh
+Ollainní Ollannaí
 Ollannais Ollainnis
 Ollannaise Ollainnise
 Olltach Ultach
@@ -7700,6 +7710,9 @@ b'Ollaindeach b'Ollannach
 b'Ollaindeacha b'Ollannacha
 b'Ollaindigh b'Ollannaigh
 b'Ollaindí b'Ollannaí
+b'Ollainneach b'Ollannach
+b'Ollainneacha b'Ollannacha
+b'Ollainní b'Ollannaí
 b'Ollannais b'Ollainnis
 b'Oman b'Óman
 b'Omanach b'Ómanach
@@ -96908,6 +96921,7 @@ hOllaind hOllainn
 hOllainde hOllainne
 hOllaindeach hOllannach
 hOllaindigh hOllannaigh
+hOllainneach hOllannach
 hOllannais hOllainnis
 hOllannaise hOllainnise
 hOman hÓman

@@ -258,12 +258,14 @@ Lycos
 Lyric
 Macintosh
 Macromedia
+Magamedia
 Magners
 Maithú
 Mandrake
 Mandriva
 Marriott
 Mastercard
+Mazars
 McDonald's
 McKesson
 MediaWiki
@@ -354,6 +356,7 @@ Reuters
 Rondomondo
 Roomthree
 Rosetta
+Rosg
 Routledge
 Rovers
 Ruby

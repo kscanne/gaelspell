@@ -1085,6 +1085,7 @@ ailinn/E
 ailinín
 aill/HMDBU
 aill-bhruachach
+ailliliú/HMDBUT
 aillilliú/HMDBUT
 aillis
 aillse/HMDBU
@@ -4173,6 +4174,7 @@ b'Éireanach
 b'Éireanacha
 b'Éireanaigh
 b'Éireanaí
+b'Ísealtír
 b'Óiríon
 b'Óiséit
 b'Óiséitis
@@ -6232,6 +6234,7 @@ blas/US
 blasadh/US
 blasaim/USA
 blasc
+Blascaoidí
 blascarnach
 blaspóg/US
 blaspóga/US
@@ -13627,6 +13630,9 @@ coimisiún/US
 coimisiúnadh/US
 coimisiúnaim/USA
 coimisiúnta/SU
+coimisnéara/US
+coimisnéir/US
+coimisnéirí/US
 coimpléas
 coimpreann
 coimreacht
@@ -18862,6 +18868,8 @@ d'Éiphte
 d'Éirean
 d'Éireanach
 d'Éireanaigh
+d'Ísealtír
+d'Ísealtíre
 d'Íta
 d'Óiríon
 d'Óiséit
@@ -27922,6 +27930,7 @@ fleadhach
 fleadhachais/US
 fleadhachas/US
 fleadhamhail
+fleadhanna/US
 fleadhmhar
 fleadhtha
 fleagúil
@@ -28549,6 +28558,7 @@ forbairte/MDUS
 forbarfaidh/US
 forbarfaimid/US
 forbarfar/US
+forbart/MDBUS
 forbartar/US
 forbartha/S
 forbha
@@ -31800,6 +31810,7 @@ Ghaodhlaibh
 Ghaoidhealaibh
 Ghaoidhelaibh
 ghaoith
+Ghaorthaigh
 Ghaoth-dobhair
 ghaoí
 gharastun
@@ -32537,6 +32548,7 @@ glasairí/US
 glasaraí/US
 glasdíolaíocht
 Glasgó/S
+Glasnaíon
 glasradh
 glasraigh/US
 glasraithe/SU
@@ -34830,6 +34842,8 @@ hÉireanach
 hÉireanaigh
 hÉirinne
 hÉirionn
+hÍsealtír
+hÍsealtíre
 hÓiríon
 hÓiséit
 hÓiséite
@@ -39406,6 +39420,7 @@ luíodú
 luíon
 luíos
 Luísias
+Lá'l
 lá'r
 lá's
 láb
@@ -40399,6 +40414,8 @@ m'Éiphte
 m'Éirean
 m'Éireanach
 m'Éireanaigh
+m'Ísealtír
+m'Ísealtíre
 m'Óiríon
 m'Óiséit
 m'Óiséite
@@ -41252,6 +41269,7 @@ mBioslamaise
 mbiádh
 mbiáidh
 mblaoidhtear
+mBlascaoidí
 mbliadhain
 mbliadhainsi
 mblian
@@ -44734,6 +44752,7 @@ nglacfidís
 nglaodhaidís
 nglaodhfad
 nGlasgó
+nGlasnaíon
 nglionn
 ngoibhearnóir
 ngoirther
@@ -45063,6 +45082,8 @@ nÉirean
 nÉireanach
 nÉireanaigh
 nÉreann
+nÍsealtír
+nÍsealtíre
 nÓiríon
 nÓiséit
 nÓiséite
@@ -64495,6 +64516,8 @@ Zíon
 Éreann
 Érenn
 Érinn
+Ísealtír
+Ísealtíre
 Íta
 Ócc
 Óicc

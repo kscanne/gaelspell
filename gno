@@ -326,12 +326,15 @@ Peugeot
 Pfizer
 Phillies
 Photocall
+Photoshop
 Picasa
 Pidgin
 Pinterest
+Pirelli
 Playstation
 Pokémon
 Pontiac
+Poolbeg
 PopNuacht
 PowerPoint
 Prius
@@ -365,6 +368,7 @@ Rí-Rá
 Safari
 Samba
 Samsung
+Santander
 Saorview
 Scarlets
 Scoilnet
@@ -411,11 +415,14 @@ Texaco
 Thunderbird
 Ticketmaster
 Timberland
+Timoney
 Titanic
 Tocco
+Topshop
 Toshiba
 Touche
 Toyota
+Translink
 TripAdvisor
 Twitter
 Ubuntu
@@ -443,6 +450,7 @@ WhatsApp
 Whelan's
 Wii
 WikiLeaks
+Wikimedia
 Wiley
 Windows
 WinGléacht
@@ -458,5 +466,6 @@ Youthreach
 YouTube
 Zara
 Zebre
+Zumba
 Ériu
 Óg-Ógras

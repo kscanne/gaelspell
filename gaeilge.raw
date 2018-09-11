@@ -38,6 +38,8 @@ abhacphláinéad/HMDBUT
 abhacphláinéid/HMDBU
 abhacréalta/HMDBU
 abhacréaltaí/HMDBU
+abhacád/HMDBUT
+abhacáid/HMDBU
 abhaic/HMDBU
 abhaicín/HMDBUT
 abhaicíní/HMDBU
@@ -3258,6 +3260,7 @@ an-chaoil
 an-chaoile/B
 an-chaol/HB
 an-chaola/B
+an-chara
 an-charthanach/HB
 an-charthanacha/B
 an-charthanaigh
@@ -3601,6 +3604,7 @@ an-snasta/HB
 an-soiléir/HB
 an-soiléire/B
 an-solúbtha/HB
+an-sona/HB
 an-speisialta/HB
 an-spraoi/HMDBUT
 an-spreagadh/HMDBUT
@@ -3620,6 +3624,7 @@ an-sásamh
 an-sásta
 an-sásúil/HB
 an-sásúla/B
+an-súp
 an-tacaíocht
 an-tairbhe/HMDBU
 an-tairbheach/HB
@@ -10929,6 +10934,8 @@ bloclitreach/US
 bloclitreacha/US
 blocscaoileadh/US
 blocscaoilte/US
+blocshlabhra/US
+blocshlabhraí/US
 blocáil/US
 blocáilte/S
 blocáin/US
@@ -14474,6 +14481,11 @@ bógaithe/US
 bógaí/US
 bóibéis/US
 bóibéise/US
+bóibéiseach/S
+bóibéiseacha/S
+bóibéisigh/S
+bóibéisithe/US
+bóibéisí/SU
 bóidicín/US
 bóidicíní/US
 bóiléagar/US
@@ -14694,8 +14706,10 @@ cachtais/US
 cachtas/US
 cactha/SU
 cad
+cadail/US
 cadairne/US
 cadairní/US
+cadal/US
 cadamáin/US
 cadamán/US
 cadhail/US
@@ -19477,6 +19491,8 @@ climeartha/SU
 climir/US
 climirt/US
 climrím/USC
+climín/US
+climíní/US
 cling/US
 clingcheoil/US
 clingcheol/US
@@ -23635,6 +23651,8 @@ Craíse/S
 creabhair/US
 creabhar/US
 creach/US
+creach-chiste/US
+creach-chistí/US
 creacha/US
 creachach/S
 creachacha/S
@@ -24213,6 +24231,8 @@ croíluacha/US
 croíluachanna/US
 croíláir/US
 croílár/US
+croíphobail/US
+croíphobal/US
 croíthe/US
 croíáin/US
 croíán/US
@@ -24674,6 +24694,8 @@ críonna/S
 críonnacht/US
 críonnachta/US
 críonta/SU
+críonáin/US
+críonán/US
 Críost/S
 Críostaithe/S
 Críostanna/S
@@ -33455,6 +33477,9 @@ dréachtghníomhartha/US
 dréachtlitir/US
 dréachtlitreach/US
 dréachtlitreacha/US
+dréachtmhargadh/US
+dréachtmhargaidh/US
+dréachtmhargaí/US
 dréachtmholadh/US
 dréachtmholta/US
 dréachtmholtaí/US
@@ -65074,6 +65099,8 @@ mórcheannas/S
 mórcheannaí/S
 mórcheantair/S
 mórcheantar/S
+mórcheiliúradh/S
+mórcheiliúrtha/S
 mórcheist/S
 mórcheiste/S
 mórcheisteanna/S
@@ -71442,8 +71469,10 @@ plactha/SU
 plaic/US
 plaice/US
 plaiceanna/US
+plaiceard/US
 plaicide/US
 plaicidí/US
+plaicird/US
 plainc/US
 plaisc/S
 plaisce/S
@@ -73171,6 +73200,8 @@ príomhstádais/US
 príomhstádas/US
 príomhstáisiúin/US
 príomhstáisiún/US
+príomhstáitse/US
+príomhstáitsí/US
 príomhthaisc/US
 príomhthalaimh/US
 príomhthalamh/US
@@ -89088,6 +89119,8 @@ síoraím/SC
 síoraínn/F
 síoraíocht/ST
 síoraíochta/S
+síorbháisteach/ST
+síorbháistí/S
 síorchaint/ST
 síorchainte/S
 síorchaitheamh/S
@@ -97283,6 +97316,14 @@ veigeatórach
 veigeatóracha
 veigeatóraigh
 veigeatóraí
+veigeáin
+veigeán
+veigeánach
+veigeánacha
+veigeánachais
+veigeánachas
+veigeánaigh
+veigeánaí
 veilbhit
 veilbhite
 veilbhitín

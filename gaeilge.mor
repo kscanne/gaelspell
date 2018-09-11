@@ -25,6 +25,7 @@ a's
 a't
 a'tighe
 a'tsa
+a'tí
 a-choidhche
 a-chéile
 a-núair
@@ -4821,10 +4822,12 @@ baspairtí/US
 baspais/US
 baspas/US
 baspasach
+bastairdí/US
 bastairt
 bastairtíocht
 bastallachas
 bastallacht
+bastardaí/US
 bastart
 bastúnachas
 bastúntaíocht
@@ -5293,6 +5296,7 @@ bheidhlín/U
 bheidhlíne/U
 bheidhlíní/U
 bheidhmís/U
+bheidhs
 bheidhthea
 bheidhthá
 bheifá
@@ -5319,6 +5323,7 @@ bheirm
 bheirmid
 bheirmíd
 bheirídh
+bheis
 bheist/U
 bheiste/U
 bheisteanna/U
@@ -7740,6 +7745,8 @@ buachallán/US
 buachaltáin/US
 buachaltán/US
 buachana/US
+buachphointe/US
+buachphointí/US
 buachtaint/US
 buachtana/US
 buachtáil/US
@@ -8604,6 +8611,8 @@ bóc
 bóchain
 bódhún
 bói
+bóibéiseach/US
+bóibéisigh/US
 bóibéisíocht
 bóic
 bóiceáil
@@ -12555,7 +12564,8 @@ cleigear
 cleimirt
 cleiméatais/US
 cleiméatas/US
-cleimín
+cleimín/US
+cleimíní/US
 cleirech
 cleiteach/US
 cleiteacha/US
@@ -15076,6 +15086,7 @@ cosnamhaithe/US
 cosnamhaí/SU
 cosnann/US
 cosnaím/USC
+cosnocht/S
 cosnochtaighthe
 cosnochtaithe/S
 cosnochttha
@@ -16261,6 +16272,7 @@ cuaraigh/S
 cuaraí/S
 cuarcanna/US
 cuarda/US
+cuardadh/US
 cuardaig-se
 cuardaighmís
 cuardal
@@ -17174,6 +17186,7 @@ cíd
 cídh
 cídhfeá
 cífidh
+cífimid/US
 cígh
 cíl
 cílianta
@@ -18499,6 +18512,8 @@ d'fhréamh
 d'fhréamhainn/E
 d'fhuagair
 d'fhuagraínn/F
+d'fhuaimigh
+d'fhuaimínn/F
 d'fhuar
 d'fhuarainn/E
 d'fhuascail
@@ -18777,6 +18792,7 @@ d'Iúpiteir
 d'Iúpiter
 d'láimh
 d'mháthair
+d'mo
 d'Ocatáinis
 d'Ocatáinise
 d'oibir/U
@@ -22445,6 +22461,7 @@ driosúir/US
 driosúr/US
 driotháir/US
 driothár/US
+driotháracha/US
 driothúr
 drip
 drisle
@@ -22887,6 +22904,7 @@ dtéighidís
 dtéighinn-se
 dtéighir
 dtéighthá
+dtí'na
 dtígheadh
 dtíompal
 dTírchonaill
@@ -24387,6 +24405,7 @@ dúláith
 dúmas
 Dún-na-nGall
 dúna
+dúnamh/US
 Dúnchaoin
 Dúndealgain
 Dúndealgan
@@ -27229,6 +27248,8 @@ fhréamhainn/EU
 fhuagraí/U
 fhuagraínn/FU
 fhuaid
+fhuaimí/U
+fhuaimínn/FU
 fhuair
 fhuara/U
 fhuarainn/EU
@@ -29182,15 +29203,19 @@ fuaimeata/BS
 fuaimeatúil/BS
 fuaimeatúla/BS
 fuaimeáil
+fuaimigh/US
 fuaimint
 fuaimintiúil/BS
 fuaimintiúla/BS
+fuaimithe/SBUMD
 fuaimiughadh
+fuaimiú/USBMD
 fuaimiúil/BS
 fuaimiúla/BS
 fuaimiúlacht
 fuaimniúil/BS
 fuaimniúla/BS
+fuaimím/USC
 fuainne
 fuainnimint
 fuair-neimh/MDBUS
@@ -30013,6 +30038,7 @@ féibh
 féicheamh
 féichiúin/MDBUS
 féichiún/MDBUS
+féichiúna/MDBUS
 féichiúnach/MDBUS
 féichiúnaigh/MDBUS
 féichiúntacht
@@ -31096,12 +31122,19 @@ gaotha
 gaothach
 gaothaire
 gaothaireacht
+gaothfair/S
+gaothfaire/S
+gaothfar/S
+gaothfara/S
 gaothmair/S
 gaothmaire/S
 gaothmar/S
 gaothmara/S
+gaothmhair/S
+gaothmhaire/S
 gaothmhaireacht
-gaothmhar
+gaothmhar/S
+gaothmhara/S
 gaothmharacht/US
 gaothmharachta/US
 gaothraíl
@@ -35203,6 +35236,9 @@ icneomónaí/B
 icéint/HB
 icínt/HB
 id
+ideolaíocht/HMDBU
+ideolaíochta/HMDU
+ideolaíochtaí/HMDBU
 idh
 idir/U
 idir-righe

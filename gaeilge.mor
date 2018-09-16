@@ -9355,11 +9355,12 @@ canstan/US
 canstráil
 canstrálaí
 cantaic
+cantaim/US
 cantain
 cantainn/US
 cantalachán
 cantalán
-cantam
+cantam/US
 cantan/US
 cantana/US
 cantarnaíl
@@ -11684,7 +11685,7 @@ chídís
 chífad
 chífam
 chífeadh
-chífear
+chífear/U
 chífeá
 chífhir
 chífidh
@@ -11696,7 +11697,7 @@ chífá
 chífí
 chím
 chím-se
-chímid
+chímid/U
 chímse
 chímíd
 chínn
@@ -15667,6 +15668,9 @@ croigear
 croimbéal/US
 croimbéil/US
 croimeasc
+croineolaíche/S
+croineolaíoch/S
+croineolaíocha/S
 croineolaíocht/US
 croineolaíochta/US
 croinicil/US
@@ -16423,6 +16427,7 @@ cuigéalach
 cuileach
 cuileachta/US
 cuileachtain/US
+cuileachtan/US
 cuileachtaí/US
 cuileachtúil
 cuilead
@@ -17487,7 +17492,7 @@ cóiríoch
 cóiríochas
 cóisire/US
 cóisireach
-cóisireacha
+cóisireacha/US
 cóisirí/US
 cóisreach/S
 cóisreacha/S
@@ -20029,6 +20034,7 @@ deirfeá
 deirfidh
 deirfimís
 deirfinn
+deirféaracha/US
 deirfíre/US
 deirg/S
 deirgeacht/US
@@ -25392,6 +25398,7 @@ Eliséus
 elle
 engnamh
 enrí
+eocailipe/HMDU
 eocaróit/HMDBU
 eocaróite/HMDU
 eocaróití/HMDBU
@@ -26511,6 +26518,7 @@ fearadh-fháilteach
 fearagach
 fearagacha
 fearaibh
+fearainne/MDUS
 fearaistí/MDBUS
 fearannacht
 fearannaibh/MDBUS
@@ -35079,6 +35087,8 @@ Ianuarii
 iar/U
 iar-gcúla
 iar-ghnóitheach
+iar-uachtaráin/HMDBU
+iar-uachtarán/HMDBUT
 iara
 iarach
 iaracht/HMDBU
@@ -35119,6 +35129,8 @@ iarbhunscolaíocht/HMDBU
 iarbhunscolaíochta/HMDU
 iarchomaoin
 iarchomaoine
+iarchomhghleacaithe/HMDBU
+iarchomhghleacaí/HMDBUT
 iarchomhrac
 iarChríost/HB
 iarcúlta
@@ -35352,6 +35364,7 @@ ig/HMDBU
 ige/HMDU
 il/U
 il-dhealbhach
+ilbhliana/HB
 ilbhéarladh/HMDU
 ilcheárduidhe/HMDBUT
 ildaite/HB
@@ -37800,6 +37813,7 @@ leaghthánaigh
 leaghthóir
 leaghthóireacht
 leagháid
+leagnacha
 leagthar
 leagtí
 leagáideach
@@ -45802,6 +45816,8 @@ oitreacht
 oitreachán
 oitriúil
 ola
+olagairc/HMDBU
+olagarc/HMDBUT
 olaidhe/HB
 olainn/HMDBU
 olainne/HMDU
@@ -46337,6 +46353,8 @@ paráiste/US
 paráistí/US
 paróisteánach/US
 paróisteánaigh/US
+paróistiúil/S
+paróistiúla/S
 pasantóir/US
 pasantóirí/US
 pasantóra/US
@@ -47599,6 +47617,7 @@ príomhmholadh/US
 príomhmholtaí/US
 príomhroghchláir/US
 príomhroghchlár/US
+príomhrólanna/US
 príomhscoil/US
 príomhscoile/US
 príomhscoileanna/US
@@ -50959,6 +50978,7 @@ scanraí
 scanráil
 scanrála
 scanrú
+scantraithe
 scanáil
 scanáilte
 scanáin
@@ -53611,6 +53631,9 @@ sinsireachta/S
 sinsirigh/S
 sinsirí/S
 sinte
+sintiséara/ST
+sintiséir/S
+sintiséirí/S
 siné
 Sinéid
 sinéirge/ST
@@ -54144,6 +54167,9 @@ sleaghthacha/S
 sleaghán
 sleagáin/ST
 sleagán/S
+sleais/ST
+sleaise/S
+sleaiseanna/S
 sleamhain
 sleamhchúis/ST
 sleamhchúise/S
@@ -58579,6 +58605,7 @@ taibhirlín
 taibhithe/S
 taibhiú/US
 taibhreadh/US
+taibhrithe/US
 taibhriú/US
 taibhse
 taibhseach
@@ -58589,6 +58616,7 @@ taibhsiúlacht
 taibhsíocht/US
 taibhsíochta/US
 taibhím/USC
+taibléadaí/US
 taibléidí/US
 taice
 taichim
@@ -62283,6 +62311,9 @@ tríglifí/US
 tríléim/US
 tríléime/US
 tríléimí/US
+trílóg/US
+trílóga/US
+trílóige/US
 trímhadh/US
 trímhú
 trín
@@ -64262,6 +64293,8 @@ urghéillte/HBUMD
 urghéilltear/HU
 urithe
 urithesean
+urlabharaithe/HMDBU
+urlabharaí/HMDBUT
 urlabhra/HMDBUT
 urlacadh/HMDBUT
 urlaic/HMDBU

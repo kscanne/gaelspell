@@ -163,6 +163,7 @@ Antoinn Antoin
 Antonius Antaine
 anté an té
 anáit an áit
+ao'nidh aon ní
 aochor aon chor
 Aod Aodh
 Aodhgán Aogán
@@ -231,6 +232,8 @@ b'i ba i
 b'iadsan ba iadsan
 b'ise ba ise
 B'l'acliath Baile Átha Cliath
+B'l'Áth Baile Átha
+B'l'Átha Baile Átha
 B'l'áth'n Baile Átha an
 b'ormsa ba ormsa
 b'shiniad ba iad sin
@@ -297,6 +300,7 @@ bheidhir bheidh tú
 bheidhirse bheidh tusa
 bheidhs bheidh
 bheifá bheifeá
+bhein bheinn
 bheireabhar rug sibh
 bheis bheidh
 bheithinn bheinn
@@ -520,13 +524,15 @@ Bóroimhe Ború
 c'air cé air
 c'as cá as
 caidé cad é a
-caillid chailleann
-caillid chailleann siad
+caillid cailleann
+caillid cailleann siad
 Caiphas Cáiafas
 caithfeadh chaithfeadh
 caithfeadh gcaithfeadh
 caithfí chaithfí
 caithfí gcaithfí
+caithid caitheann
+caithid caitheann siad
 caithidh caithfidh
 Caitilín Caitlín
 Callain Callainn
@@ -549,6 +555,8 @@ chach chách
 Chailbhin Chailvín
 chaillid chailleann
 chaillid chailleann siad
+chaithid chaitheann
+chaithid chaitheann siad
 chaithios chaith mé
 chaithios chaitheann
 Chaitilín Chaitlín
@@ -1194,6 +1202,7 @@ déanfair déanfaidh tú
 déarfinn déarfainn
 déinse déansa
 déintí dhéantaí
+Déisibh Déise
 díola-ar-cáirde díol ar cairde
 díthcéillidhe díth céille
 díthese dise
@@ -1421,6 +1430,8 @@ ghnír a dhéanann tú
 ghnír déanann tú
 gho go
 Ghobnuit Ghobnait
+ghod do do
+ghom do mo
 ghrádh-se ghrá-sa
 Ghuill Ghoill
 ghuíos ghuigh mé
@@ -1483,6 +1494,7 @@ hinseadh insíodh
 Hiobáird Hiobaird
 hiomchradh iompraíodh
 hiompradh iompraíodh
+Hitlear Hitler
 Holofernes Holafarnaes
 htabhairt thabhairt
 htouirt thabhairt
@@ -1617,6 +1629,7 @@ lionnduibh leanna dhuibh
 Liospóil Lios Póil
 Loc-na-gCapall Loc na gCapall
 Log-na-bhFiolar Log na bhFiolar
+loirgthe lorgtha
 long-fá-thuinn long faoi thoinn
 luach-saothair luach saothair
 luachsaothair luach saothair
@@ -1675,6 +1688,9 @@ marta Márta
 Mathghamhna Mathúna
 Mathghamhnach Mathúnach
 Mathghamhun Mathúna
+mB'l'Áth mBaile Átha
+mB'l'Átha mBaile Átha
+mB'l'Áthluain mBaile Átha Luain
 mB'l'áth mBaile Átha
 mB'l'áthluain mBaile Átha Luain
 mbadh mba
@@ -1691,6 +1707,7 @@ mbeidhinnse mbeinnse
 mbeidhir mbeidh tú
 mbeidhirse mbeidh tusa
 mbeimísne mbeimisne
+mbein mbeinn
 mbeir mbeidh tú
 mbeirse mbeidh tusa
 mBetlehem mBeithil
@@ -1853,6 +1870,7 @@ ndéanair ndéanfaidh tú
 ndéanfad ndéanfaidh mé
 ndéanfair ndéanfaidh tú
 ndéarnadh ndearnadh
+nDéisibh nDéise
 ndúbhairt ndúirt
 ndúbhart ndúirt
 nDúnchaoin nDún Chaoin
@@ -1891,6 +1909,10 @@ Nuadhat Nuad
 Nualáin Nualláin
 nuile n-uile
 nác nach
+néann dhéanann
+néann déanann
+néann ndéanann
+néas dhéanann
 Néifin Néifinn
 ní'lid níl siad
 ní'lim-se nílimse
@@ -2008,6 +2030,7 @@ raibhe raibh
 Raifteri Raiftearaí
 Raifterí Raiftearaí
 Raiftéirí Raiftearaí
+raigheadh rachadh
 Reachtabhrach Reachtúrach
 Reaftuirí Raiftearaí
 regiment reisimint
@@ -2029,6 +2052,7 @@ roiv raibh
 romhaith rómhaith
 Rosmuc Ros Muc
 Ruadhrí Ruairí
+ruagtha ruaigthe
 Ruaidhridh Ruairí
 ruaigsiod ruaigeadar
 Ruarc Ruairc
@@ -2072,9 +2096,11 @@ s'í is í
 sagainne s'againne
 sagamsa s'agamsa
 Salóme Salómae
+samach is amach
 Samaria an tSamáir
 Samaría an tSamáir
 samhna Samhna
+sanall is anall
 Satan Sátan
 Scainnimh Scainimh
 scaoilsiod scaoileadar

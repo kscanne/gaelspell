@@ -29,6 +29,7 @@ Apple
 Argos
 Arramara
 Arsenal
+Atlético
 Audacity
 Aviva
 Baboró
@@ -100,6 +101,7 @@ Dimplex
 Disney
 Disneyland
 Dodge
+Dolce
 Dorling
 Dow
 Drive
@@ -162,6 +164,7 @@ Fulbright
 Fundit
 Fíbín
 G-Spota
+Gabbana
 Gaeloiliúint
 Gaelport
 Gaelscript
@@ -198,6 +201,7 @@ Hilton
 Hitachi
 Honda
 Hotmail
+Hotspur
 Hyundai
 iGaeilge
 iGoogle
@@ -229,6 +233,7 @@ JobsPlus
 Joomla
 Juventus
 Kappa
+Kia
 Kickstarter
 Kindersley
 Kindle
@@ -322,6 +327,7 @@ PayPal
 País
 Penneys
 Perl
+Petrobras
 Peugeot
 Pfizer
 Phillies
@@ -374,10 +380,13 @@ Scarlets
 Scoilnet
 Scrabble
 Scratch
+Seahawks
+Sephora
 Shailearna
 Shelbourne
 Shell
 Siemens
+Siri
 Skillnets
 Skolelinux
 Sky
@@ -387,9 +396,11 @@ Slashdot
 Smithsonian
 Smurfit
 Snapchat
+Sockies
 Sony
 SoundCloud
 SourceForge
+Sox
 Spar
 SpongeBob
 Spotify
@@ -422,6 +433,7 @@ Topshop
 Toshiba
 Touche
 Toyota
+Traidphicnic
 Translink
 TripAdvisor
 Twitter

@@ -13008,6 +13008,8 @@ b'éigion b'éigean
 b'éigionn b'éigean
 b'éiglí téiglí
 b'éiglíocht ba théiglíocht
+b'éignitheoir b'éigneoir
+b'éignitheoirí b'éigneoirí
 b'éigs b'éigse
 b'éigéillí b'éigiallta
 b'éiliomh b'éileamh
@@ -18337,6 +18339,8 @@ bhfrithghníomhach bhfrithghníomhaithe
 bhfrithghníomhach bhfrithghníomhaí
 bhfrithghníomhaigh bhfrithghníomhaithe
 bhfrithghníomhaigh bhfrithghníomhaí
+bhfrithsheimíteachais bhfrith-Sheimíteachais
+bhfrithsheimíteachas bhfrith-Sheimíteachas
 bhfrithshuímh bhfrithshuí
 bhfrithshuíomh bhfrithshuí
 bhfrofa bprofa
@@ -24062,6 +24066,8 @@ bpeictiúir bpictiúir
 bpeictiúr bpictiúr
 bpeidhleacáin bhféileacáin
 bpeidhleacán bhféileacán
+bpeidifíleach bpéidifileach
+bpeidifíligh bpéidifiligh
 bpeilbhis bpeilbheas
 bpeilbhise bpeilbhis
 bpeilbhisí bpeilbheas
@@ -25189,6 +25195,10 @@ bpíoblíne bpíblíne
 bpíoblínte bpíblínte
 bpíocháin bpiacháin
 bpíochán bpiachán
+bpíonóid bpionós
+bpíonóide bpionóis
+bpíonóidí bpionóis
+bpíonóidí bpionós
 bpíonóis bpionóis
 bpíonós bpionós
 bpíopaire bpíobaire
@@ -33557,6 +33567,7 @@ chlúúla chlúiteacha
 chlúúla chlúití
 chnadáin chnádáin
 chnadán chnádán
+chnaganna chnaga
 chnaoi chnaí
 chnaoidh chnaígh
 chnaoidhe chnaí
@@ -38139,6 +38150,10 @@ chuibhe chuí
 chuibheacht chuibheas
 chuibheachta chuibhis
 chuibheasa chuibhis
+chuibhseach chuibheasach
+chuibhseacha chuibheasacha
+chuibhsigh chuibheasaigh
+chuibhsí chuibheasaí
 chuicce chuige
 chuice chuici
 chuicesean chuicise
@@ -41381,6 +41396,7 @@ cnadán cnádán
 cnafás canbhás
 cnagairlín craigirlín
 cnagairt cnagaireacht
+cnaganna cnaga
 cnagaíl cnagaireacht
 cnaigín naigín
 cnaigíneacht cnagaireacht
@@ -45761,6 +45777,10 @@ cuibheasa cuibhis
 cuibheasach cuibhiúil
 cuibheaseach cuibheasach
 cuibhsach cuibheasach
+cuibhseach cuibheasach
+cuibhseacha cuibheasacha
+cuibhsigh cuibheasaigh
+cuibhsí cuibheasaí
 cuic coc
 cuicc cúig
 cuicce chuige
@@ -55907,6 +55927,9 @@ d'éigionn d'éigean
 d'éiglíocht do théiglíocht
 d'éiglíochta do théiglíochta
 d'éigne d'éigin
+d'éignitheoir d'éigneoir
+d'éignitheoirí d'éigneoirí
+d'éignitheora d'éigneora
 d'éigs d'éigse
 d'éigsibh d'éigse
 d'éigsíbh d'éigse
@@ -77030,6 +77053,8 @@ fhrithghníomhach fhrithghníomhaithe
 fhrithghníomhach fhrithghníomhaí
 fhrithghníomhaigh fhrithghníomhaithe
 fhrithghníomhaigh fhrithghníomhaí
+fhrithsheimíteachais fhrith-Sheimíteachais
+fhrithsheimíteachas fhrith-Sheimíteachas
 fhrithshuímh fhrithshuí
 fhrithshuíomh fhrithshuí
 fhrofa phrofa
@@ -80680,6 +80705,8 @@ frithmhagadh frimhagadh
 frithmhagúil frimhagúil
 frithmheardán frimheardán
 frithreo flichreo
+frithsheimíteachais frith-Sheimíteachais
+frithsheimíteachas frith-Sheimíteachas
 frithshuímh frithshuí
 frithshuíomh frithshuí
 frithálamh friotháileamh
@@ -86358,6 +86385,7 @@ gclúta gclabhta
 gclútaí gclabhtaí
 gcnadáin gcnádáin
 gcnadán gcnádán
+gcnaganna gcnaga
 gcnaoi gcnaí
 gcnaoidh gcnaígh
 gcnaoidhe gcnaí
@@ -90144,6 +90172,7 @@ gcualachta gcuallachta
 gcualachtaí gcuallachtaí
 gcualadh gcuala
 gcualaidh gcuala
+gcualaís chuala
 gcualthas chualathas
 gcualucht gcuallacht
 gcualuchta gcuallachta
@@ -93799,6 +93828,31 @@ ghomhúla ghoimhiúla
 ghona ghonta
 ghonadh ghoin
 ghonann ghoineann
+ghoogláil ghúgláil
+ghoogláilte ghúgláilte
+ghoogláiltear ghúgláiltear
+ghoogláilteá ghúgláilteá
+ghoogláiltí ghúgláiltí
+ghooglála ghúglála
+ghoogláladar ghúgláladar
+ghoogláladh ghúgláladh
+ghooglálaidís ghúglálaidís
+ghooglálaigí ghúglálaigí
+ghooglálaim ghúglálaim
+ghooglálaimid ghúglálaimid
+ghooglálaimis ghúglálaimis
+ghooglálainn ghúglálainn
+ghooglálamar ghúglálamar
+ghooglálann ghúglálann
+ghooglálfadh ghúglálfadh
+ghooglálfaidh ghúglálfaidh
+ghooglálfaidís ghúglálfaidís
+ghooglálfaimid ghúglálfaimid
+ghooglálfaimis ghúglálfaimis
+ghooglálfainn ghúglálfainn
+ghooglálfar ghúglálfar
+ghooglálfaí ghúglálfaí
+ghooglálfá ghúglálfá
 ghor ghar
 ghora ghara
 ghorma ghairme
@@ -96216,6 +96270,20 @@ goncach geancach
 gontach goineach
 gonuig go nuige
 gonuige go nuige
+googláil gúgláil
+googláilte gúgláilte
+googláiltear gúgláiltear
+googlála gúglála
+googláladh gúgláladh
+googlálaidís gúglálaidís
+googlálaigí gúglálaigí
+googlálaim gúglálaim
+googlálaimid gúglálaimid
+googlálaimis gúglálaimis
+googlálann gúglálann
+googlálfaidh gúglálfaidh
+googlálfaimid gúglálfaimid
+googlálfar gúglálfar
 gor gar
 gor goradh
 gor gur
@@ -102561,6 +102629,9 @@ héiglí téiglí
 héiglíocht téiglíocht
 héiglíochta téiglíochta
 héigne héigin
+héignitheoir héigneoir
+héignitheoirí héigneoirí
+héignitheora héigneora
 héigs héigse
 héigéillí héigiallta
 héiliomh héileamh
@@ -105920,6 +105991,7 @@ ladráil ladar
 laech laoch
 laetha laethanta
 laethaibh laethanta
+laethantaí laethanta
 laethe laethanta
 laetheach laethanta
 laetheadh laethanta
@@ -106743,6 +106815,31 @@ leanbánacht leanbaíocht
 leanbánachta leanbaíochta
 leanbántacht leanbaíocht
 leanbántachta leanbaíochta
+leandáil leaindeáil
+leandáilte leaindeáilte
+leandáiltear leaindeáiltear
+leandáilteá leaindeáilteá
+leandáiltí leaindeáiltí
+leandála leaindeála
+leandáladar leaindeáladar
+leandáladh leaindeáladh
+leandálaidís leaindeálaidís
+leandálaigí leaindeálaigí
+leandálaim leaindeálaim
+leandálaimid leaindeálaimid
+leandálaimis leaindeálaimis
+leandálainn leaindeálainn
+leandálamar leaindeálamar
+leandálann leaindeálann
+leandálfadh leaindeálfadh
+leandálfaidh leaindeálfaidh
+leandálfaidís leaindeálfaidís
+leandálfaimid leaindeálfaimid
+leandálfaimis leaindeálfaimis
+leandálfainn leaindeálfainn
+leandálfar leaindeálfar
+leandálfaí leaindeálfaí
+leandálfá leaindeálfá
 leandóg leadóg
 leanfaimíd-ne leanfaimidne
 leanfainn-se leanfainnse
@@ -114914,6 +115011,9 @@ m'éigionn m'éigean
 m'éiglíocht mo théiglíocht
 m'éiglíochta mo théiglíochta
 m'éigne m'éigin
+m'éignitheoir m'éigneoir
+m'éignitheoirí m'éigneoirí
+m'éignitheora m'éigneora
 m'éigs m'éigse
 m'éiliomh m'éileamh
 m'éilipsóideach m'éileapsóideach
@@ -121579,6 +121679,7 @@ mhianrúil mhianraigh
 mhianrúla mhianracha
 mhianrúla mhianraí
 mhiantaí mhianta
+mhiasanna mhiasa
 mhich mhic
 mhicléinn mhic léinn
 mhicreasoicind mhicreashoicind
@@ -122901,6 +123002,7 @@ mianrúil mianraigh
 mianrúla mianracha
 mianrúla mianraí
 miantaí mianta
+miasanna miasa
 micléinn mic léinn
 micreasoicind micreashoicind
 micreasoicindí micreashoicindí
@@ -131187,6 +131289,9 @@ n-éigionn n-éigean
 n-éiglíocht dtéiglíocht
 n-éiglíochta dtéiglíochta
 n-éigne n-éigin
+n-éignitheoir n-éigneoir
+n-éignitheoirí n-éigneoirí
+n-éignitheora n-éigneora
 n-éigs n-éigse
 n-éiliomh n-éileamh
 n-éilipsóideach n-éileapsóideach
@@ -131400,6 +131505,7 @@ n-íosaidh n-íosfaidh
 n-íosaidís n-íosfaidís
 n-íosaimís n-íosfaimis
 n-íosainn n-íosfainn
+n-íosann n-itheann
 n-íospairte n-íospartha
 n-íospairteach n-íospartach
 n-íospairtigh n-íospartaigh
@@ -137512,6 +137618,30 @@ ngomh ngoimh
 ngona ngonta
 ngonadh ngoin
 ngonann ngoineann
+ngoogláil ngúgláil
+ngoogláiltear ngúgláiltear
+ngoogláilteá ngúgláilteá
+ngoogláiltí ngúgláiltí
+ngooglála ngúglála
+ngoogláladar ngúgláladar
+ngoogláladh ngúgláladh
+ngooglálaidís ngúglálaidís
+ngooglálaigí ngúglálaigí
+ngooglálaim ngúglálaim
+ngooglálaimid ngúglálaimid
+ngooglálaimis ngúglálaimis
+ngooglálainn ngúglálainn
+ngooglálamar ngúglálamar
+ngooglálann ngúglálann
+ngooglálfadh ngúglálfadh
+ngooglálfaidh ngúglálfaidh
+ngooglálfaidís ngúglálfaidís
+ngooglálfaimid ngúglálfaimid
+ngooglálfaimis ngúglálfaimis
+ngooglálfainn ngúglálfainn
+ngooglálfar ngúglálfar
+ngooglálfaí ngúglálfaí
+ngooglálfá ngúglálfá
 ngorma ngairme
 ngoráin ngarráin
 ngoráin ngoirín
@@ -140251,6 +140381,8 @@ peictiúr pictiúr
 peidhleacáin féileacáin
 peidhleacán féileacán
 peidhre péire
+peidifíleach péidifileach
+peidifíligh péidifiligh
 peilbhis peilbheas
 peilbhise peilbhis
 peilbhisí peilbheas
@@ -140626,6 +140758,8 @@ pheictiúr phictiúr
 pheidhleacáin fhéileacáin
 pheidhleacán fhéileacán
 pheidhre phéire
+pheidifíleach phéidifileach
+pheidifíligh phéidifiligh
 pheilbhis pheilbheas
 pheilbhise pheilbhis
 pheilbhisí pheilbheas
@@ -141910,6 +142044,10 @@ phíolóiteach phíolótach
 phíolóiteacha phíolótacha
 phíolóitigh phíolótaigh
 phíolóití phíolótaí
+phíonóid phionós
+phíonóide phionóis
+phíonóidí phionóis
+phíonóidí phionós
 phíonóis phionóis
 phíonós phionós
 phíop phíopa
@@ -143536,6 +143674,10 @@ píolóití píolóta
 píolóití píolótaí
 píonasach pionósach
 píonta pionta
+píonóid pionós
+píonóide pionóis
+píonóidí pionóis
+píonóidí pionós
 píonóis pionóis
 píonós pionós
 píop píopa
@@ -149230,6 +149372,33 @@ scroibligh scroblaigh
 scroigín scroig
 scroigín scroige
 scroigíní scroigeanna
+scrolláil scrollaigh
+scrolláil scrollú
+scrolláilte scrollaithe
+scrolláiltear scrollaítear
+scrolláilteá scrollaíteá
+scrolláiltí scrollaítí
+scrollála scrollaithe
+scrollála scrollaí
+scrolláladar scrollaíodar
+scrolláladh scrollaíodh
+scrollálaidís scrollaídís
+scrollálaigí scrollaígí
+scrollálaim scrollaím
+scrollálaimid scrollaímid
+scrollálaimis scrollaímis
+scrollálainn scrollaínn
+scrollálamar scrollaíomar
+scrollálann scrollaíonn
+scrollálfadh scrollódh
+scrollálfaidh scrollóidh
+scrollálfaidís scrollóidís
+scrollálfaimid scrollóimid
+scrollálfaimis scrollóimis
+scrollálfainn scrollóinn
+scrollálfar scrollófar
+scrollálfaí scrollófaí
+scrollálfá scrollófá
 scrománach crománach
 scrosán scriosán
 scrothaíocht cruthaíocht
@@ -153331,6 +153500,33 @@ shnoidhte shnoite
 shnoidhtear shnoitear
 shnoidhteá shnoiteá
 shnoidhtí shnoití
+shnorcallaigh shnorcláil
+shnorcallaithe shnorcláilte
+shnorcallaithe shnorclála
+shnorcallaí shnorclála
+shnorcallaídís shnorclálaidís
+shnorcallaígí shnorclálaigí
+shnorcallaím shnorclálaim
+shnorcallaímid shnorclálaimid
+shnorcallaímis shnorclálaimis
+shnorcallaínn shnorclálainn
+shnorcallaíodar shnorcláladar
+shnorcallaíodh shnorcláladh
+shnorcallaíomar shnorclálamar
+shnorcallaíonn shnorclálann
+shnorcallaítear shnorcláiltear
+shnorcallaíteá shnorcláilteá
+shnorcallaítí shnorcláiltí
+shnorcallódh shnorclálfadh
+shnorcallófar shnorclálfar
+shnorcallófaí shnorclálfaí
+shnorcallófá shnorclálfá
+shnorcallóidh shnorclálfaidh
+shnorcallóidís shnorclálfaidís
+shnorcallóimid shnorclálfaimid
+shnorcallóimis shnorclálfaimis
+shnorcallóinn shnorclálfainn
+shnorcallú shnorcláil
 shnoídóir shnoíodóir
 shnoídóirí shnoíodóirí
 shnoídóra shnoíodóra
@@ -157639,6 +157835,34 @@ snoidhteá snoiteá
 snoidhtí snoití
 snoiteoir snoíodóir
 snomh snamh
+snorcallaigh snorcláil
+snorcallaithe snorcláilte
+snorcallaithe snorclála
+snorcallaí snorclála
+snorcallaídís snorclálaidís
+snorcallaígí snorclálaigí
+snorcallaím snorclálaim
+snorcallaímid snorclálaimid
+snorcallaímis snorclálaimis
+snorcallaínn snorclálainn
+snorcallaíodar snorcláladar
+snorcallaíodh snorcláladh
+snorcallaíomar snorclálamar
+snorcallaíonn snorclálann
+snorcallaítear snorcláiltear
+snorcallaíteá snorcláilteá
+snorcallaítí snorcláiltí
+snorcallódh snorclálfadh
+snorcallófar snorclálfar
+snorcallófaí snorclálfaí
+snorcallófá snorclálfá
+snorcallóidh snorclálfaidh
+snorcallóidís snorclálfaidís
+snorcallóimid snorclálfaimid
+snorcallóimis snorclálfaimis
+snorcallóinn snorclálfainn
+snorcallú snorcláil
+snorcallú tsnorcláil
 snoídóir snoíodóir
 snoídóirí snoíodóirí
 snoídóra snoíodóra
@@ -163570,6 +163794,7 @@ t-éideamh éide
 t-éigeann t-éigean
 t-éigion t-éigean
 t-éigionn t-éigean
+t-éignitheoir t-éigneoir
 t-éiliomh t-éileamh
 t-éilipsóideach t-éileapsóideach
 t-éilín t-éillín
@@ -173867,6 +174092,7 @@ tsnig snag
 tsnig tsniodh
 tsnig tsniog
 tsniog tsniodh
+tsnorcallaithe snorclála
 tsnoídóra tsnoíodóra
 tsnuaidh tsnua
 tsnáimhtheora tsnámhóra
@@ -178035,6 +178261,9 @@ yóga ióga
 éiglíochta théiglíochta
 éiglíochta téiglíochta
 éigne éigin
+éignitheoir éigneoir
+éignitheoirí éigneoirí
+éignitheora éigneora
 éigs éigse
 éigse éigeas
 éigéill éigiallta
@@ -178097,6 +178326,7 @@ yóga ióga
 éin-tslighe aon slí
 éinbhean aon bhean
 éindigh éindí
+éine aon duine
 éinfeacht éineacht
 éinfheacht éineacht
 éinfhear aon fhear
@@ -178487,6 +178717,7 @@ yóga ióga
 íosainn íosfainn
 íosainn-se íosfainnse
 íosair íosfaidh tú
+íosann itheann
 íosas a íosfaidh
 íosas íosfaidh
 íosfad íosfaidh mé

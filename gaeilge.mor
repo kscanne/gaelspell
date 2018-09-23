@@ -13131,6 +13131,7 @@ cnadán/US
 cnafás
 cnagairlín
 cnagairt
+cnaganna/US
 cnagaíl
 cnaigín
 cnaigíneacht
@@ -16449,6 +16450,10 @@ cuibheasa/US
 cuibheasach
 cuibheaseach
 cuibhsach
+cuibhseach/S
+cuibhseacha/S
+cuibhsigh/S
+cuibhsí/S
 cuic
 cuicc
 cuicce
@@ -29240,6 +29245,8 @@ frithmhagadh
 frithmhagúil
 frithmheardán
 frithreo
+frithsheimíteachais/US
+frithsheimíteachas/US
 frithshuímh/US
 frithshuíomh/US
 frithálamh
@@ -31520,6 +31527,7 @@ gCríostaidhe
 gCríostaidheanna
 gCríst
 gcródha
+gcualaís
 gcualthas
 gcud
 gCugais
@@ -32245,6 +32253,8 @@ ghoibhearnóra
 ghoire/U
 ghoirinn/EU
 ghom
+ghooglála/U
+ghooglálainn/JU
 ghradh
 ghradhaí/U
 ghradhaínn/FU
@@ -33474,6 +33484,10 @@ goncach
 gontach
 gonuig
 gonuige
+googláil/US
+googláilte/S
+googlála/US
+googlálaim/USI
 gor/S
 gora/S
 gorab
@@ -37482,6 +37496,7 @@ laech
 Laeire
 laetha
 laethaibh
+laethantaí
 laethe
 laetheach
 laetheadh
@@ -38087,6 +38102,11 @@ leanbánacht
 leanbánachta
 leanbántacht
 leanbántachta
+leandáil
+leandáilte
+leandála
+leandálaim/I
+leandálainn/J
 leandóg
 leanfaimíd-ne
 leanfainn-se
@@ -42316,6 +42336,7 @@ miann
 mianrúil/S
 mianrúla/S
 miantaí/S
+miasanna/S
 Michil
 micléinn/S
 micrea/S
@@ -46718,6 +46739,8 @@ peictiúr/US
 peidhleacáin/US
 peidhleacán/US
 peidhre
+peidifíleach/US
+peidifíligh/US
 peilbhis/US
 peilbhise/US
 peilbhisí/US
@@ -48221,6 +48244,9 @@ píolóitigh/S
 píolóití/S
 píonasach
 píonta
+píonóid/US
+píonóide/US
+píonóidí/US
 píonóis/US
 píonós/US
 píop
@@ -52119,6 +52145,11 @@ scroibleach
 scroibligh
 scroigín
 scroigíní
+scrolláil
+scrolláilte
+scrollála
+scrollálaim/I
+scrollálainn/J
 scrománach
 scrosán
 scrothaíocht
@@ -53584,6 +53615,8 @@ shnasa
 shnasainn/E
 shnoidhe
 shnoidhinn/E
+shnorcallaí
+shnorcallaínn/F
 shnáimhe
 shnáimhinn/E
 shocaracht
@@ -55295,6 +55328,12 @@ snoidhte/S
 snoidhteacht
 snoiteoir
 snomh
+snorcallaigh/S
+snorcallaithe/ST
+snorcallaí
+snorcallaím/SC
+snorcallaínn/F
+snorcallú/S
 snoídóir/S
 snoídóirí/S
 snoídóra/ST
@@ -65817,6 +65856,9 @@ Zíon
 éiglíocht/HMDBU
 éiglíochta/HMDU
 éigne/HMDU
+éignitheoir/HMDBUT
+éignitheoirí/HMDBU
+éignitheora/HMDU
 éigs/HMDBU
 éigse
 éigéill
@@ -65861,6 +65903,7 @@ Zíon
 éin-tslighe
 éinbhean
 éindigh
+éine
 éinfeacht
 éinfheacht
 éinfhear
@@ -66207,6 +66250,7 @@ Zíon
 íosainn/U
 íosainn-se
 íosair
+íosann/U
 íosas
 íosfad
 íosfainn-se

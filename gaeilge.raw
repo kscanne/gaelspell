@@ -3434,6 +3434,10 @@ an-drogall/HMDBUT
 an-dua/HMDBUT
 an-dul
 an-dáiríre
+an-déanach/HB
+an-déanacha/B
+an-déanaigh
+an-déanaí/B
 an-dílis/HB
 an-díograiseach/HB
 an-díograiseacha/B
@@ -3459,6 +3463,7 @@ an-fhairsinge/B
 an-fhaiseanta/HB
 an-fheabhais/HMDU
 an-fheabhas/HMDBUT
+an-fhear
 an-fhearg
 an-fheiceálach/HB
 an-fheiceálacha/B
@@ -3541,6 +3546,7 @@ an-iontas
 an-jab/HMDBUT
 an-lag/HB
 an-lasánta/HB
+an-leabhar/HMDBUT
 an-leas/HMDBUT
 an-leasa/HMDU
 an-leathan
@@ -3699,6 +3705,7 @@ an-sásúil/HB
 an-sásúla/B
 an-súp
 an-tacaíocht
+an-taighde/HMDBUT
 an-tairbhe/HMDBU
 an-tairbheach/HB
 an-tairbheacha/B
@@ -3740,6 +3747,7 @@ an-tromchúisí/B
 an-trua/HMDBU
 an-trína
 an-tugtha
+an-tuirse/HMDBU
 an-tuirseach/HB
 an-tuirseacha/B
 an-tuirsigh
@@ -5315,6 +5323,8 @@ ardáin/HMDBU
 ardán/HMDBUT
 ardáthais/HMDU
 ardáthas/HMDBUT
+ardéileamh/HMDBUT
+ardéilimh/HMDU
 ardéirim/HMDBU
 ardéirime/HMDU
 ardéirimiúil/HB
@@ -20027,8 +20037,11 @@ clárlann/US
 clárlanna/US
 clársceideal/US
 clársceidil/US
+clársheoltóir/US
 clársheoltóireacht/US
 clársheoltóireachta/US
+clársheoltóirí/US
+clársheoltóra/US
 cláróg/US
 cláróga/US
 cláróige/US
@@ -40108,6 +40121,8 @@ focaire/MDBUS
 focairí/MDBUS
 focal/MDBUS
 focalbhá/MDBUS
+focalbhách/MDBUS
+focalbháigh/MDBUS
 focalbháiteach/BS
 focalbháiteacha/BS
 focalbháitigh/S
@@ -42193,6 +42208,8 @@ fuathaitheoirí/MDBUS
 fuathaitheora/MDUS
 fuathanna/MDBUS
 fuathaím/USC
+fuathghrúpa/MDBUS
+fuathghrúpaí/MDBUS
 fuathlainn/MDBUS
 fuathlainne/MDUS
 fuathlainní/MDBUS
@@ -49480,6 +49497,9 @@ hAibreán
 haic
 haice
 haiceanna
+haiceáil
+haiceáilte
+haiceála
 hAidbhint
 hAidbhinte
 hAidbhintí
@@ -70470,6 +70490,8 @@ olldoird/HMDBU
 olldord/HMDBUT
 olldóiteáin/HMDBU
 olldóiteán/HMDBUT
+olldúnmharaithe/HMDU
+olldúnmharú/HMDBUT
 ollfhathach/HMDBUT
 ollfhathaigh/HMDBU
 ollfhoirfe/HBMDUT
@@ -77574,6 +77596,9 @@ ríomhlitreacha
 ríomhléitheoir
 ríomhléitheoirí
 ríomhléitheora
+ríomhlóid
+ríomhlóide
+ríomhlóidí
 ríomhoideas
 ríomhoidis
 ríomhphoist
@@ -89600,6 +89625,8 @@ sárchleachtais/ST
 sárchleachtas/S
 sárchluiche/ST
 sárchluichí/S
+sárchláir/ST
+sárchlár/S
 sárchoimhlint/ST
 sárchoimhlinte/S
 sárchoimhlintí/S

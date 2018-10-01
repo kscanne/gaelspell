@@ -3355,6 +3355,7 @@ an-chrua
 an-chruinn/HB
 an-chruinne/B
 an-chráite/HB
+an-chróga/HB
 an-chuid/HMDBU
 an-chuimhneamh
 an-chuimse/HMDBU
@@ -3519,6 +3520,7 @@ an-ghlain
 an-ghlaine/B
 an-ghlan/HB
 an-ghlana/B
+an-ghleoite/HB
 an-ghlic/HB
 an-ghlice/B
 an-ghlóir/HMDU
@@ -3547,6 +3549,10 @@ an-jab/HMDBUT
 an-lag/HB
 an-lasánta/HB
 an-leabhar/HMDBUT
+an-leadránach/HB
+an-leadránacha/B
+an-leadránaigh
+an-leadránaí/B
 an-leas/HMDBUT
 an-leasa/HMDU
 an-leathan
@@ -3641,6 +3647,8 @@ an-phearsanta/HB
 an-phlé/HMDBUT
 an-phraiticiúil/HB
 an-phraiticiúla/B
+an-phíosa/HMDBUT
+an-phíosaí/HMDBU
 an-rath
 an-rathúil
 an-ráchairt/HMDBU
@@ -4393,7 +4401,14 @@ anótálainn/J
 aodh/HMDBU
 aogaill/HMDU
 aogall/HMDBUT
+aoi
 aoi/HMDBUT
+aoi-léacht/HMDBU
+aoi-léachta/HMDU
+aoi-léachtaí/HMDBU
+aoi-léachtóir/HMDBUT
+aoi-léachtóirí/HMDBU
+aoi-léachtóra/HMDU
 aoibh/HMDBU
 aoibhe/HMDU
 aoibheal/HMDBUT
@@ -4408,6 +4423,9 @@ aoibhiúlachta/HMDU
 aoibhne/B
 aoibhneas/HMDBUT
 aoibhnis/HMDU
+aoichaint/HMDBU
+aoichainte/HMDU
+aoichainteanna/HMDBU
 aoichainteoir/HMDBUT
 aoichainteoirí/HMDBU
 aoichainteora/HMDU
@@ -27128,6 +27146,7 @@ cúltír/US
 cúltíre/US
 cúluithe/US
 cúláil/US
+cúláilte/S
 cúláin/US
 cúlála/US
 cúlálacha/US
@@ -30020,6 +30039,8 @@ daorobair/US
 daoroibre/US
 daorsmacht/US
 daorsmachta/US
+daorstáit/US
+daorstát/US
 daortha/SU
 daorthaí/US
 daoráin/US
@@ -41710,6 +41731,10 @@ frithchosúlachta/US
 frithchuimilt/US
 frithchuimilte/US
 frithdhamhna/US
+frithdhaonlathach/S
+frithdhaonlathacha/S
+frithdhaonlathaigh/S
+frithdhaonlathaí/S
 frithdhrugaí/S
 frithdhéine/US
 frithdhílse/US
@@ -42208,6 +42233,8 @@ fuathaitheoirí/MDBUS
 fuathaitheora/MDUS
 fuathanna/MDBUS
 fuathaím/USC
+fuathchaint/MDBUS
+fuathchainte/MDUS
 fuathghrúpa/MDBUS
 fuathghrúpaí/MDBUS
 fuathlainn/MDBUS
@@ -65975,6 +66002,8 @@ mórluaíochtaí/S
 mórláithreach/S
 mórláithreacha/S
 mórláthair/S
+mórléirithe/S
+mórléiriú/S
 mórmhaitheas/S
 mórmhaitheasa/S
 mórmhaitheasaí/S
@@ -73233,6 +73262,8 @@ preabanta/S
 preabarnach/US
 preabarnaí/US
 preabaí/S
+preabchaifé/US
+preabchaiféanna/US
 preabchic/US
 preabchiceanna/US
 preabchláir/US
@@ -82177,6 +82208,8 @@ seanchleasa/S
 seanchlis/ST
 seanchlog/S
 seanchloig/ST
+seanchláir/ST
+seanchlár/S
 seanchló/ST
 seanchlónna/S
 seanchodladh/S
@@ -89680,6 +89713,8 @@ Sárlannaí/S
 sárlaoch/S
 sárlaochra/S
 sárlaoich/ST
+sárleabhair/ST
+sárleabhar/S
 sármhainicín/ST
 sármhainicíní/S
 sármhaith/S
@@ -98591,6 +98626,8 @@ vitriail
 vitrial
 vióla
 viólaí
+vlag
+vlaganna
 vodca
 Volaifis
 Volaifise

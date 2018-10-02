@@ -343,6 +343,7 @@ Pontiac
 Poolbeg
 PopNuacht
 PowerPoint
+Prezi
 Prius
 Procter
 Prudential
@@ -436,6 +437,7 @@ Toyota
 Traidphicnic
 Translink
 TripAdvisor
+Tumblr
 Twitter
 Ubuntu
 Unicode

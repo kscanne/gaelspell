@@ -3552,6 +3552,8 @@ aestrais éastrais
 aestras éastras
 aestéitiúil aeistéitiúil
 aestéitiúla aeistéitiúla
+aetais éitis
+aetas éiteas
 aeurach aerach
 afast tópás
 ag chuig
@@ -8021,6 +8023,8 @@ b'aeróbaíocht b'aeróbaic
 b'aestras b'éastras
 b'aestéitiúil b'aeistéitiúil
 b'aestéitiúla b'aeistéitiúla
+b'aetais b'éitis
+b'aetas b'éiteas
 b'ag ba ag
 b'agadaimh b'acadaimh
 b'agadamh b'acadamh
@@ -24108,6 +24112,9 @@ bpeártaithe bpáirtithe
 bpeártaí bpáirtí
 bpiaisiméadair bpísiméadair
 bpiaisiméadar bpísiméadar
+bpianadóir bpianódóir
+bpianadóirí bpianódóirí
+bpianadóra bpianódóra
 bpianaigh bpian
 bpianais bpéine
 bpianas bpian
@@ -48154,6 +48161,8 @@ d'aeróbaíocht d'aeróbaic
 d'aeróbaíochta d'aeróbaice
 d'aestrais d'éastrais
 d'aestras d'éastras
+d'aetais d'éitis
+d'aetas d'éiteas
 d'agadaimh d'acadaimh
 d'agadamh d'acadamh
 d'againidheacht d'aighneas
@@ -98284,6 +98293,8 @@ haeróbaíochta haeróbaice
 haestrais héastrais
 haestras héastras
 haestéitiúil haeistéitiúil
+haetais héitis
+haetas héiteas
 hag ag
 hagadaimh hacadaimh
 hagadamh hacadamh
@@ -109227,6 +109238,8 @@ lánamhaineacha lánúineacha
 lánamhnais lánúnais
 lánamhnas lánúnas
 lánamhuin lánúin
+lánaois lán-aois
+lánaoise lán-aoise
 lánloghadh lánlogha
 lánmha lánúin
 lánmhiantach lánmhianúil
@@ -110446,6 +110459,8 @@ m'aeróbaíocht m'aeróbaic
 m'aeróbaíochta m'aeróbaice
 m'aestrais m'éastrais
 m'aestras m'éastras
+m'aetais m'éitis
+m'aetas m'éiteas
 m'agadaimh m'acadaimh
 m'agadamh m'acadamh
 m'againidheacht m'aighneas
@@ -125390,6 +125405,8 @@ n-aeróbaíocht n-aeróbaic
 n-aeróbaíochta n-aeróbaice
 n-aestrais n-éastrais
 n-aestras n-éastras
+n-aetais n-éitis
+n-aetas n-éiteas
 n-agadaimh n-acadaimh
 n-agadamh n-acadamh
 n-againidheacht n-aighneas
@@ -140823,6 +140840,9 @@ phiaisiméadair phísiméadair
 phiaisiméadar phísiméadar
 phianach phianmhar
 phianacha phianmhara
+phianadóir phianódóir
+phianadóirí phianódóirí
+phianadóra phianódóra
 phianaigh phian
 phianaigh phianmhair
 phianais phéine
@@ -142187,6 +142207,9 @@ pianach pianmhar
 pianach péine
 pianacha pianmhara
 pianacha pianta
+pianadóir pianódóir
+pianadóirí pianódóirí
+pianadóra pianódóra
 pianaigh pian
 pianaigh pianmhair
 pianais péine
@@ -146269,6 +146292,10 @@ rémhráite réamhráite
 réna lena
 rér lenar
 réroithleagánach ré roithleagánach
+réríomháin réríomhaire
+réríomháin réríomhairí
+réríomhán réríomhaire
+réríomhán réríomhairí
 rés leis
 rés roimh
 résúin réasúin
@@ -163002,6 +163029,7 @@ t-aeraitheoir t-aerthóir
 t-aerphort t-aerfort
 t-aertharló t-aertharlú
 t-aestras t-éastras
+t-aetas t-éiteas
 t-agadamh t-acadamh
 t-agaistéir t-acastóir
 t-agar agairt

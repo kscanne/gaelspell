@@ -4859,6 +4859,8 @@ bastardaí/US
 bastart
 bastúnachas
 bastúntaíocht
+basáil/US
+basála/US
 basóg
 batalang
 bataráil
@@ -8235,8 +8237,6 @@ bunúcháin/US
 bunúchán/US
 bunúdhsacha
 bunúice/US
-bunúlacht/US
-bunúlachta/US
 bunúsúil
 bur
 burdúnaíocht
@@ -10690,8 +10690,10 @@ ceolteora/US
 ceolthán
 ceolánaí
 ceomharsach
-ceomharán
-ceomhrán
+ceomharáin/US
+ceomharán/US
+ceomhráin/US
+ceomhrán/US
 ceothach/S
 ceothacha/S
 ceothaigh/S
@@ -11938,8 +11940,6 @@ cianósta/US
 cianóstaí/US
 cianúil/S
 cianúla/S
-cianúlais/US
-cianúlas/US
 ciapaigh/US
 ciapaithe/SU
 ciapaím/USC
@@ -17091,7 +17091,6 @@ cáití/US
 cál
 cála
 cáll/US
-cálráib/US
 cámhall
 cámraic
 cána
@@ -21089,7 +21088,7 @@ diomdhaigh/S
 diomdhaí/S
 diomlaigh
 diomlas
-diomlasta
+diomlasta/S
 diomol
 diomsach
 diomua
@@ -22093,7 +22092,7 @@ domachroí
 domaladh
 dombaladh
 domblas
-domblasta
+domblasta/S
 domblastacht
 dombuidheach/S
 dombuidheacha/S
@@ -31009,7 +31008,8 @@ gailthean
 gailtín
 gailéan
 gailéangach
-gailéirí
+gailéirithe/US
+gailéirí/US
 gailí/US
 gaimbí/US
 gaimh
@@ -31167,7 +31167,8 @@ galaoireacha/US
 galaoirí/US
 galarach
 galaraigh
-galaraí
+galaraithe/US
+galaraí/US
 galaí
 galbhúnach
 galfóir/US
@@ -32391,7 +32392,8 @@ gigliseach
 gilbín
 gileacht/US
 gileachta/US
-gileáraí
+gileáraithe/US
+gileáraí/US
 gilibín
 gilicín
 gilide
@@ -35461,6 +35463,9 @@ Iarúsalem
 iasacht/HMDBUT
 iasachta/HMDU
 iasachtaí/HMDBU
+iasaint/HMDBU
+iasainte/HMDU
+iasaintí/HMDBU
 iasc
 iascaigh
 iascar
@@ -40296,6 +40301,7 @@ líom
 líomhaigh
 líomhain
 líomhaint
+líomhainte
 líomhaithe
 líomhana
 líomhanfadh
@@ -48463,6 +48469,8 @@ racálacha
 racálaim/I
 racálainn/J
 rad
+radacaithe
+radacaí
 radagóiniméadair
 radagóiniméadar
 radaithe
@@ -53889,6 +53897,8 @@ silide/ST
 silidí/S
 silinít/ST
 siliníte/S
+sillithe/S
+sillí/ST
 silt/ST
 silte/S
 silteán
@@ -66350,8 +66360,8 @@ Zíon
 ógántachta/HMDU
 ógántas
 óibhéal
-óibhéala
-óibhéalda
+óibhéala/HB
+óibhéalda/HB
 óicc
 óidh/HMDBU
 óidhche

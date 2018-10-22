@@ -11895,6 +11895,7 @@ b'ioncholnú b'ionchollú
 b'ionchonspóide b'inchonspóide
 b'ionchorparaithe b'ionchorpraithe
 b'ionchorparú b'ionchorprú
+b'ionchúisiú b'ionchúiseamh
 b'ionchúnta b'inchúnta
 b'ioncum b'ioncam
 b'ionduail b'iondúil
@@ -54505,6 +54506,7 @@ d'ionchorparóidís d'ionchorpróidís
 d'ionchorparóimis d'ionchorpróimis
 d'ionchorparóinn d'ionchorpróinn
 d'ionchorparú d'ionchorprú
+d'ionchúisiú d'ionchúiseamh
 d'ioncuim d'ioncaim
 d'ioncum d'ioncam
 d'ionfairt d'únfairt
@@ -101485,6 +101487,7 @@ hionchorparaígí hionchorpraígí
 hionchorparaíodh hionchorpraíodh
 hionchorparaítear hionchorpraítear
 hionchorparú hionchorprú
+hionchúisiú hionchúiseamh
 hionchúnta hinchúnta
 hioncuim hioncaim
 hioncum hioncam
@@ -105594,6 +105597,7 @@ ionchorparóinn ionchorpróinn
 ionchorparú ionchorprú
 ionchruth fionnachruth
 ionchruthuighthe inchruthaithe
+ionchúisiú ionchúiseamh
 ionchúnta inchúnta
 ioncuim ioncaim
 ioncum ioncam
@@ -107497,6 +107501,7 @@ leathsheolaí leathsheoltóir
 leathsheolaí leathsheoltóra
 leathshlí leath slí
 leathslighe leath slí
+leathslí leath slí
 leathsmuigh lasmuigh
 leathstiar laistiar
 leathstuac leathstuaic
@@ -107874,6 +107879,7 @@ leochailligh leochailigh
 leochaillí leochailí
 leofa leo
 leofa leosan
+leofasan leosan
 leog lig
 leoga lige
 leogadar ligeadar
@@ -109187,6 +109193,7 @@ luathráin luatharáin
 luathrán luatharán
 luathíntineach luathintinneach
 luatá luathaíteá
+luaíodh luadh
 lubhair lobhair
 lubhar lobhar
 lubharnach luifearnach
@@ -109607,6 +109614,10 @@ lánGhaelaí lán-Ghaelaí
 lánach lannach
 lánadh lánú
 lánaigh lannaigh
+lánaimsearthach lánaimseartha
+lánaimsearthacha lánaimseartha
+lánaimsearthaigh lánaimseartha
+lánaimsearthaí lánaimseartha
 lánaimsire lánaimseartha
 lánaimsireach lánaimseartha
 lánaimsireacha lánaimseartha
@@ -114366,6 +114377,7 @@ m'ioncholnaithe m'ionchollaithe
 m'ioncholnú m'ionchollú
 m'ionchorparaithe m'ionchorpraithe
 m'ionchorparú m'ionchorprú
+m'ionchúisiú m'ionchúiseamh
 m'ioncuim m'ioncaim
 m'ioncum m'ioncam
 m'ionfairt m'únfairt
@@ -116028,6 +116040,7 @@ maighistreása máistreása
 maighistreásaí máistreásaí
 maighistriúil máistriúil
 maighistrí máistrí
+maighne maighean
 maih maith
 mailc mairc
 maile maille
@@ -117263,6 +117276,7 @@ mbandóirseoir mbandoirseoir
 mbandóirseoirí mbandoirseoirí
 mbandóirseora mbandoirseora
 mbangc mbanc
+mbanjo mbainseó
 mbann mbanna
 mbann mbannaí
 mbannach mbonnóg
@@ -120978,6 +120992,7 @@ meánam meán-am
 meánama meán-ama
 meánlae meán lae
 meánoíche meán oíche
+meánscóranna meánscóir
 meáthóir meádóir
 meáthóirí meádóirí
 meáthóra meádóra
@@ -121140,6 +121155,7 @@ mhaigh mhá
 mhaighdean-mhara mhaighdean mhara
 mhaighdin mhaighdean
 mhaighdion mhaighdean
+mhaighin mhaighean
 mhaighistear mháistir
 mhaighisteara mháistir
 mhaighistir mháistir
@@ -121151,6 +121167,7 @@ mhaighistreás mháistreás
 mhaighistreása mháistreása
 mhaighistreásaí mháistreásaí
 mhaighistrí mháistrí
+mhaighne mhaighean
 mhailidh mhala
 mhailidhe mhala
 mhailidheacha mhalaí
@@ -122107,6 +122124,7 @@ mheánama mheán-ama
 mheánlae mheán lae
 mheánoirthear Mheánoirthear
 mheánoíche mheán oíche
+mheánscóranna mheánscóir
 mheáthóir mheádóir
 mheáthóirí mheádóirí
 mheáthóra mheádóra
@@ -129939,6 +129957,7 @@ n-ionchorparóimid n-ionchorpróimid
 n-ionchorparóimis n-ionchorpróimis
 n-ionchorparóinn n-ionchorpróinn
 n-ionchorparú n-ionchorprú
+n-ionchúisiú n-ionchúiseamh
 n-ioncuim n-ioncaim
 n-ioncum n-ioncam
 n-ionfairt n-únfairt
@@ -132625,6 +132644,7 @@ namhadach naimhdeach
 namhaide naimhde
 namhaideach naimhdeach
 namhaidibh naimhde
+namhaidí naimhde
 namhdach naimhdeach
 namhdaibh naimhde
 namhud namhad
@@ -132642,6 +132662,7 @@ nanmanna n-ainmneacha
 nann ann
 nanár an ea nár
 naocha nócha
+naochaidí nóchaidí
 naofa naomhaithe
 naofar naomhaítear
 naoi naí
@@ -135917,6 +135938,7 @@ ndúthchas ndúchas
 ndúthtacht ndúthracht
 ndúthtachta ndúthrachta
 nea-shuaimhneasach neamhshuaimhneasach
+neachanna neacha
 neachtar ceachtar
 neachtarach neodrach
 neachtrach neodrach
@@ -136328,6 +136350,10 @@ neamhghrásmhaire neamhghrástúla
 neamhghrásmhar neamhghrástúil
 neamhghrásmhara neamhghrástúla
 neamhghádh-tarach neamhghátarach
+neamhidirdhealaitheach neamh-idirdhealaitheach
+neamhidirdhealaitheacha neamh-idirdhealaitheacha
+neamhidirdhealaithigh neamh-idirdhealaithigh
+neamhidirdhealaithí neamh-idirdhealaithí
 neamhimnidheach neamhimníoch
 neamhinneamh neamhinmhe
 neamhinnimh neamhinmhe
@@ -164111,6 +164137,7 @@ t-ionaltóir t-ionnaltóir
 t-ionbhadh t-ionú
 t-ioncholnú t-ionchollú
 t-ionchorparú t-ionchorprú
+t-ionchúisiú t-ionchúiseamh
 t-ioncum t-ioncam
 t-iongadh t-ionadh
 t-iongantas t-iontas

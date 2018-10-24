@@ -1302,6 +1302,7 @@ dteaghmháil dteagmháil
 dteagmhail dteagmháil
 dtearmaí dtéarmaí
 dti dtí
+dtionsnamh dtionscnamh
 dtir dtír
 dtire dtíre
 dtoghchaí dtodhchaí
@@ -3567,6 +3568,7 @@ t-oilean t-oileán
 t-ola ola
 t-uachtaránacht uachtaránacht
 t-ubh ubh
+t-udaras t-údarás
 t-ám t-am
 t-éide éide
 t-éifeacht éifeacht
@@ -3590,13 +3592,16 @@ tachaíocht tacaíocht
 tacíocht tacaíocht
 tadh t-ádh
 tagallamh t-agallamh
+tagart tagairt
 taghta tagtha
 taibléad táibléad
 taibléid táibléid
 taifeada taifeadta
+taifeadaí taifeadtaí
 taifeadeadh taifeadadh
 taifeadh taifeadadh
 taiféad taifead
+taiféid taifid
 taille táille
 tailli táillí
 taillí táillí
@@ -3619,6 +3624,7 @@ taisceáladh taiscéaladh
 taispeaint taispeáint
 taispeantais taispeántais
 taispeantas taispeántas
+taispeáintí taispeántais
 taispeán taispeáin
 taispáint taispeáint
 taispéaint taispeáint
@@ -3636,10 +3642,12 @@ tam t-am
 tamallín tamaillín
 tamhlaíochta talmhaíochta
 tamhrán t-amhrán
+tamhránaí t-amhránaí
 tanáiste tánaiste
 taon t-aon
 tapaigí tapaígí
 tarringím tarraingím
+tascairí táscairí
 tastail teastáil
 tastail tástáil
 tathar táthar
@@ -3657,6 +3665,7 @@ teaglach teaghlach
 teaglaigh teaghlaigh
 teagmhail teagmháil
 teama téama
+teamaí téamaí
 tearma téarma
 tearmaí téarmaí
 tearmaíocht téarmaíocht
@@ -3681,6 +3690,7 @@ thabhacht thábhacht
 thabhachtach thábhachtach
 thabhachtaí thábhachtaí
 thaifeadh thaifeadadh
+thaiinig tháinig
 thainic tháinig
 thainig tháinig
 thair thar
@@ -3695,6 +3705,7 @@ thalann thallann
 tharlíonn tharlaíonn
 theacsa theachsa
 theaglach theaghlach
+theamaí théamaí
 thearma théarma
 thearmaí théarmaí
 theaspeáint thaispeáint
@@ -3702,9 +3713,11 @@ theis tar éis
 thicead thicéad
 thinig tháinig
 thintean thinteán
+thiomántas thiomantas
 thios thíos
 thir thír
 thire thíre
+thiubhe thibhe
 thodchaí thodhchaí
 thodhcaí thodhchaí
 thog thóg
@@ -3738,6 +3751,7 @@ tháining tháinig
 tháithí thaithí
 thánaigh tháinig
 thínteán thinteán
+thógaíl thógáil
 thóil thoil
 ti tí
 tiarratas t-iarratas
@@ -3761,15 +3775,20 @@ tiochfaidh tiocfaidh
 tiogair tíogair
 tiomanaí tiománaí
 tiomlán t-iomlán
+tiomántas tiomantas
 tionad t-ionad
+tionlacán tionlacan
 tionscamh tionscnamh
 tionscanamh tionscnamh
+tionsnamh tionscnamh
 tiortha tíortha
 tir tír
 tire tíre
 tithiocht tithíocht
 tithiochta tithíochta
 titithe tite
+titm titim
+tiubhe tibhe
 tiálaim tíálaim
 tleine t-léine
 tléine t-léine
@@ -3793,6 +3812,7 @@ togála tógála
 toibhim toibhím
 toideachas t-oideachas
 toileán t-oileán
+toitiní toitíní
 toraíocht tóraíocht
 tordú t-ordú
 torradh toradh
@@ -3841,6 +3861,7 @@ triur triúr
 triú tríú
 trocaire trócaire
 trocaireach trócaireach
+tropaiceach trópaiceach
 tropaicí trópaicí
 tráidisiúnta traidisiúnta
 trásnán trasnán
@@ -3852,7 +3873,9 @@ trím trí mo
 tríthí trithí
 tríthí tríthi
 tseactain tseachtain
+tseasúir tséasúir
 tsort sórt
+tuachtarán t-uachtarán
 tuafás t-uafás
 tuairiscthe tuairiscithe
 tuairmí tuairimí
@@ -3861,6 +3884,7 @@ tuairsic tuairisc
 tuarascail tuarascáil
 tuarim tuairim
 tuarisc tuairisc
+tuarscáil tuarascáil
 tuasal t-uasal
 tuasal uasal
 tuaslaóir tuaslagóir
@@ -3877,6 +3901,7 @@ tuismitheorí tuismitheoirí
 turlabhraí t-urlabhraí
 tus tús
 tusicint tuiscint
+tusimitheoirí tuismitheoirí
 tusú tosú
 tvuit tvuít
 tvuiteanna tvuíteanna
@@ -3918,6 +3943,7 @@ túiteáil tvuíteáil
 túrscéal t-úrscéal
 túrscéalaí t-úrscéalaí
 túsa tusa
+túsáite tús áite
 túít tvuít
 uachtarain uachtaráin
 uachtaran uachtarán
@@ -3925,6 +3951,7 @@ uafasach uafásach
 uaireamh uairibh
 uasdatú uasdátú
 uasdhátú uasdátú
+uasghradú uasghrádú
 uasleibheal uasleibhéal
 uasáid úsáid
 uaír uair
@@ -3950,6 +3977,7 @@ uirlís uirlis
 uirlísí uirlisí
 uis úis
 uisci uiscí
+ullmhucháin ullmhúcháin
 ullmhór ollmhór
 umhlaim umhlaím
 urnua úrnua
@@ -4076,6 +4104,7 @@ Zurich Zürich
 údáráis údaráis
 údárás údarás
 úfásach uafásach
+úineireacht úinéireacht
 úsaid úsáid
 úsaide úsáide
 úsaideach úsáideach

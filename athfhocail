@@ -12432,11 +12432,14 @@ b'uathbhás b'uafás
 b'uathbhásach b'uafásach
 b'uathbhásacha b'uafásacha
 b'uathbhásaí b'uafásaí
+b'uathoibreach b'uathoibríoch
+b'uathoibreacha b'uathoibríocha
 b'uathoibrithe b'uathoibreáin
 b'uathoibritheach b'uathoibríoch
 b'uathoibritheacha b'uathoibríocha
 b'uathoibrithí b'uathoibríche
 b'uathoibrí b'uathoibreán
+b'uathoibrí b'uathoibríche
 b'uathásach b'uafásach
 b'uathásacha b'uafásacha
 b'uathásaí b'uafásaí
@@ -64868,6 +64871,7 @@ dtairgéad dtargaid
 dtairgéad dtargaidí
 dtairgéid dtargaide
 dtairgéid dtargaidí
+dtairgéidí dtargaidí
 dtairgí dtairge
 dtairgídís dtairgidís
 dtairgígí dtairgigí
@@ -65917,6 +65921,7 @@ dteangmhóimis dteagmhóimis
 dteangmhóinn dteagmhóinn
 dteangtha dteanga
 dteangthacha dteangacha
+dteannamh dteannadh
 dteanndháileog dteanndáileog
 dteanndháileoga dteanndáileoga
 dteanndháileoige dteanndáileoige
@@ -66661,6 +66666,7 @@ dtionsclóirí dtionsclaithe
 dtionsclóirí dtionscnóirí
 dtionsclóra dtionsclaí
 dtionsclóra dtionscnóra
+dtionscnadh dtionscnaíodh
 dtionscnú dtionscnamh
 dtiontaitheoir dtiontaire
 dtiontaitheoirí dtiontairí
@@ -67699,6 +67705,7 @@ dtreabhuidhe dtreabhdóra
 dtreabháin dtreabhainn
 dtreabhán dtreabhann
 dtreabhú dtreabhadh
+dtrealamhú dtrealmhú
 dtreallaimh dtrealaimh
 dtreallamh dtrealamh
 dtreallamhais dtreallúis
@@ -69048,6 +69055,8 @@ dtíochtana dteachta
 dtíodhlacadh dtíolacadh
 dtíodhlacan dtionlacan
 dtíodhlaicí dtíolacthaí
+dtíofais dtífis
+dtíofas dtífeas
 dtíolaic dtíolacadh
 dtíolaice dtíolaca
 dtíolaice dtíolactha
@@ -102210,6 +102219,7 @@ huathbháis huafáis
 huathbhás huafás
 huathbhásach huafásach
 huathbásach huafásach
+huathoibreach huathoibríoch
 huathoibrithe huathoibreáin
 huathoibrithe huathoibreán
 huathoibritheach huathoibríoch
@@ -164992,6 +165002,7 @@ tairgéad targaid
 tairgéad targaidí
 tairgéid targaide
 tairgéid targaidí
+tairgéidí targaidí
 tairgídís tairgidís
 tairgígí tairgigí
 tairgím tairgim
@@ -166113,6 +166124,7 @@ teangálaí teagmhálaí
 teann-asnach teannasach
 teannaitheacht teannaireacht
 teannam téanam
+teannamh teannadh
 teannas teanntás
 teanndháileog teanndáileog
 teanndháileoga teanndáileoga
@@ -166766,6 +166778,7 @@ thairgéad thargaid
 thairgéad thargaidí
 thairgéid thargaide
 thairgéid thargaidí
+thairgéidí thargaidí
 thairgí thairge
 thairgídís thairgidís
 thairgígí thairgigí
@@ -168021,6 +168034,7 @@ theangthach theangach
 theangthacha theangacha
 theangthaigh theangaigh
 theangthaí theangaí
+theannamh theannadh
 theanndháileog theanndáileog
 theanndháileoga theanndáileoga
 theanndháileoige theanndáileoige
@@ -168870,6 +168884,7 @@ thionsclóra thionsclaí
 thionsclóra thionscnóra
 thionscnach thionscantach
 thionscnacha thionscantacha
+thionscnadh thionscnaíodh
 thionscnaigh thionscantaigh
 thionscnaithe thionscanta
 thionscnaí thionscantaí
@@ -170089,6 +170104,7 @@ threabhuidhe threabhdóra
 threabháin threabhainn
 threabhán threabhann
 threabhú threabhadh
+threalamhú threalmhú
 threallaimh threalaimh
 threallamh threalamh
 threallamhais threallúis
@@ -171761,6 +171777,8 @@ thíochtana theachta
 thíodhlacadh thíolacadh
 thíodhlacan thionlacan
 thíodhlaicí thíolacthaí
+thíofais thífis
+thíofas thífeas
 thíolaic thíolacadh
 thíolaice thíolaca
 thíolaice thíolactha
@@ -172502,6 +172520,7 @@ tionsclóra tionsclaí
 tionsclóra tionscnóra
 tionscnach tionscantach
 tionscnacha tionscantacha
+tionscnadh tionscnaíodh
 tionscnaigh tionscain
 tionscnaigh tionscantaigh
 tionscnaithe tionscanta
@@ -173632,6 +173651,7 @@ treagh treá
 treagh treáigh
 treaghadh treá
 treaghaire treáire
+trealamhú trealmhú
 treall dreall
 treallaimh trealaimh
 treallamh trealamh
@@ -176417,6 +176437,8 @@ tíodhlaice tíolacadh
 tíodhlaicthe tíolactha
 tíodhlaicthe tíolacthaí
 tíodhlaicí tíolacthaí
+tíofais tífis
+tíofas tífeas
 tíoghmhasach tíosach
 tíolacadh tionlacan
 tíolaic tionlaic
@@ -177062,6 +177084,9 @@ uathbásacha uafásacha
 uathmhaire uafaireacht
 uathmhaireacht uafaireacht
 uathmhar uafar
+uathoibreach uathoibríoch
+uathoibreacha uathoibríocha
+uathoibrigh uathoibríoch
 uathoibrithe uathoibreáin
 uathoibrithe uathoibreán
 uathoibritheach uathoibríoch
@@ -177070,6 +177095,7 @@ uathoibrithigh uathoibríoch
 uathoibrithí uathoibríche
 uathoibrí uathoibreáin
 uathoibrí uathoibreán
+uathoibrí uathoibríche
 uathásach uafásach
 uathásacha uafásacha
 uathásaigh uafásaigh

@@ -2651,13 +2651,16 @@ niontas n-iontas
 nior níor
 niorbh níorbh
 nios níos
+niós níos
 nn ann
 nniu inniu
 no nó
 noibleagáidí n-oibleagáidí
 noibreoidh n-oibreoidh
+noibrithe n-oibrithe
 noibríonn n-oibríonn
 noidhreacht n-oidhreacht
+noidí n-oidí
 noileán n-oileán
 noimead nóiméad
 noiméad nóiméad
@@ -2681,6 +2684,7 @@ nuaealain nua-ealaín
 NuaGhaeilge Nua-Ghaeilge
 nuaira nuair a
 nuaire n-uaire
+nuiar nuair
 nuir nuair
 nábhar n-ábhar
 nádurtha nádúrtha
@@ -2699,6 +2703,7 @@ néirí n-éirí
 néiríonn n-éiríonn
 níbe ní ba
 nílím nílim
+níoc n-íoc
 níocaíochtaí n-íocaíochtaí
 níomhaíochtaí ngníomhaíochtaí
 níonra naíonra
@@ -2710,6 +2715,7 @@ nóimead nóiméad
 nóimeád nóiméad
 nótáltha nótáilte
 núair nuair
+núdar n-údar
 núdarás n-údarás
 núicleach núicléach
 núicleacha núicléacha
@@ -2721,6 +2727,7 @@ obraíonn oibríonn
 ocaid ócáid
 ocaideach ócáideach
 ocaideacha ócáideacha
+ocsaigín ocsaigin
 oct ocht
 ocáid ócáid
 ocáideach ócáideach
@@ -2750,6 +2757,7 @@ oinseach óinseach
 oired oiread
 oiriunach oiriúnach
 oiriunú oiriúnú
+oiriúniú oiriúnú
 oiriúnt oiriúint
 Oirr Oírr
 oirúnach oiriúnach
@@ -2770,8 +2778,10 @@ ona óna
 onór onóir
 oraid óráid
 oraiste oráiste
+orga órga
 oráid óráid
 oráidí óráidí
+oscaigin ocsaigin
 oscalit oscailt
 oscalite oscailte
 oscáilt oscailt
@@ -2781,6 +2791,7 @@ ospideal ospidéal
 ospideil ospidéil
 ospideál ospidéal
 ostan óstán
+ostaíocht óstaíocht
 ostáin óstáin
 ostán óstán
 ostóir óstóir
@@ -2788,6 +2799,7 @@ oíge óige
 pa pá
 padraig Pádraig
 pagh pá
+paineál painéal
 paipear páipéar
 paipeir páipéir
 paipéar páipéar
@@ -2824,16 +2836,19 @@ phairtí pháirtí
 pharoiste pharóiste
 phictuir phictiúr
 phictúir phictiúr
+phiolóta phíolóta
 phiopa phíopa
 phiosa phíosa
 phlainéad phláinéad
 phle phlé
+phleisiúr phléisiúr
 phoca phóca
 pholatúil pholaitiúil
 phroifíl phróifíl
 phroiséas phróiseas
 phrása bhfrása
 phrása frása
+phríomhaideach phríobháideach
 pháirithe pháirtithe
 phóstáil phostáil
 piano pianó
@@ -2848,6 +2863,7 @@ piolóta píolóta
 piopa píopa
 piosa píosa
 piosaí píosaí
+pitseamaí pitseámaí
 plainéad pláinéad
 plasain plásáin
 plasan plásán
@@ -2863,7 +2879,10 @@ pleán plean
 plodaithe plódaithe
 pléfidh pléifidh
 Pléimionn Pléimeann
+plúide pluide
 pobalbreith pobalbhreith
+poblachtanacha poblachtacha
+poblachtanaigh poblachtaigh
 poca póca
 pocaí pócaí
 podcraoladh podchraoladh
@@ -2911,6 +2930,8 @@ proiséas próiseas
 protastúnach Protastúnach
 príobhaideach príobháideach
 príobhaideacha príobháideacha
+príomhaideach príobháideach
+príomhcathrach príomhchathrach
 príomhfheidhmeanach príomhfheidhmeannach
 príomhá príomha
 puc poc
@@ -2932,6 +2953,7 @@ píseanna piseanna
 píóg pióg
 póiblí poiblí
 póiliní póilíní
+póitinseal poitéinseal
 póitéinsiúil poitéinsiúil
 pól Pól
 pórtfóilió portfóilió
@@ -2940,6 +2962,7 @@ póta pota
 ra rá
 rachaigh rachaidh
 rachairt ráchairt
+radachas radacachas
 radh rá
 rafla ráfla
 raflaí ráflaí
@@ -2954,6 +2977,7 @@ rangghrúpa rang-ghrúpa
 rannog rannóg
 rannphairtíocht rannpháirtíocht
 rannpháirithe rannpháirtithe
+rannpháirtíthe rannpháirtithe
 rasa rás
 rasa rása
 rasaí rásaí
@@ -2996,6 +3020,7 @@ reiteach réiteach
 reiteoir réiteoir
 religiúin reiligiún
 religiún reiligiún
+religiúnach reiligiúnach
 reáchtá reáchtáil
 reáltbhuíon réaltbhuíon
 reásunta réasúnta
@@ -3015,6 +3040,7 @@ riomhphost ríomhphost
 riomphoist ríomhphoist
 riomphost ríomhphost
 Riordáin Ríordáin
+risíní rísíní
 roba róba
 roc-cheol rac-cheol
 rochiuin róchiúin
@@ -3122,6 +3148,7 @@ scealaíocht scéalaíocht
 scealloga sceallóga
 scealta scéalta
 scealtaí scéalta
+sceannairt sceanairt
 sceil scéil
 sceim scéim
 sceime scéime
@@ -3139,6 +3166,7 @@ scoilbliana scoilbhliana
 scoileadh scaoileadh
 scoileann scoileanna
 scolaireachtaí scoláireachtaí
+scolaírí scoláirí
 scoranna scóir
 scott Scott
 screachán scréachán
@@ -3168,13 +3196,17 @@ scátheagra scátheagraíocht
 scíl scil
 scíleanna scileanna
 scíobh scríobh
+scíofa scríofa
+scólaire scoláire
 scóth scoth
 sdócha is dócha
 se sé
 seacadadh seachadadh
+seachaine seachtaine
 seachatine seachtaine
 seachtainiúl seachtainiúil
 seachtainne seachtaine
+seachtainní seachtainí
 seachtainúil seachtainiúil
 seachtan seachtain
 seachtdéag seacht déag
@@ -3218,6 +3250,7 @@ seán Seán
 seú séú
 shabhal shábháil
 shabháil shábháil
+shabháilt shábháil
 Shairséal Sháirséal
 shamhna Shamhna
 shample shampla
@@ -3233,6 +3266,7 @@ sheacaint sheachaint
 sheampíní sheaimpíní
 sheanleim sheanléim
 sheanmhathair sheanmháthair
+sheanthuismitheoirí sheantuismitheoirí
 sheasúr shéasúr
 sheineann sheinneann
 sheint sheinm
@@ -3249,6 +3283,7 @@ shoisialaigh shóisialaigh
 shoisialta shóisialta
 sholathar sholáthar
 sholathraíonn sholáthraíonn
+sholathróidh sholáthróidh
 short shórt
 shortáil shórtáil
 shron shrón
@@ -3267,6 +3302,7 @@ sias siad
 sias síos
 sib sibh
 siceolaithe síceolaithe
+siceolaí síceolaí
 siceolaíoch síceolaíoch
 siceolaíocht síceolaíocht
 siceolaíochta síceolaíochta
@@ -3277,6 +3313,7 @@ sina sin a
 sineadh síneadh
 siniu síniú
 siniú síniú
+sintiúis síntiúis
 sintiús síntiús
 siníthe sínithe
 siob síob
@@ -3366,17 +3403,21 @@ spoirt spóirt
 Spongebob SpongeBob
 sport spórt
 spraoí spraoi
+spraoúil spraíúil
 spriocdáta spriocdháta
 sproai spraoi
+spríce sprice
 Spáinis Spáinnis
 spáinn Spáinn
 spáinnis Spáinnis
 spárail spáráil
 spéisialta speisialta
 spéisúil spéisiúil
+spóirtiúla spórtúla
 sraid sráid
 sraide sráide
 sraideanna sráideanna
+sroicthe sroichte
 sruchtúr struchtúr
 sráith sraith
 stadas stádas
@@ -3406,6 +3447,7 @@ stoirin stóirín
 stoppadh stopadh
 stor stór
 stormont Stormont
+straice stráice
 straiteis straitéis
 straith sraith
 stratéis straitéis
@@ -3453,6 +3495,7 @@ suíochan suíochán
 sábhailte sábháilte
 sábhailteacht sábháilteacht
 sábhailteachta sábháilteachta
+sábháilteacha sábháilteachta
 sábáilte sábháilte
 sáille sáile
 sáinithe sáinnithe
@@ -3462,6 +3505,8 @@ séirbhísí seirbhísí
 séisiúin seisiúin
 séisiún seisiún
 síad siad
+síce sícé
+síntúis síntiúis
 síntús síntiús
 síochain síocháin
 síochana síochána

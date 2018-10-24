@@ -24350,6 +24350,8 @@ bpioróide bpearóide
 bpioróidí bpearóidí
 bpiostaile bpiostail
 bpiostala bpiostail
+bpiotail bpeitil
+bpiotal bpeiteal
 bpis bpit
 bpise bpite
 bpiseanna bpiteanna
@@ -25065,6 +25067,8 @@ bpuich bhfoiche
 bpuich bhfoichí
 bpuililiú bhfuilibiliú
 bpuill bpoill
+bpuimpcín bpuimcín
+bpuimpcíní bpuimcíní
 bpuinc bpoinc
 bpuinc bpunc
 bpuinc bpuncaí
@@ -136591,6 +136595,8 @@ neosfadsa inseoidh mise
 neosfadsa n-inseoidh mise
 neosfaidh inseoidh
 neosfaidh n-inseoidh
+neosfainn inseoinn
+neosfainn n-inseoinn
 neosfar inseofar
 neosfá inseofá
 neosfá n-inseofá
@@ -139236,6 +139242,10 @@ nuaidheachta nuachta
 nuaill nuall
 nuaille nuaill
 nuais nuair
+nualaíche nuálaí
+nualaíoch nuálach
+nualaíoch nuálaigh
+nualaíocha nuálacha
 nuall d'uaill
 nuall huaill
 nuall n-uaill
@@ -141563,6 +141573,8 @@ phioróide phearóide
 phioróidí phearóidí
 phiostaile phiostail
 phiostala phiostail
+phiotail pheitil
+phiotal pheiteal
 phis phit
 phise phite
 phiseanna phiteanna
@@ -142385,6 +142397,8 @@ phuich fhoiche
 phuich fhoichí
 phuililiú fhuilibiliú
 phuill phoill
+phuimpcín phuimcín
+phuimpcíní phuimcíní
 phuinc phoinc
 phuinc phunc
 phuinc phuncaí
@@ -142465,6 +142479,7 @@ phábhfá phábhálfá
 phábhtar phábháiltear
 phábhtaí phábháiltí
 phábhtá phábháilteá
+pháchoibhneasa phá-choibhneasa
 pháfa phábháilte
 pháfa phábhála
 phágh phá
@@ -142943,6 +142958,8 @@ piosarnach siosarnach
 piosla priosla
 piostaile piostail
 piostala piostail
+piotail peitil
+piotal peiteal
 pircín feircín
 piriúcha peiríocha
 pis pit
@@ -143956,6 +143973,8 @@ puililiú fuilibiliú
 puiliú fuilibiliú
 puill poill
 puilliliú fuilibiliú
+puimpcín puimcín
+puimpcíní puimcíní
 puinc poinc
 puinc punc
 puinc puncaí
@@ -144064,6 +144083,7 @@ pábhfaidh pábhálfaidh
 pábhfaimid pábhálfaimid
 pábhfar pábhálfar
 pábhtar pábháiltear
+páchoibhneasa pá-choibhneasa
 pács pácsa
 páfa pábháilte
 páfa pábhála
@@ -147256,6 +147276,7 @@ rúnaire rúnaí
 rúnaireacht rúnaíocht
 rúnaireachta rúnaíochta
 rúndiamhaireacht rúndiamhracht
+rúndiamhaireachta rúndiamhrachta
 rúndiamhar rúndiamhair
 rúndiamhara rúndiamhra
 rúndiamhrach rúndiamhair
@@ -147584,6 +147605,8 @@ salacha saileacha
 salacha saileanna
 salachadh salú
 salacharáil salacharaíl
+salainne salainn
+salainne tsalainn
 salan salann
 salanra salainn
 salcha salacha
@@ -148430,6 +148453,8 @@ scannra scanradh
 scannradh scanradh
 scannradhach scanrúil
 scannraigh scanraigh
+scannáil scanadh
+scannála scanta
 scanrabóid scanróir
 scanrach scanrúil
 scanracha scanrúla
@@ -149059,6 +149084,7 @@ sceitimínithí sceitimíní
 sceitinn gheitinn
 sceitinn ngeitinn
 sceitiúil geitiúil
+sceits sceitse
 sceitse sceiteadh
 sceitseanna sceitsí
 sceití geití
@@ -149337,6 +149363,7 @@ sciomálfá scimeálfá
 sciomóir scimín
 scion scean
 scion scian
+sciopadh sciobtha
 sciopaí sciobtha
 scioptha sciobtha
 scioracháin sciorracháin
@@ -149704,6 +149731,7 @@ scoileana scoileanna
 scoilteacha scoilteanna
 scoilteog scoilteán
 scoiltighthe scoilte
+scoiltithe scoilte
 scoiltthe scoilte
 scoimhléireacht scamhailéireacht
 scoimhléireachta scamhailéireachta
@@ -149919,6 +149947,9 @@ scriochaide creachán
 scriochán creachán
 scriogach scroigeach
 scriollach scileach
+scriopt script
+scriopt scripte
+scrioptanna scripteanna
 scrioptuir scrioptúr
 scrioptúir scrioptúr
 scrios scriosadh
@@ -150140,6 +150171,7 @@ scríobálaí scrioblálaí
 scríoda scríd
 scríoda scríde
 scríodaí scrídeanna
+scríodh scríobhadh
 scríos scrios
 scríosa scriosa
 scríosadar scriosadar
@@ -150770,6 +150802,10 @@ seachta seachanta
 seachtaineacha seachtainí
 seachtar seachnaítear
 seachtar seachtair
+seachtarach seachtrach
+seachtaracha seachtracha
+seachtaraigh seachtraigh
+seachtaraí seachtraí
 seachtaí seachnaítí
 seachtdeug seacht déag
 seachtmadh seachtú
@@ -151070,6 +151106,7 @@ seantighearna seantiarna
 seantighearnaí seantiarnaí
 seantoighthe seantithe
 seantséipéal seanséipéal
+seantuistí seantuismitheoirí
 seanughdair seanúdair
 seanughdar seanúdar
 seanórdha seanórtha
@@ -151845,6 +151882,7 @@ shaitirí shatairí
 shal shail
 shalach shaileach
 shalacha shaileacha
+shalainne shalainn
 shalanra shalainn
 shalchair shalachair
 shalchar shalachar
@@ -152302,6 +152340,9 @@ sheachta sheachanta
 sheachtaineacha sheachtainí
 sheachtar sheachnaítear
 sheachtarach sheachtrach
+sheachtaracha sheachtracha
+sheachtaraigh sheachtraigh
+sheachtaraí sheachtraí
 sheachtaí sheachnaítí
 sheachtmhad sheachtó
 sheachtmhadh sheachtú
@@ -152497,6 +152538,7 @@ sheansúr sheamsúr
 sheantighearna sheantiarna
 sheantighearnaí sheantiarnaí
 sheantoighthe sheantithe
+sheantuistí sheantuismitheoirí
 sheanughdair sheanúdair
 sheanughdar sheanúdar
 shearabh sharaifín
@@ -155190,6 +155232,7 @@ shuístíní shaoisteog
 shuístíní shaoisteoga
 shá sháith
 shábhail shábháil
+shábhailt shábháil
 shábhlóchadh shábhálfadh
 shábháilidh shábhála
 shábháilt shábháil
@@ -161991,6 +162034,31 @@ stéidhgeacha stéigeacha
 stéigeanna stéigeacha
 stéigreacha stéigeacha
 stéille stéill
+stéiréitíopáil steiréitíopáil
+stéiréitíopáilte steiréitíopáilte
+stéiréitíopáiltear steiréitíopáiltear
+stéiréitíopáilteá steiréitíopáilteá
+stéiréitíopáiltí steiréitíopáiltí
+stéiréitíopála steiréitíopála
+stéiréitíopáladar steiréitíopáladar
+stéiréitíopáladh steiréitíopáladh
+stéiréitíopálaidís steiréitíopálaidís
+stéiréitíopálaigí steiréitíopálaigí
+stéiréitíopálaim steiréitíopálaim
+stéiréitíopálaimid steiréitíopálaimid
+stéiréitíopálaimis steiréitíopálaimis
+stéiréitíopálainn steiréitíopálainn
+stéiréitíopálamar steiréitíopálamar
+stéiréitíopálann steiréitíopálann
+stéiréitíopálfadh steiréitíopálfadh
+stéiréitíopálfaidh steiréitíopálfaidh
+stéiréitíopálfaidís steiréitíopálfaidís
+stéiréitíopálfaimid steiréitíopálfaimid
+stéiréitíopálfaimis steiréitíopálfaimis
+stéiréitíopálfainn steiréitíopálfainn
+stéiréitíopálfar steiréitíopálfar
+stéiréitíopálfaí steiréitíopálfaí
+stéiréitíopálfá steiréitíopálfá
 stíbhard stíobhard
 stíbhín stibhín
 stíbhíní stibhíní
@@ -162361,6 +162429,7 @@ svaistíce svaistice
 svaistící svaisticí
 sá sáith
 sábhail sábháil
+sábhailt sábháil
 sábhairne sáibhirne
 sábhanna sábha
 sábháilidh sábhála
@@ -175025,6 +175094,7 @@ tsuísteog tsaoisteog
 tsuístín saoisteoige
 tsá tsáith
 tsábhail tsábháil
+tsábhailt tsábháil
 tsábháilt tsábháil
 tsábháltacht tsábháilteacht
 tsácraimínt tsacraimint

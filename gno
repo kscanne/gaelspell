@@ -6,6 +6,7 @@ Adaptxt
 Adobe
 Advertiser
 Aertel
+Agresso
 Agtel
 Airbus
 Aironi
@@ -59,6 +60,8 @@ Caldera
 Cambus
 Carlsberg
 Carrefour
+CeangalG
+Celtica
 Centra
 Chase
 Cheerios
@@ -85,6 +88,7 @@ Conoco
 Corning
 Cortina
 Costco
+Crosscare
 Cybergael
 Daimler
 Damer
@@ -93,10 +97,12 @@ Debian
 Dell
 Deloitte
 Deutsche
+Diageo
 Dialang
 Digg
 Digiscoil
 Digital
+Digiweb
 Dimplex
 Disney
 Disneyland
@@ -105,10 +111,12 @@ Dolce
 Dorling
 Dow
 Drive
+Drivetime
 Drupal
 Dunnes
 Duolingo
 Easons
+EastEnders
 EasyReader
 eBay
 Edge
@@ -119,6 +127,7 @@ Eircom
 EirGrid
 Electric
 Elsevier
+EmployAbility
 Energia
 Enron
 Ericsson
@@ -127,18 +136,21 @@ Esquire
 Eudora
 Euratom
 Eurolang
+EuroMillions
 Europa
 Europass
 Europol
 Europus
 Eurostat
 Eurovision
+Eventbrite
 Evertype
 Examiner
 Excel
 Explorer
 Exxon
 Facebook
+Fastnet
 Fedora
 Ferrari
 Fiat
@@ -165,6 +177,7 @@ Fundit
 Fíbín
 G-Spota
 Gabbana
+GaelGÁIRÍ
 Gaeloiliúint
 Gaelport
 Gaelscript
@@ -207,6 +220,7 @@ iGaeilge
 iGoogle
 IKEA
 iMac
+iMovie
 Imram
 Indecon
 Independent
@@ -229,10 +243,12 @@ Java
 JavaScript
 Jazeera
 Jelsoft
+JobBridge
 JobsPlus
 Joomla
 Juventus
 Kappa
+Kerryman
 Kia
 Kickstarter
 Kindersley
@@ -254,6 +270,7 @@ LinkedIn
 Linspire
 Linux
 Liveline
+LoCall
 Lockheed
 Lohans
 Londis
@@ -288,6 +305,7 @@ Mobil
 Monde
 Monopoly
 Moodle
+Moonfish
 Morgan
 Motorola
 Mozilla
@@ -324,6 +342,7 @@ Outlook
 Oxegen
 Oxfam
 Pandora
+Pavee
 PayPal
 País
 Penneys
@@ -338,6 +357,7 @@ Picasa
 Pidgin
 Pinterest
 Pirelli
+Pixar
 Playstation
 Pokémon
 Pontiac
@@ -345,6 +365,7 @@ Poolbeg
 PopNuacht
 PowerPoint
 Prezi
+PricewaterhouseCoopers
 Prius
 Procter
 Prudential
@@ -410,6 +431,8 @@ Starbucks
 Statoil
 Steam
 Subhóró
+Sundance
+Supermac's
 Superquinn
 SuperValu
 Symantec
@@ -438,8 +461,10 @@ Toyota
 Traidphicnic
 Translink
 TripAdvisor
+TrueType
 Tumblr
 Twitter
+Uber
 Ubuntu
 Unicode
 Unilever

@@ -355,6 +355,8 @@ Bhruiséal Bhruiséile
 Bhríghde Bhríde
 Bhríghid Bhríd
 Bhríghidín Bhrídín
+Bhulgáireach Bhulgárach
+Bhulgáirigh Bhulgáraigh
 Bháltach Bhaltach
 Bháltacha Bhaltacha
 Bháltaigh Bhaltaigh
@@ -425,6 +427,8 @@ Bríghde Bríde
 Bríghdín Brídín
 Bríghid Bríd
 Bríghidín Brídín
+Bulgáireach Bulgárach
+Bulgáirigh Bulgáraigh
 Buáilfidh Buailfidh
 Báideineach Báideanach
 Báltach Baltach
@@ -450,6 +454,7 @@ Bóroimhe Ború
 Búidis Buthaidis
 Búidise Buthaidise
 Caiphas Cáiafas
+Cairibe Cairib
 Cairrge Charraig
 Caisdeach Caisideach
 Caismíor Caismír
@@ -504,6 +509,7 @@ Ceatharloch Ceatharlach
 Ceatharloigh Ceatharlaigh
 Ceiting Céitinn
 Chailbhin Chailvín
+Chairibe Chairib
 Chaismíor Chaismír
 Chaismíor Chaismíre
 Chaitilicithe Chaitliceach
@@ -801,6 +807,10 @@ Dhubhgáin Dhúgáin
 Dháibhid Dháiví
 Dháibhidh Dháibhí
 Dhárbhuin Darwin
+Dhéavónach Dheavónach
+Dhéavónacha Dheavónacha
+Dhéavónaigh Dheavónaigh
+Dhéavónaí Dheavónaí
 Dhómhnail Dhónail
 Dhún-na-nGall Dhún na nGall
 Dhúnchaoin Dhún Chaoin
@@ -837,6 +847,10 @@ Dárbhuin Darwin
 Dáson Dhásain
 Déardaoine Déardaoin
 Déardaoineach Déardaoin
+Déavónach Deavónach
+Déavónacha Deavónacha
+Déavónaigh Deavónaigh
+Déavónaí Deavónaí
 Déisibh Déise
 Dómhnal Dónal
 Dómhnall Dónall
@@ -1614,6 +1628,7 @@ Meirceánach Meiriceánach
 Meirceánacha Meiriceánacha
 Meirceánaigh Meiriceánaigh
 Meirceánaí Meiriceánaí
+Meireacá Meiriceá
 Meireacánach Meiriceánach
 Meireacánacha Meiriceánacha
 Meireacánaigh Meiriceánaigh
@@ -1680,6 +1695,7 @@ Mheirceánach Mheiriceánach
 Mheirceánacha Mheiriceánacha
 Mheirceánaigh Mheiriceánaigh
 Mheirceánaí Mheiriceánaí
+Mheireacá Mheiriceá
 Mheireacánach Mheiriceánach
 Mheireacánacha Mheiriceánacha
 Mheireacánaigh Mheiriceánaigh
@@ -11729,6 +11745,7 @@ b'ináitreibhe b'ináitrithe
 b'inín b'iníon
 b'iníneacha b'iníonacha
 b'iníochta b'iníoctha
+b'iníoslódáilte b'in-íoslódáilte
 b'inísleacht b'inísle
 b'iochtúil b'iochtmhar
 b'iochtúla b'iochtmhaire
@@ -12717,6 +12734,10 @@ b'Éireanach b'Éireannach
 b'Éireanacha b'Éireannacha
 b'Éireanaigh b'Éireannaigh
 b'Éireanaí b'Éireannaí
+b'Íosagánach b'Íosánach
+b'Íosagánacha b'Íosánacha
+b'Íosagánaigh b'Íosánaigh
+b'Íosagánaí b'Íosánaí
 b'Ísealtír b'Ísiltír
 b'Óiríon b'Oiríon
 b'Óiséit b'Oiséit
@@ -55720,6 +55741,8 @@ d'Éiphte d'Éigipte
 d'Éirean d'Éireann
 d'Éireanach d'Éireannach
 d'Éireanaigh d'Éireannaigh
+d'Íosagánach d'Íosánach
+d'Íosagánaigh d'Íosánaigh
 d'Ísealtír d'Ísiltír
 d'Ísealtíre d'Ísiltíre
 d'Íta d'Íte
@@ -82863,6 +82886,7 @@ fútrálaí fútair
 fútrálaí fútar
 g'ránta gearán
 g'á á
+gCairibe gCairib
 gCaismíor gCaismír
 gCaismíor gCaismíre
 gCaitilicithe gCaitliceach
@@ -101257,6 +101281,7 @@ hináitreabh hináitrithe
 hinín hiníon
 hiníneacha hiníonacha
 hiníochta hiníoctha
+hiníoslódáilte hin-íoslódáilte
 hinísleacht hinísle
 hinísleachta hinísle
 hiochtúil hiochtmhar
@@ -102612,6 +102637,8 @@ hÉireanach hÉireannach
 hÉireanaigh hÉireannaigh
 hÉirinne hÉireann
 hÉirionn Éireann
+hÍosagánach hÍosánach
+hÍosagánaigh hÍosánaigh
 hÍsealtír hÍsiltír
 hÍsealtíre hÍsiltíre
 hÓiríon hOiríon
@@ -104924,6 +104951,7 @@ iníol iníor
 iníon iníonacha
 iníona iníonacha
 iníonas iníonacht
+iníoslódáilte in-íoslódáilte
 inísleacht inísle
 inísleachta inísle
 iobach abach
@@ -115195,6 +115223,8 @@ m'Éiphte m'Éigipte
 m'Éirean m'Éireann
 m'Éireanach m'Éireannach
 m'Éireanaigh m'Éireannaigh
+m'Íosagánach m'Íosánach
+m'Íosagánaigh m'Íosánaigh
 m'Ísealtír m'Ísiltír
 m'Ísealtíre m'Ísiltíre
 m'Óiríon m'Oiríon
@@ -115824,6 +115854,8 @@ mBreathnais mBreatnais
 mBreathnaise mBreatnaise
 mBruiséal mBruiséil
 mBruiséal mBruiséile
+mBulgáireach mBulgárach
+mBulgáirigh mBulgáraigh
 mBéalfeirsde mBéal Feirste
 mBéara mBéarra
 mBéarút mBéiriút
@@ -139478,6 +139510,8 @@ nÉirean nÉireann
 nÉireanach nÉireannach
 nÉireanaigh nÉireannaigh
 nÉreann nÉireann
+nÍosagánach nÍosánach
+nÍosagánaigh nÍosánaigh
 nÍsealtír nÍsiltír
 nÍsealtíre nÍsiltíre
 nÓiríon nOiríon
@@ -175935,6 +175969,7 @@ tÁird-Rí tArdrí
 tÁrd-Easbog tArd-Easpag
 tÉatruscach tÉatrúscach
 tÉireanach tÉireannach
+tÍosagánach tÍosánach
 tÓiríon tOiríon
 tá'n tá
 tá's tá a fhios
@@ -178140,6 +178175,10 @@ yóga ióga
 Éreann Éireann
 Érenn Éireann
 Érinn Éirinn
+Íosagánach Íosánach
+Íosagánacha Íosánacha
+Íosagánaigh Íosánaigh
+Íosagánaí Íosánaí
 Ísealtír Ísiltír
 Ísealtíre Ísiltíre
 Íta Íte

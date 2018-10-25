@@ -4113,6 +4113,8 @@ anchúinseacht/HMDBU
 anchúinseachta/HMDU
 anchúinsigh
 anchúinsí/HBMDU
+Andalúis
+Andalúise
 Andalúiseach
 Andalúiseacha
 Andalúisigh
@@ -5053,6 +5055,8 @@ Ard
 ard/HBMDUT
 Ard-Aighne
 Ard-Aighní
+Ard-Aturnae
+Ard-Aturnaetha
 Ard-Bhailitheoir
 Ard-Bhailitheoirí
 Ard-Bhailitheora
@@ -7832,6 +7836,7 @@ b'Anabaisteach
 b'Anabaisteacha
 b'Anabaistigh
 b'Anabaistí
+b'Andalúis
 b'Andalúiseach
 b'Andalúiseacha
 b'Andalúisigh
@@ -7928,6 +7933,8 @@ b'Arastatailí
 b'Ard
 b'Ard-Aighne
 b'Ard-Aighní
+b'Ard-Aturnae
+b'Ard-Aturnaetha
 b'Ard-Bhailitheoir
 b'Ard-Bhailitheoirí
 b'Ard-Bheith
@@ -8115,6 +8122,10 @@ b'Fhidsíche
 b'Fhidsígh
 b'Fhidsíoch
 b'Fhidsíocha
+b'Fhilipeach
+b'Fhilipeacha
+b'Fhilipigh
+b'Fhilipí
 b'Fhilipíneach
 b'Fhilipíneacha
 b'Fhilipínigh
@@ -8196,6 +8207,9 @@ b'Iar-Indiach
 b'Iar-Indiacha
 b'Iar-Indiaiche
 b'Iar-Indiaigh
+b'Iar-Iúgslavach
+b'Iar-Iúgslavacha
+b'Iar-Iúgslavaí
 b'Iarannaois
 b'Iarla
 b'Iarlaí
@@ -10351,6 +10365,8 @@ bhFidsise
 bhFidsí
 bhFidsígh
 bhFidsíoch
+bhFilipeach
+bhFilipigh
 bhFilipíneach
 bhFilipínigh
 bhFilipínis
@@ -27969,6 +27985,8 @@ d'anailísigh/U
 d'anailísínn/FU
 d'anbhainnigh/U
 d'anbhainnínn/FU
+d'Andalúis
+d'Andalúise
 d'Andalúiseach
 d'Andalúisigh
 d'Andraiméide
@@ -28071,6 +28089,8 @@ d'Aramaise
 d'Ard
 d'Ard-Aighne
 d'Ard-Aighní
+d'Ard-Aturnae
+d'Ard-Aturnaetha
 d'Ard-Bhailitheoir
 d'Ard-Bhailitheoirí
 d'Ard-Bhailitheora
@@ -28723,6 +28743,8 @@ d'Fhidsí
 d'Fhidsígh
 d'Fhidsíoch
 d'fhigh
+d'Fhilipeach
+d'Fhilipigh
 d'Fhilipíneach
 d'Fhilipínigh
 d'Fhilipínis
@@ -31627,6 +31649,7 @@ dhrioga/U
 dhriogainn/EU
 dhrithlí/U
 dhrithlínn/FU
+dhroch-Bhéarla/U
 dhroch-Ghaeilge/U
 dhroimscríobha/U
 dhroimscríobhainn/EU
@@ -33600,6 +33623,7 @@ droch-araíonach/S
 droch-araíonacha/S
 droch-araíonaigh/S
 droch-araíonaí/S
+droch-Bhéarla/U
 droch-chaidreamh/US
 droch-chaidrimh/US
 droch-chaife/US
@@ -38346,6 +38370,8 @@ faisnéisithe/MDUS
 faisnéisiú/MDBUS
 faisnéiste/SB
 faisnéisí/BSMDU
+faisnéisíocht/MDBUS
+faisnéisíochta/MDUS
 faiteach/BS
 faiteacha/BS
 faiteacháin/MDBUS
@@ -39920,6 +39946,10 @@ filiméad/MDBUS
 filiméala/MDBUS
 filiméalaí/MDBUS
 filiméid/MDBUS
+Filipeach/S
+Filipeacha/S
+Filipigh/S
+Filipí/S
 Filipíneach/S
 Filipíneacha/S
 Filipínigh/S
@@ -42036,6 +42066,10 @@ freasúracha/S
 freasúraigh/S
 freasúraí/SU
 freisin
+Freudach/S
+Freudacha/S
+Freudaigh/S
+Freudaí/S
 frigháire/US
 frigháirí/US
 Frigia/S
@@ -50266,6 +50300,8 @@ hAmáiris
 hAmáirise
 hAnabaisteach
 hAnabaistigh
+hAndalúis
+hAndalúise
 hAndalúiseach
 hAndalúisigh
 hAndraiméide
@@ -50364,6 +50400,8 @@ hArastataileach
 hArd
 hArd-Aighne
 hArd-Aighní
+hArd-Aturnae
+hArd-Aturnaetha
 hArd-Bhailitheoir
 hArd-Bhailitheoirí
 hArd-Bhailitheora
@@ -50634,6 +50672,7 @@ hIamácaigh
 hIamáice
 hIar-Indiach
 hIar-Indiaigh
+hIar-Iúgslavach
 hIarannaois
 hIarannaoise
 hIarla
@@ -51449,6 +51488,10 @@ Iar-Indiach
 Iar-Indiacha
 Iar-Indiaiche
 Iar-Indiaigh
+Iar-Iúgslavach
+Iar-Iúgslavacha
+Iar-Iúgslavaigh
+Iar-Iúgslavaí
 iar-leascheannaire/HMDBUT
 iar-leascheannairí/HMDBU
 iar-nua-aoiseach/HB
@@ -59088,6 +59131,8 @@ Lár-Eorpach
 Lár-Eorpacha
 Lár-Eorpaigh
 Lár-Eorpaí
+Lár-Limistéar
+Lár-Limistéir
 lárach
 láracha
 láraigh
@@ -60054,6 +60099,8 @@ m'Amáirise
 m'Anabaisteach
 m'Anabaistigh
 m'anam
+m'Andalúis
+m'Andalúise
 m'Andalúiseach
 m'Andalúisigh
 m'Andraiméide
@@ -60128,6 +60175,8 @@ m'Aramaise
 m'Ard
 m'Ard-Aighne
 m'Ard-Aighní
+m'Ard-Aturnae
+m'Ard-Aturnaetha
 m'Ard-Bhailitheoir
 m'Ard-Bhailitheoirí
 m'Ard-Bhailitheora
@@ -60312,6 +60361,8 @@ m'Fhidsise
 m'Fhidsí
 m'Fhidsígh
 m'Fhidsíoch
+m'Fhilipeach
+m'Fhilipigh
 m'Fhilipíneach
 m'Fhilipínigh
 m'Fhilipínis
@@ -63981,6 +64032,8 @@ mionlogainmneacha/S
 mionlú/S
 mionmhagadh/S
 mionmhagaidh/S
+mionmharatóin/S
+mionmharatón/S
 mionmheá/S
 mionmheánna/S
 mionmhogallach/S
@@ -67364,6 +67417,8 @@ nanaitheicneolaíocht
 nanaitheicneolaíochta
 nanashoicind
 nanashoicindí
+nAndalúis
+nAndalúise
 nAndalúiseach
 nAndalúisigh
 nAndraiméide
@@ -67519,6 +67574,8 @@ nArd
 nard
 nArd-Aighne
 nArd-Aighní
+nArd-Aturnae
+nArd-Aturnaetha
 nArd-Bhailitheoir
 nArd-Bhailitheoirí
 nArd-Bhailitheora
@@ -67925,6 +67982,10 @@ neamh-inmhianaithe
 neamh-mhairg
 neamh-mhairge
 neamh-mhaoinithe
+neamh-mharfach
+neamh-mharfacha
+neamh-mharfaigh
+neamh-mharfaí
 neamh-mheabhair
 neamh-mheabhrach
 neamh-mheasartha
@@ -70034,6 +70095,8 @@ Nua-Chaladónach
 Nua-Chaladónacha
 Nua-Chaladónaigh
 Nua-Chaladónaí
+Nua-Chorpais
+Nua-Chorpas
 Nua-Eabhrac
 nua-ealaín
 nua-ealaíne
@@ -70077,6 +70140,9 @@ nuachlasaiceas
 nuachlasaicigh
 nuachlasaicis
 nuachlasaicí
+nuachleas
+nuachleasa
+nuachlis
 nuachreidmheach
 nuachreidmhigh
 nuachruthaithe
@@ -92732,6 +92798,7 @@ tarchéimniúla/S
 tarchéimním/USC
 tArd
 tArd-Aighne
+tArd-Aturnae
 tArd-Bhailitheoir
 tArd-Chláraitheoir
 tArd-Choimisinéir

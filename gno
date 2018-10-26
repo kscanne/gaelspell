@@ -1,5 +1,6 @@
 AbiWord
 Abán
+Acadian
 Accenture
 Acrobat
 Adaptxt
@@ -355,15 +356,18 @@ Photocall
 Photoshop
 Picasa
 Pidgin
+Pieta
 Pinterest
 Pirelli
 Pixar
 Playstation
 Pokémon
+Polldaddy
 Pontiac
 Poolbeg
 PopNuacht
 PowerPoint
+Pramerica
 Prezi
 PricewaterhouseCoopers
 Prius
@@ -384,6 +388,7 @@ RealPlayer
 Reddit
 RefWorks
 Renault
+Repak
 Reuters
 Rondomondo
 Roomthree
@@ -404,6 +409,7 @@ Scoilnet
 Scrabble
 Scratch
 Seahawks
+Seaplants
 Sephora
 Shailearna
 Shelbourne
@@ -421,10 +427,12 @@ Smurfit
 Snapchat
 Sockies
 Sony
+Sotheby's
 SoundCloud
 SourceForge
 Sox
 Spar
+Specsavers
 SpongeBob
 Spotify
 Starbucks
@@ -437,6 +445,7 @@ Superquinn
 SuperValu
 Symantec
 Sétanta
+Tamboran
 Target
 Tayto
 Technorati
@@ -461,8 +470,10 @@ Toyota
 Traidphicnic
 Translink
 TripAdvisor
+Triskel
 TrueType
 Tumblr
+Twibbon
 Twitter
 Uber
 Ubuntu
@@ -485,6 +496,8 @@ Volkswagen
 Volvo
 Vonage
 WalMart
+Wavebob
+Webbery
 Weetabix
 Westlife
 WhatsApp

@@ -444,6 +444,7 @@ Supermac's
 Superquinn
 SuperValu
 Symantec
+Sáirséal
 Sétanta
 Tamboran
 Target

@@ -7,7 +7,7 @@ ISPELLBIN=/usr/bin
 INSTALL=/usr/bin/install
 SHELL=/bin/sh
 MAKE=/usr/bin/make
-GALLPERSONAL=aitiuil ceol eachtar gall giorr gno lit romhanach
+GALLPERSONAL=aitiuil ceol eachtar gall gallainm-b gallainm-f giorr gno lit romhanach
 GAELPERSONAL=bioblabeag daoine ainm-b ainm-f logainm miotas.txt stair.txt treise
 PERSONAL=$(GALLPERSONAL) $(GAELPERSONAL)
 
@@ -183,6 +183,10 @@ sortpersonal: FORCE
 	mv tempfile eachtar
 	LC_ALL=C sort -u gall | LC_ALL=C sort -f > tempfile
 	mv tempfile gall
+	LC_ALL=C sort -u gallainm-b | LC_ALL=C sort -f > tempfile
+	mv tempfile gallainm-b
+	LC_ALL=C sort -u gallainm-f | LC_ALL=C sort -f > tempfile
+	mv tempfile gallainm-f
 	LC_ALL=C sort -u gno | LC_ALL=C sort -f > tempfile
 	mv tempfile gno
 	LC_ALL=C sort -u lit | LC_ALL=C sort -f > tempfile
@@ -316,7 +320,7 @@ repl: athfhocail earraidi gaelu
 dist: FORCE
 	$(MAKE) ChangeLog stair.txt miotas.txt romhanach giorr
 	sed '/development only/,$$d' ./Makefile > makefile
-	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla bioblabeag ceol daoine ainm-f ainm-b eachtar gall giorr gno lit logainm miotas.txt romhanach stair.txt treise makefile
+	chmod 644 $(AFFIXFILE) gaeilgemor.diff $(RAWWORDS) $(LITWORDS) $(ALTWORDS) COPYING README ChangeLog makefile aitiuil biobla bioblabeag ceol daoine ainm-f ainm-b eachtar gall gallainm-b gallainm-f giorr gno lit logainm miotas.txt romhanach stair.txt treise makefile
 	chmod 755 igcheck
 	ln -s gaelspell ../$(APPNAME)
 	tar cvhf $(TARFILE) -C .. $(APPNAME)/$(AFFIXFILE) 
@@ -338,6 +342,8 @@ dist: FORCE
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/ainm-b
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/eachtar
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gall
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/gallainm-b
+	tar rvhf $(TARFILE) -C .. $(APPNAME)/gallainm-f
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/giorr
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/gno
 	tar rvhf $(TARFILE) -C .. $(APPNAME)/igcheck

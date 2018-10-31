@@ -205,6 +205,7 @@ Google
 Greenpeace
 Guardian
 Gucci
+Guinness
 Halliburton
 Hamas
 Harley

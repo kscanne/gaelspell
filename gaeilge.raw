@@ -6757,15 +6757,16 @@ athghlaoch/HMDBUT
 athghlaoigh/HMDU
 athghléasadh/HMDBUT
 athghléasta/HMDU
-athghoin/HU
+athghoin/HMDBU
 athghoine/U
 athghoineadh/HU
 athghoinidís/HU
 athghoinigí/HU
 athghoinim/UA
 athghoininn/E
-athghointe/HB
 athghointear/HU
+athghona/HMDU
+athghonta/HBMDU
 athghreama/HMDU
 athghreamanna/HMDBU
 athghreim/HMDBUT
@@ -13072,6 +13073,9 @@ bruachánach/S
 bruachánacha/S
 bruachánaigh/S
 bruachánaí/S
+bruachúinéara/US
+bruachúinéir/US
+bruachúinéirí/US
 bruadair/US
 bruadar/US
 Bruaigh/S
@@ -41393,8 +41397,8 @@ forghníomhaím/USC
 forghníomhú/MDBUS
 forghoin/MDBUS
 forghoinim/USA
-forghointe/SB
 forghona/MDUS
+forghonta/MDBUS
 forghruama/BS
 forghéill/US
 forghéilleadh/MDBUS
@@ -41404,11 +41408,10 @@ forhalla/MDBUS
 forhallaí/MDBUS
 foriaigh/US
 foriaim/USA
-foriaite/SB
 foriamh/MDBUS
 foriarratais/MDBUS
 foriarratas/MDBUS
-foriata/MDUS
+foriata/MDUSB
 foriataí/MDBUS
 forimeall/MDBUS
 forimeallach/BSMDU
@@ -48304,7 +48307,6 @@ goinidigh/S
 goinidí/S
 goinigh/S
 goinim/USA
-gointe/S
 goiní/S
 goir/US
 goirb/US
@@ -53588,7 +53590,7 @@ ingneach/HB
 ingneacha/B
 ingnigh
 ingní/B
-inia/HUBMDT
+inia/U
 iniadh/HU
 iniaidís/HU
 iniaigh/HU
@@ -53596,7 +53598,6 @@ iniaigí/HU
 iniaim/UA
 iniaimh/HMDU
 iniainn/E
-iniaite/HBUMD
 iniaitear/HU
 iniamh/HMDBUT
 iniarrtha/HB

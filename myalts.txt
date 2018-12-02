@@ -6,6 +6,7 @@ a'chluig an chloig
 a'Choirce an Choirce
 a'gluaiseacht ag gluaiseacht
 a'Mhíl an Mhíl
+a'mo do mo
 a'tighe an tí
 a'tí an tí
 aar ár
@@ -21,10 +22,12 @@ Abhainn-a'-Scáil Abhainn an Scáil
 Abhaistín Agaistín
 Abisai Aibísí
 Abrahaim Abrahám
+Abrahamach Abrahámach
 abraid deir
 abraimse deirimse
 abrair deir tú
 abraímse deirimse
+Abráhám Abrahám
 abróchaí déarfaí
 Absaloim Aibseálóm
 Absalom Aibseálóm
@@ -183,6 +186,7 @@ Apollónius Apallóinias
 Arabia an Araib
 Arabia na hAraibe
 Arastotail Arastatal
+arca arsa
 Archelaus Archalás
 Ardmacha Ard Mhacha
 Ardmhach Ard Mhacha
@@ -508,6 +512,7 @@ Bríghdín Brídín
 Bríghid Bríd
 Bríghidín Brídín
 buailfí bhuailfí
+bun-na-spéire bun na spéire
 bárrlasrach barr lasrach
 béadh bheadh
 béadh mbeadh
@@ -738,6 +743,7 @@ cuirtí chuirtí
 Cumhail Cumhaill
 Cumhthaigh Cumhaigh
 curtí chuirtí
+Cáilbhireach Calvaire
 cé's cé is
 céad-luaidhtear céadluaite
 Céasar Caesar
@@ -979,6 +985,7 @@ dobheirimse tugaimse
 dobheirir a thugann tú
 dobheirir tugann tú
 dobheurfas a bhéarfaidh
+dobhthasan dóibhsean
 dobhéar tabharfaidh mé
 dobhéarad tabharfaidh mé
 dobhéaradsa tabharfaidh mise
@@ -1453,7 +1460,9 @@ Ghleanna-an-Uaignis Ghleann an Uaignis
 ghloin ghlain
 ghnidh a dhéanann
 ghnidh dhéanann
+ghnidhimse dhéanaimse
 ghnoithese ghnósa
+ghnídhim dhéanaim
 ghnímse a dhéanaimse
 ghnímse déanaimse
 ghnír a dhéanann tú
@@ -1599,6 +1608,7 @@ ingan i ngan
 inganfhios i ngan fhios
 Inis-Mheadhóin Inis Meáin
 Inis-na-Bró Inis na Bró
+iomghaibhte imghafa
 ion-chúitimh inchúitimh
 ionstadtha instadta
 Ioseph Iósaef
@@ -1698,11 +1708,13 @@ m'ad maith agat
 m'ainimse m'ainmse
 m'chroidhe mo chroí
 m'chroídhe mo chroí
+m'ealadhan-sa m'ealaínse
 m'feidir mb'fhéidir
 m'fhearabh m'fhir
 m'fhearaibh m'fhir
 m'fhreagra mo fhreagra
 m'inghean-sa m'iníonsa
+m'á's más
 mac-righ mac rí
 MacAonghusa Mac Aonghusa
 MacFhionnlaoigh Mac Fhionnlaoich
@@ -1956,6 +1968,7 @@ nonóir n-onóir
 Nuadhad Nuad
 Nuadhat Nuad
 Nualáin Nualláin
+Nuat Nuad
 nuile n-uile
 nác nach
 néann dhéanann
@@ -1983,6 +1996,7 @@ Oillioll Oilioll
 oiread-san oiread sin
 Oirghiall Oiriall
 Oirghialla Oirialla
+oirrese uirthise
 Oisin Oisín
 Olibhet na nOlóg
 Oméith Ó Méith
@@ -2066,6 +2080,7 @@ rachfaimid rachaimid
 rachfainnse rachainnse
 rachfamaid rachaimid
 rachfamuid rachaimid
+rachthasa rachfása
 rachthaí rachfaí
 raffle raifil
 raghad rachaidh mé
@@ -2152,6 +2167,7 @@ Samaria an tSamáir
 Samaría an tSamáir
 samhna Samhna
 sanall is anall
+saor-adhmaid saor adhmaid
 Satan Sátan
 Scainnimh Scainimh
 scaoilsiod scaoileadar
@@ -2303,6 +2319,13 @@ tchídhfeadh d'fheicfeadh
 tchídhfeas fheicfidh
 tchífinn d'fheicfinn
 tchím-se feicimse
+tcidh feiceann
+tcidh fheiceann
+tcidhtear feictear
+tcidhthear feictear
+tcí feiceann
+tcí fheiceann
+tcímse feicimse
 teach-a-phobail teach an phobail
 tearball t-eireaball
 Teheran Tehran
@@ -2476,6 +2499,7 @@ Zeús Séas
 Óirghiall Oiriall
 Óméith Ó Méith
 ág ag
+árd-chreadach ardchneadach
 ás agus
 ás as
 é'n é an

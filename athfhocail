@@ -205,6 +205,8 @@ Aontrum Aontroim
 Aontrum Aontroma
 Aontruma Aontroma
 Apaill Apalló
+Apaiseach Apáitseach
+Apaisigh Apáitsigh
 Apollo Apalló
 Apolló Apalló
 Apollónius Apallóinias
@@ -1876,6 +1878,7 @@ Nuadhat Nuad
 Nuaghaedhilg Nua-Ghaeilge
 Nuaghaedhilge Nua-Ghaeilge
 Nualáin Nualláin
+Nuat Nuad
 Néifin Néifinn
 Níséin Nícé
 Nóe Naoi
@@ -1980,6 +1983,8 @@ Phortó Phórtó
 Phoébus Féabas
 Phreisbitéarach Phreispitéireach
 Phreisbitéaraigh Phreispitéirigh
+Phrodasnach Phrotastúnach
+Phrodasnaigh Phrotastúnaigh
 Phroinsiascánach Phroinsiasach
 Phroinsiascánacha Phroinsiasacha
 Phroinsiascánaigh Phroinsiasaigh
@@ -2048,6 +2053,8 @@ Portó Pórtó
 Powerpoint PowerPoint
 Preisbitéarach Preispitéireach
 Preisbitéaraigh Preispitéirigh
+Prodasnach Protastúnach
+Prodasnaigh Protastúnaigh
 Proinnsias Proinsias
 Proinnsíos Proinsias
 Proinsiascánach Proinsiasach
@@ -2225,6 +2232,10 @@ SeanGhaeilge Sean-Ghaeilge
 Seana-Bhrighid Sean-Bhríd
 Seanghaedhilge Sean-Ghaeilge
 Seannaidh Seanaidh
+Seapáineach Seapánach
+Seapáineacha Seapánacha
+Seapáinigh Seapánaigh
+Seapáiní Seapánaí
 Searlus Séarlas
 Seathan Seán
 Seaán Seán
@@ -2326,6 +2337,10 @@ Shean-tiomna Shean-Tiomna
 SheanGhaedhilge Shean-Ghaeilge
 SheanGhaeilge Shean-Ghaeilge
 Sheana-Thaidhg Shean-Tadhg
+Sheapáineach Sheapánach
+Sheapáineacha Sheapánacha
+Sheapáinigh Sheapánaigh
+Sheapáiní Sheapánaí
 Sheaáin Sheáin
 Sheicshlovaic Sheicslóvaic
 Sheicshlovaice Sheicslóvaice
@@ -2412,6 +2427,10 @@ Sháidí Shádacha
 Sháidí Shádaigh
 Sháidí Shádaí
 Shéimidh Shéimí
+Shéimíteach Sheimíteach
+Shéimíteacha Sheimíteacha
+Shéimítigh Sheimítigh
+Shéimítí Sheimítí
 Shíghle Shíle
 Shímeon Shimeon
 Shímon Shíomón
@@ -2537,6 +2556,10 @@ Séaghainín Seáinín
 Séasar Caesar
 Séimidh Séimí
 Séimisín Séamaisín
+Séimíteach Seimíteach
+Séimíteacha Seimíteacha
+Séimítigh Seimítigh
+Séimítí Seimítí
 Síghle Síle
 Sígurd Sigurd
 Símeon Simeon
@@ -7723,6 +7746,8 @@ b'Aontachtaigh b'Aontachtaithe
 b'Aontraim b'Aontroim
 b'Aontruim b'Aontroim
 b'Aontrum b'Aontroim
+b'Apaiseach b'Apáitseach
+b'Apaisigh b'Apáitsigh
 b'Apáis b'Apáitsis
 b'Apáiseach b'Apáitseach
 b'Apáiseacha b'Apáitseacha
@@ -13480,6 +13505,8 @@ bPortláirge bPort Láirge
 bPortó bPórtó
 bPreisbitéarach bPreispitéireach
 bPreisbitéaraigh bPreispitéirigh
+bProdasnach bProtastúnach
+bProdasnaigh bProtastúnaigh
 bPrímh-Chiste bPríomh-Chiste
 bPrímh-Chistí bPríomh-Chistí
 bPríomh-Atúrnae bPríomh-Aturnae
@@ -48029,6 +48056,8 @@ d'Aontruim d'Aontroim
 d'Aontrum d'Aontroim
 d'Aontrum d'Aontroma
 d'Aontruma d'Aontroma
+d'Apaiseach d'Apáitseach
+d'Apaisigh d'Apáitsigh
 d'Apollo d'Apalló
 d'Apáis d'Apáitsis
 d'Apáise d'Apáitsise
@@ -55688,6 +55717,7 @@ d'uileloisctheach d'uileloiscthí
 d'uileloisctheach d'uileloscadh
 d'uileloiscthigh d'uileloiscthe
 d'uileloiscthigh d'uileloiscthí
+d'uilelosctha d'uileloiscthe
 d'uileáin d'oileáin
 d'uileán d'oileán
 d'uilinn d'uillinn
@@ -98573,6 +98603,8 @@ hAontruim hAontroim
 hAontrum hAontroim
 hAontrum hAontroma
 hAontruma hAontroma
+hApaiseach hApáitseach
+hApaisigh hApáitsigh
 hApollo hApalló
 hApáis hApáitsis
 hApáise hApáitsise
@@ -102774,6 +102806,7 @@ huileloisctheach huileloiscthí
 huileloisctheach huileloscadh
 huileloiscthigh huileloiscthe
 huileloiscthigh huileloiscthí
+huilelosctha huileloiscthe
 huileáin hoileáin
 huileán hoileán
 huilic huile go léir
@@ -110982,6 +111015,8 @@ m'Aontruim m'Aontroim
 m'Aontrum m'Aontroim
 m'Aontrum m'Aontroma
 m'Aontruma m'Aontroma
+m'Apaiseach m'Apáitseach
+m'Apaisigh m'Apáitsigh
 m'Apáis m'Apáitsis
 m'Apáise m'Apáitsise
 m'Arabais m'Araibis
@@ -115489,6 +115524,7 @@ m'uileloisctheach m'uileloiscthí
 m'uileloisctheach m'uileloscadh
 m'uileloiscthigh m'uileloiscthe
 m'uileloiscthigh m'uileloiscthí
+m'uilelosctha m'uileloiscthe
 m'uileáin m'oileáin
 m'uileán m'oileán
 m'uilinn m'uillinn
@@ -131625,6 +131661,7 @@ n-uileloisctheach n-uileloiscthí
 n-uileloisctheach n-uileloscadh
 n-uileloiscthigh n-uileloiscthe
 n-uileloiscthigh n-uileloiscthí
+n-uilelosctha n-uileloiscthe
 n-uileáin n-oileáin
 n-uileán n-oileán
 n-uilinn n-uillinn
@@ -132936,6 +132973,8 @@ nAontruim nAontroim
 nAontrum nAontroim
 nAontrum nAontroma
 nAontruma nAontroma
+nApaiseach nApáitseach
+nApaisigh nApáitsigh
 nApáis nApáitsis
 nApáise nApáitsise
 nArabais nAraibis
@@ -140371,6 +140410,7 @@ núa nua
 núadh nua
 núas anuas
 núchtain nuacht
+núicléigh núicléach
 núidh nua
 núidhe nua
 núidheasach núíosach
@@ -165393,6 +165433,7 @@ tAontachtach tAontachtaí
 tAontraim tAontroim
 tAontruim tAontroim
 tAontrum tAontroim
+tApaiseach tApáitseach
 tApstol tAspal
 tArd-Easpog tArd-Easpag
 tArdAighne tArd-Aighne
@@ -178114,6 +178155,7 @@ uileloisctheach uileloiscthí
 uileloisctheach uileloscadh
 uileloiscthigh uileloiscthe
 uileloiscthigh uileloiscthí
+uilelosctha uileloiscthe
 uileoileáin uile-oileáin
 uileÉireann uile-Éireann
 uileáin oileáin

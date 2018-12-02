@@ -10735,6 +10735,8 @@ bhrúinn/EU
 bhua/U
 bhuaca/U
 bhuacainn/EU
+Bhuaic-Ghradaim
+Bhuaic-Ghradam
 bhuaile/U
 bhuailinn/EU
 bhuaine/U
@@ -13699,6 +13701,8 @@ buaibheacha/S
 buaibhigh/S
 buaibhí/S
 buaic/US
+Buaic-Ghradaim
+Buaic-Ghradam
 buaice/US
 buaiceanna/US
 buaiceas/US
@@ -13979,6 +13983,8 @@ buirlisce/US
 buiséad/US
 buiséadach/S
 buiséadacha/S
+buiséadacht/US
+buiséadachta/US
 buiséadaigh/SU
 buiséadaithe/SU
 buiséadaí/S
@@ -34686,6 +34692,7 @@ dTongais
 dTongaise
 dTrapach
 dTrapaigh
+dTrasalváin
 dTraí
 dTraígh
 dTraíoch
@@ -39865,6 +39872,10 @@ fhrith-Ghiúdachais/U
 fhrith-Ghiúdachas/U
 fhrith-Sheimíteachais/U
 fhrith-Sheimíteachas/U
+fhrith-Éireannach
+fhrith-Éireannacha
+fhrith-Éireannaigh
+fhrith-Éireannaí
 fhrithbheartaí/U
 fhrithbheartaínn/FU
 fhrithbhuaile/U
@@ -39961,7 +39972,9 @@ fhíní/U
 fhínínn/FU
 fhíor-Dhia/U
 fhíor-Dhé/U
+fhíor-Ghaeil/U
 fhíor-Ghaeilge/U
+fhíor-Ghael/U
 fhíor-Ghaelach/B
 fhíor-Ghaelacha/B
 fhíor-Ghaelaigh
@@ -40571,6 +40584,9 @@ fiúntais/MDUS
 fiúntas/MDBUS
 fiúntaí/BS
 fiús/MDBUS
+fiúsailéara/MDUS
+fiúsailéir/MDBUS
+fiúsailéirí/MDBUS
 fiúsanna/MDBUS
 flagúin/US
 flagún/US
@@ -42444,6 +42460,10 @@ frith-inimircigh/S
 frith-inimircí/S
 frith-Sheimíteachais/U
 frith-Sheimíteachas/U
+frith-Éireannach
+frith-Éireannacha
+frith-Éireannaigh
+frith-Éireannaí
 frithaerach/S
 frithaeracha/S
 frithaeraigh/S
@@ -43903,6 +43923,8 @@ fíona/MDUS
 fíonchaoire/MDUS
 fíonchaor/MDBUS
 fíonchaora/MDBUS
+fíoncheannaithe/MDBUS
+fíoncheannaí/MDBUS
 fíonghloine/MDBUS
 fíonghloiní/MDBUS
 fíonghoirt/MDBUS
@@ -43920,7 +43942,9 @@ fíor-am/MDBUS
 fíor-ama/BSMDU
 fíor-Dhia/U
 fíor-Dhé/U
+fíor-Ghaeil/U
 fíor-Ghaeilge/U
+fíor-Ghael/U
 fíor-Ghaelach/B
 fíor-Ghaelacha/B
 fíor-Ghaelaigh
@@ -51878,6 +51902,8 @@ iar-nua-aoiseachas/HMDBUT
 iar-nua-aoisigh
 iar-nua-aoisithe/HMDBU
 iar-nua-aoisí/HBMDUT
+iar-Phríomh-Aire/HU
+iar-Phríomh-Airí/HU
 iar-phríomhfheidhmeannach/HMDBUT
 iar-phríomhfheidhmeannaigh/HMDBU
 iar-phríomhoide/HMDBUT
@@ -51888,6 +51914,8 @@ iar-Shóivéadach/HB
 iar-Shóivéadacha/B
 iar-Shóivéadaigh
 iar-Shóivéadaí/B
+iar-Thaoiseach/HU
+iar-Thaoisigh/HU
 iar-tharraingt/HMDBU
 iar-tharraingthe/HMDU
 iar-Uachtaráin/HU
@@ -52405,6 +52433,8 @@ idiraisnéiseach/HB
 idiraisnéiseacha/B
 idiraisnéisigh
 idiraisnéisí/HBMDU
+idirbhainc/HMDBU
+idirbhanc/HMDBUT
 idirbhealach/HMDBUT
 idirbhealaigh/HMDU
 idirbhealaí/HMDBU
@@ -62738,6 +62768,8 @@ mBrúiné
 mBuachaill
 mBuachaillí
 mBuachalla
+mBuaic-Ghradaim
+mBuaic-Ghradam
 mBuan-Orduithe
 mBuan-Ordú
 mBuan-Óglach
@@ -63559,6 +63591,8 @@ meánchriosaigh/S
 meánchriosaí/S
 meánchéatadáin/S
 meánchéatadán/S
+meánchúrsa/S
+meánchúrsaí/S
 meánfhad/S
 meánfhada/S
 meánfhaid/S
@@ -92553,6 +92587,8 @@ sútha/S
 sútáin/ST
 sútán/S
 t-iar-Aire
+t-iar-Phríomh-Aire
+t-iar-Thaoiseach
 t-iar-Uachtarán
 t-léine
 t-léinte
@@ -96227,6 +96263,7 @@ trasalpach/S
 trasalpacha/S
 trasalpaigh/S
 trasalpaí/S
+Trasalváin/S
 trasatlantach/S
 trasatlantacha/S
 trasatlantaigh/S
@@ -96235,6 +96272,7 @@ trasbhéarlaigh/US
 trasbhéarlaithe/SU
 trasbhéarlaím/USC
 trasbhéarlú/US
+traschathrach/S
 traschuir/US
 traschuirim/USA
 traschultúrtha/S

@@ -33,6 +33,7 @@ Arramara
 Arsenal
 Atlético
 Audacity
+Audi
 Aviva
 Baboró
 Bacardi
@@ -40,12 +41,15 @@ Barnardos
 Bayer
 Beamish
 Bebo
+Benetton
+Berria
 Bewley's
 Bioniche
 Bisto
 Blackboard
 Blockbuster
 Blogger
+Bloomsbury
 Bluetooth
 Boeing
 Bose
@@ -81,10 +85,13 @@ Citywest
 Clarendon
 Clarion
 Claris
+Coca-Cola
+CoderDojo
 Colgate
 Comcast
 ComReg
 Concern
+Concorde
 Conoco
 Corning
 Cortina
@@ -92,6 +99,7 @@ Costco
 Crosscare
 Cybergael
 Daimler
+Dairygold
 Damer
 Debenhams
 Debian
@@ -178,6 +186,7 @@ Fundit
 Fíbín
 G-Spota
 Gabbana
+Gaelchló
 GaelGÁIRÍ
 Gaeloiliúint
 Gaelport
@@ -224,6 +233,7 @@ IKEA
 iMac
 iMovie
 Imram
+Indaver
 Indecon
 Independent
 Indo
@@ -239,6 +249,7 @@ iPad
 iPhone
 iPod
 Ipsos
+Ironman
 iTunes
 Jabber
 Java
@@ -262,11 +273,14 @@ Kodak
 Kroger
 Lagan
 Lakers
+Lamborghini
 Largo
 LaTeX
 Lego
+Leisureland
 LibreOffice
 Lidl
+Lilliput
 Lingus
 LinkedIn
 Linspire
@@ -302,6 +316,7 @@ Meteor
 Meyrick
 Michelin
 Microsoft
+Minecraft
 Mitsubishi
 Mobil
 Monde
@@ -377,6 +392,8 @@ Prudential
 Pulse
 Python
 Quicktime
+Quizlet
+Quora
 RaboDirect
 Radisson
 Randox
@@ -415,6 +432,7 @@ Sephora
 Shailearna
 Shelbourne
 Shell
+Sháirséal
 Siemens
 Siri
 Skillnets
@@ -477,6 +495,7 @@ TrueType
 Tumblr
 Twibbon
 Twitter
+Tylenol
 Uber
 Ubuntu
 Unicode
@@ -510,6 +529,7 @@ Wikimedia
 Wiley
 Windows
 WinGléacht
+WordNet
 WordPress
 Xanga
 Xbox
@@ -523,5 +543,6 @@ YouTube
 Zara
 Zebre
 Zumba
+Zyban
 Ériu
 Óg-Ógras

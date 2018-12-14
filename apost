@@ -118,7 +118,9 @@ d'admhóch' d'admhódh
 d'áiteóch' d'áiteodh
 d'aithneóch' d'aithneodh
 d'ar' dar
+d'ár' dár
 darab' darb
+d'arbh' darbh
 d'árbh' darbh
 darbh' darbh
 dárbh' darbh
@@ -235,6 +237,7 @@ fhich' fhiche
 fhulaingeóch' fhulaingeodh
 fich' fiche
 'fios a fhios
+fóm' faoi mo
 fosg' foscadh
 'g ag
 'ga á
@@ -304,6 +307,7 @@ in-ao' in aon
 'innse a insint
 'innseir ionsar
 insa' sa
+'iomorro iomorra
 ionns' ionsar
 ionsóch' ionsódh
 it' i do
@@ -314,6 +318,8 @@ laghdóch' laghdódh
 lagóch' lagódh
 lasmu' lasmuigh
 'le Fhéile
+le' lena
+lé' lena
 'leanbh a leanbh
 led' le do
 leighseóch' leigheasfadh
@@ -323,6 +329,8 @@ leighseóch' leigheasfadh
 lem' le mo
 lém' le mo
 len' lena
+ler' lenar
+lér' lenar
 let' le do
 'Liam Liam
 'luighe a luí
@@ -372,6 +380,7 @@ nacharbh' nárbh
 n-admhóch' n-admhódh
 'n-aghaidh in aghaidh
 'naice in aice
+'náid ná
 'n-áirde in airde
 'náirde in airde
 n-aireóch' n-aireodh
@@ -385,6 +394,7 @@ n-ao' aon
 'n-ar inar
 'nár inár
 'n-ár inár
+ná'r' nár
 nárbh' nárbh
 n-atharóch' n-athródh
 'nbhar in bhur
@@ -463,6 +473,7 @@ n-osglóch' n-osclódh
 'Nuair Nuair
 'nuas anuas
 'nuraidh anuraidh
+ó' óna
 'od do do
 od' ó do
 ód' ó do
@@ -477,6 +488,7 @@ oidhch' oíche
 om' ó mo
 óm' ó mo
 'on don
+ór' ónar
 oscaileóch' osclódh
 'ot do do
 ót' ó do
@@ -488,6 +500,8 @@ ráineóch' ráineodh
 'rán arán
 'r'd an rud
 're re
+re' lena
+ré' lena
 réidhteóch' réiteodh
 'réir aréir
 'réis tar éis

@@ -3312,6 +3312,7 @@ an-bhoig
 an-bhoige/B
 an-bhorradh/HMDBUT
 an-bhorrtha/HMDU
+an-bhreoite/HB
 an-bhreá/HB
 an-bhród/HMDBUT
 an-bhródúil
@@ -3715,8 +3716,17 @@ an-mhealltach/HB
 an-mhealltacha/B
 an-mhealltaigh
 an-mhealltaí/B
+an-mhear/HB
+an-mheara/B
 an-mheas
+an-mhilis/HB
+an-mhillteach/HB
+an-mhillteacha/B
+an-mhilltigh
+an-mhilltí/B
 an-mhinic/HB
+an-mhion/HB
+an-mhire/B
 an-mhisneach/HMDBUT
 an-mhisnigh/HMDU
 an-mhoch/HB
@@ -3851,6 +3861,10 @@ an-spóirt/HMDU
 an-spórt/HMDBUT
 an-sraith
 an-stuama/HB
+an-suarach/HB
+an-suaracha/B
+an-suaraigh
+an-suaraí/B
 an-suim
 an-suimiúil
 an-sult
@@ -15685,6 +15699,8 @@ cairbíd/US
 cairbíde/US
 cairbín/US
 cairbíní/US
+cairche/US
+cairchí/US
 Cairde/S
 cairde/US
 cairdeach/S
@@ -17506,6 +17522,7 @@ ceannrópaí/US
 ceannscríbhinn/US
 ceannscríbhinne/US
 ceannscríbhinní/US
+ceannsláine/US
 ceannslí/US
 ceannsmacht/US
 ceannsmachta/US
@@ -30887,6 +30904,7 @@ dea-lámhaigh/S
 dea-lámhaí/S
 dea-lárach/US
 dea-mhac/US
+dea-mhaise/US
 dea-mhaisithe/S
 dea-mhaith/S
 dea-mhargadh/US
@@ -32953,6 +32971,7 @@ do-athraitheach/US
 do-athraitheacht/US
 do-athraitheachta/US
 do-athraithigh/US
+do-bhainte/S
 do-bhlasta/S
 do-bhraite/S
 do-bhraiteacht/US
@@ -33365,6 +33384,7 @@ domhanleithead/US
 domhanleithid/US
 domhantarraingt/US
 domhantarraingthe/US
+domheallta/S
 domheanma/US
 domheanman/US
 domheanmnach/S
@@ -33962,6 +33982,7 @@ droch-chleachtas/US
 droch-chleachtaí/US
 droch-chluiche/US
 droch-chluichí/US
+droch-chló/US
 droch-chlú/US
 droch-chodladh/US
 droch-chodlata/US
@@ -34004,6 +34025,8 @@ droch-chéille/US
 droch-chóir/US
 droch-chóra/US
 droch-Ghaeilge/U
+droch-ádh/US
+droch-áidh/US
 drochaigeanta/S
 drochaighneas/US
 drochaighnis/US
@@ -34039,6 +34062,10 @@ drochbharúlacha/US
 drochbhean/US
 drochbheart/US
 drochbhearta/US
+drochbheartach/S
+drochbheartacha/S
+drochbheartaigh/S
+drochbheartaí/S
 drochbheatha/US
 drochbheathach/S
 drochbheathacha/S
@@ -34077,9 +34104,12 @@ drochbhóithre/US
 drochbhóthair/US
 drochbhóthar/US
 drochdhaoine/US
+drochdhath/US
+drochdhatha/US
 drochdhathach/S
 drochdhathacha/S
 drochdhathaigh/S
+drochdhathanna/US
 drochdhathaí/S
 drochdheireadh/US
 drochdheiridh/US
@@ -34221,6 +34251,9 @@ drochshláintí/S
 drochshlí/US
 drochshnúúil/S
 drochshnúúla/S
+drochshíne/US
+drochshíon/US
+drochshíonta/US
 drochshúil/US
 drochshúile/US
 drochshúl/US
@@ -46128,6 +46161,7 @@ geallsealbhóra/US
 geallta/SU
 gealltanais/US
 gealltanas/US
+gealltaí/US
 gealltáin/US
 gealltán/US
 gealltóir/US
@@ -50268,6 +50302,10 @@ géarleantóra/US
 géarleanúint/US
 géarleanúintí/US
 géarleanúna/US
+géarleanúnach/S
+géarleanúnacha/S
+géarleanúnaigh/S
+géarleanúnaí/S
 géarmhíochaine/US
 géarnimh/US
 géarnimhe/US
@@ -90582,6 +90620,8 @@ strustuirsiú
 strustuirsí
 strustuirsím/C
 strustuirsínn/F
+strusúil
+strusúla
 strácáil
 strácála
 strácálaithe

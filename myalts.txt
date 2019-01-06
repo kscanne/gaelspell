@@ -197,7 +197,8 @@ Apolló Apalló
 Apollónius Apallóinias
 Arabia an Araib
 Arabia na hAraibe
-Arastotail Arastatal
+Arastotail Arastatail
+Arastotal Arastatail
 arca arsa
 Archelaus Archalás
 Ardmacha Ard Mhacha
@@ -565,6 +566,7 @@ caithid caitheann
 caithid caitheann siad
 caithidh caithfidh
 Caitilín Caitlín
+Caitriona Caitríona
 Callain Callainn
 Calmfear Calmfhear
 Caoimhghein Caoimhín
@@ -781,6 +783,7 @@ Cumhail Cumhaill
 Cumhthaigh Cumhaigh
 curtí chuirtí
 Cáilbhireach Calvaire
+Cáitlín Caitlín
 cé's cé is
 céad-luaidhtear céadluaite
 céadadhbhar chéad ábhar
@@ -811,6 +814,7 @@ côdhíreach ingearach
 Cúailnge Cuailgne
 Cúchulaind Cú Chulainn
 cúig-déag cúig déag
+cúing cúng
 Cúmhaill Cumhaill
 Cúnó Kuno
 d'abhar d'ábhar
@@ -837,6 +841,7 @@ d'chroidhe do chroí
 d'chroídhe do chroí
 d'chuid do chuid
 d'eirig d'éirigh
+d'en den
 d'Eóin d'Eoin
 d'fhaghail a fháil
 d'fhaghbhail a fháil
@@ -1045,6 +1050,8 @@ dobheirir a thugann tú
 dobheirir tugann tú
 dobheurfas a bhéarfaidh
 dobhthasan dóibhsean
+dobhádar a bhíodar
+dobhádar bhíodar
 dobhéar tabharfaidh mé
 dobhéarad tabharfaidh mé
 dobhéaradsa tabharfaidh mise
@@ -1229,6 +1236,7 @@ dtabharfad dtabharfaidh mé
 dtabharfadsa dtabharfaidh mise
 dtabharfair dtabharfaidh tú
 dtagad dtiocfaidh mé
+dtaobhne dtaobhna
 dtarlaigh tharla
 dteachabhar ndeachaigh sibh
 dteachadar ndeachamar
@@ -1267,6 +1275,7 @@ dtéighead rachaidh mé
 dtéigheadsa rachaidh mise
 dtí'na dtí a
 duairt dúirt
+dubhairt-sé-dábhairt-sé dúirse dáirse
 Dubhgáin Dúgáin
 dubhrabhar dúirt sibh
 dubhraighis dúirt tú
@@ -1296,6 +1305,7 @@ déinse déansa
 déintí dhéantaí
 Déisibh Déise
 díola-ar-cáirde díol ar cairde
+díon-uisce díonta ar uisce
 díthcéillidhe díth céille
 díthese dise
 dó-deug dó dhéag
@@ -1308,6 +1318,7 @@ dúbhras dúirt mé
 dúbhraís dúirt tú
 Dúcharaidh Dúchoraidh
 dúinnse dúinne
+dúirtsé-dáirtsé dúirse dáirse
 Dúnchaoin Dún Chaoin
 Dúndealgain Dún Dealgan
 Dúndealgan Dún Dealgan
@@ -1324,8 +1335,10 @@ Eachdhruim Eachroim
 Eachdroma Eachroma
 Eachdruim Eachroim
 Eadair Éadair
+Eanna Éanna
 Eannraoi Annraoi
 Edoim Eadóm
+Eibhlin Eibhlín
 Eibhlíse Eilíse
 Eilis Eilís
 Eirne Éirne
@@ -1347,6 +1360,7 @@ Eóinín Eoinín
 facadar bhfacadar
 facathas fhacthas
 Fachairt Fochaird
+fadheoigh faoi dheoidh
 faghbhaim bhfaighim
 faghbhaim faighim
 fah fá
@@ -1363,6 +1377,7 @@ fearaibh fir
 feicir feiceann tú
 Feidhlime Féilim
 Feilimidh Féilimí
+Feirtse Feirste
 fem faoi mo
 fhacabhar fhaca sibh
 fhacais fhaca tú
@@ -1377,6 +1392,8 @@ fhaghaid fhaigheann siad
 fhaghair fhaigheann tú
 fhaiceann fheiceann
 Fhaill-Móir Fhaill Móir
+fhanaid fhanann
+fhanaid fhanann siad
 fheaca fhaca
 fheacamair fhacamar
 fheacasa fhaca mé
@@ -1398,9 +1415,15 @@ Fhlannchaidhe Fhlannchaidh
 Fhrighill Fhrighil
 fhuaras bhfuair mé
 fhuighir fhaigheann tú
+fhágaid fhágann
+fhágaid fhágann siad
 fhágaidh fhág
 fhághaid fhaigheann siad
 Fháilghe Fhailí
+fhásaid fhásann
+fhásaid fhásann siad
+fhéadaid fhéadann
+fhéadaid fhéadann siad
 fhéarr fhearr
 Fhéidhlim Fhéilim
 Fhéidhlimidh Fhéilimí
@@ -1410,7 +1433,10 @@ fiain fiáin
 fiaine fiáine
 Fiana Fianna
 Fiannaidhe Fiannaí
+fillid filleann
+fillid filleann siad
 Finghin Finín
+finna fionna
 Fionnghuala Fionnuala
 Fionntrágha Fionntrá
 fiorbheagan fíorbheagán
@@ -1421,6 +1447,7 @@ Fodla Fódla
 foinse-oscailte foinse oscailte
 frith bhfuarthas
 frith fuarthas
+frithGhaeilge frith-Ghaeilge
 fríth bhfuarthas
 fríth fuarthas
 fuaireabhar fuair sibh
@@ -1437,6 +1464,8 @@ fuaras fuair mé
 fuilid bhfuil siad
 fá'm faoi mo
 fád faoi do
+fágaid fágann
+fágaid fágann siad
 fágfí fhágfaí
 fághaid faigheann siad
 féadair féadfaidh tú
@@ -1469,7 +1498,10 @@ gaodal Gael
 gaodalach Gaelach
 gaodhal Gael
 gaoith gaoth
+Garumna Garmna
 gcaithfam gcaithfimid
+gcaithid gcaitheann
+gcaithid gcaitheann siad
 gCarmain Garman
 gCeann-trágha gCeann Trá
 gciad gcéad
@@ -1483,6 +1515,7 @@ gcualaís chuala
 gcualthas chualathas
 gcud gcuid
 gcuirfam gcuirfimid
+gcumhra cumhra
 gcídhfeá bhfeicfeá
 gcídhfimís bhfeicfimis
 gcífeadh bhfeicfeadh
@@ -1527,10 +1560,16 @@ ghirsigh ghirseach
 Ghiési Ghéichizí
 ghlacaid ghlacann
 ghlacaid ghlacann siad
+ghlaodhaid a ghlaonn
+ghlaodhaid a ghlaonn siad
+ghlaodhaid ghlaonn
+ghlaodhaid ghlaonn siad
 ghlaodhan ghlaonn
 ghlaos ghlaoigh mé
 Ghleanna-an-Uaignis Ghleann an Uaignis
 ghloin ghlain
+ghluaisid ghluaiseann
+ghluaisid ghluaiseann siad
 ghnidh a dhéanann
 ghnidh dhéanann
 ghnidhimse dhéanaimse
@@ -1558,6 +1597,10 @@ gníonn déanann
 Gobnuit Gobnait
 godtí go dtí
 goidé'n cad é an
+goillid goilleann
+goillid goilleann siad
+Gorumna Garmna
+Grainne Gráinne
 Gregóir Gréagóir
 Griobhtha Gríofa
 guidhimse guímse
@@ -1596,6 +1639,7 @@ haonláthair haon láthair
 hApollo hApalló
 hathnuaidheadh athnuadh
 heachtaibh hachtanna
+hEallaithe hÉallaithe
 Heanraigh Anraí
 heascaineadh eascainíodh
 Hebron Heabrón
@@ -1640,6 +1684,7 @@ hÉalaighthe hÉalaithe
 hÉigceartaigh hÉigeartaigh
 hÉil Héil
 hÉilidhe hÉilí
+hÉithir hEithir
 héinní haon ní
 Hélen Héilin
 Hélí Héilí
@@ -1664,6 +1709,7 @@ Ierúsaleim Iarúsailéim
 Ierúsalem Iarúsailéim
 Iesabel Ízeibil
 Ietró Iatró
+igcionn i gceann
 im'dhiaidh i mo dhiaidh
 imbliadhna i mbliana
 in-aer in aer
@@ -1865,10 +1911,13 @@ mbeidhinn mbeinn
 mbeidhinnse mbeinnse
 mbeidhir mbeidh tú
 mbeidhirse mbeidh tusa
+mbeidhmíd mbeimid
+mbeidhtheá mbeifeá
 mbeimísne mbeimisne
 mbein mbeinn
 mbeir mbeidh tú
 mbeirse mbeidh tusa
+mbeithfeá mbeifeá
 mBetlehem mBeithil
 mbfhéidir mb'fhéidir
 mbiad mbeidh mé
@@ -1925,6 +1974,7 @@ mhaíos mhaígh mé
 mhaóidhios a mhaíonn
 mheasaid mheasann
 mheasaid mheasann siad
+Mheon-Oíche Mheán Oíche
 mheánoirthear Mheánoirthear
 mhich mhic
 Mhichil Mhíchíl
@@ -1961,6 +2011,7 @@ mé'r mé ar
 Méadhbh Méabh
 Méadhbha Méabha
 Méibh Méabh
+mí-amha míáú
 Míodhcháin Míocháin
 Míodhchánach Míochánach
 mór-mór mór mór
@@ -2428,6 +2479,8 @@ t-uisge-fé-thalamh t-uisce faoi thalamh
 t-éan-áit t-aon áit
 t-éinní t-aon ní
 t-éirí-as t-éirí as
+ta'n atá an
+ta'n tá an
 tabharfad tabharfaidh mé
 tabharfadsa tabharfaidh mise
 tabharfaí thabharfaí
@@ -2491,6 +2544,7 @@ Thior-Chonall Thír Chonaill
 Thir-Chonall Thír Chonaill
 Thir-Eoghan Thír Eoghain
 Thirzah Thirzeá
+thiubhra thabharfaidh
 thiubhrad thabharfaidh mé
 thiubhrainnse thabharfainnse
 thiubhrair thabharfaidh tú
@@ -2499,6 +2553,8 @@ Thobias Thóibias
 thochaisíos thochais mé
 thoir-theas thoir theas
 Thomais Thomáis
+throidid throideann
+throidid throideann siad
 thruagh-sa thruasa
 Thráighlí Thrá Lí
 thréithribh thréithe
@@ -2507,6 +2563,10 @@ thugabhar thug sibh
 thugaid thugann
 thugas thug mé
 thugthar thugtar
+thuillid thuilleann
+thuillid thuilleann siad
+thuitid thiteann
+thuitid thiteann siad
 thuitimsa thitimse
 thuitios thiteann
 thán'adar thángadar
@@ -2519,6 +2579,8 @@ thángabhar tháinig sibh
 thángas tháinig mé
 thángaís tháinig tú
 théas théann
+théidhid théann
+théidhid théann siad
 théidhim-se théimse
 théigheas théann
 théighir théann tú
@@ -2539,6 +2601,7 @@ tionóilid thionóladar
 Tir-Chonall Tír Chonaill
 Tir-Eoghan Tír Eoghain
 Tirzah Tirzeá
+tiubhra tabharfaidh
 tiubhrad tabharfaidh mé
 Tobias Tóibias
 Toirdhéalbhach Toirdhealbhach
@@ -2578,6 +2641,7 @@ tuitfeadh dtitfeadh
 tuitfeadh thitfeadh
 tuitthe tite
 tÁird-Rí tArdrí
+tá'n tá an
 táid tá siad
 támar táimid
 támuidinne atáimidne
@@ -2598,6 +2662,7 @@ Tíomóin Díomáin
 Tír-na-nÓg Tír na nÓg
 tógaídh tógaigí
 tógaíg tógaigí
+tógbhas tógann
 Tórna Torna
 tú'n tú an
 uaidhsan uaidhsean

@@ -41,6 +41,7 @@ Barnardos
 Bayer
 Beamish
 Bebo
+Belltable
 Benetton
 Berria
 Bewley's
@@ -122,12 +123,14 @@ Dow
 Drive
 Drivetime
 Drupal
+Dubhlann
 Dunnes
 Duolingo
 Easons
 EastEnders
 EasyReader
 eBay
+Ecofin
 Edge
 Edgecast
 eFlow
@@ -176,6 +179,7 @@ Formula
 Foróige
 Foxconn
 Frappr
+Freeview
 Frontex
 Frontline
 Fuji

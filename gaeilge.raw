@@ -3485,6 +3485,7 @@ an-chumasach/HB
 an-chumasacha/B
 an-chumasaigh
 an-chumasaí/B
+an-chumha/HMDBUT
 an-chumhachtach/HB
 an-chumhachtacha/B
 an-chumhachtaigh
@@ -3692,6 +3693,10 @@ an-ghlana/B
 an-ghleoite/HB
 an-ghlic/HB
 an-ghlice/B
+an-ghliondrach/HB
+an-ghliondracha/B
+an-ghliondraigh
+an-ghliondraí/B
 an-ghlóir/HMDU
 an-ghlór/HMDBUT
 an-ghlórach/HB
@@ -3779,6 +3784,8 @@ an-lúcháire/HMDU
 an-mhaille/B
 an-mhaith/HB
 an-mhaithe/B
+an-mhaitheas/HMDBU
+an-mhaitheasa/HMDU
 an-mhall/HB
 an-mhalla/B
 an-mhealltach/HB
@@ -3919,6 +3926,8 @@ an-scéil/HMDU
 an-sean/HB
 an-seans
 an-simplí
+an-siúil/HMDU
+an-siúl/HMDBUT
 an-slachtmhair
 an-slachtmhaire/B
 an-slachtmhar/HB
@@ -5318,6 +5327,8 @@ ardaitheoirí/HMDBU
 ardaitheora/HMDU
 ardaithigh
 ardaithreacha/HMDBU
+ardaithreachais/HMDU
+ardaithreachas/HMDBUT
 ardaithí/B
 ardas/HMDBUT
 ardathair/HMDBUT
@@ -5335,12 +5346,16 @@ ardbhainistíocht/HMDBU
 ardbhainistíochta/HMDU
 ardbhrú/HMDBUT
 ardbhrúnna/HMDBU
+ardbhuachaill/HMDBUT
+ardbhuachalla/HMDU
 ardchaighdeáin/HMDU
 ardchaighdeán/HMDBUT
 ardchaighdeánach/HB
 ardchaighdeánacha/B
 ardchaighdeánaigh
 ardchaighdeánaí/B
+ardchaint/HMDBU
+ardchainte/HMDU
 ardchathair/HMDBU
 ardchathaoir/HMDBU
 ardchathaoireach/HMDU
@@ -5446,9 +5461,11 @@ ardfhlaith/HMDBUT
 ardfhlaitheas/HMDBUT
 ardfhlaithis/HMDU
 ardfhlatha/HMDBU
+ardfhoinn/HMDU
 ardfhoireann/HMDBU
 ardfhoirne/HMDBU
 ardfhola/HMDU
+ardfhonn/HMDBUT
 ardfhorbartha/HB
 ardfhuil/HMDBU
 ardfhuinneamh/HMDBUT
@@ -5610,6 +5627,8 @@ ardsocruithe/HMDBU
 ardsocrú/HMDBUT
 ardspéis/HMDBU
 ardspéise/HMDU
+ardspóirt/HMDU
+ardspórt/HMDBUT
 ardstiúrthóir/HMDBUT
 ardstiúrthóirí/HMDBU
 ardstiúrthóra/HMDU
@@ -30867,6 +30886,8 @@ daorghalar/US
 daormhná/US
 daorobair/US
 daoroibre/US
+daorsclábhaithe/US
+daorsclábhaí/US
 daorsmacht/US
 daorsmachta/US
 daorstáit/US
@@ -39023,9 +39044,6 @@ falcanta
 falcóg/MDBUS
 falcóga/MDBUS
 falcóige/MDUS
-fallach/BS
-fallacha/BS
-fallaigh/S
 fallaing/MDBUS
 fallainge/MDUS
 fallaingeacha/MDBUS
@@ -39033,7 +39051,6 @@ fallaingigh/US
 fallaingithe/MDUSB
 fallaingiú/MDBUS
 fallaingím/USC
-fallaí/BS
 falláis/MDBUS
 fallás/MDBUS
 fallásach/BS
@@ -43969,6 +43986,8 @@ féil/MDUS
 féile/BSMDU
 Féile/S
 féileacáin/MDBUS
+féileacáinín/MDBUS
+féileacáiníní/MDBUS
 féileacán/MDBUS
 féileadh/MDBUS
 féilidh/MDUS
@@ -60326,6 +60345,7 @@ léaspartaíochta
 léaspáin
 léaspán
 léasta
+léastaí
 léasóir
 léasóirí
 léasóra
@@ -62796,6 +62816,8 @@ marbhintinní/S
 marbhlainne/S
 marbhlann/S
 marbhlanna/S
+marbhlao/S
+marbhlaonna/S
 marbhleathair/S
 marbhleathar/S
 marbhna/S
@@ -69536,6 +69558,7 @@ neamhchumhachtach
 neamhchumhachtacha
 neamhchumhachtaigh
 neamhchumhachtaí
+neamhchumtha
 neamhchustaim
 neamhchustam
 neamhchuí
@@ -84638,6 +84661,9 @@ seanbhailéad/S
 seanbhailéid/ST
 seanbhairéad/S
 seanbhairéid/ST
+seanbhalcais/ST
+seanbhalcaise/S
+seanbhalcaisí/S
 seanbhall/S
 seanbhalla/ST
 seanbhallaí/S
@@ -84742,6 +84768,8 @@ seancheannaire/ST
 seancheannairí/S
 seancheantair/ST
 seancheantar/S
+seancheardaithe/S
+seancheardaí/ST
 seancheoil/ST
 seancheol/S
 seancheolta/S
@@ -84756,6 +84784,8 @@ seanchleasa/S
 seanchlis/ST
 seanchlog/S
 seanchloig/ST
+seanchloigeann/S
+seanchloiginn/ST
 seanchluiche/ST
 seanchluichí/S
 seanchláir/ST
@@ -84765,6 +84795,9 @@ seanchláirsí/S
 seanchlár/S
 seanchló/ST
 seanchlónna/S
+seanchnáimhe/S
+seanchnámh/ST
+seanchnámha/S
 seanchodladh/S
 seanchodlata/ST
 seanchoill/ST
@@ -91112,6 +91145,10 @@ strampálaí
 stranfhiacail
 stranfhiacaile
 stranfhiacla
+stranfhiaclach
+stranfhiaclacha
+stranfhiaclaigh
+stranfhiaclaí
 strangláil
 stranglála
 straois
@@ -97337,6 +97374,8 @@ treampánach/S
 treampánacha/S
 treampánaigh/S
 treampánaí/S
+treantáin/US
+treantán/US
 treapall
 treas/US
 treasa/US

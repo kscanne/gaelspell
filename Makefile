@@ -396,7 +396,7 @@ README_ga-Latg-IE.txt: README_ga_IE.txt
 # Summer 2008: now creates oxt installable extension for OOo also
 # Back to rebuilding hyphenation.  Used to just grab from:	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/hyph_ga_IE.zip
 #	wget http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/thes_ga_IE_v2.zip
-mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf
+mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff manifest.json
 	rm -f thes.txt hyph_ga_IE.zip ga_IE.zip
 	rm -Rf dictionaries
 	(cd ${HOME}/gaeilge/fleiscin/fleiscin; make hyph_ga_IE.zip)
@@ -414,7 +414,7 @@ mydist: ga_IE.dic README_ga_IE.txt ga_IE.aff install.rdf
 	cp ga_IE.dic dictionaries/ga.dic
 	cp ga_IE.aff dictionaries/ga.aff
 	cp README_ga_IE.txt dictionaries
-	zip -r ga-IE-dictionary.xpi dictionaries install.rdf
+	zip -r ga-IE-dictionary.xpi dictionaries manifest.json
 	rm -Rf hyph.txt spell.txt thes.txt META-INF dictionaries
 	mkdir META-INF
 	cp manifest.xml META-INF

@@ -262,7 +262,6 @@ iPlayer
 iPod
 Ipsos
 Irexit
-Irish-medium
 Ironman
 iTunes
 Jabber

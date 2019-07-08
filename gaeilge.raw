@@ -1,6 +1,8 @@
 a
 ab/HMDBUT
 aba/HMDU
+ababú
+ababúna
 abacais/HMDBU
 abacas/HMDBUT
 abacht/HMDBU
@@ -3259,6 +3261,8 @@ an
 an-aclaí/HB
 an-acmhainn/HMDBU
 an-adhmad/HMDBUT
+an-agallaimh/HMDBU
+an-agallamh/HMDBUT
 an-aiféala/HMDBUT
 an-ailt/HMDBU
 an-aird/HMDBU
@@ -3289,6 +3293,8 @@ an-amhrasach/HB
 an-amhrasacha/B
 an-amhrasaigh
 an-amhrasaí/B
+an-amhráin/HMDBU
+an-amhrán/HMDBUT
 an-annaimh
 an-annaimhe/B
 an-annamh/HB
@@ -3503,7 +3509,9 @@ an-chóngarach/HB
 an-chóngaracha/B
 an-chóngaraigh
 an-chóngaraí/B
+an-chúil/HMDU
 an-chúinge/B
+an-chúl/HMDBUT
 an-chúnaimh/HMDU
 an-chúnamh/HMDBUT
 an-chúng/HB
@@ -3932,6 +3940,7 @@ an-slachtmhair
 an-slachtmhaire/B
 an-slachtmhar/HB
 an-slachtmhara/B
+an-slua/HMDBUT
 an-sláintiúil/HB
 an-sláintiúla/B
 an-smaoineamh/HMDBUT
@@ -4093,12 +4102,18 @@ an-íogaire/B
 an-íseal/HB
 an-ísil
 an-ísle/B
+an-ócáid/HMDBU
+an-ócáide/HMDU
+an-ócáidí/HMDBU
 an-óg/HB
 an-óga/B
 an-óig
 an-óige/B
 an-ómóis/HMDU
 an-ómós/HMDBUT
+an-óráid/HMDBU
+an-óráide/HMDU
+an-óráidí/HMDBU
 an-úsáid
 an-úsáideach
 Anabaisteach
@@ -8773,6 +8788,7 @@ b'Éireannacha
 b'Éireannachas
 b'Éireannaigh
 b'Éireannaí
+b'Éirimeacht
 b'Éirinn
 b'Éirne
 b'Éisc
@@ -9515,6 +9531,9 @@ banoide/US
 banoidhre/US
 banoidhrí/US
 banoidí/US
+banpheileadóir/US
+banpheileadóirí/US
+banpheileadóra/US
 banphrionsa/US
 banphrionsaí/US
 banphríosúnach/US
@@ -30325,6 +30344,8 @@ d'Éireannach
 d'Éireannachais
 d'Éireannachas
 d'Éireannaigh
+d'Éirimeacht
+d'Éirimeachta
 d'Éirinn
 d'Éirne
 d'Éisc
@@ -32788,10 +32809,12 @@ dineasáir/US
 dineasár/US
 ding/US
 dinge/US
-dingeacha/US
+dingeach/S
+dingeacha/SU
 dingeadh/US
 dingeáin/US
 dingeán/US
+dingigh/S
 dingim/USA
 dingire/US
 dingireacht/US
@@ -32804,6 +32827,7 @@ dingliseacha/S
 dinglisigh/S
 dinglisí/SU
 dingthe/SU
+dingí/S
 dinimic/US
 dinimice/US
 dinimiceas/US
@@ -35493,6 +35517,8 @@ dé-aghaidheach/S
 dé-aghaidheacha/S
 dé-aghaidhigh/S
 dé-aghaidhí/S
+dé-atlain/US
+dé-atlan/US
 dé-ocsain/US
 dé-ocsaine/US
 dé-ocsainí/US
@@ -52120,6 +52146,8 @@ hÉireannach
 hÉireannachais
 hÉireannachas
 hÉireannaigh
+hÉirimeacht
+hÉirimeachta
 hÉirinn
 hÉirne
 hÉisc
@@ -57561,6 +57589,8 @@ leathfháinne
 leathfháinní
 leathghalúin
 leathghalún
+leathghealach
+leathghealaí
 leathghine
 leathghiní
 leathghlais
@@ -61737,6 +61767,8 @@ m'Éireannach
 m'Éireannachais
 m'Éireannachas
 m'Éireannaigh
+m'Éirimeacht
+m'Éirimeachta
 m'Éirinn
 m'Éirne
 m'Éisc
@@ -65009,6 +65041,8 @@ mionduirlinge/S
 mionduirlingí/S
 miondíol/S
 miondíola/S
+miondíolacháin/S
+miondíolachán/S
 miondíolaim/SA
 miondíolainn/E
 miondíolta/S
@@ -68026,6 +68060,9 @@ mórshaothair/S
 mórshaothar/S
 mórsheisear/S
 mórsheisir/S
+mórsheoladh/S
+mórsheolta/S
+mórsheoltaí/S
 mórshiúil/S
 mórshiúl/S
 mórshiúlta/S
@@ -71202,6 +71239,8 @@ noitmige
 noitmigí
 Nollag
 Nollaig
+Nollaigiúil
+Nollaigiúla
 Nollaigí
 nOllaimh
 nOllainn
@@ -71547,6 +71586,8 @@ nÉireannach
 nÉireannachais
 nÉireannachas
 nÉireannaigh
+nÉirimeacht
+nÉirimeachta
 nÉirinn
 nÉirne
 nÉisc
@@ -71849,6 +71890,9 @@ Nóra
 Nórnais
 Nórnaise
 nós
+Nósadóir
+Nósadóirí
+Nósadóra
 nósanna
 nósmhair
 nósmhaire
@@ -76487,6 +76531,9 @@ prólatáirí/S
 própáin/US
 própán/US
 prós/US
+prós-scríbhneoir/US
+prós-scríbhneoirí/US
+prós-scríbhneora/US
 prósach/S
 prósacha/S
 prósaigh/S
@@ -78356,6 +78403,7 @@ rocadh
 rocaigh
 rocaim/A
 rocainn/E
+Rocal
 rocaí
 rochtaigh
 rochtain
@@ -91821,6 +91869,8 @@ suansiúlaithe/S
 suansiúlaí/ST
 suantraithe/S
 suantraí/ST
+suantraíocht/ST
+suantraíochta/S
 suanáin/ST
 suanán/S
 suarach/S
@@ -92463,6 +92513,7 @@ sároibre/S
 sároideachais/ST
 sároideachas/S
 sároilte/S
+sároíche/ST
 sárscannáin/ST
 sárscannán/S
 sárscil/ST
@@ -92486,6 +92537,8 @@ sárthadhlaím/SC
 sárthadhlaínn/F
 sárthaispeántais/ST
 sárthaispeántas/S
+sárthaitneamh/S
+sárthaitnimh/ST
 sárthorthaí/S
 sáruithe/S
 sáráille/S
@@ -99234,6 +99287,7 @@ tÉillín
 tÉimineach
 tÉireannach
 tÉireannachas
+tÉirimeacht
 tÍosa
 tÍoslannach
 tÍosánach
@@ -101754,6 +101808,8 @@ zúnna
 Éireannachas
 Éireannaigh
 Éireannaí
+Éirimeacht
+Éirimeachta
 Éirinn
 Éirne
 Éisc

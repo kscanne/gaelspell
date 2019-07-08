@@ -9,6 +9,7 @@ Advertiser
 Aertel
 Agresso
 Agtel
+Airbnb
 Airbus
 Aironi
 Airtricity
@@ -34,6 +35,7 @@ Arsenal
 Atlético
 Audacity
 Audi
+Avantcard
 Aviva
 Baboró
 Bacardi
@@ -55,6 +57,7 @@ Bluetooth
 Boeing
 Bose
 Boutle
+Brexit
 Budweiser
 Buick
 Bulfin
@@ -145,6 +148,7 @@ Enron
 Ericsson
 Esat
 Esquire
+Etihad
 Eudora
 Euratom
 Eurolang
@@ -176,6 +180,7 @@ Flirt
 FocalFactory
 Folens
 Formula
+Fortnite
 Foróige
 Foxconn
 Frappr
@@ -214,6 +219,7 @@ Ghostscript
 Gibsol
 Gleneagle
 Gmail
+GoFundMe
 Google
 Greenpeace
 Guardian
@@ -225,6 +231,7 @@ Harley
 Hebdo
 Heineken
 Heinemann
+Hillgrove
 Hilton
 Hitachi
 Honda
@@ -251,8 +258,11 @@ Intreo
 iOS
 iPad
 iPhone
+iPlayer
 iPod
 Ipsos
+Irexit
+Irish-medium
 Ironman
 iTunes
 Jabber
@@ -265,12 +275,14 @@ JobsPlus
 Joomla
 Juventus
 Kappa
+Kerrygold
 Kerryman
 Kia
 Kickstarter
 Kindersley
 Kindle
 Kinect
+Kingspan
 Kinja
 Knoppix
 Kodak
@@ -298,6 +310,7 @@ Lotus
 Lurgan
 Lycos
 Lyric
+MacBook
 Macintosh
 Macromedia
 Magamedia
@@ -306,6 +319,7 @@ Maithú
 Mandrake
 Mandriva
 Marriott
+Masita
 Mastercard
 Mazars
 McDonald's
@@ -322,7 +336,9 @@ Michelin
 Microsoft
 Minecraft
 Mitsubishi
+Mixcloud
 Mobil
+Molscéal
 Monde
 Monopoly
 Moodle
@@ -439,6 +455,7 @@ Shell
 Sháirséal
 Siemens
 Siri
+Skainos
 Skillnets
 Skolelinux
 Sky
@@ -466,13 +483,18 @@ Sundance
 Supermac's
 Superquinn
 SuperValu
+SwiftKey
+Swype
 Symantec
 Sáirséal
 Sétanta
+Tamagotchi
 Tamboran
 Target
 Tayto
+Taytos
 Technorati
+TechSpace
 Telecom
 Telegael
 Telegraph
@@ -491,12 +513,15 @@ Topshop
 Toshiba
 Touche
 Toyota
+TradFest
 Traidphicnic
 Translink
 TripAdvisor
 Triskel
 TrueType
+TríSpórt
 Tumblr
+TuneIn
 Twibbon
 Twitter
 Tylenol
@@ -510,6 +535,7 @@ Veritas
 Verizon
 Viacom
 Viagra
+Viber
 Vifax
 Vim
 Vimeo

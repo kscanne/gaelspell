@@ -48,6 +48,7 @@ ad-hoc ad hoc
 adh ádh
 adhmháil admháil
 adhmhála admhála
+adhmáil admháil
 adhéanamh a dhéanamh
 adhéanann a dhéanann
 admhail admháil
@@ -57,6 +58,7 @@ adéir deir
 Aeinéas Aenéas
 afach áfach
 afheabhsú a fheabhsú
+afheiceáil a fheiceáil
 afhorbairt a fhorbairt
 afháil a fháil
 afách áfach
@@ -201,6 +203,7 @@ amhranaíochta amhránaíochta
 amhráinni amhráin
 amhráinní amhráin
 amhrás amhras
+amháil amhail
 amháín amháin
 amlaidh amhlaidh
 amrach amárach
@@ -372,6 +375,7 @@ athmhacnamh athmhachnamh
 athnuachán athnuachan
 athrisím aithrisím
 athru athrú
+aththógáil atógáil
 athtvuítáil atvuíteáil
 Athán Áthán
 athás áthas
@@ -529,6 +533,7 @@ bhothar bhóthar
 bhpoll bpoll
 bhraid bhráid
 bhraithreachas bhráithreachas
+Bhrasáil Bhrasaíl
 bhrea bhreá
 bhreach bhreac
 Bhreandain Bhreandáin
@@ -867,8 +872,10 @@ choiche choíche
 choimead choimeád
 choinceap choincheap
 choineall choinneal
+choineáil choinneáil
 choinnioll choinníoll
 choinnne choinne
+choinnneáil choinneáil
 choinnéail choinneáil
 choinnéal choinneáil
 choinníol choinníoll
@@ -905,6 +912,7 @@ chongar chóngar
 Chongo Chongó
 chonnacht Chonnacht
 chonnachta Chonnachta
+chonneáil choinneáil
 Chorcha Chorca
 choroin choróin
 choráis chórais
@@ -1096,6 +1104,7 @@ COLO COLÓ
 colun colún
 coma corna
 comairle comhairle
+comdháil comhdháil
 comghairdeaghas comhghairdeas
 comhairdeachas comhghairdeas
 comhairli comhairlí
@@ -1431,6 +1440,7 @@ deacreachtaí deacrachtaí
 deag déag
 deagoir déagóir
 dealaigí dealaígí
+dealáil déileáil
 dean déan
 deanach déanach
 deanai déanaí
@@ -1710,6 +1720,7 @@ dtire dtíre
 dtoabh dtaobh
 dtochaí dtodhchaí
 dtoghchaí dtodhchaí
+dtogáil dtógáil
 dtolamh dtólamh
 dToraí dTóraí
 dtra dtrá
@@ -1722,6 +1733,7 @@ dtuibhradh dtabharfadh
 dtuisceart dtuaisceart
 dtus dtús
 dtáithí dtaithí
+dtéagmháil dteagmháil
 dtí'n dtí an
 dtín dtí an
 dtína dtí na
@@ -1765,6 +1777,7 @@ dáthanna dathanna
 dáthúil dathúil
 déagoir déagóir
 déagoirí déagóirí
+déaláil déileáil
 déanai déanaí
 déanam déanamh
 déanaígí déanaigí
@@ -1774,6 +1787,7 @@ Déardaion Déardaoin
 déarfhá déarfá
 déarmad dearmad
 déileál déileáil
+déiláil déileáil
 déiléail déileáil
 déireadh deireadh
 déirigh d'éirigh
@@ -2627,6 +2641,7 @@ ibhfolach i bhfolach
 Ibrahimovic Ibrahimović
 idirbhlian idirbhliain
 idirbliana idirbhliana
+idirghábháil idirghabháil
 idirlin Idirlín
 idirline Idirlín
 idirlion idirlíon
@@ -2665,6 +2680,8 @@ imeachtai imeachtaí
 imhe inmhe
 imhtheacht imeacht
 imo i mo
+importáil iompórtáil
+impórtáil iompórtáil
 imtheact imeacht
 inadhiaidh ina dhiaidh
 inaghaidh in aghaidh
@@ -2924,6 +2941,7 @@ leoir leor
 leordóthanach leordhóthanach
 lethéid leithéid
 leámh léamh
+leárscáil léarscáil
 leí léi
 leís leis
 liam Liam
@@ -3030,6 +3048,7 @@ líomátaiste líomatáiste
 líos lios
 líosta liosta
 Líosáin Líosain
+lógáil logáil
 lógánta logánta
 Lúcas Lúcás
 lúchair lúcháir
@@ -3040,6 +3059,7 @@ lúthcleas lúthchleas
 m'inge m'ingne
 m'inion m'iníon
 ma má
+macasamháil macasamhail
 MacCarthaigh Mac Cárthaigh
 MacCárthaigh Mac Cárthaigh
 MacDara Mac Dara
@@ -3077,6 +3097,7 @@ maithú maith thú
 mal mál
 maoímh maíomh
 marabh marbh
+marachtáil maireachtáil
 marbóchadh maródh
 marbú marú
 marcuigeacht marcaíocht
@@ -3152,6 +3173,7 @@ meitheamh Meitheamh
 meáchán meáchan
 meánscolaí meánscolaíocht
 meárach méarach
+mhacasamháil mhacasamhail
 mhacnamh mhachnamh
 mhaguaird máguaird
 Mhaighneáin Mhaighneann
@@ -3171,6 +3193,7 @@ mhealann mheallann
 mheid mhéid
 mheiriceá Mheiriceá
 mheith mhéith
+mheáitseáil mheaitseáil
 mheárach mhéarach
 mhi mhí
 mhiceó mhic ó
@@ -3721,12 +3744,14 @@ phaipear pháipéar
 phaipéar pháipéar
 phaipéir pháipéir
 phairc pháirc
+phairceáil pháirceáil
 phairt pháirt
 phairtithe pháirtithe
 phairtí pháirtí
 pharlimint pharlaimint
 pharoiste pharóiste
 pharroiste pharóiste
+pheinteáil phéinteáil
 phiarsaigh Phiarsaigh
 phictuir phictiúr
 phictúir phictiúr
@@ -3743,6 +3768,7 @@ phoca phóca
 pholatúil pholaitiúil
 phos phós
 phroifíl phróifíl
+phroiseáil phróiseáil
 phroiséas phróiseas
 phrása bhfrása
 phrása frása
@@ -3781,6 +3807,7 @@ plata pláta
 plataí plátaí
 ple plé
 pleadh pléadh
+pleadáil pléadáil
 pleanail pleanáil
 pleanala pleanála
 pleannana pleananna
@@ -3789,6 +3816,7 @@ pleascadh pléascadh
 pleisiúr pléisiúr
 pleisiúrtha pléisiúrtha
 pleán plean
+pleánáil pleanáil
 plodaithe plódaithe
 pléfidh pléifidh
 Pléimionn Pléimeann
@@ -4408,6 +4436,7 @@ socmhainní sócmhainní
 socraid sochraid
 socraide sochraide
 socraideach sochraideach
+soinseáil sóinseáil
 soisear sóisear
 soisearach sóisearach
 soisialaigh sóisialaigh
@@ -4617,6 +4646,7 @@ sósialta sóisialta
 súid siúd
 súimiúil suimiúil
 súiomh suíomh
+súiteáil suiteáil
 súlt sult
 súntais suntais
 súntas suntas
@@ -4882,6 +4912,7 @@ thréimshe thréimhse
 ThuaidhTheas Thuaidh Theas
 thuairmse thuairimse
 thuarim thuairim
+thuarscáil thuarascáil
 thugh thug
 thugim thugaim
 thugim thuigim
@@ -4901,6 +4932,7 @@ tháining tháinig
 tháithí thaithí
 thánagthas thángthas
 thánaigh tháinig
+thárrtháil tharrtháil
 thárt thart
 théigeadh théadh
 théigeann théann
@@ -4944,6 +4976,7 @@ tiomántas tiomantas
 tionachar tionchar
 tionad t-ionad
 tionlacán tionlacan
+tionscadáil tionscadail
 tionscamh tionscnamh
 tionscanamh tionscnamh
 tionsnaimh tionscnaimh
@@ -5010,6 +5043,7 @@ tradáil trádáil
 tradála trádála
 traenail traenáil
 traenalá traenála
+traeneáil traenáil
 traidisiun traidisiún
 traidisiunta traidisiúnta
 traidisúin traidisiúin
@@ -5126,6 +5160,7 @@ tám táim
 támid táimid
 tángadar thángadar
 tástalóir tástálóir
+téagmháil teagmháil
 téaltodh téaltú
 téan t-éan
 téascanna téacsanna
@@ -5323,6 +5358,7 @@ Zurich Zürich
 íomlán iomlán
 íonadh ionadh
 íonsaí ionsaí
+íosloadáil íoslódáil
 íoslodáil íoslódáil
 íosládáil íoslódáil
 íoslódail íoslódáil

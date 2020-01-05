@@ -337,9 +337,6 @@ arist arís
 arlíne ar líne
 arn ar an
 arnú ar ndóigh
-ars'an arsa an
-arsa'n arsa an
-arsan arsa an
 arthur Arthur
 ará a rá
 ará atá
@@ -2833,6 +2830,7 @@ ladh 1ú
 laethaenta laethanta
 laethana laethanta
 laethanata laethanta
+lagdú laghdú
 laghaid laghad
 laghd laghad
 lahbairt labhairt
@@ -3250,6 +3248,7 @@ mile míle
 mileanna milleanna
 miliún milliún
 milliun milliún
+millúin milliún
 millún milliún
 milte mílte
 milteach millteach
@@ -3393,6 +3392,7 @@ naGaeilge na Gaeilge
 naghaidh n-aghaidh
 nahÉireann na hÉireann
 naighneachtaí n-aighneachtaí
+nainmhithe n-ainmhithe
 nainmneacha n-ainmneacha
 naire náire
 naireach náireach
@@ -3574,6 +3574,7 @@ násc nasc
 násiúnta náisiúnta
 náthanna nathanna
 né mé
+néan n-éan
 néarog néaróg
 néifeacht n-éifeacht
 néileamh n-éileamh
@@ -3722,6 +3723,7 @@ pairteach páirteach
 pairteagal páirteagal
 pairti páirtí
 pairtithe páirtithe
+pairtnéir páirtí
 pairtí páirtí
 parailís pairilis
 paraméadair paraiméadair
@@ -4647,6 +4649,8 @@ són son
 sós sos
 sósialta sóisialta
 súid siúd
+súimh suímh
+súimh suíomh
 súimiúil suimiúil
 súiomh suíomh
 súiteáil suiteáil
@@ -4718,6 +4722,7 @@ tabhairne tábhairne
 tabhairneoir tábhairneoir
 tabhar tabhair
 tabla tábla
+tablaí táblaí
 tacaigí tacaígí
 Tacatus Tacatas
 tachaíocht tacaíocht
@@ -4750,6 +4755,7 @@ tairgead t-airgead
 tairgní tairní
 tairgí táirgí
 tairring tarraing
+tairsceana tairisceana
 tairscint tairiscint
 taisbheaint taispeáint
 taiscealaithe taiscéalaithe
@@ -4890,6 +4896,7 @@ thionscamh thionscnamh
 thios thíos
 thir thír
 thire thíre
+thiscint thuiscint
 thiubhe thibhe
 thoabh thaobh
 thodchaí thodhchaí
@@ -4915,6 +4922,7 @@ thréimse thréimhse
 thréimshe thréimhse
 ThuaidhTheas Thuaidh Theas
 thuairmse thuairimse
+thuarascail thuarascáil
 thuarim thuairim
 thuarscáil thuarascáil
 thugh thug
@@ -5375,6 +5383,7 @@ Zurich Zürich
 óchón ochón
 óiche oíche
 óiriúint oiriúint
+óiriúnach oiriúnach
 ómos ómós
 ónóir onóir
 óraid óráid

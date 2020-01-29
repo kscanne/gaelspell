@@ -3332,8 +3332,10 @@ araill
 araimh
 arain
 arais
+araisc/HMDBU
 araoir
 arasbarr
+arasc/HMDBUT
 Arastotail
 Arastotal
 araí
@@ -4354,6 +4356,8 @@ b'Ucránach
 b'Ucránacha
 b'Ucránaigh
 b'Ucránaí
+b'Ugóineach
+b'Ugóinigh
 b'Uileáin
 b'Uileán
 b'Ultaibh
@@ -4385,6 +4389,8 @@ b'Ísealtír
 b'Óiríon
 b'Óiséit
 b'Óiséitis
+b'Úgóineach
+b'Úgóinigh
 b'Úisbéiceastáinis
 b'Úral
 b'é
@@ -12069,6 +12075,7 @@ chuirid
 chuiriodar
 chuirios
 chuiris-se
+chuirmcheoil
 chuirp-se
 chuirptheach
 chuirpthigh
@@ -12877,6 +12884,7 @@ claigeann/US
 claigearnach
 claiginn/US
 claigionn/US
+claigne/US
 claigniú
 claigtheach
 claimh/SU
@@ -19589,6 +19597,8 @@ d'ughdaraigh/U
 d'ughdaraínn/FU
 d'ughmaigh/U
 d'ughmaínn/FU
+d'Ugóineach
+d'Ugóinigh
 d'Uileáin
 d'Uileán
 d'uilligh/U
@@ -19632,6 +19642,8 @@ d'Óiséit
 d'Óiséite
 d'Óiséitis
 d'Óiséitise
+d'Úgóineach
+d'Úgóinigh
 d'Úisbéiceastáinis
 d'Úisbéiceastáinise
 d'Úral
@@ -25095,6 +25107,7 @@ dóbaim/USA
 dóbheart/US
 dóbhrónach
 dóbhtha
+dóbhthasan
 dóbrón
 dóbtha/SU
 dóbáil/US
@@ -29270,6 +29283,7 @@ foghlamóra/MDUS
 foghlomtha
 foghluim/MDBUS
 foghluim-se
+foghluimeann/US
 foghluimidh
 foghluimnighthe/BS
 foghluimím/USC
@@ -29510,7 +29524,8 @@ foiseadh
 foisidin
 foisteacht
 foisteadh
-foisteán
+foisteáin/MDBUS
+foisteán/MDBUS
 foistigh
 foistineach/BS
 foistineacha/BS
@@ -31563,6 +31578,7 @@ fóghnamh/MDBUS
 fógra
 fógradh/MDBUS
 fógraidís
+fógraigh/US
 fógraigí/US
 fógraim/US
 fógraimid/US
@@ -32987,6 +33003,7 @@ geóbhmídh
 geócálta
 geógach
 geóinn/US
+gh'a
 gh'á
 ghab
 ghabhaid
@@ -34020,6 +34037,7 @@ glisiamach
 gliste
 glistire
 glite
+gliúcadh/US
 gliúcaithe/US
 gliúcaí/US
 gliúcáil/US
@@ -34217,6 +34235,7 @@ glúiní/US
 glún/US
 glúna/US
 glúnach/US
+glúnaí/US
 glúnmhar
 glúnta/US
 glúracáin
@@ -34691,6 +34710,8 @@ Gramhnuigheach
 Gramhnuighneach
 gramhsaíl/US
 gramhsaíola/US
+gramofóin/US
+gramofón/US
 grampard
 gramraisc
 gramsar
@@ -36206,6 +36227,8 @@ hug
 huga
 hugaí
 hughdarthásach
+hUgóineach
+hUgóinigh
 hUibh
 huigistéar
 hUileáin
@@ -36268,6 +36291,8 @@ hÓiséite
 hÓiséitis
 hÓiséitise
 hÚa
+hÚgóineach
+hÚgóinigh
 hÚisbéiceastáinis
 hÚisbéiceastáinise
 hÚral
@@ -39445,6 +39470,7 @@ leasmuigh
 leasnairde
 leasphríomhoide
 leasphríomhoidí
+leasríogh
 leastair
 leastall
 leastar
@@ -39564,6 +39590,7 @@ leathinsí
 leathite
 leathlom-nochta
 leathluighe
+leathlámhtha
 leathmhaing
 leathmhainge
 leathna
@@ -42106,6 +42133,8 @@ m'Ucráinis
 m'Ucráinise
 m'Ucránach
 m'Ucránaigh
+m'Ugóineach
+m'Ugóinigh
 m'Uileáin
 m'Uileán
 m'Ultaibh
@@ -42136,6 +42165,8 @@ m'Óiséit
 m'Óiséite
 m'Óiséitis
 m'Óiséitise
+m'Úgóineach
+m'Úgóinigh
 m'Úisbéiceastáinis
 m'Úisbéiceastáinise
 m'Úral
@@ -43904,7 +43935,7 @@ mion-órdaibh
 mion-úird
 mionach/S
 mionacha
-mionaid
+mionaid/S
 mionaigh/S
 mionastráil
 mionastrálaí
@@ -47027,6 +47058,8 @@ nUcráinis
 nUcráinise
 nUcránach
 nUcránaigh
+nUgóineach
+nUgóinigh
 nuibhir
 nuig
 nuilc
@@ -47092,6 +47125,8 @@ nÓiséit
 nÓiséite
 nÓiséitis
 nÓiséitise
+nÚgóineach
+nÚgóinigh
 nÚisbéiceastáinis
 nÚisbéiceastáinise
 nÚral
@@ -49159,6 +49194,9 @@ poilitíochta/US
 poinn
 poinnteailte
 pointeálta
+poiticeoir/US
+poiticeoirí/US
+poiticeora/US
 poitineáil
 poitineálaí
 Pol/S
@@ -50687,6 +50725,7 @@ reilge
 reilgeacha
 reilgire
 reilgirí
+reilgí
 reilgíneach
 reilgíneacha
 reilgínigh
@@ -54569,6 +54608,7 @@ seachtmhuineach
 seachtmhó/S
 seachtmoghat
 seachuin
+seacond/ST
 seactmhadh/S
 seacáin/ST
 seacán/S
@@ -57108,6 +57148,8 @@ smuasaire
 smuasairí
 smuasaíl
 smuasaíola
+smuasáil
+smuasála
 smuaín
 smuaíneadh
 smuaíneamh
@@ -61931,6 +61973,7 @@ tcidhfidh
 tcidhtear
 tcidhthear
 tcí
+tcídh
 tcífidh
 tcím
 tcímse
@@ -63845,7 +63888,8 @@ toirbhir/US
 toirbhirim/USA
 toirbhirte/US
 toirbhirthe/S
-toircfheoil
+toircfheoil/US
+toircfheola/US
 toircheadh/US
 Toirdhéalbhach
 toirghe
@@ -64164,6 +64208,8 @@ trailleáin/US
 trailleán/US
 traim
 traimeáil
+traimlíne/US
+traimlínte/US
 traimp
 traimpeáil
 traipéiseoid/US
@@ -65371,6 +65417,7 @@ tugthaoi
 tugthar
 tugthas/US
 tugtí/US
+tUgóineach
 tuibhe/US
 tuicsin/US
 tuicéad/US
@@ -65481,6 +65528,8 @@ tuirc/US
 tuirce/US
 Tuirceach
 tuirceanna/US
+tuircfheoil/US
+tuircfheola/US
 tuircín/US
 tuircíní/US
 tuireach
@@ -65715,6 +65764,7 @@ tÉatruscach
 tÉireanach
 tÍosagánach
 tÓiríon
+tÚgóineach
 tá'n
 tá's
 tá-maoid
@@ -66706,6 +66756,8 @@ ughmaíodh/HU
 ughmaítear/HU
 ughmuigh/U
 ughmú/HUBMDT
+Ugóineach
+Ugóinigh
 ui
 uibh/HMDU
 uibhe/HMDBU
@@ -66721,6 +66773,7 @@ uidhe/HMDU
 uidheacht/HMDBU
 uidheachta/HMDU
 uig
+uigeacha/HMDBU
 uighe/HMDU
 uigheacha/HMDBU
 uiginn
@@ -67455,6 +67508,8 @@ Zíon
 Óiséitise
 Óméith
 Údás
+Úgóineach
+Úgóinigh
 Úisbéiceastáinis
 Úisbéiceastáinise
 Úral

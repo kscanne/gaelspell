@@ -118,6 +118,7 @@ adúras dúirt mé
 adúras-sa a dúirt mé
 adúras-sa dúirt mé
 Aesop Aesóp
+ag's ag
 ag'ul ag dul
 agad-sa agatsa
 agadsa agatsa
@@ -129,6 +130,7 @@ aganfhios i ngan fhios
 agdul ag dul
 age'n ag an
 agem ag mo
+agena ag a
 agléimnigh ag léimneach
 agna ag a
 agpilleadh ag filleadh
@@ -145,6 +147,9 @@ aibéar déarfaidh mé
 aicese aicise
 aicíse aicise
 aige'n ag an
+aigem ag mo
+aigena ag a
+aigesna ag na
 ailne áille
 Aimhirghin Aimhirgín
 Aimhirgin Aimhirgín
@@ -390,6 +395,7 @@ bhfaghmaois bhfaighimis
 bhfaghthaí bhfaighfí
 bhfaghthá bhfaighfeá
 bhfaicir bhfeiceann tú
+bhfaigheach bhfaigheadh
 bhfaighead bhfaighidh mé
 bhfaigheadsa bhfaighidh mise
 bhfaigheam bhfaighimid
@@ -490,7 +496,9 @@ bhidhimse bhímse
 bhion bhíonn
 bhios bhí mé
 bhios bhíonn
+Bhlascaed Bhlascaod
 Bhlascaeid Bhlascaoid
+Bhlosgaod Bhlascaod
 Bhlá Bhaile Átha
 Bhlá'Cliath Bhaile Átha Cliath
 Bhoston Bhostún
@@ -552,6 +560,7 @@ Bolgín Boilgín
 Boos Boaz
 Borbruadh Borbrua
 Boston Bostún
+bp'róiste bparóiste
 bPáirc-an-Fhionn-uisce bPáirc an Fhionnuisce
 brandy branda
 Brazil an Bhrasaíl
@@ -603,8 +612,10 @@ Bóroimhe Ború
 c'air cé air
 c'as cá as
 c'áit cá háit
+ca'il cá bhfuil
 caide'n cad é an
 caidé cad é a
+caileadh cailleadh
 caillid cailleann
 caillid cailleann siad
 Caiphas Cáiafas
@@ -801,6 +812,7 @@ Chíochóté Chíochótae
 chíodh d'fheiceadh
 chír fheiceann tú
 chítí d'fheictí
+chônuí chónaí
 chúing chúng
 chúlamair chúlaíomar
 Chúnó Kuno
@@ -926,6 +938,7 @@ d'chosaibh do chosa
 d'chroidhe do chroí
 d'chroídhe do chroí
 d'chuid do chuid
+d'eighrig d'éirigh
 d'eirig d'éirigh
 d'en den
 d'es de
@@ -942,7 +955,10 @@ d'fheiscint a fheiceáil
 d'fhiafra d'fhiafraigh
 d'fhiafraidh d'fhiafraigh
 d'fhiafruig d'fhiafraigh
+d'fhiarhuig d'fhiafraigh
 d'fhior d'fhear
+d'fhiscint a fheiceáil
+d'fhisgint a fheiceáil
 d'fhobair dóbair
 d'fhoghlaimíos d'fhoghlaim mé
 d'fhreagairt a fhreagairt
@@ -1064,6 +1080,7 @@ dhearnaigh dhearna
 dhearnais dhearna tú
 dhearnas dhearna mé
 dhearnuigh dhearna
+Dheasumhan Dheasmhumhan
 dheineas rinne mé
 dheinimse dhéanaimse
 dheirbhshiúrsa dheirfiúrsa
@@ -1372,6 +1389,7 @@ dtéighead rachadh
 dtéighead rachaidh mé
 dtéigheadsa rachaidh mise
 dtí'na dtí a
+dtí's dtí
 duairt dúirt
 dubhairt-sé-dábhairt-sé dúirse dáirse
 Dubhgáin Dúgáin
@@ -1382,6 +1400,7 @@ dubhras dúirt mé
 dubhraís dúirt tú
 dubht dúirt
 Dubhuidhe Dubhuí
+Duibne Duibhne
 dul-chun-cinn dul chun cinn
 dul-i-bhfolach dul i bhfolach
 dultha dulta
@@ -1415,6 +1434,7 @@ dóibhsan dóibhsean
 dóibhsin dóibhsean
 Dómhnal Dónal
 Dómhnall-na-Gréine Dónal na Gréine
+Dônal Dónal
 dúbairt dúirt
 dúbhart dúirt mé
 dúbhartsa dúirt mise
@@ -1483,6 +1503,8 @@ fao'n faoin
 feaca bhfaca
 feacamair bhfacamar
 feacamair fhacamar
+fear-céile fear céile
+fear-tís fear tí
 fearabh fir
 fearaibh fir
 feicir feiceann tú
@@ -1628,6 +1650,7 @@ gCeann-trágha gCeann Trá
 gceol-sidhe gceol sí
 gciad gcéad
 gcionn gceann
+gciún gceann
 gcloisead gcloisfidh mé
 gcomhtéacs gcomhthéacs
 gcreidid gcreideann
@@ -1637,6 +1660,7 @@ gcualaís chuala
 gcualthas chualathas
 gCuas-na-Rón gCuas na Rón
 gcud gcuid
+gcuine gcoinne
 gcuirfam gcuirfimid
 gcumhra cumhra
 gcéadhna gcéanna
@@ -1648,6 +1672,7 @@ gcífeása bhfeicfeása
 gcífidh bhfeicfidh
 gcífinn bhfeicfinn
 gcíonn bhfeiceann
+gcônuí gcónaí
 gCúil-na-gCupóg gCúil na gCopóg
 gCúng Cúng
 gearraguirt gearraí goirt
@@ -1688,6 +1713,7 @@ ghirsigh ghirseach
 Ghiési Ghéichizí
 ghlacaid ghlacann
 ghlacaid ghlacann siad
+ghlaeg ghlaoigh
 ghlaodhaid a ghlaonn
 ghlaodhaid a ghlaonn siad
 ghlaodhaid ghlaonn
@@ -1994,6 +2020,7 @@ lánseoil lán seoil
 Léabáin Liabáin
 léighios léigh mé
 léigthí ligtí
+léimte léimthe
 léimídh léimigí
 léisi léise
 léithe-se léise
@@ -2003,6 +2030,7 @@ líonas líon mé
 Lúain Luain
 m'ad maith agat
 m'ainimse m'ainmse
+m'athir m'athair
 m'chroidhe mo chroí
 m'chroídhe mo chroí
 m'ealadhan-sa m'ealaínse
@@ -2184,6 +2212,7 @@ Méadhbh Méabh
 Méadhbha Méabha
 Méibh Méabh
 mí-amha míáú
+Míhál Mícheál
 Míodhcháin Míocháin
 Míodhchánach Míochánach
 mór-mór mór mór
@@ -2355,6 +2384,7 @@ Orpheus Oirféas
 orthasan orthusan
 oscluíos oscail mé
 Osiris Óisíris
+p'róiste paróiste
 p'é pé
 Padhraig Pádraig
 Padrug Pádraig
@@ -2364,6 +2394,7 @@ Paimpol Pempoull
 Papa Pápa
 Partholán Parthalán
 Persia an Pheirs
+ph'róiste pharóiste
 Phadraig Phádraig
 Phadruig Phádraig
 Phaimpol Phempoull
@@ -2408,6 +2439,7 @@ Próinsias Proinsias
 psalm salm
 Ptolemais Tolamáíos
 Ptolemé Tolamaes
+Pádaraig Pádraig
 Pádhraig Pádraig
 Pádhruig Pádraig
 Pádruic Pádraig
@@ -2443,7 +2475,9 @@ rachthasa rachfása
 rachthaí rachfaí
 raffle raifil
 Rafterí Raiftearaí
+raghach rachadh
 raghad rachaidh mé
+raghaimis rachaimis
 raghaimíd rachaimid
 raghainnse rachainnse
 raghair rachaidh tú
@@ -2566,6 +2600,8 @@ seasúr séasúr
 Seathan Seán
 Seaán Seán
 Sebedé Zeibidé
+Seithleann Sealtainn
+Seithleann Shealtainn
 seo'd seo
 Seorsa Seoirse
 Serbhia an tSeirbia
@@ -2678,6 +2714,7 @@ súilibh súile
 Súiliobháin Súilleabháin
 Súilliobháin Súilleabháin
 t'r'om tabhair dom
+t'rim tirim
 t-action t-aicsean
 t-airgid t-airgead
 t-aor t-aer
@@ -2734,6 +2771,7 @@ th'éitheach d'éitheach
 thabharfad thabharfaidh mé
 thabharfadsa thabharfaidh mise
 thabharfair thabharfaidh tú
+thairrigíos tharraing mé
 thairrngirsiod thairngríodar
 thaispeánas thaispeáin mé
 thanam d'anam

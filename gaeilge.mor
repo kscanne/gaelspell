@@ -14730,6 +14730,7 @@ colpa
 colptha
 colpthach
 coluim/US
+coluimneacha/US
 colum/US
 Columcille
 columhain/US
@@ -16366,6 +16367,10 @@ croidheamhlacht
 croidhearg/S
 croidhearga/S
 croidhechráidhteach
+croidheghointeach/S
+croidheghointeacha/S
+croidheghointigh/S
+croidheghointí/S
 croidheirg/S
 croidheirge/S
 croidheog
@@ -19050,6 +19055,7 @@ d'eaglaidís/U
 d'eaglaimis/U
 d'eaglainn/U
 d'eaglamar/U
+d'ealóidh
 d'Eanar
 d'earc/U
 d'earcainn/EU
@@ -24199,6 +24205,7 @@ duibheagán
 duibheagánta/S
 duibhleann
 duibhleannach
+duibhlionnta/S
 duibhlionntach/S
 duibhlionntacha/S
 duibhlionntaigh/S
@@ -29461,6 +29468,7 @@ foghluim-se
 foghluimeann/US
 foghluimidh
 foghluimnighthe/BS
+foghluimnithe/BS
 foghluimím/USC
 foghluma/MDUS
 foghlumaigh/US
@@ -32587,6 +32595,9 @@ garrdha/US
 garrdhadh/US
 garrdhaidh
 garrdhanta
+garrdhantóir/US
+garrdhantóirí/US
+garrdhantóra/US
 garrdhaí/US
 garrántacha/US
 garsúil
@@ -33917,7 +33928,8 @@ glafarnach/US
 glafarnaí/US
 glafarsach
 glafartha/US
-glafaíl
+glafaíl/US
+glafaíola/US
 glagach
 glagaíl
 glagram
@@ -33956,17 +33968,23 @@ glambaigh
 glambáil
 glamh
 glamhaire
+glamhaireacht/US
+glamhaireachta/US
+glamhairt/US
 glamhaisc
 glamharsach
+glamhartha/US
 glamhaíl
 glamhsán
 glamhthadh
 glamhthaire
 glamhthaireach
-glamhthaireacht
-glamhthairt
+glamhthaireacht/US
+glamhthaireachta/US
+glamhthairt/US
 glamhtharnach
 glamhtharsach
+glamhthartha/US
 glamradh
 glamrasc
 glan-altach
@@ -34189,7 +34207,8 @@ gliodar
 gliodarásach
 gliodramán
 gliofaire
-gliofaireacht
+gliofaireacht/US
+gliofaireachta/US
 gliogair/US
 gliogairnéis/US
 gliogairnéise/US
@@ -34675,7 +34694,8 @@ goineachan
 goineog
 goinigh/US
 goinithe
-goiniúil
+goiniúil/S
+goiniúla/S
 goint
 gointe/S
 goir/SU
@@ -34746,16 +34766,22 @@ gomhúlacht
 gon
 gona/US
 gonabhogaí
-gonach
+gonach/S
+gonacha/S
 gonadh/US
 gonadóir
+gonaigh/S
 gonann/US
+gonaí/S
 gonc
 goncach
 gondolóir/US
 gondolóirí/US
 gondolóra/US
-gontach
+gontach/S
+gontacha/S
+gontaigh/S
+gontaí/S
 gonuig
 gonuige
 googláil/US
@@ -35030,6 +35056,7 @@ greille
 greim/US
 greimeann/US
 greimeanna
+greimeannaí/US
 greimhín
 greimhíneach
 greimim/USA
@@ -36445,6 +36472,7 @@ hurraimeach
 hurú
 husae
 husaeireacht
+huscaidheanna
 hustaeir
 huth
 huí
@@ -38055,6 +38083,7 @@ iomchasaoid
 iomchlódh
 iomchosnaimh/HMDU
 iomchosnamh/HMDBUT
+iomchradh/U
 iomchrann
 iomchraí/U
 iomchraídís/HU
@@ -40708,6 +40737,7 @@ loingeanna
 loingeas
 loingeasa
 loingeasach
+loingise
 loingse
 loingtheach
 loinidh
@@ -42623,6 +42653,7 @@ mairb/S
 mairbh
 mairbheach
 mairbheacht
+mairbhfeadh/S
 mairbhigh/S
 mairbhithe/S
 mairbhitíghe/S
@@ -48552,6 +48583,8 @@ parráistí/SU
 parróiste
 partal
 Partholán
+partruisc/US
+partrusc/US
 partáin/US
 partán/US
 paráideanna/US
@@ -51505,6 +51538,7 @@ romhóire
 romhór
 romhóra
 rompa
+rompasan
 rompú
 rompúsan
 románsúil
@@ -57139,6 +57173,8 @@ sléibhthe
 sléibhtibh
 sléibhtigh/S
 sléibhtí/S
+sléigh/ST
+sléigheannaí/S
 slíbín/ST
 slíbíneach
 slíbíní/S
@@ -59769,6 +59805,7 @@ stras
 strath
 streabóid
 streachail
+streachaileadh
 streachalfadh
 streachalfaidh
 streachalfaidís
@@ -63904,6 +63941,7 @@ tlacht/US
 tlachta/US
 tlachtmhar
 tlaicht
+tleigthe/S
 tlig/US
 tligeadh/US
 tligean
@@ -64089,6 +64127,7 @@ toiceach/SU
 toiceacha/S
 toiceachán
 toichme/US
+toicht/US
 toicigh/SU
 toicéad
 toicí/S

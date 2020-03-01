@@ -29,6 +29,7 @@ Angelfire
 Anonymous
 Apache
 Apple
+Aramark
 Argos
 Arramara
 Arsenal
@@ -174,6 +175,7 @@ Figgis
 Filmbase
 Fintrax
 Firefox
+Fitbit
 Flash
 Flickr
 Flirt
@@ -237,6 +239,7 @@ Hitachi
 Honda
 Hotmail
 Hotspur
+Huawei
 Hyundai
 iGaeilge
 iGoogle

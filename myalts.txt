@@ -173,6 +173,7 @@ amain amháin
 Aman Hámán
 ambriathar dom briathar
 amen áiméan
+Amhairgin Aimhirgín
 amhlasan amhlaidh sin
 Ammoin Amón
 ana-chneadaíl an-chneadach
@@ -501,6 +502,7 @@ bhios bhí mé
 bhios bhíonn
 Bhlascaed Bhlascaod
 Bhlascaeid Bhlascaoid
+Bhloom Bloom
 Bhlosgaod Bhlascaod
 Bhlá Bhaile Átha
 Bhlá'Cliath Bhaile Átha Cliath
@@ -620,6 +622,7 @@ c'áit cá háit
 ca'il cá bhfuil
 caide'n cad é an
 caidé cad é a
+caileach cailleadh
 caileadh cailleadh
 caillid cailleann
 caillid cailleann siad
@@ -859,6 +862,7 @@ Corca-Dhuibhne Corca Dhuibhne
 cos-in-áirde cos in airde
 creidid creideann
 creidid creideann siad
+Criothain Criomhthain
 croidhese croíse
 croithfeadh chroithfeadh
 Cromaill Cromail
@@ -924,6 +928,7 @@ Cúculain Cú Chulainn
 cúig-déag cúig déag
 cúing cúng
 cúlaídh cúlaígí
+Cúmhail Cumhaill
 Cúmhaill Cumhaill
 Cúnó Kuno
 d'abhar d'ábhar
@@ -1373,6 +1378,7 @@ dteachas ndeachaigh mé
 dteachthas ndeachthas
 dtearnamar ndearnamar
 dTeheran dTehran
+dteigheadh dtéadh
 dTiaracht Tiaracht
 dtigid dtagann
 dtioca dtiocfaidh
@@ -1475,6 +1481,7 @@ Eachdhruim Eachroim
 Eachdroma Eachroma
 Eachdruim Eachroim
 Eadair Éadair
+Eadhmon Éamon
 Eanna Éanna
 Eannraoi Annraoi
 Edoim Eadóm
@@ -1697,8 +1704,11 @@ gearraguirt ghearr goirt
 gearrsceal gearrscéal
 gearrthar gearrtar
 gearrthar ghearrtar
+ged ag do
 Gedeon Gidéón
+gem ag mo
 geobhfaidh gheobhaidh
+ges ag
 geóir gheobhaidh tú
 gh'a á
 ghabhaid ghabhann
@@ -1764,6 +1774,9 @@ Giolla-Chríost Giolla Chríost
 girsigh girseach
 Giési Géichizí
 Glasnaíon Glas Naíon
+Gleann-Beithe Gleann Beithe
+Gleann-Gaibhleann Gleann Ghaibhle
+Gleannbeithe Gleann Beithe
 gleasta gléasta
 glug-glag glug glag
 gním déanaim
@@ -1970,6 +1983,7 @@ Júdah Iúdá
 Júdéa Iúdáia
 kayakáil cadhcáil
 Laban Lábán
+labhrair labhraíonn tú
 lad leaid
 Laeire Laoire
 lagthrá lag trá
@@ -1979,6 +1993,7 @@ lain lán
 landlord tiarna talún
 laoidh-se laoi-se
 Laoighise Laoise
+Larraí Learaí
 Lasarus Lazaras
 lastoiró-dheas lastoir ó dheas
 le'd le do
@@ -2079,6 +2094,7 @@ Mairghréad Maighréad
 mairir maire tú
 mairirse maire tú
 Malluch Mallúc
+Mananáin Manannáin
 Maoinis Maonais
 Maolcatha Maolchatha
 Maolfabhaoil Maolfabhail
@@ -2174,6 +2190,7 @@ mhaiseadh mhuise
 mhait mhaith
 mhaithimíd-ne mhaithimidne
 Mhalluich Mhallúc
+Mhananáin Mhanannáin
 Mhanntáin Mhantáin
 Mhaolmuire Mhaolmhuire
 mhar'uigh mharaigh
@@ -2205,6 +2222,7 @@ Mhéadhbha Mhéabha
 Mhéibh Mhéabh
 Mhóab Mhóáb
 Michil Michíl
+Milíní Millíní
 min-coirce min choirce
 mionfearthanna mionfhearthainne
 Mionloch Mionlach
@@ -2410,6 +2428,7 @@ Padhraig Pádraig
 Padrug Pádraig
 Padruig Pádraig
 Paid Páid
+Paidín Páidín
 Paimpol Pempoull
 Papa Pápa
 Partholán Parthalán
@@ -2417,6 +2436,8 @@ Persia an Pheirs
 ph'róiste pharóiste
 Phadraig Phádraig
 Phadruig Phádraig
+Phaid Pháid
+Phaidín Pháidín
 Phaimpol Phempoull
 Phapa Phápa
 Pheg Pheig
@@ -2435,6 +2456,7 @@ Phróinsias Phroinsias
 Phádhraig Phádraig
 Phádruic Phádraig
 Phádruig Phádraig
+Pháidin Pháidín
 Phílát Phíoláit
 Pictibh Piochtaí
 Pilate Píoláit
@@ -2464,6 +2486,7 @@ Pádhraig Pádraig
 Pádhruig Pádraig
 Pádruic Pádraig
 Pádruig Pádraig
+Páidin Páidín
 Páirc-an-Earraigh Páirc an Earraigh
 Páirc-an-Fhionn-uisce Páirc an Fhionnuisce
 Pártholán Parthalán
@@ -2511,7 +2534,9 @@ raibhe raibh
 Raifteri Raiftearaí
 Raifterí Raiftearaí
 Raiftéirí Raiftearaí
+raighead rachaidh mé
 raigheadh rachadh
+raigheadsa rachaidh mise
 Raighilligh Raghallaigh
 rannaibh-se rainn-se
 rannaid roinneadar
@@ -2545,11 +2570,14 @@ Ruadhrí Ruairí
 ruagtha ruaigthe
 Ruaidhridh Ruairí
 ruaigsiod ruaigeadar
+Ruain Ruáin
 Ruarc Ruairc
 Rudhraighe Rúraí
 rugabhar rug sibh
 rugas rug mé
 Rughruidhe Rúraí
+ruimis roimh
+ruimis roimhe
 Ruisiath Rúise
 rádh's rá is
 ráibh raibh
@@ -2562,6 +2590,7 @@ réidh-airgid airgid réidh
 rém le mo
 Rímhinn Rìmhinn
 Ríoghardáin Ríordáin
+Ríoghbhardáin Ríordáin
 ró-bhaoghal róbhaol
 Rósínanté Rocinante
 rúd rud
@@ -2637,6 +2666,7 @@ sgiath-leathan sciath-leathan
 Sgibirín Sciobairín
 sgo is go
 sgothchiar scothchiar
+Sgíre Scíre
 Shamaria na Samáire
 Shamaría na Samáire
 Shamuel Shamúéil
@@ -2666,6 +2696,7 @@ Shliabh-an-Fhiolair Shliabh an Iolair
 Shliabh-an-Fiolair Shliabh an Iolair
 Shláinghe Shláine
 Shodoim Shodom
+shuid shuigh
 shádhamair shámar
 shádhas sháigh mé
 Shéimidh Shéimí
@@ -2719,6 +2750,7 @@ Stiophán Stiofán
 Stolaire Stollaire
 Stophán Stiofán
 sugh-craoibh sú craobh
+suid shuigh
 Suileabhan Súilleabháin
 sé-chéad sé chéad
 séa'r'd is éard
@@ -2738,6 +2770,7 @@ Súilliobháin Súilleabháin
 t'r'om tabhair dom
 t'rim tirim
 t-action t-aicsean
+t-aghaidh d'aghaidh
 t-airgid t-airgead
 t-aor t-aer
 t-iliomad iliomad
@@ -2787,6 +2820,7 @@ tcímse feicimse
 teach-a-phobail teach an phobail
 tearball t-eireaball
 Teheran Tehran
+teimhealuighthe teimhlithe
 teurna a théarnaigh
 th'anam d'anam
 th'athair d'athair
@@ -2887,6 +2921,8 @@ Tobias Tóibias
 Toirdhéalbhach Toirdhealbhach
 Tomaisín Tomáisín
 Transbhaal Transvaal
+tres trí
+tres tríd
 treás tráth is
 trialladar thrialladar
 trom-thruime tromthroime
@@ -2973,6 +3009,7 @@ Zeús Séas
 Águstas Ágastas
 Áindrías Aindrias
 Áird-Ríogh Ardrí
+Áirdmhín Airdmhín
 Áirne Airne
 Áiréas Airéis
 Áraoisteatoil Arastatal

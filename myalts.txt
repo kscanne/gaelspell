@@ -523,6 +523,8 @@ bhuailid bhuaileann
 bhuailid bhuaileann siad
 bhudh ba
 bhéad bheidh mé
+bhéadh a bheadh
+bhéadh bheadh
 bhéadsa bheidh mise
 Bhéal-Bán Bhéal Bán
 bhéal-dorais bhéal dorais
@@ -624,6 +626,7 @@ caide'n cad é an
 caidé cad é a
 caileach cailleadh
 caileadh cailleadh
+cailleag cailleadh
 caillid cailleann
 caillid cailleann siad
 Caiphas Cáiafas
@@ -643,6 +646,7 @@ Calmfear Calmfhear
 Caoimhghein Caoimhín
 Caoimhghin Caoimhín
 Caoimhghín Caoimhín
+caoldíreach caol díreach
 Caraig-an-Eirbaill Carraig an Eireabaill
 Carrthach Cárthach
 Carrthaigh Cárthaigh
@@ -1043,6 +1047,7 @@ daoithesa dise
 daoithese dise
 Daphne Dafnae
 Darius Dáirias
+darnó ar ndóigh
 dbhur do bhur
 de'd de do
 de'm de mo
@@ -1055,6 +1060,7 @@ deirimsa deirimse
 deirir deir tú
 deirm deirim
 deirmse deirimse
+deirtheá déarfá
 Demétriuis Déiméitrias
 Demétrius Déimitrias
 denár dár
@@ -1327,6 +1333,7 @@ donímse déanaimse
 donír a dhéanann tú
 donír déanann tú
 doníthí a dhéantaí
+doras-druidthe doras druidte
 dorighne a rinne
 dorighne rinne
 dorighneabhar rinne sibh
@@ -1663,12 +1670,14 @@ gaodal Gael
 gaodalach Gaelach
 gaodhal Gael
 gaoith gaoth
+gaoithesa gaoithese
 Gaoth-Sáile Gaoth Sáile
 Garumna Garmna
 gcaithfam gcaithfimid
 gcaithid gcaitheann
 gcaithid gcaitheann siad
 gCarmain Garman
+gcarnaoiligh gcarn aoiligh
 gCeann-trágha gCeann Trá
 gceol-sidhe gceol sí
 gciad gcéad
@@ -1783,6 +1792,8 @@ gním déanaim
 gníonn déanann
 Gobnuit Gobnait
 godtí go dtí
+goidé cad é
+goidé cad é a
 goidé'n cad é an
 goillid goilleann
 goillid goilleann siad
@@ -2116,6 +2127,7 @@ mB'l'Átha mBaile Átha
 mB'l'Áthluain mBaile Átha Luain
 mB'l'áth mBaile Átha
 mB'l'áthluain mBaile Átha Luain
+mb'éigin mb'éigean
 mbadh mba
 mBaile-an-Mhuilinn mBaile an Mhuilinn
 mBaile-na-hAbhann mBaile na hAbhann
@@ -2140,6 +2152,7 @@ mbein mbeinn
 mbeir mbeidh tú
 mbeirse mbeidh tusa
 mbeithfeá mbeifeá
+mBerlin mBeirlín
 mBetlehem mBeithil
 mbfhéidir mb'fhéidir
 mbiad mbeidh mé
@@ -2205,6 +2218,7 @@ Mhic-Ghiolla-Choda Mhic Ghiolla Choda
 MhicGhiolla-Choda Mhic Ghiolla Choda
 mhich mhic
 Mhichil Mhíchíl
+Mhicileáin Mhic Fhaoláin
 mho mo
 mhothuighsiod mhothaigh
 mhothuighsiod mhothaíodar
@@ -2218,6 +2232,7 @@ Mhághnuis Mhánais
 Mhághnus Mhánas
 Mháighréad Mháiréad
 Mhám-na-Ceathrúna Mhám na Ceathrún
+mháthairsa mháthairse
 Mhéadhbha Mhéabha
 Mhéibh Mhéabh
 Mhóab Mhóáb
@@ -2400,6 +2415,7 @@ nídh-sa-mhó níos mó
 nídhsa-mhó níos mó
 nílid níl siad
 níliosam níl a fhios agam
+nímé ní mé
 nó'n nó an
 Nóe Naoi
 Nóláin Nualláin
@@ -2454,6 +2470,7 @@ Phroinsis Phroinsiais
 Phroinsís Phroinsiais
 Phróinsias Phroinsias
 Phádhraig Phádraig
+Phádraigsa Phádraigse
 Phádruic Phádraig
 Phádruig Phádraig
 Pháidin Pháidín
@@ -2645,6 +2662,7 @@ sean-Dhiarmaid sean-Diarmaid
 sean-mhicil sean-Mhicil
 seanaMhicil sean-Mhicil
 seanaMicil sean-Mhicil
+seanfhataí seanphrátaí
 Seannaidh Seanaidh
 Searlus Séarlas
 seasúr séasúr
@@ -2828,6 +2846,7 @@ th'éitheach d'éitheach
 thabharfad thabharfaidh mé
 thabharfadsa thabharfaidh mise
 thabharfair thabharfaidh tú
+thabharfas thabharfaidh
 thairrigíos tharraing mé
 thairrngirsiod thairngríodar
 thaispeánas thaispeáin mé
@@ -2858,6 +2877,8 @@ thiubhrad thabharfaidh mé
 thiubhrainnse thabharfainnse
 thiubhrair thabharfaidh tú
 thiubhras thugann
+thiúrfainnse thabharfainnse
+thiúrfas thabharfaidh
 Thobias Thóibias
 thochaisíos thochais mé
 thoir-theas thoir theas

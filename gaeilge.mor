@@ -32423,6 +32423,9 @@ gairiúint
 gairm/US
 gairmeach/S
 gairmeacha/S
+gairmeoir/US
+gairmeoirí/US
+gairmeora/US
 gairmigh/S
 gairmim/USA
 gairmiúlachais/US
@@ -35574,6 +35577,7 @@ gróigín/US
 gróigíní/US
 grómh
 gróta
+grú/US
 grúagach
 grúdán
 grúgánach
@@ -40911,6 +40915,7 @@ loibhreachán
 loic
 loiceadóir
 loich
+loiche
 loicheáin
 loicheán
 loichneach
@@ -46296,6 +46301,8 @@ nAondroma
 naonmhair
 naonmhar
 naonmhur
+naonra
+naonraí
 nAontachtach
 nAontachtaigh
 nAontraim
@@ -49200,6 +49207,8 @@ Pict/S
 Picti/S
 Pictibh
 pictiúir/US
+pictiúirleabhair/US
+pictiúirleabhar/US
 pictiúirí/US
 pictiúra/US
 pictiúrí/US
@@ -50257,6 +50266,7 @@ puca/US
 pucaide/US
 pucaidí/US
 pucaire
+pucanna/US
 pucaí/US
 puch/US
 pucáin/US
@@ -53861,6 +53871,10 @@ scarúin
 scarúint
 scarúinte
 scarúna
+scarúnach
+scarúnacha
+scarúnaigh
+scarúnaí
 scat
 scath-bhualadh
 scathach
@@ -55460,6 +55474,7 @@ seantséipéal
 seantuistí/S
 seanughdair/ST
 seanughdar/S
+seanórach/S
 seanórdha
 seanórdhacht
 seanórtas
@@ -55522,6 +55537,10 @@ seartha
 searúis/ST
 searúit/ST
 searús/S
+searúsach/S
+searúsacha/S
+searúsaigh/S
+searúsaí/S
 searút/S
 seas
 seas-amach
@@ -58590,6 +58609,7 @@ sonaí
 sonaíoch
 sonaíocht/ST
 sonaíochta/S
+soncadh/S
 sonda
 sonn
 sonnda/S
@@ -59926,6 +59946,7 @@ stiúgaíl
 stiúgán
 stiúidíó
 stiúidíónna
+stiúirigh
 stiúiriú
 stiúirtheoir
 stiúirtheoirí
@@ -60600,6 +60621,7 @@ suaraíola/S
 suarcas
 suarthamán
 suartlach
+suas-chun-dáta
 Suasalannach/S
 Suasalannacha/S
 Suasalannaigh/S
@@ -61962,7 +61984,8 @@ tairingireachtaí/US
 tairinigidh
 tairis/S
 tairiscinte/US
-tairiscíonn
+tairiscíonn/US
+tairiscítear/US
 tairise/S
 tairiseacht/US
 tairiseachta/US
@@ -62123,9 +62146,11 @@ taisreacht/US
 taisreachta/US
 taistealach/US
 taistealaigh/US
+taistealann/US
 taisteáil/US
 taisteála/US
 tAisticeach
+taistilíonn/US
 taisím/USC
 taite
 taiteanfaidh/US
@@ -62654,6 +62679,7 @@ tcídh
 tcífidh
 tcím
 tcímse
+tcítear
 tEabhraíoch
 teaccoid
 teach-a-phobail
@@ -62889,6 +62915,7 @@ teichte/SU
 teicineáil
 teicniciúil/S
 teicniciúla/S
+teicníceanna/US
 teicstíleacha/US
 teid
 teidheann/US
@@ -64160,7 +64187,7 @@ tionnuaradh
 tionnúra
 tionscadal
 tionscail
-tionscaint
+tionscaint/US
 tionscal
 tionscalaíocht/US
 tionscalaíochta/US
@@ -64265,6 +64292,7 @@ tiubhraimíd/US
 tiubhrainn/US
 tiubhrfadh/US
 tiubhrá/US
+tiubhú/US
 tiucfuid
 tiufa/SU
 tiugh/S
@@ -64718,6 +64746,7 @@ tomhaltar/US
 tomhaltóireacht/US
 tomhaltóireachta/US
 tomhasanna/US
+tomhasta/S
 tomhastar
 tomhladh
 tomhlaidís
@@ -65796,6 +65825,7 @@ trúmpa/US
 trúmpaí/US
 trúnc/US
 trúp/US
+trúpanna/US
 trúpóir
 trús
 trúsc
@@ -66385,6 +66415,9 @@ turasanna/US
 turbait/US
 turbaite/US
 turbaití/US
+turbascaird/US
+turbascairde/US
+turbascairdeanna/US
 turbha
 turbhadh
 turbhadha
@@ -66912,6 +66945,8 @@ tírghrádhach/S
 tírghrádhacha/S
 tírghrádhaigh/S
 tírghrádhaí/S
+tírghráúil/S
+tírghráúla/S
 tíribh/US
 tírtheáil/US
 tírtheála/US
@@ -67227,6 +67262,7 @@ uainítear/HU
 uair
 uair-si
 uaireanna/HMDBU
+uaireantaí/HMDBU
 uairibh
 uairneach
 uairthneach

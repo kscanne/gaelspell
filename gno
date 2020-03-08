@@ -339,6 +339,7 @@ Mandriva
 Marriott
 Masita
 Mastercard
+Maunsel
 Mazars
 McDonald's
 McKesson
@@ -419,6 +420,7 @@ Pieta
 Pinterest
 Pirelli
 Pixar
+Playboy
 Playstation
 Pokémon
 Polldaddy
@@ -578,6 +580,7 @@ WalMart
 Wavebob
 Webbery
 Weetabix
+Westbury
 Westlife
 WhatsApp
 Whelan's

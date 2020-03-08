@@ -4,6 +4,7 @@ Acadian
 Accenture
 Acrobat
 Adaptxt
+Adidas
 Adobe
 Advertiser
 Aertel
@@ -13,7 +14,9 @@ Airbnb
 Airbus
 Aironi
 Airtricity
+Ajax
 Aldi
+Alexa
 Allfirst
 Allianz
 Altan
@@ -30,6 +33,7 @@ Anonymous
 Apache
 Apple
 Aramark
+AranLIFE
 Argos
 Arramara
 Arsenal
@@ -57,8 +61,10 @@ Bloomsbury
 Bluetooth
 Boeing
 Bose
+Botox
 Boutle
 Brexit
+Britannica
 Budweiser
 Buick
 Bulfin
@@ -152,6 +158,7 @@ Esquire
 Etihad
 Eudora
 Euratom
+Eurojust
 Eurolang
 EuroMillions
 Europa
@@ -171,6 +178,7 @@ Fastnet
 Fedora
 Ferrari
 Fiat
+Figaro
 Figgis
 Filmbase
 Fintrax
@@ -219,10 +227,12 @@ Gcom
 Gentoo
 Ghostscript
 Gibsol
+Glanbia
 Gleneagle
 Gmail
 GoFundMe
 Google
+Grammy
 Greenpeace
 Guardian
 Gucci
@@ -233,6 +243,8 @@ Harley
 Hebdo
 Heineken
 Heinemann
+Hibernia
+Hibernian
 Hillgrove
 Hilton
 Hitachi
@@ -258,6 +270,7 @@ Intel
 Interpol
 Interreg
 Intreo
+Iomairt
 iOS
 iPad
 iPhone
@@ -276,6 +289,7 @@ JobBridge
 JobsPlus
 Joomla
 Juventus
+Kantar
 Kappa
 Kerrygold
 Kerryman
@@ -303,6 +317,7 @@ Lingus
 LinkedIn
 Linspire
 Linux
+Littlewoods
 Liveline
 LoCall
 Lockheed
@@ -310,6 +325,7 @@ Lohans
 Londis
 Lotus
 Lurgan
+Lusitania
 Lycos
 Lyric
 MacBook
@@ -326,17 +342,20 @@ Mastercard
 Mazars
 McDonald's
 McKesson
+Meanmanra
 MediaWiki
 Medicaid
 Medtronic
 Mercedes
 Mercier
 Merck
+Mercosur
 Meteor
 Meyrick
 Michelin
 Microsoft
 Minecraft
+Misericordiae
 Mitsubishi
 Mixcloud
 Mobil
@@ -346,6 +365,7 @@ Monopoly
 Moodle
 Moonfish
 Morgan
+Motherfoclóir
 Motorola
 Mozilla
 Mylan
@@ -407,8 +427,10 @@ Poolbeg
 PopNuacht
 PowerPoint
 Pramerica
+Pravda
 Prezi
 PricewaterhouseCoopers
+Primark
 Prius
 Procter
 Prudential
@@ -453,6 +475,7 @@ Seahawks
 Seaplants
 Sephora
 Shailearna
+SharePoint
 Shelbourne
 Shell
 Sháirséal
@@ -486,6 +509,7 @@ Sundance
 Supermac's
 Superquinn
 SuperValu
+SurveyMonkey
 SwiftKey
 Swype
 Symantec
@@ -498,6 +522,7 @@ Tayto
 Taytos
 Technorati
 TechSpace
+Teflon
 Telecom
 Telegael
 Telegraph

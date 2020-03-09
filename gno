@@ -45,6 +45,7 @@ Aviva
 Baboró
 Bacardi
 Barnardos
+Barry's
 Bayer
 Beamish
 Bebo
@@ -54,6 +55,7 @@ Berria
 Bewley's
 Bioniche
 Bisto
+Bitcoin
 Blackboard
 Blockbuster
 Blogger
@@ -259,6 +261,7 @@ IKEA
 iMac
 iMovie
 Imram
+iMúscraí
 Indaver
 Indecon
 Independent
@@ -310,6 +313,7 @@ Largo
 LaTeX
 Lego
 Leisureland
+Libertas
 LibreOffice
 Lidl
 Lilliput
@@ -392,6 +396,7 @@ Nutella
 Oberweis
 Odeo
 Ofcom
+Oghma
 Olympus
 OpenGL
 OpenOffice
@@ -540,6 +545,7 @@ Timoney
 Titanic
 Tocco
 Topshop
+Topthorn
 Toshiba
 Touche
 Toyota
@@ -576,11 +582,13 @@ Vodafone
 Volkswagen
 Volvo
 Vonage
+Vroom-Town
 WalMart
 Wavebob
 Webbery
 Weetabix
 Westbury
+Westenra
 Westlife
 WhatsApp
 Whelan's
@@ -595,6 +603,7 @@ WordPress
 Xanga
 Xbox
 Xerox
+Xinlian
 Xposé
 Yahoo
 Yale

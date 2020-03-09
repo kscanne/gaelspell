@@ -1,5 +1,5 @@
---- gaeilge.aff	2018-07-20 10:18:45.414976055 -0500
-+++ gaeilgemor.aff	2018-07-20 12:34:54.438003257 -0500
+--- gaeilge.aff	2020-03-09 17:41:24.323807199 -0500
++++ gaeilgemor.aff	2020-03-09 17:42:12.079445337 -0500
 @@ -6,7 +6,7 @@
  nroffchars	().\\*
  texchars	()\[]{}<\>\\$*.%
@@ -26,7 +26,7 @@
  
  						     # buaim, iaim
  	[IU] A I M		>	-IM,NN       # láithreach CB lch.98
-@@ -344,6 +347,8 @@
+@@ -345,6 +348,8 @@
  	[IU] A I M		>	-M,GÍ        # ordaitheach
  	[IU] A I M		>	IS
  	[IU] A I M		>	-M,DÍS
@@ -35,7 +35,7 @@
  
  	E A I M			>	-AIM,ITEAR   # glaeaim->glaeitear
  
-@@ -357,6 +362,8 @@
+@@ -358,6 +363,8 @@
  	[^AOÁÉÓÚ] I M		>	-M,GÍ        # ordaitheach
  	[^AOÁÉÓÚ] I M		>	IS
  	[^AOÁÉÓÚ] I M		>	-M,DÍS
@@ -44,7 +44,7 @@
  
  	[^HAOÁÉÓÚT] I M		>	-IM,TEAR     # láithreach saor
  
-@@ -383,6 +390,8 @@
+@@ -384,6 +391,8 @@
  	É I M		>	-M,GÍ                # ordaitheach
  	É I M		>	IS
  	É I M		>	-M,DÍS
@@ -53,7 +53,7 @@
  
  						     # guím
  	Í M		>	-M,ONN               # láithreach CB lch.99
-@@ -394,6 +403,8 @@
+@@ -395,6 +404,8 @@
  	Í M		>	-M,GÍ                # ordaitheach 
  	Í M		>	IS
  	Í M		>	-M,DÍS
@@ -62,7 +62,7 @@
  
  	[^AOU] Í M		>	-ÍM,ITEAR
    						     # cnaím, maím
-@@ -425,6 +436,7 @@
+@@ -426,6 +437,7 @@
  	[^IUF] A I N N		>	-AINN,FAIDÍS
  	[^IUF] A I N N		> 	-AINN,FAÍ
  	[^IU] A I N N		>	-INN,DAR     # An B.N.
@@ -70,7 +70,7 @@
  
  	[^HEUTI] A I N N		>	-AINN,TÁ     # gnáthchaite
  	[^HEUTI] A I N N		>	-AINN,TAÍ     
-@@ -479,6 +491,7 @@
+@@ -482,6 +494,7 @@
  	[IU] A I N N		>	-INN,FAIDÍS
  	[IU] A I N N		> 	-INN,FAÍ
  	[IU] A I N N		>	-INN,DAR     # An B.N.
@@ -78,7 +78,7 @@
  
  	E A I N N		>	-AINN,ITEÁ   # ghlaeainn->ghlaeiteá
  	E A I N N		>	-AINN,ITÍ
-@@ -495,6 +508,7 @@
+@@ -498,6 +511,7 @@
  	[^AOÁÉÓÚ] I N N		>	-INN,FIDÍS
  	[^AOÁÉÓÚ] I N N		> 	-INN,FÍ
  	[^AOÁÉÓÚ] I N N		>	-INN,EADAR    # An B.N.
@@ -86,7 +86,7 @@
  
  	[^HAOÁÉÓÚT] I N N	>	-INN,TEÁ      # gnáthchaite
  	[^HAOÁÉÓÚT] I N N	>	-INN,TÍ
-@@ -529,6 +543,7 @@
+@@ -532,6 +546,7 @@
  	É I N N		>	-NN,FIDÍS
  	É I N N		> 	-NN,FÍ
  	É I N N		>	-INN,ADAR             # An B.N.
@@ -94,7 +94,7 @@
  
  					              # ghuínn, d'fhínn
  	Í N N		>	-NN,OMAR              # caite
-@@ -542,6 +557,7 @@
+@@ -545,6 +560,7 @@
  	Í N N		>	-NN,FIDÍS
  	Í N N		> 	-NN,FÍ
  	Í N N		>	-NN,ODAR              # An B.N.
@@ -102,7 +102,7 @@
  
  	[^AOU] Í N N		>	-ÍNN,ITEÁ
  	[^AOU] Í N N		>	-ÍNN,ITÍ
-@@ -609,6 +625,7 @@
+@@ -612,6 +628,7 @@
  	A Í N N		>	-AÍNN,ÓIDÍS
  	A Í N N		>	-AÍNN,ÓFAÍ
  	A Í N N		>	-NN,ODAR        # An B.N. 
@@ -110,7 +110,7 @@
  
                                                  # bhailínn, d'áitínn
  	[^A] Í N N	>	-NN,OMAR        # caite
-@@ -624,6 +641,7 @@
+@@ -627,6 +644,7 @@
  	[^A] Í N N	>	-ÍNN,EOIDÍS
  	[^A] Í N N	>	-ÍNN,EOFAÍ
  	[^A] Í N N	>	-NN,ODAR        # An B.N. 
@@ -118,7 +118,7 @@
  
  #  This syntax works, but unmunch doesn't like a 0 replacement:
  #   L A I M              >       -IM,""          # ainmfhocal briathartha
-@@ -653,6 +671,7 @@
+@@ -656,6 +674,7 @@
          L A I N N              >       -AINN,FAIDÍS
          L A I N N              >       -AINN,FAÍ
          L A I N N              >       -INN,DAR        # An B.N.

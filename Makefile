@@ -437,6 +437,9 @@ SentenceExceptList.xml: ${HOME}/gaeilge/gramadoir/gr/ga/giorr-ga.txt
 	echo '<block-list:block-list xmlns:block-list="http://openoffice.org/2001/block-list">' >> $@
 	cat ${HOME}/gaeilge/gramadoir/gr/ga/giorr-ga.txt | iconv -f iso-8859-1 -t UTF-8 | sed 's/\[.\(.\)\]/\1/' | sed 's/.*/ <block-list:block block-list:abbreviated-name="&."\/>/' >> $@
 	echo '</block-list:block-list>' >> $@
+
+leadingcaps: gaelspell.txt
+	egrep '^[A-Z][A-Z].*[a-z]' gaelspell.txt > $@
 	
 WordExceptList.xml: leadingcaps
 	echo '<?xml version="1.0" encoding="UTF-8"?>' > $@

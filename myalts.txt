@@ -211,6 +211,7 @@ aon-chirt aonchirt
 aonbhall aon bhall
 aonbhliadhain aon bhliain
 aonchéim aon chéim
+aondath aon dath
 aonfhocal aon fhocal
 aonláthair aon láthair
 aonoidhche aon oíche
@@ -270,6 +271,8 @@ b'aige ba aige
 b'air ba air
 b'e ba é
 b'eigin b'éigean
+b'eigint b'éigean
+b'eigín b'éigean
 b'fhacas chonacthas
 b'fhacthas chonacthas
 b'fhearabh b'fhir
@@ -568,6 +571,7 @@ Boos Boaz
 Borbruadh Borbrua
 Boston Bostún
 bp'róiste bparóiste
+bPortlaoise bPort Laoise
 bPáirc-an-Fhionn-uisce bPáirc an Fhionnuisce
 brandy branda
 Brazil an Bhrasaíl
@@ -1004,6 +1008,7 @@ d'imthidh d'imigh
 d'imthig d'imigh
 d'imthigheann imíonn
 d'imtigh d'imigh
+d'innfhiúchadh a iniúchadh
 d'innseas d'inis mé
 d'innsigheas d'inis mé
 d'innsint a insint
@@ -1017,6 +1022,7 @@ d'mo de mo
 d'mo do mo
 d'ol a ól
 d'ol d'ól
+d'Omár d'Ómár
 d'osclaíos d'oscail mé
 d'réar deartháir
 d'Íta d'Íte
@@ -1106,6 +1112,7 @@ dhearnas dhearna mé
 dhearnuigh dhearna
 Dheasumhan Dheasmhumhan
 dheineas rinne mé
+dheineassa rinne mise
 dheinimse dhéanaimse
 dheirbhshiúrsa dheirfiúrsa
 dheirim deirim
@@ -1114,6 +1121,9 @@ dhem de mo
 Dhemétriuis Dhéiméitrias
 Dhemétrius Dhéiméitrias
 dheurfá déarfá
+dhfholuigh d'fholaigh
+dhfháisc a d'fháisc
+dhfháisc d'fháisc
 dhiaidh-san dhiaidhsean
 Dhiarmuda Dhiarmada
 dhiúra-dheabhra dhiúra dheabhra
@@ -1134,6 +1144,7 @@ Dháibhid Dháiví
 Dháibhidh Dháibhí
 dhálta-sa dhála-sa
 Dhárbhuin Darwin
+dhéadh dhiaidh
 dhéanad dhéanfaidh mé
 dhéanaid dhéanann
 dhéanaid dhéanann siad
@@ -1842,6 +1853,7 @@ heachtaibh hachtanna
 hEallaithe hÉallaithe
 Heanraigh Anraí
 heascaineadh eascainíodh
+heasnamhse heasnamhsa
 Hebron Heabrón
 hEigceartaigh hÉigeartaigh
 hEilidhe hÉilí
@@ -2157,6 +2169,7 @@ mbeimísne mbeimisne
 mbein mbeinn
 mbeir mbeidh tú
 mbeirse mbeidh tusa
+mbeitheása mbeifeása
 mbeithfeá mbeifeá
 mBerlin mBeirlín
 mBetlehem mBeithil
@@ -2205,6 +2218,8 @@ Mhagdalén Mhaigdiléana
 Mhaghnuis Mhánais
 Mhaghnus Mhánas
 Mhagog Mhágóg
+Mhahomet Mhahamad
+Mhahomit Mhahamad
 mhaiseadh mhuise
 mhait mhaith
 mhaithimíd-ne mhaithimidne
@@ -2250,12 +2265,14 @@ Mionloch Mionlach
 Montseoighe Mhuinseo
 Mountioi Mountjoy
 mu'n um an
+muezzín muaisin
 muileann-scuitseála muileann scuitseála
 Muirean Muireann
 Mullach-an-Bhuaicín Mullach an Bhuaicín
 murarb murab
 murarb murarbh
 má'seadh más ea
+má'sé más é
 Mághchuilinn Maigh Cuilinn
 Mághcuilinn Maigh Cuilinn
 máighistirse máistirse
@@ -2284,12 +2301,15 @@ n'fhéadfadh ní fhéadfadh
 n'fhéadfainn ní fhéadfainn
 n'ár nár
 n'íl níl
+n-a a
+n-a ina
 n-abraid ndeir
 n-abraid ndeir siad
 n-abórainn ndéarfainn
 n-imeoch n-imeodh
 n-innsead n-inseoidh mé
 n-ithid n-itheann
+n-éagaid n-éagann siad
 n-úsáidte n-úsáide
 na'n ná an
 Naaman Námán
@@ -2440,6 +2460,7 @@ Oirghialla Oirialla
 oirrese uirthise
 Oisin Oisín
 Olibhet na nOlóg
+Omár Ómár
 Oméith Ó Méith
 Orpheus Oirféas
 orthasan orthusan
@@ -2617,6 +2638,7 @@ Ríoghardáin Ríordáin
 Ríoghbhardáin Ríordáin
 ró-bhaoghal róbhaol
 Rósínanté Rocinante
+rót romhat
 rúd rud
 s'againnne s'againne
 s'againnse s'againne
@@ -2643,6 +2665,7 @@ Salóme Salómae
 samach is amach
 Samaria an tSamáir
 Samaría an tSamáir
+samhailna samhailne
 samhna Samhna
 sanall is anall
 saor-adhmaid saor adhmaid
@@ -2667,9 +2690,12 @@ seal-inne sealna
 Seamuisín Séamuisín
 sean-Dhiarmaid sean-Diarmaid
 sean-mhicil sean-Mhicil
+seanadhigh seandeoch
+seanadhol seandol
 seanaMhicil sean-Mhicil
 seanaMicil sean-Mhicil
 seanfhataí seanphrátaí
+seanghuidhe seanghuí
 Seannaidh Seanaidh
 Searlus Séarlas
 seasúr séasúr
@@ -2928,6 +2954,7 @@ théighir théann tú
 Thímóin Thimóin
 Thír-na-n-Óg Thír na nÓg
 Thír-na-nÓg Thír na nÓg
+thóbhairt thabhairt
 thógais-se thóg tú
 thógbhas a thógann
 Thórna Thorna
@@ -3059,6 +3086,7 @@ Zeús Séas
 Éabh Éabha
 Éamuinn Éamoinn
 Ébha Éabha
+Éden Éidin
 Éibhlín Eibhlín
 Éilge Ealga
 Íta Íte

@@ -408,6 +408,7 @@ Outlook
 Oxegen
 Oxfam
 Pandora
+Parwin
 Pavee
 PayPal
 País
@@ -417,6 +418,7 @@ Petrobras
 Peugeot
 Pfizer
 Phillies
+Philomel
 Photocall
 Photoshop
 Picasa

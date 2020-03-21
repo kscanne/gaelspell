@@ -1317,10 +1317,12 @@ ailbheolas/HMDBUT
 ailbheolaí/B
 ailbéideacht/HMDBU
 ailbéideachta/HMDU
-ailbíneach/HMDBUT
+ailbíneach/HBMDUT
+ailbíneacha/B
 ailbíneachais/HMDU
 ailbíneachas/HMDBUT
 ailbínigh/HMDBU
+ailbíní/B
 Ailbíseach
 Ailbíseacha
 Ailbísigh
@@ -4092,6 +4094,10 @@ an-tiomanta/HB
 an-tionchar
 an-tirim/HB
 an-tiubh
+an-tobainn
+an-tobainne/B
+an-tobann/HB
+an-tobanna/B
 an-toradh/HMDBUT
 an-toraidh/HMDU
 an-torthúil/HB
@@ -10434,6 +10440,7 @@ beathúla/S
 beathúnais/US
 beathúnas/US
 beibheal/US
+beibhealta/S
 beibhil/US
 beica/US
 beiche/US
@@ -22413,12 +22420,13 @@ comhaimsir/US
 comhaimsire/US
 comhaimsirí/US
 comhainm/US
-comhainmneach/US
-comhainmneacha/US
+comhainmneach/SU
+comhainmneacha/SU
 comhainmneoir/US
 comhainmneoirí/US
 comhainmneora/US
-comhainmnigh/US
+comhainmnigh/SU
+comhainmní/S
 comhair/US
 comhairc/US
 comhairce/US
@@ -38359,6 +38367,9 @@ eirgeanamaíocht/HMDBU
 eirgeanamaíochta/HMDU
 eirgisféar/HMDBUT
 eirgisféir/HMDBU
+eirgíche/B
+eirgíoch/HB
+eirgíocha/B
 eiriceach/HMDBUT
 eiriceacht/HMDBU
 eiriceachta/HMDU
@@ -41785,6 +41796,8 @@ foghrú/MDBUS
 foghrúpa/MDBUS
 foghrúpaí/MDBUS
 foghtha/BS
+foghéineas/MDBUS
+foghéinis/MDBUS
 foiche/MDBUS
 foichí/MDBUS
 foighdeáin/MDBUS
@@ -44060,7 +44073,7 @@ fáinneáin/MDBUS
 fáinneála/MDUS
 fáinneán/MDBUS
 fáinnigh/SU
-fáinnithe/SBUMD
+fáinnithe/BSUMD
 fáinniú/USBMD
 fáinní/BSMDU
 fáinním/USC
@@ -66396,6 +66409,8 @@ mothúchánach/S
 mothúchánacha/S
 mothúchánaigh/S
 mothúchánaí/S
+muaisin/S
+muaisiní/S
 muc/S
 muca/S
 mucacháin/S
@@ -80993,11 +81008,15 @@ ródhearfach
 ródhearfacha
 ródhearfaigh
 ródhearfaí
+ródhearg
+ródhearga
 ródheas
 ródheireanach
 ródheireanacha
 ródheireanaigh
 ródheireanaí
+ródheirg
+ródheirge
 ródhian
 ródhiana
 ródhifriúil
@@ -85316,6 +85335,8 @@ sean-nósaí/S
 sean-Pharlaimint
 sean-Pharlaiminte
 sean-Pharlaimintí
+Sean-Pheirsis
+Sean-Pheirsise
 Sean-Róimh
 Sean-Róimhe
 Sean-Sasana
@@ -86657,6 +86678,8 @@ Shean-Lochlainnise
 shean-Pharlaimint
 shean-Pharlaiminte
 shean-Pharlaimintí
+Shean-Pheirsis
+Shean-Pheirsise
 Shean-Róimh
 Shean-Róimhe
 Shean-Sasana
@@ -94063,6 +94086,8 @@ Súdánach/S
 Súdánacha/S
 Súdánaigh/S
 Súdánaí/S
+Súfaígh/S
+Súfaíoch/S
 súgach/S
 súgacha/S
 súgachais/ST
@@ -98908,6 +98933,9 @@ tréanais/US
 tréanas/US
 tréanfhear/US
 tréanfhir/US
+tréanghuth/US
+tréanghutha/US
+tréanghuthanna/US
 tréaniarracht/US
 tréaniarrachta/US
 tréaniarrachtaí/US
@@ -99274,6 +99302,7 @@ tSean-Ghréig
 tSean-Ghréigis
 tSean-Lochlainnis
 tsean-Pharlaimint
+tSean-Pheirsis
 tSean-Róimh
 tSean-Sasana
 tSean-Tiomna
@@ -99420,6 +99449,7 @@ tSóróstaraigh
 tSúdáin
 tSúdáinis
 tSúdánaigh
+tSúfaígh
 tSúlú
 tSúlúis
 tSúlúlainn
@@ -103594,7 +103624,7 @@ zúnna
 éighníomhaí/B
 éigiall/HMDBU
 éigiallta/HB
-éigin/HBMDU
+éigin/HMDU
 éigineáil/HB
 éiginnte/HB
 éiginnteacht/HMDBU
@@ -103767,6 +103797,9 @@ zúnna
 éiritheacha/B
 éiritheacht/HMDBU
 éiritheachta/HMDU
+éiritheoir/HMDBUT
+éiritheoirí/HMDBU
+éiritheora/HMDU
 éirithigh
 éirithí/B
 éirnigh/HU

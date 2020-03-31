@@ -65,8 +65,11 @@ Boeing
 Bose
 Botox
 Boutle
+Brainscape
+Breitbart
 Brexit
 Britannica
+Buckfast
 Budweiser
 Buick
 Bulfin
@@ -106,6 +109,7 @@ ComReg
 Concern
 Concorde
 Conoco
+Corkman
 Corning
 Cortina
 Costco
@@ -158,6 +162,7 @@ Ericsson
 Esat
 Esquire
 Etihad
+Etsy
 Eudora
 Euratom
 Eurojust
@@ -189,6 +194,7 @@ Fitbit
 Flash
 Flickr
 Flirt
+Flybe
 FocalFactory
 Folens
 Formula
@@ -231,9 +237,11 @@ Ghostscript
 Gibsol
 Glanbia
 Gleneagle
+Glenroyal
 Gmail
 GoFundMe
 Google
+GoPro
 Grammy
 Greenpeace
 Guardian
@@ -328,6 +336,7 @@ Lockheed
 Lohans
 Londis
 Lotus
+Lucozade
 Lurgan
 Lusitania
 Lycos
@@ -398,6 +407,7 @@ Odeo
 Ofcom
 Oghma
 Olympus
+OnePlus
 OpenGL
 OpenOffice
 OpenPGP
@@ -482,6 +492,7 @@ Scrabble
 Scratch
 Seahawks
 Seaplants
+Sefton
 Sephora
 Shailearna
 SharePoint
@@ -513,6 +524,7 @@ Spotify
 Starbucks
 Statoil
 Steam
+Stobart
 Subhóró
 Sundance
 Supermac's

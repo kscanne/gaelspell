@@ -1,3 +1,4 @@
+Abercrombie
 AbiWord
 Abán
 Acadian
@@ -364,6 +365,7 @@ Mercedes
 Mercier
 Merck
 Mercosur
+Merriam-Webster
 Meteor
 Meyrick
 Michelin
@@ -415,6 +417,7 @@ Opera
 Oracle
 Oscars
 Outlook
+Overwatch
 Oxegen
 Oxfam
 Pandora
@@ -554,6 +557,7 @@ TeX
 Texaco
 Thunderbird
 Ticketmaster
+TikTok
 Timberland
 Timoney
 Titanic

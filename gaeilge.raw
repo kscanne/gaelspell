@@ -15562,6 +15562,8 @@ cabhaileog/US
 cabhaileoga/US
 cabhaileoige/US
 cabhailfhada/S
+cabhailín/US
+cabhailíní/US
 cabhair/US
 cabhalra/US
 cabhaí/US
@@ -20482,6 +20484,8 @@ cliceáil/US
 cliceáilte/S
 cliceála/US
 cliceálaim/USI
+clicmhealladh/US
+clicmheallta/US
 climeartha/SU
 climir/US
 climirt/US
@@ -20768,6 +20772,8 @@ cluicheálaithe/US
 cluicheálaí/US
 cluichigh/S
 cluichim/USA
+cluichire/US
+cluichirí/US
 cluichte/SU
 Cluichí/S
 cluichí/SU
@@ -20969,6 +20975,9 @@ clóchuradóireachta/US
 clóchuradóirí/US
 clóchuradóra/US
 clóchurtha/S
+clódhearthóir/US
+clódhearthóirí/US
+clódhearthóra/US
 clódóir/US
 clódóireacht/US
 clódóireachta/US
@@ -45955,6 +45964,8 @@ galstobh/US
 galstobhadh/US
 galstobhaim/USA
 galstofa/SU
+galtoitín/US
+galtoitíní/US
 galtomhais/US
 galtomhas/US
 galtáin/US
@@ -49386,6 +49397,8 @@ gnóthach/S
 gnóthacha/S
 gnóthachain/US
 gnóthachan/US
+gnóthacht/US
+gnóthachta/US
 gnóthachtáil/US
 gnóthachtála/US
 gnóthachtálacha/US
@@ -63528,8 +63541,12 @@ marúin/S
 marúine/S
 marún/S
 marúna/S
+masacach/S
+masacacha/S
+masacaigh/S
 masacais/S
 masacas/S
+masacaí/S
 masc/S
 masca
 mascadh/S
@@ -75528,6 +75545,9 @@ pobalda/S
 pobalscoil/US
 pobalscoile/US
 pobalscoileanna/US
+pobalóir/US
+pobalóirí/US
+pobalóra/US
 Poblacht/S
 poblacht/US
 Poblachta/S
@@ -81834,6 +81854,7 @@ saicín/ST
 saicíní/S
 saidhbhéar/S
 saidhbhéir/ST
+saidhleam
 saidléara/ST
 saidléir/S
 saidléirí/S
@@ -86291,6 +86312,9 @@ Seipidis/S
 Seipidise/S
 seipilín/ST
 seipilíní/S
+seipsis/ST
+seipsise/S
+seipsisí/S
 seipteach/S
 seipteacha/S
 seipteam/S
@@ -87249,8 +87273,11 @@ simpliú/S
 simpliúcháin/ST
 simpliúchán/S
 simplí/S
+simplíche/S
 simplím/SC
 simplínn/F
+simplíoch/S
+simplíocha/S
 simplíocht/ST
 simplíochta/S
 siméadrach/S
@@ -87994,6 +88021,9 @@ sleasach/S
 sleasacha/S
 sleasaigh/S
 sleasaí/S
+sleaschéim/ST
+sleaschéime/S
+sleaschéimeanna/S
 sleasáin/ST
 sleasán/S
 sleá/ST
@@ -88223,6 +88253,10 @@ slosóg/ST
 slosóga/S
 slosóige/S
 slua/ST
+slua-amhránaíocht/ST
+slua-amhránaíochta/S
+slua-chistithe/ST
+slua-chistiú/S
 sluabhuíne/S
 sluabhuíon/ST
 sluabhuíonta/S
@@ -88550,6 +88584,9 @@ smaileoige
 smailleac
 smailleaca
 smaillice
+smaiseog
+smaiseoga
+smaiseoige
 smalcaire
 smalcairí
 smaláin
@@ -90259,6 +90296,9 @@ spotach
 spotacha
 spotaigh
 spotaí
+spotduais
+spotduaise
+spotduaiseanna
 spotseiceáil
 spotseiceála
 spotseiceálacha
@@ -91076,6 +91116,9 @@ sroichinn/E
 sroichte/ST
 sroigheall/S
 sroighill/ST
+srubh/ST
+srubha/S
+sruibhe/S
 sruithléann/S
 sruithléinn/ST
 Sruth/S
@@ -96856,6 +96899,8 @@ tionachta/US
 tionachtaí/US
 tIonad
 tionchair/US
+tionchaire/US
+tionchairí/US
 tionchar/US
 tionlacaim/USA
 tionlacain/US
@@ -97910,8 +97955,6 @@ tranglála/US
 tranglálaim/USI
 tranglálaithe/US
 tranglálaí/US
-transubstaintithe/US
-transubstaintiú/US
 traoch/US
 traochadh/US
 traochaim/USA
@@ -97945,6 +97988,8 @@ tras-scríbhinní/US
 tras-scríobh/US
 tras-scríobhaim/USA
 tras-scríofa/SU
+tras-substaintithe/US
+tras-substaintiú/US
 trasalpach/S
 trasalpacha/S
 trasalpaigh/S
@@ -97974,6 +98019,8 @@ traschódaím/USC
 traschódú/US
 traschóimheas/US
 traschóimheasa/US
+trasdaonnachais/US
+trasdaonnachas/US
 trasdisciplíneach/S
 trasdisciplíneacha/S
 trasdisciplínigh/S
@@ -98226,6 +98273,7 @@ treilísí/US
 treis/US
 treiscín/US
 treise/SU
+treiseal
 treiseoir/US
 treiseoirí/US
 treiseora/US
@@ -99883,6 +99931,10 @@ tumchúrsaí/US
 tumoideachais/US
 tumoideachas/US
 tumtha/SU
+tumthach/S
+tumthacha/S
+tumthaigh/S
+tumthaí/S
 tumthéitheoir/US
 tumthéitheoirí/US
 tumthéitheora/US
@@ -99925,6 +99977,9 @@ turbain/US
 turbaird/US
 turban/US
 turbard/US
+turbheara/US
+turbhior/US
+turbhioranna/US
 Turcach/S
 Turcacha/S
 turcaid/US
@@ -102399,6 +102454,8 @@ víreasach
 víreasacha
 víreasaigh
 víreasaí
+víreolaithe
+víreolaí
 víris
 Vítneaimis
 Vítneaimise

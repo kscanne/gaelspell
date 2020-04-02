@@ -6,6 +6,7 @@ a'ainne
 a'am
 a'amsa
 a'at
+a'atsa
 a'Bhaird
 a'Bharraigh
 a'Bhealaigh
@@ -255,6 +256,7 @@ acfuinneacht/HMDBU
 acfuinneachta/HMDU
 acfuinnigh
 acfuinní/HBMDU
+ach'an
 acha
 acha'n
 Achab
@@ -2217,6 +2219,8 @@ amad/HMDBUT
 amadach
 amadain/HMDBU
 amadan/HMDBUT
+amadaíocht/HMDBU
+amadaíochta/HMDU
 amadánach
 amadánacht/HMDBU
 amadánachta/HMDU
@@ -2398,6 +2402,7 @@ amhrusach/HB
 amhrusacha/B
 amhrusaigh
 amhrusaí/B
+amhráintí
 amhréidhtigh/HMDBU
 amhsa/HMDBU
 amhsaineacht/HMDBU
@@ -13398,6 +13403,7 @@ cloch-aoil
 cloch-bhuadhacha
 cloch-shalann/US
 cloch-theineadh/US
+clochanna/US
 clochar
 clocharnach/US
 clocharnaí/US
@@ -34830,7 +34836,8 @@ gnóthadh
 gnóthaire
 gnóthaitheach
 gnóthaí
-gnóthaíocht
+gnóthaíocht/US
+gnóthaíochta/US
 gnóthí
 gnúis/US
 gnúise/US
@@ -50715,6 +50722,7 @@ pípeanna/US
 pípeáil
 pípín
 pógaid
+póganna/US
 póilithe/US
 póilí/US
 póilíos/US
@@ -51712,6 +51720,8 @@ rithfad-sa
 rithid
 rithimiúil
 rithimiúla
+rithíocht
+rithíochta
 ritsil
 riugadh
 rium
@@ -52934,6 +52944,8 @@ rósaí
 rósdtha
 róstaithe
 rósttha
+róstáil
+róstála
 róstóchadh
 Rósínanté
 rót
@@ -53203,6 +53215,7 @@ saigheáin/ST
 saigheán/S
 saighid
 saighin
+saighleam
 saighne
 saighneas
 saighneasach/S
@@ -55883,6 +55896,8 @@ seintéora
 seipilin/ST
 seipiline/S
 seipiliní/S
+seipseas/S
+seipsis/ST
 seipéal/S
 seipéil/ST
 Seirb/S
@@ -57808,6 +57823,7 @@ smeádráil
 smid
 smidireacht
 smidireachta
+smidithe
 smidiú
 smig
 smige
@@ -63578,6 +63594,8 @@ thiáile/U
 thiáilinn/EU
 thiúbhradh
 thiúbhrainn
+thiúineála/U
+thiúineálainn/JU
 thiúna/U
 thiúnainn/EU
 thiúrfainnse
@@ -64287,6 +64305,9 @@ tiomáint
 tiománaim/USA
 tiománta/S
 tional/US
+tionchadóir/US
+tionchadóirí/US
+tionchadóra/US
 tionchosc
 tionchuir/US
 tionchur/US
@@ -64448,6 +64469,10 @@ tiúdas
 tIúdaí
 tiúgha/S
 tiúin/US
+tiúineáil/US
+tiúineáilte/S
+tiúineála/US
+tiúineálaim/USI
 tIúipitear
 tIúl
 tiún/US
@@ -65092,6 +65117,7 @@ trangáil/US
 trangáilte/S
 trangála/US
 Transbhaal
+transubstaintiú/US
 tranóna
 traoch
 traocha/US
@@ -65479,6 +65505,7 @@ troisneach
 troist/US
 troitheacha
 troitimíd
+trollaí/US
 trom
 trom-chosach
 trom-ghoineach
@@ -66177,6 +66204,7 @@ tuaraim
 tuaraisc/US
 tuaraisce/US
 tuaraiscí/US
+tuaranna/US
 tuarascbháil/US
 tuarascbhála/US
 tuarasg

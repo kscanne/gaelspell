@@ -230,17 +230,6 @@ validalts.txt : aspell.txt athfhocail
 	counts.pl /usr/local/share/crubadan/ga/FREQ.aimsigh tempvalid.txt | sort -k4,4 -r -n > $@
 	rm -f tempvalid.txt
 
-# checks to see if right-hand side of replacements are known-correct words
-# athfhocail check is now defunct b/c of fgbalts, dinneenalts - don't
-# want to add those right-hand side lists wholesale without careful auditing
-checkearr: aspelllit.txt
-	$(MAKE) gaelu
-	LC_ALL=C sort -u aspelllit.txt $(PERSONAL) > a.tmp
-	sed 's/^[^ ]* //' earraidi | tr " " "\n" | keepif -n ./a.tmp | egrep -v '^[0-9]' | sort -u
-#	sed 's/^[^ ]* //' athfhocail | tr " " "\n" | keepif -n ./a.tmp | sort -u
-	sed 's/^[^ ]* //' gaelu | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | keepif -n ./a.tmp | sort -u
-	rm -f a.tmp
-
 gaelu: gaelu.in buildgael miotas stair
 	bash buildgael > gaelu
 

@@ -368,9 +368,6 @@ ga_IE.aff: $(AFFIXFILE) myspell-header hunspell-header
 ga-Latg-IE-dictionary.xpi: ga-Latg-IE.dic ga-Latg-IE.aff README_ga-Latg-IE.txt
 	make-exts ga-Latg-IE Irish Ireland $(RELEASE) 'GaelSpell Seanchló'
 
-mycheck: ga_IE.dic aspell.txt ga_IE.aff personal
-	cat aspell.txt personal | $(MYSPELL) -l -d ./ga_IE
-
 README_ga_IE.txt: README COPYING
 	(echo; echo "1. Version"; echo; echo "This is version $(RELEASE) of hunspell-gaeilge."; echo; echo "2. Copyright"; echo; cat README; echo; echo "3. Copying"; echo; cat COPYING) > README_ga_IE.txt
 

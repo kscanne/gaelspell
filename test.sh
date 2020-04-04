@@ -67,7 +67,8 @@ cat earraidi | sed 's/ .*//' | egrep '..' | LC_ALL=C grep -v "[^'a-zA-Záéíó�
 cat "${TMPFILE}" | 
 rm -f "${TMPFILE}"
 #### isolate rare trigrams and grep for them ####
-touch oktrigrams.txt trigram-worries.txt
+# don't touch oktrigrams since it's a makefile target
+touch trigram-worries.txt
 cat aspell.txt | sed 's/\/.*//' | sed 's/./\L\0/g' | sed 's/^/^/' | sed 's/$$/$$/' | tr "\n" "_" | sed 's/./&\n/g' | ngramify.pl 3 | tr -d " " | egrep -v '_' | keepif -n oktrigrams.txt | sort -u |
 while read x
 do

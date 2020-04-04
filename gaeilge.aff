@@ -68,7 +68,8 @@ flag *U:
 #  b'
 flag B:
  	[AEIOUÁÉÍÓÚ]	>	B'
-        F               >       -F,B'FH
+        F [^H]          >       -F,B'FH
+        F H             >       B'
 
 # h
 flag H:

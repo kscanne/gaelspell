@@ -88,15 +88,15 @@ find_pattern 'old orthography tht' 'tht'
 # Rule 14.a i and ii, lch 113
 find_pattern 'old orthography llr or lls' 'll[rs]' '([oO]lls|bhallra|^(n?dh?allr|m?ballra|n?dh?uillsilt|n?gh?éillsin|g?ch?allshaoth|g?ch?eallra|stiallscann))'
 # Rule 14.b.ii, sonnda is literary, lch 113
-find_pattern 'old orthography nnd' 'nnd' '(nndh?e[ai]rg|^(lionndubh|g?ch?eanndán|sh?onnda$)|^(b?ph?onnd)|^d?th?eanndháileoi?g)'
+find_pattern 'old orthography nnd' 'nnd' '(nndh?e[ai]rg|^(lionndubh|g?ch?eanndán|sh?onnda$|b?ph?onnd|d?th?eanndháileoi?g))'
 # Rule 14.b.iv, loinnreach/mainnre are genitives, lch 113
 find_pattern 'old orthography nnr' 'nnr' '((nnrua|loinnreach)$|^(g?ch?eannr|mh?ainnre|lannrollá))'
 # Rule 14.b.v, annsan is emphatic pronomial, not ==ansin, lch 113
-find_pattern 'old orthography nns' 'nns' '^(g?ch?eanns|n?dh?innseanch|n?gh?rinnscr|b?ph?roinnseomra|g?ch?rannseil|mh?ionnscríbhinn|m?bh?onnsmid|annsan$)'
+find_pattern 'old orthography nns' 'nns' '(nns[ae]$|^(g?ch?eanns|n?dh?innseanch|n?gh?rinnscr|b?ph?roinnseomra|g?ch?rannseil|mh?ionnscríbhinn|m?bh?onnsmid|annsan$))'
 # Rule 15.a, lch 114
-find_pattern 'old orthography -ln-' 'ln' '(iailnimh|ilnáisiúnta|ollnóva|ulna|ilnithe$|^(b?ph?ailn|m?bh?allnai?sc$))'
+find_pattern 'old orthography -ln-' 'ln' '(ilne$|iailnimh|ilnáisiúnta|ollnóva|ulna|ilnithe$|^(b?ph?ailn|m?bh?allnai?sc$))'
 # Rule 15.b, oirmhidne is literary genitive, lch 114
-find_pattern 'old orthography -dn-' 'dn' '(eicidn[eí]$|ardnósa|oirmhidne$|^(m?bh?róidn|m?bh?airdne$|mh?aidneachai?n$|^muidne$)'
+find_pattern 'old orthography -dn-' 'dn' '(idne$|eicidn[eí]$|ardnósa|oirmhidne$|^(m?bh?róidn|m?bh?airdne$|mh?aidneachai?n$|muidne$))'
 # Rule 16.a.i, lch 115
 find_pattern 'old orthography sg' 'sg[^h]' '^a$'
 # Rule 16.a.iii, lch 115
@@ -305,20 +305,20 @@ find_pattern 'aspell phonetics FEADH' 'feadh[^n]' '^(bh)?feadha(in)?$'
 # FEAR, FAR
 
 # FINN  almost always terminal
-find_pattern 'aspell phonetics FINN' 'finn[^eé]' '^a$'
+find_pattern 'aspell phonetics FINN' 'finn[^eé]' 'finnse$'
 
 # FAINN  almost always terminal
-find_pattern 'aspell phonetics FAINN' 'fainn[^eéi]' '^a$'
+find_pattern 'aspell phonetics FAINN' 'fainn[^eéi]' 'fainnse$'
 
 # FÁ
 
 # FEÁ  almost always terminal
-find_pattern 'aspell phonetics FEÁ' 'feá.' '^(bh)?feá(dói?r|nna$)'
+find_pattern 'aspell phonetics FEÁ' 'feá.' '(^(bh)?feá(dói?r|nna$)|feása$)'
 
 # FA?Í
 
 # FA?IMI(DS)
-find_pattern 'aspell phonetics FAIMID and FAIMIS' 'fa?imi[ds].' '^a$'
+find_pattern 'aspell phonetics FAIMID and FAIMIS' 'fa?imi[ds].' '^imi[ds]ne$'
 
 # FA?IDÍS
 find_pattern 'aspell phonetics FAIDÍS' 'fa?idís.' '^a$'

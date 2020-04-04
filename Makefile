@@ -230,6 +230,12 @@ validalts.txt : aspell.txt athfhocail
 	counts.pl /usr/local/share/crubadan/ga/FREQ.aimsigh tempvalid.txt | sort -k4,4 -r -n > $@
 	rm -f tempvalid.txt
 
+# should only need to rebuild this occasionally, like after adding
+# a ton of new words, or if some new words cause a mess in
+# trigram-worries.txt; DON'T do it in groom since that breaks test in test.sh
+oktrigrams.txt: aspell.txt
+	cat aspell.txt | sed 's/\/.*//' | sed 's/./\L\0/g' | sed 's/^/^/' | sed 's/$$/$$/' | tr "\n" "_" | sed 's/./&\n/g' | ngramify.pl 3 | tr -d " " | egrep -v '_' | sort | uniq -c | sort -r -n | egrep -v ' [1-5] ' | sed 's/^ *[0-9]* //' > $@
+
 gaelu: gaelu.in buildgael miotas stair
 	bash buildgael > gaelu
 

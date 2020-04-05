@@ -2,6 +2,7 @@
 #                Start hunspell affix file extensions                       #
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 WORDCHARS -'
+BREAK 0
 
 # see gramadoir morph-ga; not bothering with any replacements
 # from that file that are anchored at ^ or $, nor with any that

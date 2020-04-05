@@ -34,6 +34,14 @@ egrep -v '^[IVXLCDM]+$' romhanach | testout 'incorrect Roman numeral'
 # might as well test teacs.txt even though not included in spellcheckers
 # uimhreacha is more important since it's included in caighdean
 egrep -v "^[A-Za-z0-9'-]+" teacs.txt uimhreacha | testout 'should only be single words, numbers OK'
+# tests on treise; first everything really should have emphatic suffix
+cat treise | egrep -v '(se|san?|sean|n[ae])$'
+# slender words must have slender suffix
+cat treise | egrep '[eéií][^aeiouáéíóú]*(san?|na)$'
+# broad words must have broad suffix
+cat treise | egrep '[aáoóuú][^aeiouáéíóú]*([ns]e|sean)$'
+# and when that suffix is stripped, should be a correct word:
+cat treise | sed 's/-\?\(se\|san\?\|sean\|n[ae]\)$//' | keepif -n aspell.txt
 # LHS of everything in earraidi/apost MUST be a misspelling
 # (if not, say for pairs like "coip cóip", it should go in myalts.txt)
 # Happens to be true for dinneenalts.txt too, at least for now

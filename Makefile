@@ -282,17 +282,6 @@ aspelllit.txt: $(RAWWORDS) $(LITWORDS) gaeilgelit.hash
 aspellalt.txt: $(RAWWORDS) $(LITWORDS) $(ALTWORDS) gaeilgemor.hash
 	cat $(RAWWORDS) $(LITWORDS) $(ALTWORDS) | iconv -f UTF-8 -t iso-8859-1 | $(ISPELLBIN)/ispell -d./gaeilgemor -e3 | iconv -f iso-8859-1 -t UTF-8 | tr " " "\n" | egrep -v '\/' | sort -u > $@
 
-# (1) generate all words by unmunching hunspell dic/aff
-# and be sure they're all in aspell.txt (i.e. gen. by ispell affix file)
-# (2) generate all words w/ ispell affix file and be sure hunspell
-# .dic/.aff pair accepts them
-# (3) If (1) and (2) pass, then aspell.txt is the same for ispell/hunspell.  
-# Convert that file to poncanna, and be sure ga-Latg .dic/.aff accept 'em all
-aspelltest: ga_IE.dic ga_IE.aff aspell.txt personal
-	unmunch ./ga_IE | keepif -n aspell.txt | keepif -n personal
-	cat aspell.txt | $(MYSPELL) -d ./ga_IE -l
-	cat aspell.txt | perl ~/gaeilge/ocr/toponc.pl | $(MYSPELL) -d ./ga-Latg-IE -l
-
 # Scrabble3D
 # No poncanna, like the "official" rules
 gaeilge.dic: aspell.txt

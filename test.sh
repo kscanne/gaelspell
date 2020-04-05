@@ -55,16 +55,19 @@ TESTSTR='Ní mé an ar Áit an Phuint nó na gCúig Déag atá mé curtha? ... I
 echo "${TESTSTR}" | python ${HOME}/gaeilge/apianna/gaelspell/client.py | testout 'unwanted output from Python client'
 echo "${TESTSTR}" | perl ${HOME}/gaeilge/apianna/gaelspell/client.pl | testout 'unwanted output from Perl client'
 #### Test locally-built spellcheckers ####
+# first, check that all correct words are accepted...
 cat gaelspell.txt | hunspell -l -d ./ga_IE | testout 'correct word reported as wrong by hunspell'
+cat aspell.txt | perl ${HOME}/gaeilge/ocr/toponc.pl | hunspell -l -d ./ga-Latg-IE | testout 'correct word reported as wrong by hunspell, Latg model'
 cat gaelspell.txt | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | iconv -f UTF-8 -t iso-8859-1 | ispell -d./gaeilge -l | iconv -f iso-8859-1 -t UTF-8 | testout 'correct word reported as wrong by ispell'
-# aspell?
+# Don't bother with aspell since that involves building package...
+# Next, check that a collection of incorrect words are all rejected...
+rm -f ${HOME}/.hunspell_ga_IE
+touch ${HOME}/.hunspell_ga_IE
+cat earraidi | sed 's/ .*//' | hunspell -G -d ./ga_IE | testout 'known-bad word NOT reported as error by hunspell'
+cat earraidi | sed 's/ .*//' | perl ${HOME}/gaeilge/ocr/toponc.pl | hunspell -G -d ./ga-Latg-IE | testout 'known-bad word NOT reported as error by hunspell, Latg model'
 TMPFILE=`mktemp`
-cat earraidi | sed 's/ .*//' | hunspell -l -d ./ga_IE > ${TMPFILE}
-# hunspell buggy ATM??
-#cat earraidi | sed 's/ .*//' | keepif -n "${TMPFILE}" | testout 'known-bad word NOT reported as error by hunspell' 
 cat earraidi | sed 's/ .*//' | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | iconv -f UTF-8 -t iso-8859-1 | ispell -d./gaeilge -l | iconv -f iso-8859-1 -t UTF-8 > ${TMPFILE}
 cat earraidi | sed 's/ .*//' | egrep '..' | LC_ALL=C grep -v "[^'a-zA-ZáéíóúÁÉÍÓÚ-]" | keepif -n "${TMPFILE}" | testout 'known-bad word NOT reported as error by ispell' 
-cat "${TMPFILE}" | 
 rm -f "${TMPFILE}"
 #### isolate rare trigrams and grep for them ####
 # don't touch oktrigrams since it's a makefile target

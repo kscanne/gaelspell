@@ -124,6 +124,7 @@ agoidíocht agóidíocht
 agom agam
 ags agus
 agsu agus
+agteacht ag teacht
 agu agus
 agua agus
 aguis agus
@@ -159,6 +160,7 @@ aigneachtaí aighneachtaí
 aigéanta aigeanta
 aigí agaibh
 Ailgéirigh Ailgéaraigh
+ailiniú ailíniú
 ailleacht áilleacht
 ailtíreachta ailtireachta
 ailéirge ailléirge
@@ -241,6 +243,7 @@ alcol alcól
 aleanas a leanas
 algaratam algartam
 Alpín Ailpín
+altrannais altranais
 aláinn álainn
 alán a lán
 alúinn álainn
@@ -1209,6 +1212,7 @@ Caral Carál
 caranna carranna
 cardiúil cairdiúil
 carna Carna
+carrana carranna
 carráid earráid
 cartaí cártaí
 cartchlár cairtchlár
@@ -1313,6 +1317,7 @@ chairdre chairde
 chaire chairde
 Chairraí Chiarraí
 chaislean chaisleán
+chaisléain chaisleáin
 chaisléan chaisleán
 chaiteamh chaitheamh
 Chaitriona Chaitríona
@@ -1421,6 +1426,7 @@ choitiata choitianta
 cholaiste choláiste
 cholceathrar chol ceathrair
 chomairle chomhairle
+chomairleoirí chomhairleoirí
 chomartha chomhartha
 Chomhargadh Chómhargadh
 chomharsancht chomharsanacht
@@ -1467,6 +1473,7 @@ Chorcha Chorca
 choroin choróin
 choráis chórais
 chorás chóras
+choróinvirís choróinvíris
 chose chosc
 chosmhuitir chosmhuintir
 chosmhuitire chosmhuintire
@@ -1757,6 +1764,7 @@ comhaltai comhaltaí
 comhaoiniú cómhaoiniú
 comhaontu comhaontú
 comharleoir comhairleoir
+comharliúcháin comhairliúcháin
 comharta comhartha
 comhartaí comharthaí
 comhbrón comhbhrón
@@ -2138,6 +2146,7 @@ d'eirigh d'éirigh
 d'Eirinn d'Éirinn
 d'fhag d'fhág
 d'fheádfadh d'fhéadfadh
+d'fhiarfraigh d'fhiafraigh
 d'fhifruigh d'fhiafraigh
 d'fhil d'fhill
 d'fhogair d'fhógair
@@ -2485,6 +2494,7 @@ diobháil díobháil
 diobhála díobhála
 diograis díograis
 diograiseach díograiseach
+diograiseacha díograiseacha
 diograsach díograiseach
 diol díol
 diolachán díolachán
@@ -2616,6 +2626,7 @@ droc droch
 drocbhuille drochbhuille
 drochairleacan drochairleacán
 drochchaint droch-chaint
+drochchaoi droch-chaoi
 drochchinneadh droch-chinneadh
 drochchoinníollacha droch-choinníollacha
 drochchomhairle droch-chomhairle
@@ -2658,6 +2669,8 @@ dtoabh dtaobh
 dtochaí dtodhchaí
 dtoghchaí dtodhchaí
 dtogáil dtógáil
+dtol dtoil
+dtol dtoll
 dtolamh dtólamh
 dToraí dTóraí
 dtra dtrá
@@ -2843,6 +2856,7 @@ eaglamh agallamh
 eagrachtaí eagraíochtaí
 eagran eagrán
 eagrathóir eagarthóir
+eagraíochtí eagraíochtaí
 eagríocht eagraíocht
 eagsuil éagsúil
 eagsul éagsúil
@@ -3238,6 +3252,7 @@ flaithiúl flaithiúil
 flichsneachta flichshneachta
 fliuc fliuch
 fliuich fliuch
+fliúirse flúirse
 fluch fliuch
 fluic fliuch
 fluich fliuch
@@ -3556,6 +3571,7 @@ gcaillfaí gcaillfí
 gcaipéisí gcáipéisí
 gcaislean gcaisleán
 gcaisléan gcaisleán
+gcaithfídh gcaithfidh
 gcarrana gcarranna
 gcasanna gcásanna
 gcathar gcathair
@@ -3587,9 +3603,11 @@ gcluid gclúid
 gclárdubh gclár dubh
 gcnoch gcnoc
 gcoimisún gcoimisiún
+gCoiré gCóiré
 gColaiste gColáiste
 gcolaiste gcoláiste
 gcomahir gcomhair
+gcomaráid gcomparáid
 gcomhlint gcoimhlint
 gcomhpáirtíocht gcomhpháirtíocht
 gcomhtheacs gcomhthéacs
@@ -3638,6 +3656,7 @@ gcéiliúradh gceiliúradh
 gcéinne gcéanna
 gcóitséalaí gcóitseálaí
 gcómrac gcomhrac
+gcóróinvíreas gcoróinvíreas
 gcúid gcuid
 gcúltúr gcultúr
 gcúsaí gcúrsaí
@@ -3993,6 +4012,7 @@ hiodáile hIodáile
 hiomlan hiomlán
 hionatch hiontach
 hiondaithe hionadaithe
+hiontrail hiontráil
 hIoslainne hÍoslainne
 hioslam hIoslam
 hIosraeligh hIosraelaigh
@@ -4012,6 +4032,7 @@ Horselips Horslips
 horáid hóráid
 hoscáilt hoscailt
 hostáin hóstáin
+huafasach huafásach
 huathoibreach huathoibríoch
 hudaráis húdaráis
 hudarás húdarás
@@ -4972,6 +4993,7 @@ milléan milleán
 millúin milliún
 millún milliún
 Milosevic Milošević
+milséain milseáin
 milte mílte
 milteach millteach
 milteanach millteanach
@@ -5733,6 +5755,7 @@ phríomhcathair phríomhchathair
 phríomhcharactair phríomhcharachtair
 phríomhcharactar phríomhcharachtar
 phríomhduais phríomhdhuais
+phríomhmhodh phríomh-mhodh
 phádraig Phádraig
 Phádraigh Phádraig
 pháirithe pháirtithe
@@ -5780,6 +5803,7 @@ plasain plásáin
 plasan plásán
 plata pláta
 plataí plátaí
+Playstation PlayStation
 ple plé
 pleadh pléadh
 pleadáil pléadáil
@@ -5858,6 +5882,7 @@ posadh pósadh
 postaerí póstaeir
 posteir póstaer
 postéir póstaer
+Poznan Poznań
 poínte pointe
 praicticiúil praiticiúil
 praighas praghas
@@ -5894,10 +5919,12 @@ príomhaideach príobháideach
 príomhcathrach príomhchathrach
 príomhcharactar príomhcharachtar
 príomhfheidhmeanach príomhfheidhmeannach
+príomhmhodh príomh-mhodh
 príomhá príomha
 prófíl próifíl
 prófíle próifíle
 prótocal prótacal
+pspidéal ospidéal
 puc poc
 puicín púicín
 pácáil pacáil
@@ -6409,6 +6436,7 @@ scátheagra scátheagraíocht
 scéalín scéilín
 scéimhlitheoireacht sceimhlitheoireacht
 scéitimíní sceitimíní
+scíanna scíonna
 scíl scil
 scíleanna scileanna
 scíobh scríobh
@@ -7002,6 +7030,7 @@ sábhailteachta sábháilteachta
 sábhalta sábháilte
 sábháilteacha sábháilteachta
 sábáilte sábháilte
+sách-láidir sách láidir
 sáille sáile
 sáinithe sáinnithe
 sár-taispeántas sárthaispeántas
@@ -7138,6 +7167,7 @@ tabhachtacht tábhachtach
 tabhachtaí tábhachtaí
 tabhactach tábhachtach
 tabhactacht tábhachtach
+tabhairigí tugaigí
 tabhairne tábhairne
 tabhairneoir tábhairneoir
 tabhar tabhair
@@ -8148,6 +8178,7 @@ Zurich Zürich
 ómás ómós
 ónóir onóir
 óraid óráid
+óraidí óráidí
 órainn orainn
 órdú ordú
 óráiste oráiste

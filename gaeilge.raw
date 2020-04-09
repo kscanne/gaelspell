@@ -2789,6 +2789,7 @@ alcólaigh/HMDBU
 alcólaiméadair/HMDBU
 alcólaiméadar/HMDBUT
 alcólaí/B
+alcólbhunaithe/HB
 alfa/HMDBUT
 alfa-cháithnín/HMDBUT
 alfa-cháithníní/HMDBU
@@ -4850,6 +4851,9 @@ aoisoiriúnach/HB
 aoisoiriúnacha/B
 aoisoiriúnaigh
 aoisoiriúnaí/B
+aoisraoin/HMDU
+aoisraon/HMDBUT
+aoisraonta/HMDBU
 aoisteorainn/HMDBU
 aoisteorainneacha/HMDBU
 aoisteorann/HMDU
@@ -8925,6 +8929,7 @@ b'Ísiltír
 b'Ísiltíreach
 b'Ísiltíreacha
 b'Ísiltírigh
+b'Ísiltíris
 b'Ísiltírí
 b'Óg
 b'Óglach
@@ -11370,6 +11375,8 @@ bithdhílse/S
 bithdhíosail/US
 bithdhíosal/US
 bitheagla/US
+bitheatánóil/US
+bitheatánól/US
 bitheitic/US
 bitheitice/US
 bitheog/US
@@ -14646,6 +14653,8 @@ bunrialacha/US
 bunrud/US
 bunruda/US
 bunrudaí/US
+bunráiteas/US
+bunráitis/US
 bunráta/US
 bunrátaí/US
 bunrí/US
@@ -17217,6 +17226,7 @@ carria/US
 carrianna/US
 carrmhogail/US
 carrmhogal/US
+carrsheirbhíse/S
 carráin/US
 carráiste/US
 carráistí/US
@@ -19421,6 +19431,9 @@ cianghlao/US
 cianghlaoch/US
 cianghlaoigh/US
 cianghlaonna/US
+cianobair/US
+cianoibre/US
+cianoibreacha/US
 cianoideachais/US
 cianoideachas/US
 Cianoirthear/S
@@ -30608,6 +30621,8 @@ d'Ísiltír
 d'Ísiltíre
 d'Ísiltíreach
 d'Ísiltírigh
+d'Ísiltíris
+d'Ísiltírise
 d'Óg
 d'Óglach
 d'Óglaigh
@@ -31444,6 +31459,7 @@ dea-roghnaithe/S
 dea-rud/US
 dea-ruda/US
 dea-rudaí/US
+dea-ráite/S
 dea-rúin/US
 dea-rún/US
 dea-scil/US
@@ -32894,6 +32910,9 @@ dianbhagartha/US
 dianbheart/US
 dianbhearta/US
 dianbhirt/US
+dianchaint/US
+dianchainte/US
+dianchainteanna/US
 diancheangail/US
 diancheangal/US
 diancheist/US
@@ -32921,6 +32940,8 @@ dianchúrsa/US
 dianchúrsaí/US
 dianfheachtais/US
 dianfheachtas/US
+dianghlasáil/US
+dianghlasála/US
 dianghoradh/US
 dianghoraidh/US
 dianghrá/US
@@ -35153,6 +35174,8 @@ dréachtrialachán/US
 dréachtscéim/US
 dréachtscéime/US
 dréachtscéimeanna/US
+dréachtsiollabais/US
+dréachtsiollabas/US
 dréachtstraitéis/US
 dréachtstraitéise/US
 dréachtóir/US
@@ -36713,6 +36736,9 @@ díolmhaigh/US
 díolmhaithe/SU
 díolmhaím/USC
 díolmhú/US
+díoloifig/US
+díoloifige/US
+díoloifigí/US
 díolta/SU
 díoltach/SU
 díoltacha/S
@@ -38326,6 +38352,8 @@ eipeaglotais/HMDBU
 eipeaglotas/HMDBUT
 eipeagraim/HMDBU
 eipeagram/HMDBUT
+eipealáir/HMDBU
+eipealár/HMDBUT
 eipeasóid/HMDBU
 eipeasóide/HMDU
 eipeasóideach/HB
@@ -38351,6 +38379,9 @@ eipidéimeach/HB
 eipidéimeacha/B
 eipidéimeolaithe/HMDBU
 eipidéimeolaí/HMDBUT
+eipidéimeolaíche/B
+eipidéimeolaíoch/HB
+eipidéimeolaíocha/B
 eipidéimeolaíocht/HMDBU
 eipidéimeolaíochta/HMDU
 eipidéimigh
@@ -43702,6 +43733,7 @@ fualán/MDBUS
 fuamáin/MDBUS
 fuamán/MDBUS
 fuar/BS
+fuar-rollta/BS
 fuara/BS
 fuaraigeanta/BS
 fuaraigeantacht/MDBUS
@@ -44482,6 +44514,8 @@ féinlathaigh/S
 féinlathaí/BS
 féinleas/MDBUS
 féinleasa/MDUS
+féinleithlisithe/MDUS
+féinleithlisiú/MDBUS
 féinlárnach/BS
 féinlárnacha/BS
 féinlárnaigh/S
@@ -44875,6 +44909,10 @@ fíorchúramaí/BS
 fíordhaoine/MDBUS
 fíordheacair/BS
 fíordheacra/BS
+fíordhearfach/BS
+fíordhearfacha/BS
+fíordhearfaigh/S
+fíordhearfaí/BS
 fíordheas/BS
 fíordheasa/BS
 fíordheimhnigh/US
@@ -46316,6 +46354,9 @@ gartach/S
 gartacha/S
 gartaigh/S
 gartaí/S
+gartheagmháil/US
+gartheagmhála/US
+gartheagmhálacha/US
 garthimpeallacht/US
 garthimpeallachta/US
 garáiste/US
@@ -47119,6 +47160,8 @@ gearraigh/US
 gearraim/USA
 gearraimsir/US
 gearraimsire/US
+gearraistear/US
+gearraistir/US
 gearranáil/US
 gearranála/US
 gearranálach/S
@@ -49260,6 +49303,8 @@ gnáthruda/US
 gnáthrudaí/US
 gnáthráta/US
 gnáthrátaí/US
+gnáthríomhaire/US
+gnáthríomhairí/US
 gnáthrúin/US
 gnáthrún/US
 gnáthscair/US
@@ -51444,6 +51489,8 @@ hAibreán
 haic
 haice
 haiceanna
+haiceatóin
+haiceatón
 haiceáil
 haiceáilte
 haiceála
@@ -52623,6 +52670,8 @@ hÍsiltír
 hÍsiltíre
 hÍsiltíreach
 hÍsiltírigh
+hÍsiltíris
+hÍsiltírise
 hÓg
 hÓglach
 hÓglaigh
@@ -58275,6 +58324,7 @@ leathísle
 leathóg
 leathóga
 leathóige
+leathólta
 leatra
 leatroim
 leatrom
@@ -58862,6 +58912,8 @@ Ligiúrach
 Ligiúracha
 Ligiúraigh
 Ligiúraí
+lignít
+ligníte
 ligthe
 ligtheacht
 ligtheachta
@@ -62310,6 +62362,8 @@ m'Ísiltír
 m'Ísiltíre
 m'Ísiltíreach
 m'Ísiltírigh
+m'Ísiltíris
+m'Ísiltírise
 m'Óg
 m'Óglach
 m'Óglaigh
@@ -72215,6 +72269,8 @@ nÍsiltír
 nÍsiltíre
 nÍsiltíreach
 nÍsiltírigh
+nÍsiltíris
+nÍsiltírise
 nÓg
 nÓglach
 nÓglaigh
@@ -74200,10 +74256,9 @@ paraiméadrach/S
 paraiméadracha/S
 paraiméadraigh/S
 paraiméadraí/S
-paraimíleatach/SU
-paraimíleatacha/S
-paraimíleataigh/SU
-paraimíleataí/S
+paraimíleata/S
+paraimíleatach/US
+paraimíleataigh/US
 paraisiúit/US
 paraisiút/US
 paraisít/US
@@ -75675,6 +75730,8 @@ poilcithe/US
 poilcí/US
 poileistear/US
 poileistir/US
+poileitiléin/US
+poileitiléine/US
 Poill/S
 poill/US
 poillín/US
@@ -76856,6 +76913,8 @@ príomhfhíorach/US
 príomhfhíoracha/US
 príomhfhócais/US
 príomhfhócas/US
+príomhgharda/US
+príomhghardaí/US
 príomhgheallsealbhóir/US
 príomhgheallsealbhóirí/US
 príomhgheallsealbhóra/US
@@ -83322,6 +83381,8 @@ scaoinse
 scaoinsí
 scaoithe
 scaoll
+scaollcheannach
+scaollcheannaigh
 scaollmhair
 scaollmhaire
 scaollmhar
@@ -102727,6 +102788,8 @@ zúnna
 Ísiltíreach
 Ísiltíreacha
 Ísiltírigh
+Ísiltíris
+Ísiltírise
 Ísiltírí
 Óg
 Óglach

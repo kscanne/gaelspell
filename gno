@@ -45,6 +45,7 @@ Avantcard
 Aviva
 Baboró
 Bacardi
+Barilla
 Barnardos
 Barry's
 Bayer
@@ -156,6 +157,7 @@ Eircom
 EirGrid
 Electric
 Elsevier
+Emirates
 EmployAbility
 Energia
 Enron
@@ -254,6 +256,7 @@ Harley
 Hebdo
 Heineken
 Heinemann
+Helix
 Hibernia
 Hibernian
 Hillgrove
@@ -290,6 +293,7 @@ iPlayer
 iPod
 Ipsos
 Irexit
+IrishCentral
 Ironman
 iTunes
 Jabber
@@ -441,7 +445,7 @@ Pinterest
 Pirelli
 Pixar
 Playboy
-Playstation
+PlayStation
 Pokémon
 Polldaddy
 Pontiac
@@ -514,6 +518,7 @@ Slashdot
 Smithsonian
 Smurfit
 Snapchat
+Snickers
 Sockies
 Sony
 Sotheby's
@@ -544,6 +549,7 @@ Tamboran
 Target
 Tayto
 Taytos
+TechFéile
 Technorati
 TechSpace
 Teflon
@@ -630,6 +636,7 @@ Youthreach
 YouTube
 Zara
 Zebre
+Zoom
 Zumba
 Zyban
 Ériu

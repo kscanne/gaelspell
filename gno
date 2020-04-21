@@ -8,6 +8,7 @@ Adaptxt
 Adidas
 Adobe
 Advertiser
+Aeroflot
 Aertel
 Agresso
 Agtel
@@ -38,6 +39,8 @@ AranLIFE
 Argos
 Arramara
 Arsenal
+Astroturf
+Atari
 Atlético
 Audacity
 Audi

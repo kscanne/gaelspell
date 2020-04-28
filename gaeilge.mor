@@ -393,6 +393,7 @@ adbert
 adbhar
 Adbhent
 adbhálach
+adbur
 adchlos
 adchonnairc
 adchí
@@ -1778,6 +1779,7 @@ aiseiríghe/HMDBUT
 aisfhreagairt
 aisfhreagar
 aisiog/HMDBUT
+aisiompó/HMDBUT
 aisioncrónach/HB
 aisioncrónacha/B
 aisioncrónaigh
@@ -8655,6 +8657,9 @@ bunphréamh/US
 bunphréamhacha/US
 bunphréimh/US
 bunphréimhe/US
+bunriaghail/US
+bunriaghlach/US
+bunriaghlacha/US
 bunrán
 bunránach
 bunránaí
@@ -37367,11 +37372,11 @@ imirce/HMDU
 imirceoir/HMDBUT
 imirceoirí/HMDBU
 imirceora/HMDU
-imirche
+imirche/HMDBU
 imircí/HMDBU
 imireadar
 imireóchad
-imirghe
+imirghe/HMDBU
 imirteas/HMDBUT
 imirthe/HMDU
 imirtheoir/HMDBUT
@@ -37381,7 +37386,7 @@ imirthí
 imirtis/HMDU
 imirtíocht/HMDBU
 imirtíochta/HMDU
-imirí/U
+imirí/HMDBU
 imirídís/HU
 imirígí/HU
 imirím/UC
@@ -56063,6 +56068,8 @@ seápaí
 seársa/ST
 seársaí/S
 seáspán
+seóbhanna/ST
+seóbhannaí/S
 seódh/S
 seóidh/S
 seóidhe/S
@@ -63835,6 +63842,7 @@ thugadar-san
 thugaid
 thugais-se
 thugas
+thugfar
 thugmar
 thugthar
 thugthaí/U

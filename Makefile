@@ -477,6 +477,13 @@ gaelspellalt-ascii.txt: gaelspellalt.txt
 gaelspellalt.txt: ga-phrases.txt teacs.txt uimhreacha aspellalt.txt $(PERSONAL)
 	LC_ALL=C sort -u ga-phrases.txt teacs.txt uimhreacha aspellalt.txt $(PERSONAL) > $@
 
+# Main word list for Diarmaid in required Windows format
+# important to *not* specify UTF-16LE here since the default is to
+# use endianness of the machine (x86 is LE) and omitting it causes
+# the BOM to be added as well
+gaelspell-dist.txt: gaelspell.txt
+	cat gaelspell.txt | perl -p -e 's/\n/\r\n/' | iconv -f UTF-8 -t UTF-16  > $@
+
 # Main word list for Diarmaid
 gaelspell.txt: aspell.txt $(PERSONAL)
 	LC_ALL=C sort -u aspell.txt $(PERSONAL) > $@

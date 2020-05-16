@@ -178,6 +178,7 @@ aimn ainm
 aimneacha ainmneacha
 aimnigh ainmnigh
 aimnithe ainmnithe
+aimniú ainmniú
 aimniúcháin ainmniúcháin
 aimniúchán ainmniúchán
 aimsaithe aimsithe
@@ -198,6 +199,7 @@ ainmiú ainmniú
 ainmiúcháin ainmniúcháin
 ainmiúchán ainmniúchán
 ainmn ainm
+ainmím ainmním
 ainmíodh ainmníodh
 ainne againne
 ainneoinn ainneoin
@@ -387,6 +389,8 @@ anghnóthach an-ghnóthach
 AnglaÉireannach Angla-Éireannach
 anim ainm
 animneacha ainmneacha
+animniucháin ainmniúcháin
+animním ainmním
 aniocht anocht
 anios aníos
 aniumh inniu
@@ -394,6 +398,7 @@ anlainne anlainn
 anláidir an-láidir
 anmhaith an-mhaith
 anmhór an-mhór
+anmním ainmním
 annanh annamh
 anneoin ainneoin
 annn ann
@@ -593,6 +598,7 @@ atmaisfear atmaisféar
 atmaisfeár atmaisféar
 atmasfaer atmaisféar
 atsa agatsa
+atà atá
 atále atá le
 atáá atá á
 atógail atógáil
@@ -838,6 +844,7 @@ bhláganna bhlaganna
 bhlásta bhlasta
 bhoithre bhóithre
 bhoithrín bhóithrín
+bholach bhfolach
 bhonnaó bhoinn
 bhoss bhas
 bhothar bhóthar
@@ -1336,6 +1343,7 @@ ceimeanna céimeanna
 ceistenna ceisteanna
 celiúradh ceiliúradh
 cen cén
+ceobhráine ceobhráin
 ceoilchoirm ceolchoirm
 ceoilteoirí ceoltóirí
 ceolceoirm ceolchoirm
@@ -1635,6 +1643,7 @@ cháillte chaillte
 cháipín chaipín
 chánúint chanúint
 chára chara
+Chásc Cháisc
 chéadatán chéatadán
 chéann cheann
 chéann chéanna
@@ -2240,7 +2249,9 @@ cúspóirí cuspóirí
 cúóta cuóta
 d'abháir d'ábhair
 d'achmhainn d'acmhainn
+d'aimnigh d'ainmnigh
 d'aineoinn d'ainneoin
+d'ainmigh d'ainmnigh
 d'ainneoinn d'ainneoin
 d'amarc d'amharc
 d'ealodh d'éalódh
@@ -2578,6 +2589,7 @@ dialinn dialann
 diamaslach diamhaslach
 dianchursa dianchúrsa
 dianchúrsha dianchúrsa
+dianghlásála dianghlasála
 Diarmad Diarmaid
 diarr d'iarr
 diaspoireacht díospóireacht
@@ -2654,6 +2666,7 @@ diúiltiú diúltú
 diúltiú diúltú
 dlhiteanas dhliteanas
 dli dlí
+dliodóir dlíodóir
 dlithe dlíthe
 dlithiúil dlíthiúil
 dlithiúla dlíthiúla
@@ -3361,6 +3374,7 @@ fhéiceál fheiceáil
 fhéicáil fheiceáil
 fhéicéail fheiceáil
 fhéicéal fheiceáil
+Fhéirtéaraigh Fheirtéaraigh
 fhéiscint fheiceáil
 fhíleata fhileata
 fhíniní Fhíníní
@@ -3439,6 +3453,7 @@ fobairt forbairt
 focaile focail
 focas fócas
 fochal focal
+foclail focail
 focloir foclóir
 focloirí foclóirí
 focloír foclóir
@@ -3905,6 +3920,7 @@ ghaeilge Ghaeilge
 ghaeilgeoir Ghaeilgeoir
 ghaeilgeoirí Ghaeilgeoirí
 ghaeilgóirí Ghaeilgeoirí
+Ghaeilig Ghaeilge
 Ghaeilinn Ghaeilge
 ghael Ghael
 ghaelgeoirí Ghaeilgeoirí
@@ -4340,6 +4356,7 @@ iarratasoir iarratasóir
 iarraí iarraidh
 iarriadh iarraidh
 iarridh iarraidh
+iarrim iarraim
 iarrraidh iarraidh
 iarrtais iarratais
 iarrtas iarratas
@@ -4482,6 +4499,7 @@ inrochtain inrochtana
 inscine inscne
 inshealbhú insealbhú
 inspiorádach inspioráideach
+instagram Instagram
 institiuid institiúid
 institiúd institiúid
 institiúdí institiúidí
@@ -4967,6 +4985,7 @@ m'ínion m'iníon
 m'íníon m'iníon
 ma má
 mabile mbaile
+MacAoidh Mac Aoidh
 macasamhal macasamhail
 macasamháil macasamhail
 MacCarthaigh Mac Cárthaigh
@@ -5102,6 +5121,7 @@ McDonalds McDonald's
 me mé
 Meabh Méabh
 meabhairsláinte meabhairshláinte
+meabharshlainte meabhairshláinte
 meabharshláinte meabhairshláinte
 meabharsláinte meabhairshláinte
 meachain meáchain
@@ -5872,6 +5892,8 @@ oirúint oiriúint
 oirúnach oiriúnach
 oirúnaí oiriúnaí
 oispideal ospidéal
+oispís ospís
+oispísí ospísí
 ol ól
 olch olc
 ole olc
@@ -6229,6 +6251,7 @@ priosúnach príosúnach
 priosúnacht príosúnacht
 priosúnaigh príosúnaigh
 profaisiúnta proifisiúnta
+profisiúnaigh proifisiúnaigh
 profisiúnta proifisiúnta
 profíl próifíl
 proifíl próifíl
@@ -6253,6 +6276,7 @@ prótocal prótacal
 pspidéal ospidéal
 puc poc
 puicín púicín
+Pàdraig Pádraig
 pácáil pacáil
 Pádhraigh Pádraig
 pádraig Pádraig
@@ -7023,6 +7047,7 @@ Shiomóin Shíomóin
 shior shíor
 shiorai shíoraí
 shlanú shlánú
+shoalsa shaolsa
 shocmhainní shócmhainní
 shocraid shochraid
 shoinseáil shóinseáil
@@ -8061,6 +8086,7 @@ thógáint thógáil
 thóil thoil
 thóisigh thosaigh
 thósaigh thosaigh
+thù thú
 thúg thug
 thúsa thusa
 thúth tnúth
@@ -8289,6 +8315,7 @@ trím trí mo
 tríoblóid trioblóid
 tríomadh tríú
 tríothú tríothu
+tríphictiúir trí phictiúir
 Tríspórt TríSpórt
 tríthí trithí
 tríthí tríthi
@@ -8608,9 +8635,11 @@ Wikileaks WikiLeaks
 wordpress WordPress
 X-Factor X Factor
 xéareáise xéaráise
+zoomáil zúmáil
 Zurich Zürich
 Ábraham Abrahám
 Ádhmhaidin Adhmhaidin
+Ástrál Astráil
 ÁthaCliath Átha Cliath
 Éanair Eanáir
 Éanáir Eanáir

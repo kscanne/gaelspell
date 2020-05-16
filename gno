@@ -127,6 +127,7 @@ Debenhams
 Debian
 Dell
 Deloitte
+Dettol
 Deutsche
 Diageo
 Dialang
@@ -241,6 +242,7 @@ Gcom
 Gentoo
 Ghostscript
 Gibsol
+GitHub
 Glanbia
 Gleneagle
 Glenroyal
@@ -270,6 +272,7 @@ Hotmail
 Hotspur
 Huawei
 Hyundai
+iCloud
 iGaeilge
 iGoogle
 IKEA
@@ -510,6 +513,7 @@ Shelbourne
 Shell
 Sháirséal
 Siemens
+Signal
 Siri
 Skainos
 Skillnets
@@ -536,6 +540,7 @@ Starbucks
 Statoil
 Steam
 Stobart
+Strava
 Subhóró
 Sundance
 Supermac's

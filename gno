@@ -67,6 +67,7 @@ Blogger
 Bloomsbury
 Bluetooth
 Boeing
+Borussia
 Bose
 Botox
 Boutle
@@ -78,6 +79,7 @@ Buckfast
 Budweiser
 Buick
 Bulfin
+Bundesliga
 Buswells
 Byrne's
 Cadbury
@@ -330,6 +332,7 @@ Lakers
 Lamborghini
 Largo
 LaTeX
+Leggs
 Lego
 Leisureland
 Libertas
@@ -599,6 +602,7 @@ Unicode
 Unilever
 United
 Unix
+Velotec
 Veritas
 Verizon
 Viacom

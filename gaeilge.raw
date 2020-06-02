@@ -11500,6 +11500,9 @@ bladhmannacha/S
 bladhmannaigh/S
 bladhmannaí/S
 bladhmaí/S
+bladhmsóg/US
+bladhmsóga/US
+bladhmsóige/US
 bladhmtha/SU
 bladhrach/US
 bladhraí/US
@@ -13004,6 +13007,10 @@ breacra/US
 breacraí/US
 breacréaltacht/US
 breacréaltachta/US
+breacscamallach/S
+breacscamallacha/S
+breacscamallaigh/S
+breacscamallaí/S
 breacshaoire/US
 breacshaolach/S
 breacshaolacha/S
@@ -27226,6 +27233,7 @@ céadleáite/S
 céadluaite/S
 céadléirithe/US
 céadléiriú/US
+céadonóracha/US
 céadphroinn/US
 céadphroinne/US
 céadrais/US
@@ -36427,6 +36435,8 @@ díchruthaím/USC
 díchruthú/US
 díchuibheas/US
 díchuibhis/US
+díchuibhrithe/US
+díchuibhriú/US
 díchuimhne/US
 díchuimhneach/S
 díchuimhneacha/S
@@ -45199,6 +45209,9 @@ físchumarsáid/MDBUS
 físchumarsáide/MDUS
 físdiosca/MDBUS
 físdioscaí/MDBUS
+físdáin/MDUS
+físdán/MDBUS
+físdánta/MDBUS
 físe/MDUS
 físeach/BS
 físeacha/BSMDU
@@ -47263,6 +47276,8 @@ gearrchúrsa/US
 gearrchúrsaí/US
 gearrdhráma/US
 gearrdhrámaí/US
+gearrdhrámaíocht/US
+gearrdhrámaíochta/US
 gearreireaballach/S
 gearreireaballacha/S
 gearreireaballaigh/S
@@ -52830,6 +52845,10 @@ Hóiméarach
 Hóiméaracha
 Hóiméaraigh
 Hóiméaraí
+Hóipeach
+Hóipeacha
+Hóipigh
+Hóipí
 hóra
 húca
 húcaí
@@ -53113,6 +53132,8 @@ iardhí/HMDU
 iareagarthóir/HMDBUT
 iareagarthóirí/HMDBU
 iareagarthóra/HMDU
+iareagráin/HMDBU
+iareagrán/HMDBUT
 iarfheidhmeannach/HMDBUT
 iarfheidhmeannaigh/HMDBU
 iarfheisire/HMDBUT
@@ -72158,6 +72179,9 @@ nuachtánachais
 nuachtánachas
 nuachtánaithe
 nuachtánaí
+nuachtócáid
+nuachtócáide
+nuachtócáidí
 nuachtóir
 nuachtóireacht
 nuachtóireachta
@@ -83251,6 +83275,8 @@ scairdire
 scairdirí
 scairdsciáil
 scairdsciála
+scairdscí
+scairdscíonna
 scairdsruth
 scairdsrutha
 scairdsruthanna
@@ -84459,6 +84485,8 @@ scothdhoinn
 scothdhoinne
 scothdhonn
 scothdhonna
+scothfhoireann
+scothfhoirne
 scothghlais
 scothghlaise
 scothghlas
@@ -93703,6 +93731,11 @@ séipéilín/ST
 séipéilíní/S
 séire/ST
 séiream/S
+séireolaíche/S
+séireolaíoch/S
+séireolaíocha/S
+séireolaíocht/ST
+séireolaíochta/S
 séirim/ST
 séirse/ST
 séirseach/S
@@ -103239,6 +103272,9 @@ zúnna
 áiteoireachta/HMDU
 áith/HMDBU
 áithe/HMDU
+áitheadóir/HMDBUT
+áitheadóirí/HMDBU
+áitheadóra/HMDU
 áitheanna/HMDBU
 áitigh/HU
 áitithe/HBMDU

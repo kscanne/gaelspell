@@ -32,6 +32,7 @@ Amtrak
 Android
 Angelfire
 Anonymous
+Antifa
 Apache
 Apple
 Aramark
@@ -193,6 +194,7 @@ Facebook
 Fastnet
 Fedora
 Ferrari
+Fexco
 Fiat
 Figaro
 Figgis
@@ -315,6 +317,7 @@ Joomla
 Juventus
 Kantar
 Kappa
+Kellogg's
 Kerrygold
 Kerryman
 Kia
@@ -327,6 +330,7 @@ Kinja
 Knoppix
 Kodak
 Kroger
+L'Oréal
 Lagan
 Lakers
 Lamborghini
@@ -622,6 +626,7 @@ Vroom-Town
 WalMart
 Wavebob
 Webbery
+WebEx
 Weetabix
 Westbury
 Westenra

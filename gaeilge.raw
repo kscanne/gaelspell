@@ -4002,6 +4002,8 @@ an-seans
 an-simplí
 an-siúil/HMDU
 an-siúl/HMDBUT
+an-slacht/HMDBUT
+an-slachta/HMDU
 an-slachtmhair
 an-slachtmhaire/B
 an-slachtmhar/HB
@@ -34840,6 +34842,7 @@ drochobair/US
 drochoíche/US
 drochphoiblíocht/US
 drochphoiblíochta/US
+drochphoitín/US
 drochrath/US
 drochratha/US
 drochriaracháin/US
@@ -42388,6 +42391,8 @@ forcamás/MDBUS
 forcardaitheoir/MDBUS
 forcardaitheoirí/MDBUS
 forcardaitheora/MDUS
+forcheartaithe/MDUS
+forcheartú/MDBUS
 forcheilt/MDBUS
 forcheilte/MDUS
 forchlúdach/MDBUS
@@ -46424,6 +46429,8 @@ gartaí/S
 gartheagmháil/US
 gartheagmhála/US
 gartheagmhálacha/US
+gartheagmhálaithe/US
+gartheagmhálaí/US
 garthimpeallacht/US
 garthimpeallachta/US
 garáiste/US
@@ -54100,6 +54107,10 @@ ilghnéithigh
 ilghnéithí/B
 ilghníomhaireachta
 ilghrád
+ilghuthach/HB
+ilghuthacha/B
+ilghuthaigh
+ilghuthaí/B
 ilimreoir/HMDBUT
 ilimreoirí/HMDBU
 ilimreora/HMDU
@@ -65794,6 +65805,7 @@ mionghléas/S
 mionghléis/S
 mionghné/S
 mionghnéithe/S
+mionghnó/S
 mionghoid/S
 mionghoide
 mionghoidim/SA
@@ -90152,7 +90164,9 @@ spairníocht
 spairníochta
 spairt
 spairte
+spairteach
 spairteanna
+spairtigh
 spaisteoir
 spaisteoireacht
 spaisteoireachta
@@ -95168,6 +95182,9 @@ tamtam/US
 tAnabaisteach
 tanaigh/US
 tanaithe/SU
+tanaitheoir/US
+tanaitheoirí/US
+tanaitheora/US
 tanalacht/US
 tanalachta/US
 tanalachtaí/US

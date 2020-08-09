@@ -369,8 +369,10 @@ Mandrake
 Mandriva
 Marriott
 Masita
+Massey-Ferguson
 Mastercard
 Maunsel
+Maybelline
 Mazars
 McDonald's
 McKesson

@@ -40,6 +40,7 @@ AranLIFE
 Argos
 Arramara
 Arsenal
+AstraZeneca
 Astroturf
 Atari
 Atlético
@@ -339,6 +340,7 @@ LaTeX
 Leggs
 Lego
 Leisureland
+Levi's
 Libertas
 LibreOffice
 Lidl

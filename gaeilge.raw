@@ -8713,6 +8713,7 @@ b'Iodálaí
 b'Iodúimé
 b'Iolar
 b'Iompróir
+b'Ion-Mhongóil
 b'Ionad
 b'Iondúis
 b'ionua
@@ -25517,6 +25518,10 @@ crotach/US
 crotaigh/US
 crotail/US
 crotal/US
+crotalach/S
+crotalacha/S
+crotalaigh/S
+crotalaí/S
 crothach/S
 crothacha/S
 crothaigh/S
@@ -30273,6 +30278,8 @@ d'iompórtálainn/JU
 d'iomraínn/FU
 d'iomáin/U
 d'iomáininn/EU
+d'Ion-Mhongóil
+d'Ion-Mhongóile
 d'ionaclaigh/U
 d'ionaclaínn/FU
 d'Ionad
@@ -33101,6 +33108,8 @@ diantréanaigh/S
 diantréanais/US
 diantréanas/US
 diantréanaí/S
+diantumadh/US
+diantumtha/US
 diantástáil/US
 diantástála/US
 diantástálacha/US
@@ -42095,6 +42104,7 @@ foisceachta/MDUS
 foiscealach/MDBUS
 foiscealaigh/MDBUS
 foiseach/MDBUS
+foisfín/MDBUS
 foisigh/MDUS
 foisteanach/BS
 foisteanacha/BS
@@ -49704,6 +49714,8 @@ gogalach/US
 gogalaí/US
 gogalaím/USC
 gogalta/S
+gogamáin/US
+gogamán/US
 gogaí/US
 gogáin/US
 gogán/US
@@ -52384,6 +52396,8 @@ hIolair
 hIolar
 hIompróir
 hIompróra
+hIon-Mhongóil
+hIon-Mhongóile
 hIonad
 hIonaid
 Hiondustáin
@@ -56161,6 +56175,8 @@ iománaithe/HMDBU
 iománaí/HMDBUT
 iománaíocht/HMDBU
 iománaíochta/HMDU
+Ion-Mhongóil
+Ion-Mhongóile
 ionaclaigh/HU
 ionaclaithe/HBMDU
 ionaclaí/U
@@ -62322,6 +62338,8 @@ m'Iolair
 m'Iolar
 m'Iompróir
 m'Iompróra
+m'Ion-Mhongóil
+m'Ion-Mhongóile
 m'Ionad
 m'Ionaid
 m'Iondúis
@@ -66932,6 +66950,9 @@ muirníní/S
 muiroibreacha/S
 muirphictiúir/S
 muirphictiúr/S
+muirshaighdiúir/S
+muirshaighdiúirí/S
+muirshaighdiúra/S
 muirshaothraithe/S
 muirshaothrú/S
 muirthimpeallacht/S
@@ -71971,6 +71992,8 @@ nIolar
 niomh
 nIompróir
 nIompróra
+nIon-Mhongóil
+nIon-Mhongóile
 nIonad
 nIonaid
 nIondúis
@@ -74217,6 +74240,9 @@ paillí/S
 pailm/US
 pailme/US
 pailmeacha/US
+pailmseist/US
+pailmseiste/US
+pailmseistí/US
 pailneoir/US
 pailneoirí/US
 pailneora/US
@@ -86156,6 +86182,9 @@ seanmhná/S
 seanmhodh/S
 seanmhodha/ST
 seanmhodhanna/S
+seanmhonarcha/ST
+seanmhonarchan/S
+seanmhonarchana/S
 seanmhuintir/ST
 seanmhuintire/S
 seanmhuintireacha/S
@@ -93739,6 +93768,8 @@ séadchomhartha/ST
 séadchomharthaí/S
 séadghlais/ST
 séadghlas/S
+séagma/ST
+séagmaí/S
 séala/ST
 séalaigh/S
 Séalainn/S

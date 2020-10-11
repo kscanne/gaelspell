@@ -50,6 +50,7 @@ Avantcard
 Aviva
 Baboró
 Bacardi
+Bandcamp
 Barilla
 Barnardos
 Barry's
@@ -129,6 +130,7 @@ Dairygold
 Damer
 Debenhams
 Debian
+Deezer
 Dell
 Deloitte
 Dettol
@@ -476,6 +478,7 @@ PricewaterhouseCoopers
 Primark
 Prius
 Procter
+ProVerum
 Prudential
 Pulse
 Python
@@ -522,6 +525,7 @@ Shailearna
 SharePoint
 Shelbourne
 Shell
+Shinebright
 Sháirséal
 Siemens
 Signal
@@ -613,6 +617,7 @@ Unix
 Velotec
 Veritas
 Verizon
+Vesada
 Viacom
 Viagra
 Viber

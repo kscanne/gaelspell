@@ -199,6 +199,7 @@ ainmiú ainmniú
 ainmiúcháin ainmniúcháin
 ainmiúchán ainmniúchán
 ainmn ainm
+ainmniúchan ainmniúchán
 ainmím ainmním
 ainmíodh ainmníodh
 ainne againne
@@ -531,6 +532,7 @@ ará a rá
 ará atá
 aráis ar ais
 arás áras
+arásan árasán
 arásáin árasáin
 arásán árasán
 aréis ar ais
@@ -580,6 +582,7 @@ athlo athlá
 athmhacnamh athmhachnamh
 athnuachán athnuachan
 athníonn aithníonn
+athogáil atógáil
 athris aithris
 athrisím aithrisím
 athriú athrú
@@ -1125,6 +1128,7 @@ buisead buiséad
 buladh bualadh
 bullaithe bulaithe
 bunasach bunúsach
+Bunbeag Bun Beag
 bunprionsabail bunphrionsabail
 bunreachtiuil bunreachtúil
 bunreachtúl bunreachtúil
@@ -1885,6 +1889,7 @@ comhgairdeas comhghairdeas
 comhghaideas comhghairdeas
 comhghairdeagas comhghairdeas
 comhghairdes comhghairdeas
+comhghairdheas comhghairdeas
 comhghardeachas comhghairdeas
 comhghardeas comhghairdeas
 comhionnais comhionannais
@@ -4039,6 +4044,8 @@ ginniúint giniúint
 ginnmhilleadh ginmhilleadh
 ginéaralta ginearálta
 ginéarálta ginearálta
+ginéiceolaíocht gínéiceolaíocht
+ginéiceolaíochta gínéiceolaíochta
 Giobraltar Giobráltar
 giog gíog
 giolch giolc
@@ -6064,6 +6071,7 @@ phairtnéir pháirtí
 phairtí pháirtí
 phairtíocht pháirtíocht
 phalaistín Phalaistín
+phandéim phaindéim
 pharlimint pharlaimint
 pharoiste pharóiste
 pharroiste pharóiste
@@ -6208,6 +6216,7 @@ pocaí pócaí
 podcraoladh podchraoladh
 podcraolta podchraolta
 podcraoltaí podchraoltaí
+Pogacar Pogačar
 poibli poiblí
 poilbí poiblí
 poilineacht póilíneacht
@@ -6666,6 +6675,7 @@ sagainn s'againn
 sagat s'agat
 said siad
 saidbhir saibhir
+Saidbhín Saidhbhín
 saidhbir saibhir
 saigdiúirí saighdiúirí
 saighduirí saighdiúirí
@@ -6985,6 +6995,7 @@ seineann seinneann
 seinmt seinm
 seint seinm
 seinte seinnte
+seinteoir seinnteoir
 seipeal séipéal
 seirbhis seirbhís
 seirbhise seirbhíse
@@ -7718,6 +7729,7 @@ tabhactacht tábhachtach
 tabhairigí tugaigí
 tabhairne tábhairne
 tabhairneoir tábhairneoir
+tabhairneoirí tábhairneoirí
 tabhar tabhair
 tabla tábla
 tablaí táblaí

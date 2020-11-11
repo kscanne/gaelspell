@@ -241,6 +241,7 @@ Gaiety
 Galaxy
 Galleon
 Gallup
+Galmont
 Gamble
 Gaslink
 Gateway
@@ -531,6 +532,7 @@ Siemens
 Signal
 Siri
 Skainos
+Skillnet
 Skillnets
 Skolelinux
 Sky

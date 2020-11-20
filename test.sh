@@ -12,9 +12,9 @@ testout() {
 
 # First, check file syntaxes
 # most files are just single words
-egrep -v "^[A-Za-z'-]+" ainm-b ainm-f aitiuil bioblabeag ceol daoine dinneenok.txt eachtar gall gallainm-b gallainm-f giorr gno latecaps lit logainm romhanach treise | testout 'should only be single words'
+egrep -v "^[A-Za-zŽž'-]+" ainm-b ainm-f aitiuil bioblabeag ceol daoine dinneenok.txt eachtar gall gallainm-b gallainm-f giorr gno latecaps lit logainm romhanach treise | testout 'should only be single words'
 # a few include replacements
-egrep -v "^[A-Za-z'-]+( [A-Za-z'-]+)+" apost dinneenalts.txt earraidi fgbalts.txt gaelu.in myalts.txt riaalts.txt | egrep -v '^earraidi:ladh 1ú$' | testout 'should only be word and replacement'
+egrep -v "^[A-Za-zŽž'-]+( [A-Za-zŽž'-]+)+" apost dinneenalts.txt earraidi fgbalts.txt gaelu.in myalts.txt riaalts.txt | egrep -v '^earraidi:ladh 1ú$' | testout 'should only be word and replacement'
 # and a few allow affix flags
 egrep -v "^[A-Za-z'-]+(/[A-Z]+)?$" gaeilge.raw biobla gaeilge.lit gaeilge.mor | testout 'should only be word and affix flags'
 # apost entries really should have leading or trailing aposts!
@@ -25,7 +25,7 @@ egrep "(^['-]|['-]$)" ainm-b ainm-f aitiuil bioblabeag ceol daoine dinneenok.txt
 egrep " '" apost dinneenalts.txt earraidi fgbalts.txt gaelu.in myalts.txt riaalts.txt | testout 'unwanted leading apostrophe in replacement'
 egrep " .+'( |$)" apost dinneenalts.txt earraidi fgbalts.txt gaelu.in myalts.txt riaalts.txt | testout 'unwanted trailing apostrophe in replacement'
 # many are comprised of proper names, so almost all will include a capital
-egrep -v '[A-Z]' ainm-? aitiuil bioblabeag ceol daoine gall gallainm-? gno lit logainm | egrep -v '^gall:van$' | testout 'missing capital letter'
+egrep -v '[A-ZŽ]' ainm-? aitiuil bioblabeag ceol daoine gall gallainm-? gno lit logainm | egrep -v '^gall:van$' | testout 'missing capital letter'
 egrep -v '^([hnt][AEIOUÁÉÍÓÚ]|mB|gC|n[DG]|bhF|bP|tS|dT)' latecaps | testout 'late capital letter missing'
 # miotas/stair include the usual English in many cases, followed by a colon
 egrep -v "^[A-Za-z'-]*:[A-Za-z'-]+$" miotas stair | testout 'malformed line in miotas or stair'

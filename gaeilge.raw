@@ -3474,6 +3474,8 @@ an-chomhluadair/HMDU
 an-chomhluadar/HMDBUT
 an-chomhoibrithe/HMDU
 an-chomhoibriú/HMDBUT
+an-chomhrá/HMDBUT
+an-chomhráite/HMDBU
 an-chompordach/HB
 an-chompordacha/B
 an-chompordaigh
@@ -5134,6 +5136,8 @@ aontaíodh/HU
 aontaítear/HU
 aonteangach/HB
 aonteangacha/B
+aonteangachais/HMDU
+aonteangachas/HMDBUT
 aonteangaigh
 aonteangaí/B
 aontoil/HMDBU
@@ -25068,6 +25072,9 @@ creathánach/S
 creathánacha/S
 creathánaigh/S
 creathánaí/S
+creathóir/US
+creathóirí/US
+creathóra/US
 creatlach/US
 creatlacha/US
 creatlaí/US
@@ -33334,6 +33341,8 @@ dioscaireachtaí/US
 dioscaí/US
 dioscmharcach/US
 dioscmharcaigh/US
+dioscmharcaíocht/US
+dioscmharcaíochta/US
 diosctha/SU
 dioscthiomáint/US
 dioscthiomáintí/US
@@ -36416,7 +36425,9 @@ dícear/US
 díchairdiúil/S
 díchairdiúla/S
 dícheadaigh/US
+dícheadail/US
 dícheadaithe/SU
+dícheadal/US
 dícheadaím/USC
 dícheadú/US
 dícheall/US
@@ -39880,6 +39891,7 @@ feadánacht/MDBUS
 feadánachta/MDUS
 feadánaigh/S
 feadánaí/BS
+feadánra/MDBUS
 feadóg/MDBUS
 feadóga/MDBUS
 feadóige/MDUS
@@ -44577,6 +44589,8 @@ féin
 féinaitheantais/MDUS
 féinaitheantas/MDBUS
 féinaithne/MDBUS
+féinaonraithe/MDUS
+féinaonrú/MDBUS
 féinbhainistíocht/MDBUS
 féinbhainistíochta/MDUS
 féinbháis/MDUS
@@ -53072,6 +53086,10 @@ iar-aire/HMDBUT
 iar-Aire/HU
 iar-airí/HMDBU
 iar-Airí/HU
+iar-apacailipteach/HB
+iar-apacailipteacha/B
+iar-apacailiptigh
+iar-apacailiptí/B
 iar-ardteistiméireacht/HMDBU
 iar-ardteistiméireachta/HMDU
 iar-bhunleibhéal/HMDBUT
@@ -53125,6 +53143,10 @@ iar-Thaoiseach/HU
 iar-Thaoisigh/HU
 iar-tharraingt/HMDBU
 iar-tharraingthe/HMDU
+iar-Thriontach/HB
+iar-Thriontacha/B
+iar-Thriontaigh
+iar-Thriontaí/B
 iar-Uachtaráin/HU
 iar-Uachtarán/HU
 iarainn/HMDBU
@@ -53392,6 +53414,9 @@ iarollúna/HMDBU
 iarpheileadóir/HMDBUT
 iarpheileadóirí/HMDBU
 iarpheileadóra/HMDU
+iarpholaiteoir/HMDBUT
+iarpholaiteoirí/HMDBU
+iarpholaiteora/HMDU
 iarphroinn/HMDBU
 iarphroinne/HMDU
 iarphroinnte/HMDBU

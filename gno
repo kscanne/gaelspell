@@ -219,6 +219,7 @@ Foróige
 Foxconn
 Frappr
 Freeview
+Freudenberg
 Frontex
 Frontline
 Fuji
@@ -417,6 +418,7 @@ MySQL
 Mythbusters
 Napster
 Nationwide
+NeighbourFood
 Nemeton
 Nespresso
 Nestlé
@@ -514,6 +516,7 @@ Ruby
 Ryanair
 Rí-Rá
 Safari
+Samaritans
 Samba
 Samsung
 Santander

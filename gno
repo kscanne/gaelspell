@@ -62,6 +62,7 @@ Benetton
 Berria
 Bewley's
 Bioniche
+BioNTech
 Bisto
 Bitcoin
 Blackboard
@@ -111,6 +112,7 @@ Citywest
 Clarendon
 Clarion
 Claris
+Cluedo
 Coca-Cola
 CoderDojo
 Colgate
@@ -399,6 +401,7 @@ Misericordiae
 Mitsubishi
 Mixcloud
 Mobil
+Moderna
 Molscéal
 Monde
 Monopoly
@@ -444,6 +447,7 @@ Outlook
 Overwatch
 Oxegen
 Oxfam
+Padlet
 Pandora
 Parwin
 Pavee
@@ -644,6 +648,7 @@ Westenra
 Westlife
 WhatsApp
 Whelan's
+Whova
 Wii
 WikiLeaks
 Wikimedia

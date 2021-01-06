@@ -7827,6 +7827,8 @@ athstaidéar/HMDBUT
 athstaidéir/HMDU
 athstiúradh/HMDBUT
 athstiúrtha/HMDU
+athstocáil/HMDBU
+athstocála/HMDU
 athstruchtúraithe/HMDU
 athstruchtúrtha/HB
 athstruchtúrú/HMDBUT
@@ -44618,6 +44620,9 @@ féinchúiseach/BS
 féinchúiseacha/BS
 féinchúisigh/S
 féinchúisí/BS
+féinchúraim/MDUS
+féinchúraimí/MDBUS
+féinchúram/MDBUS
 féindiúltaithe/MDUS
 féindiúltú/MDBUS
 féindochair/MDUS
@@ -53986,6 +53991,8 @@ idirthuilleamaíocht/HMDBU
 idirthuilleamaíochta/HMDU
 idirthurais/HMDBU
 idirthuras/HMDBUT
+idirthéacsúlacht/HMDBU
+idirthéacsúlachta/HMDU
 idirurláir/HMDBU
 idirurlár/HMDBUT
 idiréadain/HMDBU
@@ -70018,6 +70025,7 @@ neamh-chomhsheasmhachta
 neamh-chomhsheasmhachtaí
 Neamh-Chríostaithe
 Neamh-Chríostaí
+neamh-dhénártha
 neamh-Eorpach
 neamh-Eorpacha
 neamh-Eorpaigh
@@ -101636,6 +101644,8 @@ uaschuimsí/HMDBU
 uaschúirt/HMDBU
 uaschúirte/HMDU
 uaschúirteanna/HMDBU
+uaschúrsáil/HMDBU
+uaschúrsála/HMDU
 uascáin/HMDBU
 uascán/HMDBUT
 uascánta/HB
@@ -102790,10 +102800,6 @@ Veiniséalach
 Veiniséalacha
 Veiniséalaigh
 Veiniséalaí
-veinéireach
-veinéireacha
-veinéirigh
-veinéirí
 Veinéis
 Veinéise
 Veinéiseach
@@ -102936,6 +102942,10 @@ véarsaí
 véarsaíocht
 véarsaíochta
 Véineas
+véinéireach
+véinéireacha
+véinéirigh
+véinéirí
 Vín
 Víneach
 Víneacha

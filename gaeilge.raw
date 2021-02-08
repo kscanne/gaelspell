@@ -2791,8 +2791,8 @@ alcóil/HMDU
 alcól/HMDBUT
 alcólach/HBMDUT
 alcólacha/B
-alcólacht/HMDBU
-alcólachta/HMDU
+alcólachais/HMDU
+alcólachas/HMDBUT
 alcólaigh/HMDBU
 alcólaiméadair/HMDBU
 alcólaiméadar/HMDBUT
@@ -43239,6 +43239,8 @@ freagrán/US
 freagróir/US
 freagróirí/US
 freagróra/US
+freagrúil/S
+freagrúla/S
 freagrúlacht/US
 freagrúlachta/US
 freang/US
@@ -44251,6 +44253,8 @@ fáilte/MDBUS
 Fáilte/S
 fáilteach/BS
 fáilteacha/BS
+fáilteachais/MDUS
+fáilteachas/MDBUS
 fáilteoir/MDBUS
 fáilteoirí/MDBUS
 fáilteora/MDUS
@@ -71279,6 +71283,8 @@ neamhstaidéir
 neamhstailceoir
 neamhstailceoirí
 neamhstailceora
+neamhstairiúil
+neamhstairiúla
 neamhstruchtúrtha
 neamhstáit
 neamhthabhairt
@@ -77435,6 +77441,7 @@ príomhthalaimh/US
 príomhthalamh/US
 príomhthasc/US
 príomhthascanna/US
+príomhtheach/US
 príomhtheachtaireacht/US
 príomhtheachtaireachta/US
 príomhtheachtaireachtaí/US
@@ -77443,6 +77450,7 @@ príomhthiománaithe/US
 príomhthiománaí/US
 príomhthionscadail/US
 príomhthionscadal/US
+príomhthithe/US
 príomhthoradh/US
 príomhthoraidh/US
 príomhthorthaí/US
@@ -77466,6 +77474,7 @@ príomhthéama/US
 príomhthéamaí/US
 príomhthéarma/US
 príomhthéarmaí/US
+príomhthí/US
 príomhuirlis/US
 príomhuirlise/US
 príomhuirlisí/US
@@ -77841,6 +77850,9 @@ páirtithe/SU
 páirtiú/US
 páirtmhaoinithe/US
 páirtmhaoiniú/US
+páirtnéireacht/US
+páirtnéireachta/US
+páirtnéireachtaí/US
 páirtoird/US
 páirtord/US
 Páirtí/S
@@ -86076,6 +86088,8 @@ seandúchas/S
 seaneaglais/ST
 seaneaglaise/S
 seaneaglaisí/S
+seaneagráin/ST
+seaneagrán/S
 seaneire/ST
 seaneirí/S
 seaneolais/ST
@@ -86351,6 +86365,8 @@ seanscéil/ST
 seanscéim/ST
 seanscéime/S
 seanscéimeanna/S
+seansiopa/ST
+seansiopaí/S
 seansloinne/ST
 seansloinnte/S
 seanstair/ST
@@ -104191,6 +104207,8 @@ zúnna
 éifeachtaí/HBMDU
 éifeachtúil/HB
 éifeachtúla/B
+éifeachtúlacht/HMDBU
+éifeachtúlachta/HMDU
 éifid/HMDBU
 éifide/HMDU
 éifidí/HMDBU

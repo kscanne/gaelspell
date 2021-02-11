@@ -268,6 +268,7 @@ achainíghe/HMDBU
 achainíghí/HMDBU
 achamair/HB
 achan/H
+achaon
 achar
 acharainn/HMDBU
 acharann/HMDBUT
@@ -2986,6 +2987,9 @@ anstrólaíocht
 ansúd
 anta/U
 antan
+antashubstaint/HMDBU
+antashubstainte/HMDU
+antashubstaintí/HMDBU
 anti
 Antioch
 Antiochus
@@ -3205,6 +3209,7 @@ aonartha/HB
 aonaránach/HMDBUT
 aonaránaigh/HMDBU
 aonaránta/HB
+aonarú/HMDBUT
 aonarúil/HB
 aonarúla/B
 aonbhall
@@ -23614,6 +23619,7 @@ dreis
 dreise/US
 dreisiúir/US
 dreisiúr/US
+dreitheár/US
 drem
 dreochailleach
 dreochaint
@@ -26150,6 +26156,7 @@ eanglaise/HMDU
 Eanna
 Eannraoi
 eara/HMDBUT
+Earagal
 earaoid
 earasbarr
 earaí/HMDBU
@@ -30159,6 +30166,8 @@ fonómhad/MDBUS
 fonómhadach
 fonómhaid/MDBUS
 fonómhaide/MDUS
+fophríomhúil/BS
+fophríomhúla/BS
 for/US
 for-dhoras/MDBUS
 for-leithne/MDBUS
@@ -35300,6 +35309,9 @@ greadánta
 greadúnta
 greagh
 greaimhín
+greainc/US
+greaince/US
+greainceanna/US
 greallach
 grealsa
 grealsach/US
@@ -41946,6 +41958,8 @@ lánamhuin
 lánaois
 lánaoise
 lánbhliadhna
+lánchumhachtach
+lánchumhachtaigh
 lánGhaeilge
 lánGhaelach
 lánGhaelacha
@@ -41984,6 +41998,7 @@ lár-bhall
 lár-na-mháireach
 lára
 lárnaithe
+lárnamháireach
 lárnú
 lártheifneach
 lártheifneacha
@@ -46127,6 +46142,8 @@ múinleach
 múinteachais/S
 múinteachas/S
 múirncach
+múiríneacht/S
+múiríneachta/S
 múis
 múisclí
 múisclím/SC
@@ -48734,6 +48751,8 @@ orrúsan
 orta
 ortha
 ortha-san
+orthab
+orthabsan
 orthan/HMDU
 orthana/HMDBU
 orthasan
@@ -49851,6 +49870,7 @@ plághadh
 pláig/US
 pláigh/US
 pláighe/US
+pláigheanna/US
 pláighiúil
 pláinéid
 pláiseog
@@ -51254,6 +51274,7 @@ raimpéir
 raimse
 raince
 raing
+raingléara
 raingléis
 rainic
 rainicc
@@ -57032,7 +57053,9 @@ Sionnainne/S
 sionnsa/ST
 sionnán
 sionsánach
+siopail/ST
 siopaithe/S
+siopal/S
 sioparnach/ST
 sioparnaí/S
 sior
@@ -58569,9 +58592,11 @@ socúla/S
 soda/ST
 sodal
 sodalach
-sodarnach
+sodarnach/ST
+sodarnaí/S
 sodarthóir
-sodaráil
+sodaráil/ST
+sodarála/S
 sodh
 sodhanta/S
 sodhantach/S
@@ -58581,7 +58606,8 @@ sodhantaigh/S
 sodhantas
 sodhantaí/S
 sodhearbhtha/S
-sodráil
+sodráil/ST
+sodrála/S
 sodrálach
 sodrálaí
 sodán
@@ -63116,6 +63142,7 @@ teanóir/US
 teanóirí/US
 teanóra/US
 teara/US
+tEaragal
 tearanódóin/US
 tearanódón/US
 tearasbarr
@@ -63292,6 +63319,7 @@ teipithe/S
 teirceacht
 teirgéis
 teirigh/US
+teirim/S
 teiripithe/US
 teiripí/US
 teirmeasc
@@ -67155,6 +67183,7 @@ téite
 téiteoir/US
 téiteoirí/US
 téiteora/US
+téith/US
 téitheadh/US
 téora
 téx
@@ -68280,6 +68309,8 @@ ursanacha/HMDBU
 ursannacha/HMDBU
 ursuil/HMDBU
 ursul/HMDBUT
+urthe
+urthesean
 urus
 urusa/HB
 uráil
@@ -69898,6 +69929,8 @@ Zíon
 óganach/HMDBUT
 óganaigh/HMDBU
 ógbhadh
+ógeagrais/HMDBU
+ógeagras/HMDBUT
 óghacht/HMDBU
 óghachta/HMDU
 óghaim/HMDU

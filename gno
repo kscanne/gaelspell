@@ -251,6 +251,7 @@ Gateway
 Gazprom
 Gcom
 Gentoo
+Ghaelchló
 Ghostscript
 Gibsol
 GitHub
@@ -416,6 +417,7 @@ Mylan
 MySpace
 MySQL
 Mythbusters
+Nakatomi
 Napster
 Nationwide
 NeighbourFood
@@ -484,6 +486,7 @@ Prezi
 PricewaterhouseCoopers
 Primark
 Prius
+ProAmpac
 Procter
 ProVerum
 Prudential
@@ -516,6 +519,7 @@ Ruby
 Ryanair
 Rí-Rá
 Safari
+Sainsbury's
 Samaritans
 Samba
 Samsung

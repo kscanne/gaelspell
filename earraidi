@@ -579,6 +579,7 @@ athchóirú athchóiriú
 athcraoladh athchraoladh
 athcraolta athchraolta
 athdíol athdhíol
+athfoghlaim athfhoghlaim
 athfoilsítear athfhoilsítear
 athghabhail athghabháil
 athghaelú ath-Ghaelú
@@ -699,6 +700,7 @@ Bearla Béarla
 bearla béarla
 bearrach bearach
 bearthaithe beartaithe
+bearáilte beáráilte
 beas bheidh
 beathnaiséisí beathaisnéisí
 beathnú breathnú
@@ -1108,6 +1110,7 @@ buachallaí buachaillí
 buachallí buachaillí
 buachpointí buaicphointí
 buacphointí buaicphointí
+buaicam buaic-am
 buaichphointí buaicphointí
 buailfaidh buailfidh
 buaill buail
@@ -1764,6 +1767,7 @@ claraithe cláraithe
 claranna cláir
 claraíodh cláraíodh
 clarlann clárlann
+claráigh cláraigh
 clarú clárú
 clarúcháin clárúcháin
 clarúchán clárúchán
@@ -2835,6 +2839,7 @@ drochchaint droch-chaint
 drochchaoi droch-chaoi
 drochchinneadh droch-chinneadh
 drochchoinníollacha droch-choinníollacha
+drochchoiste droch-choiste
 drochchomhairle droch-chomhairle
 drochchomhartha droch-chomhartha
 drochchomhluadar droch-chomhluadar
@@ -3431,6 +3436,7 @@ fháigheann fhaigheann
 fháill fháil
 Fháirche Fhairche
 fháisnéis fhaisnéis
+fhèin féin
 fhéadóg fheadóg
 fhéicail fheiceáil
 fhéiceáil fheiceáil
@@ -3526,6 +3532,7 @@ foclór foclóir
 fodhlithe fodhlíthe
 fogair fógair
 fogairt fógairt
+fogartha fógartha
 foghlaime foghlama
 foghlaimeorí foghlaimeoirí
 foghlaimithe foghlamtha
@@ -3656,6 +3663,7 @@ fáisnéise faisnéise
 fánfaidh fanfaidh
 fátaí prátaí
 fáíl fáil
+fèin féin
 féachanna féachana
 féachant féachaint
 féachtaint féachaint
@@ -3875,6 +3883,7 @@ gcluid gclúid
 gclárdubh gclár dubh
 gcnoch gcnoc
 gcoimisún gcoimisiún
+gcoinnaí gcoinní
 gCoiré gCóiré
 gColaiste gColáiste
 gcolaiste gcoláiste
@@ -4994,6 +5003,7 @@ láimhséail láimhseáil
 láinseál lainseáil
 láirneach lárnach
 láithrean láithreán
+láithreaoirí láithreoirí
 láithréan láithreán
 lámhaltas lamháltas
 lámhdéanta lámhdhéanta
@@ -6300,6 +6310,7 @@ poilíní póilíní
 poirseáil póirseáil
 poirtéir póirtéir
 poit póit
+Pokemon Pokémon
 polaisithe polasaithe
 polaitaíocht polaitíocht
 polaitaíochta polaitíochta
@@ -7054,6 +7065,7 @@ seastan seastán
 seasur séasúr
 sebastian Sebastian
 sechtaine seachtaine
+Sefcovic Šefčovič
 seibhísí seirbhísí
 seiceamhú seicheamhú
 seiceál seiceáil
@@ -8171,6 +8183,7 @@ thuairmse thuairimse
 thuairmí thuairimí
 thuairscigh thuairiscigh
 thuairímí thuairimí
+thuaiscert thuaisceart
 thuaraimse thuairimse
 thuaraimí thuairimí
 thuarascail thuarascáil
@@ -8746,9 +8759,13 @@ usáidte úsáidte
 usáidtear úsáidtear
 usáitear úsáidtear
 utamáil útamáil
+vacsainiú vacsaíniú
+vacsainíthe vacsaínithe
 vacsáin vacsaín
+vaicsaín vacsaín
 vaicsíniú vacsaíniú
 Valentín Vailintín
+Valintín Vailintín
 vampír vaimpír
 vean veain
 vearsa véarsa

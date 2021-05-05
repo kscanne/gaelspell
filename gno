@@ -324,6 +324,7 @@ JobBridge
 JobsPlus
 Joomla
 Juventus
+Kahoot
 Kantar
 Kappa
 Kellogg's
@@ -565,6 +566,7 @@ Spar
 Specsavers
 SpongeBob
 Spotify
+SquarePants
 Starbucks
 Statoil
 Steam
@@ -680,5 +682,6 @@ Zebre
 Zoom
 Zumba
 Zyban
+ÉireComposites
 Ériu
 Óg-Ógras

@@ -505,12 +505,12 @@ adhmhaidine/HMDU
 adhmhaidineacha/HMDBU
 adhmhill/HU
 adhmhille/U
-adhmhilleadh/HUBMDT
+adhmhilleadh/HMDBUT
 adhmhillidís/HU
 adhmhilligí/HU
 adhmhillim/UA
 adhmhillinn/E
-adhmhillte/HBUMD
+adhmhillte/HBMDU
 adhmhilltear/HU
 adhmhol/HU
 adhmhola/U
@@ -11504,6 +11504,8 @@ bithrithimí/US
 bithsféar/US
 bithsféir/US
 bithshíoraí/S
+bithábhair/US
+bithábhar/US
 bithéagsúlacht/US
 bithéagsúlachta/US
 bithóim/US
@@ -14498,9 +14500,13 @@ bunaonaid/US
 bunaosta/S
 bunata/S
 bunathraithe/US
+bunathraitheach/S
+bunathraitheacha/S
 bunathraitheoir/US
 bunathraitheoirí/US
 bunathraitheora/US
+bunathraithigh/S
+bunathraithí/S
 bunathruithe/US
 bunathrú/US
 bunaíche/S
@@ -20036,6 +20042,9 @@ cispheile/US
 cispheileadóir/US
 cispheileadóirí/US
 cispheileadóra/US
+cisrás/US
+cisrása/US
+cisrásaí/US
 cist/US
 Ciste/S
 ciste/SU
@@ -38247,6 +38256,8 @@ easaontóir/HMDBUT
 easaontóirí/HMDBU
 easaontóra/HMDU
 easaontú/HMDBUT
+easaoránach/HMDBUT
+easaoránaigh/HMDBU
 easaí/B
 easbhrú/HMDBUT
 easbhrúdh/HU
@@ -45056,6 +45067,9 @@ fíor-Ghaeltacht/U
 fíor-Ghaeltachta/U
 fíor-Ghaeltachtaí/U
 fíor-mhíshásta/BS
+fíor-neamhghnách/BS
+fíor-neamhghnácha/BS
+fíor-neamhghnáiche/BS
 fíor-rathúil/BS
 fíor-rathúla/BS
 fíor-riachtanach/BS
@@ -53560,6 +53574,8 @@ iarphróiseáil/HMDBU
 iarphróiseála/HMDU
 iarpháirtithe/HMDBU
 iarpháirtí/HMDBUT
+iarphóilín/HMDBUT
+iarphóilíní/HMDBU
 iarr/HU
 iarra/U
 iarracht/HMDBU
@@ -57170,6 +57186,9 @@ jaingléir
 jaingléirí
 jeaicín
 jeaicíní
+jeidhb
+jeidhbe
+jeidhbeanna
 jeighbh
 jeighbhe
 jeighbheanna
@@ -77209,6 +77228,9 @@ príomhchampas/US
 príomhchanúint/US
 príomhchanúintí/US
 príomhchanúna/US
+príomhchaomhnóir/US
+príomhchaomhnóirí/US
+príomhchaomhnóra/US
 príomhchara/US
 príomhcharachtair/US
 príomhcharachtar/US
@@ -80827,6 +80849,7 @@ réamhphróiseálaí
 réamhphósta
 réamhrabhadh
 réamhrabhaidh
+réamhreachtaíochta
 réamhriachtanach
 réamhriachtanacha
 réamhriachtanaigh
@@ -83289,6 +83312,9 @@ saora/S
 saoradh/S
 saoraim/SA
 saorainn/E
+saoraistritheoir/S
+saoraistritheoirí/S
+saoraistritheora/ST
 saorbhealach/S
 saorbhealaigh/ST
 saorbhealaí/S
@@ -99904,6 +99930,8 @@ trícheathrúnach/US
 trícheathrúnaigh/US
 trícheireatóip/US
 trícheireatóp/US
+tríchlóiríd/US
+tríchlóiríde/US
 tríchorda/US
 tríchordaí/US
 tríchosach/SU
@@ -101896,6 +101924,8 @@ uanúil/HB
 uanúla/B
 uarach/HMDBU
 uaraí/HMDU
+uas-scileáil/HMDBU
+uas-scileála/HMDU
 uasadh/HMDBUT
 uasaicme/HMDBU
 uasaicmeach/HB

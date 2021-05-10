@@ -78,6 +78,7 @@ Boutle
 Brainscape
 Breitbart
 Brexit
+Brightspace
 Britannica
 Buckfast
 Budweiser
@@ -232,6 +233,7 @@ Fíbín
 G-Spota
 Gabbana
 Gaelchló
+GaelGram
 GaelGÁIRÍ
 Gaeloiliúint
 Gaelport
@@ -436,6 +438,7 @@ Nippon
 Nissan
 Nokia
 NovaUCD
+Novelplast
 Nutella
 Oberweis
 Odeo
@@ -586,6 +589,7 @@ Sétanta
 Tamagotchi
 Tamboran
 Target
+Tata
 Tayto
 Taytos
 TechFéile

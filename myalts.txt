@@ -102,6 +102,7 @@ aduairt a dúirt
 aduaradar a dúradar
 adubairt a dúirt
 adubhairt a dúirt
+adubhairt dúirt
 adubhart a dúirt mé
 adubhartsa a dúirt mé
 adubhrabhar a dúirt sibh
@@ -203,6 +204,7 @@ aibeoraimíd déarfaimid
 aibeorair déarfaidh tú
 aibeorod déarfaidh mé
 aibéar déarfaidh mé
+aic-aic aic aic
 aicese aicise
 aicíse aicise
 aige'n ag an
@@ -594,7 +596,9 @@ atchífeas a fheicfidh
 atchífeá a d'fheicfeá
 atchím a fheicim
 atchítear a fheictear
+Ath-an-Uir Áth an Iúir
 Atha'n Átha an
+Athiaruin hAithiarainn
 atuíon atá
 atá'n atá an
 atáid atá siad
@@ -677,6 +681,7 @@ Baoithin Baoithín
 Barabbas Barabas
 Barabbás Barabas
 Barra-Liath Barr Liath
+Barrsguab Barr Scuab
 Barsillai Bairzilí
 Barsillai Bhairzilí
 Baruch Barúch
@@ -729,6 +734,7 @@ bhainios bhaineann
 bhais bhois
 Bhalac Bhálác
 Bhaléra Valera
+bhamar bhíomar
 Bhanba Bhanbha
 Bhaoigheallach Bhaollach
 bharamhailsa bharúilse
@@ -1005,6 +1011,7 @@ Brighde Bríde
 Brighdín Brídín
 Brighide Bríde
 briollabhrealla brille bhreaille
+brobhattoin brobh i dtóin
 broimeanna bromanna
 Bréandáin Breandáin
 Bréanthain Bréanainn
@@ -1067,6 +1074,7 @@ caide'n cad é an
 caidé cad é a
 caileach cailleadh
 caileadh cailleadh
+Caillain Callainn
 cailleag cailleadh
 caillid cailleann
 caillid cailleann siad
@@ -1086,6 +1094,8 @@ Caldeánachaibh Caildéigh
 Caldeánuigh Caildéigh
 Callain Callainn
 Calmfear Calmfhear
+Camuisg Camaisc
+Camuisg gCamaisc
 Canaanítigh Canánaigh
 Cananíteach Canánach
 Cananítigh Canánaigh
@@ -1107,9 +1117,13 @@ Cathair-BóSine Cathair Bó Sine
 Ccaldénach gCaildéach
 cCallain gCallainn
 cceill gcéill
+ccladhfais gclaí fáis
+ccoige gcúige
 cConaill Conaill
+cCuaileach gCuailleach
 ce'go cé go
 ce'nach cé nach
+ceann-bata ceann bata
 ceann-fé ceann faoi
 ceann-urra ceann urra
 ceanntuí ceann tuí
@@ -1203,10 +1217,12 @@ chol-ceathar chol ceathrair
 Cholumcille Cholm Cille
 chomhairlesa chomhairlese
 chomhnuighsiod chónaigh siad
+chonacas chonaic mé
 chonacsa chonaic mé
 chonaictheas chonacthas
 chonaicís chonaic tú
 Chonail Chonaill
+chonarcas chonaic mé
 choncadar chonaiceadar
 Chonchúbhair Chonchubhair
 Choncobhair Chonchobhair
@@ -1230,6 +1246,7 @@ chroidhesa chroíse
 chroidhese chroíse
 chroidhesi chroíse
 Chromaill Chromail
+Chromuill Chromail
 Chromwell Chromail
 Chruim Chroim
 chua chuaigh
@@ -1237,6 +1254,7 @@ chuadhabhar chuaigh sibh
 chuadhadar chuadar
 chuadhas chuaigh mé
 chuadhassa chuaigh mise
+chuadhmar chuamar
 Chuailnge Chuailgne
 chualabhar chuala sibh
 chualais chuala tú
@@ -1265,6 +1283,8 @@ chuimhníossa chuimhnigh mé
 chuimleas chuimil mé
 chuimníos chuimhnigh mé
 Chuinigh Choinnigh
+Chuinnig Choinnigh
+Chuinnig Coinnigh
 chuireans chuireann
 chuirfad chuirfidh mé
 chuirfad-sa chuirfidh mise
@@ -1326,8 +1346,10 @@ cig msh
 Cill-Orglan Cill Orglan
 Cill-Áirne Cill Airne
 Cillrónáin Cill Rónáin
+cinntuibhe cinn tuí
 Cinnáird Cinn Aird
 Cionntsáile Cionn tSáile
+cladhfais claí fáis
 Claudius Cláidias
 Clauidias Cláidias
 Cleopátra Cléópátra
@@ -1344,6 +1366,7 @@ Columcille Colm Cille
 Com-Dubh Com Dubh
 Comharaidhe Comhraí
 Conail Conaill
+conarcas chonaic mé
 Conchobair Conchobhair
 Conchúbhair Conchubhair
 Conchúbhar Conchúr
@@ -1366,8 +1389,11 @@ Criósd Críost
 croidhese croíse
 croithfeadh chroithfeadh
 Cromaill Cromail
+Cromuil Cromail
+Cromuill Cromail
 Cromwell Cromail
 Cronghe Cronjé
+cruim croim
 Cuailnge Cuailgne
 Cuas-an-Bháid Cuas an Bháid
 Cuas-an-Éin Cuas an Éin
@@ -1378,6 +1404,7 @@ Cuchulain Cú Chulainn
 Cuchulainn Cú Chulainn
 cud cuid
 cuimhnídh cuimhnígí
+Cuinigh Choinnigh
 cuirfam cuirfimid
 cuirfeadh chuirfeadh
 cuirfeadh gcuirfeadh
@@ -1655,6 +1682,7 @@ dhiaighsin dhiaidhsean
 Dhiarmuda Dhiarmada
 Dhineoil Dhíneol
 dhionnladh a ionladh
+dhithleachtaibh dhílleachtaithe
 dhióbh díobh
 dhiót díot
 dhiúra-dheabhra dhiúra dheabhra
@@ -1750,6 +1778,7 @@ dingheanuibh d'iníonacha
 diomchar a iompar
 diompóigh d'iompaigh
 Disrael d'Iosrael
+dithleachtaibh dílleachtaithe
 dividenda díbhinní
 dividendum díbhinn
 dióbh díobh
@@ -2178,6 +2207,7 @@ dúnmhárú dúnmharú
 dúras dúirt mé
 dúrt dúirt mé
 dúrtsa dúirt mise
+e é
 e'n den
 Eachdhroim Eachroim
 Eachdhrom Eachroim
@@ -2187,6 +2217,8 @@ Eachdroma Eachroma
 Eachdruim Eachroim
 Eadair Éadair
 Eadhmon Éamon
+Eadhmond Éamon
+Eadmond Éamon
 eadruinne eadrainn
 eadrum idir mé
 Eanna Éanna
@@ -2709,6 +2741,7 @@ Hebron Heabrón
 Hedomítigh hEadómaigh
 hEigceartaigh hÉigeartaigh
 hEilidhe hÉilí
+Heinebuire Heineabaire
 hEirinne hÉireann
 hEirionn hÉireann
 hEithfearnáin hIfearnáin
@@ -2717,6 +2750,8 @@ Helias hÉilias
 Helisa hEilíseá
 Helon Haelon
 Heman Héamán
+Henebeire Heineabaire
+Henebuire Heineabaire
 Hepher Héifir
 Hercules Earcail
 Herod Héaród
@@ -2765,6 +2800,7 @@ htugan thugann
 hug thug
 huga chugat
 hugaí chugaibh
+Hugún Hugúin
 hUibh hUíbh
 Huircánach Hiorcánas
 Huircánuis Hiorcánas
@@ -3022,6 +3058,7 @@ Júdah Iúdá
 Júdéa Iúdáia
 Kathmandu Katmandu
 kayakáil cadhcáil
+la-go-noidhche lá go n-oíche
 Laadan Ladán
 Laban Lábán
 labhrair labhraíonn tú
@@ -3779,6 +3816,7 @@ Pilate Píoláit
 pilibín-míog pilibín míog
 Piláit Píoláit
 Pilát Píoláit
+piléirighe pílir
 Platon Platón
 Pliny Plinias
 Pluto Plútón
@@ -3840,6 +3878,7 @@ rachfamaid rachaimid
 rachfamuid rachaimid
 rachthasa rachfása
 rachthaí rachfaí
+rael réal
 raffle raifil
 Rafterí Raiftearaí
 raghach rachadh
@@ -3937,6 +3976,7 @@ réidh-airgead airgead réidh
 réidh-airgid airgid réidh
 rém le mo
 Réuben Reúbaen
+ría léi
 ríghthesin ríthe sin
 Rímhinn Rìmhinn
 Ríoghardáin Ríordáin
@@ -4133,6 +4173,7 @@ Sholuimh Sholaimh
 shonso shonsa
 Shuccot Shucót
 shuid shuigh
+Shuiliobhain Shúilleabháin
 shádhamair shámar
 shádhas sháigh mé
 Shárah Shárá
@@ -4209,6 +4250,8 @@ Stac Staic
 stadas stad mé
 stadassa stad mise
 staduithe stadta
+Steaphán Stiofáin
+Steaphán Stiofán
 steerage stíris
 Stiopháin Stiofáin
 Stiophán Stiofán
@@ -4221,7 +4264,9 @@ Sucot Shucót
 Sucot Sucót
 sugh-craoibh sú craobh
 suid shuigh
+suidheam suím
 Suileabhan Súilleabháin
+Suiliobhain Súilleabháin
 Sádoc Zádóc
 Sárah Sárá
 Sául Sól
@@ -4290,6 +4335,7 @@ tagaídh tagaigí
 tagaíg tagaigí
 Tahat Tachat
 Tahiti Taihítí
+tainead tháinig
 tairiscíonn tairgeann
 talamh-cheannaigh cheannaigh talún
 Tammoníteach tAmónach
@@ -4312,6 +4358,7 @@ Tarsis Tairsís
 taspáinfead taispeánfaidh mé
 tassal t-asal
 Tassírianach tAsaíreach
+tathair t-athair
 tathuir t-athair
 taóibhsi taobh sin
 tchídhfeadh d'fheicfeadh
@@ -4329,6 +4376,7 @@ tcídh fheiceann
 tcímse feicimse
 tcítear feictear
 tcítear fheictear
+tea tae
 teach-a-phobail teach an phobail
 tEaragal tAragal
 tearball t-eireaball
@@ -4344,6 +4392,8 @@ thabharfad thabharfaidh mé
 thabharfadsa thabharfaidh mise
 thabharfair thabharfaidh tú
 thabharfas thabharfaidh
+thainead tháinig
+thaineadh tháinig
 thainm d'ainm
 thairrigíos tharraing mé
 thairrngirsiod thairngríodar
@@ -4393,6 +4443,7 @@ thochaisíos thochais mé
 thoighfeas thoghfaidh
 thoir-theas thoir theas
 Thomais Thomáis
+thosadh thosaigh
 throidid throideann
 throidid throideann siad
 thruagh-sa thruasa
@@ -4441,6 +4492,8 @@ thú-féin thú féin
 Tichicus Tichiceas
 tigeadh dtiocfadh
 tigeadh thiocfadh
+tigh-atha-an-potadora Tigh Átha an Photadóra
+tigh-na-hinnse Tigh na hInse
 tighse teachsa
 tighse thíse
 tighse tíse
@@ -4507,6 +4560,7 @@ tugaídh tugaigí
 tugsad thugadar
 tuigfí thuigfí
 tuigtí thuigtí
+tuisge t-uisce
 tuitfeadh dtitfeadh
 tuitfeadh thitfeadh
 tuitthe tite

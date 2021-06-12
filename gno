@@ -546,6 +546,7 @@ Shinebright
 Sháirséal
 Siemens
 Signal
+Sindo
 Siri
 Skainos
 Skillnet

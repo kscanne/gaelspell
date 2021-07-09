@@ -91,6 +91,7 @@ Cadbury
 Cadillac
 Caldera
 Cambus
+Cambus-Freudenberg
 Carlsberg
 Carrefour
 CeangalG
@@ -126,6 +127,7 @@ Corkman
 Corning
 Cortina
 Costco
+Crimestoppers
 Crosscare
 Crossways
 Cybergael

@@ -184,6 +184,7 @@ Etihad
 Etsy
 Eudora
 Euratom
+Euroflex
 Eurojust
 Eurolang
 EuroMillions
@@ -302,9 +303,11 @@ Indecon
 Independent
 Indo
 Indymedia
+Innersloth
 Inpho
 Instagram
 Intel
+Intergaelic
 Interpol
 Interreg
 Intreo
@@ -451,6 +454,7 @@ OnePlus
 OpenGL
 OpenOffice
 OpenPGP
+OpenType
 Opera
 Oracle
 Oscars

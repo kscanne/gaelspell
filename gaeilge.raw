@@ -2976,6 +2976,8 @@ altaitheacha/B
 altaithigh
 altaithí/B
 altar/HU
+altasamait/HMDBU
+altasamat/HMDBUT
 altaí/BU
 altaídís/HU
 altaígí/HU
@@ -5320,6 +5322,8 @@ araicnidí/HMDBU
 araid/HMDBU
 araide/HMDU
 araidí/HMDBU
+araidín/HMDBUT
+araidíní/HMDBU
 araile/HB
 arailt/HMDBU
 aralt/HMDBUT
@@ -7398,6 +7402,7 @@ athmharcáil/HMDBU
 athmharcála/HMDU
 athmheas/HMDBUT
 athmheasa/HMDU
+athmheasctha/HB
 athmheascáin/HMDBU
 athmheascán/HMDBUT
 athmheasta/HB
@@ -12581,6 +12586,8 @@ bPairtiach
 bPairtiaigh
 bPaistis
 bPaistise
+bPaistiúnach
+bPaistiúnaigh
 bPalaistín
 bPalaistíne
 bPalaistíneach
@@ -24212,6 +24219,8 @@ Corainte/S
 coraintín/US
 coraintíní/US
 coraithe/US
+corandaim/US
+corandam/US
 corann/US
 Corantach/S
 Corantacha/S
@@ -41239,6 +41248,8 @@ fichillíní/MDBUS
 fichithe/MDBUS
 fichiú/MDBUS
 ficsean/MDBUS
+ficseanaithe/MDUS
+ficseanú/MDBUS
 ficseanúil/BS
 ficseanúla/BS
 ficsin/MDUS
@@ -44814,6 +44825,7 @@ féinfheasach/BS
 féinfheasacha/BS
 féinfheasaigh/S
 féinfheasaí/BS
+féinfhoilsithe/BS
 féinfhorbairt/MDBUS
 féinfhorbartha/MDUS
 féinfhostaithe/BS
@@ -45177,8 +45189,12 @@ fíorbhuíocha/BS
 fíorchairde/MDBUS
 fíorchairdeas/MDBUS
 fíorchairdis/MDUS
+fíorchaoil/S
+fíorchaoile/BS
 fíorchaoin/BSMDU
 fíorchaoine/BSMDU
+fíorchaol/BS
+fíorchaola/BS
 fíorchara/MDBUS
 fíorcharad/MDUS
 fíorchasta/BS
@@ -61182,6 +61198,7 @@ lántumadh
 lántumtha
 lántáille
 lántáillí
+lánvacsaínithe
 lánábalta
 lánáin
 lánán
@@ -69271,6 +69288,9 @@ mórthrócaire/S
 mórthuairim/S
 mórthuairime/S
 mórthuairimí/S
+mórthuarascáil/S
+mórthuarascála/S
+mórthuarascálacha/S
 mórthubaiste/S
 mórthubaistí/S
 mórthábhacht/S
@@ -71656,6 +71676,7 @@ neamhurramach
 neamhurramacha
 neamhurramaigh
 neamhurramaí
+neamhvacsaínithe
 neamhábalta
 neamhábaltacht
 neamhábaltachta
@@ -74636,6 +74657,8 @@ paistile/US
 paistilí/US
 Paistis/S
 Paistise/S
+Paistiúnach/S
+Paistiúnaigh/S
 paistéar/US
 paistéaracháin/US
 paistéarachán/US

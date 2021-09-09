@@ -54,6 +54,7 @@ Bandcamp
 Barilla
 Barnardos
 Barry's
+Barzaz
 Bayer
 Beamish
 Bebo
@@ -342,6 +343,7 @@ Kickstarter
 Kindersley
 Kindle
 Kinect
+Kingsgate
 Kingspan
 Kinja
 Knoppix
@@ -395,8 +397,10 @@ Mazars
 McDonald's
 McKesson
 Meanmanra
+Mediatique
 MediaWiki
 Medicaid
+Medmark
 Medtronic
 Mercedes
 Mercier
@@ -427,6 +431,7 @@ MySpace
 MySQL
 Mythbusters
 Nakatomi
+Nameberry
 Napster
 Nationwide
 NeighbourFood
@@ -442,6 +447,7 @@ Nintendo
 Nippon
 Nissan
 Nokia
+Nordstrom
 NovaUCD
 Novelplast
 Nutella
@@ -580,6 +586,7 @@ SquarePants
 Starbucks
 Statoil
 Steam
+Steidl
 Stobart
 Strava
 Subhóró
@@ -633,6 +640,7 @@ TríSpórt
 Tumblr
 TuneIn
 Twibbon
+Twistables
 Twitter
 Tylenol
 Uber

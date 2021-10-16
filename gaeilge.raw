@@ -4810,6 +4810,9 @@ aogaill/HMDU
 aogall/HMDBUT
 aoi
 aoi/HMDBUT
+aoi-eagarthóir/HMDBUT
+aoi-eagarthóirí/HMDBU
+aoi-eagarthóra/HMDU
 aoi-léacht/HMDBU
 aoi-léachta/HMDU
 aoi-léachtaí/HMDBU
@@ -44335,6 +44338,10 @@ fulaingt/MDBUS
 fulaingthe/MDUSB
 fulaingím/USC
 fulangach/BS
+fulangach-ionsaitheach/BS
+fulangach-ionsaitheacha/BS
+fulangach-ionsaithigh/S
+fulangach-ionsaithí/BS
 fulangacha/BS
 fulangacht/MDBUS
 fulangachta/MDUS
@@ -45689,6 +45696,9 @@ fórsálaim/USI
 fórsúil/BS
 fórsúla/BS
 fós
+fóta-iriseoir/MDBUS
+fóta-iriseoirí/MDBUS
+fóta-iriseora/MDUS
 fótachóip/MDBUS
 fótachóipe/MDUS
 fótachóipeanna/MDBUS
@@ -69054,6 +69064,8 @@ móreachtraíochta/S
 móreagraíocht/S
 móreagraíochta/S
 móreagraíochtaí/S
+móreagráin/S
+móreagrán/S
 mórealaíontóir/S
 mórealaíontóirí/S
 mórealaíontóra/S
@@ -74916,6 +74928,8 @@ parúil/US
 parúl/US
 pas/US
 pasanna/US
+paschód/US
+paschóid/US
 pasfhocail/US
 pasfhocal/US
 pasleabhair/US
@@ -81404,6 +81418,8 @@ ríomhchleasa
 ríomhchlis
 ríomhchluiche
 ríomhchluichí
+ríomhchluichíocht
+ríomhchluichíochta
 ríomhchláir
 ríomhchlár
 ríomhchláraigh
@@ -81571,6 +81587,10 @@ ró-iontach
 ró-iontacha
 ró-iontaigh
 ró-iontaí
+ró-leochaileach
+ró-leochaileacha
+ró-leochailigh
+ró-leochailí
 ró-oifigiúlachais
 ró-oifigiúlachas
 ró-oilc
@@ -86479,6 +86499,8 @@ seangaithe/ST
 seangaí
 seangaím/SC
 seangaínn/F
+seanghabhair/ST
+seanghabhar/S
 seanghasúir/ST
 seanghasúr/S
 seanghealach/ST
@@ -96562,6 +96584,8 @@ teibí/S
 teibím/USC
 teibíocht/US
 teibíochta/US
+teicneachabaireacht/US
+teicneachabaireachta/US
 teicneoir/US
 teicneoirí/US
 teicneolaithe/US

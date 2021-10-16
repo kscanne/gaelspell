@@ -237,6 +237,7 @@ Fíbín
 G-Spota
 Gabbana
 Gaelchló
+GaelGoer
 GaelGram
 GaelGÁIRÍ
 Gaeloiliúint
@@ -264,6 +265,7 @@ Gibsol
 GitHub
 Glanbia
 Gleneagle
+Glenisk
 Glenroyal
 Gmail
 GoFundMe
@@ -526,6 +528,7 @@ RefWorks
 Renault
 Repak
 Reuters
+Revolut
 Rondomondo
 Roomthree
 Rosetta
@@ -662,6 +665,7 @@ Vimeo
 Virgin
 Visa
 Vista
+Vodacom
 Vodafone
 Volkswagen
 Volvo

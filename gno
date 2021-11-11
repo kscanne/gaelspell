@@ -9,6 +9,7 @@ Adidas
 Adobe
 Advertiser
 Aeroflot
+AeroSystems
 Aertel
 Agresso
 Agtel
@@ -289,6 +290,7 @@ Hillgrove
 Hilton
 Hitachi
 Honda
+hOspreys
 Hotmail
 Hotspur
 Huawei
@@ -330,6 +332,7 @@ Java
 JavaScript
 Jazeera
 Jelsoft
+Jira
 JobBridge
 JobsPlus
 Joomla

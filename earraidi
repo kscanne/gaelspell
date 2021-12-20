@@ -428,6 +428,7 @@ ansuim an-suim
 ansásamh an-sásamh
 ansásta an-sásta
 ansúid ansiúd
+antaigíne antaigine
 antaitneamh an-taitneamh
 antionchar an-tionchar
 antromchúiseach an-tromchúiseach
@@ -626,6 +627,8 @@ b'fheidir b'fhéidir
 b'fheídir b'fhéidir
 b'fhéadfaí bhféadfaí
 b'fhédir b'fhéidir
+B-Speisialach B-Speisialtach
+B-Speisialaigh B-Speisialtaigh
 babhtha babhta
 babháil babhláil
 babtha babhta
@@ -944,6 +947,7 @@ bhéifeá bheifeá
 bhéinnse bheinnse
 bhéirfaidh bhéarfaidh
 bhéirt bheirt
+bhì bhí
 bhí's bhí a fhios
 bhíodhar bhíodar
 bhíonn's bhíonn
@@ -999,6 +1003,7 @@ bolaí bolaithe
 bolaí bólaí
 bomáin bómáin
 bománta bómánta
+bonais bónais
 borann borrann
 bostún Bostún
 bothair bóthair
@@ -1126,6 +1131,7 @@ bródúl bródúil
 brógh bróg
 bróidiúil bródúil
 bróidúil bródúil
+Bróith Bróithe
 brúanna brúnna
 brúdúil brúidiúil
 brúidúil brúidiúil
@@ -1575,6 +1581,7 @@ choisteáil chloisteáil
 choitiata choitianta
 cholaiste choláiste
 cholceathrar chol ceathrair
+Chollatain Chollatáin
 chomairle chomhairle
 chomairleoirí chomhairleoirí
 chomartha chomhartha
@@ -1718,6 +1725,7 @@ chustaméirí chustaiméirí
 chutháil chúthail
 chuír chuir
 Chábháin Chabháin
+Chábhán Chabhán
 cháill chaill
 cháillte chaillte
 cháipín chaipín
@@ -1922,6 +1930,7 @@ coinnóidh coinneoidh
 coinsínim coinsíním
 coiníollacha coinníollacha
 coipeanna cóipeanna
+coipleabhar cóipleabhar
 coiraintín coraintín
 coirche coirce
 coireamh comhaireamh
@@ -2796,6 +2805,7 @@ dith díth
 diuite diúité
 diuitethe diúitéithe
 diuscairt diúscairt
+dióspóireacht díospóireacht
 diúcs diucs
 diúiltiú diúltú
 diúltiú diúltú
@@ -3061,6 +3071,7 @@ Déardaion Déardaoin
 déarfach dearfach
 déarfhá déarfá
 déarmad dearmad
+DéCéadaoin Dé Céadaoin
 déileál déileáil
 déiláil déileáil
 déiléail déileáil
@@ -3755,6 +3766,7 @@ fáíl fáil
 fèin féin
 féachanna féachana
 féachant féachaint
+féacht féach
 féachtaint féachaint
 féacháint féachaint
 féachána féachana
@@ -4380,6 +4392,7 @@ haertonnta haerthonnta
 hafraice hAfraice
 hagahidh haghaidh
 hagaid haghaidh
+haidbhinte hAidbhinte
 haiféiseach háiféiseach
 haighaidh haghaidh
 hailainn hálainn
@@ -4545,6 +4558,7 @@ iarchóilíneachais iarchoilíneachais
 iarchóilíneachas iarchoilíneachas
 iardalta iardhalta
 iardhálta iardhalta
+iardálta iardhalta
 iargculta iargúlta
 iarghúlta iargúlta
 iarmhí Iarmhí
@@ -5708,6 +5722,7 @@ míéifeachtach mí-éifeachtach
 míúsaid mí-úsáid
 míúsáid mí-úsáid
 míúsáide mí-úsáide
+módhnóir modhnóir
 móiliní móilíní
 móltaí moltaí
 móralach mórálach
@@ -7358,6 +7373,7 @@ shiceolaí shíceolaí
 shiceolaíoch shíceolaíoch
 shiceolaíochta shíceolaíochta
 shiniú shíniú
+shinseanathair shin-seanathair
 shintiús shíntiús
 shiolraigh shíolraigh
 shiombálach shiombalach
@@ -7453,6 +7469,7 @@ sinithe sínithe
 siniu síniú
 siniú síniú
 siniúcháin síniúcháin
+sinseanathair sin-seanathair
 sintiúis síntiúis
 sintiús síntiús
 sintí síntí
@@ -7489,6 +7506,7 @@ siuloid siúlóid
 siumiúil suimiúil
 siumiúla suimiúla
 siumuil suimiúil
+siùl siúl
 siúid siúd
 siúilóid siúlóid
 siúle súile
@@ -8673,6 +8691,7 @@ tréimshí tréimhsí
 tríchasach tríchosach
 trím trí mo
 tríoblóid trioblóid
+tríoblóidí trioblóidí
 tríomadh tríú
 tríothú tríothu
 tríphictiúir trí phictiúir

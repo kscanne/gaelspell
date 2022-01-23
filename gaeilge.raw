@@ -8902,6 +8902,10 @@ b'Uigingeach
 b'Uigingeacha
 b'Uigingigh
 b'Uigingí
+b'Uigiúrach
+b'Uigiúracha
+b'Uigiúraigh
+b'Uigiúraí
 b'Uile-Pháirtí
 b'Uinseannach
 b'Uinseannacha
@@ -9740,6 +9744,8 @@ banphrionsa/US
 banphrionsaí/US
 banphríosúnach/US
 banphríosúnaigh/US
+banphíobaire/US
+banphíobairí/US
 banphóilín/US
 banphóilíní/US
 banrach/US
@@ -30727,6 +30733,8 @@ d'Ugandach
 d'Ugandaigh
 d'Uigingeach
 d'Uigingigh
+d'Uigiúrach
+d'Uigiúraigh
 d'uimhrigh/U
 d'uimhrínn/FU
 d'Uinseannach
@@ -31497,6 +31505,8 @@ dea-aimsir/US
 dea-aimsire/US
 dea-ainm/US
 dea-ainmneacha/US
+dea-aistriúcháin/US
+dea-aistriúchán/US
 dea-aoibh/US
 dea-aoibhe/US
 dea-araíonach/S
@@ -45239,6 +45249,8 @@ fíorchaola/BS
 fíorchara/MDBUS
 fíorcharad/MDUS
 fíorchasta/BS
+fíorcheannaireacht/MDBUS
+fíorcheannaireachta/MDUS
 fíorcheart/BS
 fíorchearta/BS
 fíorcheirte/BS
@@ -53003,6 +53015,8 @@ hUgandach
 hUgandaigh
 hUigingeach
 hUigingigh
+hUigiúrach
+hUigiúraigh
 hUile-Pháirtí
 hUinseannach
 hUinseannaigh
@@ -53585,6 +53599,9 @@ iarléachtóir/HMDBUT
 iarléachtóirí/HMDBU
 iarléachtóra/HMDU
 iarléirithe/HMDU
+iarléiritheoir/HMDBUT
+iarléiritheoirí/HMDBU
+iarléiritheora/HMDU
 iarléiriú/HMDBUT
 iarmhac/HMDBUT
 iarmhair/HMDU
@@ -61218,6 +61235,8 @@ lánstaonadh
 lánstaonaire
 lánstaonairí
 lánstaonta
+lánstádais
+lánstádas
 lánsuim
 lánsuime
 lánsuimeanna
@@ -62809,6 +62828,8 @@ m'Ugandach
 m'Ugandaigh
 m'Uigingeach
 m'Uigingigh
+m'Uigiúrach
+m'Uigiúraigh
 m'Uinseannach
 m'Uinseannaigh
 m'Uisceadóir
@@ -72584,6 +72605,8 @@ nua-aoiseach
 nua-aoiseacha
 nua-aoiseachais
 nua-aoiseachas
+nua-aoiseacht
+nua-aoiseachta
 nua-aoisigh
 nua-aoisithe
 nua-aoisiú
@@ -72702,6 +72725,7 @@ nuachóirí
 nuachóirím/C
 nuachóirínn/F
 nuadheartha
+nuadhigitithe
 nuadhéanta
 nuafhaiseanta
 nuafhianaise
@@ -72777,6 +72801,8 @@ nUgandaigh
 nuige
 nUigingeach
 nUigingigh
+nUigiúrach
+nUigiúraigh
 nUinseannach
 nUinseannaigh
 nuinteas
@@ -81518,6 +81544,8 @@ ríomhléitheora
 ríomhlóid
 ríomhlóide
 ríomhlóidí
+ríomhoibrithe
+ríomhoibrí
 ríomhoideas
 ríomhoidis
 ríomhphoist
@@ -85109,6 +85137,8 @@ scothghoirm
 scothghoirme
 scothghorm
 scothghorma
+scothleabhair
+scothleabhar
 scothliath
 scothliatha
 scothláin
@@ -99481,6 +99511,8 @@ triuchaíl/US
 triuchaíola/US
 triuf/US
 triufanna/US
+triáis/US
+triáise/US
 triúch/US
 triúcha/US
 triúir/US
@@ -100714,6 +100746,7 @@ tuige/US
 tuigim/USA
 tuigimse/US
 tUigingeach
+tUigiúrach
 tuigthe/S
 tuigí/US
 tuil/US
@@ -102465,6 +102498,10 @@ Uigingeach
 Uigingeacha
 Uigingigh
 Uigingí
+Uigiúrach
+Uigiúracha
+Uigiúraigh
+Uigiúraí
 uigí/HBMDU
 uile
 uile/HMDBU

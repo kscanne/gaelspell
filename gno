@@ -58,6 +58,7 @@ Barry's
 Barzaz
 Bayer
 Beamish
+Beanantees
 Bebo
 Belltable
 Benetton
@@ -277,6 +278,7 @@ Greenpeace
 Guardian
 Gucci
 Guinness
+Gweles
 Halliburton
 Hamas
 Harley

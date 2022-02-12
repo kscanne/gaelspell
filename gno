@@ -133,6 +133,7 @@ Costco
 Crimestoppers
 Crosscare
 Crossways
+Cuilfeach
 Cybergael
 Daimler
 Dairygold
@@ -665,6 +666,7 @@ Verizon
 Vesada
 Viacom
 Viagra
+Viatris
 Viber
 Vifax
 Vim
@@ -695,6 +697,7 @@ Wikimedia
 Wiley
 Windows
 WinGléacht
+Wordle
 WordNet
 WordPress
 Xanga

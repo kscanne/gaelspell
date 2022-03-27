@@ -62,6 +62,7 @@ Beanantees
 Bebo
 Belltable
 Benetton
+Berlinale
 Berria
 Bewley's
 Bioniche
@@ -465,6 +466,7 @@ Odeon
 Ofcom
 Oghma
 Olympus
+Omniplex
 OnePlus
 OpenGL
 OpenOffice
@@ -584,6 +586,7 @@ Smurfit
 Snapchat
 Snickers
 Sockies
+SoFi
 Sony
 Sotheby's
 SoundCloud
@@ -684,10 +687,12 @@ WalMart
 Wavebob
 Webbery
 WebEx
+Webwise
 Weetabix
 Westbury
 Westenra
 Westlife
+WeTransfer
 WhatsApp
 Whelan's
 Whova

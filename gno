@@ -49,6 +49,7 @@ Audacity
 Audi
 Avantcard
 Aviva
+Azovstal
 Baboró
 Bacardi
 Bandcamp
@@ -277,6 +278,7 @@ Google
 GoPro
 Grammy
 Greenpeace
+gteic
 Guardian
 Gucci
 Guinness
@@ -481,6 +483,7 @@ Oxegen
 Oxfam
 Padlet
 Pandora
+Pangea
 Parwin
 Pavee
 PayPal
@@ -542,6 +545,7 @@ Rondomondo
 Roomthree
 Rosetta
 Rosg
+Roundy
 Routledge
 Rovers
 Ruby
@@ -627,6 +631,7 @@ Teflon
 Telecom
 Telegael
 Telegraph
+Terminologue
 Terralingua
 Tesco
 Tesla
@@ -701,6 +706,7 @@ WikiLeaks
 Wikimedia
 Wiley
 Windows
+Wingleaf
 WinGléacht
 Wordle
 WordNet

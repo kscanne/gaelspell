@@ -25,7 +25,7 @@ egrep "(^['-]|['-]$)" ainm-b ainm-f aitiuil bioblabeag ceol daoine dinneenok.txt
 egrep " '" apost dinneenalts.txt earraidi fgbalts.txt gaelu.in myalts.txt riaalts.txt | testout 'unwanted leading apostrophe in replacement'
 egrep " .+'( |$)" apost dinneenalts.txt earraidi fgbalts.txt gaelu.in myalts.txt riaalts.txt | testout 'unwanted trailing apostrophe in replacement'
 # many are comprised of proper names, so almost all will include a capital
-egrep -v '[A-ZŽ]' ainm-? aitiuil bioblabeag ceol daoine gall gallainm-? gno lit logainm | egrep -v '^gall:van$' | testout 'missing capital letter'
+egrep -v '[A-ZŽ]' ainm-? aitiuil bioblabeag ceol daoine gall gallainm-? gno lit logainm | egrep -v '^(gall:van|gno:gteic)$' | testout 'missing capital letter'
 egrep -v '^([hnt][AEIOUÁÉÍÓÚ]|mB|gC|n[DG]|bhF|bP|tS|dT)' latecaps | testout 'late capital letter missing'
 # miotas/stair include the usual English in many cases, followed by a colon
 egrep -v "^[A-Za-z'-]*:[A-Za-z'-]+$" miotas stair | testout 'malformed line in miotas or stair'

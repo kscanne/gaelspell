@@ -356,6 +356,7 @@ Kindle
 Kinect
 Kingsgate
 Kingspan
+Kinia
 Kinja
 Knoppix
 Kodak
@@ -585,6 +586,7 @@ Sky
 Skype
 Slackware
 Slashdot
+SmartBay
 Smithsonian
 Smurfit
 Snapchat

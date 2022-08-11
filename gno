@@ -147,6 +147,7 @@ Dell
 Deloitte
 Dettol
 Deutsche
+DHL
 Diageo
 Dialang
 Digg
@@ -342,6 +343,7 @@ Jira
 JobBridge
 JobsPlus
 Joomla
+JSTOR
 Juventus
 Kahoot
 Kantar
@@ -351,6 +353,7 @@ Kerrygold
 Kerryman
 Kia
 Kickstarter
+Kimolos
 Kindersley
 Kindle
 Kinect

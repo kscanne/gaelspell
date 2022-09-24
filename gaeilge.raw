@@ -8801,6 +8801,7 @@ b'Iosraelacha
 b'Iosraelaigh
 b'Iosraelaí
 b'Iostanbúl
+b'Iotaca
 b'Ireachó
 b'Iseas
 b'Iáivis
@@ -30554,6 +30555,7 @@ d'Iosrael
 d'Iosraelach
 d'Iosraelaigh
 d'Iostanbúl
+d'Iotaca
 d'Ireachó
 d'irisigh/U
 d'irisínn/FU
@@ -40261,8 +40263,6 @@ feargaím/USC
 feargú/USBMD
 fearmhínithe/MDUS
 fearmhíniú/MDBUS
-fearmóin/MDBUS
-fearmón/MDBUS
 fearn/MDBUS
 fearna/MDBUS
 fearnaí/MDBUS
@@ -40488,6 +40488,8 @@ feirmeoireachta/MDUS
 feirmeoirí/MDBUS
 feirmeora/MDUS
 feirmiam/MDBUS
+feirmíóin/MDBUS
+feirmíón/MDBUS
 Feirste/S
 Feirsteach
 feirí/MDBUS
@@ -43651,6 +43653,7 @@ frithaigéid/US
 frithailiasáil/US
 frithailiasáilte/S
 frithailiasála/US
+frithairtléire/S
 frithbhaictéarach/S
 frithbhaictéaracha/S
 frithbhaictéaraigh/S
@@ -46883,6 +46886,7 @@ gathuithe/US
 gatháin/US
 gathán/US
 gathú/US
+Gaza/S
 gaín/US
 gaíon/US
 gCabairdín-Bhalcáir
@@ -52799,6 +52803,7 @@ hIosrael
 hIosraelach
 hIosraelaigh
 hIostanbúl
+hIotaca
 hip
 hipeaclórúil
 hipeaclórúla
@@ -53687,7 +53692,10 @@ iarmhúinteoir/HMDBUT
 iarmhúinteoirí/HMDBU
 iarmhúinteora/HMDU
 iarnaigh/HU
+iarnaimhde/HMDBU
 iarnaithe/HBUMD
+iarnamhad/HMDU
+iarnamhaid/HMDBUT
 iarnaí/HBU
 iarnaídís/HU
 iarnaígí/HU
@@ -57172,6 +57180,7 @@ iostasaí/B
 iostaí/HMDBU
 iostáin/HMDBU
 iostán/HMDBUT
+Iotaca
 ioth/HMDBUT
 iothlainn/HMDBU
 iothlainne/HMDU
@@ -57368,6 +57377,7 @@ jibe
 jibeanna
 jin
 jine
+jiohád
 jug
 juganna
 juncaed
@@ -62772,6 +62782,7 @@ m'Iosrael
 m'Iosraelach
 m'Iosraelaigh
 m'Iostanbúl
+m'Iotaca
 m'Ireachó
 m'Iáivis
 m'Iáivise
@@ -64806,6 +64817,8 @@ meamram/S
 meana/S
 meanach/S
 meanaigh/S
+meanapáis/S
+meanapás/S
 meanaí/S
 meancóg/S
 meancóga/S
@@ -65402,6 +65415,9 @@ meánchumais/S
 meánchumas/S
 meánchéatadáin/S
 meánchéatadán/S
+meánchíos/S
+meánchíosa/S
+meánchíosanna/S
 meánchúrsa/S
 meánchúrsaí/S
 meánfhad/S
@@ -65427,6 +65443,9 @@ meánluachanna/S
 meánluais/S
 meánluas/S
 meánluasanna/S
+meánlucht/S
+meánluchta/S
+meánluchtanna/S
 meánláir/S
 meánlár/S
 meánlín/S
@@ -72168,6 +72187,7 @@ nGarda
 nGardaí
 nGascúnach
 nGascúnaigh
+nGaza
 nGeansaí
 nGearaltach
 nGearaltaigh
@@ -72478,6 +72498,7 @@ nIosrael
 nIosraelach
 nIosraelaigh
 nIostanbúl
+nIotaca
 nirbheána
 nIreachó
 nirt
@@ -72684,6 +72705,9 @@ nua-ealaíon
 nua-ealaíona
 nua-eisithe
 Nua-Ghaeilge
+Nua-Ghaeltacht
+Nua-Ghaeltachta
+Nua-Ghaeltachtaí
 Nua-Ghuine
 Nua-Ghuineach
 Nua-Ghuineacha
@@ -75068,6 +75092,8 @@ pasleabhar/US
 pasmhairc/US
 pasmharc/US
 pasmharcanna/US
+pasráta/US
+pasrátaí/US
 pasta/US
 pastae/US
 pastaetha/US
@@ -76316,6 +76342,8 @@ pléisiúr/US
 pléisiúrtha/S
 pléite/SU
 pléití/US
+pléphainéal/US
+pléphainéil/US
 plépháipéar/US
 plépháipéir/US
 plíoma/US
@@ -77332,6 +77360,9 @@ Príomh-Aistritheora
 príomh-am/US
 príomh-ama/US
 príomh-amanna/US
+príomh-aoichainteoir/US
+príomh-aoichainteoirí/US
+príomh-aoichainteora/US
 Príomh-Aoire
 Príomh-Aoirí
 Príomh-Aturnae
@@ -85959,6 +85990,9 @@ seacainí/S
 seach
 seach-chló/ST
 seach-chlónna/S
+seach-chogadh/S
+seach-chogaidh/ST
+seach-chogaí/S
 seach-chonair/ST
 seach-chonaire/S
 seach-chonairí/S
@@ -101015,6 +101049,9 @@ tumchúrsa/US
 tumchúrsaí/US
 tumoideachais/US
 tumoideachas/US
+tumsheachtain/US
+tumsheachtaine/US
+tumsheachtainí/US
 tumtha/SU
 tumthach/S
 tumthacha/S

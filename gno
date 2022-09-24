@@ -170,6 +170,7 @@ Dunnes
 Duolingo
 Easons
 EastEnders
+EastWest
 EasyReader
 eBay
 Ecofin
@@ -192,6 +193,7 @@ Etihad
 Etsy
 Eudora
 Euratom
+Eurodyssey
 Euroflex
 Eurojust
 Eurolang
@@ -266,6 +268,7 @@ Gateway
 Gazprom
 Gcom
 Gentoo
+Gerbola
 Ghaelchló
 Ghostscript
 Gibsol
@@ -318,6 +321,7 @@ Indo
 Indymedia
 Innersloth
 Inpho
+Inscéal
 Instagram
 Intel
 Intergaelic
@@ -371,6 +375,7 @@ Lakers
 Lamborghini
 Largo
 LaTeX
+LeabhairCOMHAR
 Leggs
 Lego
 Leisureland
@@ -643,6 +648,7 @@ Tesco
 Tesla
 TeX
 Texaco
+Thriftify
 Thunderbird
 Ticketmaster
 TikTok

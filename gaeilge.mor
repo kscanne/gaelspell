@@ -17145,11 +17145,6 @@ croigear
 croimbéal/US
 croimbéil/US
 croimeasc
-croineolaíche/S
-croineolaíoch/S
-croineolaíocha/S
-croineolaíocht/US
-croineolaíochta/US
 croinicil/US
 croinicile/US
 croinicilí/US
@@ -17700,6 +17695,11 @@ cróilíche/S
 cróilíoch/S
 cróilíocha/S
 cróin/US
+cróineolaíche/S
+cróineolaíoch/S
+cróineolaíocha/S
+cróineolaíocht/US
+cróineolaíochta/US
 cróinn
 cróinseile/US
 cróinseileach/S
@@ -30046,7 +30046,9 @@ ficheadamhadh
 ficheadaí/MDBUS
 ficheadh/MDBUS
 ficheallach
-ficheallóir
+ficheallóir/MDBUS
+ficheallóirí/MDBUS
+ficheallóra/MDUS
 ficheamhadh/MDBUS
 fichet
 fichiod
@@ -30065,7 +30067,8 @@ fideán
 fidh/MDBUS
 fidhcheall
 fidhcheallacht
-fidhcheallaí
+fidhcheallaithe/MDBUS
+fidhcheallaí/MDBUS
 fidhchille/MDUS
 fidheog
 fidhis
@@ -51198,6 +51201,10 @@ pithilínigh/US
 pithilíní/US
 pitiúinia/US
 pitiúiniacha/US
+pitiútach/S
+pitiútacha/S
+pitiútaigh/S
+pitiútaí/S
 pitrisc/US
 pitrisce/US
 pitriscí/US
@@ -60545,6 +60552,8 @@ soir-ó-dheas
 soir-ó-thuaidh
 soirbhe/ST
 soirbheasa
+Soirbis/S
+Soirbise/S
 soirm/ST
 soirn/ST
 soirne/S
@@ -64055,6 +64064,8 @@ tailliúirí/US
 tailliúr/US
 tailliúra/US
 tailí/US
+tailídimíd/US
+tailídimíde/US
 taim-se
 tAimeirce
 tAimeirceá
@@ -68146,6 +68157,7 @@ tslígh
 tslóigh
 tSlóvacais
 tslúagh
+tSoirbis
 tsolas
 tSomáile
 tSualannais

@@ -225,6 +225,7 @@ Fitbit
 Flash
 Flickr
 Flirt
+Flogas
 Flybe
 FocalFactory
 Folens
@@ -468,6 +469,7 @@ Nintendo
 Nippon
 Nissan
 Nokia
+Nordstream
 Nordstrom
 NovaUCD
 Novelplast
@@ -654,6 +656,7 @@ Ticketmaster
 TikTok
 Timberland
 Timoney
+Tirlán
 Titanic
 Tocco
 Topshop

@@ -1352,6 +1352,8 @@ aimsiordha
 aiméar/HMDBUT
 aiméir/HMDBU
 Aimériocá
+aimínaigéad/HMDBUT
+aimínaigéid/HMDU
 ain/U
 ain-ghean
 ainach
@@ -5329,6 +5331,8 @@ bansa/US
 bansaí/US
 bansíogaithe/US
 bansíogaí/US
+bantrocht/US
+bantrochta/US
 bantsíogaithe/US
 bantsíogaí/US
 bantáiste/US
@@ -7801,6 +7805,8 @@ braighde/US
 braighdeach/US
 braighdeacháin/US
 braighdeachán/US
+braighdenais/US
+braighdenas/US
 braighdenuis/US
 braighdenus/US
 braighdeán
@@ -9181,6 +9187,8 @@ bunúcháin/US
 bunúchán/US
 bunúdhsacha
 bunúice/US
+bunúsachais/US
+bunúsachas/US
 bunúsúil
 bur
 Burc
@@ -10281,6 +10289,7 @@ calabhar
 caladhphoirt/US
 caladhphort/US
 caladóir
+calafóirniam/US
 calainn/US
 calaith/US
 calaithe/US
@@ -17029,7 +17038,10 @@ criogóg
 criosa
 crioslach
 Criost/S
-criostalach
+criostalach/S
+criostalacha/S
+criostalaigh/S
+criostalaí/S
 criostalda/S
 criosóg
 crioth/US
@@ -21013,6 +21025,9 @@ daonnaigh/S
 daonnaí/SU
 daonnaíocht/US
 daonnaíochta/US
+daonuasclóir/US
+daonuasclóirí/US
+daonuasclóra/US
 daora
 daorach
 daoracha
@@ -30275,6 +30290,10 @@ fionnfhuaradh
 fionnfhuaraigh
 fionnfhuarthais/MDUS
 fionnfhuarthas/MDBUS
+fionnfhúair/S
+fionnfhúaire/BS
+fionnfhúar/BS
+fionnfhúara/BS
 fionnfuair/S
 fionnfuaire/BS
 fionnfuar/BS
@@ -32286,6 +32305,8 @@ furtacht/MDBUS
 furtachta/MDUS
 furtaigh
 furtaitheoir
+furtocht/MDBUS
+furtochta/MDUS
 furuisde/BS
 furuist/BS
 furuiste/BS
@@ -43333,9 +43354,6 @@ léachtaithe
 léachtanna
 léachtaí
 léacsa
-léacsaeim
-léacsaeime
-léacsaeimí
 léadarnach
 léadhb
 léadhbanna
@@ -43421,6 +43439,9 @@ léicceadh
 léice
 léiceacht
 léiciúil
+léicséim
+léicséime
+léicséimí
 léicthe
 léictheacht
 léidh
@@ -45927,6 +45948,8 @@ Michil
 Michmas
 micléinn/S
 micrea/S
+micreachiorcad/S
+micreachiorcaid/S
 micreasoicind/S
 micreasoicindí/S
 micri/S
@@ -48302,6 +48325,10 @@ neamh-acmhainní
 neamh-acracha
 neamh-aireachais
 neamh-aireachas
+neamh-aistreach
+neamh-aistreacha
+neamh-aistrigh
+neamh-aistrí
 neamh-aitheanta
 neamh-aithreach
 neamh-aithrigh
@@ -48429,10 +48456,6 @@ neamhairidh
 neamhairidhe
 neamhairigh
 neamhairí
-neamhaistreach
-neamhaistreacha
-neamhaistrigh
-neamhaistrí
 neamhaitheannta
 neamhaithnidiúil
 neamhaithnidiúla

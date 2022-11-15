@@ -36,6 +36,7 @@ Anonymous
 Antifa
 Apache
 Apple
+Applegreen
 Aramark
 AranLIFE
 Argos
@@ -471,6 +472,7 @@ Nissan
 Nokia
 Nordstream
 Nordstrom
+Novartis
 NovaUCD
 Novelplast
 Nutella

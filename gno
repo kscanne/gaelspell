@@ -8,6 +8,7 @@ Adaptxt
 Adidas
 Adobe
 Advertiser
+AerachAiteachGaelach
 Aeroflot
 AeroSystems
 Aertel
@@ -97,13 +98,16 @@ Byrne's
 Cadbury
 Cadillac
 Caldera
+CalMac
 Cambus
 Cambus-Freudenberg
+Caritas
 Carlsberg
 Carrefour
 CeangalG
 Celtica
 Centra
+CervicalCheck
 Chase
 Cheerios
 Chevron
@@ -285,6 +289,7 @@ Google
 GoPro
 Grammy
 Greenpeace
+Grindr
 gteic
 Guardian
 Gucci
@@ -414,6 +419,7 @@ Marriott
 Masita
 Massey-Ferguson
 Mastercard
+Mastodon
 Maunsel
 Maybelline
 Mazars

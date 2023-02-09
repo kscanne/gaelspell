@@ -109,6 +109,7 @@ Celtica
 Centra
 CervicalCheck
 Chase
+ChatGPT
 Cheerios
 Chevron
 Childline
@@ -490,6 +491,7 @@ Oghma
 Olympus
 Omniplex
 OnePlus
+OpenAI
 OpenGL
 OpenOffice
 OpenPGP

@@ -135,6 +135,7 @@ ComReg
 Concern
 Concorde
 Conoco
+Corio
 Corkman
 Corning
 Cortina
@@ -531,6 +532,7 @@ Pokémon
 Polldaddy
 Pontiac
 Poolbeg
+Pop-Up
 PopNuacht
 PowerPoint
 Pramerica

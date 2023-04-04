@@ -12,6 +12,7 @@ AerachAiteachGaelach
 Aeroflot
 AeroSystems
 Aertel
+Afton
 Agresso
 Agtel
 Airbnb
@@ -131,6 +132,7 @@ Coca-Cola
 CoderDojo
 Colgate
 Comcast
+COMHARTaighde
 ComReg
 Concern
 Concorde
@@ -209,6 +211,7 @@ Europa
 Europass
 Europol
 Europus
+Eurosong
 Eurostat
 Eurovision
 Eventbrite
@@ -268,6 +271,7 @@ Gaelturas
 Gaiety
 Galaxy
 Galleon
+Gallimard
 Gallup
 Galmont
 Gamble
@@ -290,6 +294,7 @@ GoFundMe
 Google
 GoPro
 Grammy
+Greenlight
 Greenpeace
 Grindr
 gteic
@@ -489,6 +494,7 @@ Odeo
 Odeon
 Ofcom
 Oghma
+Oiriall
 Olympus
 Omniplex
 OnePlus
@@ -523,6 +529,7 @@ Photoshop
 Picasa
 Pidgin
 Pieta
+Pinergy
 Pinterest
 Pirelli
 Pixar
@@ -547,6 +554,7 @@ ProVerum
 Prudential
 Pulse
 Python
+Queercal
 Quicktime
 Quizlet
 Quora

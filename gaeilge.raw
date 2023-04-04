@@ -6602,6 +6602,9 @@ athbhaistinn/E
 athbhall/HMDBUT
 athbharr/HMDBUT
 athbharra/HMDBU
+athbheairic/HMDBU
+athbheairice/HMDU
+athbheairicí/HMDBU
 athbhealach/HMDBUT
 athbhealaigh/HMDU
 athbhealaí/HMDBU
@@ -9837,6 +9840,7 @@ bandoirseora/US
 bandraoi/US
 bandraoithe/US
 bandáil/US
+bandáilte/S
 bandáin/US
 bandála/US
 bandálacha/US
@@ -36271,6 +36275,8 @@ duaiseora/US
 duaisigh/S
 duaisiúil/S
 duaisiúla/S
+duaisleabhair/US
+duaisleabhar/US
 duaisí/S
 duaithne/S
 duaithnigh/US
@@ -50376,6 +50382,9 @@ gnáthchuimhne/US
 gnáthchulaith/US
 gnáthchulaithe/US
 gnáthchultacha/US
+gnáthchumarsáid/US
+gnáthchumarsáide/US
+gnáthchumarsáidí/US
 gnáthchustaiméara/US
 gnáthchustaiméir/US
 gnáthchustaiméirí/US
@@ -73386,6 +73395,9 @@ nihileachais
 nihileachas
 nihilithe
 nihilí
+nihilíche
+nihilíoch
+nihilíocha
 nImbolc
 nImeacht
 nImeachta
@@ -85233,6 +85245,8 @@ scairdsruthanna
 scairdte
 scairdtiomáint
 scairdtiomána
+scairdtrodaire
+scairdtrodairí
 scairdí
 scaire
 scaireanna
@@ -90037,6 +90051,8 @@ siúlóidí/S
 siúlóidín/ST
 siúlóidíní/S
 siúlóir/S
+siúlóireacht/ST
+siúlóireachta/S
 siúlóirí/S
 siúlóra/ST
 siún/S
@@ -100444,6 +100460,9 @@ trasatlantach/S
 trasatlantacha/S
 trasatlantaigh/S
 trasatlantaí/S
+trasbhealach/US
+trasbhealaigh/US
+trasbhealaí/US
 trasbhéarlaigh/US
 trasbhéarlaithe/SU
 trasbhéarlaím/USC
@@ -106065,6 +106084,8 @@ zúnna
 éanadóirí/HMDBU
 éanadóra/HMDU
 éanaigh/HMDU
+éanbhreathnaithe/HMDU
+éanbhreathnú/HMDBUT
 éaneolaithe/HMDBU
 éaneolaí/HMDBUT
 éaneolaíocht/HMDBU

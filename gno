@@ -105,6 +105,7 @@ Cambus-Freudenberg
 Caritas
 Carlsberg
 Carrefour
+Cartamundi
 CeangalG
 Celtica
 Centra
@@ -168,6 +169,7 @@ Dimplex
 Disney
 Disneyland
 Dodge
+Dolby
 Dolce
 Dorling
 Dow
@@ -394,6 +396,7 @@ Leggs
 Lego
 Leisureland
 Levi's
+LexIcon
 Libertas
 LibreOffice
 Lidl
@@ -641,6 +644,7 @@ Steidl
 Stobart
 Strava
 Subhóró
+Suisse
 Sundance
 Supermac's
 Superquinn
@@ -746,6 +750,7 @@ WinGléacht
 Wordle
 WordNet
 WordPress
+Workhuman
 Xanga
 Xbox
 Xerox

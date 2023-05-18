@@ -171,6 +171,7 @@ Disneyland
 Dodge
 Dolby
 Dolce
+DoneDeal
 Dorling
 Dow
 Drive
@@ -190,6 +191,7 @@ Edgecast
 eFlow
 Eircode
 Eircom
+Eirecomposites
 EirGrid
 Electric
 Elsevier
@@ -218,6 +220,7 @@ Eurostat
 Eurovision
 Eventbrite
 Evertype
+Evide
 Examiner
 Excel
 Explorer
@@ -753,6 +756,7 @@ WordPress
 Workhuman
 Xanga
 Xbox
+Xerotech
 Xerox
 Xinlian
 Xposé

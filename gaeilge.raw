@@ -5993,6 +5993,8 @@ argaim/UA
 argain/HMDBU
 argainn/E
 argana/HMDU
+Arganátach
+Arganátaigh
 argtar/HU
 argtha/HB
 argthóir/HMDBUT
@@ -8607,6 +8609,8 @@ b'Ard-Stiúrthóireacht
 b'Ard-Stiúrthóireachtaí
 b'Ard-Stiúrthóirí
 b'Ardpháirtithe
+b'Arganátach
+b'Arganátaigh
 b'Arm
 b'Armarcach
 b'Armarcacha
@@ -11419,6 +11423,7 @@ bia-eolaithe/US
 bia-eolaí/US
 bia-eolaíocht/US
 bia-eolaíochta/US
+bia-iompartha/S
 bia-ábhair/US
 biabhóg/US
 biabhóige/US
@@ -19929,6 +19934,8 @@ cianaí/S
 cianbhlaoisce/US
 cianbhlaosc/US
 cianbhlaosca/US
+cianchomaitéireacht/US
+cianchomaitéireachta/US
 cianda/S
 ciandacht/US
 ciandachta/US
@@ -20469,6 +20476,8 @@ ciste/SU
 cisteach/S
 cisteacha/S
 cisteanna/US
+cisteirne/US
+cisteirní/US
 cisteog/US
 cisteoga/US
 cisteoige/US
@@ -29676,6 +29685,8 @@ d'ardmholainn/EU
 d'Ardpháirtithe
 d'arg/U
 d'argainn/EU
+d'Arganátach
+d'Arganátaigh
 d'argóin/U
 d'argónainn/EU
 d'Arm
@@ -32853,6 +32864,7 @@ deiliúsaí/S
 deilt/US
 deilte/SU
 deilteanna/US
+deiltí/US
 Deilí/S
 deilí/US
 deilín/US
@@ -39919,6 +39931,9 @@ Eocairisteach
 Eocairisteacha
 Eocairistigh
 Eocairistí
+eocalaip/HMDBU
+eocalaipe/HMDU
+eocalaipí/HMDBU
 eocaróit/HMDBU
 eocarót/HMDBUT
 eocarótach/HB
@@ -39966,9 +39981,6 @@ eochraí/HMDBU
 eochróir/HMDBUT
 eochróirí/HMDBU
 eochróra/HMDU
-eoclaip/HMDBU
-eoclaipe/HMDU
-eoclaipí/HMDBU
 Eofrait
 Eofraite
 eol/HMDBU
@@ -53255,6 +53267,8 @@ hArd-Stiúrthóireachtaí
 hArd-Stiúrthóirí
 hArd-Stiúrthóra
 hArdpháirtithe
+hArganátach
+hArganátaigh
 hArm
 hArmarcach
 harpúin
@@ -53584,6 +53598,12 @@ hidreapaiteach
 hidreapaiteacha
 hidreapaitigh
 hidreapaití
+hidreastatach
+hidreastatacha
+hidreastataic
+hidreastataice
+hidreastataigh
+hidreastataí
 hidreolaíche
 hidreolaíoch
 hidreolaíocha
@@ -57025,6 +57045,7 @@ inslíodh/HU
 inslítear/HU
 insmaoinimh
 insoláthartha/HB
+insonraithe/HB
 inspeirm/HMDBU
 inspeirme/HMDU
 inspeirmeacha/HMDBU
@@ -63576,6 +63597,8 @@ m'Ard-Stiúrthóireachtaí
 m'Ard-Stiúrthóirí
 m'Ard-Stiúrthóra
 m'Ardpháirtithe
+m'Arganátach
+m'Arganátaigh
 m'Arm
 m'Artach
 m'Artaigh
@@ -69965,6 +69988,8 @@ míriaradh/S
 míriaraim/SA
 míriarainn/E
 míriartha/S
+míristéama/S
+míristéamaí/S
 mírlíne/S
 mírlínte/S
 míráiteas/S
@@ -71144,6 +71169,7 @@ nanaiméadair
 nanaiméadar
 nanaitheicneolaíocht
 nanaitheicneolaíochta
+nanaitheicneolaíochtaí
 nanashoicind
 nanashoicindí
 nAnatóil
@@ -71357,6 +71383,8 @@ nArd-Stiúrthóireachtaí
 nArd-Stiúrthóirí
 nArd-Stiúrthóra
 nArdpháirtithe
+nArganátach
+nArganátaigh
 nArm
 nArtach
 nArtaigh
@@ -77614,6 +77642,8 @@ plánáil/US
 plánáilte/S
 plánála/US
 plánálaim/USI
+plánárach/US
+plánáraigh/US
 plás/US
 plásaithe/US
 plásaí/US
@@ -85326,6 +85356,9 @@ saothrúcháin/ST
 saothrúchán/S
 sapair/ST
 sapar/S
+sapraifít/ST
+sapraifíte/S
+sapraifítí/S
 saraifín/ST
 saraifíní/S
 saraiste/ST
@@ -85340,6 +85373,8 @@ saranáidí/S
 sarcófagais/ST
 sarcófagas/S
 sard/S
+sardoinisc/ST
+sardoinisce/S
 Sargasach/S
 Sasana/S
 Sasanach/S
@@ -97938,6 +97973,7 @@ tarfhuaite/S
 targaid/US
 targaide/US
 targaidí/US
+tArganátach
 targhabháil/US
 targhabhála/US
 targhabhálacha/US
@@ -105233,7 +105269,8 @@ Vicipéide
 Vicipéideoir
 Vicipéideoirí
 Vicipéideora
-viciúna
+viciúine
+viciúiní
 Victeoiriach
 Victeoiriacha
 Victeoiriaiche

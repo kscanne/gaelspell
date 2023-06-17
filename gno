@@ -158,6 +158,7 @@ Dell
 Deloitte
 Dettol
 Deutsche
+Dexcom
 DHL
 Diageo
 Dialang
@@ -415,7 +416,9 @@ Lockheed
 Lohans
 Londis
 Lotus
+LucidTalk
 Lucozade
+Lufthansa
 Lurgan
 Lusitania
 Lycos
@@ -444,6 +447,7 @@ MediaWiki
 Medicaid
 Medmark
 Medtronic
+Melodifestivalen
 Mercedes
 Mercier
 Merck

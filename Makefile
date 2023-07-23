@@ -340,6 +340,7 @@ dist: FORCE
 	gzip $(TARFILE)
 	rm -f ../$(APPNAME)
 	rm -f makefile
+	chmod 644 igcheck
 
 # relies on fact that H affix always immediately follows the slash :/
 # though see "obainn" - one exception

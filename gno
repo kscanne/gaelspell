@@ -80,6 +80,7 @@ Blogger
 Bloomsbury
 Bluetooth
 Boeing
+Boliden
 Borussia
 Bose
 Botox
@@ -431,6 +432,7 @@ Magners
 Maithú
 Mandrake
 Mandriva
+Marmite
 Marriott
 Masita
 Massey-Ferguson
@@ -447,6 +449,7 @@ MediaWiki
 Medicaid
 Medmark
 Medtronic
+Meduza
 Melodifestivalen
 Mercedes
 Mercier
@@ -500,6 +503,7 @@ NovaUCD
 Novelplast
 Nutella
 Oberweis
+OceanGate
 Odeo
 Odeon
 Ofcom
@@ -591,6 +595,7 @@ Roundy
 Routledge
 Rovers
 Ruby
+Ruhama
 Ryanair
 Rí-Rá
 Safari
@@ -609,6 +614,7 @@ Seaplants
 Sefton
 Segway
 Sephora
+ServiceNow
 Shailearna
 SharePoint
 Shelbourne
@@ -650,6 +656,7 @@ Steam
 Steidl
 Stobart
 Strava
+Stryker
 Subhóró
 Suisse
 Sundance

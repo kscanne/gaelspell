@@ -3837,6 +3837,7 @@ an-fhuaire/B
 an-fhuar/HB
 an-fhuara/B
 an-fháilte/HMDBU
+an-fhéaráilte/HB
 an-ghafa/HB
 an-ghainne/B
 an-ghairbh
@@ -32658,6 +32659,8 @@ deargchosach/S
 deargchosacha/S
 deargchosaigh/S
 deargchosaí/S
+deargiontais/US
+deargiontas/US
 dearglach/US
 dearglaigh/US
 dearglaoch/US
@@ -34380,6 +34383,8 @@ dlítheanaigh/S
 dlítheanaí/S
 dlítheangeolaithe/US
 dlítheangeolaí/US
+dlítheangeolaíocht/US
+dlítheangeolaíochta/US
 dlíthithe/US
 dlíthiúil/S
 dlíthiúla/S
@@ -50743,6 +50748,8 @@ gnáthimeachtaí/US
 gnáthimreoir/US
 gnáthimreoirí/US
 gnáthimreora/US
+gnáthiniúchadh/US
+gnáthiniúchta/US
 gnáthlae/US
 gnáthleabhair/US
 gnáthleabhar/US
@@ -54535,6 +54542,9 @@ iar-apacailipteach/HB
 iar-apacailipteacha/B
 iar-apacailiptigh
 iar-apacailiptí/B
+iar-ardstiúrthóir/HMDBUT
+iar-ardstiúrthóirí/HMDBU
+iar-ardstiúrthóra/HMDU
 iar-ardteistiméireacht/HMDBU
 iar-ardteistiméireachta/HMDU
 iar-bhunleibhéal/HMDBUT
@@ -59945,6 +59955,10 @@ leathghloine
 leathghloiní
 leathghlúin
 leathghlúine
+leathghnéasach
+leathghnéasacha
+leathghnéasaigh
+leathghnéasaí
 leathghuaillí
 leathghualainn
 leathghualainne
@@ -67422,6 +67436,8 @@ mion-aiseanna/S
 Mion-Cháisc
 Mion-Cháisceanna
 Mion-Chásca
+mion-fhomhuireáin/S
+mion-fhomhuireán/S
 mion-Ghaeltacht
 mion-Ghaeltachta
 mion-Ghaeltachtaí
@@ -79329,6 +79345,8 @@ príomhfhócais/US
 príomhfhócas/US
 príomhfhóraim/US
 príomhfhóram/US
+príomhfhórsa/US
+príomhfhórsaí/US
 príomhgharda/US
 príomhghardaí/US
 príomhgheallsealbhóir/US
@@ -98874,6 +98892,9 @@ teiliméadracht/US
 teiliméadrachta/US
 teiliméaráis/US
 teiliméaráise/US
+teiliompróir/US
+teiliompróirí/US
+teiliompróra/US
 teilionad/US
 teilionaid/US
 teilitéacs/US
@@ -101155,6 +101176,7 @@ trasghnéasach/SU
 trasghnéasacha/S
 trasghnéasaigh/SU
 trasghnéasaí/S
+trasinscne/S
 trasinscneach/S
 trasinscneacha/S
 trasinscnigh/S

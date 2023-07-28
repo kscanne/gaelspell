@@ -874,7 +874,9 @@ Afracaí
 Afracáinis
 Afracáinise
 Afracánach
+Afracánacha
 Afracánaigh
+Afracánaí
 Afrai-Mheiriceánach
 Afrai-Mheiriceánacha
 Afrai-Mheiriceánaigh
@@ -1663,6 +1665,9 @@ aimsíodh/HU
 aimsítear/HU
 aiméibe/HMDBU
 aiméibí/HMDBU
+aimíd/HMDBU
+aimíde/HMDU
+aimídí/HMDBU
 aimíonaigéad/HMDBUT
 aimíonaigéid/HMDU
 ainbheart/HMDBUT
@@ -4715,12 +4720,8 @@ anmhailíse/HMDU
 ann
 annaimh
 annaimhe/B
-annalach/HB
-annalacha/B
-annalaigh
 annalais/HMDBU
 annalas/HMDBUT
-annalaí/B
 annamh/HB
 annamha/B
 annamhacht/HMDBU
@@ -8358,7 +8359,9 @@ b'Afracaigh
 b'Afracaí
 b'Afracáinis
 b'Afracánach
+b'Afracánacha
 b'Afracánaigh
+b'Afracánaí
 b'Afrai-Mheiriceánach
 b'Afrai-Mheiriceánacha
 b'Afrai-Mheiriceánaigh
@@ -28063,6 +28066,8 @@ céaslóra/US
 céaslú/US
 Céasta/S
 céasta/SU
+céastóireacht/US
+céastóireachta/US
 céastúnach/US
 céastúnaigh/US
 céasánach/SU
@@ -33115,8 +33120,6 @@ deoirdhucht/US
 deoirdhuchta/US
 deoirdhuchtanna/US
 deoire/US
-deoirgháis/US
-deoirghás/US
 deoiricín/US
 deoiricíní/US
 deoirín/US
@@ -33166,6 +33169,8 @@ deoraíl/US
 deoraíocht/US
 deoraíochta/US
 deoraíola/US
+deorgháis/US
+deorghás/US
 deá/US
 deánna/US
 deárcais/US
@@ -46414,6 +46419,8 @@ fíormhóir/S
 fíormhóire/BS
 fíormhór/BS
 fíormhóra/BS
+fíorscoláire/MDBUS
+fíorscoláirí/MDBUS
 fíorscoth/MDBUS
 fíorscotha/MDUS
 fíorscéal/MDBUS
@@ -68385,6 +68392,8 @@ monaróir/S
 monaróirí/S
 monaróra/S
 monarú/S
+monashaothraithe/S
+monashaothrú/S
 monatóir/S
 monatóireacht/S
 monatóireachta/S
@@ -71178,6 +71187,8 @@ nAfrai-Mheiriceánaigh
 nAfraic
 nAfraice
 nafta
+naftailéin
+naftailéine
 nAfáiris
 nAfáirise
 nagadáin
@@ -73474,6 +73485,8 @@ neodair
 neodar
 neodrach
 neodracha
+neodrachais
+neodrachas
 neodracht
 neodrachta
 neodraigh
@@ -80295,6 +80308,8 @@ píotón/US
 pípéad/US
 pípéid/US
 píre
+písileictreachais/US
+písileictreachas/US
 písiméadair/US
 písiméadar/US
 písín/US
@@ -82634,6 +82649,10 @@ réamhbheartaím/C
 réamhbheartaínn/F
 réamhbheartú
 réamhbheirthe
+réamhbheitheach
+réamhbheitheacha
+réamhbheithigh
+réamhbheithí
 réamhbhirt
 réamhbhlais
 réamhbhlaiseadh

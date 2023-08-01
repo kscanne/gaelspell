@@ -4835,6 +4835,7 @@ B'l'Áth
 B'l'Átha
 B'l'áth'n
 b'Ocatáinis
+b'Oileánrach
 b'Ollaind
 b'Ollaindeach
 b'Ollaindeacha
@@ -20602,6 +20603,8 @@ d'oibrínn/FU
 d'oidh'e
 d'oighrigh/U
 d'oighrínn/FU
+d'Oileánrach
+d'Oileánraigh
 d'oirn/U
 d'oirninn/EU
 d'ol
@@ -27767,8 +27770,6 @@ eiteallú/HUBMDT
 eitealú/HUBMDT
 eitheach
 eitheoir
-eithneagáin/HMDBU
-eithneagán/HMDBUT
 eithrice
 eithriceacht
 eitill/U
@@ -31053,7 +31054,7 @@ foirlíontaigh/S
 foirlíontaí/BS
 foirmeach
 foirmeáilte/BS
-foirmeálta/BS
+foirmeálta
 foirmis
 foirneach
 foirneachán
@@ -37659,6 +37660,7 @@ hAitice
 hAiticeach
 Haití
 hAlba
+hAlbain
 halbain
 hAlbainn
 hAlban
@@ -38058,6 +38060,8 @@ hogasaed
 hoib
 hoidh'e
 hoighriarach
+hOileánrach
+hOileánraigh
 hoiléanaibh
 hOllaind
 hOllainde
@@ -38708,7 +38712,7 @@ ilcheárduidhe/HMDBUT
 ilchultúrthacht/HMDBU
 ilchultúrthachta/HMDU
 ilchéard/HMDU
-ildaite/HB
+ildaite
 ildhealbhach
 ildhisciplíneach/HB
 ildhisciplíneacha/B
@@ -39583,8 +39587,7 @@ intinniúil/HB
 intinniúla/B
 intleachtach/HMDBUT
 intleachtaigh/HMDBU
-intleachtúil/HB
-intleachtúla/B
+intleachtúil
 intlis
 intliucht/HMDBU
 intliuchta/HMDU
@@ -44284,6 +44287,8 @@ m'Iúpiter
 M'lsheachlainn
 m'Ocatáinis
 m'Ocatáinise
+m'Oileánrach
+m'Oileánraigh
 m'Ollaind
 m'Ollainde
 m'Ollaindeach
@@ -45110,6 +45115,8 @@ marlach/S
 marlacháin/S
 marlachán/S
 marlaigh/S
+marmaiséad/S
+marmaiséid/S
 marmal
 marrthanach/S
 marrthanacha/S
@@ -48743,7 +48750,6 @@ neamhfhoighidneacha
 neamhfhoighidnigh
 neamhfhoighidní
 neamhfhoirmeáilte
-neamhfhoirmeálta
 neamhfhomóis
 neamhfhomós
 neamhfhorleathna
@@ -49411,6 +49417,8 @@ noidhche
 noighreachd
 noigín
 noigíní
+nOileánrach
+nOileánraigh
 nois
 nola
 nolc
@@ -50103,8 +50111,11 @@ Oileán-na-Leann
 oileánaithe/HMDBU
 oileánaí/HMDBUT
 oileánda/HB
-oileánra/HMDBUT
-oileánraí/HMDBU
+oileánra
+Oileánrach
+oileánrach/HMDBUT
+Oileánraigh
+oileánraigh/HMDBU
 oileántrach
 oileánuidhe/HMDBUT
 oili
@@ -53405,7 +53416,6 @@ reilice
 reiligeacha
 reiligeadóir
 reiligeoir
-reiligiúnda
 reimhe
 reimheacht
 reimheadas
@@ -59953,7 +59963,6 @@ smaoinim/A
 smaoininn/E
 smaoiniú
 smaointe
-smaointeachais
 smaointeachas
 smaointeadh
 smaointeamh
@@ -67075,6 +67084,7 @@ toileamhair/S
 toileamhaire/S
 toileamhar/S
 toileamhara/S
+tOileánrach
 toilg
 toiligh/S
 toiliúil/S

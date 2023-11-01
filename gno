@@ -70,6 +70,7 @@ Benetton
 Berlinale
 Berria
 Bewley's
+Bhulf
 Bioniche
 BioNTech
 Bisto
@@ -111,6 +112,7 @@ CeangalG
 Celtica
 Centra
 CervicalCheck
+Chanel
 Chase
 ChatGPT
 Cheerios
@@ -267,6 +269,7 @@ Gaelchló
 GaelGoer
 GaelGram
 GaelGÁIRÍ
+Gaelingo
 Gaeloiliúint
 Gaelport
 Gaelscript
@@ -547,6 +550,7 @@ Pinergy
 Pinterest
 Pirelli
 Pixar
+Plassey
 Playboy
 PlayStation
 Pokémon
@@ -641,6 +645,7 @@ Snickers
 Sockies
 SoFi
 Sony
+Sorbonne
 Sotheby's
 SoundCloud
 SourceForge

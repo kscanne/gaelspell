@@ -11253,6 +11253,8 @@ bhith-dhíghrádaí/U
 bhith-dhíghrádaínn/FU
 bhladhma/U
 bhladhmainn/EU
+bhladhraí/U
+bhladhraínn/FU
 bhladraí/U
 bhladraínn/FU
 bhlaise/U
@@ -11858,8 +11860,10 @@ bladaireachta/US
 bladairí/US
 bladar/US
 bladartha/S
+bladhair/US
 bladhaire/US
 bladhairí/US
+bladhartha/SU
 bladhm/US
 bladhma/US
 bladhmach/S
@@ -11884,7 +11888,9 @@ bladhmsóga/US
 bladhmsóige/US
 bladhmtha/SU
 bladhrach/US
+bladhradh/US
 bladhraí/US
+bladhraím/USC
 bladrach/S
 bladracha/S
 bladraigh/S
@@ -16695,12 +16701,14 @@ caisealta/S
 caisealóid/US
 caisealóide/US
 caisealóidí/US
+caisear/US
 caisearbháin/US
 caisearbhán/US
 Caiseoipé/S
 caisia/US
 caisigh/S
 caisil/US
+caisir/US
 caisire/US
 caisirnín/US
 caisirníneach/S
@@ -26338,7 +26346,6 @@ crua-adhmad/US
 crua-adhmaid/US
 crua-ae/US
 crua-aenna/US
-crua-chré/US
 crua-earra/US
 crua-earraí/US
 cruabhruite/S
@@ -26380,6 +26387,7 @@ cruachroíoch/S
 cruachroíocha/S
 cruachroíocht/US
 cruachroíochta/US
+cruachré/US
 cruacht/US
 cruachta/SU
 cruachuibhrithe/S
@@ -43119,6 +43127,9 @@ fochomhadlanna/MDBUS
 fochomhlacht/MDBUS
 fochomhlachta/MDUS
 fochomhlachtaí/MDBUS
+fochonartha/MDUS
+fochonarthaí/MDBUS
+fochonradh/MDBUS
 fochonraitheoir/MDBUS
 fochonraitheoirí/MDBUS
 fochonraitheora/MDUS
@@ -54623,6 +54634,10 @@ húmas
 húpú
 húpúnna
 húta
+Hútach
+Hútacha
+Hútaigh
+Hútaí
 i
 ia/U
 Iacárta
@@ -63333,8 +63348,10 @@ líomóidigh
 líomóidí
 líon
 líona
+líonach
 líonadh
 líonaidh
+líonaigh
 líonaim/A
 líonainn/E
 líonaí
@@ -67637,6 +67654,8 @@ mion-Ghaeltacht
 mion-Ghaeltachta
 mion-Ghaeltachtaí
 miona/S
+mionachair/S
+mionachar/S
 mionaerach/S
 mionaeraigh/S
 mionaeráid/S
@@ -76810,6 +76829,10 @@ paraisimpitigh/S
 paraisimpití/S
 paraisiúit/US
 paraisiút/US
+paraisiútáil/US
+paraisiútáilte/S
+paraisiútála/US
+paraisiútálaim/USI
 paraisít/US
 paraisíte/US
 paraisítí/US
@@ -77217,6 +77240,8 @@ Phan-Mheiriceánach
 Phan-Mheiriceánacha
 Phan-Mheiriceánaigh
 Phan-Mheiriceánaí
+pharaisiútála/U
+pharaisiútálainn/JU
 pharsála/U
 pharsálainn/JU
 phasála/U
@@ -86974,6 +86999,10 @@ sciúrtóige
 sciútaim
 sciútam
 sclafa
+sclagach
+sclagacha
+sclagaigh
+sclagaí
 sclaig
 sclaige
 sclaigeanna
@@ -101344,6 +101373,8 @@ tranglála/US
 tranglálaim/USI
 tranglálaithe/US
 tranglálaí/US
+transaim/US
+transam/US
 traoch/US
 traochadh/US
 traochaim/USA
@@ -103425,6 +103456,7 @@ turbard/US
 turbheara/US
 turbhior/US
 turbhioranna/US
+turbó/US
 Turcach/S
 Turcacha/S
 turcaid/US

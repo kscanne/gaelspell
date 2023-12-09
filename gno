@@ -392,6 +392,7 @@ Kinia
 Kinja
 Knoppix
 Kodak
+Kombeara
 Kroger
 L'Oréal
 Lagan

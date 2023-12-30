@@ -108,6 +108,7 @@ Caritas
 Carlsberg
 Carrefour
 Cartamundi
+Castlestar
 CeangalG
 Celtica
 Centra
@@ -299,6 +300,7 @@ Glanbia
 Gleneagle
 Glenisk
 Glenroyal
+Globo
 Gmail
 GoFundMe
 Google
@@ -324,6 +326,7 @@ Hibernian
 Hillgrove
 Hilton
 Hitachi
+HiTech
 Honda
 hOspreys
 Hotmail

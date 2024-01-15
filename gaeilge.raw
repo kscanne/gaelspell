@@ -2963,6 +2963,10 @@ allasúil/HB
 allasúla/B
 allatróip/HMDBU
 allatróp/HMDBUT
+allatrópach/HB
+allatrópacha/B
+allatrópaigh
+allatrópaí/B
 allatáin/HMDBU
 allatán/HMDBUT
 allaíre/HMDBU
@@ -3166,9 +3170,6 @@ amaitéarachais/HMDU
 amaitéarachas/HMDBUT
 amaitéaraigh/HMDBU
 amaitéaraí/B
-amaláis/HMDBU
-amaláise/HMDU
-amaláisí/HMDBU
 amanathar
 amanna/HMDBU
 amaoile/HMDBU
@@ -17467,6 +17468,8 @@ caolmhuineálach/S
 caolmhuineálacha/S
 caolmhuineálaigh/S
 caolmhuineálaí/S
+caolrabhaisc/US
+caolrabhaisce/US
 caolseans/US
 caolseansanna/US
 caolsníofa/S
@@ -23140,6 +23143,10 @@ comh-ard/SU
 comh-arda/S
 comh-ardacht/US
 comh-ardachta/US
+comh-inoibritheach/S
+comh-inoibritheacha/S
+comh-inoibrithigh/S
+comh-inoibrithí/S
 comha/US
 comhachair/US
 comhachar/US
@@ -26149,7 +26156,13 @@ cromógacha/S
 cromógaigh/S
 cromógaí/S
 cromóige/US
+cronagraf/US
+cronagraif/US
 cronaigh/US
+cronaiméadair/US
+cronaiméadar/US
+cronaiméadraithe/US
+cronaiméadrú/US
 cronaithe/SU
 cronaím/USC
 cronú/US
@@ -26428,6 +26441,8 @@ cruamhuineálaigh/S
 cruamhuineálaí/S
 cruan/US
 cruanadh/US
+cruanadóireacht/US
+cruanadóireachta/US
 cruanaim/USA
 cruanta/SU
 cruas/US
@@ -26921,10 +26936,6 @@ cróna/S
 crónachan/US
 crónachana/US
 crónaigh/US
-crónaiméadair/US
-crónaiméadar/US
-crónaiméadraithe/US
-crónaiméadrú/US
 crónaithe/SU
 crónaím/USC
 crónbhuí/SU
@@ -80049,6 +80060,10 @@ prótacal/US
 prótachtainiam/US
 prótairéalta/US
 prótairéaltaí/US
+prótaisteach/SU
+prótaisteacha/S
+prótaistigh/SU
+prótaistí/S
 prótaitheanga/US
 prótaitheangacha/US
 prótaplasma/US
@@ -80800,6 +80815,8 @@ rabhadh
 rabhaidh
 rabhaigh
 rabhaimid
+rabhaisc
+rabhaisce
 rabhait
 rabhaite
 rabhaiteanna

@@ -4754,6 +4754,8 @@ b'Eórpaí
 b'Eúróip
 b'fhacas
 b'fhacthas
+b'Fhalangach
+b'Fhalangaigh
 b'fhearabh
 b'fhearacht
 b'fhearaibh
@@ -6252,6 +6254,8 @@ bhfaighthear
 bhfaightheá
 bhfaighthí
 bhfaision
+bhFalangach
+bhFalangaigh
 bhfaobhrach
 bhfasta
 bhfastodh
@@ -10333,6 +10337,8 @@ caiththe/S
 caithídh
 caiticiosma/US
 caiticiosmaí/US
+caitidéar/US
+caitidéir/US
 caitigh/S
 Caitilcigh
 caitilice/US
@@ -20067,6 +20073,8 @@ d'fhaisnigh
 d'fhaisnéidh
 d'fhaisnéidhinn/E
 d'fhaisnínn/F
+d'Fhalangach
+d'Fhalangaigh
 d'fhalc
 d'fhalcainn/E
 d'fhanaigh
@@ -28512,6 +28520,8 @@ falaingeacha/MDBUS
 falaire
 falamh/BS
 falamhaigh
+Falangach/S
+Falangaigh/S
 falarach
 falartha
 falarthach/BS
@@ -44241,6 +44251,8 @@ m'Eórapaigh
 m'Eórpa
 m'Eúróip
 m'feidir
+m'Fhalangach
+m'Fhalangaigh
 m'fhearabh
 m'fhearaibh
 m'Fhearmanach
@@ -55324,6 +55336,10 @@ sailiche/S
 sailicheacht
 sailigh/S
 sailimeandar
+Sailiseach/S
+Sailiseacha/S
+Sailisigh/S
+Sailisí/S
 sailithe/ST
 sailiú/S
 sailleadóir/S
@@ -63843,6 +63859,8 @@ Sírianaigh/S
 Sírianuigh/S
 Sírigh/S
 sírim/S
+Síris/S
+Sírise/S
 sírstealladh/S
 sírtheach/S
 sírtheacha/S
@@ -68413,6 +68431,7 @@ tSagsana
 tSagsanach
 tSagsanaigh
 tSagsbhéarla
+tSailisigh
 tSalvadór
 tSamaratánaigh
 tsaoghailso
@@ -68494,6 +68513,7 @@ tSíonachais
 tSír
 tSíria
 tSírianaigh
+tSíris
 tSóibhéid
 ttabhair
 ttainic

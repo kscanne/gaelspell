@@ -507,6 +507,7 @@ Nordstream
 Nordstrom
 Novartis
 NovaUCD
+Novell
 Novelplast
 Nutella
 Oberweis

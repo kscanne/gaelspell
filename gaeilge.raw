@@ -1669,7 +1669,10 @@ aimsínn/F
 aimsíodh/HU
 aimsítear/HU
 aiméibe/HMDBU
-aiméibí/HMDBU
+aiméibeach/HB
+aiméibeacha/B
+aiméibigh
+aiméibí/HBMDU
 aimíd/HMDBU
 aimíde/HMDU
 aimídí/HMDBU
@@ -16397,6 +16400,8 @@ cailcítí/US
 Caildé/S
 Caildéach/S
 Caildéacha/S
+caildéara/US
+caildéaraí/US
 Caildéiche/S
 Caildéigh/S
 Caildígh/S
@@ -18917,6 +18922,8 @@ Ceiltígh/S
 Ceiltíoch/S
 ceilvin/US
 ceilviní/US
+ceimealuadair/US
+ceimealuadar/US
 ceimic/US
 ceimice/US
 ceimiceach/S
@@ -27451,6 +27458,7 @@ cuinneoga/US
 cuinneoige/US
 cuintilliúin/US
 cuintilliún/US
+cuinín/US
 cuir/US
 cuircín/US
 cuircíneach/S
@@ -28773,7 +28781,6 @@ córaigh/S
 córaim/US
 córais/US
 córam/US
-Córan/S
 córas/US
 córasach/S
 córasacha/S
@@ -28794,8 +28801,10 @@ córtasacha/S
 córtasaigh/S
 córtasaí/S
 córáil/US
+Córáin/S
 córála/US
 córálacha/US
+Córán/S
 córóideach/SU
 córóideacha/S
 córóidigh/SU
@@ -48570,7 +48579,8 @@ gCómhargadh
 gCómhargaidh
 gCónaidhm
 gCónaidhme
-gCóran
+gCóráin
+gCórán
 gCósta
 gCúba
 gCúbach
@@ -51222,8 +51232,6 @@ gnímh/US
 gníomh/US
 gníomhach/S
 gníomhacha/S
-gníomhachais/US
-gníomhachas/US
 gníomhachtaigh/US
 gníomhachtaithe/SU
 gníomhachtaím/USC
@@ -51246,6 +51254,8 @@ gníomhaígh/US
 gníomhaím/USC
 gníomhaíoch/SU
 gníomhaíocha/S
+gníomhaíochais/US
+gníomhaíochas/US
 gníomhaíocht/US
 gníomhaíochta/US
 gníomhaíochtaí/US
@@ -55831,6 +55841,10 @@ idirshuígí/HU
 idirshuím/UA
 idirshuínn/E
 idirshuíodh/HU
+idirspeiceasach/HB
+idirspeiceasacha/B
+idirspeiceasaigh
+idirspeiceasaí/B
 idirspleách/HB
 idirspleácha/B
 idirspleáchais/HMDU
@@ -61432,6 +61446,10 @@ litir
 litirbhuama
 litirbhuamaí
 litisféar
+litisféarach
+litisféaracha
+litisféaraigh
+litisféaraí
 litisféir
 litmeas
 litmis
@@ -80976,7 +80994,6 @@ púróige/US
 púscáin/US
 púscán/US
 quarto
-quinín
 quiz
 quizchláir
 quizchlár
@@ -86128,8 +86145,8 @@ Saraistíní/S
 saranáid/ST
 saranáide/S
 saranáidí/S
-sarcófagais/ST
-sarcófagas/S
+sarcafagais/ST
+sarcafagas/S
 sarcóma/ST
 sard/S
 sardoinisc/ST
@@ -88439,6 +88456,9 @@ seachtháirge/ST
 seachtháirgí/S
 seachtrach/S
 seachtracha/S
+seachtracht/ST
+seachtrachta/S
+seachtrachtaí/S
 seachtraigh/S
 seachtraithe/ST
 seachtraí/S
@@ -94086,6 +94106,9 @@ spágála
 spágálaim/I
 spágálainn/J
 spáide
+spáideog
+spáideoga
+spáideoige
 spáidín
 spáidíní
 spáige
@@ -97954,6 +97977,8 @@ tacraím/USC
 tacsaiméadair/US
 tacsaiméadar/US
 tacsaithe/US
+tacsanomaithe/US
+tacsanomaí/US
 tacsanomaíche/S
 tacsanomaíoch/S
 tacsanomaíocha/S
@@ -98077,6 +98102,8 @@ taibhle/US
 taibhleoir/US
 taibhleoirí/US
 taibhleora/US
+taibhléadain/US
+taibhléadan/US
 taibhléirigh/US
 taibhléirithe/SU
 taibhléiriú/US
@@ -101181,6 +101208,8 @@ toistiún/US
 toisí/SU
 tOisín
 toit/US
+toitbhearna/US
+toitbhearnaí/US
 toitcheo/US
 toite/US
 toiteach/S
@@ -104346,6 +104375,10 @@ tíofúin/US
 tíofún/US
 tíogair/US
 tíogar/US
+tíograch/S
+tíogracha/S
+tíograigh/S
+tíograí/S
 tíolacadh/US
 tíolacaim/USA
 tíolacais/US

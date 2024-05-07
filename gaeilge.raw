@@ -325,6 +325,8 @@ acrainmneach/HB
 acrainmneacha/HBMDU
 acrainmnigh
 acrainmní/B
+Acrapoil
+acrapoil/HMDBU
 acraí/HBMDU
 acraíocht/HMDBU
 acraíochta/HMDU
@@ -1736,6 +1738,8 @@ ainciseoir/HMDBUT
 ainciseoirí/HMDBU
 ainciseora/HMDU
 aindia/HMDBUT
+aindiach/HB
+aindiacha/B
 aindiachais/HMDU
 aindiachaithe/HMDBU
 aindiachas/HMDBUT
@@ -1743,6 +1747,7 @@ aindiachaí/HMDBUT
 aindiaga/HB
 aindiagacht/HMDBU
 aindiagachta/HMDU
+aindiaiche/B
 aindiúid/HMDBU
 aindiúide/HMDU
 aindiúideach/HB
@@ -8360,6 +8365,7 @@ b'Acaeigh
 b'Acaidis
 b'Acht
 b'Achtanna
+b'Acrapoil
 b'Acáidis
 b'Acáinis
 b'Aeigéach
@@ -9331,6 +9337,9 @@ babarúsaí/US
 babaí/US
 babhdáin/US
 babhdán/US
+babhdóir/US
+babhdóirí/US
+babhdóra/US
 babhla/US
 babhlaeir/US
 babhlaer/US
@@ -16614,6 +16623,7 @@ cairbrigh/S
 cairbrí/S
 cairbíd/US
 cairbíde/US
+cairbídí/US
 cairbín/US
 cairbíní/US
 cairche/US
@@ -29334,8 +29344,6 @@ cúpla/US
 cúplach/S
 cúplacha/S
 cúplaigh/S
-cúplaire/US
-cúplairí/US
 cúplaí/SU
 cúpláil/US
 cúpláilte/S
@@ -29344,6 +29352,9 @@ cúplála/US
 cúplálacha/US
 cúplálaim/USI
 cúplán/US
+cúplóir/US
+cúplóirí/US
+cúplóra/US
 cúpóin/US
 cúpón/US
 cúr/US
@@ -29441,6 +29452,7 @@ d'achtáil/U
 d'achtálainn/JU
 d'aclaigh/U
 d'aclaínn/FU
+d'Acrapoil
 d'Acáidis
 d'Acáidise
 d'Acáinis
@@ -33989,6 +34001,12 @@ dialltaí/US
 dialóg/US
 dialóga/US
 dialóige/US
+diamaighnéadach/S
+diamaighnéadacha/S
+diamaighnéadaigh/S
+diamaighnéadais/US
+diamaighnéadas/US
+diamaighnéadaí/S
 diamaint/US
 diamant/US
 diamhair/SU
@@ -40118,6 +40136,8 @@ eiteoga/HMDBU
 eiteogach/HMDBU
 eiteogaí/HMDU
 eiteoige/HMDU
+eiteolaithe/HMDBU
+eiteolaí/HMDBUT
 eiteolaíocht/HMDBU
 eiteolaíochta/HMDU
 eiteáin/HMDBU
@@ -40299,6 +40319,8 @@ eochróirí/HMDBU
 eochróra/HMDU
 Eofrait
 Eofraite
+eoiginic/HMDBU
+eoiginice/HMDU
 eol/HMDBU
 eolach/HB
 eolacha/B
@@ -47638,10 +47660,6 @@ galarghinteach/S
 galarghinteacha/S
 galarghintigh/S
 galarghintí/S
-Galatach/S
-Galatacha/S
-Galataigh/S
-Galataí/S
 galaí/S
 galaím/USC
 galaíocht/US
@@ -47775,6 +47793,10 @@ galán/US
 galánta/S
 galántacht/US
 galántachta/US
+Galátach/S
+Galátacha/S
+Galátaigh/S
+Galátaí/S
 galóis/US
 galóise/US
 galóisí/US
@@ -53305,6 +53327,7 @@ hAchta
 hAchtanna
 hacnaithe
 hacnaí
+hAcrapoil
 hAcáidis
 hAcáidise
 hAcáinis
@@ -54082,6 +54105,8 @@ hidrigin
 hidrigincharbónáit
 hidrigincharbónáite
 hidrigine
+hidriginithe
+hidriginiú
 hidrileictreach
 hidrileictreacha
 hidrileictreachais
@@ -58343,6 +58368,8 @@ ionfhabhtaíodh/HU
 ionfhabhtaítear/HU
 ionfhabhtuithe/HMDBU
 ionfhabhtú/HMDBUT
+ionfharchta/HMDU
+ionfharchtadh/HMDBUT
 ionfhásta/HB
 ionga/HMDBU
 iongabháil/HMDBU
@@ -60620,6 +60647,8 @@ leictreach
 leictreacha
 leictreachais
 leictreachas
+leictreafóiréis
+leictreafóiréise
 leictrealaigh
 leictrealaithe
 leictrealaí
@@ -63878,6 +63907,7 @@ m'Acaidise
 m'Acht
 m'Achta
 m'Achtanna
+m'Acrapoil
 m'Acáidis
 m'Acáidise
 m'Acáinis
@@ -66811,6 +66841,8 @@ meathsholais/S
 meathsholas/S
 meatháin/S
 meathán/S
+meatonaime/S
+meatonaimí/S
 meatáin/S
 meatán/S
 Meice/S
@@ -71573,6 +71605,7 @@ nach
 nAcht
 nAchta
 nAchtanna
+nAcrapoil
 nAcáidis
 nAcáidise
 nAcáinis
@@ -74071,8 +74104,6 @@ nGaimise
 nGainséis
 nGainséise
 nGairdín
-nGalatach
-nGalataigh
 nGall
 nGall-Ghaeil
 nGall-Ghael
@@ -74091,6 +74122,8 @@ nGallóis
 nGallóise
 nGaláit
 nGaláite
+nGalátach
+nGalátaigh
 ngan
 nGaoithe
 nGaoth
@@ -77190,7 +77223,10 @@ Patagónaigh/S
 Patagónaí/S
 pataigin/US
 pataigine/US
-pataiginí/US
+pataigineach/S
+pataigineacha/S
+pataiginigh/S
+pataiginí/SU
 pataire/US
 patairí/US
 patraisc/US
@@ -90727,10 +90763,10 @@ sincithe/ST
 sinciú/S
 sincreatróin/ST
 sincreatrón/S
-sincréatachais/ST
-sincréatachas/S
 sincréataithe/S
 sincréataí/ST
+sincréiteachais/ST
+sincréiteachas/S
 sincí
 sincím/SC
 sincín/S
@@ -108332,6 +108368,8 @@ zúnna
 óigeantachta/HMDU
 óighe/HMDU
 óil/HMDU
+óiliongó/HMDBUT
+óiliongónna/HMDBU
 óimige/HMDBU
 óinchiste/HMDBUT
 óinchistí/HMDBU

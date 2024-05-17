@@ -377,6 +377,7 @@ JobsPlus
 Joomla
 JSTOR
 Juventus
+Jägermeister
 Kahoot
 Kantar
 Kappa
@@ -439,6 +440,7 @@ Magners
 Maithú
 Mandrake
 Mandriva
+Marlboro
 Marmite
 Marriott
 Masita
@@ -661,6 +663,7 @@ SpongeBob
 Spotify
 SquarePants
 Starbucks
+Stardust
 Statoil
 Steam
 Steidl

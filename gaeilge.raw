@@ -4207,6 +4207,10 @@ an-stairiúil/HB
 an-stairiúla/B
 an-stangadh/HMDBUT
 an-stangtha/HMDU
+an-strusmhair
+an-strusmhaire/B
+an-strusmhar/HB
+an-strusmhara/B
 an-stuama/HB
 an-suaite/HB
 an-suarach/HB
@@ -5605,6 +5609,8 @@ ard-dlúis/HMDU
 ard-dlús/HMDBUT
 ard-dílseacht/HMDBU
 ard-dílseachta/HMDU
+Ard-Eaglais
+Ard-Eaglaise
 Ard-Easpag
 Ard-Easpaig
 Ard-Fheis
@@ -7240,6 +7246,8 @@ atheagraítear/HU
 atheagráin/HMDBU
 atheagrán/HMDBUT
 atheagrú/HMDBUT
+athearraíocht/HMDBU
+athearraíochta/HMDU
 atheisiúint/HMDBU
 atheisiúintí/HMDBU
 atheisiúna/HMDU
@@ -7371,6 +7379,10 @@ athghinim/UA
 athghininn/E
 athghiniúint/HMDBU
 athghiniúna/HMDU
+athghiniúnach/HB
+athghiniúnacha/B
+athghiniúnaigh
+athghiniúnaí/B
 athghinte/HBMDU
 athghintear/HU
 athghiolc/HMDBUT
@@ -8665,6 +8677,7 @@ b'Ard-Chraobh
 b'Ard-Chúirt
 b'Ard-Dioplóma
 b'Ard-Dioplómaí
+b'Ard-Eaglais
 b'Ard-Easpag
 b'Ard-Easpaig
 b'Ard-Fheis
@@ -25334,6 +25347,8 @@ coscróirí/US
 coscróra/US
 coscáin/US
 coscán/US
+coscánaithe/US
+coscánú/US
 cosdearg
 cosdeargáin/US
 cosdeargán/US
@@ -29924,6 +29939,8 @@ d'Ard-Chúirt
 d'Ard-Chúirte
 d'Ard-Dioplóma
 d'Ard-Dioplómaí
+d'Ard-Eaglais
+d'Ard-Eaglaise
 d'Ard-Easpag
 d'Ard-Easpaig
 d'Ard-Fheis
@@ -53711,6 +53728,8 @@ hArd-Chúirt
 hArd-Chúirte
 hArd-Dioplóma
 hArd-Dioplómaí
+hArd-Eaglais
+hArd-Eaglaise
 hArd-Easpag
 hArd-Easpaig
 hArd-Fheis
@@ -63773,6 +63792,9 @@ lúbarnaíola
 lúbaí
 lúbimeall
 lúbimill
+lúbloch
+lúblocha
+lúblochanna
 lúbra
 lúbraí
 lúbtha
@@ -64168,6 +64190,8 @@ m'Ard-Chúirt
 m'Ard-Chúirte
 m'Ard-Dioplóma
 m'Ard-Dioplómaí
+m'Ard-Eaglais
+m'Ard-Eaglaise
 m'Ard-Easpag
 m'Ard-Easpaig
 m'Ard-Fheis
@@ -72000,6 +72024,8 @@ nArd-Chúirt
 nArd-Chúirte
 nArd-Dioplóma
 nArd-Dioplómaí
+nArd-Eaglais
+nArd-Eaglaise
 nArd-Easpag
 nArd-Easpaig
 nArd-Fheis
@@ -76125,6 +76151,8 @@ olldóiteáin/HMDBU
 olldóiteán/HMDBUT
 olldúnmharaithe/HMDU
 olldúnmharú/HMDBUT
+olldúshláin/HMDBU
+olldúshlán/HMDBUT
 ollfhathach/HMDBUT
 ollfhathaigh/HMDBU
 ollfheachtais/HMDBU
@@ -100875,8 +100903,12 @@ tobar/US
 tobathraithe/US
 tobathruithe/US
 tobathrú/US
+tobchinneadh/US
+tobchinnidh/US
 tobchum/US
 tobchumadh/US
+tobchumadóireacht/US
+tobchumadóireachta/US
 tobchumaim/USA
 tobchumtha/SU
 tobdhréacht/US

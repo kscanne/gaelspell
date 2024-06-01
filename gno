@@ -157,6 +157,7 @@ Dairygold
 Damer
 Debenhams
 Debian
+Decca
 Deezer
 Dell
 Deloitte
@@ -346,6 +347,7 @@ Indecon
 Independent
 Indo
 Indymedia
+Inglot
 Innersloth
 Inpho
 Inscéal
@@ -499,6 +501,7 @@ Nestlé
 Netflix
 Netscape
 Newstalk
+Nickelodeon
 Nike
 Nikon
 Nintendo

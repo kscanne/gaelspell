@@ -44,6 +44,7 @@ AranLIFE
 Argos
 Arramara
 Arsenal
+ArtsEkta
 AstraZeneca
 Astroturf
 Atari
@@ -107,6 +108,7 @@ Cambus-Freudenberg
 Caritas
 Carlsberg
 Carrefour
+Carroll's
 Cartamundi
 Castlestar
 CeangalG
@@ -203,6 +205,7 @@ Electric
 Elsevier
 Emirates
 EmployAbility
+EmpowerUS
 Energia
 Enron
 Ericsson
@@ -469,6 +472,7 @@ Mercosur
 Merriam-Webster
 Meteor
 Meyrick
+Mholly
 Michelin
 Microsoft
 Minecraft

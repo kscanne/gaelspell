@@ -2109,6 +2109,7 @@ aipindicí/HMDBU
 aipindicíteas/HMDBUT
 aipindicítis/HMDU
 Aipiníní
+aipnia/HMDBU
 air
 airbheartaigh/HU
 airbheartaithe/HBUMD
@@ -2974,6 +2975,8 @@ allatróip/HMDBU
 allatróp/HMDBUT
 allatrópach/HB
 allatrópacha/B
+allatrópacht/HMDBU
+allatrópachta/HMDU
 allatrópaigh
 allatrópaí/B
 allatáin/HMDBU
@@ -4379,6 +4382,8 @@ Anabaistigh
 Anabaistí
 anabalach/HB
 anabalacha/B
+anabalacht/HMDBU
+anabalachta/HMDU
 anabalaigh
 anabalaí/B
 anabaí/HB
@@ -5504,6 +5509,9 @@ Aragóin
 Aragóine
 Aragóinis
 Aragóinise
+aragóinít/HMDBU
+aragóiníte/HMDU
+aragóinítí/HMDBU
 Araib
 Araibe
 Araibis
@@ -17748,6 +17756,7 @@ carbón/US
 carbónach/S
 carbónacha/S
 carbónaigh/S
+carbónaithe/US
 carbónaí/S
 carbónmhair/S
 carbónmhaire/S
@@ -17759,6 +17768,7 @@ carbónáit/US
 carbónáite/US
 carbónáitithe/S
 carbónáití/US
+carbónú/US
 carcaide/US
 carcaidí/US
 carcair/US
@@ -28293,6 +28303,13 @@ céidí/US
 céile/US
 céileachais/US
 céileachas/US
+céileantráit/US
+céileantráite/US
+céileantráití/US
+céileantrátach/S
+céileantrátacha/S
+céileantrátaigh/S
+céileantrátaí/S
 céileog/US
 céileoga/US
 céileogach/S
@@ -54067,6 +54084,8 @@ heitrighnéasacht
 heitrighnéasachta
 heitrighnéasaigh
 heitrighnéasaí
+heitrisiogóit
+heitrisiogót
 heits
 heitseanna
 hEocairist
@@ -54210,6 +54229,7 @@ hidriméadrach
 hidriméadracha
 hidriméadraigh
 hidriméadraí
+hidriteiripe
 hidriteirmeach
 hidriteirmeacha
 hidriteirmigh
@@ -61791,6 +61811,9 @@ logchaighdeáin
 logchaighdeán
 logchomhad
 logchomhaid
+logdhealraitheacht
+logdhealraitheachta
+logdhealraitheachtaí
 logh
 logha
 loghadh
@@ -76096,6 +76119,8 @@ oisteansóirí/HMDBU
 oisteansóra/HMDU
 oistéapait/HMDBU
 oistéapat/HMDBUT
+oistéapóróis/HMDBU
+oistéapóróise/HMDU
 Oiséit
 Oiséite
 Oiséitis
@@ -76134,12 +76159,16 @@ olagónach/HB
 olagónacha/B
 olagónaigh
 olagónaí/B
+olaifín/HMDBUT
+olaifíní/HMDBU
 olaigh/HU
 olair/HMDU
 olaithe/HBMDU
 olaitheoir/HMDBUT
 olaitheoirí/HMDBU
 olaitheora/HMDU
+olaivín/HMDBUT
+olaivíní/HMDBU
 olanda/HB
 olann/HMDBU
 olannacht/HMDBU
@@ -88238,6 +88267,9 @@ scuide
 scuideanna
 scuigín
 scuigíní
+scuilpin
+scuilpine
+scuilpiní
 scuitseáil
 scuitseáilte
 scuitseála
@@ -88793,6 +88825,9 @@ sealgaireacht/ST
 sealgaireachta/S
 sealgairí/S
 sealgaí/S
+sealgóg/ST
+sealgóga/S
+sealgóige/S
 seall/S
 sealla/ST
 seallach/S

@@ -316,6 +316,7 @@ acomhlach/HB
 acomhlacha/B
 acomhlaigh
 acomhlaí/B
+acondrapláise/HMDBU
 acra/HMDBUT
 acrach/HB
 acracha/B
@@ -2851,7 +2852,10 @@ alathe/HB
 albaim/HMDBU
 albaimin/HMDBU
 albaimine/HMDU
-albaiminí/HMDBU
+albaimineach/HB
+albaimineacha/B
+albaiminigh
+albaiminí/HBMDU
 Albain
 Albainis
 Albainise
@@ -3233,6 +3237,8 @@ amfaiteirigh
 amfaiteirí/B
 amfaitéatair/HMDBU
 amfaitéatar/HMDBUT
+amfara/HMDBUT
+amfaraí/HMDBU
 amfataimín/HMDBUT
 amfataimíní/HMDBU
 amh/HB
@@ -16530,6 +16536,8 @@ cailltigh/S
 cailltí/S
 caillí/US
 cailm/US
+cailmint/US
+cailminte/US
 Cailmícis/S
 Cailmícise/S
 cailmín/US
@@ -37492,6 +37500,9 @@ déliopach/S
 déliopacha/S
 déliopaigh/S
 déliopaí/S
+délitir/US
+délitreach/US
+délitreacha/US
 délámhach/S
 délámhacha/S
 délámhaigh/S
@@ -66242,6 +66253,9 @@ masacaigh/S
 masacais/S
 masacas/S
 masacaí/S
+masaíf/S
+masaífe/S
+masaífí/S
 masc/S
 masca
 mascadh/S
@@ -87376,6 +87390,7 @@ scimín
 scimíní
 scinc
 scince
+scinceanna
 scinceáil
 scinceáilte
 scinceála

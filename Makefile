@@ -152,7 +152,7 @@ athfhocail-pre.txt: ${HOME}/math/code/data/Dictionary/IG
 	$(GIN) 10
 	mv -f athfhocail $@
 	utf $@
-	sed -i 's/ [0-9][0-9]*$$//' $@
+	sed -i 's/\t.*$$//' $@
 	egrep "^m'[^ ]+ ([BbCcDdFfGgMmPpTt][^']|[Ss][aeiouáéíóúlnr])[^ ]+$$" $@ | LC_ALL=C sort -u | sed "s/^.'\([^ ]*\) \(.*\)$$/\/^m'\1 \2$$\/s\/ \\\\(.\\\\)\/ mo \\\\1h\/\n\/^d'\1 \2$$\/s\/ \\\\(.\\\\)\/ do \\\\1h\/\n\/^b'\1 \2$$\/s\/ \\\\(.\\\\)\/ ba \\\\1h\//" > cleanup.sed
 	egrep "^m'[^ ]+ ([HhJjKkLlNnRr]|[Ss][^aeiouáéíóúlnr])[^ ]+$$" $@ | LC_ALL=C sort -u | sed "s/^.'\([^ ]*\) \(.*\)$$/\/^m'\1 \2$$\/s\/ \/ mo \/\n\/^d'\1 \2$$\/s\/ \/ do \/\n\/^b'\1 \2$$\/s\/ \/ ba \//" >> cleanup.sed
 	cat $@ | egrep "^.[^'][^ ]+ m'" | sed "s/ m'/ d'/" > tokill.txt

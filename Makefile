@@ -152,11 +152,12 @@ athfhocail-pre.txt: ${HOME}/math/code/data/Dictionary/IG
 	$(GIN) 10
 	mv -f athfhocail $@
 	utf $@
-	sed -i 's/\t.*$$//' $@
+	sed -i 's/\t.*$$//; /^-$$/d' $@
+	sed -i '/xx/d' $@
 	egrep "^m'[^ ]+ ([BbCcDdFfGgMmPpTt][^']|[Ss][aeiouáéíóúlnr])[^ ]+$$" $@ | LC_ALL=C sort -u | sed "s/^.'\([^ ]*\) \(.*\)$$/\/^m'\1 \2$$\/s\/ \\\\(.\\\\)\/ mo \\\\1h\/\n\/^d'\1 \2$$\/s\/ \\\\(.\\\\)\/ do \\\\1h\/\n\/^b'\1 \2$$\/s\/ \\\\(.\\\\)\/ ba \\\\1h\//" > cleanup.sed
 	egrep "^m'[^ ]+ ([HhJjKkLlNnRr]|[Ss][^aeiouáéíóúlnr])[^ ]+$$" $@ | LC_ALL=C sort -u | sed "s/^.'\([^ ]*\) \(.*\)$$/\/^m'\1 \2$$\/s\/ \/ mo \/\n\/^d'\1 \2$$\/s\/ \/ do \/\n\/^b'\1 \2$$\/s\/ \/ ba \//" >> cleanup.sed
 	cat $@ | egrep "^.[^'][^ ]+ m'" | sed "s/ m'/ d'/" > tokill.txt
-	cat $@ | keepif -n tokill.txt | egrep -v "^.[^'][^ ]+ [bm]'" | sed -f cleanup.sed > tempfile
+	cat $@ | keepif -n tokill.txt | egrep -v "^.[^'][^ ]+ [bm]'" | sed -f cleanup.sed | egrep -v '^(.+) \1$$' > tempfile
 	rm -f cleanup.sed tokill.txt
 	mv -f tempfile $@
 

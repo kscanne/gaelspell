@@ -389,6 +389,7 @@ Kahoot
 Kantar
 Kappa
 Kellogg's
+Kenny's
 Kerrygold
 Kerryman
 Kia

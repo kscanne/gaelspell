@@ -163,6 +163,7 @@ Decca
 Deezer
 Dell
 Deloitte
+Delta
 Dettol
 Deutsche
 Dexcom
@@ -331,6 +332,7 @@ Hillgrove
 Hilton
 Hitachi
 HiTech
+Hollister
 Honda
 hOspreys
 Hotmail
@@ -448,6 +450,7 @@ Mandriva
 Marlboro
 Marmite
 Marriott
+Marvel
 Masita
 Massey-Ferguson
 Mastercard
@@ -548,6 +551,7 @@ Parwin
 Pavee
 PayPal
 País
+Penguin
 Penneys
 Perl
 Petrobras
@@ -585,6 +589,7 @@ Procter
 ProVerum
 Prudential
 Pulse
+Puma
 Python
 Queercal
 Quicktime

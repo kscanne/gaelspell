@@ -978,6 +978,10 @@ Agragantaigh
 agraibhia/HMDBUT
 agraibhianna/HMDBU
 agraigh
+agranamaithe/HMDBU
+agranamaí/HMDBUT
+agranamaíocht/HMDBU
+agranamaíochta/HMDU
 agrathurasóireacht/HMDBU
 agrathurasóireachta/HMDU
 agraí/HBMDU
@@ -10000,6 +10004,8 @@ bandaigh/S
 bandaleithead/US
 bandaleithid/US
 bandaí/SU
+bandeagánach/US
+bandeagánaigh/US
 bandia/US
 bandiúc/US
 bandiúic/US
@@ -11848,6 +11854,8 @@ bisiúla/S
 bisiúlacht/US
 bisiúlachta/US
 bisím/USC
+biteicneolaithe/US
+biteicneolaí/US
 biteicneolaíocht/US
 biteicneolaíochta/US
 bith/US
@@ -11949,6 +11957,9 @@ bithshlis/US
 bithshlise/US
 bithshliseanna/US
 bithshíoraí/S
+bithstaitisteoir/US
+bithstaitisteoirí/US
+bithstaitisteora/US
 bithábhair/US
 bithábhar/US
 bithéagsúlacht/US
@@ -18840,6 +18851,7 @@ ceartchreidmheach/S
 ceartchreidmheacha/S
 ceartchreidmhigh/S
 ceartchreidmhí/S
+ceartdlí/US
 ceartfhoirm/US
 ceartfhoirme/US
 ceartfhoirmeacha/US
@@ -19095,6 +19107,9 @@ ceirmeach/S
 ceirmeacha/S
 ceirmeacht/US
 ceirmeachta/US
+ceirmeoir/US
+ceirmeoirí/US
+ceirmeora/US
 ceirmigh/S
 ceirmis/US
 ceirmise/US
@@ -21121,6 +21136,8 @@ clasaiceachais/US
 clasaiceachas/US
 clasaicigh/SU
 clasaicí/SU
+clasaicígh/US
+clasaicíoch/US
 clasaigh/SU
 clasaithe/SU
 clasaí/S
@@ -36813,6 +36830,8 @@ dTíbhise
 dTígris
 dTígrise
 dTíomór
+dTíotáin
+dTíotán
 dTír
 dTíre
 dTóga
@@ -39202,6 +39221,10 @@ eachtópach/HB
 eachtópacha/B
 eachtópaigh
 eachtópaí/B
+eacnaiméadracht/HMDBU
+eacnaiméadrachta/HMDU
+eacnaiméadraithe/HMDBU
+eacnaiméadraí/HMDBUT
 eacnamaithe/HMDBU
 eacnamaí/HMDBUT
 eacnamaíche/B
@@ -40411,6 +40434,10 @@ eitneolaithe/HMDBU
 eitneolaí/HMDBUT
 eitneolaíocht/HMDBU
 eitneolaíochta/HMDU
+eitnicheoleolaithe/HMDBU
+eitnicheoleolaí/HMDBUT
+eitnicheoleolaíocht/HMDBU
+eitnicheoleolaíochta/HMDU
 eitnigh
 eitní/B
 eitpheil/HMDBU
@@ -46303,6 +46330,12 @@ féimheachta/MDUS
 féimhigh/MDBUS
 féimir/MDBUS
 féin
+féin-earótach/BS
+féin-earótacha/BS
+féin-earótachais/MDUS
+féin-earótachas/MDBUS
+féin-earótaigh/S
+féin-earótaí/BS
 féinaitheantais/MDUS
 féinaitheantas/MDBUS
 féinaithne/MDBUS
@@ -49477,6 +49510,9 @@ geoidléirí/US
 geoidlím/USC
 geoifisic/US
 geoifisice/US
+geoifisiceoir/US
+geoifisiceoirí/US
+geoifisiceora/US
 geoiméadair/US
 geoiméadar/US
 geoiméadrach/S
@@ -51471,6 +51507,8 @@ gnéaschlaonadh/US
 gnéaschlaonaithe/US
 gnéaschlaonaí/US
 gnéaschlaonta/SU
+gnéaseolaithe/US
+gnéaseolaí/US
 gnéasoibrithe/US
 gnéasoibrí/US
 gnéasoideachais/US
@@ -53583,6 +53621,10 @@ haemaifiliach
 haemaifiliacha
 haemaifiliaiche
 haemaifiliaigh
+haemaiteolaithe
+haemaiteolaí
+haemaiteolaíocht
+haemaiteolaíochta
 haemaitít
 haemaitíte
 haemastáis
@@ -60855,6 +60897,10 @@ leathísil
 leathísle
 leathóg
 leathóga
+leathógach
+leathógacha
+leathógaigh
+leathógaí
 leathóige
 leathólta
 leatra
@@ -61693,6 +61739,9 @@ Liotuánaí
 liotúirge
 liotúirgeach
 liotúirgeacha
+liotúirgeoir
+liotúirgeoirí
+liotúirgeora
 liotúirgigh
 liotúirgí
 Liovóinis
@@ -73961,6 +74010,7 @@ neamhspleácha
 neamhspleáchais
 neamhspleáchas
 neamhspleáiche
+neamhspleáigh
 neamhspárálach
 neamhspárálacha
 neamhspárálaigh
@@ -95592,6 +95642,8 @@ steiréaphláta
 steiréaphlátaí
 steiréascóip
 steiréascóp
+steiréiceimic
+steiréiceimice
 steiréitíopa
 steiréitíopaí
 steiréitíopáil
@@ -96724,6 +96776,9 @@ substráití/S
 sucaí/ST
 sucsainít/ST
 sucsainíte/S
+sufragóir/S
+sufragóirí/S
+sufragóra/ST
 sufraigéid/ST
 sufraigéide/S
 sufraigéidí/S
@@ -98582,6 +98637,9 @@ taibhdhearca/US
 taibhdheirce/US
 taibhealaíon/US
 taibhealaíona/US
+taibhealaíontóir/US
+taibhealaíontóirí/US
+taibhealaíontóra/US
 taibheoir/US
 taibheoirí/US
 taibheora/US
@@ -104918,7 +104976,9 @@ tíosach/SU
 tíosacha/S
 tíosaigh/SU
 tíosaí/S
+Tíotáin/S
 tíotáiniam/US
+Tíotán/S
 Tír/S
 tír/US
 tír-raoin/US
@@ -106746,6 +106806,9 @@ vitimíní
 vitriail
 vitrial
 vióla
+vióladóir
+vióladóirí
+vióladóra
 viólaí
 vlag
 vlaganna

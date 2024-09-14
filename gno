@@ -229,6 +229,7 @@ Eurosong
 Eurostat
 Eurovision
 Eventbrite
+Evergreen
 Evertype
 Evide
 Examiner
@@ -322,6 +323,7 @@ Gweles
 Halliburton
 Hamas
 Harley
+Healthfoods
 Hebdo
 Heineken
 Heinemann

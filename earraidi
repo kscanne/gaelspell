@@ -88,6 +88,7 @@ Admhaidin Adhmhaidin
 admhail admháil
 adsa agatsa
 aduaigh aduaidh
+aduiadh aduaidh
 adéir a deir
 adéir deir
 Aeinéas Aenéas
@@ -277,6 +278,8 @@ aistrú aistriú
 aistrúcháin aistriúcháin
 aisíneacht áisíneacht
 aisíoch aisíoc
+aiteacha áiteanna
+aiteachaí áiteanna
 aiteanna áiteanna
 aiteanta aitheanta
 aitheanas aitheantas
@@ -403,6 +406,7 @@ an-dáinséarach an-dainséarach
 an-díoma an-díomá
 an-díomach an-díomách
 an-fada an-fhada
+an-fhluich an-fhliuch
 an-fhorbaithe an-fhorbartha
 an-fiúntach an-fhiúntach
 an-fliuch an-fhliuch
@@ -1117,6 +1121,7 @@ bháile bhaile
 bháiliú bhailiú
 bháinne bhainne
 bháirín bhairín
+bháisteacht bháisteach
 Bháldraithe Bhaldraithe
 bhárdasaigh bhardasaigh
 bhárúil bharúil
@@ -1152,6 +1157,8 @@ bhúr bhur
 bi bí
 bialinn bialann
 bideach bídeach
+biedh beidh
+bige bígí
 bigí bígí
 Bilbao Bilbo
 biliún billiún
@@ -1172,6 +1179,7 @@ Blaithín Bláithín
 blathanna bláthanna
 Blathnaid Bláthnaid
 blathú bláthú
+Blea Bleá
 bliadain bliain
 bliahdain bliain
 bliaina bliain
@@ -1436,6 +1444,7 @@ báisteadh baisteadh
 báiúil báúil
 bálsheomra bálseomra
 bárdasach bardasach
+básití báistí
 básúithe básuithe
 béag beag
 béaltrial béaltriail
@@ -1554,6 +1563,7 @@ cairéiseach cáiréiseach
 caislean caisleán
 caisléan caisleán
 caiteamh caitheamh
+caitheanna ceathanna
 caithfaidh caithfidh
 caithfaimid caithfimid
 caithfimídne caithfimidne
@@ -1636,6 +1646,8 @@ Cathussach Cathasach
 Catríona Caitríona
 CCE CCÉ
 ce cé
+ceach ceacht
+ceach ceathach
 Ceadaoin Céadaoin
 Ceadaoin-na-Luaithre Céadaoin an Luaithrigh
 Ceadaoine Céadaoin
@@ -1707,10 +1719,13 @@ ceimeanna céimeanna
 ceistenna ceisteanna
 ceistiúchain ceistiúcháin
 ceithrear ceathrar
+celcius Celsius
 celiúradh ceiliúradh
 Cellaigh Ceallaigh
+celsius Celsius
 cen cén
 ceobhráine ceobhráin
+ceobhrána ceobhrán
 ceoilchoirm ceolchoirm
 ceoile ceoil
 ceoilteoirí ceoltóirí
@@ -1756,6 +1771,7 @@ chaipéis cháipéis
 chaipéisí cháipéisí
 chairdre chairde
 chaire chairde
+chaired chairde
 Chairraí Chiarraí
 chaislean chaisleán
 chaisléain chaisleáin
@@ -2132,6 +2148,7 @@ chópáil chóipeáil
 chóroínvíris choróinvíris
 chóráis chórais
 chórás chóras
+chóst chósta
 chóthú chothú
 chúcu chucu
 chúid chuid
@@ -2658,6 +2675,7 @@ Cuba Cúba
 cugham chugam
 cughat chugat
 cui cuí
+cuide cuid
 cuidh cuid
 cuidigí cuidígí
 cuig chuig
@@ -2819,6 +2837,7 @@ céarbh cérbh
 céardaíocht ceardaíocht
 céardlann ceardlann
 céart ceart
+céathanna ceathanna
 céiliúradh ceiliúradh
 céiliúrtha ceiliúrtha
 céilliúradh ceiliúradh
@@ -2862,6 +2881,7 @@ cóngáraí cóngaraí
 córáis córais
 córás córas
 córóin coróin
+cóst cósta
 cósúil cosúil
 cùpla cúpla
 cúaidh chuaigh
@@ -3635,6 +3655,7 @@ dtugfar dtugtar
 dtuibhradh dtabharfadh
 dtuisceart dtuaisceart
 dtus dtús
+dtusaiceart dtuaisceart
 dtáithí dtaithí
 dtárlaíonn dtarlaíonn
 dtástalácha dtástálacha
@@ -3783,6 +3804,7 @@ díospóireach díospóireacht
 díotse díotsa
 dírbheatháisnéis dírbheathaisnéis
 díreac díreach
+díreaceh díreach
 díreacht díreach
 díreahc díreach
 Díreáin Direáin
@@ -4246,6 +4268,8 @@ fhirínne fhírinne
 fhiseáin fhíseáin
 fhiseán fhíseán
 fhisisceach fhisiceach
+Fhlaitheartha Fhlaithearta
+Fhlaithertha Fhlaithearta
 fhloghlaim fhoghlaim
 fhluich fhliuch
 Fhlóndrais Fhlóndras
@@ -4323,6 +4347,7 @@ fianta fiánta
 fianíse fianaise
 Fibín Fíbín
 fice fiche
+fich fiche
 fichill fichille
 ficid fichid
 fieisin freisin
@@ -4811,6 +4836,7 @@ gceatadán gcéatadán
 gceatharlach gCeatharlach
 gceilí gcéilí
 gceilúradh gceiliúradh
+gceim gcéim
 gceiribiní gceiribíní
 gceoltoirí gceoltóirí
 gceoltoírí gceoltóirí
@@ -4914,6 +4940,7 @@ gcéil gcéill
 gcéiliúradh gceiliúradh
 gcéinne gcéanna
 gcéád gcéad
+gcéím gcéim
 gcíbearspás gcibearspás
 gCíév gCív
 gcóhort gcohórt
@@ -4942,6 +4969,7 @@ gealgaireach gealgháireach
 gealgoirí Gaeilgeoirí
 gealgáireach gealgháireach
 gealige Gaeilge
+gealla geala
 gealltannas gealltanas
 geansaíthe geansaithe
 gear gearr
@@ -6584,6 +6612,7 @@ Meirceánach Meiriceánach
 Meircéá Meiriceá
 Meireceá Meiriceá
 Meireiceá Meiriceá
+meiribh meirbh
 Meiricanach Meiriceánach
 meiricea Meiriceá
 Meiriceanach Meiriceánach
@@ -7214,6 +7243,7 @@ neamhmoird neamhoird
 neamhnaigh neamhnigh
 neamhoifigiúl neamhoifigiúil
 neamhpleáchas neamhspleáchas
+neamhshochair neamhshocair
 neamhsplachas neamhspleáchas
 neamhspleach neamhspleách
 neamhspleacha neamhspleácha
@@ -7526,6 +7556,7 @@ oirbh oraibh
 oirdeisceart oirdheisceart
 oired oiread
 oirialla Oirialla
+oiridheisceart oirdheisceart
 oiriunach oiriúnach
 oiriunaí oiriúnaí
 oiriunú oiriúnú
@@ -7544,6 +7575,7 @@ oirúnaí oiriúnaí
 oispideal ospidéal
 oispís ospís
 oispísí ospísí
+oithear oirthear
 ol ól
 olas ól mé
 olch olc
@@ -7673,6 +7705,7 @@ parsaireach pasaireach
 partaí páirtí
 Parás Páras
 pasaiste pasáiste
+pasití paistí
 passfhocal pasfhocal
 patruin patrúin
 patruin pátrúin
@@ -8145,6 +8178,7 @@ raidh raibh
 raidio raidió
 raidío raidió
 Raifteiri Raifteirí
+raigeannaí ráigeanna
 raigh raibh
 rainh raibh
 rainig ráinigh
@@ -8410,6 +8444,7 @@ réamháisnéis réamhaisnéis
 réasuin réasúin
 réasun réasún
 réasunta réasúnta
+régiúin réigiúin
 régiún réigiún
 réid réidh
 réidteach réiteach
@@ -8482,6 +8517,7 @@ rómhnic rómhinic
 Rómáinsis Rómainis
 Rónan Rónán
 rónán Rónán
+rópanta ropánta
 róthar rothar
 róthaí rothaí
 róthaíocht rothaíocht
@@ -8898,6 +8934,7 @@ seiceál seiceáil
 seicáil seiceáil
 seicéail seiceáil
 seideadh séideadh
+seidte séidte
 seimh séimh
 seimhithe séimhithe
 seimhiú séimhiú
@@ -10567,6 +10604,7 @@ tráthnónna tráthnóna
 tráthuil tráthúil
 tráthóna tráthnóna
 tráthónta tráthnónta
+trátnóna tráthnóna
 tréabh treibh
 tréachta traochta
 tréaslaim tréaslaím
@@ -10647,6 +10685,7 @@ tuairsceart tuaisceart
 tuairscíodh tuairiscíodh
 tuairsic tuairisc
 tuaiscert tuaisceart
+tuaiseart tuaisceart
 tuaithiúla tuathúla
 tualach t-ualach
 tuaraimí tuairimí
@@ -10688,6 +10727,7 @@ tuismitheorí tuismitheoirí
 tuismítheoirí tuismitheoirí
 tuistmitheoirí tuismitheoirí
 tuiteamh titim
+tulchaí tulcaí
 Tullach Tulach
 tullmhúchán t-ullmhúchán
 tumadoirí tumadóirí
@@ -11087,6 +11127,8 @@ Zurich Zürich
 áistíoch aisteach
 áiséirí aiséirí
 áisúil áisiúil
+áiteachai áiteanna
+áiteannna áiteanna
 áithint aithint
 áitiula áitiúla
 áitiúila áitiúla

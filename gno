@@ -68,6 +68,7 @@ Beanantees
 Bebo
 Belltable
 Benetton
+Benners
 Berlinale
 Berria
 Bewley's
@@ -80,6 +81,7 @@ Blackboard
 Blockbuster
 Blogger
 Bloomsbury
+Bluesky
 Bluetooth
 Boeing
 Boliden
@@ -434,6 +436,7 @@ LoCall
 Lockheed
 Lohans
 Londis
+Loosehorse
 Lotus
 LucidTalk
 Lucozade
@@ -594,6 +597,7 @@ Prudential
 Pulse
 Puma
 Python
+Qualifax
 Queercal
 Quicktime
 Quizlet

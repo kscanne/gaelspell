@@ -3002,6 +3002,8 @@ allmhaireora/HMDU
 allmhairigh/HU
 allmhairithe/HBMDU
 allmhairiú/HMDBUT
+allmhairiúcháin/HMDBU
+allmhairiúchán/HMDBUT
 allmhairí/HMDBU
 allmhairídís/HU
 allmhairígí/HU
@@ -11919,6 +11921,10 @@ bithghlas/S
 bithghlasa/S
 bithgháis/US
 bithghás/US
+bithicídeach/S
+bithicídeacha/S
+bithicídigh/S
+bithicídí/S
 bithinnealtóireacht/US
 bithinnealtóireachta/US
 bithiúnach/US
@@ -24116,6 +24122,8 @@ comhleantaigh/S
 comhleantaí/S
 comhleanúnach/S
 comhleanúnacha/S
+comhleanúnachais/US
+comhleanúnachas/US
 comhleanúnaigh/S
 comhleanúnaí/S
 comhleapach/US
@@ -43551,6 +43559,8 @@ fochéime/BSMDU
 fochéimeanna/MDBUS
 fochéimithe/MDBUS
 fochéimí/MDBUS
+fochórais/MDBUS
+fochóras/MDBUS
 fochóta/MDBUS
 fochótaí/MDBUS
 foclach/BS
@@ -43932,6 +43942,10 @@ foluaineacha/BS
 foluainigh/S
 foluainí/BS
 foluana/MDUS
+foluiteach/BS
+foluiteacha/BS
+foluitigh/S
+foluití/BS
 foláir/BS
 foláireamh/MDBUS
 foláirimh/MDBUS
@@ -44406,6 +44420,8 @@ formaildéid/MDUS
 formailin/MDBUS
 formailine/MDUS
 formaí/MDBUS
+formhaoirseacht/MDBUS
+formhaoirseachta/MDUS
 formhaoirsithe/MDUS
 formhaoirsiú/MDBUS
 formheas/MDBUS
@@ -46743,6 +46759,9 @@ fíoraisteacha/BS
 fíoraistigh/S
 fíoraistí/BS
 fíoraithe/MDBUS
+fíoraitheoir/MDBUS
+fíoraitheoirí/MDBUS
+fíoraitheora/MDUS
 fíorannaimh/S
 fíorannaimhe/BS
 fíorannamh/BS
@@ -47060,6 +47079,8 @@ fíoríseal/BS
 fíorísil/S
 fíorísle/BS
 fíorú/MDBUS
+fíorúcháin/MDBUS
+fíorúchán/MDBUS
 fíorúil/BS
 fíorúla/BS
 fíorúlaithe/MDUS
@@ -74125,6 +74146,10 @@ neamhthuilleamaí
 neamhthuilleamaíche
 neamhthuilleamaíoch
 neamhthuilleamaíocha
+neamhthuillmheach
+neamhthuillmheacha
+neamhthuillmhigh
+neamhthuillmhí
 neamhthuillte
 neamhthuirseach
 neamhthuirseacha
@@ -82649,6 +82674,9 @@ riosóim
 riosól
 riosóm
 ris
+risíocht
+risíochta
+risíochtaí
 rite
 riteacht
 riteachta
@@ -91850,6 +91878,8 @@ sladaíochta/S
 sladchonartha/ST
 sladchonarthaí/S
 sladchonradh/S
+sladghearradh/S
+sladghearrtha/ST
 sladmharaithe/ST
 sladmhargadh/S
 sladmhargaidh/ST
@@ -102981,6 +103011,8 @@ tromnéil/US
 tromola/US
 tromolaí/US
 tromscéala/US
+tromshaothair/US
+tromshaothar/US
 tromshlua/US
 tromshluaite/US
 tromshuain/US
@@ -106850,6 +106882,8 @@ voltanna
 voltas
 Voltaí
 voltaí
+voltmhéadair
+voltmhéadar
 vombait
 vombat
 vuinsciú

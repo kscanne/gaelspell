@@ -22,6 +22,7 @@ Airtricity
 Ajax
 Aldi
 Alexa
+Alitalia
 Allfirst
 Allianz
 Altan

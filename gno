@@ -252,6 +252,7 @@ Fintrax
 Firefox
 Fitbit
 Flash
+Flickerpix
 Flickr
 Flirt
 Flogas
@@ -344,6 +345,7 @@ Hotmail
 Hotspur
 Huawei
 Hyundai
+Iar-Chonamara
 iCloud
 iGaeilge
 iGoogle
@@ -700,6 +702,7 @@ SurveyMonkey
 SwiftKey
 Swype
 Symantec
+Syndicom
 Sáirséal
 Sétanta
 Tamagotchi

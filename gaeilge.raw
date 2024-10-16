@@ -713,6 +713,8 @@ aeriompróirí/HMDBU
 aeriompróra/HMDU
 aerionad/HMDBUT
 aerionaid/HMDBU
+aerionsaithe/HMDBU
+aerionsaí/HMDBUT
 aerloinge/HMDU
 aerloingeas/HMDBUT
 aerloingis/HMDBU
@@ -874,6 +876,10 @@ Afra-Bhrasaíleach
 Afra-Bhrasaíleacha
 Afra-Bhrasaíligh
 Afra-Bhrasaílí
+Afra-Chairibeach
+Afra-Chairibeacha
+Afra-Chairibigh
+Afra-Chairibí
 Afra-Áisic
 Afra-Áisice
 Afracach
@@ -4185,6 +4191,8 @@ an-sciliúla/B
 an-sciobtha/HB
 an-scéal/HMDBUT
 an-scéil/HMDU
+an-scóir/HMDBU
+an-scór/HMDBUT
 an-sean/HB
 an-seans
 an-simplí
@@ -4213,6 +4221,8 @@ an-sonraí/B
 an-speisialta/HB
 an-spiorad/HMDBUT
 an-spraoi/HMDBUT
+an-spraíúil/HB
+an-spraíúla/B
 an-spreagadh/HMDBUT
 an-spreagtha/HMDU
 an-spreagúil/HB
@@ -8440,6 +8450,10 @@ b'Afra-Bhrasaíleach
 b'Afra-Bhrasaíleacha
 b'Afra-Bhrasaíligh
 b'Afra-Bhrasaílí
+b'Afra-Chairibeach
+b'Afra-Chairibeacha
+b'Afra-Chairibigh
+b'Afra-Chairibí
 b'Afra-Áisic
 b'Afracach
 b'Afracacha
@@ -9311,6 +9325,10 @@ b'Éirimeacht
 b'Éirinn
 b'Éirne
 b'Éisc
+b'Íogbóch
+b'Íogbócha
+b'Íogbóiche
+b'Íogbóigh
 b'Íogbóis
 b'Íosa
 b'Íoslainn
@@ -12022,6 +12040,7 @@ bladhmannacha/S
 bladhmannaigh/S
 bladhmannaí/S
 bladhmaí/S
+bladhmsach/US
 bladhmsóg/US
 bladhmsóga/US
 bladhmsóige/US
@@ -20344,6 +20363,8 @@ cibleacháin/US
 cibleachán/US
 cibé
 cic/US
+cicdhornálaíocht/US
+cicdhornálaíochta/US
 ciceanna/US
 ciceáil/US
 ciceáilte/S
@@ -20410,7 +20431,6 @@ Cille/S
 cille/US
 cillscannáin/US
 cillscannán/US
-cillí/US
 cillín/US
 cillíní/US
 cime/US
@@ -20482,12 +20502,6 @@ cineáltais/US
 cineáltas/US
 Ciniaruaindis/S
 Ciniaruaindise/S
-ciniceas/US
-cinicis/US
-cinicithe/US
-ciniciúil/S
-ciniciúla/S
-cinicí/US
 ciniúil/S
 ciniúla/S
 Cinn/S
@@ -26019,6 +26033,8 @@ creatlom/S
 creatloma/S
 creatphlean/US
 creatphleananna/US
+creatpholasaithe/US
+creatpholasaí/US
 creatúil/S
 creatúla/S
 creatúlacht/US
@@ -26527,6 +26543,9 @@ croíbhrú/US
 croíbhrúite/S
 croícheantair/US
 croícheantar/US
+croícheist/US
+croícheiste/US
+croícheisteanna/US
 croíchoda/US
 croíchodanna/US
 croíchruthach/S
@@ -29702,6 +29721,8 @@ d'Afganastánach
 d'Afganastánaigh
 d'Afra-Bhrasaíleach
 d'Afra-Bhrasaíligh
+d'Afra-Chairibeach
+d'Afra-Chairibigh
 d'Afra-Áisic
 d'Afra-Áisice
 d'Afracach
@@ -31851,6 +31872,8 @@ d'Éirimeachta
 d'Éirinn
 d'Éirne
 d'Éisc
+d'Íogbóch
+d'Íogbóigh
 d'Íogbóis
 d'Íogbóise
 d'Íosa
@@ -34859,6 +34882,7 @@ dlúthghaol/US
 dlúthghaolta/US
 dlúthnaisc/US
 dlúthnasc/US
+dlúthphearsanta/S
 dlúthpháirt/US
 dlúthpháirte/US
 dlúthpháirteanna/US
@@ -41556,8 +41580,8 @@ feanntaí/BS
 feannóg/MDBUS
 feannóga/MDBUS
 feannóige/MDUS
-feantanail/MDBUS
-feantanaile/MDUS
+feantainil/MDBUS
+feantainile/MDUS
 feanóltailéin/MDBUS
 feanóltailéine/MDUS
 fear/MDBUS
@@ -43117,6 +43141,7 @@ flainn/S
 flainne/S
 flainín/US
 flainíní/US
+flaisc
 flaiséara/US
 flaiséir/US
 flaiséirí/US
@@ -47221,6 +47246,8 @@ Fódlaigh/S
 Fódlaí/S
 fódáin/MDBUS
 fódán/MDBUS
+fódóireacht/MDBUS
+fódóireachta/MDUS
 fódú/MDBUS
 fódúil/BS
 fódúla/BS
@@ -52380,10 +52407,12 @@ griofadacha/S
 griofadaigh/SU
 griofadaí/S
 griog/US
+grioga/US
 griogadh/US
 griogaim/USA
 griogaire/US
 griogairí/US
+grioganna/US
 griogtha/SU
 grioll/US
 griolladh/US
@@ -53676,6 +53705,8 @@ hAfganastánach
 hAfganastánaigh
 hAfra-Bhrasaíleach
 hAfra-Bhrasaíligh
+hAfra-Chairibeach
+hAfra-Chairibigh
 hAfra-Áisic
 hAfra-Áisice
 hAfracach
@@ -54997,6 +55028,8 @@ hÉirimeachta
 hÉirinn
 hÉirne
 hÉisc
+hÍogbóch
+hÍogbóigh
 hÍogbóis
 hÍogbóise
 hÍosa
@@ -57783,6 +57816,7 @@ inphléascainn/E
 inphléasctar/HU
 inphléasctha/HBMDU
 inphléascthaí/HMDBU
+inphléite/HB
 inphrionta/HMDBUT
 inphriontaí/HMDBU
 inphriontáilte/HB
@@ -60739,6 +60773,9 @@ leathghuta
 leathghutaí
 leathgháire
 leathgháirí
+leathiarracht
+leathiarrachta
+leathiarrachtaí
 leathimeall
 leathimeallach
 leathimeallacha
@@ -60779,6 +60816,8 @@ leathmhaige
 leathmhaigí
 leathmhairbh
 leathmhairbhe
+leathmhaith
+leathmhaithe
 leathmharaithe
 leathmharatóin
 leathmharatón
@@ -63215,6 +63254,9 @@ lánchostas
 lánchreach
 lánchreacha
 lánchreiche
+lánchreidiúint
+lánchreidiúintí
+lánchreidiúna
 lánchruinnithe
 lánchruinniú
 lánchuid
@@ -64311,6 +64353,8 @@ m'Afganastánach
 m'Afganastánaigh
 m'Afra-Bhrasaíleach
 m'Afra-Bhrasaíligh
+m'Afra-Chairibeach
+m'Afra-Chairibigh
 m'Afra-Áisic
 m'Afra-Áisice
 m'Afracach
@@ -65085,6 +65129,8 @@ m'Éirimeachta
 m'Éirinn
 m'Éirne
 m'Éisc
+m'Íogbóch
+m'Íogbóigh
 m'Íogbóis
 m'Íogbóise
 m'Íosa
@@ -67326,6 +67372,10 @@ meilinine/S
 meilinn/E
 Meilinéis/S
 Meilinéise/S
+Meilinéiseach/S
+Meilinéiseacha/S
+Meilinéisigh/S
+Meilinéisí/S
 meill/S
 meille/S
 meilleanna/S
@@ -69286,6 +69336,9 @@ mongús/S
 monsúin/S
 monsún/S
 Montainéagró/S
+Montainéagróch/S
+Montainéagrócha/S
+Montainéagróiche/S
 Montsarat/S
 monuar
 moratóir/S
@@ -69364,6 +69417,10 @@ mosánach/S
 mosánacha/S
 mosánaigh/S
 mosánaí/S
+mothachtálach/S
+mothachtálacha/S
+mothachtálaigh/S
+mothachtálaí/S
 mothaigh/S
 mothaill/S
 mothair/S
@@ -72045,6 +72102,8 @@ nAfganastánach
 nAfganastánaigh
 nAfra-Bhrasaíleach
 nAfra-Bhrasaíligh
+nAfra-Chairibeach
+nAfra-Chairibigh
 nAfra-Áisic
 nAfra-Áisice
 nAfracach
@@ -73102,6 +73161,7 @@ neamhcheangailtigh
 neamhcheangailtí
 neamhcheart
 neamhchearta
+neamhcheartaithe
 neamhcheist
 neamhcheisteach
 neamhcheisteacha
@@ -73603,6 +73663,7 @@ neamhgheala
 neamhgheanmnaí
 neamhgheanúil
 neamhgheanúla
+neamhghearrtha
 neamhghil
 neamhghile
 neamhghiorraithe
@@ -73734,6 +73795,7 @@ neamhleanúnachais
 neamhleanúnachas
 neamhleanúnaigh
 neamhleanúnaí
+neamhleasaithe
 neamhleasc
 neamhleasca
 neamhleisce
@@ -73748,6 +73810,7 @@ neamhleithscéalacha
 neamhleithscéalaigh
 neamhleithscéalaí
 neamhleor
+neamhliostaithe
 neamhliteartha
 neamhlitearthacht
 neamhlitearthachta
@@ -73864,6 +73927,7 @@ neamhpháirtigh
 neamhpháirtí
 neamhphéireáilte
 neamhphósta
+neamhrangaithe
 neamhranníocach
 neamhranníocacha
 neamhranníocaigh
@@ -75380,6 +75444,8 @@ nÉirimeachta
 nÉirinn
 nÉirne
 nÉisc
+nÍogbóch
+nÍogbóigh
 nÍogbóis
 nÍogbóise
 nÍosa
@@ -76659,6 +76725,8 @@ ollscriosadh/HMDBUT
 ollscriosta/HMDU
 ollscála/HMDBUT
 ollscálaí/HMDBU
+ollsiopa/HMDBUT
+ollsiopaí/HMDBU
 ollslua/HMDBUT
 ollsluaite/HMDBU
 ollsmacht/HMDBUT
@@ -78583,6 +78651,8 @@ plaiceard/US
 plaicide/US
 plaicidí/US
 plaicird/US
+plaicín/US
+plaicíní/US
 plainc/US
 plaisc/S
 plaisce/S
@@ -82221,6 +82291,11 @@ reathaithe
 reathaí
 reathaíocht
 reathaíochta
+reibheáil
+reibheáilte
+reibheála
+reibheálaim/I
+reibheálainn/J
 reibiliúin
 reibiliún
 reibiliúnach
@@ -82553,6 +82628,11 @@ ridireachta
 ridiriúil
 ridiriúla
 ridirí
+rifeáil
+rifeáilte
+rifeála
+rifeálaim/I
+rifeálainn/J
 rige
 rigeáil
 rigeáilte
@@ -82861,6 +82941,9 @@ rollamán
 rollaí
 rollaím/C
 rollaínn/F
+rollchóstóir
+rollchóstóirí
+rollchóstóra
 rollta
 rolluithe
 rolláil
@@ -84699,6 +84782,8 @@ róchaifigh
 róchaifí
 róchairdiúil
 róchairdiúla
+róchaiteachais
+róchaiteachas
 róchaitheamh
 róchaithimh
 róchaoil
@@ -84757,6 +84842,10 @@ róchumhachtach
 róchumhachtacha
 róchumhachtaigh
 róchumhachtaí
+rócháinteach
+rócháinteacha
+rócháintigh
+rócháintí
 róchóngarach
 róchóngaracha
 róchóngaraigh
@@ -87540,6 +87629,8 @@ Scigirí
 scigirí
 scigiúil
 scigiúla
+scigléirithe
+scigléiriú
 scigmhagadh
 scigmhagaidh
 scigphictiúir
@@ -88948,6 +89039,7 @@ seachbhreithiúnaigh/S
 seachbhreithiúnaí/S
 seachbhrí/ST
 seachbhríonna/S
+seachbhuaice/S
 seachbhóthair/ST
 seachbhóthar/S
 seachfhocail/ST
@@ -89314,6 +89406,9 @@ seanaoise/S
 seanaoiseanna/S
 seanaonad/S
 seanaonaid/ST
+seanargóint/ST
+seanargóinte/S
+seanargóintí/S
 seanasail/ST
 seanasal/S
 seanascail/ST
@@ -91200,7 +91295,9 @@ Siliúracha/S
 Siliúraigh/S
 Siliúraí/S
 silleadh/S
+sillithe/S
 sillte/ST
+sillí/ST
 silte/ST
 silteach/S
 silteacha/S
@@ -91638,12 +91735,6 @@ siotar/S
 siotaí/S
 siotáir/ST
 siotár/S
-sip/ST
-sipdhúntóir/S
-sipdhúntóirí/S
-sipdhúntóra/ST
-sipe/S
-sipeanna/S
 sipiléireacht/ST
 sipiléireachta/S
 sireadh/S
@@ -93523,6 +93614,12 @@ soineann/ST
 soineanta/S
 soineantacht/ST
 soineantachta/S
+soinicithe/S
+soiniciúil/S
+soiniciúla/S
+soiniciúlacht/ST
+soiniciúlachta/S
+soinicí/ST
 soininne/S
 soinn/ST
 soinneáin/ST
@@ -95860,6 +95957,7 @@ stodamacha
 stodamaigh
 stodamaí
 stodaí
+stodáilte
 stofa
 stoic
 stoidfhiacail
@@ -96270,6 +96368,8 @@ stróúil
 stróúla
 stróúlacht
 stróúlachta
+strúisín
+strúisíní
 stua
 stuabhealach
 stuabhealaigh
@@ -98623,6 +98723,7 @@ tafann/US
 tafata/US
 tAfganastánach
 tAfra-Bhrasaíleach
+tAfra-Chairibeach
 tAfracach
 tAfracánach
 tAfrai-Mheiriceánach
@@ -98733,6 +98834,12 @@ taibhsí/SU
 taibhsím/USC
 tAibisíneach
 tAibreán
+taicil/US
+taicilí/US
+taicleáil/US
+taicleáilte/S
+taicleála/US
+taicleálaim/USI
 Taidhg/S
 taidhiúir/S
 taidhiúire/S
@@ -99841,6 +99948,8 @@ tearcionadaithe/S
 tearcithir/US
 tearcithreach/US
 tearcithreacha/US
+tearcmhaoinithe/SU
+tearcmhaoiniú/US
 tearcmhúinte/S
 tearcú/US
 tearcúsáidte/S
@@ -100387,6 +100496,8 @@ thaibhrí/U
 thaibhrínn/FU
 thaibhsí/U
 thaibhsínn/FU
+thaicleála/U
+thaicleálainn/JU
 thaifeada/U
 thaifeadainn/EU
 thaifí/U
@@ -101967,6 +102078,8 @@ tonnbhriste/US
 tonnbhrád/US
 tonnbhráid/US
 tonnbhráide/US
+tonnchláir/US
+tonnchlár/US
 tonnchoisc/US
 tonnchosc/US
 tonnchoscanna/US
@@ -104505,6 +104618,7 @@ tÉimineach
 tÉireannach
 tÉireannachas
 tÉirimeacht
+tÍogbóch
 tÍosa
 tÍoslannach
 tÍosánach
@@ -107027,12 +107141,22 @@ yen
 yenanna
 yóyó
 yóyónna
+zaipeáil
+zaipeáilte
+zaipeála
+zaipeálaim/I
+zaipeálainn/J
 zaipire
 zaipirí
 Zarmais
 Zarmaise
+zip
 zipchomhad
 zipchomhaid
+zipdhúntóir
+zipdhúntóirí
+zipdhúntóra
+zipeanna
 zipeáil
 zipeáilte
 zipeála
@@ -107134,6 +107258,10 @@ zúnna
 Éirinn
 Éirne
 Éisc
+Íogbóch
+Íogbócha
+Íogbóiche
+Íogbóigh
 Íogbóis
 Íogbóise
 Íosa
@@ -108236,10 +108364,13 @@ zúnna
 éignithe/HBMDU
 éigniú/HMDBUT
 éigní/BU
+éigníche/B
 éignídís/HU
 éignígí/HU
 éigním/UC
 éignínn/F
+éigníoch/HB
+éigníocha/B
 éigníodh/HU
 éignítear/HU
 éigrinn/HB

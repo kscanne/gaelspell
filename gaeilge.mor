@@ -11027,6 +11027,7 @@ carraigeach/US
 carraigheas/US
 carraighis/US
 carraigreacha/US
+carrannaí/US
 carraoin
 carraí/US
 carraíocht/US
@@ -11869,6 +11870,7 @@ ceiste/US
 ceisteachán
 ceisteana/US
 ceisteann/US
+ceisteannaí/US
 ceisteoir/US
 ceisteoireacht
 ceisteoirí/US
@@ -14019,6 +14021,7 @@ clathacha/US
 Claudius
 Clauidias
 claínn/US
+claíochaí/US
 claíochtaint
 claíodóir
 claíodóireacht
@@ -16783,6 +16786,8 @@ costéifeachtach/S
 costéifeachtacha/S
 costéifeachtaigh/S
 costéifeachtaí/S
+costéifeachtúlacht/US
+costéifeachtúlachta/US
 cosónadh/US
 cosúil
 cosúilt
@@ -23092,8 +23097,11 @@ diomachroidheach
 diomadh
 diomaibhseacht
 diomaidhbhse
-diomaidhbhseach
+diomaidhbhseach/S
+diomaidhbhseacha/S
 diomaidhbhseacht
+diomaidhbhsigh/S
+diomaidhbhsí/S
 diomail
 diomaileacht
 diomal
@@ -23605,6 +23613,7 @@ dobheurad-sa
 dobheuradh
 dobheurfas
 dobheurthar
+dobhraite/S
 dobhraiteacht/US
 dobhraiteachta/US
 dobhramán
@@ -28297,6 +28306,7 @@ fadhartha
 fadhastar
 fadhastrach
 fadhbadh
+fadhbannaí/MDBUS
 fadhbaí
 fadhbh/MDBUS
 fadhbha/MDBUS
@@ -33395,6 +33405,8 @@ físdhioscaí/MDBUS
 físe/MDBUS
 físeanna/MDBUS
 físte
+fíteasláintíocht/MDBUS
+fíteasláintíochta/MDUS
 fítheal
 fíuntach
 fó
@@ -38103,6 +38115,8 @@ hEachach
 heachtaibh
 heachtáir
 heachtár
+heacnaithe
+heacnaí
 hEadáil
 hEadáile
 hEadáin
@@ -38992,6 +39006,8 @@ ileastram
 ileáin/HMDBU
 ileán/HMDBUT
 ileólacha
+ilfhónacht/HMDBU
+ilfhónachta/HMDU
 iliaca
 iliteach/HB
 iliteacha/B
@@ -44724,6 +44740,8 @@ macnasachta/S
 macnasúil/S
 macnasúla/S
 macra/S
+macra-airgeadais/S
+macra-airgeadas/S
 macraeil/S
 macrael/S
 macraidh
@@ -52255,6 +52273,7 @@ postaeir/US
 postaeirí/US
 postaer/US
 postanna/US
+postannaí/US
 postaí/US
 postdhíol/US
 postdhíola/US
@@ -53531,6 +53550,7 @@ rangabháil
 rangacht
 rangadar
 rangaire
+rangannaí
 rangartach
 rangatar
 rangattar
@@ -53915,6 +53935,7 @@ rial
 riala
 rialachais
 rialachas
+rialachaí
 rialadh
 rialaitheoir
 rialaí
@@ -55129,6 +55150,8 @@ ríogúlacht
 ríolach
 ríomhadh
 ríomhaigh
+ríomhairgead
+ríomhairgid
 ríomhaithe
 ríomhaí
 ríomhaím/C
@@ -55160,6 +55183,7 @@ ró-ard-inntinneach
 ró-bhaodhach
 ró-bhaoghal
 ró-bhaoghalach
+ró-bheag
 ró-bheannuighthe
 ró-bhreágh
 ró-bhreóite
@@ -55181,6 +55205,7 @@ ró-dhásachtacha
 ró-dhéidheannach
 ró-dhéidhnach
 ró-eólgach
+ró-fhada
 ró-fheileamhnach
 ró-fhollusach
 ró-Ghaedhealach
@@ -55196,6 +55221,8 @@ ró-lagbhrígheach
 ró-leóchailleach
 ró-liobarsach
 ró-lághach
+ró-mhaith
+ró-mhaithe
 ró-mhuinghineach
 ró-obainn
 ró-obainne
@@ -55206,6 +55233,7 @@ ró-riachtanacha
 ró-ropannta
 ró-sgioptha
 ró-shocamhlach
+ró-shásta
 ró-thaithneamhach
 ró-thrócuireach
 ró-uaibh-reach
@@ -57065,6 +57093,7 @@ scoibleach
 scoid
 scoil
 scoileana
+scoileannaí
 scoilibh
 scoilteacha
 scoilteog
@@ -57592,6 +57621,7 @@ scéidheann
 scéidhim/A
 scéidhinn/E
 scéidhte
+scéimeannaí
 scéimeáil
 scéimhe
 scéimheach
@@ -60109,6 +60139,8 @@ slosaíocht
 slotharaim/ST
 slotharam/S
 sluach
+sluachistiúcháin/ST
+sluachistiúchán/S
 sluacht
 sluachtach
 sluadh/S
@@ -63251,6 +63283,7 @@ stánairí
 stánmhar
 stánta
 stápal
+stáplacha
 stáraithe
 stáraí
 stárthacha
@@ -65273,6 +65306,8 @@ taraibhse
 taraic/US
 taraicthe/S
 taraicím/USC
+taraif-chuóta/US
+taraif-chuótaí/US
 taraig/US
 taraing/US
 tarainge
@@ -65584,6 +65619,7 @@ teagmhálach
 teagosc
 teagosca/US
 teagtha
+teagthaí/S
 teaguisg/US
 teagusg/US
 teainc

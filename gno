@@ -7,6 +7,7 @@ Acrobat
 Adaptxt
 Adidas
 Adobe
+Adriatica
 Advertiser
 AerachAiteachGaelach
 Aeroflot
@@ -108,6 +109,7 @@ Caldera
 CalMac
 Cambus
 Cambus-Freudenberg
+Caremar
 Caritas
 Carlsberg
 Carrefour
@@ -155,6 +157,7 @@ Costco
 Crimestoppers
 Crosscare
 Crossways
+Cruinneog
 Cuilfeach
 Cybergael
 Daimler
@@ -219,11 +222,14 @@ Etihad
 Etsy
 Eudora
 Euratom
+Eurodac
 Eurodyssey
 Euroflex
+Eurofound
 Eurojust
 Eurolang
 EuroMillions
+Euronews
 Europa
 Europass
 Europol
@@ -281,6 +287,7 @@ GaelGoer
 GaelGram
 GaelGÁIRÍ
 Gaelingo
+Gaelmedia
 Gaeloiliúint
 Gaelport
 Gaelscript
@@ -369,6 +376,7 @@ Intergaelic
 Interpol
 Interreg
 Intreo
+InvestEU
 Iomairt
 iOS
 iPad
@@ -584,8 +592,11 @@ Pokémon
 Polldaddy
 Pontiac
 Poolbeg
+Pootle
 Pop-Up
 PopNuacht
+Porsche
+PostNord
 PowerPoint
 Pramerica
 Pravda
@@ -638,6 +649,7 @@ Samba
 Samsung
 Santander
 Saorview
+Saremar
 Scarlets
 Scoilnet
 Scrabble
@@ -657,6 +669,7 @@ Sháirséal
 Siemens
 Signal
 Sindo
+Siremar
 Siri
 Skainos
 Skillnet
@@ -692,6 +705,7 @@ Steidl
 Stobart
 Strava
 Stryker
+Subaru
 Subhóró
 Suisse
 Sundance
@@ -731,10 +745,12 @@ TikTok
 Timberland
 Timoney
 Tirlán
+Tirrenia
 Titanic
 Tocco
 Topshop
 Topthorn
+Toremar
 Toshiba
 Touche
 Toyota
@@ -747,6 +763,7 @@ TrueType
 TríSpórt
 Tumblr
 TuneIn
+Tusla
 Twibbon
 Twistables
 Twitter
@@ -768,6 +785,7 @@ Viber
 Vifax
 Vim
 Vimeo
+Vine
 Virgin
 Visa
 Vista
@@ -809,6 +827,7 @@ Xinlian
 Xposé
 Yahoo
 Yale
+Yandex
 Yelp
 Youthreach
 YouTube

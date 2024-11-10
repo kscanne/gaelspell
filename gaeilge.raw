@@ -706,6 +706,8 @@ aerfótagrafaíocht/HMDBU
 aerfótagrafaíochta/HMDU
 aerfótagraif/HMDBU
 aerga/HB
+aerghrianghraf/HMDBUT
+aerghrianghraif/HMDBU
 aerghunna/HMDBUT
 aerghunnaí/HMDBU
 aeriompair/HMDU
@@ -3371,6 +3373,7 @@ amhsaine/HMDBU
 amhsaí/B
 amhscarthanach/HMDBU
 amhscarthanaí/HMDU
+amhshíoda/HMDBUT
 amhsáin/HMDBU
 amhsán/HMDBUT
 amhtais/HMDBU
@@ -6977,6 +6980,8 @@ athchluiche/HMDBUT
 athchluichí/HMDBU
 athchláraithe/HMDU
 athchlárú/HMDBUT
+athchléireach/HMDBUT
+athchléirigh/HMDBU
 athchló/HMDBUT
 athchlóite/HB
 athchlónna/HMDBU
@@ -16144,6 +16149,8 @@ bóithrín/US
 bóithríní/US
 bólacht/US
 bólachta/US
+bólaiméadair/US
+bólaiméadar/US
 bólaí/US
 bóleathóg/US
 bóleathóga/US
@@ -17238,6 +17245,8 @@ camchuairteacha/S
 camchuairteanna/US
 camchuairtigh/S
 camchuairtí/S
+camchuartaíocht/US
+camchuartaíochta/US
 Camchéachta/S
 camfair/US
 camfar/US
@@ -22441,6 +22450,7 @@ codaisíl/US
 codaisíle/US
 codaisíleacha/US
 codaithe/US
+codalta/S
 codam/US
 codanna/US
 codarsnach/S
@@ -23619,6 +23629,9 @@ comhbhuailte/S
 comhbhuainteoir/US
 comhbhuainteoirí/US
 comhbhuainteora/US
+comhbhuaiteoir/US
+comhbhuaiteoirí/US
+comhbhuaiteora/US
 comhbhualadh/US
 comhbhualta/US
 comhbhuanna/US
@@ -25610,6 +25623,8 @@ cosúlaím/USC
 cosúlú/US
 cotadh/US
 cotaidh/US
+cotailéadóin/US
+cotailéadón/US
 cothabháil/US
 cothabhála/US
 cothabhálach/S
@@ -26227,6 +26242,8 @@ criosú/US
 criothóg/US
 criothóga/US
 criothóige/US
+criptea-airgeadra/US
+criptea-airgeadraí/US
 cripteagrafaíocht/US
 cripteagrafaíochta/US
 cripteaspóiridiam/US
@@ -26274,6 +26291,12 @@ critéarthagartha/S
 critéir/US
 criáin/US
 crián/US
+crióigineach/S
+crióigineacha/S
+crióiginic/US
+crióiginice/US
+crióiginigh/S
+crióiginí/S
 crióil/US
 criól/US
 criú/US
@@ -35146,6 +35169,7 @@ dodhéanta/S
 dodhéantacht/US
 dodhéantachta/US
 dodhíleáite/S
+dodhíochlaonta/S
 dodhíolta/S
 dodhíothaithe/S
 dodhóite/S
@@ -38554,6 +38578,8 @@ díroghnaigh/US
 díroghnaithe/SU
 díroghnaím/USC
 díroghnú/US
+dírshleachta/US
+dírshliocht/US
 dírshliochtach/US
 dírshliochtaigh/US
 díréimeach/S
@@ -46525,6 +46551,7 @@ féinfhreastail/MDUS
 féinfhreastal/MDBUS
 féinfhuath/MDBUS
 féinfhuatha/MDUS
+féinghafa/BS
 féinghluaiste/BS
 féinghortaithe/MDUS
 féinghortú/MDBUS
@@ -61156,6 +61183,12 @@ leictreamaighnéadais
 leictreamaighnéadas
 leictreamaighnéadaí
 leictreamaighnéid
+leictreamharaigh
+leictreamharaithe
+leictreamharaí
+leictreamharaím/C
+leictreamharaínn/F
+leictreamharú
 leictreaphlátáil
 leictreaphlátáilte
 leictreaphlátála
@@ -63222,6 +63255,8 @@ lámhachóirí
 lámhachóra
 lámhacáin
 lámhacán
+lámhacánaithe
+lámhacánaí
 lámhadóir
 lámhadóireacht
 lámhadóireachta
@@ -65732,6 +65767,8 @@ mais-speictriméadar/S
 maisc/S
 maise/S
 maiseanna/S
+maiseite/S
+maiseití/S
 maisigh/S
 maisithe/S
 maisitheoir/S
@@ -65916,6 +65953,8 @@ mam/S
 mamach/S
 mamacha/S
 mamagraf/S
+mamagrafaíocht/S
+mamagrafaíochta/S
 mamagraif/S
 mamagraim/S
 mamagram/S
@@ -67710,6 +67749,8 @@ meánaíocht/S
 meánaíochta/S
 meánbhainistíocht/S
 meánbhainistíochta/S
+meánchaighdeáin/S
+meánchaighdeán/S
 meáncheannaithe/S
 meáncheannaí/S
 meánchiorcail/S
@@ -68247,6 +68288,8 @@ micreascópacht/S
 micreascópachta/S
 micreascópaigh/S
 micreascópaí/S
+micreashnáithín/S
+micreashnáithíní/S
 micreashoicind/S
 micreashoicindí/S
 micreathoinne/S
@@ -94624,6 +94667,8 @@ sprae-channaí
 spraeanna
 spraeire
 spraeirí
+spraephéinteáil
+spraephéinteála
 spraeáil
 spraeáilte
 spraeála
@@ -94801,6 +94846,8 @@ spriongar
 spriongaí
 spriongaím/C
 spriongaínn/F
+spriongboc
+spriongboic
 spriongmheá
 spriongmheánna
 spriongú
@@ -107345,6 +107392,8 @@ zón
 zónáil
 zónáilte
 zónála
+zónóis
+zónóise
 zú
 zúm
 zúmáil
